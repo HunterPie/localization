@@ -30,7 +30,7 @@ jobs:
           out_dir: localization
 
       - name: Update deployment status 
-        uses: chrnorm/deployment-action@releases/v1
+        uses: chrnorm/deployment-status@releases/v1
         if: success()
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
