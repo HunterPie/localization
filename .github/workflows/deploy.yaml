@@ -20,7 +20,7 @@ jobs:
           environment: production
 
       - name: Deploy
-        uses: shallwefootball/s3-upload-action@master
+        uses: BetaHuhn/do-spaces-action@v2
         with:
           access_key: ${{ secrets.AWS_ACCESS_KEY }}
           secret_key: ${{ secrets.AWS_SECRET_KEY }}
