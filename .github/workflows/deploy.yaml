@@ -8,19 +8,19 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      - uses: actions/checkout@v2
       - name: Checkout
+        uses: actions/checkout@v2
 
-      - uses: chrnorm/deployment-action@releases/v1
-        name: Create deployment
+      - name: Create deployment
+        uses: chrnorm/deployment-action@releases/v1
         id: create_deploy
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           description: Production
           environment: production
 
-      - uses: shallwefootball/s3-upload-action@master
-        name: Deploy
+      - name: Deploy
+        uses: shallwefootball/s3-upload-action@master
         with:
           access_key: ${{ secrets.AWS_ACCESS_KEY }}
           secret_key: ${{ secrets.AWS_SECRET_KEY }}
@@ -28,8 +28,8 @@ jobs:
           space_region: ${{ secrets.BUCKET_REGION }}
           source: localization
 
-      - uses: chrnorm/deployement-action@releases/v1 
-        name: Update deployment status
+      - name: Update deployment status 
+        uses: chrnorm/deployement-action@releases/v1
         if: success()
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
