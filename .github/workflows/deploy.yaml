@@ -27,6 +27,7 @@ jobs:
           space_name: ${{ secrets.BUCKET_NAME }}
           space_region: ${{ secrets.BUCKET_REGION }}
           source: localization
+          out_dir: localization
 
       - name: Update deployment status 
         uses: chrnorm/deployment-action@releases/v1
