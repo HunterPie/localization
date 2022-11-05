@@ -1,0 +1,38 @@
+name: 'Localization deploy'
+on:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v2
+      - name: Checkout
+
+      - uses: chrnorm/deployment-action@releases/v1
+        name: Create deployment
+        id: create_deploy
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          description: Production
+          environment: production
+
+      - uses: shallwefootball/s3-upload-action@master
+        name: Deploy
+        with:
+          access_key: ${{ secrets.AWS_ACCESS_KEY }}
+          secret_key: ${{ secrets.AWS_SECRET_KEY }}
+          space_name: ${{ secrets.BUCKET_NAME }}
+          space_region: ${{ secrets.BUCKET_REGION }}
+          source: localization
+
+      - uses: chrnorm/deployement-action@releases/v1 
+        name: Update deployment status
+        if: success()
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          state: 'success'
+          deployment_id: ${{ steps.create_deploy.outputs.deployment_id }}
+        
