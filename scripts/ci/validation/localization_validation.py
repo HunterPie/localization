@@ -12,7 +12,7 @@ class LocalizationPipeline:
         self.files = files
 
     def filter_localizations(self) -> Self:
-        self.files = [file for file in self.files if "Languages" in file and file.endswith(".xml")]
+        self.files = [file for file in self.files if "localization" in file and file.endswith(".xml")]
         return self
 
     def validate_files(self) -> Self:
