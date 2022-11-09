@@ -153,6 +153,9 @@
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_POISON" String="독"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="맹독"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="기절"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="수면"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="마비"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="방어력 DOWN"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="모든 내성 DOWN"/>
         <Abnormality Id="ABNORMALITY_STENCH" String="일부 아이템 사용 불가 상태"/>
@@ -574,9 +577,9 @@
         </Generics>
         <Dialogs>
             <Dialog Id="UPDATE_TITLE_STRING"
-                     String="업데이트"/>
+                    String="업데이트"/>
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
-                     String="v{Latest} 버전을 사용할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
+                    String="v{Latest} 버전을 사용할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
             <Dialog Id="CONFIRMATION_TITLE_STRING"
                     String="확인"/>
             <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
@@ -585,11 +588,11 @@
                     String="HunterPie를 종료할까요?"/>
 
             <Button Id="ACCEPT_STRING"
-                  String="네"/>
+                    String="네"/>
             <Button Id="REJECT_STRING"
-                  String="아니오"/>
+                    String="아니오"/>
             <Button Id="CANCEL_STRING"
-                  String="취소"/>
+                    String="취소"/>
         </Dialogs>
         <Integrations>
             <!-- Shared between games -->
@@ -670,28 +673,28 @@
         </Integrations>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
-                   String="짧은 시간 순"/>
-             <Enum Id="SORT_BY_HIGHEST_TIMER_STRING"
-                   String="긴 시간 순"/>
-             <Enum Id="SORT_BY_DISABLED_STRING"
-                   String="정렬 안함"/>
+                  String="짧은 시간 순"/>
+            <Enum Id="SORT_BY_HIGHEST_TIMER_STRING"
+                  String="긴 시간 순"/>
+            <Enum Id="SORT_BY_DISABLED_STRING"
+                  String="정렬 안함"/>
 
-             <Enum Id="ORIENTATION_HORIZONTAL_STRING"
-                   String="가로"/>
-             <Enum Id="ORIENTATION_VERTICAL_STRING"
-                   String="세로"/>
+            <Enum Id="ORIENTATION_HORIZONTAL_STRING"
+                  String="가로"/>
+            <Enum Id="ORIENTATION_VERTICAL_STRING"
+                  String="세로"/>
 
             <Enum Id="RELATIVE_TO_QUEST_STRING"
                   String="퀘스트 기준"/>
             <Enum Id="RELATIVE_TO_JOIN_STRING"
                   String="참가 기준"/>
             <Enum Id="RELATIVE_TO_FIRST_HIT_STRING"
-                   String="첫 타격 기준"/>
+                  String="첫 타격 기준"/>
 
-             <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
-                   String="총 대미지"/>
-             <Enum Id="PLOT_DPS_STRING"
-                   String="초당 대미지"/>
+            <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
+                  String="총 대미지"/>
+            <Enum Id="PLOT_DPS_STRING"
+                  String="초당 대미지"/>
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -716,8 +719,8 @@
                      String="동반자 활동 위젯"
                      Description="동반자 활동 위젯 설정"/>
             <Setting Id="METER_WIDGET_STRING"
-                      String="대미지 미터 위젯"
-                      Description="대미지 미터 위젯 설정"/>
+                     String="대미지 미터 위젯"
+                     Description="대미지 미터 위젯 설정"/>
             <Setting Id="CHAT_WIDGET_STRING"
                      String="채팅 위젯"
                      Description="채팅 위젯 설정"/>
@@ -775,8 +778,8 @@
                      String="종료 시 확인 비활성화"
                      Description="옵션 활성화 시, HunterPie 종료 시 동의 여부를 묻지 않습니다."/>
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
-                      String="고유 모듈 활성화 (설명을 자세히 읽어주세요)"
-                      Description="옵션 활성화 시, HunterPie가 몇몇 기능을 활성화하기 위해 게임을 패치합니다 (예. 탐색 중의 대미지 미터).&#10;[Stracker's Loader]와 [Performance Booster and Plugin Extender](CRCBypass) 모드를 설치하지 않은 경우 이 옵션을 사용하면 플레이 중 게임이 비정상 종료될 수 있습니다.&#10;적용하려면 게임을 다시 시작해야 합니다."/>
+                     String="고유 모듈 활성화 (설명을 자세히 읽어주세요)"
+                     Description="옵션 활성화 시, HunterPie가 몇몇 기능을 활성화하기 위해 게임을 패치합니다 (예. 탐색 중의 대미지 미터).&#10;[Stracker's Loader]와 [Performance Booster and Plugin Extender](CRCBypass) 모드를 설치하지 않은 경우 이 옵션을 사용하면 플레이 중 게임이 비정상 종료될 수 있습니다.&#10;적용하려면 게임을 다시 시작해야 합니다."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="게임 종료 시 닫기"
                      Description="옵션 활성화 시, 게임이 종료되면 HunterPie를 자동으로 닫습니다."/>
@@ -903,35 +906,35 @@
                      Description="옵션 활성화 시, HunterPie가 복부엉의 둥지의 정보를 표시합니다."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
-                      String="자신 강조하기"
-                      Description="옵션 활성화 시, 다른 플레이어들에게서 당신의 이름이 강조됩니다."/>
+                     String="자신 강조하기"
+                     Description="옵션 활성화 시, 다른 플레이어들에게서 당신의 이름이 강조됩니다."/>
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES"
-                      String="이름 흐릿하게 표시"
-                      Description="옵션 활성화 시, 미터기에서 모두의 이름이 흐릿해집니다."/>
+                     String="이름 흐릿하게 표시"
+                     Description="옵션 활성화 시, 미터기에서 모두의 이름이 흐릿해집니다."/>
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
-                      String="대미지 그래프 표시"
-                      Description="옵션 활성화 시, 대미지 그래프가 표시됩니다."/>
+                     String="대미지 그래프 표시"
+                     Description="옵션 활성화 시, 대미지 그래프가 표시됩니다."/>
             <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
                      String="DPS 계산 방법"
                      Description="초당 대미지를 계산하는데 사용할 방법을 결정합니다.&#x0a;- 퀘스트 기준: 퀘스트 경과 시간을 기준으로 계산&#x0a;- 참여 기준: 플레이어가 파티에 참여한 시간을 기준으로 계산&#x0a;- 첫 타격 기준: 몬스터를 처음으로 타격한 시간을 기준으로 계산"/>
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
-                      String="대미지 표시 방법"
-                      Description="그래프에 표시할 대미지를 결정합니다.&#x0a;- 초당 대미지: DPS가 그래프로 표시됩니다&#x0a;- 총 대미지: 총 대미지가 그래프로 표시됩니다"/>
+                     String="대미지 표시 방법"
+                     Description="그래프에 표시할 대미지를 결정합니다.&#x0a;- 초당 대미지: DPS가 그래프로 표시됩니다&#x0a;- 총 대미지: 총 대미지가 그래프로 표시됩니다"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
-                      String="나의 색상"
-                      Description="대미지 미터에서 당신의 플레이어의 색상입니다."/>
+                     String="나의 색상"
+                     Description="대미지 미터에서 당신의 플레이어의 색상입니다."/>
             <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
-                      String="파티 리더 색상"
-                      Description="대미지 미터에서 파티 리더의 색상입니다."/>
+                     String="파티 리더 색상"
+                     Description="대미지 미터에서 파티 리더의 색상입니다."/>
             <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
-                      String="두번째 플레이어 색상"
-                      Description="대미지 미터에서 두번째 플레이어의 색상입니다."/>
+                     String="두번째 플레이어 색상"
+                     Description="대미지 미터에서 두번째 플레이어의 색상입니다."/>
             <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
-                      String="세번째 플레이어 색상"
-                      Description="대미지 미터에서 세번째 플레이어의 색상입니다."/>
+                     String="세번째 플레이어 색상"
+                     Description="대미지 미터에서 세번째 플레이어의 색상입니다."/>
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
-                      String="네번째 플레이어 색상"
-                      Description="대미지 미터에서 네번째 플레이어의 색상입니다."/>
+                     String="네번째 플레이어 색상"
+                     Description="대미지 미터에서 네번째 플레이어의 색상입니다."/>
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="동반자 대미지 표시"
                      Description="옵션 활성화 시, HunterPie가 동반자의 대미지를 표시합니다."/>
