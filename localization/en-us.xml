@@ -153,6 +153,9 @@
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Poison"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Venom"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="Stun"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="Sleep"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="Paralysis"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Defense Down"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="Resistance Down"/>
         <Abnormality Id="ABNORMALITY_STENCH" String="Stench"/>
