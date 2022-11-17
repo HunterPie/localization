@@ -812,6 +812,12 @@
                      String="Show target monster health"
                      Description="If enabled, HunterPie will display the target monster's health in your Discord status when available."/>
 
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Hot Key] Toggle overlay"
+                     Description="Hot Key to toggle the overlay on and off."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Enable overlay"
+                     Description="If enabled, HunterPie will display the overlay.&#10;NOTE: This setting does not override the setting to disable individual widgets."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Toggle Design Mode"
                      Description="Hot Key to toggle design mode on and off."/>
