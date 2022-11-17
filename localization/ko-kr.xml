@@ -815,6 +815,12 @@
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[단축키] 디자인 모드 전환"
                      Description="디자인 모드를 On/Off 할 수 있는 단축키입니다."/>
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[단축키] 오버레이 표시 전환"
+                     Description="오버레이를 On/Off 할 수 있는 단축키입니다."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="오버레이 활성화"
+                     Description="옵션 활성화 시, HunterPie가 오버레이를 표시합니다.&#10;참고: 이 설정은 개별 위젯의 사용 설정보다 우선되지 않습니다."/>
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="게임 비활성화 시 위젯 숨기기"
                      Description="옵션 활성화 시, 게임이 백그라운드 상태일 때 모든 위젯을 자동으로 숨깁니다."/>
