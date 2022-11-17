@@ -540,7 +540,7 @@
                     String="Outcome:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
-			
+            
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Kamura Nest: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
@@ -727,6 +727,9 @@
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="Specialized Tool Widget"
                      Description="Specialized Tool Widget configurations"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="Player Hud Widget"
+                     Description="Player Hud Widget configurations"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="Dev Tools"
                      Description="Advanced development tools"/>
@@ -809,6 +812,12 @@
                      String="Show target monster health"
                      Description="If enabled, HunterPie will display the target monster's health in your Discord status when available."/>
 
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Hot Key] Toggle overlay"
+                     Description="Hot Key to toggle the overlay on and off."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Enable overlay"
+                     Description="If enabled, HunterPie will display the overlay.&#10;NOTE: This setting does not override the setting to disable individual widgets."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Toggle Design Mode"
                      Description="Hot Key to toggle design mode on and off."/>

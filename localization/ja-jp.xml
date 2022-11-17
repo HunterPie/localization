@@ -1,10 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-
+<Strings lang="Japanese">
 <!--Translated by elappale#4205
 ・If you see any mistakes in the translation or would like to submit your own, by all means join the HunterPie Discord and we can chat about it!
 ・翻訳ミスがある場合、もしくは新しく翻訳ファイルを提出する場合は、HunterPieのDiscord鯖へお越しください。#translationsチャンネル、もしくはDMにてお待ちしております！-->
-
-<Strings lang="Japanese">
 	<Ailments>
 		<Rise>
 			<Ailment Id="AILMENT_UNKNOWN" String="不明"/>
@@ -34,6 +32,7 @@
 			<Ailment Id="AILMENT_CLAWFLINCH" String="よろけ怯み"/>
 			<Ailment Id="AILMENT_BANISHINGBALL" String="退散玉"/>
 			<Ailment Id="STATUS_ENRAGE" String="怒り"/>
+			<Ailment Id="STATUS_STEELFANG" String="ガルグ牙"/>
 		</Rise>
 	</Ailments>
 	<Abnormalities>
@@ -58,16 +57,16 @@
 		<Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="聴覚保護【大】"/>
 		<Abnormality Id="ABNORMALITY_TREMORS_NEG" String="振動無効"/>
 		<Abnormality Id="ABNORMALITY_DEEP_RESISTANCE" String="泥軽減&amp;水場・深雪適応"/>
-		<Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="火属性防御強化UP"/>
-		<Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="火属性防御強化UP【大】"/>
-		<Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="水属性防御強化UP"/>
-		<Abnormality Id="ABNORMALITY_WATER_RESISTANCE_L" String="水属性防御強化UP【大】"/>
-		<Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE" String="雷属性防御強化UP"/>
-		<Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE_L" String="雷属性防御強化UP【大】"/>
-		<Abnormality Id="ABNORMALITY_ICE_RESISTANCE" String="氷属性防御強化UP"/>
-		<Abnormality Id="ABNORMALITY_ICE_RESISTANCE_L" String="氷属性防御強化UP【大】"/>
-		<Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="龍属性防御強化UP"/>
-		<Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="龍属性防御強化UP【大】"/>
+		<Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="火属性防御強化"/>
+		<Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="火属性防御強化【大】"/>
+		<Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="水属性防御強化"/>
+		<Abnormality Id="ABNORMALITY_WATER_RESISTANCE_L" String="水属性防御強化【大】"/>
+		<Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE" String="雷属性防御強化"/>
+		<Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE_L" String="雷属性防御強化【大】"/>
+		<Abnormality Id="ABNORMALITY_ICE_RESISTANCE" String="氷属性防御強化"/>
+		<Abnormality Id="ABNORMALITY_ICE_RESISTANCE_L" String="氷属性防御強化【大】"/>
+		<Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="龍属性防御強化"/>
+		<Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="龍属性防御強化【大】"/>
 		<Abnormality Id="ABNORMALITY_ALL_RES_UP" String="全属性耐性値UP"/>
 		<Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="風圧無効"/>
 		<Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風圧完全無効"/>
@@ -85,12 +84,12 @@
 		<Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="スタミナ減少軽減【大】"/>
 		<Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="スタミナ回復速度UP"/>
 		<Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="切れ味消費軽減"/>
+		<Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="切れ味継続回復"/>
 		<Abnormality Id="ABNORMALITY_ENV_NEG" String="地形ダメージ無効"/>
 		<Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="音の防壁"/>
 		<Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="気炎の旋律"/>
 		<Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="自分強化【速】&amp;回避性能UP"/>
 		<Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="属性系効果UP"/>
-       	<Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="切れ味継続回復"/>
 
 		<Abnormality Id="ABNORMALITY_RESUSCITATE" String="災禍転福"/>
 		<Abnormality Id="ABNORMALITY_WINDPROOF" String="風圧無効"/>
@@ -157,6 +156,9 @@
 		<Abnormality Id="ABNORMALITY_BLOOD" String="劫血やられ"/>
 		<Abnormality Id="ABNORMALITY_POISON" String="毒"/>
 		<Abnormality Id="ABNORMALITY_VENOM" String="猛毒"/>
+		<Abnormality Id="ABNORMALITY_STUN" String="気絶"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="睡眠"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="麻痺"/>
 		<Abnormality Id="ABNORMALITY_DEF_DOWN" String="防御力DOWN"/>
 		<Abnormality Id="ABNORMALITY_RES_DOWN" String="全耐性DOWN"/>
 		<Abnormality Id="ABNORMALITY_STENCH" String="アイテム使用不可"/>
@@ -222,7 +224,7 @@
 			<Part Id="PART_R_FORELEG" String="右前脚"/>
 			<Part Id="PART_L_H_LEG" String="左後脚"/>
 			<Part Id="PART_R_H_LEG" String="右後脚"/>
-			<Part Id="PART_CHEST" String="腹部"/>
+			<Part Id="PART_ABDOMEN" String="腹部"/>
 			<Part Id="PART_CHEST" String="胸"/>
 			<Part Id="PART_TAIL_TIP" String="尻尾先"/>
 			<Part Id="PART_MUD_BALL" String="泥団子"/>
@@ -308,7 +310,7 @@
 			<Part Id="PART_BODY_LEGS" String="後脚(岩)"/>
 			<Part Id="PART_ANTLERS" String="枝角"/>
 			<Part Id="PART_MANE" String="たてがみ"/>
-			<Part Id="PART_QURIO_THRESHOLD" String="傀異鈍化"/>
+			<Part Id="PART_QURIO_THRESHOLD" String="傀異凶化鎮静化"/>
 		</Shared>
 		<Rise>
 			<Monster Id="0" String="リオレイア"/>
@@ -460,6 +462,7 @@
 	</Monsters>
 	<Stages>
 		<Rise>
+            <Stage Id="-2" String="ロード画面"/>
 			<Stage Id="-1" String="タイトル画面"/>
 			<Stage Id="0" String="カムラの里"/>
 			<Stage Id="1" String="自宅"/>
@@ -481,7 +484,6 @@
 			<Stage Id="210" String="闘技場"/>
 			<Stage Id="211" String="竜宮砦跡"/>
 			<Stage Id="212" String="密林"/>
-			<Stage Id="222" String="闘技場"/>
 			<Stage Id="213" String="城塞高地"/>
 			<Stage Id="214" String="塔の秘境"/>
 			<Stage Id="215" String="淵劫の奈落"/>
@@ -572,8 +574,8 @@
 					 String="お使いのHunterPieは最新バージョンではありません。"/>
 			<Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
 					 String="メニュー切り替え："/>
-			<Generic Id="REQUIRES_RESTART_STRING"
-                     String="(再起動が必要です)"/>
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="(再起動が必要)"/>
 		</Generics>
 		<Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -616,7 +618,7 @@
 
 			<!-- Rise -->
 			<Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
-					 String="{Character} | HR: {HighRank}"/>
+					 String="{Character} | HR: {HighRank} | MR: {MasterRank}"/>
 			<Discord Id="DRPC_RISE_STATE_PRACTICE"
 					 String="修練中"/>
 			<Discord Id="DRPC_RISE_STATE_RAMPAGE"
@@ -652,14 +654,14 @@
             <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE"
                     String="ファイルが大きすぎます。3.5 MB 未満のファイルを選択してください。"/>
 			<Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE"
-                    String="確認コードが正しくない、もしくはタイムアウトしました。"/>
+                    String="パスワードリセットコードが有効でないか、有効期限が切れています。"/>
 			<Poogie Id="ERROR_GENERIC"
-                    String="問題が発生しました。数分後にもう一度お試しください。"/>
+                    String="例外的エラーが発生しています。数分後にリトライしてください。"/>
 
             <Poogie Id="LOGIN_SUCCESS"
                     String="おかえりなさい、{Username}。ログインに成功しました。"/>
             <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
-                    String="{Email} にアカウント認証メールを送信しました。受信トレイをご確認ください。迷惑メールなどに振り分けられてしまう可能性もあります。"/>
+                    String="{Email}にアカウント認証メールを送信しました。受信トレイをご確認ください。迷惑メールなどに振り分けられてしまう可能性もあります。"/>
             <Poogie Id="AVATAR_UPLOAD_SUCCESS"
                     String="プロフィール画像が変更されました。"/>
 
@@ -668,9 +670,9 @@
 			<Poogie Id="BACKUP_NOT_FOUND_STRING"
                     String="使用可能なバックアップがありません。"/>
 			<Poogie Id="PASSWORD_RESET_EMAIL_STRING"
-                    String="パスワードリセット確認用メールを {Email} に送信しました。"/>
+                    String="アカウントパスワードの変更に必要なコードが記載されたメールが{Email}に送信されました。"/>
 			<Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
-                    String="パスワードを更新しました。"/>
+                    String="パスワードの変更に成功しました。"/>
 		</Integrations>
 		<Enums>
 			<Enum Id="SORT_BY_LOWEST_TIMER_STRING"
@@ -732,8 +734,8 @@
 					 String="開発者ツール"
 					 Description="開発用のツール"/>
 			<Setting Id="ACCOUNT_STRING"
-                     String="アカウント"
-                     Description="アカウント設定"/>
+					 String="アカウント"
+					 Description="アカウント設定"/>
 
 			<Setting Id="ABNORMALITY_SONGS_STRING"
 					 String="旋律"
@@ -743,7 +745,7 @@
 					 Description="消費アイテムや環境生物の効果"/>
 			<Setting Id="ABNORMALITY_DEBUFFS_STRING"
 					 String="デバフ"
-					 Description="デバフ効果"/>]
+					 Description="デバフ効果"/>
 			<Setting Id="ABNORMALITY_PALICO_STRING"
 					 String="オトモバフ"
 					 Description="オトモによるバフ効果"/>
@@ -786,7 +788,7 @@
 					 Description="有効な場合、ゲーム終了時にHunterPieも続いて自動的に終了します。"/>
 			<Setting Id="RENDERING_FPS_STRING"
 					 String="フレームレート"
-					 Description="HunterPieのオーバーレイのフレームレート。高い値ほどヌルヌル表示されますが、より多くの処理能力が求められます。"/>
+					 Description="HunterPieのオーバーレイのフレームレート。高い値ほど情報の更新が速くなりますが、より多くの処理能力が求められます。"/>
 			<Setting Id="RENDERING_STRATEGY_STRING"
 					 String="レンダリング方式"
 					 Description="HunterPieの基本レンダリング方式。SoftwareはCPUでオーバーレイを処理します。HardwareはGPUでオーバーレイを処理します。"/>
@@ -825,7 +827,7 @@
 					 Description="有効な場合、表示できるデータがある時のみこのウィジェットは表示されます。"/>
 			<Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
 					 String="メニュー表示時にオーバーレイを隠す"
-					 Description="有効な場合、適度な状況下でオーバーレイを一時的に非表示にします。(例：クエスト終了時、テント内、ＮＰＣとの会話中、などなど)"/>
+					 Description="有効な場合、適度な状況下でオーバーレイを一時的に非表示にします。(例：クエスト終了時、テント内、NPCとの会話中、などなど)"/>
 			<Setting Id="WIDGET_POSITION"
 					 String="ウィジェットの位置"
 					 Description="当ウィジェットの位置を調節します。"/>
@@ -870,7 +872,7 @@
 					 String="状態異常を非表示にするまでの時間"
 					 Description="更新されていない状態異常が自動的に非表示になるまでの時間"/>
 			<Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
-					 String="「体力ゲージの長さ自動変更」"
+					 String="体力ゲージの長さ自動変更"
 					 Description="有効な場合、表示モンスターの数に応じてHPゲージの長さを自動で調節します。"/>
 			<Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
 					 String="不明部位を隠す"
@@ -891,7 +893,7 @@
 
 			<Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
 					 String="翔蟲エイム修正"
-					 Description="有効な場合、ゲーム内のＨＵＤ設定より翔蟲ゲージを非表示にしても、エイム時の円は消えない様HunterPieが介入します。"/>
+					 Description="有効な場合、ゲーム内のHUD設定より翔蟲ゲージを非表示にしても、エイム時の円は消えない様HunterPieが介入します。"/>
 
 			<Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
 					 String="交易船を表示"
@@ -899,7 +901,7 @@
 			<Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
 					 String="オトモ道場を表示"
 					 Description="有効な場合、HunterPieはオトモ道場の情報を表示します。"/>
-				<Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
+			<Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
 					 String="オトモ隠密隊を表示"
 					 Description="有効な場合、HunterPieはオトモ隠密隊の情報を表示します。"/>
 			<Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
@@ -939,7 +941,7 @@
 			<Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
 					 String="オトモのダメージを表示"
 					 Description="有効な場合、HunterPieはオトモのダメージを表示します。"/>
-
+					 
 			<Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
 					 String="Developer: Mock Monster widget"/>
 			<Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
