@@ -356,7 +356,7 @@
             <Monster Id="43" String="쥬라토도스"/>
             <Monster Id="44" String="토비카가치"/>
             <Monster Id="45" String="바젤기우스"/>
-            <Monster Id="46" String="개구리 훈련 모형"/>
+            <Monster Id="46" String="개굴모형"/>
             <Monster Id="76" String="리오레이아 희소종"/>
             <Monster Id="77" String="리오레우스 희소종"/>
             <Monster Id="78" String="다이묘자자미"/>
@@ -380,7 +380,10 @@
             <Monster Id="96" String="가이아델름"/>
             <Monster Id="97" String="에스피나스"/>
             <Monster Id="98" String="에스피나스 아종"/>
+            <Monster Id="107" String="괴이 극복 크샬다오라"/>
             <Monster Id="108" String="괴이 극복 오나즈치"/>
+            <Monster Id="109" String="괴이 극복 테오-테스카토르"/>
+            <Monster Id="113" String="혼돈에 신음하는 고어-마가라"/>
         </Rise>
         <World>
             <Monster Id="0" String="안쟈나프"/>
@@ -727,6 +730,9 @@
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="특수 장비 위젯"
                      Description="특수 장비 위젯 설정"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="플레이어 HUD 위젯"
+                     Description="플레이어 HUD 위젯 설정"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="개발 도구"
                      Description="심화 개발 도구"/>
@@ -812,6 +818,12 @@
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[단축키] 디자인 모드 전환"
                      Description="디자인 모드를 On/Off 할 수 있는 단축키입니다."/>
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[단축키] 오버레이 표시 전환"
+                     Description="오버레이를 On/Off 할 수 있는 단축키입니다."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="오버레이 활성화"
+                     Description="옵션 활성화 시, HunterPie가 오버레이를 표시합니다.&#10;참고: 이 설정은 개별 위젯의 사용 설정보다 우선되지 않습니다."/>
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="게임 비활성화 시 위젯 숨기기"
                      Description="옵션 활성화 시, 게임이 백그라운드 상태일 때 모든 위젯을 자동으로 숨깁니다."/>
