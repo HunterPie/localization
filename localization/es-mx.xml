@@ -148,6 +148,7 @@
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Manto de evasión (Atq)"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Potenciador de afinidad"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Acabado protector"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Subida de adrenalina"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Plaga sangrienta"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Veneno"/>
