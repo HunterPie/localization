@@ -15,15 +15,28 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Ailment Id="AILMENT_POISON" String="Gift"/>
             <Ailment Id="AILMENT_BLAST" String="Explosion"/>
             <Ailment Id="AILMENT_EXHAUST" String="Erschöpfung"/>
-            <Ailment Id="AILMENT_MOUNT" String="Reitbar"/>
+            <Ailment Id="AILMENT_MOUNT" String="Aufsteigen"/>
+            <Ailment Id="AILMENT_RIDE" String="Reiten"/>
             <Ailment Id="AILMENT_FLASH" String="Blenden"/>
             <Ailment Id="AILMENT_WATER" String="Wasser"/>
             <Ailment Id="AILMENT_FIRE" String="Brand"/>
             <Ailment Id="AILMENT_ICE" String="Eisbrand"/>
             <Ailment Id="AILMENT_THUNDER" String="Donnerbrand"/>
+            <Ailment Id="AILMENT_DUNG" String="Dungbombe"/>
             <Ailment Id="AILMENT_TRANQUILIZE" String="Beruhigungsmittel"/>
+            <Ailment Id="AILMENT_KNOCKDOWN" String="Niederschlagen"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_SHOCKTRAP" String="Schockfalle"/>
+            <Ailment Id="AILMENT_PITFALLTRAP" String="Fallgrube"/>
+            <Ailment Id="AILMENT_VINETRAP" String="Vine Trap"/> <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_ELDERSEAL" String="Drachenältestensiegel"/>
+            <Ailment Id="AILMENT_SMOKING" String="Smoking"/>    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
+            <Ailment Id="AILMENT_CLAW" String="Clutch Claw"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_BANISHINGBALL" String="Banishing Ball"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
-            </Rise>
+            <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
+        </Rise>
     </Ailments>
     <Abnormalities>
         <Abnormality Id="ABNORMALITY_UNKNOWN" String="Unbekannt"/>
@@ -78,19 +91,31 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>
         <!-- ich hasse deutsch manchmal so sehr... -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/>
+        <!--                            Status-Anomalien                            -->
+        <Abnormality Id="ABNORMALITY_BLOOD" String="Blutpest"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Gift"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Starkes Gift"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="Betäubung"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="Schlaf"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="Lähmung"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Verteidigung-"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="Widerstand-"/>
         <Abnormality Id="ABNORMALITY_STENCH" String="Gestank"/>
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="Höllenpest"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="Explosionspest"/>
+        <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="Blastscourge"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_FIRE" String="Feuerpest"/>
         <Abnormality Id="ABNORMALITY_WATER" String="Wasserpest"/>
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Donnerpest"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Drachenpest"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
+        <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/>
+        <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
+        <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
     </Abnormalities>
     <Monsters>
         <Shared>
@@ -228,9 +253,9 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Stage Id="-1" String="Hauptmenü"/>
             <Stage Id="0" String="Dorf"/>
             <Stage Id="1" String="Raum"/>
-            <Stage Id="2" String="Buddy Plaza"/>
-            <Stage Id="3" String="Gathering Hub"/>
-            <Stage Id="4" String="Hub Vorbereitungsplatz"/>
+            <Stage Id="2" String="Buddy-Plaza"/>
+            <Stage Id="3" String="Versammlungsstätte"/>
+            <Stage Id="4" String="Vorbereitungsgebiet"/>
             <Stage Id="5" String="Trainings-Areal"/>
             <Stage Id="6" String="Elgado"/>
             <Stage Id="7" String="Raum"/>
@@ -253,7 +278,31 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
     </Stages>
 
     <Client>
+        <Overlay>
+
+            <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
+                    String="Otomos"/>
+
+            <String Id="TRAINING_DOJO_BOOSTS_STRING"
+                    String="Boosts:"/>
+            <String Id="TRAINING_DOJO_ROUNDS_STRING"
+                    String="Rounds:"/>
+
+            <String Id="MEOWCENARIES_STEP_STRING"
+                    String="Step:"/>
+            <String Id="MEOWCENARIES_OUTCOME_STRING"
+                    String="Outcome:"/>
+            <String Id="MEOWCENARIES_BUDDIES_STRING"
+                    String="Buddies:"/>
+            
+            <String Id="COHOOT_KAMURA_NEST_STRING"
+                    String="Kamura Nest: "/>
+            <String Id="COHOOT_ELGADO_NEST_STRING"
+                    String="Elgado Nest: "/>
+            
+        </Overlay>
         <Tabs>
+
             <Tab Id="CONSOLE_STRING"
                  String="Konsole"/>
             <Tab Id="DISCORD_STRING"
@@ -266,39 +315,125 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                  String="Einstellungen"/>
             <Tab Id="PATREON_STRING"
                  String="Patreon"/>
+            <Tab Id="GITHUB_STRING"
+                 String="Github"/>
+
         </Tabs>
         <Generics>
+
+            <Generic Id="HUNTERPIE_LAUNCH_GAME"
+                     String="STARTE SPIEL"/>
             <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
                      String="HunterPie ist auf dem neusten Stand!"/>
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
                      String="Eine neuere Version von HunterPie ist verfügbar!"/>
+            <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
+                     String="Konfiguration für:"/>
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="(Neustart Erforderlich)"/>
+
         </Generics>
+        <Dialogs>
+            <!-- Text innerhalb der {} darf nicht editiert werden! -->
+            <Dialog Id="UPDATE_TITLE_STRING"
+                    String="Update"/>
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Version v{Latest} ist nun verfügbar.&#x0a;Möchtest du jetzt aktualisieren?"/>
+            <Dialog Id="CONFIRMATION_TITLE_STRING"
+                    String="Zustimmung"/>
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Bist du sicher, dass du {Item} löschen möchtest?"/>
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Bist du sicher, dass du HunterPie schließen möchtest?"/>
+
+            <Button Id="ACCEPT_STRING"
+                  String="Akzeptieren"/>
+            <Button Id="REJECT_STRING"
+                  String="Ablehnen"/>
+            <Button Id="CANCEL_STRING"
+                  String="Abbrechen"/>
+
+        </Dialogs>
         <Integrations>
-            <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
-                     String="{Character} | JR: {HighRank}"/>
-            <Discord Id="DRPC_RISE_STATE_MAIN_MENU"
-                     String="Im Hauptmenü"/>
-            <Discord Id="DRPC_RISE_STATE_IDLE"
-                     String="Chilling"/>
-            <Discord Id="DRPC_RISE_STATE_PRACTICE"
-                     String="Trainiert"/>
-            <Discord Id="DRPC_RISE_STATE_RAMPAGE"
-                     String="In Randale"/>
-            <!-- ??? -->
-            <Discord Id="DRPC_RISE_STATE_CHAR_SELECTION"
-                     String="Wählt Charakter aus"/>
-            <Discord Id="DRPC_RISE_STATE_EXPLORING"
-                     String="Erkundet"/>
+            <!--           Für beide Spiele (MH:W/Iceborne & MH:Rise)           -->
             <Discord Id="DRPC_RISE_STATE_HUNTING"
                      String="Jagt {Monster} ({Percentage}%)"/>
             <Discord Id="DRPC_RISE_STATE_HUNTING_NO_HEALTH"
                      String="Jagt {Monster}"/>
+            <Discord Id="DRPC_RISE_STATE_MAIN_MENU"
+                     String="Im Hauptmenü"/>
+            <Discord Id="DRPC_STATE_LOADING"
+                     String="In Ladebildschirm"/>
+            <Discord Id="DRPC_RISE_STATE_IDLE"
+                     String="Unbeschäftigt"/>
+            <Discord Id="DRPC_RISE_STATE_EXPLORING"
+                     String="Erkundet"/>
             <Discord Id="DRPC_RISE_PARTY_STATE_SOLO_STRING"
                      String="Solo"/>
             <Discord Id="DRPC_RISE_PARTY_STATE_GROUP_STRING"
                      String="In Gruppe"/>
+
+            <!--                Für MH:Rise                   -->
+            <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
+                     String="{Character} | JR: {HighRank}"/>
+            <Discord Id="DRPC_RISE_STATE_PRACTICE"
+                     String="Trainiert"/>
+            <Discord Id="DRPC_RISE_STATE_RAMPAGE"
+                     String="In Randale"/>
+            <Discord Id="DRPC_RISE_STATE_CHAR_SELECTION"
+                     String="Wählt Charakter aus"/>
+
+            <!--                Für MH:World/Iceborne              -->
+            <Discord Id="DRPC_WORLD_CHARACTER_STRING_FORMAT"
+                     String="{Character} | HR: {HighRank} | MR: {MasterRank}"/>
+            <Discord Id="DRPC_WORLD_STATE_PRACTICE"
+                     String="Trainiert"/>
+
+            <!--                                    Poogie Integration                                      -->
+            <!-- Error Handhabung -->
+            <Poogie Id="ERROR_INVALID_USERNAME"
+                    String="Der Benutzername ist ungültig!"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD"
+                    String="Das Passwort ist ungültig, es muss mindestens 8 Zeichen lang sein!"/>
+            <Poogie Id="ERROR_INVALID_EMAIL"
+                    String="Die E-Mail ist ungültig!"/>
+            <Poogie Id="ERROR_INVALID_CREDENTIALS"
+                    String="Es wurde kein Konto mit diesem Benutzernamen und Passwort gefunden."/>
+            <Poogie Id="ERROR_USER_NOT_FOUND"
+                    String="Nö... Dieser Benutzer konnte nicht gefunden werden!"/> <!-- Bisschen humor -->
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS"
+                    String="Es gibt bereits einen Benutzer mit dieser E-Mail oder diesem Benutzernamen!"/>
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT"
+                    String="Konto muss zuerst verifiziert werden! Bitte überprüfe deine E-Mails, einschließlich des Spam-Ordners, um das Konto zu bestätigen."/>
+            <Poogie Id="INVALID_IMAGE"
+                    String="Datei ist kein gültiges Bild!"/>
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR"
+                    String="Avatar konnte nicht hochgeladen werden, bitte versuche es in ein paar Minuten erneut."/>
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE"
+                    String="Avatar konnte nicht hochgeladen werden, Dateigröße war über 3,5 MB."/>
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE"
+                    String="Der Code zum Zurücksetzen des Passworts ist ungültig oder abgelaufen."/>
+            <Poogie Id="ERROR_GENERIC"
+                    String="Whoops... Etwas ist schief gelaufen. Versuche es in ein paar Minuten erneut!"/>
+            <!-- Kontozeugs -->
+            <Poogie Id="LOGIN_SUCCESS"
+                    String="Willkommen {Username}! Du bist nun eingeloggt."/>
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
+                    String="Die Kontobestätigung wird in Kürze an {Email} gesendet. Bitte überprüfen unbedingt deinen Posteingang sowie Spam-Ordner!"/>
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS"
+                    String="Neuen Avatar hochgeladen."/>
+
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING"
+                    String="Anscheinend hast du keine automatischen Backups aktiviert.&#10;Du kannst dies in deinen Kontoeinstellungen aktivieren."/>
+            <Poogie Id="BACKUP_NOT_FOUND_STRING"
+                    String="Du hast keine Backups."/>
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING"
+                    String="Eine E-Mail mit dem erforderlichen Code zum Ändern deines Kontopassworts wird an {Email} gesendet."/>
+            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
+                    String="Das Passwort wurde erfolgreich geändert."/>
         </Integrations>
         <Settings>
+
             <Setting Id="CLIENT_STRING"
                      String="Client"
                      Description="Client Konfiguration"/>
@@ -354,7 +489,7 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      Description="Unterstützer-Token um frühzeitige Updates zu erhalten."/>
             <Setting Id="LANGUAGE_STRING"
                      String="Sprache"
-                     Description="HunterPies standard Übersetzung"/>
+                     Description="HunterPies Standard Übersetzung"/>
             <Setting Id="MINIMIZE_TO_SYSTEM_TRAY_STRING"
                      String="Minimiere in die Taskleiste"
                      Description="Sofern aktiv, wird HunterPie sich in die Taskleiste des Systems minimieren."/>
@@ -479,6 +614,7 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      String="Entwickler: Pseudo-Anomalien Widget"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="Entwickler: Poogie API Host"/>
+                     
         </Settings>
     </Client>
 </Strings>
