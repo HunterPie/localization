@@ -136,9 +136,9 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera Jerky"/>
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Health Regen."/>
         <Abnormality Id="ABNORMALITY_COLD_RES" String="Cold Res."/>
-        <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Snowman Head"/>
+        <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Snowman Kopf"/>
         <Abnormality Id="ABNORMALITY_POWERCONE" String="Powercone"/>
-        <Abnormality Id="ABNORMALITY_ICE_RES" String="Ice Res. (L)"/>
+        <Abnormality Id="ABNORMALITY_ICE_RES" String="Eis Res. (L)"/>
         <Abnormality Id="ABNORMALITY_FOOD_TIMER" String="Food Timer"/>
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Ruby Wirebug"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
@@ -196,6 +196,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Shared>
 
             <Part Id="PART_UNKNOWN" String="???"/>
+            <Part Id="PART_TO_BE_MAPPED" String="Unbekannt"/>
             <Part Id="PART_HEAD" String="Kopf"/>
             <Part Id="PART_TORSO" String="Torso"/>
             <Part Id="PART_L_WING" String="Linker Flügel"/>
@@ -203,7 +204,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_L_LEG" String="Linkes Bein"/>
             <Part Id="PART_R_LEG" String="Rechtes Bein"/>
             <Part Id="PART_TAIL" String="Schwanz"/>
-            <Part Id="PART_NECK" String="Nacken"/>
+            <Part Id="PART_NECK" String="Hals"/>
             <Part Id="PART_L_ARM" String="Linker Arm"/>
             <Part Id="PART_R_ARM" String="Rechter Arm"/>
             <Part Id="PART_BACK" String="Rücken"/>
@@ -233,12 +234,14 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_LEGS" String="Beine"/>
             <Part Id="PART_SHELL" String="Panzer"/>
             <Part Id="PART_CLAW" String="Klaue"/>
+            <Part Id="PART_R_CLAW" String="Rechte Klaue"/>
+            <Part Id="PART_L_CLAW" String="Linke Klaue"/>
             <Part Id="PART_L_FORELEG" String="Linkes Vorderbein"/>
             <Part Id="PART_R_FORELEG" String="Rechtes Vorderbein"/>
             <Part Id="PART_L_H_LEG" String="Linkes Hinterbein"/>
             <Part Id="PART_R_H_LEG" String="Rechtes Hinterbein"/>
-            <Part Id="PART_CHEST" String="Abdomen"/>
-            <!-- ??? -->
+            <Part Id="PART_ABDOMEN" String="Abdomen"/>
+            <Part Id="PART_CHEST" String="Brust"/>
             <Part Id="PART_TAIL_TIP" String="Schwanzsspitze"/>
             <Part Id="PART_MUD_BALL" String="Schlammball"/>
             <Part Id="PART_LOWER_TORSO" String="Unterer Torso"/>
@@ -251,6 +254,79 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_THUNDERBALLS" String="Donnerbälle"/>
             <Part Id="PART_ROCK" String="Stein"/>
             <Part Id="PART_POT" String="Krug"/>
+            <Part Id="PART_WING_CLAW" String="Flügelklaue"/>
+            <Part Id="PART_FORELEG" String="Vorderbein"/>
+            <Part Id="PART_H_LEG" String="Hinterbein"/>
+            <Part Id="PART_ANTENNA" String="Antenne"/>
+            <Part Id="PART_CREST" String="Kamm"/>
+            <Part Id="PART_THROAT" String="Hals"/>
+            <Part Id="PART_BIG_FLINCH" String="Großer Fluch"/>
+            <Part Id="PART_HORNS" String="Hörner"/>
+            <Part Id="PART_HORN" String="Horn"/>
+            <Part Id="PART_KNOCKDOWN" String="Niedergeschlagen"/>
+            <Part Id="PART_HORNS_2" String="Hörner #2"/>
+            <Part Id="PART_RAGE" String="Wut"/>
+            <Part Id="PART_L_LIMBS" String="Linke Gliedmaßen"/>
+            <Part Id="PART_R_LIMBS" String="Rechte Gliedmaßen"/>
+            <Part Id="PART_LIMBS" String="Gliedmaßen"/>
+            <Part Id="PART_COUNTERATTACK" String="Konterattacke"/>
+            <Part Id="PART_JAW" String="Kiefer"/>
+            <Part Id="PART_EXPLOSION_WEAKENING" String="Elementare Explosion"/>
+            <Part Id="PART_CHARGE" String="Aufladen"/>
+            <Part Id="PART_FIN" String="Finne"/>
+            <Part Id="PART_INFLATED_TAIL" String="Aufgeblasener Schwanz"/>
+            <Part Id="PART_SILVER_SPIKES_HEAD" String="Silberne Dornen (Kopf)"/>
+            <Part Id="PART_SILVER_SPIKES_L_ARM" String="Silberne Dornen (L. Arm)"/>
+            <Part Id="PART_SILVER_SPIKES_R_ARM" String="Silberne Dornen (R. Arm)"/>
+            <Part Id="PART_SILVER_SPIKES_L_WING" String="Silberne Dornen (L. Flügel)"/>
+            <Part Id="PART_SILVER_SPIKES_R_WING" String="Silberne Dornen (R. Flügel)"/>
+            <Part Id="PART_EXHAUST_ORGAN_CENTRAL" String="Erschöpftes Organ (Zentral)"/>
+            <Part Id="PART_EXHAUST_ORGAN_HEAD" String="Erschöpftes Organ (Kopf)"/>
+            <Part Id="PART_EXHAUST_ORGAN_CRATER" String="Erschöpftes Organ (Krater)"/>
+            <Part Id="PART_EXHAUST_ORGAN_REAR" String="Erschöpftes Organ (Rückseite)"/>
+            <Part Id="PART_REPEL" String="Abstoßen"/>
+            <Part Id="PART_WEAK_L_SHELL" String="Linker Schwache Panzer"/>
+            <Part Id="PART_WEAK_R_SHELL" String="Rechter Schwache Panzer"/>
+            <Part Id="PART_BALLOON" String="Ballon"/>
+            <Part Id="PART_SKY_FALL" String="Himmelssturz"/>
+            <Part Id="PART_L_BONE" String="Linker Knochen"/>
+            <Part Id="PART_R_BONE" String="Rechter Knochen"/>
+            <Part Id="PART_EMISSIONS" String="Abwasseremissionen"/>
+            <Part Id="PART_HORNS_GOLD" String="Goldene Hörner"/>
+            <Part Id="PART_MANE_GOLD" String="Goldene Mähne"/>
+            <Part Id="PART_L_CHEST_GOLD" String="Goldene Linke Brust"/>
+            <Part Id="PART_R_CHEST_GOLD" String="Goldene Rechte Brust"/>
+            <Part Id="PART_L_ARM_GOLD" String="Goldener Linker Arm"/>
+            <Part Id="PART_R_ARM_GOLD" String="Goldener Rechter Arm"/>
+            <Part Id="PART_L_LEG_GOLD" String="Goldenes Linkes Bein"/>
+            <Part Id="PART_R_LEG_GOLD" String="Goldenes Rechtes Bein"/>
+            <Part Id="PART_L_TAIL_GOLD" String="Goldener Schwanz (Links)"/>
+            <Part Id="PART_R_TAIL_GOLD" String="Goldener Schwanz (Rechts)"/>
+            <Part Id="PART_GLOWING_HEAD" String="Glühender Kopf"/>
+            <Part Id="PART_GLOWING_TAIL" String="Glühender Schwanz"/>
+            <Part Id="PART_EMERGE_SNOW_HEAD" String="Entstanden von Schnee (Kopf)"/>
+            <Part Id="PART_EMERGE_SNOW_BODY" String="Entstanden von Schnee (Körper)"/>
+            <Part Id="PART_EMERGE_SNOW_TAIL" String="Entstanden von Schnee (Schwanz)"/>
+            <Part Id="PART_HEAD_SNOW" String="Kopf (Schnee)"/>
+            <Part Id="PART_BODY_SNOW" String="Körper (Schnee)"/>
+            <Part Id="PART_TAIL_SNOW" String="Schwanz (Schnee)"/>
+            <Part Id="PART_HEAD_ICE" String="Kopf (Eis)"/>
+            <Part Id="PART_BODY_ICE" String="Körper (Eis)"/>
+            <Part Id="PART_WINGS_ICE" String="Flügel (Eis)"/>
+            <Part Id="PART_ARMS_ICE" String="Arme (Eis)"/>
+            <Part Id="PART_HEAD_ROCK" String="Kopf (Stein)"/>
+            <Part Id="PART_CHEST_ROCK" String="Brust (Stein)"/>
+            <Part Id="PART_L_NECK_ROCK" String="Hals Links (Stein)"/>
+            <Part Id="PART_R_NECK_ROCK" String="Hals Rechts (Stein)"/>
+            <Part Id="PART_TAIL_ROCK" String="Schwanz (Stein)"/>
+            <Part Id="PART_L_WING_ROCK" String="Linker Flügel (Stein)"/>
+            <Part Id="PART_R_WING_ROCK" String="Rechter Flügel (Stein)"/>
+            <Part Id="PART_L_ARM_ROCK" String="Linker Arm (Stein)"/>
+            <Part Id="PART_R_ARM_ROCK" String="Rechter Arm (Stein)"/>
+            <Part Id="PART_BODY_LEGS" String="Körper &amp; Beine"/>
+            <Part Id="PART_ANTLERS" String="Geweihe"/>
+            <Part Id="PART_MANE" String="Mähne"/>
+            <Part Id="PART_QURIO_THRESHOLD" String="Qurio Schwelle"/>
 
         </Shared>
         <Rise>
@@ -312,8 +388,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="83" String="Shagaru Magala"/>
             <Monster Id="84" String="Seregios"/>
             <Monster Id="85" String="Astalos"/>
-            <Monster Id="87" String="Tobender Magnamalo"/>
             <Monster Id="86" String="Violet Mizutsune"/> <!-- Zu ergänzen -->
+            <Monster Id="87" String="Tobender Magnamalo"/>
             <Monster Id="88" String="Blut-Bishaten"/>
             <Monster Id="89" String="Auroracanth"/>
             <Monster Id="90" String="Pyro-Kadaki"/>
@@ -324,8 +400,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="95" String="Garangolm"/>
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
+            <Monster Id="98" String="Flammen-Espinas"/>
         <!-- Zu erledigen
-            <Monster Id="98" String="Flaming Espinas"/>
             <Monster Id="107" String="Risen Kushala Daora"/>
             <Monster Id="108" String="Risen Chameleos"/>
             <Monster Id="109" String="Risen Teostra"/>
@@ -659,7 +735,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
                   String="Gesamtschaden"/>
             <Enum Id="PLOT_DPS_STRING"
-                  String="Schaden in Sekunde"/>
+                  String="Schaden in der Sekunde"/>
 
         </Enums>
         <Settings>
