@@ -1,12 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<!-- Übersetzung von MashiLo mit Korrekturen durch DeadDr4gon und Suho. 
+<!--    Übersetzung Begonnen von MashiLo, anschließende Korrekturen durch DeadDr4gon und Suho. 
+        Großes Update der Übersetzung von Sypher begonnen am 27.11.22
 
-Hier könnte auch IHRE Werbung stehen.
-
+Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, auch bitte neue Ergänzungen an die Stelle packen, wie in der englischen Übersetzung zu finden.
+                                Falls ihr diese Stelle nicht übersetzt oder übersetzen könnt, kommentiert diese Zeile!
 -->
 <Strings lang="German">
     <Ailments>
         <Rise>
+
             <Ailment Id="AILMENT_UNKNOWN" String="Unbekannt"/>
             <Ailment Id="AILMENT_PARALYSIS" String="Lähmung"/>
             <Ailment Id="AILMENT_SLEEP" String="Schlaf"/>
@@ -26,7 +28,7 @@ Hier könnte auch IHRE Werbung stehen.
             <Ailment Id="AILMENT_KNOCKDOWN" String="Niederschlagen"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_SHOCKTRAP" String="Schockfalle"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="Fallgrube"/>
-            <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/> <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/>
             <Ailment Id="AILMENT_ELDERSEAL" String="Drachenältestensiegel"/>
             <Ailment Id="AILMENT_SMOKING" String="Rauchend"/>    <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
@@ -35,13 +37,25 @@ Hier könnte auch IHRE Werbung stehen.
             <Ailment Id="AILMENT_BANISHINGBALL" String="Banishing Ball"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
             <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
+
         </Rise>
     </Ailments>
     <Abnormalities>
+
         <Abnormality Id="ABNORMALITY_UNKNOWN" String="Unbekannt"/>
         <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="Selbstverbesserung"/>
         <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Angriff+"/>
+        <!-- Zu Erledigen
+        <Abnormality Id="ABNORMALITY_ATTACK_UP_L" String="Attack Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_BOOST" String="Health Boost"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_BOOST_L" String="Health Boost (L)"/>
         <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Verteidigung+"/>
+        <Abnormality Id="ABNORMALITY_DEFENSE_UP_L" String="Defense Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="Tool Use Drain Red."/>
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="Tool Use Drain Red. (L)"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_REC" String="Health Rec."/>
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="Health Rec. (L)"/>
+        -->
         <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Affinität+"/>
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Elementangriff+"/>
         <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Angriff und Verteidigung+"/>
@@ -50,18 +64,52 @@ Hier könnte auch IHRE Werbung stehen.
         <Abnormality Id="ABNORMALITY_EARPLUG" String="Ohrstöpsel (S)"/>
         <Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="Ohrstöpsel (L)"/>
         <Abnormality Id="ABNORMALITY_TREMORS_NEG" String="Erdstöße negiert"/>
-        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="Winddruck negiert"/>
+        <Abnormality Id="ABNORMALITY_DEEP_RESISTANCE" String="Schlick/Wasser/Tiefer Schnee Resistenz"/>
+        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="Feuer Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="Feuer Res. Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="Wasser Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE_L" String="Wasser Res. Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE" String="Donner Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE_L" String="Donner Res. Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE" String="Eis Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE_L" String="Eis Res. Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="Drachen Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="Drachen Res. Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="Alle Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="Winddruck negieren"/>
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="Jeden Winddruck negieren"/>
+        <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="Abnormal Status Atk. Hoch (S)"/>
+        <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="Max Ausdauer Hoch + Regeneration"/>
+        <Abnormality Id="ABNORMALITY_EXT_HEALTH_RECOVERY" String="Erweiterte Lebensregeneration"/>
         <Abnormality Id="ABNORMALITY_STUN_NEG" String="Betäubung negiert"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS_NEG" String="Paralyse negiert"/>
         <Abnormality Id="ABNORMALITY_BLIGHT_NEG" String="Brand negiert"/>
+        <Abnormality Id="ABNORMALITY_AILMENTS_NEG" String="Alle Krankheiten negieren"/>
         <Abnormality Id="ABNORMALITY_DIVINE_PROTECTION" String="Göttlicher Schutz"/>
+        <Abnormality Id="ABNORMALITY_SCOUTFLY" String="Spähfliege Power Hoch"/>
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Lebensregeneration"/>
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Ausdauerverbrauch verringert"/>
+        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="Ausdauerverbrauch verringert (L)"/>
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Ausdauerwiederherstellung+"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Schärfe-Verlust reduziert"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Schärfe Regeneration"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Umgebungsschaden negiert"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Akkustische Barriere"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Höllenmelodie"/>
+        <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="Geschwindigkeitsbonus + Ausweichfenster Hoch"/>
+        <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="Elementare Effektivität"/>
+
+        <Abnormality Id="ABNORMALITY_RESUSCITATE" String="Wiederbeleben"/>
+        <Abnormality Id="ABNORMALITY_WINDPROOF" String="Windundurchlässig"/>
+
         <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="Machtsamen"/>
+        <Abnormality Id="ABNORMALITY_MIGHT_PILL" String="Machtpille"/> <!-- Zu überprüfen -->
+        <Abnormality Id="ABNORMALITY_DEMONDRUG" String="Dämonenmittel"/>
+        <Abnormality Id="ABNORMALITY_ARMORSKIN" String="Panzerhaut"/>
+        <Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="Mega Dämonenmittel"/>
+        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="Mega Panzerhaut"/>
+        <Abnormality Id="ABNORMALITY_COOLDRINK" String="Kaltgetränk"/>
+        <Abnormality Id="ABNORMALITY_HOTDRINK" String="Heißgetränk"/>
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Flämmling"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Schnibelle"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Diamantsamen"/>
@@ -81,14 +129,41 @@ Hier könnte auch IHRE Werbung stehen.
         <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Rüstungs-Munition"/>
         <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/> <!-- ???????-->
         <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>
+        <!-- Noch zu machen
+        <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Wiggly Litchy"/>
+        <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera Jerky"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Health Regen."/>
+        <Abnormality Id="ABNORMALITY_COLD_RES" String="Cold Res."/>
+        <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Snowman Head"/>
+        <Abnormality Id="ABNORMALITY_POWERCONE" String="Powercone"/>
+        <Abnormality Id="ABNORMALITY_ICE_RES" String="Ice Res. (L)"/>
+        <Abnormality Id="ABNORMALITY_FOOD_TIMER" String="Food Timer"/>
+        <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Ruby Wirebug"/>
+        <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
+        <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
+        -->
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Kraftprotz"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Verstärker"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Nimmersatt"/>
+
+        <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>       <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Chain Crit"/>  <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/>
+        <!-- Noch zu machen
+        <Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Offensive Guard"/>
+        <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Acceleration"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenaline"/>
+        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Cool Cat"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostcraft"/>
+        <Abnormality Id="ABNORMALITY_COALESCENCE" String="Coalescence"/>
+        <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Evasion Mantle (Atk)"/>
+        <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinity Booster"/>
+        <Abnormality Id="ABNORMALITY_GRINDER_S" String="Grinder (S)"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenaline Rush"/>
+        -->
         <!--                            Status-Anomalien                            -->
         <Abnormality Id="ABNORMALITY_BLOOD" String="Blutpest"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Gift"/>
@@ -107,15 +182,17 @@ Hier könnte auch IHRE Werbung stehen.
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Donnerpest"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Drachenpest"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
+
     </Abnormalities>
     <Monsters>
         <Shared>
+
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_HEAD" String="Kopf"/>
             <Part Id="PART_TORSO" String="Torso"/>
@@ -172,6 +249,7 @@ Hier könnte auch IHRE Werbung stehen.
             <Part Id="PART_THUNDERBALLS" String="Donnerbälle"/>
             <Part Id="PART_ROCK" String="Stein"/>
             <Part Id="PART_POT" String="Krug"/>
+
         </Shared>
         <Rise>
             <Monster Id="0" String="Rathian"/>
@@ -333,7 +411,7 @@ Hier könnte auch IHRE Werbung stehen.
         <Dialogs>
             <!-- Text innerhalb der {} darf nicht editiert werden! -->
             <Dialog Id="UPDATE_TITLE_STRING"
-                    String="Update"/>
+                    String="Hochdate"/>
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
                     String="Version v{Latest} ist nun verfügbar.&#x0a;Möchtest du jetzt aktualisieren?"/>
             <Dialog Id="CONFIRMATION_TITLE_STRING"
@@ -519,14 +597,14 @@ Hier könnte auch IHRE Werbung stehen.
                      Description="Essens Anomalien"/>
 
             <Setting Id="ENABLE_SELF_UPDATE"
-                     String="Aktiviere Auto-Update"
+                     String="Aktiviere Auto-Hochdate"
                      Description="Sofern aktiv, wird HunterPie sich automatisch selbst auf die neuste verfügbare Version aktualisieren."/>
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
-                     String="Zeige Auto-Update Bestätigung"
+                     String="Zeige Auto-Hochdate Bestätigung"
                      Description="Sofern aktiv, fragt HunterPie erst nach deiner Zustimmung bevor es sich selbst aktualisiert."/>
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="Unterstützer-Token"
-                     Description="Unterstützer-Token um frühzeitige Updates zu erhalten."/>
+                     Description="Unterstützer-Token um frühzeitige Hochdates zu erhalten."/>
             <Setting Id="LANGUAGE_STRING"
                      String="Sprache"
                      Description="HunterPies Standard Übersetzung"/>
@@ -563,7 +641,6 @@ Hier könnte auch IHRE Werbung stehen.
             <Setting Id="THEME_STRING"
                      String="Design"
                      Description="Aktuelles Design, das von HunterPie verwendet wird."/>
-
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Aktiviere Discord Rich Presence"
