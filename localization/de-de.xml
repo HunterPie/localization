@@ -18,7 +18,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_POISON" String="Gift"/>
             <Ailment Id="AILMENT_BLAST" String="Explosion"/>
             <Ailment Id="AILMENT_EXHAUST" String="Erschöpfung"/>
-            <Ailment Id="AILMENT_MOUNT" String="Aufsteigen"/>
+            <Ailment Id="AILMENT_MOUNT" String="Besteigen"/>
             <Ailment Id="AILMENT_RIDE" String="Reiten"/>
             <Ailment Id="AILMENT_FLASH" String="Blenden"/>
             <Ailment Id="AILMENT_WATER" String="Wasserpest"/>
@@ -36,7 +36,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
             <Ailment Id="AILMENT_CLAW" String="Klammerklaue"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
-            <Ailment Id="AILMENT_BANISHINGBALL" String="Banishing Ball"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
             <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
 
@@ -46,70 +46,70 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
         <Abnormality Id="ABNORMALITY_UNKNOWN" String="Unbekannt"/>
         <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="Selbstverbesserung"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Angriff+"/>
+        <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Angriff hoch"/>
         <!-- Zu Erledigen
-        <Abnormality Id="ABNORMALITY_ATTACK_UP_L" String="Attack Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_ATTACK_UP_L" String="Angriff hoch (L)"/>
         <Abnormality Id="ABNORMALITY_HEALTH_BOOST" String="Health Boost"/>
         <Abnormality Id="ABNORMALITY_HEALTH_BOOST_L" String="Health Boost (L)"/>
-        <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Verteidigung+"/>
-        <Abnormality Id="ABNORMALITY_DEFENSE_UP_L" String="Defense Hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Verteidigung hoch"/>
+        <Abnormality Id="ABNORMALITY_DEFENSE_UP_L" String="Verteidigung hoch (L)"/>
         <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="Tool Use Drain Red."/>
         <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="Tool Use Drain Red. (L)"/>
         <Abnormality Id="ABNORMALITY_HEALTH_REC" String="Health Rec."/>
         <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="Health Rec. (L)"/>
         -->
-        <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Affinität+"/>
-        <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Elementangriff+"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Angriff und Verteidigung+"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_AFFINITY_UP" String="Angriff und Affinität+"/>
+        <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Affinität hoch"/>
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Elementangriff hoch"/>
+        <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Angriff und Verteidigung hoch"/>
+        <Abnormality Id="ABNORMALITY_ATTACK_AFFINITY_UP" String="Angriff und Affinität hoch"/>
         <Abnormality Id="ABNORMALITY_KNOCKBACK_NEG" String="Knockback negiert"/>
         <Abnormality Id="ABNORMALITY_EARPLUG" String="Ohrstöpsel (S)"/>
         <Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="Ohrstöpsel (L)"/>
         <Abnormality Id="ABNORMALITY_TREMORS_NEG" String="Erdstöße negiert"/>
         <Abnormality Id="ABNORMALITY_DEEP_RESISTANCE" String="Schlick/Wasser/Tiefer Schnee Resistenz"/>
-        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="Feuer Res. Hoch"/>
-        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="Feuer Res. Hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="Wasser Res. Hoch"/>
-        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE_L" String="Wasser Res. Hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE" String="Donner Res. Hoch"/>
-        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE_L" String="Donner Res. Hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE" String="Eis Res. Hoch"/>
-        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE_L" String="Eis Res. Hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="Drachen Res. Hoch"/>
-        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="Drachen Res. Hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="Alle Res. Hoch"/>
+        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="Feuer Res. hoch"/>
+        <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="Feuer Res. hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="Wasser Res. hoch"/>
+        <Abnormality Id="ABNORMALITY_WATER_RESISTANCE_L" String="Wasser Res. hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE" String="Donner Res. hoch"/>
+        <Abnormality Id="ABNORMALITY_THUNDER_RESISTANCE_L" String="Donner Res. hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE" String="Eis Res. hoch"/>
+        <Abnormality Id="ABNORMALITY_ICE_RESISTANCE_L" String="Eis Res. hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="Drachen Res. hoch"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="Drachen Res. hoch (L)"/>
+        <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="Alle Res. hoch"/>
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="Winddruck negieren"/>
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="Jeden Winddruck negieren"/>
-        <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="Abnormal Status Atk. Hoch (S)"/>
-        <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="Max Ausdauer Hoch + Regeneration"/>
+        <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="Abnormal Status Atk. hoch (S)"/>
+        <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="Max Ausdauer hoch + Regeneration"/>
         <Abnormality Id="ABNORMALITY_EXT_HEALTH_RECOVERY" String="Erweiterte Lebensregeneration"/>
         <Abnormality Id="ABNORMALITY_STUN_NEG" String="Betäubung negiert"/>
         <Abnormality Id="ABNORMALITY_PARALYSIS_NEG" String="Paralyse negiert"/>
         <Abnormality Id="ABNORMALITY_BLIGHT_NEG" String="Brand negiert"/>
         <Abnormality Id="ABNORMALITY_AILMENTS_NEG" String="Alle Krankheiten negieren"/>
         <Abnormality Id="ABNORMALITY_DIVINE_PROTECTION" String="Göttlicher Schutz"/>
-        <Abnormality Id="ABNORMALITY_SCOUTFLY" String="Spähfliege Power Hoch"/>
+        <Abnormality Id="ABNORMALITY_SCOUTFLY" String="Spähfliege Power hoch"/>
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Lebensregeneration"/>
-        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Ausdauerverbrauch verringert"/>
-        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="Ausdauerverbrauch verringert (L)"/>
-        <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Ausdauerwiederherstellung+"/>
-        <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Schärfe-Verlust reduziert"/>
+        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Ausdauernutzung reduziert"/>
+        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="Ausdauervnutzung reduziert (L)"/>
+        <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Ausdauererholung hoch"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Schärfeminderung reduziert"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Schärfe Regeneration"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Umgebungsschaden negiert"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Akkustische Barriere"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Höllenmelodie"/>
-        <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="Geschwindigkeitsbonus + Ausweichfenster Hoch"/>
+        <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="Geschwindigkeitsbonus + Ausweichfenster hoch"/>
         <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="Elementare Effektivität"/>
 
         <Abnormality Id="ABNORMALITY_RESUSCITATE" String="Wiederbeleben"/>
         <Abnormality Id="ABNORMALITY_WINDPROOF" String="Windundurchlässig"/>
 
         <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="Machtsamen"/>
-        <Abnormality Id="ABNORMALITY_MIGHT_PILL" String="Machtpille"/> <!-- Zu überprüfen -->
+        <Abnormality Id="ABNORMALITY_MIGHT_PILL" String="Machtpille"/>
         <Abnormality Id="ABNORMALITY_DEMONDRUG" String="Dämonenmittel"/>
         <Abnormality Id="ABNORMALITY_ARMORSKIN" String="Panzerhaut"/>
-        <Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="Mega Dämonenmittel"/>
-        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="Mega Panzerhaut"/>
+        <Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="Mega-Dämonenmittel"/>
+        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="Mega-Panzerhaut"/>
         <Abnormality Id="ABNORMALITY_COOLDRINK" String="Kaltgetränk"/>
         <Abnormality Id="ABNORMALITY_HOTDRINK" String="Heißgetränk"/>
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Flämmling"/>
@@ -376,15 +376,15 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="64" String="Wilder Dämonjho"/>
             <Monster Id="65" String="Brachydios"/>
             <Monster Id="66" String="Glavenus"/>
-            <Monster Id="67" String="Säure Glavenus"/>
-            <Monster Id="68" String="Fulgur Anjanath"/>
-            <Monster Id="69" String="Korallen Pukei-Pukei"/>
-            <Monster Id="70" String="Ruinen Nergigante"/>
-            <Monster Id="71" String="Viper Tobi-Kadachi"/>
-            <Monster Id="72" String="Nachtschatten Paolumu"/>
-            <Monster Id="73" String="Schneesturm Legiana"/>
+            <Monster Id="67" String="Säure-Glavenus"/>
+            <Monster Id="68" String="Fulgur-Anjanath"/>
+            <Monster Id="69" String="Korallen-Pukei-Pukei"/>
+            <Monster Id="70" String="Ruinen-Nergigante"/>
+            <Monster Id="71" String="Viper-Tobi-Kadachi"/>
+            <Monster Id="72" String="Nachtschatten-Paolumu"/>
+            <Monster Id="73" String="Schneesturm-Legiana"/>
             <Monster Id="74" String="Vulkan-Odogaron"/>
-            <Monster Id="75" String="Velum Vaal Hazak"/>
+            <Monster Id="75" String="Velum-Vaal-Hazak"/>
             <Monster Id="76" String="Brodelnder Bazelgeuse"/>
             <Monster Id="77" String="Beotodus"/>
             <Monster Id="78" String="Banbaro"/>
@@ -397,14 +397,14 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="90" String="Yian Garuga"/>
             <Monster Id="91" String="Rajang"/>
             <Monster Id="92" String="Zorniger Rajang"/>
-            <Monster Id="93" String="Brachial Tigrex"/>
+            <Monster Id="93" String="Brachial-Tigrex"/>
             <Monster Id="94" String="Zinogre"/>
-            <Monster Id="95" String="Höllen Zinogre"/>
+            <Monster Id="95" String="Höllen-Zinogre"/>
             <Monster Id="96" String="Wütiger Brachydios"/>
             <Monster Id="97" String="Safi'jiiva"/>
             <Monster Id="98" String="Trainings Dummy"/>
-            <Monster Id="99" String="Wundmal Yian Garuga"/>
-            <Monster Id="100" String="Frosthauer Barioth"/>
+            <Monster Id="99" String="Wundmal-Yian-Garuga"/>
+            <Monster Id="100" String="Frosthauer-Barioth"/>
             <Monster Id="101" String="Fatalis"/>
  
         </World>
@@ -440,43 +440,43 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
         </Rise>
         <World>
-        <!-- Zu erledigen
-            <Stage Id="0" String="Main Menu"/>
-            <Stage Id="101" String="Ancient Forest"/>
-            <Stage Id="102" String="Wildspire Waste"/>
-            <Stage Id="103" String="Coral Highlands"/>
-            <Stage Id="104" String="Rotten Vale"/>
-            <Stage Id="105" String="Elder's Recess"/>
-            <Stage Id="106" String="Great Ravine"/>
-            <Stage Id="107" String="Great Ravine"/>
-            <Stage Id="108" String="Hoarfrost Reach"/>
-            <Stage Id="109" String="The Guiding Lands"/>
-            <Stage Id="201" String="Special Arena"/>
+
+            <Stage Id="0" String="Hauptmenü"/>
+            <Stage Id="101" String="Uralter Wald"/>
+            <Stage Id="102" String="Wildturm-Ödnis"/>
+            <Stage Id="103" String="Korallenhochland"/>
+            <Stage Id="104" String="Tal der Verwesung"/>
+            <Stage Id="105" String="Heimat der Ältesten"/>
+            <Stage Id="106" String="Große Schlucht"/>
+            <Stage Id="107" String="Große Schlucht"/>
+            <Stage Id="108" String="Raureif-Weite"/>
+            <Stage Id="109" String="Die Leitlande"/>
+            <Stage Id="201" String="Spezialarena"/>
             <Stage Id="202" String="Arena"/>
-            <Stage Id="203" String="Seliana Supply Cache"/>
+            <Stage Id="203" String="Seliana-Vorratskiste"/>
             <Stage Id="301" String="Astera"/>
-            <Stage Id="302" String="Astera Gathering Hub"/>
-            <Stage Id="303" String="Research Base"/>
+            <Stage Id="302" String="Astera-Versammlungsstätte"/>
+            <Stage Id="303" String="Forschungsbasis"/>
             <Stage Id="305" String="Seliana"/>
-            <Stage Id="306" String="Seliana Gathering Hub"/>
-            <Stage Id="401" String="Introduction"/>
-            <Stage Id="403" String="Everstream"/>
-            <Stage Id="405" String="Confluence of Fates"/>
-            <Stage Id="406" String="Ancient Forest"/>
-            <Stage Id="409" String="Caverns of El Dorado"/>
-            <Stage Id="411" String="Seliana Supply Cache"/>
-            <Stage Id="412" String="Origin Isle"/>
-            <Stage Id="413" String="Origin Isle"/>
-            <Stage Id="415" String="Secluded Valley"/>
-            <Stage Id="416" String="Secluded Valley"/>
-            <Stage Id="417" String="Castle Schrade"/>
-            <Stage Id="501" String="Living Quarters"/>
-            <Stage Id="502" String="Private Quarters"/>
-            <Stage Id="503" String="Private Suite"/>
-            <Stage Id="504" String="Training Area"/>
-            <Stage Id="505" String="Chamber of Five"/>
-            <Stage Id="506" String="Seliana Room"/>
-        -->
+            <Stage Id="306" String="Seliana-Versammlungsstätte"/>
+            <Stage Id="401" String="Einführung"/>
+            <Stage Id="403" String="Ewiger Strom"/>
+            <Stage Id="405" String="Vereinigung der Schicksale"/>
+            <Stage Id="406" String="Uralter Wald"/>
+            <Stage Id="409" String="Höhlen von Eldorado"/>
+            <Stage Id="411" String="Seliana-Vorratskiste"/>
+            <Stage Id="412" String="Ursprungsinsel"/>
+            <Stage Id="413" String="Ursprungsinsel"/>
+            <Stage Id="415" String="Abgelegene Schlucht"/>
+            <Stage Id="416" String="Abgelegene Schlucht"/>
+            <Stage Id="417" String="Schloss Schrade"/>
+            <Stage Id="501" String="Wohnquartier"/>
+            <Stage Id="502" String="Private Quartiere"/>
+            <Stage Id="503" String="Privater Raum"/>
+            <Stage Id="504" String="Trainingsbereich"/>
+            <Stage Id="505" String="Kammer der Fünf"/>
+            <Stage Id="506" String="Seliana Raum"/>
+
         </World>
     </Stages>
 
