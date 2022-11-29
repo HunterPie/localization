@@ -3,7 +3,6 @@
 
 Hier könnte auch IHRE Werbung stehen.
 
-Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchaus Fehler auftreten, die im Normalfall aber hoffentlich von DeadDr4gon und/oder Suho berichtigt werden. Sollte jemand die Übersetzung eigenständig fortführen wollen, weil ich hier nur Müll fabriziere oder er langeweile hat, dann nur zu.
 -->
 <Strings lang="German">
     <Ailments>
@@ -18,8 +17,8 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Ailment Id="AILMENT_MOUNT" String="Aufsteigen"/>
             <Ailment Id="AILMENT_RIDE" String="Reiten"/>
             <Ailment Id="AILMENT_FLASH" String="Blenden"/>
-            <Ailment Id="AILMENT_WATER" String="Wasser"/>
-            <Ailment Id="AILMENT_FIRE" String="Brand"/>
+            <Ailment Id="AILMENT_WATER" String="Wasserpest"/>
+            <Ailment Id="AILMENT_FIRE" String="Feuerpest"/>
             <Ailment Id="AILMENT_ICE" String="Eisbrand"/>
             <Ailment Id="AILMENT_THUNDER" String="Donnerbrand"/>
             <Ailment Id="AILMENT_DUNG" String="Dungbombe"/>
@@ -27,11 +26,11 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Ailment Id="AILMENT_KNOCKDOWN" String="Niederschlagen"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_SHOCKTRAP" String="Schockfalle"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="Fallgrube"/>
-            <Ailment Id="AILMENT_VINETRAP" String="Vine Trap"/> <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/> <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_ELDERSEAL" String="Drachenältestensiegel"/>
-            <Ailment Id="AILMENT_SMOKING" String="Smoking"/>    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_SMOKING" String="Rauchend"/>    <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
-            <Ailment Id="AILMENT_CLAW" String="Clutch Claw"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_CLAW" String="Klammerklaue"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_BANISHINGBALL" String="Banishing Ball"/>   <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
@@ -83,13 +82,11 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
         <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/> <!-- ???????-->
         <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Kraftprotz"/>
-        <!-- kp, "Bulker" hat keine Übersetzung die für mich Sinn ergeben würde -->
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Verstärker"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Nimmersatt"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>
-        <!-- ich hasse deutsch manchmal so sehr... -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/>
         <!--                            Status-Anomalien                            -->
@@ -284,14 +281,14 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                     String="Otomos"/>
 
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
-                    String="Boosts:"/>
+                    String="Verstärkungen:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
-                    String="Rounds:"/>
+                    String="Runden:"/>
 
             <String Id="MEOWCENARIES_STEP_STRING"
-                    String="Step:"/>
+                    String="Schritt:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
-                    String="Outcome:"/>
+                    String="Ausgang:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
             
@@ -356,26 +353,26 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
         </Dialogs>
         <Integrations>
             <!--           Für beide Spiele (MH:W/Iceborne & MH:Rise)           -->
-            <Discord Id="DRPC_RISE_STATE_HUNTING"
+            <Discord Id="DRPC_STATE_HUNTING"
                      String="Jagt {Monster} ({Percentage}%)"/>
-            <Discord Id="DRPC_RISE_STATE_HUNTING_NO_HEALTH"
+            <Discord Id="DRPC_STATE_HUNTING_NO_HEALTH"
                      String="Jagt {Monster}"/>
-            <Discord Id="DRPC_RISE_STATE_MAIN_MENU"
+            <Discord Id="DRPC_STATE_MAIN_MENU"
                      String="Im Hauptmenü"/>
             <Discord Id="DRPC_STATE_LOADING"
                      String="In Ladebildschirm"/>
-            <Discord Id="DRPC_RISE_STATE_IDLE"
+            <Discord Id="DRPC_STATE_IDLE"
                      String="Unbeschäftigt"/>
-            <Discord Id="DRPC_RISE_STATE_EXPLORING"
+            <Discord Id="DRPC_STATE_EXPLORING"
                      String="Erkundet"/>
-            <Discord Id="DRPC_RISE_PARTY_STATE_SOLO_STRING"
-                     String="Solo"/>
-            <Discord Id="DRPC_RISE_PARTY_STATE_GROUP_STRING"
+            <Discord Id="DRPC_PARTY_STATE_SOLO_STRING"
+                     String="Alleine"/>
+            <Discord Id="DRPC_PARTY_STATE_GROUP_STRING"
                      String="In Gruppe"/>
 
             <!--                Für MH:Rise                   -->
             <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
-                     String="{Character} | JR: {HighRank}"/>
+                     String="{Character} | HR: {HighRank} | MR: {MasterRank}"/>
             <Discord Id="DRPC_RISE_STATE_PRACTICE"
                      String="Trainiert"/>
             <Discord Id="DRPC_RISE_STATE_RAMPAGE"
@@ -390,7 +387,6 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      String="Trainiert"/>
 
             <!--                                    Poogie Integration                                      -->
-            <!-- Error Handhabung -->
             <Poogie Id="ERROR_INVALID_USERNAME"
                     String="Der Benutzername ist ungültig!"/>
             <Poogie Id="ERROR_INVALID_PASSWORD"
@@ -415,7 +411,7 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                     String="Der Code zum Zurücksetzen des Passworts ist ungültig oder abgelaufen."/>
             <Poogie Id="ERROR_GENERIC"
                     String="Whoops... Etwas ist schief gelaufen. Versuche es in ein paar Minuten erneut!"/>
-            <!-- Kontozeugs -->
+
             <Poogie Id="LOGIN_SUCCESS"
                     String="Willkommen {Username}! Du bist nun eingeloggt."/>
             <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
@@ -431,7 +427,35 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                     String="Eine E-Mail mit dem erforderlichen Code zum Ändern deines Kontopassworts wird an {Email} gesendet."/>
             <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
                     String="Das Passwort wurde erfolgreich geändert."/>
+
         </Integrations>
+        <Enums>
+
+            <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
+                  String="Niedrigste"/>
+            <Enum Id="SORT_BY_HIGHEST_TIMER_STRING"
+                  String="Höchste"/>
+            <Enum Id="SORT_BY_DISABLED_STRING"
+                  String="Keine Sortierung"/>
+
+            <Enum Id="ORIENTATION_HORIZONTAL_STRING"
+                  String="Horizontal"/>
+            <Enum Id="ORIENTATION_VERTICAL_STRING"
+                  String="Vertikal"/>
+
+            <Enum Id="RELATIVE_TO_QUEST_STRING"
+                  String="Relativ zur Quest"/>
+            <Enum Id="RELATIVE_TO_JOIN_STRING"
+                  String="Relativ zum Beitritt"/>
+            <Enum Id="RELATIVE_TO_FIRST_HIT_STRING"
+                  String="Relativ zum ersten Treffer"/>
+
+            <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
+                  String="Gesamtschaden"/>
+            <Enum Id="PLOT_DPS_STRING"
+                  String="Schaden in Sekunde"/>
+
+        </Enums>
         <Settings>
 
             <Setting Id="CLIENT_STRING"
@@ -455,12 +479,25 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Setting Id="ACTIVITIES_WIDGET_STRING"
                      String="Aktivitäts Widget"
                      Description="Aktivitäts Widget Konfiguration"/>
+            <Setting Id="METER_WIDGET_STRING"
+                     String="Schadensmesser Widget"
+                     Description="Schadensmesser Widget Konfiguration"/>
             <Setting Id="CHAT_WIDGET_STRING"
                      String="Chat Widget"
                      Description="Chat Widget Konfiguration"/>
+            <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="Spezialisiertes Werkzeug Widget"
+                     Description="Spezialisiertes Werkzeug Widget Konfiguration"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="Spieler Hud Widget"
+                     Description="Spieler Hud Widget Konfiguration"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="Dev Tools"
                      Description="Erweiterte Entwicklertools"/>
+            <Setting Id="ACCOUNT_STRING"
+                     String="Account"
+                     Description="Account Einstellungen"/>
+        
 
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="Songs"
@@ -470,26 +507,32 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      Description="Verbrauchbare Anomalien"/>
             <Setting Id="ABNORMALITY_DEBUFFS_STRING"
                      String="Debuffs"
-                     Description="Debuff-Anomalien"/>
+                     Description="Debuff Anomalien"/>
+            <Setting Id="ABNORMALITY_PALICO_STRING"
+                     String="Orchestra"
+                     Description="Orchestra Anomalien"/>
             <Setting Id="ABNORMALITY_SKILLS_STRING"
                      String="Rüstungsfähigkeiten"
                      Description="Rüstungsfähigkeiten Anomalien"/>
             <Setting Id="ABNORMALITY_FOODS_STRING"
                      String="Essensfähigkeiten"
-                     Description="Essens-Anomalien"/>
+                     Description="Essens Anomalien"/>
 
             <Setting Id="ENABLE_SELF_UPDATE"
                      String="Aktiviere Auto-Update"
-                     Description="Sofern aktiv, wird HunterPie sich automatisch selbst auf die neuste verfügbare Version updaten."/>
+                     Description="Sofern aktiv, wird HunterPie sich automatisch selbst auf die neuste verfügbare Version aktualisieren."/>
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="Zeige Auto-Update Bestätigung"
-                     Description="Sofern aktiv, fragt HunterPie erst nach deiner Einwilligung bevor es sich selbst updatet."/>
+                     Description="Sofern aktiv, fragt HunterPie erst nach deiner Zustimmung bevor es sich selbst aktualisiert."/>
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="Unterstützer-Token"
                      Description="Unterstützer-Token um frühzeitige Updates zu erhalten."/>
             <Setting Id="LANGUAGE_STRING"
                      String="Sprache"
                      Description="HunterPies Standard Übersetzung"/>
+            <Setting Id="DEFAULT_RUN_GAME_TYPE"
+                     String="Standard Spiel"
+                     Description="Wenn das Spiel gestartet werden soll, ändert sich bei einem Wechsel zu einem anderen Spiel auch das Einstellungsfenster, sodass die mit diesem Spiel verknüpften Einstellungen angezeigt werden."/>
             <Setting Id="MINIMIZE_TO_SYSTEM_TRAY_STRING"
                      String="Minimiere in die Taskleiste"
                      Description="Sofern aktiv, wird HunterPie sich in die Taskleiste des Systems minimieren."/>
@@ -498,16 +541,29 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      Description="Sofern aktiv, wird das Hauptfenster von HunterPie beim Start nicht geöffnet."/>
             <Setting Id="SEAMLESS_SHUTDOWN_STRING"
                      String="Aktiviere nahtloses Beenden"
-                     Description="Sofern aktiv, wird HunterPie dich nicht nach deiner Bestätigung fragen wenn du es beendest."/>
+                     Description="Sofern aktiv, wird HunterPie dich nicht nach deiner Zustimmung fragen wenn du es beendest."/>
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING"
+                     String="Natives Modul aktivieren (Beschreibung bitte sorgfältig lesen)"
+                     Description="Wenn aktiviert, patcht HunterPie das Spiel, um einige Funktionen zu aktivieren (z. B. Schadensanzeige während der Expedition).&#10;Wenn du die Mods [Stracker's Loader] und [Performance Booster and Plugin Extender] (CRCBypass) nicht besitzt, kann diese Option zum Absturz des Spiels über längere Zeiträume verursachen.&#10;Das Spiel muss neugestartet werden, sodass der Effekt in Kraft tritt."/>
+            <Setting Id="SHUTDOWN_ON_GAME_EXIT"
+                     String="Beim Beenden des Spiels schließen"
+                     Description="Wenn aktiviert, schließt sich HunterPie automatisch, wenn das Spiel geschlossen wird."/>
+            <Setting Id="RENDERING_FPS_STRING"
+                     String="Rendering Framerate"
+                     Description="Je höher die Render-Framerate von HunterPie, desto flüssiger werden die Animationen. Das Verringern dieser Einstellung sollte die Leistung erhöhen."/>
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Rendering Methode"
-                     Description="HunterPies standard rendering Methode. 'Software' benutzt deine CPU, 'Hardware' deine GPU zum rendern des Overlays."/>
+                     Description="HunterPies Standard rendering Methode. 'Software' benutzt deine CPU, 'Hardware' deine GPU zum rendern des Overlays."/>
             <Setting Id="POLLING_RATE_STRING"
                      String="Speicher-Scan Verzögerung (millisekunden)"
                      Description="Die Verzögerung des HunterPie Scanners. Eine niedrige Zahl belastet die CPU stärker, sorgt aber auch für eine reibungslosere Darstellung von HunterPie."/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
                      String="Aktiviere Entwickler Feature Flags"
                      Description="Sofern aktiv, erlaubt HunterPie dir Feature Flags von sich noch in Entwicklung befindlichen Features zu aktivieren."/>
+            <Setting Id="THEME_STRING"
+                     String="Design"
+                     Description="Aktuelles Design, das von HunterPie verwendet wird."/>
+
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Aktiviere Discord Rich Presence"
@@ -519,19 +575,28 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      String="Zeige Zielmonster HP"
                      Description="Sofern aktiv, zeigt HunterPie die verbleibenden Lebenspunkte des anvisierten Monsters in deinem Discord Status an."/>
 
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Tastenkürzel] Overlay umschalten"
+                     Description="Tastenkürzel zum Ein- und Ausschalten des Overlays."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Overlay aktivieren"
+                     Description="Wenn aktiviert, zeigt HunterPie das Overlay an.&#10;HINWEIS: Diese Einstellung überschreibt nicht die Einstellung zum Deaktivieren einzelner Widgets."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[Hot Key] Design Modus umschalten"
-                     Description="Hotkey um den Design Modus ein- oder auszuschalten."/>
+                     String="[Tastenkürzel] Design Modus umschalten"
+                     Description="Tastenkürzel um den Design Modus ein- oder auszuschalten."/>
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
-                     String="Verstcke Widgets wenn das Spiel nicht fokussiert ist"
+                     String="Verstecke Widgets wenn das Spiel nicht fokussiert ist"
                      Description="Sofern aktiv, werden alle Widgets automatisch versteckt wenn das Spiel nicht dein Vordergrundfenster ist."/>
 
             <Setting Id="INITIALIZE_WIDGET_STRING"
                      String="Initialisiere Widget"
-                     Description="Sofern aktiv, wird HunterPie dieses Widget immer initialisieren. Schalte diese Option aus wenn du das Widget nicht benutzen möchtest."/>
+                     Description="Sofern aktiv, wird HunterPie dieses Widget immer initialisieren. Schalte diese Option aus, wenn du das Widget nicht benutzen möchtest."/>
             <Setting Id="ENABLE_WIDGET_STRING"
                      String="Zeige Widget"
                      Description="Sofern aktiv, wird HunterPie dieses Widget immer anzeigen sobald es Daten zum anzeigen gibt."/>
+            <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
+                     String="Ausblenden, wenn HUD sichtbar ist"
+                     Description="Sofern aktiv, blendet HunterPie dieses Widget automatisch aus, wenn das HUD sichtbar ist (z. B.: Am Ende von Quests, im Lager, im Gespräch mit NPCs usw. usf.)"/>
             <Setting Id="WIDGET_POSITION"
                      String="Widget Position"
                      Description="Kontrolliert die Position dieses Widgets."/>
@@ -542,12 +607,12 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      String="Widget Größe"
                      Description="Kontrolliert die lineare Größe dieses Widgets. Je höher der Wert, desto größer wird das Widget dargestellt."/>
             <Setting Id="ORIENTATION_STRING"
-                     String="Orientation"
-                     Description="Orientation of the widget."/>
+                     String="Ausrichtung"
+                     Description="Ausrichtung des Widgets."/>
 
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="Zeige nur mein Ziel"
-                     Description="Sofern aktiv, zeigt HunterPie nur das Monster an welches du aktuell als Ziel gewählt hast."/>
+                     Description="Sofern aktiv, zeigt HunterPie nur das Monster an, welches du aktuell als Ziel gewählt hast."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="Aktiviere Monster Ausdauer"
                      Description="Sofern aktiv, zeigt HunterPie die Ausdauer eines Monsters unter dessen Lebensbalken an."/>
@@ -562,25 +627,25 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      Description="Sofern aktiv, wird die Anzeige von Monsterteilen verwendet."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="Verstecke Monsterteile automatisch"
-                     Description="Sofern aktiv, werden inaktive Monsterteile nach X sekunden automatisch ausgeblendet."/>
+                     Description="Sofern aktiv, werden inaktive Monsterteile nach X Sekunden automatisch ausgeblendet."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
                      String="Verzögerung des Ausblendens"
-                     Description="Zeit die gewartet wird bevor ein inaktives Teil ausgeblendet wird."/>
+                     Description="Zeit die gewartet wird, bevor ein inaktives Teil ausgeblendet wird."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
                      String="Aktiviere Monster Statuseffekte"
                      Description="Sofern aktiv, wird die Anzeige von Monster Statuseffekten verwendet."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
                      String="Verstecke automatisch inaktive Statuseffekte"
-                     Description="Sofern aktiv, werden inaktive Statuseffekte automatisch nach X Sekunden ausgelbendet."/>
+                     Description="Sofern aktiv, werden inaktive Statuseffekte automatisch nach X Sekunden ausgeblendet."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
                      String="Verzögerung bevor Statuseffekte ausgeblendet werden"
-                     Description="Zeit die gewartet wird bevor ein inaktiver Statuseffekt ausgeblendet wird"/>
+                     Description="Zeit die gewartet wird, bevor ein inaktiver Statuseffekt ausgeblendet wird"/>
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
                      String="Dynamische Größenänderung der Monster Lebensbalken"
                      Description="Sofern aktiv, werden die Lebensbalken in Abhängigkeit von der aktuell sichtbaren Anzahl automatisch in ihrer Größe angepasst."/>
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
                      String="Verstcke unbekannte Monsterteile"
-                     Description="Sofern aktiv, wird HunterPie unbekannte Teile nicht anzeigen (die als  &quot;???&quot; gekennzeichneten)."/>		 
+                     Description="Sofern aktiv, wird HunterPie unbekannte Teile nicht anzeigen (die als &quot;???&quot; gekennzeichnet sind)."/>		 
 
             <Setting Id="ABNORMALITY_TRAYS_STRING"
                      String="Anomalie-Leisten"
@@ -590,7 +655,7 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
                      Description="Der Name dieser Anomalie-Leiste."/>
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="Maximale Größe"
-                     Description="Setzt die maximale Größe für diese Leiste."/>
+                     Description="Setzt die maximale Größe für diese Leiste fest."/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="Sortieren nach"
                      Description="Wählt den Sortierungsalgorithmus der verwendet wird um die Anomalien zu ordnen."/>
@@ -605,15 +670,74 @@ Ansonsten: Ich spiele nicht auf Deutsch, insofern können bei Eigennamen durchau
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="Zeige Training-Dojo"
                      Description="Sofern aktiv, wird HunterPie Informationen über das Trainings-Dojo anzeigen."/>
+        <!-- Ab hier noch zu erledigen! -->
+            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
+                     String="Show Meowcenaries"
+                     Description="If enabled, HunterPie will show Meowcenaries's data."/>
+            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
+                     String="Show Cohoot Nest"
+                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
 
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
+                     String="Highlight myself"
+                     Description="If enabled, your name will be highlighted from the other players."/>
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES"
+                     String="Blur names"
+                     Description="If enabled, everyone's names will be blurred out from the meter."/>
+            <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
+                     String="Display DPS plot"
+                     Description="If enabled, the DPS plot graph will be visible."/>
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
+                     String="DPS calculation strategy"
+                     Description="Determines the strategy that will be used to calculate the damage per second.&#x0a;- RelativeToQuest: Will use the quest timer&#x0a;- RelativeToJoin: Will use the time when the player joined the party&#x0a;- RelativeToFirstHit: Will use the time when the player hit the monster for the first time"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
+                     String="Damage plot strategy"
+                     Description="Determines the strategy that will be used to plot the damage in the graph.&#x0a;- DamagePerSecond: DPS will be used for the graph&#x0a;- TotalDamage: Total damage will be used for the graph"/>
+            <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
+                     String="My color"
+                     Description="The color of your player in the damage meter."/>
+            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
+                     String="Party leader color"
+                     Description="The color of the party leader in the damage meter."/>
+            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
+                     String="Second player color"
+                     Description="The color of the second player in the party in the damage meter."/>
+            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
+                     String="Third player color"
+                     Description="The color of the third player in the party in the damage meter."/>
+            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
+                     String="Fourth player color"
+                     Description="The color of the fourth player in the party in the damage meter."/>
+            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
+                     String="Show Otomos damage"
+                     Description="If enabled, HunterPie will display Otomos damage."/>
+
+        <!-- Sollte nicht übersetzt werden. Nur "Entwickler" zu "Entwickler", ggf. "widget" zu "Widget" ändern und gut ists -->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Entwickler: Pseudo-Monster Widget"/>
+                     String="Entwickler: Mock Monster Widget"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Entwickler: Pseudo-Damage Meter Widget"/>
+                     String="Entwickler: Mock Damage Meter Widget"/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Entwickler: Pseudo-Anomalien Widget"/>
+                     String="Entwickler: Mock Abnormalities Widget"/>
+            <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
+                     String="Entwickler: Mock Wirebug Widget"/>
+            <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
+                     String="Entwickler: Mock Activities Widget"/>
+            <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
+                     String="Entwickler: Mock Chat Widget"/>
+            <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="Entwickler: Mock Specialized Tool Widget"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="Entwickler: Poogie API Host"/>
+            <Setting Id="DEV_LOG_LEVEL"
+                     String="Entwickler: Log level"/>
+            <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
+                     String="Entwickler: UI rendering tracer level"/>
+
+            <!-- Account -->
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
+                     String="Aktivieren Backups des Spielstands"
+                     Description="Sofern aktiv, sichert HunterPie automatisch deine Spielstände und lädt sie in die Cloud hoch."/>
                      
         </Settings>
     </Client>
