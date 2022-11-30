@@ -398,8 +398,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="98" String="Flammen-Espinas"/>
             <Monster Id="107" String="Risen Kushala Daora"/>    <!-- Zu ergänzen/ausbessern -->
             <Monster Id="108" String="Risen Chameleos"/>        <!-- Zu ergänzen/ausbessern -->
-            <Monster Id="109" String="Risen Teostra"/>
-            <Monster Id="113" String="Chaotic Gore Magala"/>
+            <Monster Id="109" String="Risen Teostra"/>          <!-- Zu ergänzen/ausbessern -->
+            <Monster Id="113" String="Chaotic Gore Magala"/>    <!-- Zu ergänzen/ausbessern -->
 
         </Rise>
         <World>
