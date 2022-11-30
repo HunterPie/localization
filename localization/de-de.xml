@@ -33,10 +33,10 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/>
             <Ailment Id="AILMENT_ELDERSEAL" String="Drachenältestensiegel"/>
             <Ailment Id="AILMENT_SMOKING" String="Rauchend"/>    <!-- Zu ergänzen/ausbessern -->
-            <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
+            <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>    <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_CLAW" String="Klammerklaue"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
-            <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
             <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
 
@@ -47,17 +47,15 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_UNKNOWN" String="Unbekannt"/>
         <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="Selbstverbesserung"/>
         <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Angriff hoch"/>
-        <!-- Zu Erledigen
         <Abnormality Id="ABNORMALITY_ATTACK_UP_L" String="Angriff hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_HEALTH_BOOST" String="Health Boost"/>
-        <Abnormality Id="ABNORMALITY_HEALTH_BOOST_L" String="Health Boost (L)"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_BOOST" String="Lebens Steigerung"/>
+        <Abnormality Id="ABNORMALITY_HEALTH_BOOST_L" String="Lebens Steigerung (L)"/>
         <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Verteidigung hoch"/>
         <Abnormality Id="ABNORMALITY_DEFENSE_UP_L" String="Verteidigung hoch (L)"/>
-        <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="Tool Use Drain Red."/>
-        <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="Tool Use Drain Red. (L)"/>
-        <Abnormality Id="ABNORMALITY_HEALTH_REC" String="Health Rec."/>
-        <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="Health Rec. (L)"/>
-        -->
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="Tool Use Drain Red."/>       <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="Tool Use Drain Red. (L)"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_HEALTH_REC" String="Lebens Wied."/>
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="Lebens Wied. (L)"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Affinität hoch"/>
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Elementangriff hoch"/>
         <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Angriff und Verteidigung hoch"/>
@@ -129,52 +127,49 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Schallendes Gebrüll"/>
         <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Dämonen-Munition"/>
         <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Rüstungs-Munition"/>
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/> <!-- ???????-->
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>
-        <!-- Noch zu machen
-        <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Wiggly Litchy"/>
-        <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera Jerky"/>
-        <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Health Regen."/>
-        <Abnormality Id="ABNORMALITY_COLD_RES" String="Cold Res."/>
-        <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Snowman Kopf"/>
-        <Abnormality Id="ABNORMALITY_POWERCONE" String="Powercone"/>
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/>   <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>  <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Wiggly Litchy"/>    <!-- Zu ergänzen/ausbessern (MH:World) -->
+        <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera Dörrfleisch"/>        <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Lebens Regen."/>
+        <Abnormality Id="ABNORMALITY_COLD_RES" String="Kälte Res."/>
+        <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Schneemann Kopf"/>
+        <Abnormality Id="ABNORMALITY_POWERCONE" String="Powercone"/>    <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_ICE_RES" String="Eis Res. (L)"/>
-        <Abnormality Id="ABNORMALITY_FOOD_TIMER" String="Food Timer"/>
-        <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Ruby Wirebug"/>
-        <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
-        <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
-        -->
+        <Abnormality Id="ABNORMALITY_FOOD_TIMER" String="Essens Timer"/>
+        <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Rubin Seilkäfer"/>
+        <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Goldener Seilkäfer"/>
+        <Abnormality Id="ABNORMALITY_STINKMINK" String="Miefnerz"/>
+
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Kraftprotz"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Verstärker"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Nimmersatt"/>
 
-        <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>       <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_FORTIFY" String="Stärken"/>       <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
         <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Chain Crit"/>  <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
-        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>
+        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>    <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
-        <!-- Noch zu machen
         <Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Offensive Guard"/>
-        <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Acceleration"/>
-        <Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenaline"/>
-        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Cool Cat"/>
-        <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostcraft"/>
-        <Abnormality Id="ABNORMALITY_COALESCENCE" String="Coalescence"/>
-        <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Evasion Mantle (Atk)"/>
-        <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinity Booster"/>
-        <Abnormality Id="ABNORMALITY_GRINDER_S" String="Grinder (S)"/>
-        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenaline Rush"/>
-        -->
-        <!--                            Status-Anomalien                            -->
+        <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Beschleunigung"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenalin"/>
+        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Coole Katze"/>   <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostkunst"/>
+        <Abnormality Id="ABNORMALITY_COALESCENCE" String="Koaleszenz"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Evasion Mantle (Atk)"/>    <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinitäts Steigerung"/>
+        <Abnormality Id="ABNORMALITY_GRINDER_S" String="Schleifer (S)"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalin Rush"/> <!-- Zu ergänzen/ausbessern -->
+
         <Abnormality Id="ABNORMALITY_BLOOD" String="Blutpest"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Gift"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Starkes Gift"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Betäubung"/>
         <Abnormality Id="ABNORMALITY_SLEEP" String="Schlaf"/>
         <Abnormality Id="ABNORMALITY_PARALYSIS" String="Lähmung"/>
-        <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Verteidigung-"/>
-        <Abnormality Id="ABNORMALITY_RES_DOWN" String="Widerstand-"/>
+        <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Verteidigung -"/>
+        <Abnormality Id="ABNORMALITY_RES_DOWN" String="Widerstand -"/>
         <Abnormality Id="ABNORMALITY_STENCH" String="Gestank"/>
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="Höllenpest"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="Explosionspest"/>
@@ -187,7 +182,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
 
@@ -388,7 +383,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="83" String="Shagaru Magala"/>
             <Monster Id="84" String="Seregios"/>
             <Monster Id="85" String="Astalos"/>
-            <Monster Id="86" String="Violet Mizutsune"/> <!-- Zu ergänzen -->
+            <Monster Id="86" String="Violet Mizutsune"/>        <!-- Zu ergänzen/ausbessern -->
             <Monster Id="87" String="Tobender Magnamalo"/>
             <Monster Id="88" String="Blut-Bishaten"/>
             <Monster Id="89" String="Auroracanth"/>
@@ -401,12 +396,11 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
             <Monster Id="98" String="Flammen-Espinas"/>
-        <!-- Zu erledigen
-            <Monster Id="107" String="Risen Kushala Daora"/>
-            <Monster Id="108" String="Risen Chameleos"/>
+            <Monster Id="107" String="Risen Kushala Daora"/>    <!-- Zu ergänzen/ausbessern -->
+            <Monster Id="108" String="Risen Chameleos"/>        <!-- Zu ergänzen/ausbessern -->
             <Monster Id="109" String="Risen Teostra"/>
             <Monster Id="113" String="Chaotic Gore Magala"/>
-        -->
+
         </Rise>
         <World>
 
@@ -560,7 +554,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Overlay>
 
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
-                    String="Otomos"/>
+                    String="Otomos"/>   <!-- Zu ergänzen/ausbessern -->
 
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Verstärkungen:"/>
@@ -575,9 +569,9 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                     String="Buddies:"/>
             
             <String Id="COHOOT_KAMURA_NEST_STRING"
-                    String="Kamura Nest: "/>
+                    String="Kamura Nest:"/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
-                    String="Elgado Nest: "/>
+                    String="Elgado Nest:"/>
             
         </Overlay>
         <Tabs>
@@ -615,11 +609,11 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Dialogs>
             <!-- Text innerhalb der {} darf nicht editiert werden! -->
             <Dialog Id="UPDATE_TITLE_STRING"
-                    String="Hochdate"/>
+                    String="Update"/>
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
                     String="Version v{Latest} ist nun verfügbar.&#x0a;Möchtest du jetzt aktualisieren?"/>
             <Dialog Id="CONFIRMATION_TITLE_STRING"
-                    String="Zustimmung"/>
+                    String="Bestätigung"/>
             <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
                     String="Bist du sicher, dass du {Item} löschen möchtest?"/>
             <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
@@ -735,7 +729,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
                   String="Gesamtschaden"/>
             <Enum Id="PLOT_DPS_STRING"
-                  String="Schaden in der Sekunde"/>
+                  String="Schaden pro Sekunde"/>
 
         </Enums>
         <Settings>
@@ -826,7 +820,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Sofern aktiv, wird HunterPie dich nicht nach deiner Zustimmung fragen wenn du es beendest."/>
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
                      String="Natives Modul aktivieren (Beschreibung bitte sorgfältig lesen)"
-                     Description="Wenn aktiviert, patcht HunterPie das Spiel, um einige Funktionen zu aktivieren (z. B. Schadensanzeige während der Expedition).&#10;Wenn du die Mods [Stracker's Loader] und [Performance Booster and Plugin Extender] (CRCBypass) nicht besitzt, kann diese Option zum Absturz des Spiels über längere Zeiträume verursachen.&#10;Das Spiel muss neugestartet werden, sodass der Effekt in Kraft tritt."/>
+                     Description="Wenn aktiviert, patcht HunterPie das Spiel, um einige Funktionen zu aktivieren (z. B. Schadensanzeige während der Expedition).&#10;Wenn du die Mods [Stracker's Loader] und [Performance Booster and Plugin Extender](CRCBypass) nicht besitzt, kann diese Option zum Absturz des Spiels über längere Zeiträume verursachen.&#10;Das Spiel muss neugestartet werden, sodass der Effekt in Kraft tritt."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Beim Beenden des Spiels schließen"
                      Description="Wenn aktiviert, schließt sich HunterPie automatisch, wenn das Spiel geschlossen wird."/>
@@ -951,47 +945,46 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="Zeige Training-Dojo"
                      Description="Sofern aktiv, wird HunterPie Informationen über das Trainings-Dojo anzeigen."/>
-        <!-- Ab hier noch zu erledigen! -->
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
-                     String="Show Meowcenaries"
-                     Description="If enabled, HunterPie will show Meowcenaries's data."/>
+                     String="Zeige Miaunster-Jäger"
+                     Description="Sofern aktiv, zeigt HunterPie Miaunster-Jäger Daten an.."/>
             <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="Show Cohoot Nest"
-                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
+                     String="Zeige Kauznest"
+                     Description="Sofern aktiv, zeigt HunterPie Kauznest Daten an."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
-                     String="Highlight myself"
-                     Description="If enabled, your name will be highlighted from the other players."/>
+                     String="Mich hervorheben"
+                     Description="Sofern aktiv, wird dein Spielername von allen anderen hervorgehoben."/>
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES"
-                     String="Blur names"
-                     Description="If enabled, everyone's names will be blurred out from the meter."/>
+                     String="Unkenntliche Namen"
+                     Description="Sofern aktiv, werden alle Spielernamen unkenntlich gemacht."/>
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
-                     String="Display DPS plot"
-                     Description="If enabled, the DPS plot graph will be visible."/>
+                     String="DPS-Handlung anzeigen"
+                     Description="Sofern aktiv, wird das DPS-Handlungsdiagramm dargestellt."/>
             <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
-                     String="DPS calculation strategy"
-                     Description="Determines the strategy that will be used to calculate the damage per second.&#x0a;- RelativeToQuest: Will use the quest timer&#x0a;- RelativeToJoin: Will use the time when the player joined the party&#x0a;- RelativeToFirstHit: Will use the time when the player hit the monster for the first time"/>
+                     String="DPS Berechnungsstrategie"
+                     Description="Legt die Strategie zur Berechnung des Schadens pro Sekunden fest.&#x0a;- RelativZurQuest: Nutzt den Quest Timer&#x0a;- RelativZuBeitritt: Nutzt die Zeit in der der Spieler beitrat&#x0a;- RelativZuErstemTreffer: Nutzt die Zeit des ersten Treffers der Person"/>
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
-                     String="Damage plot strategy"
-                     Description="Determines the strategy that will be used to plot the damage in the graph.&#x0a;- DamagePerSecond: DPS will be used for the graph&#x0a;- TotalDamage: Total damage will be used for the graph"/>
+                     String="Schaden Handlungsstrategie"
+                     Description="Legt die Strategie der Handlung für das DPS Diagramm fest.&#x0a;- SchadenProSekunde: DPS wird für das Diagramm genutzt&#x0a;- Gesamtschaden: Der Gesamtschaden wird für das Diagramm genutzt"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
-                     String="My color"
-                     Description="The color of your player in the damage meter."/>
+                     String="Meine Farbe"
+                     Description="Die Farbe deines Spielers in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
-                     String="Party leader color"
-                     Description="The color of the party leader in the damage meter."/>
+                     String="Gruppenleiter Farbe"
+                     Description="Die Farbe des Gruppenleiters der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
-                     String="Second player color"
-                     Description="The color of the second player in the party in the damage meter."/>
+                     String="Zweiter Spieler Farbe"
+                     Description="Die Farbe des zweiten Spielers der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
-                     String="Third player color"
-                     Description="The color of the third player in the party in the damage meter."/>
+                     String="Dritter Spieler Farbe"
+                     Description="Die Farbe des dritten Spielers der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
-                     String="Fourth player color"
-                     Description="The color of the fourth player in the party in the damage meter."/>
+                     String="Vierter Spieler Farbe"
+                     Description="Die Farbe des vierten Spielers der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
-                     String="Show Otomos damage"
-                     Description="If enabled, HunterPie will display Otomos damage."/>
+                     String="Zeige Otomos Schaden"
+                     Description="Sofern aktiv, stellt HunterPie den Otomos Schaden dar."/>     <!-- Zu ergänzen/ausbessern -->
 
         <!-- Sollte nicht übersetzt werden. Nur "Entwickler" zu "Entwickler", ggf. "widget" zu "Widget" ändern und gut ists -->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
