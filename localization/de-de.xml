@@ -383,7 +383,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="83" String="Shagaru Magala"/>
             <Monster Id="84" String="Seregios"/>
             <Monster Id="85" String="Astalos"/>
-            <Monster Id="86" String="Violet Mizutsune"/>        <!-- Zu ergänzen/ausbessern -->
+            <Monster Id="86" String="Violett Mizutsune"/>
             <Monster Id="87" String="Tobender Magnamalo"/>
             <Monster Id="88" String="Blut-Bishaten"/>
             <Monster Id="89" String="Auroracanth"/>
@@ -396,10 +396,10 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
             <Monster Id="98" String="Flammen-Espinas"/>
-            <Monster Id="107" String="Risen Kushala Daora"/>    <!-- Zu ergänzen/ausbessern -->
-            <Monster Id="108" String="Risen Chameleos"/>        <!-- Zu ergänzen/ausbessern -->
-            <Monster Id="109" String="Risen Teostra"/>          <!-- Zu ergänzen/ausbessern -->
-            <Monster Id="113" String="Chaotic Gore Magala"/>    <!-- Zu ergänzen/ausbessern -->
+            <Monster Id="107" String="Erhobener Kushala Daora"/>
+            <Monster Id="108" String="Erhobener Chameleos"/>
+            <Monster Id="109" String="Erhobener Teostra"/>   
+            <Monster Id="113" String="Chaotischer Gore Magala"/>
 
         </Rise>
         <World>
