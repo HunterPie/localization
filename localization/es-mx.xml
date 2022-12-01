@@ -792,7 +792,7 @@
                      Description="Al activarse, HunterPie se cerrará automáticamente cuando el juego lo haga."/>
             <Setting Id="RENDERING_FPS_STRING"
                      String="Velocidad de fotogramas de renderizado"
-                     Description="La velocidad de fotogramas de procesamiento de HunterPie, cuanto más alta, más fluidas serán las animaciones. Reducir esta configuración debería aumentar el rendimiento"./>
+                     Description="La velocidad de fotogramas de procesamiento de HunterPie, cuanto más alta, más fluidas serán las animaciones. Reducir esta configuración debería aumentar el rendimiento."/>
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Método de renderizado"
                      Description="El método de renderizado usado por HunterPie. Software usará tu CPU para mostrar el overlay, Hardware usará tu tarjeta de video."/>
@@ -896,7 +896,7 @@
                      Description="Nombre para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="Tamaño máximo"
-                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>>
+                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="Filtrar por"
                      Description="Selecciona el tipo de filtrado para los efectos."/>
@@ -953,21 +953,21 @@
                      Description="Al activarse, HunterPie mostrará el daño causado por los camaradas."/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Desarollador: Mock Monster widget"/>
+                     String="Desarollador: Mock de widget de monstruo"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Desarollador: Mock Damage Meter widget"/>
+                     String="Desarollador: Mock de widget de medidor de daño"/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Desarollador: Mock Abnormalities widget"/>
+                     String="Desarollador: Mock de widget de Anormalidades"/>
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Desarollador: Mock Wirebug widget"/>
+                     String="Desarollador: Mock widget de Cordóptero"/>
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Desarollador: Mock Activities widget"/>
+                     String="Desarollador: Mock de widget de Actividades"/>
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Desarollador: Mock Chat widget"/>
+                     String="Desarollador: Mock de widget de Chat"/>
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="Desarrollador: Mock Specialized Tool widget"/>
+                     String="Desarrollador: Mock de widget de herramientas especializadas"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Desarollador: Poogie API Host"/>
+                     String="Desarollador: Huesped de la API Poogie"/>
               <Setting Id="DEV_LOG_LEVEL"
                      String="Desarrollador: Nivel de registro"/>
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
