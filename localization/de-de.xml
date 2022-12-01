@@ -795,10 +795,10 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Essens Anomalien"/>
 
             <Setting Id="ENABLE_SELF_UPDATE"
-                     String="Aktiviere Auto-Hochdate"
+                     String="Automatische Updates"
                      Description="Sofern aktiv, wird HunterPie sich automatisch selbst auf die neuste verfügbare Version aktualisieren."/>
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
-                     String="Zeige Auto-Hochdate Bestätigung"
+                     String="Bestätigung für Automatische Updates"
                      Description="Sofern aktiv, fragt HunterPie erst nach deiner Zustimmung bevor es sich selbst aktualisiert."/>
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="Unterstützer-Token"
@@ -834,7 +834,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      String="Speicher-Scan Verzögerung (millisekunden)"
                      Description="Die Verzögerung des HunterPie Scanners. Eine niedrige Zahl belastet die CPU stärker, sorgt aber auch für eine reibungslosere Darstellung von HunterPie."/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
-                     String="Aktiviere Entwickler Feature Flags"
+                     String="Aktiviere Entwicklerfunktionen Flags"
                      Description="Sofern aktiv, erlaubt HunterPie dir Feature Flags von sich noch in Entwicklung befindlichen Features zu aktivieren."/>
             <Setting Id="THEME_STRING"
                      String="Design"
@@ -943,7 +943,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      String="Zeige Argosy"
                      Description="Sofern aktiv, wird HunterPie Informationen über die Argosy anzeigen."/>
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
-                     String="Zeige Training-Dojo"
+                     String="Zeige Trainings-Dojo"
                      Description="Sofern aktiv, wird HunterPie Informationen über das Trainings-Dojo anzeigen."/>
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Zeige Miaunster-Jäger"
@@ -1010,7 +1010,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
-                     String="Aktivieren Backups des Spielstands"
+                     String="Aktiviere Backups des Spielstands"
                      Description="Sofern aktiv, sichert HunterPie automatisch deine Spielstände und lädt sie in die Cloud hoch."/>
                      
         </Settings>
