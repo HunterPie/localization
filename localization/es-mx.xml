@@ -786,7 +786,7 @@
                      Description="Al activarse, HunterPie se cerrará sin pedir confirmación."/>
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
                      String="Activar modulo nativo (Lea la descripción cuidadosamente)"
-                     Description="Al activarse, HunterPie parcheará el juego para habilitar algunas funciones (p. ej., medidor de daño durante la expedición). Si no tiene los mods [Stracker's Loader] y [Performance Booster y Plugin Extender] (CRCBypass), esta opción puede bloquear el juego durante períodos prolongados de juego. Es necesario reiniciar el juego para que surta efecto"./>
+                     Description="Al activarse, HunterPie parcheará el juego para habilitar algunas funciones (p. ej., medidor de daño durante la expedición). Si no tiene los mods [Stracker's Loader] y [Performance Booster y Plugin Extender] (CRCBypass), esta opción puede bloquear el juego durante períodos prolongados de juego. Es necesario reiniciar el juego para que surta efecto."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Salir al cerrarse el juego"
                      Description="Al activarse, HunterPie se cerrará automáticamente cuando el juego lo haga."/>
