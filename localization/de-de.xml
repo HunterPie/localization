@@ -127,14 +127,14 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Schallendes Gebrüll"/>
         <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Dämonen-Munition"/>
         <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Rüstungs-Munition"/>
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/>   <!-- Zu ergänzen/ausbessern -->
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>  <!-- Zu ergänzen/ausbessern -->
-        <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Wiggly Litchy"/>    <!-- Zu ergänzen/ausbessern (MH:World) -->
-        <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera Dörrfleisch"/>        <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/>   <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Ausdauer-Insektenlarve"/>
+        <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera-Jerky"/>        
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Lebens Regen."/>
         <Abnormality Id="ABNORMALITY_COLD_RES" String="Kälte Res."/>
         <Abnormality Id="ABNORMALITY_SNOWMAN_HEAD" String="Schneemann Kopf"/>
-        <Abnormality Id="ABNORMALITY_POWERCONE" String="Powercone"/>    <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_POWERCONE" String="Kraftzapfen"/>
         <Abnormality Id="ABNORMALITY_ICE_RES" String="Eis Res. (L)"/>
         <Abnormality Id="ABNORMALITY_FOOD_TIMER" String="Essens Timer"/>
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Rubin Seilkäfer"/>
@@ -147,20 +147,20 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Stärken"/>       <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
-        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Chain Crit"/>  <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Chain Crit"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>    <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
         <Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Offensive Guard"/>
         <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Beschleunigung"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenalin"/>
-        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Coole Katze"/>   <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Coole Katze"/>   <!-- Zu ergänzen/ausbessern (MHR:World)-->
         <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostkunst"/>
         <Abnormality Id="ABNORMALITY_COALESCENCE" String="Koaleszenz"/> <!-- Zu ergänzen/ausbessern -->
-        <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Evasion Mantle (Atk)"/>    <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Ausweich-Mantel +"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinitäts Steigerung"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Schleifer (S)"/>
-        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalin Rush"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalin Rush"/> <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Blutpest"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Gift"/>
@@ -173,7 +173,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_STENCH" String="Gestank"/>
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="Höllenpest"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="Explosionspest"/>
-        <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="Blastscourge"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="Blastscourge"/> <!-- Zu ergänzen/ausbessern (MHR:World) -->
         <Abnormality Id="ABNORMALITY_FIRE" String="Feuerpest"/>
         <Abnormality Id="ABNORMALITY_WATER" String="Wasserpest"/>
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
