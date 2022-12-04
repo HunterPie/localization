@@ -136,6 +136,7 @@
         
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortalecer"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Contraataque"/>
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Ráfaga"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Poder latente"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Afinidad deslizante"/>
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Acabado protector"/>
@@ -152,6 +153,9 @@
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Plaga sangrienta"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Veneno"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="Aturdimiento"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="Sueño"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="Parálisis"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Veneno letal"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Defensa-"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="Resistencia-"/>
@@ -174,6 +178,7 @@
     <Monsters>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
+            <Part Id="PART_TO_BE_MAPPED" String="Desconocido"/>
             <Part Id="PART_HEAD" String="Cabeza"/>
             <Part Id="PART_TORSO" String="Torso"/>
             <Part Id="PART_L_WING" String="Ala izquierda"/>
@@ -211,11 +216,14 @@
             <Part Id="PART_LEGS" String="Piernas"/>
             <Part Id="PART_SHELL" String="Caparazon"/>
             <Part Id="PART_CLAW" String="Garra"/>
+            <Part Id="PART_R_CLAW" String="Garra Der."/>
+            <Part Id="PART_L_CLAW" String="Garra Izq."/>
             <Part Id="PART_L_FORELEG" String="Pata delantera izquierda"/>
             <Part Id="PART_R_FORELEG" String="Pata delantera derecha"/>
             <Part Id="PART_L_H_LEG" String="Pata trasera izquierda"/>
             <Part Id="PART_R_H_LEG" String="Pata trasera derecha"/>
-            <Part Id="PART_CHEST" String="Abdomen"/>
+            <Part Id="PART_ABDOMEN" String="Abdomen"/>
+            <Part Id="PART_CHEST" String="Pecho"/>
             <Part Id="PART_TAIL_TIP" String="Punta de la cola"/>
             <Part Id="PART_MUD_BALL" String="Bola lodosa"/>
             <Part Id="PART_LOWER_TORSO" String="Torso inferior"/>
@@ -455,6 +463,7 @@
     </Monsters>
     <Stages>
         <Rise>
+            <Stage Id="-2" String="Pantalla de carga"/>
             <Stage Id="-1" String="Menú principal"/>
             <Stage Id="0" String="Aldea"/>
             <Stage Id="1" String="Habitación"/>
@@ -597,6 +606,8 @@
                      String="Cazando {Monster}"/>
             <Discord Id="DRPC_STATE_MAIN_MENU"
                      String="En el menú principal"/>
+            <Discord Id="DRPC_STATE_LOADING"
+                     String="En la pantalla de carga"/>
             <Discord Id="DRPC_STATE_IDLE"
                      String="Descansando"/>
             <Discord Id="DRPC_STATE_EXPLORING"
@@ -720,6 +731,9 @@
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="Herramientas especializadas"
                      Description="Ajuste de Herramientas especializadas"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="Widget del HUD del jugador"
+                     Description="Ajuste de HUD del jugador"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="Herramientas de desarollador"
                      Description="Herramientas avanzadas"/>
@@ -770,9 +784,15 @@
             <Setting Id="SEAMLESS_SHUTDOWN_STRING"
                      String="Activar salida rápida"
                      Description="Al activarse, HunterPie se cerrará sin pedir confirmación."/>
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING"
+                     String="Activar modulo nativo (Lea la descripción cuidadosamente)"
+                     Description="Al activarse, HunterPie parcheará el juego para habilitar algunas funciones (p. ej., medidor de daño durante la expedición). Si no tiene los mods [Stracker's Loader] y [Performance Booster y Plugin Extender] (CRCBypass), esta opción puede bloquear el juego durante períodos prolongados de juego. Es necesario reiniciar el juego para que surta efecto."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Salir al cerrarse el juego"
                      Description="Al activarse, HunterPie se cerrará automáticamente cuando el juego lo haga."/>
+            <Setting Id="RENDERING_FPS_STRING"
+                     String="Velocidad de fotogramas de renderizado"
+                     Description="La velocidad de fotogramas de procesamiento de HunterPie, cuanto más alta, más fluidas serán las animaciones. Reducir esta configuración debería aumentar el rendimiento."/>
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Método de renderizado"
                      Description="El método de renderizado usado por HunterPie. Software usará tu CPU para mostrar el overlay, Hardware usará tu tarjeta de video."/>
@@ -796,6 +816,12 @@
                      String="Mostrar vida del objetivo"
                      Description="Al activase, HunterPie mostrará la vida del monstruo principal en tu perfil de Discord."/>
             
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Hot Key] Activar el overlay"
+                     Description="Tecla de acceso rápido para activar y desactivar el overlay."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Activar el overlay"
+                     Description="Al activarse, HunterPie mostrará el overlay.&#10;NOTE: esta configuración no anula la configuración para deshabilitar widgets individuales."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Activar modo de diseño"
                      Description="Tecla usada para activar y desactivar el modo de diseño."/>
@@ -870,7 +896,7 @@
                      Description="Nombre para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="Tamaño máximo"
-                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>>
+                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="Filtrar por"
                      Description="Selecciona el tipo de filtrado para los efectos."/>
@@ -901,6 +927,12 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="Mostrar gráfica de DPS"
                      Description="Al activarse, la gráfica de DPS será visible."/>
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
+                     String="Estrategia de calculo de DPS"
+                     Description="Determina la estrtegia que se usará para calcular el DPS.&#x0a;- RelativeToQuest: Uso del tiempo en expedición&#x0a;- RelativeToJoin: Uso del tiempo de cuando entra el jugador&#x0a;- RelativeToFirstHit: Uso del tiempo desde cuando el jugador golpea a los monstruos por primera vez"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
+                     String="Estrategia de trazado de daños"
+                     Description="Determina la estrategia que se usará para trazar el daño en el gráfico.&#x0a;- DamagePerSecond: se usará DPS para el gráfico&#x0a;- se usará el daño total para el gráfico"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="Mi color"
                      Description="El color con el que serás mostrado en el widget de daño."/>
@@ -921,23 +953,26 @@
                      Description="Al activarse, HunterPie mostrará el daño causado por los camaradas."/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Desarollo: Mock Monster widget"/>
+                     String="Desarollador: Mock de widget de monstruo"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Desarollo: Mock Damage Meter widget"/>
+                     String="Desarollador: Mock de widget de medidor de daño"/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Desarollo: Mock Abnormalities widget"/>
+                     String="Desarollador: Mock de widget de Anormalidades"/>
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Desarollo: Mock Wirebug widget"/>
+                     String="Desarollador: Mock widget de Cordóptero"/>
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Desarollo: Mock Activities widget"/>
+                     String="Desarollador: Mock de widget de Actividades"/>
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Desarollo: Mock Chat widget"/>
+                     String="Desarollador: Mock de widget de Chat"/>
+            <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="Desarrollador: Mock de widget de herramientas especializadas"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Desarollo: Poogie API Host"/>
+                     String="Desarollador: Huesped de la API Poogie"/>
               <Setting Id="DEV_LOG_LEVEL"
-                     String="Desarrollo: Nivel de registro"/>
+                     String="Desarrollador: Nivel de registro"/>
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="Developer: Nivel de trazador de representación de UI"/>
+                     String="Desarrollador: Nivel de trazador de representación de UI"/>
+            
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Activar respaldo de cuenta"
