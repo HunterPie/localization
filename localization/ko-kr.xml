@@ -169,7 +169,8 @@
         <Abnormality Id="ABNORMALITY_ICE" String="얼음속성 피해"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="번개속성 피해"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="용속성 피해"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="거품 상태"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="거품 상태 (소)"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="거품 상태 (대)"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="열상 상태"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="독기 침식 상태"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="광룡증 감염"/>

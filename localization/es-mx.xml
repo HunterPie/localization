@@ -29,7 +29,7 @@
             <Ailment Id="AILMENT_CLAWFLINCH" String="Derribo de garra"/>
             <Ailment Id="AILMENT_BANISHINGBALL" String="Cápsula de expulsion"/>
             <Ailment Id="STATUS_ENRAGE" String="Enfurecer"/>
-            <Ailment Id="STATUS_STEELFANG" String="Colmillos de acero"/>
+            <Ailment Id="AILMENT_STEELFANG" String="Colmillos de acero"/>
         </Rise>
     </Ailments>
     <Abnormalities>
