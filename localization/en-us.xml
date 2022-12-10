@@ -134,6 +134,7 @@
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Glutton"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Defender"/>
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Counterstrike"/>
@@ -169,6 +170,7 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Iceblight"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Thunderblight"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Dragonblight"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Minor Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Major Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Bleed"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>
