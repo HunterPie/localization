@@ -33,12 +33,12 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/>
             <Ailment Id="AILMENT_ELDERSEAL" String="Drachenältestensiegel"/>
             <Ailment Id="AILMENT_SMOKING" String="Rauchend"/>    <!-- Zu ergänzen/ausbessern -->
-            <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_FELYNETRAP" String="Felyne Falle"/>
             <Ailment Id="AILMENT_CLAW" String="Klammerklaue"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
-            <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
 
         </Rise>
     </Ailments>
@@ -154,9 +154,9 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Offensive Guard"/>
         <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Beschleunigung"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenalin"/>
-        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Coole Katze"/>   <!-- Zu ergänzen/ausbessern (MHR:World)-->
+        <Abnormality Id="ABNORMALITY_COOL_CAT" String="Coole Katze"/>
         <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostkunst"/>
-        <Abnormality Id="ABNORMALITY_COALESCENCE" String="Koaleszenz"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_COALESCENCE" String="Koaleszenz"/>
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Ausweich-Mantel +"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinitäts Steigerung"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Schleifer (S)"/>
