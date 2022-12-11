@@ -177,6 +177,7 @@
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="광룡증 감염"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="광룡증"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="실 속박 상태"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="흡혈"/>
     </Abnormalities>
     <Monsters>
         <Shared>
