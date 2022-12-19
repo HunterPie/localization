@@ -82,6 +82,7 @@
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="스태미나 회복 속도 UP"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="예리도 소비 경감"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="예리도 지속 회복"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="예리도 연장 효과"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="지형 대미지 무효"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="소리 방벽"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="기염의 선율"/>
