@@ -178,6 +178,7 @@
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="The Frenzy (Buildup)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="The Frenzy"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Webbed"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Leeched"/>
     </Abnormalities>
     <Monsters>
         <Shared>
