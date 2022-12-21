@@ -84,7 +84,7 @@
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="예리도 지속 회복"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="예리도 연장 효과"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="지형 대미지 무효"/>
-        <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="소리 방벽"/>
+        <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="날려 버리기 무효/소리 방벽"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="기염의 선율"/>
         <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="자기 강화 [속]&amp;회피 성능 UP"/>
         <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="속성계 효과 UP"/>
@@ -107,11 +107,11 @@
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="강주약"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="귀인의 가루"/>
         <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER" String="경화의 가루"/>
-        <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="자연 회복"/>
+        <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="자연 회복력 UP"/>
         <Abnormality Id="ABNORMALITY_REDLAMPSQUID" String="빨간 등불징어"/>
         <Abnormality Id="ABNORMALITY_YELLOWLAMPSQUID" String="노란 등불징어"/>
         <Abnormality Id="ABNORMALITY_GOURMET_FISH" String="잘 익은 생선"/>
-        <Abnormality Id="ABNORMALITY_IMMUNITY" String="상태이상 면역"/>
+        <Abnormality Id="ABNORMALITY_IMMUNITY" String="모든 상태 이상 무효"/>
         <Abnormality Id="ABNORMALITY_GO_FIGHT_WIN" String="응원 댄스"/>
         <Abnormality Id="ABNORMALITY_POWER_DRUM" String="강화북"/>
         <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="강화 포효"/>
@@ -157,12 +157,12 @@
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_POISON" String="독"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="맹독"/>
-        <Abnormality Id="ABNORMALITY_STUN" String="기절"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="기절/현기증"/>
         <Abnormality Id="ABNORMALITY_SLEEP" String="수면"/>
         <Abnormality Id="ABNORMALITY_PARALYSIS" String="마비"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="방어력 DOWN"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="모든 내성 DOWN"/>
-        <Abnormality Id="ABNORMALITY_STENCH" String="일부 아이템 사용 불가 상태"/>
+        <Abnormality Id="ABNORMALITY_STENCH" String="일부 아이템 사용 불가"/>
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="귀화 피해"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="폭파 피해"/>
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="강폭파 피해"/>
@@ -173,12 +173,12 @@
         <Abnormality Id="ABNORMALITY_DRAGON" String="용속성 피해"/>
         <Abnormality Id="ABNORMALITY_BUBBLES" String="거품 상태 (소)"/>
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="거품 상태 (대)"/>
-        <Abnormality Id="ABNORMALITY_BLEED" String="열상 상태"/>
+        <Abnormality Id="ABNORMALITY_BLEED" String="열상"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="독기 침식 상태"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="광룡증 감염"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="광룡증"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="실 속박 상태"/>
-        <Abnormality Id="ABNORMALITY_LEECHED" String="흡혈 상태"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="흡혈"/>
     </Abnormalities>
     <Monsters>
         <Shared>
