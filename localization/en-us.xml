@@ -82,6 +82,7 @@
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Stamina Recov. Up"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Sharpness Loss Reduced"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Sharpness Regeneration"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Sharpness Extension"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Env. Damage Negated"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Sonic Barrier"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Infernal Melody"/>
@@ -129,10 +130,12 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Ruby Wirebug"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Glutton"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Defender"/>
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Counterstrike"/>
@@ -168,12 +171,14 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Iceblight"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Thunderblight"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Dragonblight"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Minor Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Major Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Bleed"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="The Frenzy (Buildup)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="The Frenzy"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Webbed"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Leeched"/>
     </Abnormalities>
     <Monsters>
         <Shared>
