@@ -90,6 +90,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON" String="Драконья Порча"/>
         <Abnormality Id="ABNORMALITY_BUBBLES" String="Пузырек (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Пузырек (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Бешенство (Buildup)"/> <!-- Buildup needs to translate -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Бешенство"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_WEBBED" String="В паутине"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_LEECHED" String="Истощение"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->

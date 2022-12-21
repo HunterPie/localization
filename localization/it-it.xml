@@ -92,7 +92,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON" String="Malus da drago"/>
         <Abnormality Id="ABNORMALITY_BUBBLES" String="Bolla (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Bolla (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="The Frenzy (Buildup)"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Frenesia (Buildup)"/> <!-- Buildup needs to translate -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Frenesia"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_WEBBED" String="Tela di ragno"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_LEECHED" String="Drenaggio"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
