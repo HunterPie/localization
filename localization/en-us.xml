@@ -136,6 +136,8 @@
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Glutton"/>
         <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Defender"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="Dango Hunter"/>
+        <Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="Dango Connector"/>
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Counterstrike"/>

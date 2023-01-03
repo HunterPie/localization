@@ -136,6 +136,8 @@
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="경단 단기최면술"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="경단 배부름"/>
         <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="경단 방호술"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="경단 도주술"/>
+        <Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="경단 유대술"/>
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="불굴"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="역습"/>
