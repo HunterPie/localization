@@ -93,6 +93,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Ausdauererholung hoch"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Schärfeminderung reduziert"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Schärfe Regeneration"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Schärfeverlängerung"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Umgebungsschaden negiert"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Akkustische Barriere"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Höllenmelodie"/>
@@ -140,10 +141,12 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Rubin Seilkäfer"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Goldener Seilkäfer"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Miefnerz"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate-->
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Kraftprotz"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Verstärker"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Nimmersatt"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Verteidiger"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Stärken"/>       <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
@@ -179,12 +182,14 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Donnerpest"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Drachenpest"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Große Luftblasenpest"/> <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Blase (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 
     </Abnormalities>
     <Monsters>
