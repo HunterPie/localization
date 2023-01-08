@@ -81,8 +81,8 @@
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="Antigasto de resistencia++ (G)"/>
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Recuperación de resistencia+"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Pérdida afilado reducida"/>
-        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Regeneración de afilado"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Prolongación de afilado"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Regeneración de afilado"/> <!--They are fine, kisses <3-->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Prolongación de afilado"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Anula daño por entorno"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Barrera sónica"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Melodía infernal"/>
@@ -131,12 +131,12 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Cordoptero Rubí"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Cordoptero Dorado"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Odorodreja"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Inmunidad al furor"/> <!-- Look, I think that's the correct translation, I don't remember seeing this affliction in-game that often and the Spanish wiki sucks, so I say stick with it since it's understandable. -->
         
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango remolque"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango refuerzo"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango glotón"/>
-        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango defensor"/> <!-- Needs to review(Souce: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango defensor"/>
         
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortalecer"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Contraataque"/>
@@ -172,14 +172,14 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Plaga de agua"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Plaga de rayo"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Plaga de draco"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES" String="Burbuja (P) "/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Burbuja (G)"/> <!-- Needs to review(Souce: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Burbuja (P) "/> <!-- These are good too, more kisses <3 -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Burbuja (G)"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Sangrado"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Efluvio"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Furor (Apilado)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="Furor"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Enmarañado"/>
-        <Abnormality Id="ABNORMALITY_LEECHED" String="Drenaje"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Drenaje"/>
     </Abnormalities>
     <Monsters>
         <Shared>
