@@ -85,6 +85,7 @@
 		<Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="スタミナ回復速度UP"/>
 		<Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="切れ味消費軽減"/>
 		<Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="切れ味継続回復"/>
+		<Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="斬れ味延長効果"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 		<Abnormality Id="ABNORMALITY_ENV_NEG" String="地形ダメージ無効"/>
 		<Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="音の防壁"/>
 		<Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="気炎の旋律"/>
@@ -132,10 +133,12 @@
 		<Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="変幻翔蟲・紅"/>
 		<Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="変幻翔蟲・金"/>
 		<Abnormality Id="ABNORMALITY_STINKMINK" String="エンエンク"/>
+		<Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
 		
 		<Abnormality Id="ABNORMALITY_DANGO_BULKER" String="おだんごビルドアップ"/>
 		<Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="おだんご短期催眠術"/>
 		<Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="おだんご腹へらず"/>
+		<Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="おだんご防護術"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 		
 		<Abnormality Id="ABNORMALITY_FORTIFY" String="不屈"/>
 		<Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="逆襲"/>
@@ -170,12 +173,14 @@
 		<Abnormality Id="ABNORMALITY_ICE" String="氷属性やられ"/>
 		<Abnormality Id="ABNORMALITY_THUNDER" String="雷属性やられ"/>
 		<Abnormality Id="ABNORMALITY_DRAGON" String="龍属性やられ"/>
+		<Abnormality Id="ABNORMALITY_BUBBLES" String="泡状態【小】"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 		<Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="泡状態【大】"/>
 		<Abnormality Id="ABNORMALITY_BLEED" String="裂傷状態"/>
 		<Abnormality Id="ABNORMALITY_EFFLUVIA" String="瘴気侵蝕状態"/>
 		<Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂竜症【感染】"/>
 		<Abnormality Id="ABNORMALITY_FRENZY" String="狂竜症"/>
 		<Abnormality Id="ABNORMALITY_WEBBED" String="糸拘束状態"/>
+		<Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 	</Abnormalities>
 	<Monsters>
 		<Shared>

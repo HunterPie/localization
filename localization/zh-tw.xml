@@ -81,6 +81,8 @@
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="耐力消耗減少【大】"/>
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="耐力回復速度UP"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="銳利度消耗減輕"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="銳利度持續回復"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="延長銳利度"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="地形傷害無效"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="滑音節奏"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="氣焰的旋律"/>
@@ -126,10 +128,12 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="變幻翔蟲 紅"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="變幻翔蟲 金"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="臭臭鼬鼠"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="糰子鍛鍊"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="糰子短期催眠術"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="糰子不知飢"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="糰子防護術"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="不屈"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="逆襲"/>
@@ -159,12 +163,14 @@
         <Abnormality Id="ABNORMALITY_ICE" String="冰屬性異常"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="雷屬性異常"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="龍屬性異常"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="泡沫狀態【小】"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="泡沫狀態【大】"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="裂傷狀態"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="瘴氣侵蝕狀態"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂龍症（感染）"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍狀態"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="被網纏住"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
     </Abnormalities>
     <Monsters>
         <Shared>
