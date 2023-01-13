@@ -534,7 +534,26 @@
             <Stage Id="506" String="Seliana Room"/>
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="Empty"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="Plant Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="Plant Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="Fungi Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="Fungi Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="Bug/Honey Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="Bug/Honey Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="Growth Up (S)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="Growth Up (L)"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
