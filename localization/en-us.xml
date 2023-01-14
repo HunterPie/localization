@@ -163,7 +163,6 @@
         <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
         <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
 
-
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
         <Abnormality Id="ABNORMALITY_STUN_BUILDUP" String="Stun (Buildup)"/>
