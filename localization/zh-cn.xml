@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!--
-Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Discord联系Neo#1234~ -->
-
+<!--Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Discord联系Neo#1234~ -->
+<!--二次补充翻译by 繁吹雨#6321 -->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -95,6 +94,80 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
             <Part Id="PART_H_LEG" String="后肢"/>
             <Part Id="PART_ANTENNA" String="触角"/>
         </Shared>
+        <World>
+            <Monster Id="0" String="蛮颚龙"/>
+            <Monster Id="1" String="火龙"/>
+            <Monster Id="4" String="熔山龙"/>
+            <Monster Id="7" String="大贼龙"/>
+            <Monster Id="9" String="雌火龙"/>
+            <Monster Id="10" String="樱火龙"/>
+            <Monster Id="11" String="苍火龙"/>
+            <Monster Id="12" String="角龙"/>
+            <Monster Id="13" String="黑角龙"/>
+            <Monster Id="14" String="麒麟"/>
+            <Monster Id="15" String="贝希摩斯"/>
+            <Monster Id="16" String="钢龙"/>
+            <Monster Id="17" String="炎妃龙"/>
+            <Monster Id="18" String="炎王龙"/>
+            <Monster Id="19" String="熔岩龙"/>
+            <Monster Id="20" String="恐暴龙"/>
+            <Monster Id="21" String="土砂龙"/>
+            <Monster Id="22" String="爆锤龙"/>
+            <Monster Id="23" String="鹿首精"/>
+            <Monster Id="24" String="毒妖鸟"/>
+            <Monster Id="25" String="灭尽龙"/>
+            <Monster Id="26" String="冥灯龙"/>
+            <Monster Id="27" String="搔鸟"/>
+            <Monster Id="28" String="眩鸟"/>
+            <Monster Id="29" String="泥鱼龙"/>
+            <Monster Id="30" String="飞雷龙"/>
+            <Monster Id="31" String="浮空龙"/>
+            <Monster Id="32" String="风漂龙"/>
+            <Monster Id="33" String="大痹贼龙"/>
+            <Monster Id="34" String="惨爪龙"/>
+            <Monster Id="35" String="骨锤龙"/>
+            <Monster Id="36" String="尸套龙"/>
+            <Monster Id="37" String="岩贼龙"/>
+            <Monster Id="38" String="绚辉龙"/>
+            <Monster Id="39" String="爆鳞龙"/>
+            <Monster Id="51" String="古代鹿首精"/>
+            <Monster Id="61" String="轰龙"/>
+            <Monster Id="62" String="迅龙"/>
+            <Monster Id="63" String="冰牙龙"/>
+            <Monster Id="64" String="惶怒恐暴龙"/>
+            <Monster Id="65" String="碎龙"/>
+            <Monster Id="66" String="斩龙"/>
+            <Monster Id="67" String="硫斩龙"/>
+            <Monster Id="68" String="雷颚龙"/>
+            <Monster Id="69" String="水妖鸟"/>
+            <Monster Id="70" String="歼世灭尽龙"/>
+            <Monster Id="71" String="痹毒龙"/>
+            <Monster Id="72" String="浮眠龙"/>
+            <Monster Id="73" String="霜翼风漂龙"/>
+            <Monster Id="74" String="凶爪龙"/>
+            <Monster Id="75" String="雾瘴尸套龙"/>
+            <Monster Id="76" String="红莲爆鳞龙"/>
+            <Monster Id="77" String="冰鱼龙"/>
+            <Monster Id="78" String="猛牛龙"/>
+            <Monster Id="79" String="冰呪龙"/>
+            <Monster Id="80" String="溟波龙"/>
+            <Monster Id="81" String="天地煌啼龙"/>
+            <Monster Id="87" String="煌黑龙"/>
+            <Monster Id="88" String="金火龙"/>
+            <Monster Id="89" String="银火龙"/>
+            <Monster Id="90" String="黑狼鸟"/>
+            <Monster Id="91" String="金狮子"/>
+            <Monster Id="92" String="激昂金狮子"/>
+            <Monster Id="93" String="黑轰龙"/>
+            <Monster Id="94" String="雷狼龙"/>
+            <Monster Id="95" String="狱狼龙"/>
+            <Monster Id="96" String="猛爆碎龙"/>
+            <Monster Id="97" String="冥赤龙"/>
+            <Monster Id="98" String="木人桩"/>
+            <Monster Id="99" String="战痕黑狼鸟"/>
+            <Monster Id="100" String="霜刃冰牙龙"/>
+            <Monster Id="101" String="黑龙"/>
+        </World>
         <Rise>
             <Monster Id="0" String="雌火龙"/>
             <Monster Id="1" String="霸主·雌火龙"/>
@@ -209,7 +282,7 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
             <Tab Id="DISCORD_STRING"
                  String="Discord"/>
             <Tab Id="PATCH_NOTES_STRING"
-                 String="更新说明"/>
+                 String="更新日志"/>
             <Tab Id="PLUGINS_STRING"
                  String="插件"/>
             <Tab Id="SETTINGS_STRING"
@@ -226,7 +299,29 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                      String="HunterPie检测到一个可用更新！"/>
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
                      String="配置："/>
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="(需要重启客户端)"/>
         </Generics>
+        <Dialogs>
+            <Dialog Id="UPDATE_TITLE_STRING"
+                    String="更新"/>
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="v{Latest}版本可用&#x0a;是否更新?"/>
+            <Dialog Id="CONFIRMATION_TITLE_STRING"
+                    String="注意"/>
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="你确定要删除{Item}吗?"/>
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
+                    String="你确认要退出HunterPie吗?"/>
+
+            <Button Id="ACCEPT_STRING"
+                  String="确认"/>
+            <Button Id="REJECT_STRING"
+                  String="拒绝"/>
+            <Button Id="CANCEL_STRING"
+                  String="取消"/>
+        </Dialogs>
+
         <Integrations>
             <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
                      String="{Character} | HR: {HighRank}"/>
@@ -258,20 +353,26 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                      String="客户端"
                      Description="客户端选项"/>
             <Setting Id="DISCORD_RPC_STRING"
-                     String="Discord展示界面"
-                     Description="Discord Rich Presence configurations"/>
+                     String="Discord动态选项"
+                     Description="设置discord的在线动态"/>
             <Setting Id="OVERLAY_STRING"
-                     String="嵌入界面"
-                     Description="嵌入界面选项"/>
+                     String="覆盖层"
+                     Description="覆盖层选项"/>
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="怪物组件"
-                     Description="嵌入界面选项"/>					 
+                     Description="覆盖层选项"/>		
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="玩家组件"
+                     Description="覆盖层选项"/>
+            <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="衣装组件"
+                     Description="覆盖层选项"/>	         				 
             <Setting Id="DEV_TOOLS_STRING"
                      String="开发者工具"
-                     Description="嵌入界面选项"/>
+                     Description="覆盖层选项"/>
             <Setting Id="ABNORMALITY_TRAY_STRING"
-                     String="增减益状态组件"
-                     Description="增减益状态组件选项"/>
+                     String="状态配置组件"
+                     Description="状态配置组件选项"/>
             <Setting Id="WIREBUG_WIDGET_STRING"
                      String="翔虫组件"
                      Description="翔虫组件选项"/>
@@ -284,6 +385,13 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
             <Setting Id="CHAT_WIDGET_STRING"
                      String="聊天组件"
                      Description="聊天组件选项"/>
+
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
+                     String="DPS计时方式"
+                     Description="决定DPS开始计时的时间"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
+                     String="输出统计方式"
+                     Description="决定伤害输出的统计方式"/>
                      
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="歌曲BUFF"
@@ -333,7 +441,7 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                              String="启用本机模块（请仔细阅读描述）"
                              Description="开启后，HunterPie 会应用游戏补丁以启用某些功能（例如自由探索中的伤害统计）。&#10;如果启用此选项时尚未安装前置mod“Stracker's Loader”和CRC禁用mod“Performance Booster and Plugin Extender”，在长时间运行过程中，游戏可能会崩溃。&#10;需要重启游戏使得设置生效。"/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
-                             String="与游戏一起退出"
+                             String="游戏退出时自动关闭"
                              Description="开启后, 当游戏关闭时，HunterPie会自动关闭。"/>
             <Setting Id="RENDERING_FPS_STRING"
                      String="渲染帧数"
@@ -349,49 +457,59 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                      Description="开启后， HunterPie将可以启用还在开发中的功能。"/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
-                     String="开启Discord展示界面"
-                     Description="开启后，HunterPie会在你的Discord状态中显示你的怪物猎人动态。"/>
+                     String="开启Discord内游戏动态"
+                     Description="开启后，HunterPie会在你的Discord状态中显示你当前的游戏动态。"/>
             <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO"
                      String="显示角色信息"
                      Description="开启后，HunterPie会在Discord状态中显示你角色的名字和最高HR等级。"/>
             <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH"
                      String="显示目标怪物信息"
                      Description="开启后，HunterPie会在Discord状态中显示你当前怪物的生命值。"/>
-                     
+
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[快捷键] 覆盖层开关"
+                     Description="设置一个快捷键来开启或关闭覆盖"/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="启用覆盖"
+                     Description="如果启用，HunterPie将覆盖当前显示。&#10;注意:此设置不会覆盖单独组件的设置。"/>         
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[按键] 开启组件移动模式"
-                     Description="设置一个按键来开启和关闭组件移动模式。"/>
+                     String="[快捷键] 开启组件拖动模式"
+                     Description="设置一个快捷键来开启和关闭组件拖动模式。"/>
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
-                     String="游戏不是焦点时隐藏组件"
+                     String="切出游戏界面时隐藏组件"
                      Description="开启后, 如果游戏不是当前主窗口，则会自动隐藏所有组件。"/>
                      
             <Setting Id="INITIALIZE_WIDGET_STRING"
                      String="初始化组件"
-                     Description="开启后,，Hunterpie会一直初始化这个组件。如果你不想要这个组件，请关闭此选项。"/>
+                     Description="开启后,，Hunterpie会一直初始化这个组件。如果你不想使用这个组件，请关闭此选项。"/>
             <Setting Id="ENABLE_WIDGET_STRING"
                      String="显示组件"
-                     Description="开启后， 只要有可显示的数据，HunterPie就会一直显示这个组件。"/>
+                     Description="开启后， 只要有可显示的数据，HunterPie就会持续显示这个组件。"/>
             <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
-                     String="当游戏界面显示时自动隐藏"
-                     Description="开启后, 若游戏界面显示（比如帐篷中、与NPC对话、任务结束窗口等等）HunterPie 会自动隐藏此组件。"/>
+                     String="当游戏UI显示时自动隐藏"
+                     Description="开启后, 若游戏本身的UI界面为显示状态（比如帐篷中、与NPC对话、任务结束窗口等等）HunterPie 会自动隐藏此组件。"/>
             <Setting Id="WIDGET_POSITION"
-                     String="组件位置"
-                     Description="按“ScrollLock”键进入组件移动模式。（以后可以自定义此按键）。"/>
+                     String="组件坐标"
+                     Description="按“ScrollLock”键可进行拖动。（可自定义按键）。"/>
+            
             <Setting Id="WIDGET_OPACITY"
-                     String="组件不透明度"
-                     Description="调整这个组件的不透明度。"/>
+                     String="组件透明度"
+                     Description="调整当前组件的透明度。"/>
             <Setting Id="WIDGET_SCALE"
                      String="组件比例"
-                     Description="控制这个组件的线性比例，数值越高，组件就越大。"/>
+                     Description="线性调整当前组件的比例，组件大小随数值的变化而变化。"/>
             <Setting Id="ORIENTATION_STRING"
-                     String="生长方向"
-                     Description="此组件的生长方向。"/>
+                     String="排列方式"
+                     Description="修改当前组件的排列方式。"/>
+            <Setting Id="THEME_STRING"
+                     String="主题"
+                     Description="HunterPie当前使用的主题"/>
                      
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
-                     String="只显示当前目标"
-                     Description="开启后, HunterPie 将只显示你的当前怪物。"/>
+                     String="只显示当前狩猎目标"
+                     Description="开启后, HunterPie 将只显示你的当前狩猎怪物。"/>
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="开启怪物耐力条"
+                     String="显示怪物耐力值"
                      Description="开启后， HunterPie在怪物的血量条下方显示怪物的耐力条。"/>
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="怪物组件最大宽度"
@@ -400,17 +518,17 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                      String="怪物组件最小宽度"
                      Description="控制怪物生命条的最小宽度。"/>
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="启用怪物部位"
+                     String="显示怪物部位信息"
                      Description="开启后，HunterPie会显示怪物部位。"/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
-                     String="自动隐藏怪物部位"
-                     Description="开启后，不活跃的怪物部位将在X秒后隐藏。"/>
+                     String="自动隐藏怪物部位信息"
+                     Description="开启后，不活跃的怪物部位信息将在X秒后隐藏。"/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
-                     String="延迟隐藏不活跃部位"
+                     String="延迟隐藏不活跃部位信息"
                      Description="不活跃的怪物部位将延迟后隐藏。"/>
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="开启怪物状态"
-                     Description="开启后，怪物的状态将被显示。"/>
+                     String="显示怪物状态"
+                     Description="开启后，显示怪物的状态。"/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
                      String="自动隐藏怪物状态"
                      Description="开启后，不活跃的怪物状态将在X秒后隐藏。"/>
@@ -419,23 +537,23 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
                      Description="不活跃的怪物状态将延迟后隐藏。"/>
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
                      String="动态调整怪物组件大小"
-                     Description="开启后, HunterPie 会根据当前可视怪物生命条多少来调整所有怪物的血条大小。"/>
+                     Description="开启后, HunterPie 会根据当前可视怪物生命条多少来调整所有怪物的组件大小。"/>
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
                      String="隐藏怪物的未知部位"
-                     Description="开启后, HunterPie 会隐藏未知部位 (被标记为 &quot;???&quot;)。"/>
+                     Description="开启后, HunterPie会隐藏未知的部位信息 (被标记为 &quot;???&quot;)。"/>
                      
             <Setting Id="ABNORMALITY_TRAYS_STRING"
-                     String="增减益状态栏"
+                     String="状态配置栏"
                      Description="配置增减益状态组件。"/>
             <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
-                     String="增减益状态组件名称"
+                     String="状态配置栏名称"
                      Description="为这个状态组件命名。"/>
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
-                     String="最大大小"
+                     String="组件大小"
                      Description="这列增减益状态组件的最大大小。"/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
-                     String="排列方式"
-                     Description="选择所有增减益状态的排序方式。"/>
+                     String="排序方式"
+                     Description="选择所有状态的排序方式。"/>
 
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
                      String="修复游戏中的翔虫瞄准系统"
@@ -482,5 +600,33 @@ Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Dis
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="Developer: API Host测试"/>
         </Settings>
+        <Enums>
+            <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
+                  String="倒序"/>
+            <Enum Id="SORT_BY_HIGHEST_TIMER_STRING"
+                  String="正序"/>
+            <Enum Id="SORT_BY_DISABLED_STRING"
+                  String="失效顺序"/>
+
+            <Enum Id="ORIENTATION_HORIZONTAL_STRING"
+                  String="水平"/>
+            <Enum Id="ORIENTATION_VERTICAL_STRING"
+                  String="垂直"/>
+
+            <Enum Id="RELATIVE_TO_QUEST_STRING"
+                  String="从接取任务开始"/>
+            <Enum Id="RELATIVE_TO_JOIN_STRING"
+                  String="从参加任务开始"/>
+            <Enum Id="RELATIVE_TO_FIRST_HIT_STRING"
+                  String="从第一次伤害开始"/>
+
+            <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
+                  String="总输出"/>
+            <Enum Id="PLOT_DPS_STRING"
+                  String="每秒输出"/>
+            
+            
+
+        </Enums>
     </Client>
 </Strings>
