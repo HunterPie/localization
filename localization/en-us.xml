@@ -940,9 +940,15 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Show Meowcenaries"
                      Description="If enabled, HunterPie will show Meowcenaries's data."/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="Show Cohoot Nest"
-                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="Show Harvest Box"
+                     Description="If enabled, HunterPie will show Harvest Box's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Show Steamworks"
+                     Description="If enabled, HunterPie will show Steamwork's data."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Show Steamworks"
+                     Description="If enabled, HunterPie will show Steamwork's data."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Highlight myself"
