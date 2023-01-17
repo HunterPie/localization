@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Discord联系Neo#1234~ -->
-<!--二次补充翻译by 繁吹雨#6321,添加了世界的怪物汉化和部分客户端汉化 -->
+<!--二次补充翻译by 繁吹雨#6321 -->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -302,6 +302,26 @@
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(需要重启客户端)"/>
         </Generics>
+        <Dialogs>
+            <Dialog Id="UPDATE_TITLE_STRING"
+                    String="更新"/>
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="v{Latest}版本可用&#x0a;是否更新?"/>
+            <Dialog Id="CONFIRMATION_TITLE_STRING"
+                    String="注意"/>
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="你确定要删除{Item}吗?"/>
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
+                    String="你确认要退出HunterPie吗?"/>
+
+            <Button Id="ACCEPT_STRING"
+                  String="确认"/>
+            <Button Id="REJECT_STRING"
+                  String="拒绝"/>
+            <Button Id="CANCEL_STRING"
+                  String="取消"/>
+        </Dialogs>
+
         <Integrations>
             <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
                      String="{Character} | HR: {HighRank}"/>
