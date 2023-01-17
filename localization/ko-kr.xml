@@ -165,7 +165,6 @@
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
-        <Abnormality Id="ABNORMALITY_STUN_BUILDUP" String="기절 (누적치)"/>
         <Abnormality Id="ABNORMALITY_POISON" String="독"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="맹독"/>
         <Abnormality Id="ABNORMALITY_STUN" String="기절/현기증"/>

@@ -165,7 +165,6 @@
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
-        <Abnormality Id="ABNORMALITY_STUN_BUILDUP" String="Stun (Buildup)"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Poison"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Venom"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Stun"/>
@@ -543,6 +542,7 @@
             <Stage Id="506" String="Seliana Room"/>
         </World>
     </Stages>
+
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
                     String="Empty"/>
