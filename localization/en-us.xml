@@ -947,9 +947,6 @@
             <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
                      String="Show Steamworks"
                      Description="If enabled, HunterPie will show Steamwork's data."/>
-            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
-                     String="Show Steamworks"
-                     Description="If enabled, HunterPie will show Steamwork's data."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Highlight myself"
