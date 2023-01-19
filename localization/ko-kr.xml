@@ -543,7 +543,6 @@
             <Stage Id="506" String="조사 거점의 마이하우스"/>
         </World>
     </Stages>
-
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
                     String="비료 없음"/>
@@ -568,23 +567,24 @@
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="동반자"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="부스트:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="특훈:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="조사 단계:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="결과:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="동반자:"/>
-
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="카무라 둥지: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="엘가도 둥지: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="일"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="퀘스트"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -951,7 +951,13 @@
                      Description="옵션 활성화 시, HunterPie가 동반자 그림자 부대의 정보를 표시합니다."/>
             <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
                      String="복부엉의 둥지 표시"
-                     Description="옵션 활성화 시, HunterPie가 복부엉의 둥지의 정보를 표시합니다."/>
+                     Description="옵션 활성화 시, HunterPie가 복부엉의 둥지 정보를 표시합니다."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="수확 BOX 표시"
+                     Description="옵션 활성화 시, HunterPie가 수확 BOX의 정보를 표시합니다."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="증기기관 표시"
+                     Description="옵션 활성화 시, HunterPie가 증기기관의 정보를 표시합니다."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="자신 강조하기"
