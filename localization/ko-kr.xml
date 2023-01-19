@@ -155,8 +155,16 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="달인의 연통"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="연마술[예]"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="교격"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="도전자"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="현여반석"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="강심 (누적치)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="재난대처능력"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="완전 충전"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="용기 활성"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="풍전"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
         <Abnormality Id="ABNORMALITY_POISON" String="독"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="맹독"/>
         <Abnormality Id="ABNORMALITY_STUN" String="기절/현기증"/>
@@ -536,6 +544,26 @@
         </World>
     </Stages>
 
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="비료 없음"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="풀/열매 수확량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="풀/열매 수확량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="버섯 수확량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="버섯 수확량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="벌레/벌꿀량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="벌레/벌꿀량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="성장력 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="성장력 UP [대]"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"

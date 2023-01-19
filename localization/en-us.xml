@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Strings lang="English">
     <Ailments>
         <Rise>
@@ -155,8 +155,16 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinity Booster"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Grinder (S)"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenaline Rush"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="Agitator"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="Defiance"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="Interpid Heart (Buildup)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="Heroics"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Poison"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Venom"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Stun"/>
