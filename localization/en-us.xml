@@ -534,28 +534,48 @@
             <Stage Id="506" String="Seliana Room"/>
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="Empty"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="Plant Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="Plant Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="Fungi Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="Fungi Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="Bug/Honey Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="Bug/Honey Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="Growth Up (S)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="Growth Up (L)"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="Otomos"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Boosts:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="Rounds:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="Step:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="Outcome:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
-            
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Kamura Nest: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="Elgado Nest: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="days"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="quests"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -921,9 +941,12 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Show Meowcenaries"
                      Description="If enabled, HunterPie will show Meowcenaries's data."/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="Show Cohoot Nest"
-                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="Show Harvest Box"
+                     Description="If enabled, HunterPie will show Harvest Box's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Show Steamworks"
+                     Description="If enabled, HunterPie will show Steamwork's data."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Highlight myself"
