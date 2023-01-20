@@ -163,6 +163,10 @@
         <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="완전 충전"/>
         <Abnormality Id="ABNORMALITY_DRAGONHEART" String="용기 활성"/>
         <Abnormality Id="ABNORMALITY_WINDMANTLE" String="풍전"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="분진전 (적)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="분진전 (청)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="분투 (소)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="분투 (대)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>

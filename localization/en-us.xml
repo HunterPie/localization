@@ -163,6 +163,10 @@
         <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
         <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
         <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Powder Mantle (Red)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Powder Mantle (Blue)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Strife (S)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Strife (L)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
