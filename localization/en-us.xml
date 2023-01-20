@@ -131,6 +131,7 @@
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Health Regeneration (Bleed)"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
