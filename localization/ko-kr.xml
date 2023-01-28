@@ -494,7 +494,7 @@
             <Stage Id="6" String="관측 거점 엘가도"/>
             <Stage Id="7" String="엘가도의 마이룸"/>
             <Stage Id="11" String="엘가도의 기사단 지휘소"/>
-            <Stage Id="199" String="캐릭터 선택 화면"/>
+            <Stage Id="199" String="게임 데이터 선택"/>
             <Stage Id="201" String="사원 폐허"/>
             <Stage Id="202" String="모래 평원"/>
             <Stage Id="203" String="수몰된 숲"/>
