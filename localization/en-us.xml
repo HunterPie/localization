@@ -167,6 +167,8 @@
         <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Powder Mantle (Blue)"/>
         <Abnormality Id="ABNORMALITY_STRIFE_S" String="Strife (S)"/>
         <Abnormality Id="ABNORMALITY_STRIFE_L" String="Strife (L)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Maximum Might"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Berserk"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>

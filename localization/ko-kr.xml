@@ -167,6 +167,8 @@
         <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="분진전 (청)"/>
         <Abnormality Id="ABNORMALITY_STRIFE_S" String="분투 (소)"/>
         <Abnormality Id="ABNORMALITY_STRIFE_L" String="분투 (대)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="혼신"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="광화"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
