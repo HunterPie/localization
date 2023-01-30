@@ -1025,6 +1025,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="게임 저장 백업 활성화"
                      Description="옵션 활성화 시, HunterPie가 자동으로 당신의 게임 저장을 백업하고 클라우드에 업로드합니다."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="사냥 통계 업로드 활성화"
+                     Description="옵션 활성화 시, HunterPie가 당신의 사냥 통계를 업로드합니다."/>
         </Settings>
     </Client>
 </Strings>
