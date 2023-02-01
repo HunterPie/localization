@@ -104,7 +104,7 @@
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="그물잠자리"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="인내씨앗"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="하얀천나비"/>
-        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="강주약"/>
+        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="스태미나 소비 경감"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="귀인의 가루"/>
         <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER" String="경화의 가루"/>
         <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="자연 회복력 UP"/>
