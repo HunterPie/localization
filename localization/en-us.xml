@@ -131,6 +131,7 @@
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Health Regeneration (Bleed)"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
@@ -162,6 +163,13 @@
         <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
         <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
         <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Powder Mantle (Red)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Powder Mantle (Blue)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Strife (S)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Strife (L)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Maximum Might"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Berserk"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Status Trigger"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
