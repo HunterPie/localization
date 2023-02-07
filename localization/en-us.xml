@@ -1024,6 +1024,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Enable game save backup"
                      Description="If enabled, HunterPie will automatically backup your game saves and upload them to the cloud."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Enable hunt upload"
+                     Description="If enabled, HunterPie will upload the statistics of your hunts."/>
         </Settings>
     </Client>
 </Strings>
