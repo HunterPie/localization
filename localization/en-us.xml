@@ -408,6 +408,7 @@
             <Monster Id="108" String="Risen Chameleos"/>
             <Monster Id="109" String="Risen Teostra"/>
             <Monster Id="113" String="Chaotic Gore Magala"/>
+            <Monster Id="114" String="Velkhana"/>
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
