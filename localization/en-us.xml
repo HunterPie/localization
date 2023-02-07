@@ -407,6 +407,7 @@
             <Monster Id="107" String="Risen Kushala Daora"/>
             <Monster Id="108" String="Risen Chameleos"/>
             <Monster Id="109" String="Risen Teostra"/>
+            <Monster Id="111" String="Risen Crimson Glow Valstrax"/>
             <Monster Id="113" String="Chaotic Gore Magala"/>
             <Monster Id="114" String="Velkhana"/>
         </Rise>
