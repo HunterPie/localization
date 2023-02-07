@@ -40,6 +40,8 @@
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Усиление выносливости"/>
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Улучш. восст. выносливости"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Замедление затупления"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Регенерация остроты"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Увеличение шкалы остроты"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Отмена урона окружением"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Звуковой барьер"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Дьявольская мелодия"/>
@@ -62,10 +64,12 @@
         <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Воодушевляющий рев"/>
         <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Демон. снаряды"/>
         <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Защитные снаряды"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
         
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Данго-пижон"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Данго-усилитель"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Данго-обжора"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Данго-защитник"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Контрудар"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Скрытая энергия"/>
@@ -84,7 +88,12 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Ледяная Порча"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Грозовая Порча"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Драконья Порча"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Пузырь"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Пузырек (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Пузырек (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Бешенство (Buildup)"/> <!-- Buildup needs to translate -->
+        <Abnormality Id="ABNORMALITY_FRENZY" String="Бешенство"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_WEBBED" String="В паутине"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Истощение"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
     </Abnormalities>
     <Monsters>
         <Shared>
