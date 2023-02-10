@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Strings lang="English">
     <Ailments>
         <Rise>
@@ -29,7 +29,7 @@
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/>
             <Ailment Id="AILMENT_BANISHINGBALL" String="Banishing Ball"/>
             <Ailment Id="STATUS_ENRAGE" String="Enrage"/>
-            <Ailment Id="STATUS_STEELFANG" String="Steel Fang"/>
+            <Ailment Id="AILMENT_STEELFANG" String="Steel Fang"/>
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -82,6 +82,7 @@
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Stamina Recov. Up"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Sharpness Loss Reduced"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Sharpness Regeneration"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Sharpness Extension"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Env. Damage Negated"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Sonic Barrier"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Infernal Melody"/>
@@ -129,10 +130,15 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Ruby Wirebug"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Health Regeneration (Bleed)"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Glutton"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Defender"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="Dango Hunter"/>
+        <Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="Dango Connector"/>
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortify"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Counterstrike"/>
@@ -149,8 +155,24 @@
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Evasion Mantle (Atk)"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinity Booster"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Grinder (S)"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenaline Rush"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="Agitator"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="Defiance"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="Interpid Heart (Buildup)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="Heroics"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Powder Mantle (Red)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Powder Mantle (Blue)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Strife (S)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Strife (L)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Maximum Might"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Berserk"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Status Trigger"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Poison"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Venom"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Stun"/>
@@ -167,12 +189,14 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Iceblight"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Thunderblight"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Dragonblight"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Minor Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Major Bubbleblight"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Bleed"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="The Frenzy (Buildup)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="The Frenzy"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Webbed"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Leeched"/>
     </Abnormalities>
     <Monsters>
         <Shared>
@@ -380,7 +404,12 @@
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
             <Monster Id="98" String="Flaming Espinas"/>
+            <Monster Id="107" String="Risen Kushala Daora"/>
             <Monster Id="108" String="Risen Chameleos"/>
+            <Monster Id="109" String="Risen Teostra"/>
+            <Monster Id="111" String="Risen Crimson Glow Valstrax"/>
+            <Monster Id="113" String="Chaotic Gore Magala"/>
+            <Monster Id="114" String="Velkhana"/>
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -523,28 +552,48 @@
             <Stage Id="506" String="Seliana Room"/>
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="Empty"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="Plant Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="Plant Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="Fungi Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="Fungi Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="Bug/Honey Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="Bug/Honey Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="Growth Up (S)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="Growth Up (L)"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="Otomos"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Boosts:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="Rounds:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="Step:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="Outcome:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
-            
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Kamura Nest: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="Elgado Nest: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="days"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="quests"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -812,6 +861,12 @@
                      String="Show target monster health"
                      Description="If enabled, HunterPie will display the target monster's health in your Discord status when available."/>
 
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Hot Key] Toggle overlay"
+                     Description="Hot Key to toggle the overlay on and off."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Enable overlay"
+                     Description="If enabled, HunterPie will display the overlay.&#10;NOTE: This setting does not override the setting to disable individual widgets."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Toggle Design Mode"
                      Description="Hot Key to toggle design mode on and off."/>
@@ -904,9 +959,12 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Show Meowcenaries"
                      Description="If enabled, HunterPie will show Meowcenaries's data."/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="Show Cohoot Nest"
-                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="Show Harvest Box"
+                     Description="If enabled, HunterPie will show Harvest Box's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Show Steamworks"
+                     Description="If enabled, HunterPie will show Steamwork's data."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Highlight myself"
@@ -967,6 +1025,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Enable game save backup"
                      Description="If enabled, HunterPie will automatically backup your game saves and upload them to the cloud."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Enable hunt upload"
+                     Description="If enabled, HunterPie will upload the statistics of your hunts."/>
         </Settings>
     </Client>
 </Strings>

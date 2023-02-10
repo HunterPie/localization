@@ -19,7 +19,7 @@
             <Ailment Id="AILMENT_DUNG" String="Bomba boñiga"/>
             <Ailment Id="AILMENT_TRANQUILIZE" String="Tranquilizar"/>
             <Ailment Id="AILMENT_KNOCKDOWN" String="Derribo"/>
-            <Ailment Id="AILMENT_SHOCKTRAP" String="Trampa électrica"/>
+            <Ailment Id="AILMENT_SHOCKTRAP" String="Trampa eléctrica"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="Trampa de escollo"/>
             <Ailment Id="AILMENT_VINETRAP" String="Trampa de enredaderas"/>
             <Ailment Id="AILMENT_ELDERSEAL" String="Sello de ancianos"/>
@@ -27,9 +27,9 @@
             <Ailment Id="AILMENT_FELYNETRAP" String="Trampa felyne"/>
             <Ailment Id="AILMENT_CLAW" String="Garra retráctil"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Derribo de garra"/>
-            <Ailment Id="AILMENT_BANISHINGBALL" String="Cápsula de expulsion"/>
+            <Ailment Id="AILMENT_BANISHINGBALL" String="Cápsula de expulsión"/>
             <Ailment Id="STATUS_ENRAGE" String="Enfurecer"/>
-            <Ailment Id="STATUS_STEELFANG" String="Colmillos de acero"/>
+            <Ailment Id="AILMENT_STEELFANG" String="Colmillos de acero"/>
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -53,7 +53,7 @@
         <Abnormality Id="ABNORMALITY_EARPLUG" String="Antirrugidos (P)"/>
         <Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="Antirrugidos (G)"/>
         <Abnormality Id="ABNORMALITY_TREMORS_NEG" String="Anula temblores"/>
-        <Abnormality Id="ABNORMALITY_DEEP_RESISTANCE" String="Resistancia a Fango/Agua/Nieve"/>
+        <Abnormality Id="ABNORMALITY_DEEP_RESISTANCE" String="Resistencia a Fango/Agua/Nieve"/>
         <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE" String="Bonus resistencia al fuego (P)"/>
         <Abnormality Id="ABNORMALITY_FIRE_RESISTANCE_L" String="Bonus resistencia al fuego (G)"/>
         <Abnormality Id="ABNORMALITY_WATER_RESISTANCE" String="Bonus resistencia al agua (P)"/>
@@ -81,6 +81,8 @@
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L" String="Antigasto de resistencia++ (G)"/>
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Recuperación de resistencia+"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Pérdida afilado reducida"/>
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Regeneración de afilado"/> <!--They are fine, kisses <3-->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Prolongación de afilado"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Anula daño por entorno"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Barrera sónica"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Melodía infernal"/>
@@ -88,7 +90,7 @@
         <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="Bono de eficacia elemental"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Melodía infernal"/>
         
-        <Abnormality Id="ABNORMALITY_RESUSCITATE" String="Bono Evasion/Resistencia"/>
+        <Abnormality Id="ABNORMALITY_RESUSCITATE" String="Bono Evasión/Resistencia"/>
         <Abnormality Id="ABNORMALITY_WINDPROOF" String="Antiviento"/>
         
         <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="Semilla de poder"/>
@@ -129,13 +131,16 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Cordoptero Rubí"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Cordoptero Dorado"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Odorodreja"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Inmunidad al furor"/> <!-- Look, I think that's the correct translation, I don't remember seeing this affliction in-game that often and the Spanish wiki sucks, so I say stick with it since it's understandable. -->
         
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango remolque"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango refuerzo"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango glotón"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango defensor"/>
         
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortalecer"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Contraataque"/>
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Ráfaga"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Poder latente"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Afinidad deslizante"/>
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Acabado protector"/>
@@ -148,9 +153,13 @@
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Manto de evasión (Atq)"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Potenciador de afinidad"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Acabado protector"/>
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Subida de adrenalina"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Plaga sangrienta"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Veneno"/>
+        <Abnormality Id="ABNORMALITY_STUN" String="Aturdimiento"/>
+        <Abnormality Id="ABNORMALITY_SLEEP" String="Sueño"/>
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="Parálisis"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Veneno letal"/>
         <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Defensa-"/>
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="Resistencia-"/>
@@ -163,16 +172,19 @@
         <Abnormality Id="ABNORMALITY_ICE" String="Plaga de agua"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Plaga de rayo"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Plaga de draco"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Plaga de burbujas fuerte"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Burbuja (P) "/> <!-- These are good too, more kisses <3 -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Burbuja (G)"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Sangrado"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Efluvio"/>
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Furor (Apilado)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="Furor"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Enmarañado"/>
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Drenaje"/>
     </Abnormalities>
     <Monsters>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
+            <Part Id="PART_TO_BE_MAPPED" String="Desconocido"/>
             <Part Id="PART_HEAD" String="Cabeza"/>
             <Part Id="PART_TORSO" String="Torso"/>
             <Part Id="PART_L_WING" String="Ala izquierda"/>
@@ -210,11 +222,14 @@
             <Part Id="PART_LEGS" String="Piernas"/>
             <Part Id="PART_SHELL" String="Caparazon"/>
             <Part Id="PART_CLAW" String="Garra"/>
+            <Part Id="PART_R_CLAW" String="Garra Der."/>
+            <Part Id="PART_L_CLAW" String="Garra Izq."/>
             <Part Id="PART_L_FORELEG" String="Pata delantera izquierda"/>
             <Part Id="PART_R_FORELEG" String="Pata delantera derecha"/>
             <Part Id="PART_L_H_LEG" String="Pata trasera izquierda"/>
             <Part Id="PART_R_H_LEG" String="Pata trasera derecha"/>
-            <Part Id="PART_CHEST" String="Abdomen"/>
+            <Part Id="PART_ABDOMEN" String="Abdomen"/>
+            <Part Id="PART_CHEST" String="Pecho"/>
             <Part Id="PART_TAIL_TIP" String="Punta de la cola"/>
             <Part Id="PART_MUD_BALL" String="Bola lodosa"/>
             <Part Id="PART_LOWER_TORSO" String="Torso inferior"/>
@@ -258,8 +273,8 @@
             <Part Id="PART_EXHAUST_ORGAN_CRATER" String="Núcleo de magma (Crater)"/>
             <Part Id="PART_EXHAUST_ORGAN_REAR" String="Núcleo de magma (Trasero)"/>
             <Part Id="PART_REPEL" String="Repeler"/>
-            <Part Id="PART_WEAK_L_SHELL" String="Caparazón debil izquierdo"/>
-            <Part Id="PART_WEAK_R_SHELL" String="Caparazón debil derecho"/>
+            <Part Id="PART_WEAK_L_SHELL" String="Caparazón débil izquierdo"/>
+            <Part Id="PART_WEAK_R_SHELL" String="Caparazón débil derecho"/>
             <Part Id="PART_BALLOON" String="Globo"/>
             <Part Id="PART_SKY_FALL" String="Caída del cielo"/>
             <Part Id="PART_L_BONE" String="Hueso izquierdo"/>
@@ -372,7 +387,10 @@
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
             <Monster Id="98" String="Espinas Llameante"/>
+            <Monster Id="107" String="Kushala Daora Elevado"/>
             <Monster Id="108" String="Chameleos Elevado"/>
+            <Monster Id="109" String="Teostra Elevado"/>
+            <Monster Id="113" String="Gore Magala Caótico"/>
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -451,6 +469,7 @@
     </Monsters>
     <Stages>
         <Rise>
+            <Stage Id="-2" String="Pantalla de carga"/>
             <Stage Id="-1" String="Menú principal"/>
             <Stage Id="0" String="Aldea"/>
             <Stage Id="1" String="Habitación"/>
@@ -463,7 +482,7 @@
             <Stage Id="11" String="Puesto de Mando"/>
             <Stage Id="199" String="Seleccion de personaje"/>
             <Stage Id="201" String="Templo olvidado"/>
-            <Stage Id="202" String="Lannos arenosos"/>
+            <Stage Id="202" String="Llanos arenosos"/>
             <Stage Id="203" String="Bosque inundado"/>
             <Stage Id="204" String="Islas heladas"/>
             <Stage Id="205" String="Grutas de lava"/>
@@ -593,6 +612,8 @@
                      String="Cazando {Monster}"/>
             <Discord Id="DRPC_STATE_MAIN_MENU"
                      String="En el menú principal"/>
+            <Discord Id="DRPC_STATE_LOADING"
+                     String="En la pantalla de carga"/>
             <Discord Id="DRPC_STATE_IDLE"
                      String="Descansando"/>
             <Discord Id="DRPC_STATE_EXPLORING"
@@ -620,51 +641,51 @@
 
             <!-- Poogie Integration -->
             <Poogie Id="ERROR_INVALID_USERNAME"
-                    String="!Nombre de usuario no valido!"/>
+                    String="¡Nombre de usuario no válido!"/>
             <Poogie Id="ERROR_INVALID_PASSWORD"
-                    String="Contraseña no valida, debe contener al menos 8 caracteres!"/>
+                    String="Contraseña no válida, debe contener al menos 8 caracteres!"/>
             <Poogie Id="ERROR_INVALID_EMAIL"
-                    String="Correo no valido!"/>
+                    String="¡Correo no válido!"/>
             <Poogie Id="ERROR_INVALID_CREDENTIALS"
                     String="No se ha encontrado ninguna cuenta con ese nombre de usuario o contraseña."/>
             <Poogie Id="ERROR_USER_NOT_FOUND"
-                    String="Uhmmm... No se ha encontrado ese usuario!"/>
+                    String="Uhmmm... ¡No se ha encontrado ese usuario!"/>
             <Poogie Id="ERROR_USER_ALREADY_EXISTS"
-                    String="Ya hay un usuario con ese correo!"/>
+                    String="¡Ya hay un usuario con ese correo!"/>
             <Poogie Id="ERROR_UNVERIFIED_ACCOUNT"
                     String="La cuenta debe ser verificada, por favor revisa el correo ingresado, incluso en la carpeta de spam."/>
             <Poogie Id="INVALID_IMAGE"
                     String="El archivo no es una formato de imagen aceptado!"/>
             <Poogie Id="FAILED_TO_UPDATE_AVATAR"
-                    String="La carga de la imagen falló, por favor intentanlo nuevamente en unos minutos."/>
+                    String="La carga de la imagen falló, por favor inténtalo nuevamente en unos minutos."/>
             <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE"
                     String="La imagen no pudo ser subida, el archivo pesaba mas de 3.5 MB."/>
             <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE"
-                    String="El codigo de reinicio de contraseña no es valido o ya ha expirado."/>
+                    String="El código de reinicio de contraseña no es válido o ya ha expirado."/>
             <Poogie Id="ERROR_GENERIC"
-                    String="Vaya... Algo salio mal. Intentalo nuevamente en unos minutos!"/>
+                    String="Vaya... Algo salió mal. Inténtalo nuevamente en unos minutos!"/>
 
             <Poogie Id="LOGIN_SUCCESS"
-                    String="Bienvenido {Username}! Ahora ya estas conectado."/>
+                    String="¡Bienvenido {Username}! Ahora ya estás conectado."/>
             <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
-                    String="La verificación de cuenta será enviada a {Email} dentro de poco. Por favor asegurate de revisar tu bandeja de entrada y carpeta de spam!"/>
+                    String="La verificación de cuenta será enviada a {Email} dentro de poco. Por favor asegúrate de revisar tu bandeja de entrada y carpeta de spam!"/>
             <Poogie Id="AVATAR_UPLOAD_SUCCESS"
                     String="Nueva imagen de usuario subida"/>
 
             <Poogie Id="BACKUP_NOT_ENABLED_STRING"
-                    String="Al parecer no tienes el respaldo automatico activado.&#10;Puedes activarlo en la configuración de la cuenta."/>
+                    String="Al parecer no tienes el respaldo automático activado.&#10;Puedes activarlo en la configuración de la cuenta."/>
             <Poogie Id="BACKUP_NOT_FOUND_STRING"
                     String="No tienes respaldos."/>
             <Poogie Id="PASSWORD_RESET_EMAIL_STRING"
-                    String="Un email será enviado a {Email} con el codigo de reinicio de contraseña."/>
+                    String="Un email será enviado a {Email} con el código de reinicio de contraseña."/>
             <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
                     String="La contraseña ha sido cambiada exitosamente."/>
         </Integrations>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
-                  String="Mas bajo"/>
+                  String="Más bajo"/>
             <Enum Id="SORT_BY_HIGHEST_TIMER_STRING"
-                  String="Mas alto"/>
+                  String="Más alto"/>
             <Enum Id="SORT_BY_DISABLED_STRING"
                   String="Sin ordenar"/>
 
@@ -703,7 +724,7 @@
                      Description="Ajustes del widget de monstruo"/>
             <Setting Id="WIREBUG_WIDGET_STRING"
                      String="Widget de cordoptero"
-                     Description="Ajustes del widget de cordopteros"/>
+                     Description="Ajustes del widget de cordópteros"/>
             <Setting Id="ACTIVITIES_WIDGET_STRING"
                      String="Widget de actividad"
                      Description="Ajustes del widget de actividad"/>
@@ -716,6 +737,9 @@
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="Herramientas especializadas"
                      Description="Ajuste de Herramientas especializadas"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="Widget del HUD del jugador"
+                     Description="Ajuste de HUD del jugador"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="Herramientas de desarollador"
                      Description="Herramientas avanzadas"/>
@@ -766,9 +790,15 @@
             <Setting Id="SEAMLESS_SHUTDOWN_STRING"
                      String="Activar salida rápida"
                      Description="Al activarse, HunterPie se cerrará sin pedir confirmación."/>
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING"
+                     String="Activar modulo nativo (Lea la descripción cuidadosamente)"
+                     Description="Al activarse, HunterPie parcheará el juego para habilitar algunas funciones (p. ej., medidor de daño durante la expedición). Si no tiene los mods [Stracker's Loader] y [Performance Booster y Plugin Extender] (CRCBypass), esta opción puede bloquear el juego durante períodos prolongados de juego. Es necesario reiniciar el juego para que surta efecto."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Salir al cerrarse el juego"
                      Description="Al activarse, HunterPie se cerrará automáticamente cuando el juego lo haga."/>
+            <Setting Id="RENDERING_FPS_STRING"
+                     String="Velocidad de fotogramas de renderizado"
+                     Description="La velocidad de fotogramas de procesamiento de HunterPie, cuanto más alta, más fluidas serán las animaciones. Reducir esta configuración debería aumentar el rendimiento."/>
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Método de renderizado"
                      Description="El método de renderizado usado por HunterPie. Software usará tu CPU para mostrar el overlay, Hardware usará tu tarjeta de video."/>
@@ -790,8 +820,14 @@
                      Description="Al activarse, HunterPie mostrará el nombre de tu personaje y su Rango de Cazador en tu perfil de Discord."/>
             <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH"
                      String="Mostrar vida del objetivo"
-                     Description="Al activase, HunterPie mostrará la vida del monstruo principal en tu perfil de Discord."/>
+                     Description="Al activarse, HunterPie mostrará la vida del monstruo principal en tu perfil de Discord."/>
             
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="[Hot Key] Activar el overlay"
+                     Description="Tecla de acceso rápido para activar y desactivar el overlay."/>
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Activar el overlay"
+                     Description="Al activarse, HunterPie mostrará el overlay.&#10;NOTE: esta configuración no anula la configuración para deshabilitar widgets individuales."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Activar modo de diseño"
                      Description="Tecla usada para activar y desactivar el modo de diseño."/>
@@ -832,7 +868,7 @@
                      Description="Controla el ancho máximo de la barra de vida de los monstruos."/>
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Ancho mínimo de la barra de vida"
-                     Description="Controla el ancho mínimo de la barra de vida de los monstruos. El ancho seleccionado será utilizado para calcular el tamaño dinmaico en caso de que la opción este activada."/>
+                     Description="Controla el ancho mínimo de la barra de vida de los monstruos. El ancho seleccionado será utilizado para calcular el tamaño dinámico en caso de que la opción este activada."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
                      String="Activar partes de monstruos"
                      Description="Al activarse, las partes de los monstruos serán mostradas"/>
@@ -852,7 +888,7 @@
                      String="Retraso para ocultar estados alterados"
                      Description="Retraso para ocultar un estado alterado inactivo."/>
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
-                     String="Ajuste dínamico de barra de vida"
+                     String="Ajuste dinámico de barra de vida"
                      Description="Al activarse, HunterPie ajustará automáticamente el tamaño de las barras de vida dependiendo de los monstruos disponibles."/>
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
                      String="Ocultar partes desconocidas"
@@ -866,14 +902,14 @@
                      Description="Nombre para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="Tamaño máximo"
-                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>>
+                     Description="Ajusta el tamaño máximo para esta bandeja de efectos."/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="Filtrar por"
                      Description="Selecciona el tipo de filtrado para los efectos."/>
 
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
-                     String="Arreglo de la punteria de cordopteros"
-                     Description="Al activarse, HunterPie arreglará la visualización de puntería de cordopteros para que no se oculte al desactivar la visualización de elementos de cordopteros en las opciones del juego."/>
+                     String="Arreglo de la punteria de cordópteros"
+                     Description="Al activarse, HunterPie arreglará la visualización de puntería de cordópteros para que no se oculte al desactivar la visualización de elementos de cordópteros en las opciones del juego."/>
 
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="Mostrar el Argosy"
@@ -897,6 +933,12 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="Mostrar gráfica de DPS"
                      Description="Al activarse, la gráfica de DPS será visible."/>
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
+                     String="Estrategia de calculo de DPS"
+                     Description="Determina la estrategia que se usará para calcular el DPS.&#x0a;- RelativeToQuest: Uso del tiempo en expedición&#x0a;- RelativeToJoin: Uso del tiempo de cuando entra el jugador&#x0a;- RelativeToFirstHit: Uso del tiempo desde cuando el jugador golpea a los monstruos por primera vez"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
+                     String="Estrategia de trazado de daños"
+                     Description="Determina la estrategia que se usará para trazar el daño en el gráfico.&#x0a;- DamagePerSecond: se usará DPS para el gráfico&#x0a;- se usará el daño total para el gráfico"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="Mi color"
                      Description="El color con el que serás mostrado en el widget de daño."/>
@@ -917,27 +959,30 @@
                      Description="Al activarse, HunterPie mostrará el daño causado por los camaradas."/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Desarollo: Mock Monster widget"/>
+                     String="Desarollador: Mock de widget de monstruo"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Desarollo: Mock Damage Meter widget"/>
+                     String="Desarollador: Mock de widget de medidor de daño"/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Desarollo: Mock Abnormalities widget"/>
+                     String="Desarollador: Mock de widget de Anormalidades"/>
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Desarollo: Mock Wirebug widget"/>
+                     String="Desarollador: Mock widget de Cordóptero"/>
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Desarollo: Mock Activities widget"/>
+                     String="Desarollador: Mock de widget de Actividades"/>
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Desarollo: Mock Chat widget"/>
+                     String="Desarollador: Mock de widget de Chat"/>
+            <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="Desarrollador: Mock de widget de herramientas especializadas"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Desarollo: Poogie API Host"/>
+                     String="Desarollador: Huesped de la API Poogie"/>
               <Setting Id="DEV_LOG_LEVEL"
-                     String="Desarrollo: Nivel de registro"/>
+                     String="Desarrollador: Nivel de registro"/>
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="Developer: Nivel de trazador de representación de UI"/>
+                     String="Desarrollador: Nivel de trazador de representación de UI"/>
+            
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Activar respaldo de cuenta"
-                     Description="Al activarse, HunterPie respaldará automaticamente tus estados de guardado y los subirá a la nube."/>
+                     Description="Al activarse, HunterPie respaldará automáticamente tus estados de guardado y los subirá a la nube."/>
         </Settings>
     </Client>
 </Strings>
