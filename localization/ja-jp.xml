@@ -173,6 +173,7 @@
         <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="渾身"/>
         <Abnormality Id="ABNORMALITY_BERSERK" String="狂化"/>
         <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="状態異常確定蓄積"/>
+	<Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="龍気変換(全属性耐性UP)"/>
 
 		<Abnormality Id="ABNORMALITY_BLOOD" String="劫血やられ"/>
 		<Abnormality Id="ABNORMALITY_PRE_SLEEP" String="睡魔"/>
