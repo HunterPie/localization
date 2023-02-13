@@ -172,6 +172,7 @@
         <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Status Trigger"/>
         <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="Dragon Conversion (All Res. Up)"/>
         <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="Wall Runner (Attack UP)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="Embolden"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
