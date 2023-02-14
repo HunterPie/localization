@@ -171,6 +171,9 @@
         <Abnormality Id="ABNORMALITY_BERSERK" String="광화"/>
         <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="상태 이상 확정 축적"/>
         <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="용기 변환 (모든 속성 내성치 UP)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="벽면 이동 (공격력 UP)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="선위"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="강룡의 혼"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
