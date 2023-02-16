@@ -174,6 +174,7 @@
         <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="벽면 이동 (공격력 UP)"/>
         <Abnormality Id="ABNORMALITY_EMBOLDEN" String="선위"/>
         <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="강룡의 혼"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="향응"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
