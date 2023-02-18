@@ -103,6 +103,7 @@
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Butterflame"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Cutterfly"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Adamant Seed"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="Adamant Pill"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Clothfly"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Dash Juice"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Demon Powder"/>
@@ -176,6 +177,10 @@
         <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="Kushala Daora Soul"/>
         <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="Furious (Fury Buildup)"/>
         <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="Furious (Infinite Stamina)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="Spiribird's Call"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Dereliction (S)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Dereliction (M)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Dereliction (L)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
