@@ -175,6 +175,9 @@
         <Abnormality Id="ABNORMALITY_EMBOLDEN" String="선위"/>
         <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="강룡의 혼"/>
         <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="향응"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="복마향명 (소)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="복마향명 (중)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="복마향명 (대)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
