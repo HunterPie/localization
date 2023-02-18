@@ -103,6 +103,7 @@
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Butterflame"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Cutterfly"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Adamant Seed"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="Adamant Pill"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Clothfly"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Dash Juice"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Demon Powder"/>
