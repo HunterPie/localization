@@ -182,7 +182,7 @@
         <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Dereliction (S)"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Dereliction (M)"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Dereliction (L)"/>
-        <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostcraft"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="Frostcraft"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
