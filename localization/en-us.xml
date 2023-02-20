@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8" ?>
 <Strings lang="English">
     <Ailments>
         <Rise>
@@ -103,6 +103,7 @@
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Butterflame"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Cutterfly"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Adamant Seed"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="Adamant Pill"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Clothfly"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Dash Juice"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Demon Powder"/>
@@ -131,6 +132,7 @@
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Gold Wirebug"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Stinkmink"/>
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Health Regeneration (Bleed)"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Bulker"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Booster"/>
@@ -155,8 +157,33 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinity Booster"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Grinder (S)"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenaline Rush"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="Agitator"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="Defiance"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="Interpid Heart (Buildup)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="Heroics"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Dragonheart"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind Mantle"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Powder Mantle (Red)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Powder Mantle (Blue)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Strife (S)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Strife (L)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Maximum Might"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Berserk"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Status Trigger"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="Dragon Conversion (All Res. Up)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="Wall Runner (Attack UP)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="Embolden"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="Kushala Daora Soul"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="Furious (Fury Buildup)"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="Furious (Infinite Stamina)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="Spiribird's Call"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Dereliction (S)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Dereliction (M)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Dereliction (L)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Poison"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Venom"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Stun"/>
@@ -391,7 +418,9 @@
             <Monster Id="107" String="Risen Kushala Daora"/>
             <Monster Id="108" String="Risen Chameleos"/>
             <Monster Id="109" String="Risen Teostra"/>
+            <Monster Id="111" String="Risen Crimson Glow Valstrax"/>
             <Monster Id="113" String="Chaotic Gore Magala"/>
+            <Monster Id="114" String="Velkhana"/>
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -534,28 +563,48 @@
             <Stage Id="506" String="Seliana Room"/>
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="Empty"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="Plant Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="Plant Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="Fungi Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="Fungi Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="Bug/Honey Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="Bug/Honey Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="Growth Up (S)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="Growth Up (L)"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="Otomos"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Boosts:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="Rounds:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="Step:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="Outcome:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
-            
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Kamura Nest: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="Elgado Nest: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="days"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="quests"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -921,9 +970,12 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Show Meowcenaries"
                      Description="If enabled, HunterPie will show Meowcenaries's data."/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="Show Cohoot Nest"
-                     Description="If enabled, HunterPie will show Cohoot's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="Show Harvest Box"
+                     Description="If enabled, HunterPie will show Harvest Box's nest data."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Show Steamworks"
+                     Description="If enabled, HunterPie will show Steamwork's data."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Highlight myself"
@@ -984,6 +1036,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Enable game save backup"
                      Description="If enabled, HunterPie will automatically backup your game saves and upload them to the cloud."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Enable hunt upload"
+                     Description="If enabled, HunterPie will upload the statistics of your hunts."/>
         </Settings>
     </Client>
 </Strings>

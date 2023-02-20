@@ -104,7 +104,7 @@
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="그물잠자리"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="인내씨앗"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="하얀천나비"/>
-        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="강주약"/>
+        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="스태미나 소비 경감"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="귀인의 가루"/>
         <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER" String="경화의 가루"/>
         <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="자연 회복력 UP"/>
@@ -131,6 +131,7 @@
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="변환밧줄벌레-금"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="연기 족제비"/>
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="광격화"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="열상 회복"/>
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="경단 벌크업"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="경단 단기최면술"/>
@@ -155,8 +156,33 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="달인의 연통"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="연마술[예]"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="교격"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="도전자"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="현여반석"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="강심 (누적치)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="재난대처능력"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="완전 충전"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="용기 활성"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="풍전"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="분진전 (적)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="분진전 (청)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="분투 (소)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="분투 (대)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="혼신"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="광화"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="상태 이상 확정 축적"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="용기 변환 (모든 속성 내성치 UP)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="벽면 이동 (공격력 UP)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="선위"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="강룡의 혼"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="격앙 (분노 누적치)"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="격앙 (스태미나 소비 무효)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="향응"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="복마향명 (소)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="복마향명 (중)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="복마향명 (대)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
         <Abnormality Id="ABNORMALITY_POISON" String="독"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="맹독"/>
         <Abnormality Id="ABNORMALITY_STUN" String="기절/현기증"/>
@@ -391,7 +417,9 @@
             <Monster Id="107" String="괴이 극복 크샬다오라"/>
             <Monster Id="108" String="괴이 극복 오나즈치"/>
             <Monster Id="109" String="괴이 극복 테오-테스카토르"/>
+            <Monster Id="111" String="괴이 극복 영묘한 광채의 발파루크"/>
             <Monster Id="113" String="혼돈에 신음하는 고어-마가라"/>
+            <Monster Id="114" String="이베르카나"/>
         </Rise>
         <World>
             <Monster Id="0" String="안쟈나프"/>
@@ -481,7 +509,7 @@
             <Stage Id="6" String="관측 거점 엘가도"/>
             <Stage Id="7" String="엘가도의 마이룸"/>
             <Stage Id="11" String="엘가도의 기사단 지휘소"/>
-            <Stage Id="199" String="캐릭터 선택 화면"/>
+            <Stage Id="199" String="게임 데이터 선택"/>
             <Stage Id="201" String="사원 폐허"/>
             <Stage Id="202" String="모래 평원"/>
             <Stage Id="203" String="수몰된 숲"/>
@@ -535,28 +563,48 @@
             <Stage Id="506" String="조사 거점의 마이하우스"/>
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="비료 없음"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="풀/열매 수확량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="풀/열매 수확량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="버섯 수확량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="버섯 수확량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="벌레/벌꿀량 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="벌레/벌꿀량 UP [대]"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="성장력 UP [소]"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="성장력 UP [대]"/>
+    </Fertilizers>
     <Client>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="동반자"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="부스트:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="특훈:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="조사 단계:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="결과:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="동반자:"/>
-
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="카무라 둥지: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="엘가도 둥지: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="일"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="퀘스트"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -923,7 +971,13 @@
                      Description="옵션 활성화 시, HunterPie가 동반자 그림자 부대의 정보를 표시합니다."/>
             <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
                      String="복부엉의 둥지 표시"
-                     Description="옵션 활성화 시, HunterPie가 복부엉의 둥지의 정보를 표시합니다."/>
+                     Description="옵션 활성화 시, HunterPie가 복부엉의 둥지 정보를 표시합니다."/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="수확 BOX 표시"
+                     Description="옵션 활성화 시, HunterPie가 수확 BOX의 정보를 표시합니다."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="증기기관 표시"
+                     Description="옵션 활성화 시, HunterPie가 증기기관의 정보를 표시합니다."/>
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="자신 강조하기"
@@ -984,6 +1038,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="게임 저장 백업 활성화"
                      Description="옵션 활성화 시, HunterPie가 자동으로 당신의 게임 저장을 백업하고 클라우드에 업로드합니다."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="사냥 통계 업로드 활성화"
+                     Description="옵션 활성화 시, HunterPie가 당신의 사냥 통계를 업로드합니다."/>
         </Settings>
     </Client>
 </Strings>
