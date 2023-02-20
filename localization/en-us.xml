@@ -175,12 +175,14 @@
         <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="Wall Runner (Attack UP)"/>
         <Abnormality Id="ABNORMALITY_EMBOLDEN" String="Embolden"/>
         <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="Kushala Daora Soul"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="Chameleos Soul"/>
         <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="Furious (Fury Buildup)"/>
         <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="Furious (Infinite Stamina)"/>
         <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="Spiribird's Call"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Dereliction (S)"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Dereliction (M)"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Dereliction (L)"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Frostcraft"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Bloodblight"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sleep"/>
