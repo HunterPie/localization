@@ -132,11 +132,14 @@
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Cordoptero Dorado"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Odorodreja"/>
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Inmunidad al furor"/> <!-- Look, I think that's the correct translation, I don't remember seeing this affliction in-game that often and the Spanish wiki sucks, so I say stick with it since it's understandable. -->
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Regeneración de salud (Sangrado)"/>
         
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango remolque"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango refuerzo"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango glotón"/>
         <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango defensor"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="Dango cazador"/>
+        <Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="Dango conector"/>
         
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Fortalecer"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Contraataque"/>
@@ -154,8 +157,33 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Potenciador de afinidad"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Acabado protector"/>
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Subida de adrenalina"/>
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="Instigador"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="Rebeldía"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="Corazón intrepido (Carga)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="Heroicidad"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Plena forma"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Corazón de dragón"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Manto de viento"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Manto de polvo (Rojo)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Manto de polvo (Azul)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Pugna (P)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Pugna (G)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Afinidad"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Frenético"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Activa estados"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="Conversión de draco (Todas las Res. +)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="Correparedes (Ataque +)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="Enardecer"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="Bendición de Kushala Daora"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="Rabioso (Carga)"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="Rabioso (Aguante infinito)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="Llamada del animave"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Descuido (P)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Descuido (M)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Descuido (G)"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="Plaga sangrienta"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="Pre-Sueño"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Veneno"/>
         <Abnormality Id="ABNORMALITY_STUN" String="Aturdimiento"/>
         <Abnormality Id="ABNORMALITY_SLEEP" String="Sueño"/>
@@ -344,7 +372,7 @@
             <Monster Id="24" String="Volvidon"/>
             <Monster Id="25" String="Mizutsune"/>
             <Monster Id="26" String="Mizutsune Apex"/>
-            <Monster Id="27" String="Valstrax Carmesi"/>
+            <Monster Id="27" String="Valstrax Carmesí"/>
             <Monster Id="28" String="Magnamalo"/>
             <Monster Id="29" String="Bishaten"/>
             <Monster Id="30" String="Aknosom"/>
@@ -389,8 +417,10 @@
             <Monster Id="98" String="Espinas Llameante"/>
             <Monster Id="107" String="Kushala Daora Elevado"/>
             <Monster Id="108" String="Chameleos Elevado"/>
+            <Monster Id="111" String="Valstrax Carmesí Elevado"/>
             <Monster Id="109" String="Teostra Elevado"/>
             <Monster Id="113" String="Gore Magala Caótico"/>
+            <Monster Id="114" String="Velkhana"/>
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -533,28 +563,48 @@
             <Stage Id="506" String="Habitación de Seliana"/>
         </World>
     </Stages>
-
+<Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="Vacio"/>
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="Mejora de cosecha de plantas (P)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="Mejora de cosecha de plantas (G)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="Mejora de cosecha de hongos (P)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="Mejora de cosecha de hongos (G)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="Mejora de cosecha de miel (P)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="Mejora de cosecha de miel (G)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="Mejora de crecimiento (P)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="Mejora de crecimiento (G)"/>
+    </Fertilizers>
     <Client>
     <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="Camaradas"/>
-
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Mejoras:"/>
             <String Id="TRAINING_DOJO_ROUNDS_STRING"
                     String="Rondas:"/>
-
             <String Id="MEOWCENARIES_STEP_STRING"
                     String="Etapas:"/>
             <String Id="MEOWCENARIES_OUTCOME_STRING"
                     String="Recompensas:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Compañeros:"/>
-            
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Nido de Kamura: "/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="Nido de Elgado: "/>
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="días"/>
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="misiones"/>
         </Overlay>
         <Tabs>
             <Tab Id="CONSOLE_STRING"
@@ -920,9 +970,12 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="Mostrar Miaurcenarios"
                      Description="Al activarse, HunterPie mostrara la información de los miaurcenarios."/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
                      String="Mostrar nido de Bubo"
-                     Description="Al activarse, HunterPie mostrara la información de los nidos de Bubo."/>		 
+                     Description="Al activarse, monstrará la información de los nidos de Bubo."/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Monstrar Steamworks"
+                     Description="Al activarse, HunterPie mostrará la información de Steamwork."/>		 
 
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Resaltar al usuario"
@@ -983,6 +1036,10 @@
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Activar respaldo de cuenta"
                      Description="Al activarse, HunterPie respaldará automáticamente tus estados de guardado y los subirá a la nube."/>
+
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Activar carga de caza"
+                     Description="Al activarse, HunterPie subirá las estadisticas de tus cazas."/>    
         </Settings>
     </Client>
 </Strings>
