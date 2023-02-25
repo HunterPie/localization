@@ -17,7 +17,7 @@
             <Ailment Id="AILMENT_ICE" String="얼음속성 피해"/>
             <Ailment Id="AILMENT_THUNDER" String="번개속성 피해"/>
             <Ailment Id="AILMENT_DUNG" String="비료옥"/>
-            <Ailment Id="AILMENT_TRANQUILIZE" String="포획 마취"/>
+            <Ailment Id="AILMENT_TRANQUILIZE" String="마취"/>
             <Ailment Id="AILMENT_KNOCKDOWN" String="넘어짐"/>
             <Ailment Id="AILMENT_SHOCKTRAP" String="마비 덫"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="구멍 함정"/>
@@ -631,9 +631,9 @@
             <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
                      String="HunterPie가 최신 버전입니다!"/>
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
-                     String="HunterPie의 새로운 업데이트가 가능합니다!"/>
+                     String="HunterPie의 새로운 버전이 있습니다!"/>
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
-                     String="설정:"/>
+                     String="설정 중인 게임:"/>
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(다시 시작 필요)"/>
         </Generics>
@@ -641,7 +641,7 @@
             <Dialog Id="UPDATE_TITLE_STRING"
                     String="업데이트"/>
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
-                    String="v{Latest} 버전을 사용할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
+                    String="v{Latest} 버전으로 업데이트할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
             <Dialog Id="CONFIRMATION_TITLE_STRING"
                     String="확인"/>
             <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
@@ -778,8 +778,8 @@
                      String="밧줄벌레 위젯"
                      Description="밧줄벌레 위젯 설정"/>
             <Setting Id="ACTIVITIES_WIDGET_STRING"
-                     String="동반자 활동 위젯"
-                     Description="동반자 활동 위젯 설정"/>
+                     String="활동 위젯"
+                     Description="활동 위젯 설정"/>
             <Setting Id="METER_WIDGET_STRING"
                      String="대미지 미터 위젯"
                      Description="대미지 미터 위젯 설정"/>
@@ -913,7 +913,7 @@
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="몬스터 기력 활성화"
+                     String="몬스터 기력 표시"
                      Description="옵션 활성화 시, HunterPie는 몬스터의 체력 바 아래에 기력 바를 표시합니다."/>
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="몬스터 체력 바 최대 가로 길이"
@@ -922,7 +922,7 @@
                      String="몬스터 체력 바 최소 가로 길이"
                      Description="몬스터 체력 바의 최소 가로 폭을 설정합니다. 이 폭은 동적 크기 옵션을 사용 할 때 동적 크기 계산에 사용됩니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="몬스터 부위 체력 활성화"
+                     String="몬스터 부위 체력 표시"
                      Description="옵션 활성화 시, 몬스터의 부위 체력이 표시됩니다."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="몬스터 부위 체력 자동 숨기기"
@@ -931,7 +931,7 @@
                      String="미변동 부위 체력 숨기기 딜레이"
                      Description="몬스터의 부위 체력이 숨겨지기 전까지 걸리는 시간입니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="몬스터 상태 이상 표시 활성화"
+                     String="몬스터 상태 이상 표시"
                      Description="옵션 활성화 시, 몬스터에게 적용된 상태 이상 종류가 표시됩니다."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
                      String="몬스터 상태 이상 자동 숨기기"
@@ -960,8 +960,8 @@
                      Description="효과를 정렬하는 데 사용할 방법을 선택하세요."/>
 
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
-                     String="인-게임 밧줄벌레 조준 패치"
-                     Description="옵션 활성화 시, 인-게임 옵션에서 밧줄벌레 게이지 HUD를 비활성화 했을 때도 조준할 수 있도록 패치합니다."/>
+                     String="게임 내 밧줄벌레 조준 패치"
+                     Description="옵션 활성화 시, 게임 내 옵션에서 밧줄벌레 게이지 HUD를 비활성화 했을 때도 조준할 수 있도록 패치합니다."/>
 
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="교역선 표시"
