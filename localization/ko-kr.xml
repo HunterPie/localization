@@ -587,6 +587,35 @@
                     String="성장력 UP [대]"/>
     </Fertilizers>
     <Client>
+        <Main>
+        <!-- Hunt Export -->
+        <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+				String="사냥 기록" />
+        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+				String="당신의 계정은 최대 7일 이내의 기록으로 제한됩니다.&#xA;오래된 사냥 기록을 보려면 서포터가 되어 보세요!" />
+        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+				String="모든 사냥 기록에 접근하려면 티어 2 서포터로 업그레이드 하세요!" />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+				String=" 퀘스트 가져오는 중: {0}" />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+				String="사냥 기록을 가져오는 데 실패했습니다. 다시 시도해보세요." />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+				String="성공적으로 퀘스트를 불러왔습니다!" />
+        <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+				String="계정에서 사용할 수 있는 기간에 사용 가능한 사냥 기록이 없습니다." />
+        <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+				String="몬스터" />
+        <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+				String="사냥 세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+				String="상태 세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+				String="파티원" />
+        <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+				String="세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+				String="버프&amp;디버프" />
+        </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="동반자"/>
