@@ -826,6 +826,8 @@
                      String="Chaotic Gore Magala" />
             <Monster Id="114"
                      String="Velkhana" />
+            <Monster Id="115"
+                     String="Amatsu" />
         </Rise>
         <World>
             <Monster Id="0"
