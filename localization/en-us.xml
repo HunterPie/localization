@@ -820,6 +820,8 @@
                      String="Risen Chameleos" />
             <Monster Id="109"
                      String="Risen Teostra" />
+            <Monster Id="110"
+                     String="Risen Shagaru Magala" />
             <Monster Id="111"
                      String="Risen Crimson Glow Valstrax" />
             <Monster Id="113"
