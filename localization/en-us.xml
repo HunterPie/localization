@@ -407,6 +407,34 @@
                      String="Leeched" />
     </Abnormalities>
     <Monsters>
+        <Types>
+            <Type Id="TYPE_AERIAL"
+                  String="Aerial" />
+            <Type Id="TYPE_FLYING_WYVERN"
+                  String="Flying Wyvern" />
+            <Type Id="TYPE_BRUTE_WYVERN"
+                  String="Brute Wyvern" />
+            <Type Id="TYPE_FANGED_BEAST"
+                  String="Fanged Beast" />
+            <Type Id="TYPE_LEVIATHAN"
+                  String="Leviathan" />
+            <Type Id="TYPE_AQUATIC"
+                  String="Aquatic" />
+            <Type Id="TYPE_BIRD_WYVERN"
+                  String="Bird Wyvern" />
+            <Type Id="TYPE_FANGED_WYVERN"
+                  String="Fanged Wyvern" />
+            <Type Id="TYPE_ELDER_DRAGON"
+                  String="Elder Dragon" />
+            <Type Id="TYPE_AMPHIBIAN"
+                  String="Amphibian" />
+            <Type Id="TYPE_TEMNOCERAN"
+                  String="Temnoceran" />
+            <Type Id="TYPE_PISCINE_WYVERN"
+                  String="Piscine Wyvern" />
+            <Type Id="TYPE_CARAPACEON"
+                  String="Carapaceon" />
+        </Types>
         <Shared>
             <Part Id="PART_UNKNOWN"
                   String="???" />
