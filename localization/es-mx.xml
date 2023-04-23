@@ -233,6 +233,34 @@
                 <Abnormality Id="ABNORMALITY_LEECHED" String="Drenaje" />
         </Abnormalities>
         <Monsters>
+                <Types>
+                        <Type Id="TYPE_AERIAL"
+                                String="Aéreo" />
+                        <Type Id="TYPE_FLYING_WYVERN"
+                                String="Wyvern volador" />
+                        <Type Id="TYPE_BRUTE_WYVERN"
+                                String="Wyvern brutal" />
+                        <Type Id="TYPE_FANGED_BEAST"
+                                String="Bestia de colmillos" />
+                        <Type Id="TYPE_LEVIATHAN"
+                                String="Leviatán" />
+                        <Type Id="TYPE_AQUATIC"
+                                String="Acuático" />
+                        <Type Id="TYPE_BIRD_WYVERN"
+                                String="Wyvern pajaro" />
+                        <Type Id="TYPE_FANGED_WYVERN"
+                                String="Wyvern de colmillos" />
+                        <Type Id="TYPE_ELDER_DRAGON"
+                                String="Dragón anciano" />
+                        <Type Id="TYPE_AMPHIBIAN"
+                                String="Anfibio" />
+                        <Type Id="TYPE_TEMNOCERAN"
+                                String="Temnoceran" />
+                        <Type Id="TYPE_PISCINE_WYVERN"
+                                String="Wyvern nadador" />
+                        <Type Id="TYPE_CARAPACEON"
+                                String="Carapaceon" />
+                </Types>
                 <Shared>
                         <Part Id="PART_UNKNOWN" String="???" />
                         <Part Id="PART_TO_BE_MAPPED" String="Desconocido" />
@@ -610,33 +638,33 @@
         </Fertilizers>
         <Client>
                 <Main>
-                  <!-- Hunt Export -->
-                  <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
-                        String="Cacerías Exportadas" />
-                  <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
-                        String="Su cuenta está limitada a un máximo de 7 días de cacerías exportadas.&#xA;¡Conviértete en Patron para ver cacerías exportadas más antiguas!" />
-                  <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
-                        String="¡Actualice su cuenta al nivel 2 de Patron para tener acceso a todas las cacerías exportadas!" />
-                  <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
-                        String="Recuperando misión: {0}" />
-                  <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
-                        String="No se pudieron recuperar las cacerías exportadas. Vuelva a intentarlo más tarde." />
-                  <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
-                        String="Misión cargada exitosamente" />
-                  <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
-                        String="No se encontraron cacerías exportadas disponibles en el período disponible para su cuenta." />
-                  <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
-                        String="Monstruos" />
-                  <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
-                        String="Detalles de la cacería" />
-                  <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
-                        String="Detalles de estado" />
-                  <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
-                        String="Miembros del equipo" />
-                  <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
-                        String="Detalles" />
-                  <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
-                        String="Anormalidades" />
+                        <!-- Hunt Export -->
+                        <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+                                String="Cacerías Exportadas" />
+                        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+                                String="Su cuenta está limitada a un máximo de 7 días de cacerías exportadas.&#xA;¡Conviértete en Patron para ver cacerías exportadas más antiguas!" />
+                        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+                                String="¡Actualice su cuenta al nivel 2 de Patron para tener acceso a todas las cacerías exportadas!" />
+                        <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+                                String="Recuperando misión: {0}" />
+                        <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+                                String="No se pudieron recuperar las cacerías exportadas. Vuelva a intentarlo más tarde." />
+                        <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+                                String="Misión cargada exitosamente" />
+                        <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+                                String="No se encontraron cacerías exportadas disponibles en el período disponible para su cuenta." />
+                        <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+                                String="Monstruos" />
+                        <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+                                String="Detalles de la cacería" />
+                        <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+                                String="Detalles de estado" />
+                        <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+                                String="Miembros del equipo" />
+                        <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+                                String="Detalles" />
+                        <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+                                String="Anormalidades" />
                 </Main>
                 <Overlay>
                         <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
