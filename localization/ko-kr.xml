@@ -212,6 +212,34 @@
         <Abnormality Id="ABNORMALITY_LEECHED" String="흡혈"/>
     </Abnormalities>
     <Monsters>
+        <Types>
+            <Type Id="TYPE_AERIAL"
+                  String="공서계" />
+            <Type Id="TYPE_FLYING_WYVERN"
+                  String="비룡종" />
+            <Type Id="TYPE_BRUTE_WYVERN"
+                  String="수룡종" />
+            <Type Id="TYPE_FANGED_BEAST"
+                  String="아수종" />
+            <Type Id="TYPE_LEVIATHAN"
+                  String="해룡종" />
+            <Type Id="TYPE_AQUATIC"
+                  String="수서계" />
+            <Type Id="TYPE_BIRD_WYVERN"
+                  String="조룡종" />
+            <Type Id="TYPE_FANGED_WYVERN"
+                  String="아룡종" />
+            <Type Id="TYPE_ELDER_DRAGON"
+                  String="고룡종" />
+            <Type Id="TYPE_AMPHIBIAN"
+                  String="양서종" />
+            <Type Id="TYPE_TEMNOCERAN"
+                  String="협각종" />
+            <Type Id="TYPE_PISCINE_WYVERN"
+                  String="어룡종" />
+            <Type Id="TYPE_CARAPACEON"
+                  String="갑각종" />
+        </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_TO_BE_MAPPED" String="알 수 없음"/>
