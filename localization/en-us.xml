@@ -406,7 +406,7 @@
         <Abnormality Id="ABNORMALITY_LEECHED"
                      String="Leeched" />
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT"
-                     String="Heaven Sent" />
+                     String="Heaven-Sent" />
     </Abnormalities>
     <Monsters>
         <Types>
