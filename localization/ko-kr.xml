@@ -183,6 +183,7 @@
         <Abnormality Id="ABNORMALITY_DERELICTION_M" String="복마향명 (중)"/>
         <Abnormality Id="ABNORMALITY_DERELICTION_L" String="복마향명 (대)"/>
         <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="냉기 연성"/>
+        <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="천의무붕"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
