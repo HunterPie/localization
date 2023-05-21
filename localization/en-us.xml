@@ -1591,6 +1591,9 @@
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
                      String="Fourth player color"
                      Description="The color of the fourth player in the party in the damage meter." />
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING"
+                     String="NPC Color"
+                     Description="The color of follower NPCs in the party in the damage meter." />
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Show Otomos damage"
                      Description="If enabled, HunterPie will display Otomos damage." />
