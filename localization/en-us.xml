@@ -1592,7 +1592,7 @@
                      String="Fourth player color"
                      Description="The color of the fourth player in the party in the damage meter." />
             <Setting Id="DAMAGE_METER_NPC_COLOR_STRING"
-                     String="Follower NPC Color"
+                     String="Follower NPC color"
                      Description="The color of follower NPCs in the party in the damage meter." />
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Show Otomos damage"
