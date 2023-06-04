@@ -823,7 +823,7 @@
                      String="클라이언트"
                      Description="클라이언트 설정"/>
             <Setting Id="DISCORD_RPC_STRING"
-                     String="Discord Presence"
+                     String="Discord 활동 상태"
                      Description="Discord 활동 상태 설정"/>
             <Setting Id="OVERLAY_STRING"
                      String="오버레이"
