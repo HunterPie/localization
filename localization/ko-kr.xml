@@ -824,7 +824,7 @@
                      Description="클라이언트 설정"/>
             <Setting Id="DISCORD_RPC_STRING"
                      String="Discord Presence"
-                     Description="Discord Rich Presence 설정"/>
+                     Description="Discord 활동 상태 설정"/>
             <Setting Id="OVERLAY_STRING"
                      String="오버레이"
                      Description="오버레이 설정"/>
@@ -858,6 +858,9 @@
             <Setting Id="ACCOUNT_STRING"
                      String="계정"
                      Description="계정 설정"/>
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="조충곤 위젯"
+                     Description="조충곤 위젯 설정"/>
 
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="선율"
@@ -925,7 +928,7 @@
                      Description="HunterPie에 현재 적용된 테마"/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
-                     String="Discord Rich Presence 활성화"
+                     String="Discord 활동 상태 활성화"
                      Description="옵션 활성화 시, HunterPie는 Discord 상태창에 활동 상태를 표시합니다."/>
             <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO"
                      String="캐릭터 정보 표시"
