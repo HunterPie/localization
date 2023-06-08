@@ -428,9 +428,10 @@
 			<Monster Id="98" String="Espinas Ígneo" />
 			<Monster Id="107" String="Kushala Daora elevado" />
 			<Monster Id="108" String="Chameleos elevado" />
-			<Monster Id="111" String="Valstrax Carmesí elevado" />
 			<Monster Id="109" String="Teostra elevado" />
 			<Monster Id="110" String="Shagaru Magala elevado" />
+			<Monster Id="111" String="Valstrax Carmesí elevado" />
+			<Monster Id="112" String="Malzeno primordial" />
 			<Monster Id="113" String="Gore Magala caótico" />
 			<Monster Id="114" String="Velkhana" />
 			<Monster Id="115" String="Amatsu" />
