@@ -854,6 +854,8 @@
                      String="Risen Shagaru Magala" />
             <Monster Id="111"
                      String="Risen Crimson Glow Valstrax" />
+            <Monster Id="112"
+                     String="Primordial Malzeno" />
             <Monster Id="113"
                      String="Chaotic Gore Magala" />
             <Monster Id="114"
