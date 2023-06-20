@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<Strings lang="Latin American Spanish">
+<Strings lang="Spanish">
 	<Ailments>
 		<Rise>
 			<Ailment Id="AILMENT_UNKNOWN" String="Desconocido" />
@@ -131,7 +131,7 @@
 		<Abnormality Id="ABNORMALITY_STINKMINK" String="Odorodreja" />
 		<Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Inmunidad al furor" />
 		<Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Regeneración de salud (Sangrado)" />
-		<Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango vigorozo" />
+		<Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango remolque" />
 		<Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango refuerzo" />
 		<Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango glotón" />
 		<Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango defensor" />
@@ -144,7 +144,7 @@
 		<Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Afinidad deslizante" />
 		<Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Acabado protector" />
 		<Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Bloqueo agresivo" />
-		<Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Aceleración elemental" />
+		<Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Aceleración elemento" />
 		<Abnormality Id="ABNORMALITY_ADRENALINE" String="Adrenalina" />
 		<Abnormality Id="ABNORMALITY_COOL_CAT" String="Tranquilidad felyne" />
 		<Abnormality Id="ABNORMALITY_FROSTCRAFT" String="Destreza helada" />
@@ -405,16 +405,16 @@
 			<Monster Id="46" String="Saprobot" />
 			<Monster Id="76" String="Rathian Dorada" />
 			<Monster Id="77" String="Rathalos Plateado" />
-			<Monster Id="78" String="Daimyo Ermitauro" />
-			<Monster Id="79" String="Shogun Ceanatauro" />
+			<Monster Id="78" String="Daimyo Hermitaur" />
+			<Monster Id="79" String="Shogun Ceanataur" />
 			<Monster Id="80" String="Rajang Rabioso" />
 			<Monster Id="81" String="Nargacuga Lunar" />
 			<Monster Id="82" String="Gore Magala" />
 			<Monster Id="83" String="Shagaru Magala" />
 			<Monster Id="84" String="Seregios" />
 			<Monster Id="85" String="Astalos" />
-			<Monster Id="86" String="Mizutsune Morado" />
-			<Monster Id="87" String="Magnamalo Infame" />
+			<Monster Id="86" String="Mizutsune Violeta" />
+			<Monster Id="87" String="Magnamalo Humillado" />
 			<Monster Id="88" String="Bishaten Sanguina" />
 			<Monster Id="89" String="Somnacanth Aurora" />
 			<Monster Id="90" String="Rakna-kadaki Pira" />
@@ -425,7 +425,7 @@
 			<Monster Id="95" String="Garangolm" />
 			<Monster Id="96" String="Gaismagorm" />
 			<Monster Id="97" String="Espinas" />
-			<Monster Id="98" String="Espinas Ígneo" />
+			<Monster Id="98" String="Espinas Llameante" />
 			<Monster Id="107" String="Kushala Daora elevado" />
 			<Monster Id="108" String="Chameleos elevado" />
 			<Monster Id="109" String="Teostra elevado" />
@@ -739,7 +739,7 @@
 			<Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING" String="Ocultar los widgets cuando el juego no este en primer plano" Description="Al activarse, todos los widgets serán ocultados mientras el juego no sea este en primer plano." />
 			<Setting Id="INITIALIZE_WIDGET_STRING" String="Iniciar widget" Description="Al activarse, HunterPie siempre mostrará este widget, desactiva la opción si prefieres no visualizar este widget." />
 			<Setting Id="ENABLE_WIDGET_STRING" String="Mostrar widget" Description="Al activarse, HunterPie siempre mostrará este widget siempre que haya información." />
-			<Setting Id="HIDE_WHEN_UI_VISIBLE_STRING" String="Ocultar cuando se muestran menús" Description="Al activarse, HunterPie ocultará este widget cuando se muestren menús del sistema (ejemplo: Al final de misiones, adentro del campamento, al hablar con NPCs, etc.)" />
+			<Setting Id="HIDE_WHEN_UI_VISIBLE_STRING" String="Ocultar cuando se muestran menús" Description="Al activarse, HunterPie ocultará este widget cuando se muestren menús del sistema (ejemplo: Al final de misiones, adentro del campamento, al hablar con PNJ, etc.)" />
 			<Setting Id="WIDGET_POSITION" String="Posición del widget" Description="Ajusta la posición de este widget." />
 			<Setting Id="WIDGET_OPACITY" String="Opacidad del widget" Description="Ajusta la opacidad de este widget." />
 			<Setting Id="WIDGET_SCALE" String="Tamaño del widget" Description="Ajusta la escala linear del widget, a más alto el valor, mayor será el tamaño del Widget." />
