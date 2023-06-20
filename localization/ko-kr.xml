@@ -861,6 +861,9 @@
             <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
                      String="조충곤 위젯"
                      Description="조충곤 위젯 설정"/>
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="차지액스 위젯"
+                     Description="차지액스 위젯 설정"/>
 
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="선율"
