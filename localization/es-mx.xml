@@ -708,6 +708,9 @@
 			<Setting Id="SPECIALIZED_TOOL_WIDGET_STRING" String="Herramientas especializadas" Description="Ajuste de Herramientas especializadas" />
 			<Setting Id="PLAYER_HUD_WIDGET_STRING" String="Widget del HUD del jugador" Description="Ajuste de HUD del jugador" />
 			<Setting Id="DEV_TOOLS_STRING" String="Herramientas de desarollador" Description="Herramientas avanzadas" />
+			<Setting Id="INSECT_GLAIVE_WIDGET_STRING" String="Widget de Guja Insecto" Description="Configuraciones del Widget de Guja Insecto" />
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING" String="Widget de Hacha Cargada" Description="Configuraciones del Widget de Hacha Cargada" />
+            <Setting Id="DUALBLADES_WIDGET_STRING" String="Widget de Hojas Dobles" Description="Configuraciones del Widget de Hojas Dobles" />
 			<Setting Id="ACCOUNT_STRING" String="Cuenta" Description="Ajuste de cuenta" />
 			<Setting Id="ABNORMALITY_SONGS_STRING" String="Melodias" Description="Efectos de melodía" />
 			<Setting Id="ABNORMALITY_CONSUMABLES_STRING" String="Consumibles" Description="Efectos de consumibles" />
@@ -769,7 +772,7 @@
 			<Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF" String="Resaltar al usuario" Description="Al activarse, tu nombre será resaltado." />
 			<Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES" String="Ocultar nombres" Description="Al activarse, todos los nombres seran ocultados." />
 			<Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT" String="Mostrar gráfica de DPS" Description="Al activarse, la gráfica de DPS será visible." />
-			<Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING" String="Estrategia de calculo de DPS" Description="Determina la estrategia que se usará para calcular el DPS.&#x0a;- RelativeToQuest: Uso del tiempo en expedición&#x0a;- RelativeToJoin: Uso del tiempo de cuando entra el jugador&#x0a;- RelativeToFirstHit: Uso del tiempo desde cuando el jugador golpea a los monstruos por primera vez" />
+			<Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING" String="Estrategia de calculo de DPS" Description="Determina la estrategia que se usará para calcular el DPS.&#x0a;- Relativo a la misión: Uso del tiempo en expedición&#x0a;- Relativo a la unión: Uso del tiempo de cuando entra el jugador&#x0a;- Relativo al primer golpe: Uso del tiempo desde cuando el jugador golpea a los monstruos por primera vez" />
 			<Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" String="Estrategia de trazado de daños" Description="Determina la estrategia que se usará para trazar el daño en el gráfico.&#x0a;- DamagePerSecond: se usará DPS para el gráfico&#x0a;- se usará el daño total para el gráfico" />
 			<Setting Id="DAMAGE_METER_SELF_COLOR_STRING" String="Mi color" Description="El color con el que serás mostrado en el widget de daño." />
 			<Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING" String="Color del lider del equipo" Description="El color del lider del equipo en el widget de daño." />
@@ -778,16 +781,20 @@
 			<Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING" String="Color del cuarto jugador" Description="El color del cuarto jugador en el widget de daño." />
 			<Setting Id="DAMAGE_METER_ENABLE_OTOMOS" String="Mostrar daño de los camaradas" Description="Al activarse, HunterPie mostrará el daño causado por los camaradas." />
 			<Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="Color NPC acompañante" Description="El color de los NPC acompañantes en el grupo en el medidor de daño." />
-			<Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING" String="Desarollador: Mock de widget de monstruo" />
-			<Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING" String="Desarollador: Mock de widget de medidor de daño" />
-			<Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING" String="Desarollador: Mock de widget de Anormalidades" />
-			<Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING" String="Desarollador: Mock widget de Cordóptero" />
-			<Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING" String="Desarollador: Mock de widget de Actividades" />
-			<Setting Id="DEV_MOCK_CHAT_WIDGET_STRING" String="Desarollador: Mock de widget de Chat" />
-			<Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING" String="Desarrollador: Mock de widget de herramientas especializadas" />
-			<Setting Id="DEV_POOGIE_API_HOST_STRING" String="Desarollador: Huesped de la API Poogie" />
-			<Setting Id="DEV_LOG_LEVEL" String="Desarrollador: Nivel de registro" />
-			<Setting Id="DEV_PRESENTATION_TRACER_LEVEL" String="Desarrollador: Nivel de trazador de representación de UI" />
+			<Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING" String="Desarollador: Mock de widget de monstruo" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING" String="Desarollador: Mock de widget de medidor de daño" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING" String="Desarollador: Mock de widget de Anormalidades" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING" String="Desarollador: Mock widget de Cordóptero" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING" String="Desarollador: Mock de widget de Actividades" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_CHAT_WIDGET_STRING" String="Desarollador: Mock de widget de Chat" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING" String="Desarrollador: Mock de widget de HUD" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!" />
+            <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING" String="Desarrollador: Mock de widget de Guja Insecto" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!" />
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING" String="Developer: Mock de widget de Hacha Cargada" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!" />
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING" String="Developer: Mock de widget de Hojas Dobles" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!" />
+			<Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING" String="Desarrollador: Mock de widget de herramientas especializadas" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_POOGIE_API_HOST_STRING" String="Desarollador: Huesped de la API Poogie" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_LOG_LEVEL" String="Desarrollador: Nivel de registro" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
+			<Setting Id="DEV_PRESENTATION_TRACER_LEVEL" String="Desarrollador: Nivel de trazador de representación de UI" Description="¡NO LO ACTIVES SI NO SABES LO QUE ES!"/>
 			<!-- Account -->
 			<Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="Activar respaldo de cuenta" Description="Al activarse, HunterPie respaldará automáticamente tus estados de guardado y los subirá a la nube." />
 			<Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="Activar carga de caza" Description="Al activarse, HunterPie subirá las estadisticas de tus cazas." />
