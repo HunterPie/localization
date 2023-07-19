@@ -255,7 +255,7 @@
             <Part Id="PART_L_ARM" String="왼쪽 팔"/>
             <Part Id="PART_R_ARM" String="오른쪽 팔"/>
             <Part Id="PART_BACK" String="등"/>
-            <Part Id="PART_WINGS" String="날개"/>
+            <Part Id="PART_WINGS" String="양쪽 날개"/>
             <Part Id="PART_FORELEGS" String="앞다리"/>
             <Part Id="PART_H_LEGS" String="뒷다리"/>
             <Part Id="PART_L_CUTWING" String="왼쪽 칼날개"/>
@@ -278,7 +278,7 @@
             <Part Id="PART_LOWER_BACK" String="아래쪽 등"/>
             <Part Id="PART_ROLLING" String="구르기"/>
             <Part Id="PART_DORSAL_FIN" String="등 지느러미"/>
-            <Part Id="PART_LEGS" String="다리"/>
+            <Part Id="PART_LEGS" String="양쪽 다리"/>
             <Part Id="PART_SHELL" String="껍데기"/>
             <Part Id="PART_CLAW" String="발톱"/>
             <Part Id="PART_R_CLAW" String="오른쪽 발톱"/>
@@ -308,14 +308,14 @@
             <Part Id="PART_CREST" String="볏"/>
             <Part Id="PART_THROAT" String="목"/>
             <Part Id="PART_BIG_FLINCH" String="대경직"/>
-            <Part Id="PART_HORNS" String="뿔"/>
+            <Part Id="PART_HORNS" String="양쪽 뿔"/>
             <Part Id="PART_HORN" String="뿔"/>
             <Part Id="PART_KNOCKDOWN" String="병기 대미지 대경직"/>
             <Part Id="PART_HORNS_2" String="두번째 뿔"/>
             <Part Id="PART_RAGE" String="분노 해제"/>
             <Part Id="PART_L_LIMBS" String="왼쪽 앞다리"/>
             <Part Id="PART_R_LIMBS" String="오른쪽 앞다리"/>
-            <Part Id="PART_LIMBS" String="앞다리"/>
+            <Part Id="PART_LIMBS" String="양쪽 앞다리"/>
             <Part Id="PART_COUNTERATTACK" String="반격"/>
             <Part Id="PART_JAW" String="턱"/>
             <Part Id="PART_EXPLOSION_WEAKENING" String="속성 피해 대경직"/>
@@ -932,7 +932,7 @@
                      Description="옵션 활성화 시, HunterPie는 개발 중인 기능에 대한 기능 플래그를 활성화할 수 있도록 허용합니다."/>
             <Setting Id="THEME_STRING"
                      String="테마"
-                     Description="HunterPie에 현재 적용된 테마"/>
+                     Description="HunterPie에 현재 적용된 테마입니다. 테마는 위젯 스타일을 변경합니다."/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Discord 활동 상태 활성화"
