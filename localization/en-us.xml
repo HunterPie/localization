@@ -1608,6 +1608,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Show Otomos damage"
                      Description="If enabled, HunterPie will display Otomos damage." />
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_SHOW_DAMAGE"
+                     String="Show player's total damage dealt"
+                     Description="If enabled, HunterPie will display the total amount of damage any player has dealt." />
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget" 
