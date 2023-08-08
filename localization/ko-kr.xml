@@ -17,7 +17,7 @@
             <Ailment Id="AILMENT_ICE" String="얼음속성 피해"/>
             <Ailment Id="AILMENT_THUNDER" String="번개속성 피해"/>
             <Ailment Id="AILMENT_DUNG" String="비료옥"/>
-            <Ailment Id="AILMENT_TRANQUILIZE" String="포획 마취"/>
+            <Ailment Id="AILMENT_TRANQUILIZE" String="마취"/>
             <Ailment Id="AILMENT_KNOCKDOWN" String="넘어짐"/>
             <Ailment Id="AILMENT_SHOCKTRAP" String="마비 덫"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="구멍 함정"/>
@@ -103,6 +103,7 @@
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="불꽃 나비"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="그물잠자리"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="인내씨앗"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="인내의 환약"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="하얀천나비"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="스태미나 소비 경감"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="귀인의 가루"/>
@@ -170,6 +171,19 @@
         <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="혼신"/>
         <Abnormality Id="ABNORMALITY_BERSERK" String="광화"/>
         <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="상태 이상 확정 축적"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="용기 변환 (모든 속성 내성치 UP)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="벽면 이동 (공격력 UP)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="선위"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="강룡의 혼"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="하룡의 혼"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="격앙 (분노 누적치)"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="격앙 (스태미나 소비 무효)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="향응"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="복마향명 (소)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="복마향명 (중)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="복마향명 (대)"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="냉기 연성"/>
+        <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="천의무붕"/>
 
         <Abnormality Id="ABNORMALITY_BLOOD" String="겁혈 피해"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="졸음"/>
@@ -199,6 +213,34 @@
         <Abnormality Id="ABNORMALITY_LEECHED" String="흡혈"/>
     </Abnormalities>
     <Monsters>
+        <Types>
+            <Type Id="TYPE_AERIAL"
+                  String="공서계" />
+            <Type Id="TYPE_FLYING_WYVERN"
+                  String="비룡종" />
+            <Type Id="TYPE_BRUTE_WYVERN"
+                  String="수룡종" />
+            <Type Id="TYPE_FANGED_BEAST"
+                  String="아수종" />
+            <Type Id="TYPE_LEVIATHAN"
+                  String="해룡종" />
+            <Type Id="TYPE_AQUATIC"
+                  String="수서계" />
+            <Type Id="TYPE_BIRD_WYVERN"
+                  String="조룡종" />
+            <Type Id="TYPE_FANGED_WYVERN"
+                  String="아룡종" />
+            <Type Id="TYPE_ELDER_DRAGON"
+                  String="고룡종" />
+            <Type Id="TYPE_AMPHIBIAN"
+                  String="양서종" />
+            <Type Id="TYPE_TEMNOCERAN"
+                  String="협각종" />
+            <Type Id="TYPE_PISCINE_WYVERN"
+                  String="어룡종" />
+            <Type Id="TYPE_CARAPACEON"
+                  String="갑각종" />
+        </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_TO_BE_MAPPED" String="알 수 없음"/>
@@ -213,7 +255,7 @@
             <Part Id="PART_L_ARM" String="왼쪽 팔"/>
             <Part Id="PART_R_ARM" String="오른쪽 팔"/>
             <Part Id="PART_BACK" String="등"/>
-            <Part Id="PART_WINGS" String="날개"/>
+            <Part Id="PART_WINGS" String="양쪽 날개"/>
             <Part Id="PART_FORELEGS" String="앞다리"/>
             <Part Id="PART_H_LEGS" String="뒷다리"/>
             <Part Id="PART_L_CUTWING" String="왼쪽 칼날개"/>
@@ -236,7 +278,7 @@
             <Part Id="PART_LOWER_BACK" String="아래쪽 등"/>
             <Part Id="PART_ROLLING" String="구르기"/>
             <Part Id="PART_DORSAL_FIN" String="등 지느러미"/>
-            <Part Id="PART_LEGS" String="다리"/>
+            <Part Id="PART_LEGS" String="양쪽 다리"/>
             <Part Id="PART_SHELL" String="껍데기"/>
             <Part Id="PART_CLAW" String="발톱"/>
             <Part Id="PART_R_CLAW" String="오른쪽 발톱"/>
@@ -266,14 +308,14 @@
             <Part Id="PART_CREST" String="볏"/>
             <Part Id="PART_THROAT" String="목"/>
             <Part Id="PART_BIG_FLINCH" String="대경직"/>
-            <Part Id="PART_HORNS" String="뿔"/>
+            <Part Id="PART_HORNS" String="양쪽 뿔"/>
             <Part Id="PART_HORN" String="뿔"/>
             <Part Id="PART_KNOCKDOWN" String="병기 대미지 대경직"/>
             <Part Id="PART_HORNS_2" String="두번째 뿔"/>
             <Part Id="PART_RAGE" String="분노 해제"/>
             <Part Id="PART_L_LIMBS" String="왼쪽 앞다리"/>
             <Part Id="PART_R_LIMBS" String="오른쪽 앞다리"/>
-            <Part Id="PART_LIMBS" String="앞다리"/>
+            <Part Id="PART_LIMBS" String="양쪽 앞다리"/>
             <Part Id="PART_COUNTERATTACK" String="반격"/>
             <Part Id="PART_JAW" String="턱"/>
             <Part Id="PART_EXPLOSION_WEAKENING" String="속성 피해 대경직"/>
@@ -407,9 +449,12 @@
             <Monster Id="107" String="괴이 극복 크샬다오라"/>
             <Monster Id="108" String="괴이 극복 오나즈치"/>
             <Monster Id="109" String="괴이 극복 테오-테스카토르"/>
+            <Monster Id="110" String="괴이 극복 샤가르마가라"/>
             <Monster Id="111" String="괴이 극복 영묘한 광채의 발파루크"/>
+            <Monster Id="112" String="원초를 새기는 멜-제나"/>
             <Monster Id="113" String="혼돈에 신음하는 고어-마가라"/>
             <Monster Id="114" String="이베르카나"/>
+            <Monster Id="115" String="아마츠마가츠치"/>
         </Rise>
         <World>
             <Monster Id="0" String="안쟈나프"/>
@@ -574,6 +619,35 @@
                     String="성장력 UP [대]"/>
     </Fertilizers>
     <Client>
+        <Main>
+        <!-- Hunt Export -->
+        <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+				String="사냥 기록" />
+        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+				String="당신의 계정은 최대 7일 이내의 기록으로 제한됩니다.&#xA;오래된 사냥 기록을 보려면 서포터가 되어 보세요!" />
+        <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+				String="모든 사냥 기록에 접근하려면 티어 2 서포터로 업그레이드 하세요!" />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+				String=" 퀘스트 가져오는 중: {0}" />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+				String="사냥 기록을 가져오는 데 실패했습니다. 다시 시도해보세요." />
+        <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+				String="성공적으로 퀘스트를 불러왔습니다!" />
+        <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+				String="계정에서 사용할 수 있는 기간에 사용 가능한 사냥 기록이 없습니다." />
+        <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+				String="몬스터" />
+        <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+				String="사냥 세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+				String="상태 세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+				String="파티원" />
+        <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+				String="세부 정보" />
+        <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+				String="버프&amp;디버프" />
+        </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
                     String="동반자"/>
@@ -618,9 +692,9 @@
             <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
                      String="HunterPie가 최신 버전입니다!"/>
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
-                     String="HunterPie의 새로운 업데이트가 가능합니다!"/>
+                     String="HunterPie의 새로운 버전이 있습니다!"/>
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
-                     String="설정:"/>
+                     String="설정 중인 게임:"/>
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(다시 시작 필요)"/>
         </Generics>
@@ -628,7 +702,7 @@
             <Dialog Id="UPDATE_TITLE_STRING"
                     String="업데이트"/>
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
-                    String="v{Latest} 버전을 사용할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
+                    String="v{Latest} 버전으로 업데이트할 수 있습니다.&#x0a;지금 업데이트 할까요?"/>
             <Dialog Id="CONFIRMATION_TITLE_STRING"
                     String="확인"/>
             <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
@@ -750,8 +824,8 @@
                      String="클라이언트"
                      Description="클라이언트 설정"/>
             <Setting Id="DISCORD_RPC_STRING"
-                     String="Discord Presence"
-                     Description="Discord Rich Presence 설정"/>
+                     String="Discord 활동 상태"
+                     Description="Discord 활동 상태 설정"/>
             <Setting Id="OVERLAY_STRING"
                      String="오버레이"
                      Description="오버레이 설정"/>
@@ -765,8 +839,8 @@
                      String="밧줄벌레 위젯"
                      Description="밧줄벌레 위젯 설정"/>
             <Setting Id="ACTIVITIES_WIDGET_STRING"
-                     String="동반자 활동 위젯"
-                     Description="동반자 활동 위젯 설정"/>
+                     String="활동 위젯"
+                     Description="활동 위젯 설정"/>
             <Setting Id="METER_WIDGET_STRING"
                      String="대미지 미터 위젯"
                      Description="대미지 미터 위젯 설정"/>
@@ -782,6 +856,15 @@
             <Setting Id="DEV_TOOLS_STRING"
                      String="개발 도구"
                      Description="심화 개발 도구"/>
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="조충곤 위젯"
+                     Description="조충곤 위젯 설정"/>
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="차지액스 위젯"
+                     Description="차지액스 위젯 설정"/>
+            <Setting Id="DUALBLADES_WIDGET_STRING"
+                     String="쌍검 위젯"
+                     Description="쌍검 위젯 설정"/>
             <Setting Id="ACCOUNT_STRING"
                      String="계정"
                      Description="계정 설정"/>
@@ -849,10 +932,10 @@
                      Description="옵션 활성화 시, HunterPie는 개발 중인 기능에 대한 기능 플래그를 활성화할 수 있도록 허용합니다."/>
             <Setting Id="THEME_STRING"
                      String="테마"
-                     Description="HunterPie에 현재 적용된 테마"/>
+                     Description="HunterPie에 현재 적용된 테마입니다. 테마는 위젯 스타일을 변경합니다."/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
-                     String="Discord Rich Presence 활성화"
+                     String="Discord 활동 상태 활성화"
                      Description="옵션 활성화 시, HunterPie는 Discord 상태창에 활동 상태를 표시합니다."/>
             <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO"
                      String="캐릭터 정보 표시"
@@ -900,7 +983,7 @@
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="몬스터 기력 활성화"
+                     String="몬스터 기력 표시"
                      Description="옵션 활성화 시, HunterPie는 몬스터의 체력 바 아래에 기력 바를 표시합니다."/>
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="몬스터 체력 바 최대 가로 길이"
@@ -909,7 +992,7 @@
                      String="몬스터 체력 바 최소 가로 길이"
                      Description="몬스터 체력 바의 최소 가로 폭을 설정합니다. 이 폭은 동적 크기 옵션을 사용 할 때 동적 크기 계산에 사용됩니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="몬스터 부위 체력 활성화"
+                     String="몬스터 부위 체력 표시"
                      Description="옵션 활성화 시, 몬스터의 부위 체력이 표시됩니다."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="몬스터 부위 체력 자동 숨기기"
@@ -918,7 +1001,7 @@
                      String="미변동 부위 체력 숨기기 딜레이"
                      Description="몬스터의 부위 체력이 숨겨지기 전까지 걸리는 시간입니다."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="몬스터 상태 이상 표시 활성화"
+                     String="몬스터 상태 이상 표시"
                      Description="옵션 활성화 시, 몬스터에게 적용된 상태 이상 종류가 표시됩니다."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
                      String="몬스터 상태 이상 자동 숨기기"
@@ -947,8 +1030,8 @@
                      Description="효과를 정렬하는 데 사용할 방법을 선택하세요."/>
 
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
-                     String="인-게임 밧줄벌레 조준 패치"
-                     Description="옵션 활성화 시, 인-게임 옵션에서 밧줄벌레 게이지 HUD를 비활성화 했을 때도 조준할 수 있도록 패치합니다."/>
+                     String="게임 내 밧줄벌레 조준 패치"
+                     Description="옵션 활성화 시, 게임 내 옵션에서 밧줄벌레 게이지 HUD를 비활성화 했을 때도 조준할 수 있도록 패치합니다."/>
 
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="교역선 표시"
@@ -999,30 +1082,55 @@
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
                      String="네번째 플레이어 색상"
                      Description="대미지 미터에서 네번째 플레이어의 색상입니다."/>
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING"
+                     String="맹우 NPC 색상"
+                     Description="대미지 미터에서 맹우 NPC의 색상입니다."/>
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="동반자 대미지 표시"
                      Description="옵션 활성화 시, HunterPie가 동반자의 대미지를 표시합니다."/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="개발자: 모의 몬스터 위젯"/>
+                     String="개발자: 모의 몬스터 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="개발자: 모의 대미지 미터 위젯"/>
+                     String="개발자: 모의 대미지 미터 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="개발자: 모의 효과 위젯"/>
+                     String="개발자: 모의 효과 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="개발자: 모의 밧줄벌레 위젯"/>
+                     String="개발자: 모의 밧줄벌레 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="개발자: 모의 동반자 활동 위젯"/>
+                     String="개발자: 모의 동반자 활동 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="개발자: 모의 채팅 위젯"/>
+                     String="개발자: 모의 채팅 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
+                     String="개발자: 모의 플레이어 Hud 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
+                     String="개발자: 모의 조충곤 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
+                     String="개발자: 모의 차지액스 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
+                     String="개발자: 모의 쌍검 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="개발자: 모의 특수 장비 위젯"/>
+                     String="개발자: 모의 특수 장비 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="개발자: Poogie API 호스트"/>
+                     String="개발자: Poogie API 호스트"
+                     Description="개발 목적이 아니라면 변경하지 마십시오."/>
             <Setting Id="DEV_LOG_LEVEL"
-                     String="개발자: 로그 레벨"/>
+                     String="개발자: 로그 레벨"
+                     Description="콘솔 창에 표시할 최소 로그 레벨입니다."/>
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="개발자: UI 렌더링 트레이서 레벨"/>
+                     String="개발자: UI 렌더링 트레이서 레벨"
+                     Description="개발 목적이 아니라면 변경하지 마십시오."/>
 
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"

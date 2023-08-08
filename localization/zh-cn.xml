@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!--Translated by Neo#1234，由灵魂复苏翻译，有问题可以进HunterPie Discord联系Neo#1234~ -->
 <!--二次补充翻译by 繁吹雨#6321 -->
+<!--三次补充翻译by JYC#9815 -->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -93,6 +94,78 @@
             <Part Id="PART_FORELEG" String="前肢"/>
             <Part Id="PART_H_LEG" String="后肢"/>
             <Part Id="PART_ANTENNA" String="触角"/>
+            <Part Id="PART_CREST" String="羽冠"/>
+            <Part Id="PART_THROAT" String="喉部"/>
+            <Part Id="PART_BIG_FLINCH" String="大退缩"/>
+            <!-- 多个 HORNS 值具体对应未知 -->
+            <Part Id="PART_HORNS" String="角"/>
+            <Part Id="PART_HORN" String="角"/>
+            <Part Id="PART_KNOCKDOWN" String="击倒"/>
+            <Part Id="PART_HORNS_2" String="角 #2"/>
+            <Part Id="PART_RAGE" String="愤怒"/>
+            <Part Id="PART_L_LIMBS" String="左肢"/>
+            <Part Id="PART_R_LIMBS" String="右肢"/>
+            <Part Id="PART_LIMBS" String="四肢"/>
+            <Part Id="PART_COUNTERATTACK" String="反击"/>
+            <Part Id="PART_JAW" String="颚"/>
+            <Part Id="PART_EXPLOSION_WEAKENING" String="元素爆炸"/>
+            <!-- Charge 对应未知，电荷？猛攻？ -->
+            <!-- <Part Id="PART_CHARGE" String="电荷"/> -->
+            <Part Id="PART_FIN" String="鳍"/>
+            <Part Id="PART_INFLATED_TAIL" String="充气尾巴"/>
+            <Part Id="PART_SILVER_SPIKES_HEAD" String="银尖刺（头）"/>
+            <Part Id="PART_SILVER_SPIKES_L_ARM" String="银尖刺（左臂）"/>
+            <Part Id="PART_SILVER_SPIKES_R_ARM" String="银尖刺（右臂）"/>
+            <Part Id="PART_SILVER_SPIKES_L_WING" String="银尖刺 (左翼)"/>
+            <Part Id="PART_SILVER_SPIKES_R_WING" String="银尖刺 (右翼)"/>
+            <Part Id="PART_EXHAUST_ORGAN_CENTRAL" String="排气管（中）"/>
+            <Part Id="PART_EXHAUST_ORGAN_HEAD" String="排气管（头）"/>
+            <Part Id="PART_EXHAUST_ORGAN_CRATER" String="排气管 (坑)"/>
+            <Part Id="PART_EXHAUST_ORGAN_REAR" String="排气管（后）"/>
+            <Part Id="PART_REPEL" String="击退"/>
+            <Part Id="PART_WEAK_L_SHELL" String="左弱壳"/>
+            <Part Id="PART_WEAK_R_SHELL" String="右弱壳"/>
+            <Part Id="PART_BALLOON" String="气囊"/>
+            <Part Id="PART_SKY_FALL" String="坠落"/>
+            <Part Id="PART_L_BONE" String="左骨"/>
+            <Part Id="PART_R_BONE" String="右骨"/>
+            <Part Id="PART_EMISSIONS" String="排气"/>
+            <Part Id="PART_HORNS_GOLD" String="金角"/>
+            <Part Id="PART_MANE_GOLD" String="金鬃毛"/>
+            <Part Id="PART_L_CHEST_GOLD" String="黄金左胸"/>
+            <Part Id="PART_R_CHEST_GOLD" String="黄金右胸"/>
+            <Part Id="PART_L_ARM_GOLD" String="黄金左臂"/>
+            <Part Id="PART_R_ARM_GOLD" String="黄金右臂"/>
+            <Part Id="PART_L_LEG_GOLD" String="黄金左腿"/>
+            <Part Id="PART_R_LEG_GOLD" String="黄金右腿"/>
+            <Part Id="PART_L_TAIL_GOLD" String="黄金尾巴（左）"/>
+            <Part Id="PART_R_TAIL_GOLD" String="黄金尾巴（右）"/>
+            <Part Id="PART_GLOWING_HEAD" String="发光头"/>
+            <Part Id="PART_GLOWING_TAIL" String="发光尾巴"/>
+            <Part Id="PART_EMERGE_SNOW_HEAD" String="出雪（头）"/>
+            <Part Id="PART_EMERGE_SNOW_BODY" String="出雪（身体）"/>
+            <Part Id="PART_EMERGE_SNOW_TAIL" String="出雪（尾巴）"/>
+            <Part Id="PART_HEAD_SNOW" String="头部（雪）"/>
+            <Part Id="PART_BODY_SNOW" String="身体（雪）"/>
+            <Part Id="PART_TAIL_SNOW" String="尾巴（雪）"/>
+            <Part Id="PART_HEAD_ICE" String="头部（冰）"/>
+            <Part Id="PART_BODY_ICE" String="身体（冰）"/>
+            <Part Id="PART_WINGS_ICE" String="翼（冰）"/>
+            <Part Id="PART_ARMS_ICE" String="手臂（冰）"/>
+            <Part Id="PART_HEAD_ROCK" String="头部（岩石）"/>
+            <Part Id="PART_CHEST_ROCK" String="胸部（岩石）"/>
+            <Part Id="PART_L_NECK_ROCK" String="左颈（岩石）"/>
+            <Part Id="PART_R_NECK_ROCK" String="右颈（岩石）"/>
+            <Part Id="PART_TAIL_ROCK" String="尾巴（岩石）"/>
+            <Part Id="PART_L_WING_ROCK" String="左翼（岩石）"/>
+            <Part Id="PART_R_WING_ROCK" String="右翼（岩石）"/>
+            <Part Id="PART_L_ARM_ROCK" String="左臂（岩石）"/>
+            <Part Id="PART_R_ARM_ROCK" String="右臂（岩石）"/>
+            <Part Id="PART_BODY_LEGS" String="身体和腿"/>
+            <Part Id="PART_ANTLERS" String="鹿角"/>
+            <Part Id="PART_MANE" String="鬃毛"/>
+            <!-- Qurio 对应未知 -->
+            <Part Id="PART_QURIO_THRESHOLD" String="Qurio 阈值"/>
         </Shared>
         <World>
             <Monster Id="0" String="蛮颚龙"/>
