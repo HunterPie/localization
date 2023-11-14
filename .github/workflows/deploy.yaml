@@ -9,7 +9,7 @@ jobs:
     
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.0.105
+        uses: actions/checkout@v2
 
       - name: Create deployment
         uses: chrnorm/deployment-action@releases/v1
@@ -20,7 +20,7 @@ jobs:
           environment: production
 
       - name: Deploy
-        uses: BetaHuhn/do-spaces-action@v2
+        uses: BetaHuhn/do-spaces-action@v2.0.105
         with:
           access_key: ${{ secrets.AWS_ACCESS_KEY }}
           secret_key: ${{ secrets.AWS_SECRET_KEY }}
