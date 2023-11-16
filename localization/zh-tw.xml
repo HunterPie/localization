@@ -380,9 +380,12 @@
             <Monster Id="107" String="傀異克服鋼龍"/>
             <Monster Id="108" String="傀異克服霞龍"/>
             <Monster Id="109" String="傀異克服炎王龍"/>
+            <Monster Id="110" String="傀異克服天迴龍"/>
             <Monster Id="111" String="傀異克服天彗龍"/>
+            <Monster Id="112" String="原初爵銀龍"/>
             <Monster Id="113" String="混沌黑蝕龍"/>
             <Monster Id="114" String="冰咒龍"/>
+            <Monster Id="115" String="嵐龍"/>
         </Rise>
         <World>
             <Monster Id="0" String="蠻顎龍"/>

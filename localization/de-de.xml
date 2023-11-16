@@ -38,7 +38,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>
             <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
-            <Ailment Id="AILMENT_STEELFANG" String="Steel Fang"/>    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_STEELFANG" String="Stahlfangzahn"/>    <!-- Zu ergänzen/ausbessern -->
 
         </Rise>
     </Ailments>
@@ -114,6 +114,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Flämmling"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Schnibelle"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Diamantsamen"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="Diamantpille"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Tuchfalter"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Sprintsaft"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Dämonenpulver"/>
@@ -128,8 +129,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Schallendes Gebrüll"/>
         <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Dämonen-Munition"/>
         <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Rüstungs-Munition"/>
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Arc Shot: Befestigung"/>   <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
-        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Arc Shot: Affinität"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_BRACE" String="Bogenschuss: AntiSchock"/>
+        <Abnormality Id="ABNORMALITY_ARC_SHOT_AFFINITY" String="Bogenschuss: Affinität"/>
         <Abnormality Id="ABNORMALITY_WIGGLY_LITCHY" String="Ausdauer-Insektenlarve"/>
         <Abnormality Id="ABNORMALITY_ASTERA_JERKY" String="Astera-Jerky"/>        
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Lebens Regen."/>
@@ -141,16 +142,19 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="Rubin Seilkäfer"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="Goldener Seilkäfer"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="Miefnerz"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate-->
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Rauschimmunität"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="Lebensregeneration (Blutend)"/>
 
-        <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango Kraftprotz"/>
-        <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango Verstärker"/>
-        <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango Nimmersatt"/>
-        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango Verteidiger"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Dango-Kraftprotz"/>
+        <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Dango-Verstärker"/>
+        <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Dango-Nimmersatt"/>
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Dango-Verteidiger"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="Dango-Jäger"/>
+        <Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="Dango-Verbinder"/>
 
-        <Abnormality Id="ABNORMALITY_FORTIFY" String="Stärken"/>       <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_FORTIFY" String="Kräftigen"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
-        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Chain Crit"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Kritische-Kette"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>    <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
@@ -163,8 +167,35 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Ausweich-Mantel +"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinitäts Steigerung"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Schleifer (S)"/>
-        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalin Rush"/> <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
-
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalinschub"/> <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="Aufhetzer"/>
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="Trotz"/>
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="Furchtloses Herz (Aufladung)"/>
+        <Abnormality Id="ABNORMALITY_HEROICS" String="Heldentat"/>
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="Peak Performance"/>
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="Drachenherz"/>
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="Wind-Mantel"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="Pulver-Mantel (Rot)"/>
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="Pulver-Mantel (Blau)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="Kampf (S)"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="Kampf (L)"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="Höchstmacht"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="Berserker"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="Statusauslöser"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="Drachenumwandlung (Jede Res. Hoch)"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="Wandläufer (Attacke Hoch)"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="Ermutigen"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="Kushala Daora Seele"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="Chameleos Seele"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="Zorniger (Zorn Aufladung)"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="Zorniger (Unendliche Ausdauer)"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="Irrlitzruf"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="Verwahrlosung (S)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="Verwahrlosung (M)"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="Verwahrlosung (L)"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="Eiskunst"/>
+        
         <Abnormality Id="ABNORMALITY_BLOOD" String="Blutpest"/>
         <Abnormality Id="ABNORMALITY_POISON" String="Gift"/>
         <Abnormality Id="ABNORMALITY_VENOM" String="Starkes Gift"/>
@@ -182,17 +213,33 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Donnerpest"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Drachenpest"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES" String="Blase (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Blase (S)"/> <!--  Needs to be reviewed (Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Needs to be reviewed (Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
-        <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/> <!--  Needs to be reviewed (Source: Official MHR:S Web manual) -->
 
     </Abnormalities>
     <Monsters>
+
+        <Types>
+            <Type Id="TYPE_AERIAL" String="Luftig"/>
+            <Type Id="TYPE_FLYING_WYVERN" String="Flugwyvern"/>
+            <Type Id="TYPE_BRUTE_WYVERN" String="Kampfwyvern"/>
+            <Type Id="TYPE_FANGED_BEAST" String="Reißzahn-Bestie"/>
+            <Type Id="TYPE_LEVIATHAN" String="Leviathan"/>
+            <Type Id="TYPE_AQUATIC" String="Aquatisch"/>
+            <Type Id="TYPE_BIRD_WYVERN" String="VogelWyvern"/>
+            <Type Id="TYPE_FANGED_WYVERN" String="Reißzahn-Wyvern"/>
+            <Type Id="TYPE_ELDER_DRAGON" String="Drachenältester"/>
+            <Type Id="TYPE_AMPHIBIAN" String="Amphibien"/>
+            <Type Id="TYPE_TEMNOCERAN" String="Temnoceran"/>
+            <Type Id="TYPE_PISCINE_WYVERN" String="Fischwyvern"/>
+            <Type Id="TYPE_CARAPACEON" String="Carapaceon"/>
+        </Types>
         <Shared>
 
             <Part Id="PART_UNKNOWN" String="???"/>
@@ -403,8 +450,13 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="98" String="Flammen-Espinas"/>
             <Monster Id="107" String="Erhobener Kushala Daora"/>
             <Monster Id="108" String="Erhobener Chameleos"/>
-            <Monster Id="109" String="Erhobener Teostra"/>   
+            <Monster Id="109" String="Erhobener Teostra"/>
+            <Monster Id="110" String="Erhobener Shagaru Magala"/>
+            <Monster Id="111" String="Erhobener Karmesin-Glühender-Valstrax"/>
+            <Monster Id="112" String="Ur-Malzeno"/>
             <Monster Id="113" String="Chaotischer Gore Magala"/>
+            <Monster Id="114" String="Velkhana"/>
+            <Monster Id="115" String="Amatsu"/>
 
         </Rise>
         <World>
@@ -554,12 +606,51 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
         </World>
     </Stages>
-
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING" String="Leer" />
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING" String="Plant Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING" String="Plant Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING" String="Fungi Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING" String="Fungi Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING" String="Bug/Honey Harvest Up (S)"/>
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING" String="Bug/Honey Harvest Up (L)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING" String="Growth Up (S)"/>
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING" String="Growth Up (L)"/>
+    </Fertilizers>
     <Client>
+    <Main>
+            <!-- Hunt Export -->
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+                    String="Exportierte Jagden" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+                    String="Dein Account ist beschränkt auf 7 Tage exportierte Jagden.&#xA;Als Unterstützer hast kannst du ältere Jagden sehen!" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+                    String="Stufe deinen Account auf, um alle Jagden zu sehen!" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+                    String="Rufe Quests ab: {0}" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+                    String="Abrufen der Quests fehlgeschlagen. Versuche es später erneut." />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+                    String="Quest erfolgreich geladen." />
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+                    String="Es wurden keine exportierte Jagden in der verfügbaren Zeit deines Accounts gefunden." />
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+                    String="Monster" />
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+                    String="Jagd Details" />
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+                    String="Status Details" />
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+                    String="Teammitglieder" />
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+                    String="Details" />
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+                    String="Abnormalitäten" />
+        </Main>
         <Overlay>
 
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
-                    String="Otomos"/>   <!-- Zu ergänzen/ausbessern -->
+                    String="Otomos"/>
 
             <String Id="TRAINING_DOJO_BOOSTS_STRING"
                     String="Verstärkungen:"/>
@@ -577,6 +668,11 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                     String="Kamura Nest:"/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
                     String="Elgado Nest:"/>
+
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="tage" />
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="quests" />
             
         </Overlay>
         <Tabs>
@@ -677,7 +773,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Poogie Id="ERROR_INVALID_CREDENTIALS"
                     String="Es wurde kein Konto mit diesem Benutzernamen und Passwort gefunden."/>
             <Poogie Id="ERROR_USER_NOT_FOUND"
-                    String="Nö... Dieser Benutzer konnte nicht gefunden werden!"/> <!-- Bisschen humor -->
+                    String="Nö... Dieser Benutzer konnte nicht gefunden werden!"/>
             <Poogie Id="ERROR_USER_ALREADY_EXISTS"
                     String="Es gibt bereits einen Benutzer mit dieser E-Mail oder diesem Benutzernamen!"/>
             <Poogie Id="ERROR_UNVERIFIED_ACCOUNT"
@@ -704,6 +800,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                     String="Anscheinend hast du keine automatischen Backups aktiviert.&#10;Du kannst dies in deinen Kontoeinstellungen aktivieren."/>
             <Poogie Id="BACKUP_NOT_FOUND_STRING"
                     String="Du hast keine Backups."/>
+
             <Poogie Id="PASSWORD_RESET_EMAIL_STRING"
                     String="Eine E-Mail mit dem erforderlichen Code zum Ändern deines Kontopassworts wird an {Email} gesendet."/>
             <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
@@ -775,6 +872,15 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Setting Id="DEV_TOOLS_STRING"
                      String="Dev Tools"
                      Description="Erweiterte Entwicklertools"/>
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="Insektenglefe Widget"
+                     Description="Insektenglefe Widget Konfiguration" />
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="Energieklinge Widget"
+                     Description="Energieklinge Widget Konfiguration" />
+            <Setting Id="DUALBLADES_WIDGET_STRING"
+                     String="Doppelklingen Widget"
+                     Description="Doppelklingen Widget Konfiguration" />
             <Setting Id="ACCOUNT_STRING"
                      String="Account"
                      Description="Account Einstellungen"/>
@@ -989,34 +1095,59 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Die Farbe des vierten Spielers der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Zeige Otomos Schaden"
-                     Description="Sofern aktiv, stellt HunterPie den Otomos Schaden dar."/>     <!-- Zu ergänzen/ausbessern -->
+                     Description="Sofern aktiv, stellt HunterPie den Otomos Schaden dar."/>
 
         <!-- Sollte nicht übersetzt werden. Nur "Entwickler" zu "Entwickler", ggf. "widget" zu "Widget" ändern und gut ists -->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Entwickler: Mock Monster Widget"/>
+                     String="Entwickler: Mock Monster Widget" 
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST."/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Entwickler: Mock Damage Meter Widget"/>
+                     String="Entwickler: Mock Damage Meter Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Entwickler: Mock Abnormalities Widget"/>
+                     String="Entwickler: Mock Abnormalities Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Entwickler: Mock Wirebug Widget"/>
+                     String="Entwickler: Mock Wirebug Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Entwickler: Mock Activities Widget"/>
+                     String="Entwickler: Mock Activities Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Entwickler: Mock Chat Widget"/>
+                     String="Entwickler: Mock Chat Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
+            <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
+                     String="Entwickler: Mock Player Hud Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
+            <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
+                     String="Entwickler: Mock Insect Glaive Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
+                     String="Entwickler: Mock Charge Blade Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
+                     String="Entwickler: Mock Dual Blades Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="Entwickler: Mock Specialized Tool Widget"/>
+                     String="Entwickler: Mock Specialized Tool Widget"
+                     Description="NICHT AKTIVIEREN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Entwickler: Poogie API Host"/>
+                     String="Entwickler: Poogie API Host"
+                     Description="NICHT VERÄNDERN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
             <Setting Id="DEV_LOG_LEVEL"
-                     String="Entwickler: Log level"/>
+                     String="Entwickler: Log level"
+                     Description="Mindestlevel, dass Logs in der Konsole erscheinen." />
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="Entwickler: UI rendering tracer level"/>
+                     String="Entwickler: UI rendering tracer level"
+                     Description="NICHT VERÄNDERN SOFERN DU KEINE AHNUNG HAST WAS DU TUST." />
 
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Aktiviere Backups des Spielstands"
                      Description="Sofern aktiv, sichert HunterPie automatisch deine Spielstände und lädt sie in die Cloud hoch."/>
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Aktiviere hochladen der Jagden"
+                     Description="Sofern aktiv, sichert HunterPie die Statistiken deiner Jagden." />
                      
         </Settings>
     </Client>

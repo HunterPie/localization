@@ -255,7 +255,7 @@
             <Part Id="PART_L_ARM" String="왼쪽 팔"/>
             <Part Id="PART_R_ARM" String="오른쪽 팔"/>
             <Part Id="PART_BACK" String="등"/>
-            <Part Id="PART_WINGS" String="날개"/>
+            <Part Id="PART_WINGS" String="양쪽 날개"/>
             <Part Id="PART_FORELEGS" String="앞다리"/>
             <Part Id="PART_H_LEGS" String="뒷다리"/>
             <Part Id="PART_L_CUTWING" String="왼쪽 칼날개"/>
@@ -278,7 +278,7 @@
             <Part Id="PART_LOWER_BACK" String="아래쪽 등"/>
             <Part Id="PART_ROLLING" String="구르기"/>
             <Part Id="PART_DORSAL_FIN" String="등 지느러미"/>
-            <Part Id="PART_LEGS" String="다리"/>
+            <Part Id="PART_LEGS" String="양쪽 다리"/>
             <Part Id="PART_SHELL" String="껍데기"/>
             <Part Id="PART_CLAW" String="발톱"/>
             <Part Id="PART_R_CLAW" String="오른쪽 발톱"/>
@@ -308,14 +308,14 @@
             <Part Id="PART_CREST" String="볏"/>
             <Part Id="PART_THROAT" String="목"/>
             <Part Id="PART_BIG_FLINCH" String="대경직"/>
-            <Part Id="PART_HORNS" String="뿔"/>
+            <Part Id="PART_HORNS" String="양쪽 뿔"/>
             <Part Id="PART_HORN" String="뿔"/>
             <Part Id="PART_KNOCKDOWN" String="병기 대미지 대경직"/>
             <Part Id="PART_HORNS_2" String="두번째 뿔"/>
             <Part Id="PART_RAGE" String="분노 해제"/>
             <Part Id="PART_L_LIMBS" String="왼쪽 앞다리"/>
             <Part Id="PART_R_LIMBS" String="오른쪽 앞다리"/>
-            <Part Id="PART_LIMBS" String="앞다리"/>
+            <Part Id="PART_LIMBS" String="양쪽 앞다리"/>
             <Part Id="PART_COUNTERATTACK" String="반격"/>
             <Part Id="PART_JAW" String="턱"/>
             <Part Id="PART_EXPLOSION_WEAKENING" String="속성 피해 대경직"/>
@@ -824,8 +824,8 @@
                      String="클라이언트"
                      Description="클라이언트 설정"/>
             <Setting Id="DISCORD_RPC_STRING"
-                     String="Discord Presence"
-                     Description="Discord Rich Presence 설정"/>
+                     String="Discord 활동 상태"
+                     Description="Discord 활동 상태 설정"/>
             <Setting Id="OVERLAY_STRING"
                      String="오버레이"
                      Description="오버레이 설정"/>
@@ -856,6 +856,15 @@
             <Setting Id="DEV_TOOLS_STRING"
                      String="개발 도구"
                      Description="심화 개발 도구"/>
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="조충곤 위젯"
+                     Description="조충곤 위젯 설정"/>
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="차지액스 위젯"
+                     Description="차지액스 위젯 설정"/>
+            <Setting Id="DUALBLADES_WIDGET_STRING"
+                     String="쌍검 위젯"
+                     Description="쌍검 위젯 설정"/>
             <Setting Id="ACCOUNT_STRING"
                      String="계정"
                      Description="계정 설정"/>
@@ -923,10 +932,10 @@
                      Description="옵션 활성화 시, HunterPie는 개발 중인 기능에 대한 기능 플래그를 활성화할 수 있도록 허용합니다."/>
             <Setting Id="THEME_STRING"
                      String="테마"
-                     Description="HunterPie에 현재 적용된 테마"/>
+                     Description="HunterPie에 현재 적용된 테마입니다. 테마는 위젯 스타일을 변경합니다."/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
-                     String="Discord Rich Presence 활성화"
+                     String="Discord 활동 상태 활성화"
                      Description="옵션 활성화 시, HunterPie는 Discord 상태창에 활동 상태를 표시합니다."/>
             <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO"
                      String="캐릭터 정보 표시"
@@ -1081,25 +1090,47 @@
                      Description="옵션 활성화 시, HunterPie가 동반자의 대미지를 표시합니다."/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="개발자: 모의 몬스터 위젯"/>
+                     String="개발자: 모의 몬스터 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="개발자: 모의 대미지 미터 위젯"/>
+                     String="개발자: 모의 대미지 미터 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="개발자: 모의 효과 위젯"/>
+                     String="개발자: 모의 효과 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="개발자: 모의 밧줄벌레 위젯"/>
+                     String="개발자: 모의 밧줄벌레 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="개발자: 모의 동반자 활동 위젯"/>
+                     String="개발자: 모의 동반자 활동 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="개발자: 모의 채팅 위젯"/>
+                     String="개발자: 모의 채팅 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
+                     String="개발자: 모의 플레이어 Hud 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
+                     String="개발자: 모의 조충곤 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
+                     String="개발자: 모의 차지액스 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
+                     String="개발자: 모의 쌍검 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="개발자: 모의 특수 장비 위젯"/>
+                     String="개발자: 모의 특수 장비 위젯"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오."/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="개발자: Poogie API 호스트"/>
+                     String="개발자: Poogie API 호스트"
+                     Description="개발 목적이 아니라면 변경하지 마십시오."/>
             <Setting Id="DEV_LOG_LEVEL"
-                     String="개발자: 로그 레벨"/>
+                     String="개발자: 로그 레벨"
+                     Description="콘솔 창에 표시할 최소 로그 레벨입니다."/>
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="개발자: UI 렌더링 트레이서 레벨"/>
+                     String="개발자: UI 렌더링 트레이서 레벨"
+                     Description="개발 목적이 아니라면 변경하지 마십시오."/>
 
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
