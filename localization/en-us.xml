@@ -1348,6 +1348,14 @@
                   String="Total damage" />
             <Enum Id="PLOT_DPS_STRING"
                   String="Damage per second" />
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="Lock On" />
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="Map pin" />
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="Quest target" />
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="Inference" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -1512,6 +1520,9 @@
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="Monster health bar maximum width"
                      Description="Controls the maximum width for the monsters health bar." />
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
+                     String="Target mode"
+                     Description="Controls how you target a monster."/>
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster health bar minimum width"
                      Description="Controls the minimum width for the monsters health bar. This width will be used to calculate the dynamic size for the bars if that option is enabled." />
