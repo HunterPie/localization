@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings lang="Portuguese">
     <Ailments>
         <Rise>
@@ -274,7 +274,7 @@
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE"
                      String="Contraofensiva" />
         <Abnormality Id="ABNORMALITY_CHAIN_CRIT"
-                     String="Chain Crit" />
+                     String="Rajada" />
         <Abnormality Id="ABNORMALITY_LATENTPOWER"
                      String="Poder Latente" />
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING"
@@ -298,7 +298,7 @@
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER"
                      String="Reforço de Afinidade" />
         <Abnormality Id="ABNORMALITY_GRINDER_S"
-                     String="Amolador (S)" />
+                     String="Amolador (P)" />
         <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH"
                      String="Onda de Adrenalina" />
         <Abnormality Id="ABNORMALITY_AGITATOR"
@@ -1131,7 +1131,7 @@
             <Stage Id="504"
                    String="Área de Treinamento" />
             <Stage Id="505"
-                   String="Chamber of Five" />
+                   String="Câmara dos Cinco" />
             <Stage Id="506"
                    String="Seliana Room" />
         </World>
@@ -1348,6 +1348,14 @@
                   String="Dano Total" />
             <Enum Id="PLOT_DPS_STRING"
                   String="Dano por Segundo" />
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="Mira travada" />
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="Marcação no mapa" />
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="Alvo da missão" />
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="Inferência" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -1512,6 +1520,9 @@
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="Largura máxima da barra"
                      Description="Controla a largura máxima da barra de vida dos monstros." />
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
+                     String="Modo de mira do alvo"
+                     Description="Controla como você mira um monstro."/>
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Largura mínima da barra"
                      Description="Controla a largura mínima da barra de vida dos monstros.&#xA;Essa largura será usada para calcular o tamanho dinâmico das barras se essa opção estiver ativada." />
