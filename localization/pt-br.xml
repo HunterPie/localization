@@ -1231,10 +1231,22 @@
                      String="O HunterPie está atualizado!" />
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
                      String="Uma nova versão do HunterPie está disponível!" />
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION"
+                     String="Falha ao buscar a versão. Clique aqui para tentar novamente." />
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION"
+                     String="Buscando a versão mais recente" />
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
                      String="Configuração para:" />
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(Reinicialização Necessária)" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="Sincronizado em"/>
+            <Generic Id="SELECT_ALL_STRING"
+                     String="Marcar Tudo"/>
+            <Generic Id="UNSELECT_ALL_STRING"
+                     String="Desmarcar Tudo"/>
+            <Generic Id="BACK_STRING"
+                     String="Voltar"/>
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1449,7 +1461,7 @@
                      String="Desativar confirmação de fechamento"
                      Description="Se habilitado, o HunterPie não solicitará confirmação ao fechar." />
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
-                     String="Habilitar o módulo nativo (leia a descrição)"
+                     String="Habilitar o Módulo Nativo"
                      Description="Se habilitada, o HunterPie corrigirá o jogo para habilitar algumas funcionalidades (por exemplo, medidor de dano durante a expedição).&#xA;Se você não tiver os mods [Stracker's Loader] e [Performance Booster and Plugin Extender] (CRCBypass), essa opção poderá travar o jogo durante longos períodos de jogo.&#xA;É necessário reiniciar o jogo para que tenha efeito." />
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Fechar ao sair do jogo"
@@ -1479,13 +1491,13 @@
                      String="Mostrar a vida do monstro alvo"
                      Description="Se habilitado, o HunterPie exibirá a saúde do monstro alvo em seu status do Discord quando disponível." />
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
-                     String="[Atalho] Alternar Sobreposição"
+                     String="Alternar Sobreposição"
                      Description="Tecla de atalho para ativar e desativar a sobreposição." />
             <Setting Id="OVERLAY_ENABLED_STRING"
                      String="Habilitar sobreposição"
                      Description="Se ativada, o HunterPie exibirá a sobreposição.&#xA;OBSERVAÇÃO: Essa configuração não substitui a configuração para desativar widgets individuais." />
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[Atalho] Alterna o Modo de Design"
+                     String="Alterna o Modo de Design"
                      Description="Tecla de atalho para ativar e desativar o modo de design." />
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="Ocultar widgets quando o jogo não estiver em foco"
@@ -1619,9 +1631,8 @@
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Mostrar dano de Amigães"
                      Description="Se habilitado, o HunterPie exibirá o dano dos Amigães (Amigatos e Amicães)." />
-
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Developer: Mock Monster widget" 
+                     String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING."/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
                      String="Developer: Mock Damage Meter widget"
@@ -1662,7 +1673,6 @@
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
                      String="Developer: UI rendering tracer level"
                      Description="DO NOT CHANGE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
-            
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Habilitar backup de jogos salvos"
@@ -1671,5 +1681,49 @@
                      String="Habilitar upload de caçadas"
                      Description="Se habilitado, o HunterPie fará o upload das estatísticas de suas caçadas para a nuvem." />
         </Settings>
+        <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET"
+                   String="CONFIGURAÇÕES DO WIDGET" />
+            <Group Id="CONFIGURATION_GROUP_GENERAL"
+                   String="CONFIGURAÇÕES GERAIS" />
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS"
+                   String="CUSTOMIZAÇÕES" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET"
+                   String="ALVO" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS"
+                   String="PARTES" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS"
+                   String="FLAGELOS" />
+            <Group Id="CONFIGURATION_GROUP_MISC"
+                   String="OUTROS" />
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS"
+                   String="EFEITOS DE STATUS" />
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT"
+                   String="GRÁFICO DE DANO" />
+            <Group Id="CONFIGURATION_GROUP_COLORS"
+                   String="CORES" />
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES"
+                   String="ATIVIDADES" />
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS"
+                   String="ATALHOS" />
+            <Group Id="CONFIGURATION_GROUP_MOCKS"
+                   String="MOCKS" />
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT"
+                   String="DESENVOLVEDOR" />
+            <Group Id="CONFIGURATION_GROUP_LOGGING"
+                   String="REGISTRO" />
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE"
+                   String="ATUALIZAÇÃO AUTOMÁTICA" />
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER"
+                   String="APOIADOR" />
+            <Group Id="CONFIGURATION_GROUP_IN_GAME"
+                   String="EM-JOGO" />
+            <Group Id="CONFIGURATION_GROUP_NATIVE"
+                   String="NATIVO" />
+            <Group Id="CONFIGURATION_GROUP_RENDERING"
+                   String="RENDERIZAÇÃO" />
+            <Group Id="CONFIGURATION_GROUP_SCANNING"
+                   String="VARREDURA" />
+        </ConfigurationGroups>
     </Client>
 </Strings>
