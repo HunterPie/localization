@@ -93,7 +93,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Ausdauererholung hoch"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Schärfeminderung reduziert"/>
         <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Schärfe Regeneration"/>
-        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Schärfeverlängerung"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Schärfeverlängerung"/>
         <Abnormality Id="ABNORMALITY_ENV_NEG" String="Umgebungsschaden negiert"/>
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Akkustische Barriere"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Höllenmelodie"/>
@@ -154,7 +154,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
 
         <Abnormality Id="ABNORMALITY_FORTIFY" String="Kräftigen"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
-        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Kritische-Kette"/>  <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Kritische-Kette"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>    <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
@@ -167,7 +167,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="Ausweich-Mantel +"/>
         <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="Affinitäts Steigerung"/>
         <Abnormality Id="ABNORMALITY_GRINDER_S" String="Schleifer (S)"/>
-        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalinschub"/> <!-- Zu ergänzen/ausbessern (MHR:Sunbreak) -->
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="Adrenalinschub"/>
         
         <Abnormality Id="ABNORMALITY_AGITATOR" String="Aufhetzer"/>
         <Abnormality Id="ABNORMALITY_DEFIANCE" String="Trotz"/>
@@ -220,7 +220,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/> <!-- Zu ergänzen/ausbessern -->
         <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
-        <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/> <!--  Needs to be reviewed (Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/>
+        <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="Wie gerufen"/>
 
     </Abnormalities>
     <Monsters>
@@ -623,7 +624,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
                     String="Exportierte Jagden" />
             <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
-                    String="Dein Account ist beschränkt auf 7 Tage exportierte Jagden.&#xA;Als Unterstützer hast kannst du ältere Jagden sehen!" />
+                    String="Dein Account ist beschränkt auf 7 Tage exportierte Jagden.&#xA;Als Unterstützer hast du Zugriff auf ältere Jagden!" />
             <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
                     String="Stufe deinen Account auf, um alle Jagden zu sehen!" />
             <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
@@ -663,7 +664,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                     String="Ausgang:"/>
             <String Id="MEOWCENARIES_BUDDIES_STRING"
                     String="Buddies:"/>
-            
+
             <String Id="COHOOT_KAMURA_NEST_STRING"
                     String="Kamura Nest:"/>
             <String Id="COHOOT_ELGADO_NEST_STRING"
@@ -673,7 +674,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                     String="tage" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="quests" />
-            
+
         </Overlay>
         <Tabs>
 
@@ -701,10 +702,22 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      String="HunterPie ist auf dem neusten Stand!"/>
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
                      String="Eine neuere Version von HunterPie ist verfügbar!"/>
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION"
+                     String="Neue Version konnte nicht abgerufen werden. Klicke hier um es erneut zu versuchen."/>
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION"
+                     String="Aktuelle Version wird abgerufen"/>
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
                      String="Konfiguration für:"/>
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(Neustart Erforderlich)"/>
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="Synchronisiert am"/>
+            <Generic Id="SELECT_ALL_STRING"
+                     String="Wähle alles aus"/>
+            <Generic Id="UNSELECT_ALL_STRING"
+                     String="Wähle alles ab"/>
+            <Generic Id="BACK_STRING"
+                     String="Zurück"/>
 
         </Generics>
         <Dialogs>
@@ -832,6 +845,14 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                   String="Gesamtschaden"/>
             <Enum Id="PLOT_DPS_STRING"
                   String="Schaden pro Sekunde"/>
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="Fixieren"/>
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="Kartenmakierung"/>
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="Quest Ziel"/>
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="Inferenz"/>
 
         </Enums>
         <Settings>
@@ -930,11 +951,11 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      String="Aktiviere nahtloses Beenden"
                      Description="Sofern aktiv, wird HunterPie dich nicht nach deiner Zustimmung fragen wenn du es beendest."/>
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
-                     String="Natives Modul aktivieren (Beschreibung bitte sorgfältig lesen)"
-                     Description="Wenn aktiviert, patcht HunterPie das Spiel, um einige Funktionen zu aktivieren (z. B. Schadensanzeige während der Expedition).&#10;Wenn du die Mods [Stracker's Loader] und [Performance Booster and Plugin Extender](CRCBypass) nicht besitzt, kann diese Option zum Absturz des Spiels über längere Zeiträume verursachen.&#10;Das Spiel muss neugestartet werden, sodass der Effekt in Kraft tritt."/>
+                     String="Aktiviere HunterPie Native"
+                     Description="Sofern aktiv, patcht HunterPie das Spiel, um einige Funktionen zu aktivieren (z. B. Schadensanzeige während der Expedition).&#xA;&#xA;Wenn du die Mods [Stracker's Loader] und [Performance Booster and Plugin Extender](CRCBypass) nicht besitzt, kann diese Option zum Absturz des Spiels über längere Zeiträume verursachen.&#xA;Das Spiel muss neugestartet werden, sodass der Effekt in Kraft tritt."/>
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Beim Beenden des Spiels schließen"
-                     Description="Wenn aktiviert, schließt sich HunterPie automatisch, wenn das Spiel geschlossen wird."/>
+                     Description="Sofern aktiv, schließt sich HunterPie automatisch, wenn das Spiel geschlossen wird."/>
             <Setting Id="RENDERING_FPS_STRING"
                      String="Rendering Framerate"
                      Description="Je höher die Render-Framerate von HunterPie, desto flüssiger werden die Animationen. Das Verringern dieser Einstellung sollte die Leistung erhöhen."/>
@@ -962,13 +983,13 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Sofern aktiv, zeigt HunterPie die verbleibenden Lebenspunkte des anvisierten Monsters in deinem Discord Status an."/>
 
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
-                     String="[Tastenkürzel] Overlay umschalten"
+                     String="Overlay umschalten"
                      Description="Tastenkürzel zum Ein- und Ausschalten des Overlays."/>
             <Setting Id="OVERLAY_ENABLED_STRING"
                      String="Overlay aktivieren"
                      Description="Wenn aktiviert, zeigt HunterPie das Overlay an.&#10;HINWEIS: Diese Einstellung überschreibt nicht die Einstellung zum Deaktivieren einzelner Widgets."/>
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[Tastenkürzel] Design Modus umschalten"
+                     String="Design Modus umschalten"
                      Description="Tastenkürzel um den Design Modus ein- oder auszuschalten."/>
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="Verstecke Widgets wenn das Spiel nicht fokussiert ist"
@@ -1005,6 +1026,9 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="Monster Widget maximale Breite"
                      Description="Kontrolliert die maximale Breite des Lebensbalkens eines Monsters."/>
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
+                     String="Auswahlmodus"
+                     Description="Kontrolliert, wie du ein Monster auswählst."/>
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster Widget minimale Breite"
                      Description="Kontrolliert die minimale Breite des Lebensbalkens eines Monsters. Die verwendete Breite wird zur Kalkulation der dynamischen Balkengröße verwendet, sofern diese aktiviert wurde."/>
@@ -1083,16 +1107,19 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Die Farbe deines Spielers in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
                      String="Gruppenleiter Farbe"
-                     Description="Die Farbe des Gruppenleiters der Gruppe in der Schadensanzeige."/>
+                     Description="Die Farbe des Gruppenleiters in der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
                      String="Zweiter Spieler Farbe"
-                     Description="Die Farbe des zweiten Spielers der Gruppe in der Schadensanzeige."/>
+                     Description="Die Farbe des zweiten Spielers in der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
                      String="Dritter Spieler Farbe"
-                     Description="Die Farbe des dritten Spielers der Gruppe in der Schadensanzeige."/>
+                     Description="Die Farbe des dritten Spielers in der Gruppe in der Schadensanzeige."/>
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
                      String="Vierter Spieler Farbe"
-                     Description="Die Farbe des vierten Spielers der Gruppe in der Schadensanzeige."/>
+                     Description="Die Farbe des vierten Spielers in der Gruppe in der Schadensanzeige."/>
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING"
+                     String="Begleiter Farbe"
+                     Description="Die Farbe des Begleiters in der Gruppe in der Schadensanzeige." />
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Zeige Otomos Schaden"
                      Description="Sofern aktiv, stellt HunterPie den Otomos Schaden dar."/>
@@ -1150,5 +1177,51 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      Description="Sofern aktiv, sichert HunterPie die Statistiken deiner Jagden." />
                      
         </Settings>
+        <ConfigurationGroups>
+
+            <Group Id="CONFIGURATION_GROUP_WIDGET"
+                   String="WIDGET EINSTELLUNGEN"/>
+            <Group Id="CONFIGURATION_GROUP_GENERAL"
+                   String="ALLGEMEINE EINSTELLUNGEN"/>
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS"
+                   String="ANPASSUNGEN"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET"
+                   String="ZIELFÜHRUNG"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS"
+                   String="TEILE"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS"
+                   String="STATUSEFFEKTE"/>
+            <Group Id="CONFIGURATION_GROUP_MISC"
+                   String="SONSTIGES"/>
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS"
+                   String="ABNORMALITÄTEN LEISTE"/>
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT"
+                   String="SCHADENSHANDLUNG"/>
+            <Group Id="CONFIGURATION_GROUP_COLORS"
+                   String="FARBEN"/>
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES"
+                   String="AKTIVITÄTEN"/>
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS"
+                   String="TASTENKÜRZEL"/>
+            <Group Id="CONFIGURATION_GROUP_MOCKS"
+                   String="SPOTT"/>
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT"
+                   String="ENTWICKLUNG"/>
+            <Group Id="CONFIGURATION_GROUP_LOGGING"
+                   String="LOGGING"/>
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE"
+                   String="SELBST UPDATE"/>
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER"
+                   String="SUPPORTER"/>
+            <Group Id="CONFIGURATION_GROUP_IN_GAME"
+                   String="IM SPIEL"/>
+            <Group Id="CONFIGURATION_GROUP_NATIVE"
+                   String="NATIVE"/>
+            <Group Id="CONFIGURATION_GROUP_RENDERING"
+                   String="RENDERING"/>
+            <Group Id="CONFIGURATION_GROUP_SCANNING"
+                   String="SCANNEN"/>
+
+        </ConfigurationGroups>
     </Client>
 </Strings>
