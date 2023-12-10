@@ -1231,10 +1231,22 @@
                      String="HunterPie is up to date!" />
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
                      String="There's a new version of HunterPie available!" />
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION"
+                     String="Failed to fetch version. Click here to retry." />
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION"
+                     String="Fetching latest version" />
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
                      String="Configuration for:" />
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(Requires Restart)" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="Synchronized at"/>
+            <Generic Id="SELECT_ALL_STRING"
+                     String="Select All"/>
+            <Generic Id="UNSELECT_ALL_STRING"
+                     String="Unselect All"/>
+            <Generic Id="BACK_STRING"
+                     String="Back"/>
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1348,6 +1360,14 @@
                   String="Total damage" />
             <Enum Id="PLOT_DPS_STRING"
                   String="Damage per second" />
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="Lock On" />
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="Map pin" />
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="Quest target" />
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="Inference" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -1441,8 +1461,8 @@
                      String="Enable seamless shutdown"
                      Description="If enabled, HunterPie will not prompt you for confirmation on exit." />
             <Setting Id="ENABLE_NATIVE_MODULE_STRING"
-                     String="Enable native module (Read description carefully)"
-                     Description="If enabled, HunterPie will patch the game to enable some functionality (e.g., damage meter during expedition).&#xA;If you do not have [Stracker's Loader] and [Performance Booster and Plugin Extender](CRCBypass) mods, this option can crash the game over extended periods of play.&#xA;Need to restart the game to take effect." />
+                     String="Enable HunterPie Native"
+                     Description="If enabled, HunterPie will patch the game to enable some functionality (e.g., damage meter during expedition).&#xA;&#xA;If you do not have [Stracker's Loader] and [Performance Booster and Plugin Extender](CRCBypass) mods, this option can crash the game over extended periods of play.&#xA;Need to restart the game to take effect." />
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Close on game exit"
                      Description="If enabled, HunterPie will automatically close itself when the game is closed." />
@@ -1471,13 +1491,13 @@
                      String="Show target monster health"
                      Description="If enabled, HunterPie will display the target monster's health in your Discord status when available." />
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
-                     String="[Hot Key] Toggle overlay"
+                     String="Toggle overlay"
                      Description="Hot Key to toggle the overlay on and off." />
             <Setting Id="OVERLAY_ENABLED_STRING"
                      String="Enable overlay"
                      Description="If enabled, HunterPie will display the overlay.&#xA;NOTE: This setting does not override the setting to disable individual widgets." />
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[Hot Key] Toggle Design Mode"
+                     String="Toggle Design Mode"
                      Description="Hot Key to toggle design mode on and off." />
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="Hide Widgets when game is not focused"
@@ -1512,6 +1532,9 @@
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="Monster health bar maximum width"
                      Description="Controls the maximum width for the monsters health bar." />
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
+                     String="Target mode"
+                     Description="Controls how you target a monster."/>
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster health bar minimum width"
                      Description="Controls the minimum width for the monsters health bar. This width will be used to calculate the dynamic size for the bars if that option is enabled." />
@@ -1608,10 +1631,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="Show Otomos damage"
                      Description="If enabled, HunterPie will display Otomos damage." />
-
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Developer: Mock Monster widget" 
-                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING."/>
+                     String="Developer: Mock Monster widget"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
                      String="Developer: Mock Damage Meter widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
@@ -1651,7 +1673,6 @@
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
                      String="Developer: UI rendering tracer level"
                      Description="DO NOT CHANGE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
-            
             <!-- Account -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="Enable game save backup"
@@ -1660,5 +1681,49 @@
                      String="Enable hunt upload"
                      Description="If enabled, HunterPie will upload the statistics of your hunts." />
         </Settings>
+        <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET"
+                   String="WIDGET SETTINGS" />
+            <Group Id="CONFIGURATION_GROUP_GENERAL"
+                   String="GENERAL SETTINGS" />
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS"
+                   String="CUSTOMIZATIONS" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET"
+                   String="TARGETING" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS"
+                   String="PARTS" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS"
+                   String="AILMENTS" />
+            <Group Id="CONFIGURATION_GROUP_MISC"
+                   String="OTHER" />
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS"
+                   String="ABNORMALITY TRAYS" />
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT"
+                   String="DAMAGE PLOT" />
+            <Group Id="CONFIGURATION_GROUP_COLORS"
+                   String="COLORS" />
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES"
+                   String="ACTIVITIES" />
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS"
+                   String="HOTKEYS" />
+            <Group Id="CONFIGURATION_GROUP_MOCKS"
+                   String="MOCKS" />
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT"
+                   String="DEVELOPMENT" />
+            <Group Id="CONFIGURATION_GROUP_LOGGING"
+                   String="LOGGING" />
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE"
+                   String="SELF UPDATE" />
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER"
+                   String="SUPPORTER" />
+            <Group Id="CONFIGURATION_GROUP_IN_GAME"
+                   String="IN-GAME" />
+            <Group Id="CONFIGURATION_GROUP_NATIVE"
+                   String="NATIVE" />
+            <Group Id="CONFIGURATION_GROUP_RENDERING"
+                   String="RENDERING" />
+            <Group Id="CONFIGURATION_GROUP_SCANNING"
+                   String="SCANNING" />
+        </ConfigurationGroups>
     </Client>
 </Strings>
