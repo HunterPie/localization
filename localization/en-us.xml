@@ -1415,6 +1415,9 @@
             <Setting Id="DUALBLADES_WIDGET_STRING"
                      String="Dual Blades Widget"
                      Description="Dual Blades Widget configurations" />
+            <Setting Id="SWITCH_AXE_WIDGET_STRING"
+                     String="Switch Axe Widget"
+                     Description="Switch Axe Widget configurations" />
             <Setting Id="ACCOUNT_STRING"
                      String="Account"
                      Description="Account settings" />
