@@ -997,7 +997,7 @@
             <Monster Id="95"
                      String="Zinogre Tenebroso" />
             <Monster Id="96"
-                     String="Raging Colérico" />
+                     String="Brachydios Colérico" />
             <Monster Id="97"
                      String="Safi'jiiva" />
             <Monster Id="98"
@@ -1415,6 +1415,9 @@
             <Setting Id="DUALBLADES_WIDGET_STRING"
                      String="Duplas-Lâminas"
                      Description="Configuração do Widget das Duplas-Lâminas" />
+            <Setting Id="SWITCH_AXE_WIDGET_STRING"
+                     String="Transmachado"
+                     Description="Configuração do Widget do Transmachado" />
             <Setting Id="ACCOUNT_STRING"
                      String="Conta"
                      Description="Configurações de conta" />
