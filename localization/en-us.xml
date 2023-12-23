@@ -1213,6 +1213,8 @@
                  String="Console" />
             <Tab Id="DISCORD_STRING"
                  String="Discord" />
+            <Tab Id="QUEST_STATISTICS_STRING"
+                 String="Hunts" />
             <Tab Id="PATCH_NOTES_STRING"
                  String="Patch Notes" />
             <Tab Id="PLUGINS_STRING"
@@ -1324,6 +1326,9 @@
                     String="The password reset code is not valid or has expired." />
             <Poogie Id="ERROR_GENERIC"
                     String="Whoops... Something went wrong. Try again in a few minutes!" />
+            <Poogie Id="SIGN_IN_NOTIFICATION"
+                    String="Sign In"
+                    Description="Attempting to sign in to account..." />
             <Poogie Id="LOGIN_SUCCESS"
                     String="Welcome {Username}! You're now logged in." />
             <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
