@@ -1417,6 +1417,9 @@
             <Setting Id="CHARGE_BLADE_WIDGET_STRING"
                      String="Charge Blade Widget"
                      Description="Charge Blade Widget configurations" />
+            <Setting Id="LONGSWORD_WIDGET_STRING"
+                     String="Longsword Widget"
+                     Description="Longsword Widget configurations" />
             <Setting Id="DUALBLADES_WIDGET_STRING"
                      String="Dual Blades Widget"
                      Description="Dual Blades Widget configurations" />
