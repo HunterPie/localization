@@ -1384,6 +1384,9 @@
             <Setting Id="OVERLAY_STRING"
                      String="Overlay"
                      Description="Overlay configurations" />
+            <Setting Id="FEATURE_FLAGS_STRING"
+                     String="Feature Flags"
+                     Description="Feature Flag configurations" />
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="Abnormality Widget"
                      Description="Abnormality Trays configurations" />
