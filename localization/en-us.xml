@@ -1429,6 +1429,9 @@
             <Setting Id="SWITCH_AXE_WIDGET_STRING"
                      String="Switch Axe Widget"
                      Description="Switch Axe Widget configurations" />
+            <Setting Id="CLOCK_WIDGET_STRING"
+                     String="Clock Widget"
+                     Description="Clock Widget configurations" />
             <Setting Id="ACCOUNT_STRING"
                      String="Account"
                      Description="Account settings" />
@@ -1689,6 +1692,15 @@
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
                      String="Developer: Mock Specialized Tool widget"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
+                     String="Developer: Mock Switch Axe widget"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
+                     String="Developer: Mock Longsword widget"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
+                     String="Developer: Mock Clock widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="Developer: Poogie API Host"
