@@ -1242,13 +1242,13 @@
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="(Requires Restart)" />
             <Generic Id="CONFIGURATION_SYNC_AT_STRING"
-                     String="Synchronized at"/>
+                     String="Synchronized at" />
             <Generic Id="SELECT_ALL_STRING"
-                     String="Select All"/>
+                     String="Select All" />
             <Generic Id="UNSELECT_ALL_STRING"
-                     String="Unselect All"/>
+                     String="Unselect All" />
             <Generic Id="BACK_STRING"
-                     String="Back"/>
+                     String="Back" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1551,7 +1551,7 @@
                      Description="Controls the maximum width for the monsters health bar." />
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
                      String="Target mode"
-                     Description="Controls how you target a monster."/>
+                     Description="Controls how you target a monster." />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster health bar minimum width"
                      Description="Controls the minimum width for the monsters health bar. This width will be used to calculate the dynamic size for the bars if that option is enabled." />
