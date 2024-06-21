@@ -1579,6 +1579,9 @@
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
                      String="Hide unknown monster parts"
                      Description="If enabled, HunterPie will hide unknown parts (the ones labeled as &quot;???&quot;)." />
+            <Setting Id="MONSTER_WIDGET_OWO_NAMES"
+                     String="OwOify monster names"
+                     Description="Replace &quot;U&quot; and &quot;O&quot; with &quot;UwU&quot; and &quot;OwO&quot; in the names of monsters." />
             <Setting Id="ABNORMALITY_TRAYS_STRING"
                      String="Abnormality Trays"
                      Description="Configurations for abnormality trays." />
