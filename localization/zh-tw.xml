@@ -834,10 +834,15 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="顯示隨從隱密隊"
                      Description="如果啟用，將顯示隨從隱密隊資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="顯示植生研究所"
+                     Description="如果啟用，將顯示植生研究所資訊。" />
             <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
                      String="顯示福福鴞的巢"
                      Description="如果啟用，將顯示福福鴞的巢資訊。"/>
-
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="顯示蒸氣機關管理所"
+                     Description="如果啟用，將顯示顯示蒸氣機關管理所資訊。" />
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="強調自己"
                      Description="如果啟用，將強調顯示您的名字。"/>
