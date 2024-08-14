@@ -1249,6 +1249,16 @@
                      String="Unselect All" />
             <Generic Id="BACK_STRING"
                      String="Back" />
+            <Generic Id="MONSTER_PART_GROUPS_STRING"
+                     String="PART GROUPS" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING"
+                     String="parts" />
+            <Generic Id="MONSTER_PARTS_STRING"
+                     String="PARTS" />
+            <Generic Id="MONSTER_AILMENTS_STRING"
+                     String="AILMENTS" />
+            <Generic Id="MONSTER_OVERRIDE_STRING"
+                     String="Create monster rules" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1459,6 +1469,9 @@
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="Show self update confirmation"
                      Description="If enabled, HunterPie will ask permission to self update." />
+            <Setting Id="MONSTER_GLOBAL_SETTINGS_STRING"
+                     String="Global settings"
+                     Description="Apply settings globally to all monsters." />
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="Supporter token"
                      Description="Supporter token for getting beta updates." />
