@@ -549,14 +549,16 @@
                  String="Patreon"/>
         </Tabs>
         <Generics>
-            <Generic Id="HunterPie _LAUNCH_GAME"
+            <Generic Id="HUNTERPIE_LAUNCH_GAME"
                      String="啟動遊戲"/>
-            <Generic Id="HunterPie _IS_LATEST_VERSION"
-                     String="目前 HunterPie  為最新版本！"/>
-            <Generic Id="HunterPie _NOT_LATEST_VERSION"
-                     String="已有新版本 HunterPie  可更新！"/>
-            <Generic Id="HunterPie _CURRENT_SELECTED_CONFIG"
-                     String="使用的設定檔:"/>
+            <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
+                     String="目前 HunterPie 為最新版本！"/>
+            <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
+                     String="已有新版本 HunterPie 可更新！"/>
+            <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
+                     String="使用的設定檔："/>
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="（需要重新啟動）" />
         </Generics>
         <Integrations>
             <!-- Shared between games -->
@@ -834,10 +836,15 @@
             <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
                      String="顯示隨從隱密隊"
                      Description="如果啟用，將顯示隨從隱密隊資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="顯示植生研究所"
+                     Description="如果啟用，將顯示植生研究所資訊。" />
             <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
                      String="顯示福福鴞的巢"
                      Description="如果啟用，將顯示福福鴞的巢資訊。"/>
-
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="顯示蒸氣機關管理所"
+                     Description="如果啟用，將顯示顯示蒸氣機關管理所資訊。" />
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="強調自己"
                      Description="如果啟用，將強調顯示您的名字。"/>
