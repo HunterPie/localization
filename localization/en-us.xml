@@ -3399,6 +3399,8 @@
                     String="quests" />
         </Overlay>
         <Tabs>
+            <Tab Id="HOME_STRING"
+                 String="Home" />
             <Tab Id="CONSOLE_STRING"
                  String="Console" />
             <Tab Id="DISCORD_STRING"
@@ -3449,6 +3451,8 @@
                      String="AILMENTS" />
             <Generic Id="MONSTER_OVERRIDE_STRING"
                      String="Create monster rules" />
+            <Generic Id="GO_TO_STRING"
+                     String="Go to" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -3966,5 +3970,21 @@
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="SCANNING" />
         </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND"
+                        String="Game not found" />
+            <GameStatus Id="WAITING"
+                        String="Waiting for game..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="Another game is running" />
+            <GameStatus Id="RUNNING"
+                        String="Running..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="Has any questions or technical issues? Get assistance from our team and community." />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="Documentation"
+                          Description="Learn more about HunterPie's features and how to use them." />
+        </Home>
     </Client>
 </Strings>
