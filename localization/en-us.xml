@@ -3399,6 +3399,8 @@
                     String="quests" />
         </Overlay>
         <Tabs>
+            <Tab Id="HOME_STRING"
+                 String="Home" />
             <Tab Id="CONSOLE_STRING"
                  String="Console" />
             <Tab Id="DISCORD_STRING"
