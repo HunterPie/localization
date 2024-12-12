@@ -3439,6 +3439,8 @@
                      String="전부 선택 해제" />
             <Generic Id="BACK_STRING"
                      String="뒤로" />
+            <Generic Id="GO_TO_STRING"
+                     String="이동하기" />
             <Generic Id="MONSTER_PART_GROUPS_STRING"
                      String="부위 그룹" />
             <Generic Id="MONSTER_PARTS_COUNT_STRING"
@@ -3966,5 +3968,21 @@
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="스캐닝" />
         </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND"
+                        String="게임을 찾을 수 없습니다" />
+            <GameStatus Id="WAITING"
+                        String="게임 기다리는 중..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="다른 게임이 실행 중입니다" />
+            <GameStatus Id="RUNNING"
+                        String="실행 중..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="질문이나 기술적 문제가 있나요? 우리의 팀과 커뮤니티에서 지원을 받으세요." />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="설명서"
+                          Description="HunterPie의 기능과 사용법에 대해 알아보세요." />
+        </Home>
     </Client>
 </Strings>
