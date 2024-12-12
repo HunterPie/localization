@@ -1209,6 +1209,8 @@
                     String="퀘스트" />
         </Overlay>
         <Tabs>
+            <Tab Id="HOME_STRING"
+                 String="홈" />
             <Tab Id="CONSOLE_STRING"
                  String="콘솔" />
             <Tab Id="DISCORD_STRING"
