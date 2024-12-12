@@ -1250,7 +1250,7 @@
             <Generic Id="BACK_STRING"
                      String="뒤로" />
             <Generic Id="GO_TO_STRING"
-                     String="이동하기기" />
+                     String="이동하기" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
