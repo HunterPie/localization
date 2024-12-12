@@ -1249,6 +1249,16 @@
                      String="전부 선택 해제" />
             <Generic Id="BACK_STRING"
                      String="뒤로" />
+            <Generic Id="MONSTER_PART_GROUPS_STRING"
+                     String="부위 그룹" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING"
+                     String="부위" />
+            <Generic Id="MONSTER_PARTS_STRING"
+                     String="부위" />
+            <Generic Id="MONSTER_AILMENTS_STRING"
+                     String="상태 이상" />
+            <Generic Id="MONSTER_OVERRIDE_STRING"
+                     String="몬스터 규칙 만들기" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1459,6 +1469,9 @@
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="자동 업데이트 시 확인창 표시"
                      Description="옵션 활성화 시, HunterPie를 자동으로 업데이트 하기 전에 허용 여부를 물어봅니다." />
+            <Setting Id="MONSTER_GLOBAL_SETTINGS_STRING"
+                     String="전역 설정"
+                     Description="설정을 모든 몬스터에 적용합니다." />
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="서포터 토큰"
                      Description="베타 업데이트를 위한 Patreon 서포터 토큰입니다." />
