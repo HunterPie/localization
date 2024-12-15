@@ -713,7 +713,7 @@
             <Monster Id="3"
                      String="주인 리오레우스" />
             <Monster Id="4"
-                     String="푸르푸르" />
+                     String="푸루푸루" />
             <Monster Id="5"
                      String="바살모스" />
             <Monster Id="6"
@@ -2071,7 +2071,7 @@
             <Quest Id="385205"
                    String="괴이 조사: 볼보로스" />
             <Quest Id="385206"
-                   String="괴이 조사: 바살모" />
+                   String="괴이 조사: 바살모스" />
             <Quest Id="385207"
                    String="괴이 조사: 비슈텐고" />
             <Quest Id="385208"
@@ -2081,9 +2081,9 @@
             <Quest Id="385302"
                    String="괴이 조사: 토비카가치" />
             <Quest Id="385303"
-                   String="괴이 조사: 리오레이" />
+                   String="괴이 조사: 리오레이아" />
             <Quest Id="385304"
-                   String="괴이 조사: 이소네미쿠" />
+                   String="괴이 조사: 이소네미쿠니" />
             <Quest Id="385305"
                    String="괴이 조사: 쥬라토도스" />
             <Quest Id="385306"
@@ -2107,7 +2107,7 @@
             <Quest Id="385407"
                    String="괴이 조사: 벨리오로스" />
             <Quest Id="385408"
-                   String="괴이 조사: 오로미도" />
+                   String="괴이 조사: 오로미도로" />
             <Quest Id="405200"
                    String="주홍빛 천구의 사원 순례" />
             <Quest Id="405300"
