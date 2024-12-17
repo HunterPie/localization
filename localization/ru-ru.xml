@@ -17,6 +17,9 @@
             <Ailment Id="AILMENT_THUNDER" String="Грозовая Порча" />
             <Ailment Id="AILMENT_TRANQUILIZE" String="Усыпление" />
             <Ailment Id="STATUS_ENRAGE" String="Бешенство" />
+            <Ailment Id="AILMENT_CLAWFLINCH" String="Удар когтем" />
+            <Ailment Id="AILMENT_CLAW" String="Хватательный коготь" />
+            <Ailment Id="AILMENT_ELDERSEAL" String="Печать древнего" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -152,6 +155,14 @@
             <Part Id="PART_THUNDERBALLS" String="Грозовые шары" />
             <Part Id="PART_ROCK" String="Камень" />
             <Part Id="PART_POT" String="Кувшин" />
+            <Part Id="PART_MANE" String="Покров" />
+            <Part Id="PART_MANE_GOLD" String="Золотой покров" />
+            <Part Id="PART_HORNS_GOLD" String="Золотые рога" />
+            <Part Id="PART_HORNS" String="Рога" />
+            <Part Id="PART_HORN" String="Рог" />
+            <Part Id="PART_HORNS_2" String="Рога #2" />
+            <Part Id="PART_RAGE" String="Ярость" />
+            <Part Id="PART_EXPLOSION_WEAKENING" String="Элементальный взрыв" />
         </Shared>
         <Rise>
             <Monster Id="0" String="Ратиана" />
