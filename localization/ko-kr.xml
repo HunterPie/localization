@@ -3594,6 +3594,9 @@
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="효과 트레이"
                      Description="효과 트레이 설정" />
+            <Setting Id="TELEMETRICS_WIDGET_STRING"
+                     String="디버그 위젯"
+                     Description="디버그 위젯 설정" />
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="몬스터 위젯"
                      Description="몬스터 위젯 설정" />
@@ -3969,6 +3972,14 @@
                    String="렌더링" />
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="스캐닝" />
+            <Group Id="CONFIGURATION_GROUP_CLIENT"
+                   String="클라이언트" />
+            <Group Id="CONFIGURATION_GROUP_OVERLAY"
+                   String="오버레이" />
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT"
+                   String="계정" />
+            <Group Id="CONFIGURATION_GROUP_FLAGS"
+                   String="기능 플래그" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
