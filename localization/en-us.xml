@@ -3594,6 +3594,9 @@
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="Abnormality Widget"
                      Description="Abnormality Trays configurations" />
+              <Setting Id="TELEMETRICS_WIDGET_STRING"
+                     String="Debug Widget"
+                     Description="Debug Widget configurations" />
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="Monster Widget"
                      Description="Monster Widget configurations" />
@@ -3969,6 +3972,14 @@
                    String="RENDERING" />
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="SCANNING" />
+            <Group Id="CONFIGURATION_GROUP_CLIENT"
+                   String="CLIENT" />
+            <Group Id="CONFIGURATION_GROUP_OVERLAY"
+                   String="OVERLAY" />
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT"
+                   String="ACCOUNT" />
+            <Group Id="CONFIGURATION_GROUP_FLAGS"
+                   String="FEATURE FLAGS" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
