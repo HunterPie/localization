@@ -584,6 +584,8 @@
                      String="使用的設定檔："/>
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="（需要重新啟動）" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="同步於"/>
         </Generics>
         <Integrations>
             <!-- Shared between games -->
@@ -620,6 +622,27 @@
             <Discord Id="DRPC_WORLD_STATE_PRACTICE"
                      String="正在訓練場"/>
         </Integrations>
+        <Poogie>
+            <Poogie Id="SIGN_IN_NOTIFICATION" String="登入" Description="正在嘗試登入帳號..."/>
+            <Poogie Id="ERROR_INVALID_USERNAME" String="使用者名稱無效！"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD" String="密碼無效，密碼長度必須至少8個字元！"/>
+            <Poogie Id="ERROR_INVALID_EMAIL" String="電子郵件無效！"/>
+            <Poogie Id="ERROR_INVALID_CREDENTIALS" String="找不到使用該使用者名稱和密碼的帳號。"/>
+            <Poogie Id="ERROR_USER_NOT_FOUND" String="嗯...找不到該使用者！"/>
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS" String="已經存在使用該電子郵件或使用者名稱的帳號！"/>
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT" String="帳號必須先驗證！請檢查您的電子郵件（包括垃圾郵件資料夾）以驗證帳號。"/>
+            <Poogie Id="INVALID_IMAGE" String="檔案不是有效的圖片！"/>
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="上傳頭像失敗，請稍後再試。"/>
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="上傳頭像失敗，檔案大小超過3.5 MB。"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE" String="密碼重設代碼無效或已過期。"/>
+            <Poogie Id="ERROR_GENERIC" String="糟糕...發生錯誤。請稍後再試！"/>
+            <Poogie Id="LOGIN_SUCCESS" String="歡迎 {Username}！您已成功登入。"/>
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS" String="帳號驗證郵件將很快發送至 {Email}。請務必檢查您的收件匣和垃圾郵件資料夾！"/>
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="已上傳新頭像"/>
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="看起來您尚未啟用自動備份。&#xA;您可以在帳號設定中啟用它。"/>
+            <Poogie Id="BACKUP_NOT_FOUND_STRING" String="您沒有任何備份。"/>
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="一封包含更改帳號密碼所需代碼的電子郵件將發送至 {Email}。"/>
+        </Poogie>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
                   String="由小到大"/>
@@ -765,7 +788,7 @@
                      Description="如果啟用，將允許您啟用開發中的功能標誌。"/>
             <Setting Id="THEME_STRING"
                      String="Theme"
-                     Description="Hunter Pie 主題"/>
+                     Description="HunterPie 主題"/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Discord 線上狀態配置"
@@ -1035,6 +1058,13 @@
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" 
                      String="排序方式" 
                      Description="選擇用於排序所有異常狀態的演算法。"/>
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害統計中顯示的顏色。"/>
+            <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="啟用狩獵上傳" Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING" String="顯示採集箱" Description="如果啟用，HunterPie將顯示採集箱的資料。"/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING" String="顯示蒸氣機" Description="如果啟用，HunterPie將顯示蒸氣機的資料。"/>
+            <Setting Id="CLOCK_WIDGET_STRING" String="時鐘小工具" Description="時鐘小工具設定"/>
         </Settings>
         <ConfigurationGroups>
             <Group Id="CONFIGURATION_GROUP_WIDGET" String="介面設定"/>
@@ -1076,7 +1106,12 @@
             <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING" String="狀態詳情"/>
             <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING" String="隊伍成員"/>
             <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING" String="詳細資訊"/>
-            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>            
+            <String Id="MEOWCENARIES_STEP_STRING" String="步驟："/>
+            <String Id="MEOWCENARIES_OUTCOME_STRING" String="結果："/>
+            <String Id="MEOWCENARIES_BUDDIES_STRING" String="隨從："/>
+            <String Id="ARGOSY_DAYS_STRING" String="天"/>
+            <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
         </Main>
     </Client>
 
@@ -1095,16 +1130,4 @@
         <Type Id="TYPE_PISCINE_WYVERN" String="魚龍種"/>
         <Type Id="TYPE_CARAPACEON" String="甲殼種"/>
     </Types>
-
-    <String Id="MEOWCENARIES_STEP_STRING" String="步驟："/>
-    <String Id="MEOWCENARIES_OUTCOME_STRING" String="結果："/>
-    <String Id="MEOWCENARIES_BUDDIES_STRING" String="隨從："/>
-    <String Id="ARGOSY_DAYS_STRING" String="天"/>
-    <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
-
-    <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害統計中顯示的顏色。"/>
-
-    <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
-    <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
-    <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="啟用狩獵上傳" Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
 </Strings>
