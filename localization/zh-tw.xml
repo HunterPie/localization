@@ -175,7 +175,7 @@
         <Abnormality Id="ABNORMALITY_STRIFE_L" String="奮戰【大】"/>
         <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="精神抖擻"/>
         <Abnormality Id="ABNORMALITY_BERSERK" String="狂暴化"/>
-        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="異常狀態引爆"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="異常狀態觸發"/>
         <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="龍氣轉換（全耐性UP）"/>
         <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="牆面移動（攻擊力UP）"/>
         <Abnormality Id="ABNORMALITY_EMBOLDEN" String="鼓舞"/>
@@ -324,6 +324,8 @@
             <Part Id="PART_R_ARM_ROCK" String="右臂的岩石"/>
             <Part Id="PART_BODY_LEGS" String="身體 &amp; 腳"/>
             <Part Id="PART_ANTLERS" String="鹿角"/>
+            <Part Id="PART_MANE" String="鬃毛"/>
+            <Part Id="PART_QURIO_THRESHOLD" String="奇異蟲閾值"/>
         </Shared>
         <Rise>
             <Monster Id="0" String="雌火龍"/>
@@ -842,7 +844,7 @@
                      Description="在傷害統計中第四位玩家的顏色。"/>
             <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" 
                      String="隨從NPC顏色" 
-                     Description="在傷害統計中隨從NPC的顏色。"/>
+                     Description="隨從NPC在傷害統計中顯示的顏色。"/>
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS" 
                      String="顯示隨從傷害" 
                      Description="如果啟用，HunterPie將顯示隨從的傷害。"/>
@@ -1070,7 +1072,7 @@
     <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" String="折線圖線條粗細" Description="控制折線圖線條的粗細。"/>
     <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" String="顯示DPS" Description="如果啟用，HunterPie將顯示每位玩家的DPS。"/>
     <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" String="顯示總傷害" Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/>
-    <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害計量表中顯示的顏色。"/>
+    <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害統計中顯示的顏色。"/>
 
     <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
     <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
