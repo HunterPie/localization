@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Update time: UTC+8 2022-08-24 22:00:00 -->
-<Strings lang="traditional Chinese">
+<Strings lang="Traditional Chinese">
     <Ailments>
         <Rise>
             <Ailment Id="AILMENT_UNKNOWN" String="未知狀態"/>
@@ -65,7 +65,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="龍屬性防禦強化【小】"/>
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="龍屬性防禦強化【大】"/>
         <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="全屬性耐性UP"/>
-        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓無效"/>
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="風壓無效"/>
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓完全無效"/>
         <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="狀態異常攻擊力UP【小】"/>
         <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="最大耐力UP&amp;回復"/>
@@ -128,7 +128,7 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="變幻翔蟲 紅"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="變幻翔蟲 金"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="臭臭鼬鼠"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="狂龍症免疫"/> <!-- Needs to translate -->
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="糰子鍛鍊"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="糰子短期催眠術"/>
@@ -171,6 +171,25 @@
         <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍狀態"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="被網纏住"/>
         <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="奮戰【小】"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="奮戰【大】"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="精神抖擻"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="狂暴化"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="異常狀態引爆"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="龍氣轉換（全耐性UP）"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="牆面移動（攻擊力UP）"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="鼓舞"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="鋼龍之魂"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="霞龍之魂"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="狂怒（怒氣累積）"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="狂怒（無限耐力）"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="靈鳥的呼喚"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="攻防昇華【小】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="攻防昇華【中】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="攻防昇華【大】"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="冰氣練成"/>
+        <Abnormality Id="ABNORMALITY_BLOOD" String="龍血異常"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="睡眠前兆"/>
     </Abnormalities>
     <Monsters>
         <Shared>
@@ -888,5 +907,52 @@
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="開發者：Poogie API 主機"/>
         </Settings>
+        <Main>
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING" String="匯出的狩獵紀錄"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING" String="您的帳戶僅限查看最近7天內的匯出狩獵紀錄。&#xA;成為贊助者以查看更早的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING" String="升級您的帳戶至二級贊助者以存取所有匯出的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING" String="正在獲取任務：{0}"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING" String="無法獲取匯出的狩獵紀錄。請稍後再試。"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING" String="成功載入任務！"/>
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING" String="在您帳戶可用期間內沒有匯出的狩獵紀錄。"/>
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING" String="魔物"/>
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING" String="狩獵詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING" String="狀態詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING" String="隊伍成員"/>
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING" String="詳細資訊"/>
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>
+        </Main>
     </Client>
+
+    <Types>
+        <Type Id="TYPE_AERIAL" String="飛行種"/>
+        <Type Id="TYPE_FLYING_WYVERN" String="飛龍種"/>
+        <Type Id="TYPE_BRUTE_WYVERN" String="獸龍種"/>
+        <Type Id="TYPE_FANGED_BEAST" String="牙獸種"/>
+        <Type Id="TYPE_LEVIATHAN" String="海龍種"/>
+        <Type Id="TYPE_AQUATIC" String="水生種"/>
+        <Type Id="TYPE_BIRD_WYVERN" String="鳥龍種"/>
+        <Type Id="TYPE_FANGED_WYVERN" String="牙龍種"/>
+        <Type Id="TYPE_ELDER_DRAGON" String="古龍種"/>
+        <Type Id="TYPE_AMPHIBIAN" String="兩生種"/>
+        <Type Id="TYPE_TEMNOCERAN" String="甲殼種"/>
+        <Type Id="TYPE_PISCINE_WYVERN" String="魚龍種"/>
+        <Type Id="TYPE_CARAPACEON" String="甲殼種"/>
+    </Types>
+
+    <String Id="MEOWCENARIES_STEP_STRING" String="步驟："/>
+    <String Id="MEOWCENARIES_OUTCOME_STRING" String="結果："/>
+    <String Id="MEOWCENARIES_BUDDIES_STRING" String="隨從："/>
+    <String Id="ARGOSY_DAYS_STRING" String="天"/>
+    <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
+
+    <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" String="折線圖平滑度" Description="控制折線圖的平滑程度。"/>
+    <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" String="折線圖線條粗細" Description="控制折線圖線條的粗細。"/>
+    <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" String="顯示DPS" Description="如果啟用，HunterPie將顯示每位玩家的DPS。"/>
+    <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" String="顯示總傷害" Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/>
+    <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害計量表中顯示的顏色。"/>
+
+    <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
+    <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
+    <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="啟用狩獵上傳" Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
 </Strings>
