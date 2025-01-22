@@ -935,7 +935,7 @@
         <Type Id="TYPE_FANGED_WYVERN" String="牙龍種"/>
         <Type Id="TYPE_ELDER_DRAGON" String="古龍種"/>
         <Type Id="TYPE_AMPHIBIAN" String="兩生種"/>
-        <Type Id="TYPE_TEMNOCERAN" String="甲殼種"/>
+        <Type Id="TYPE_TEMNOCERAN" String="鋏角種"/>
         <Type Id="TYPE_PISCINE_WYVERN" String="魚龍種"/>
         <Type Id="TYPE_CARAPACEON" String="甲殼種"/>
     </Types>
