@@ -325,7 +325,7 @@
             <Part Id="PART_BODY_LEGS" String="身體 &amp; 腳"/>
             <Part Id="PART_ANTLERS" String="鹿角"/>
             <Part Id="PART_MANE" String="鬃毛"/>
-            <Part Id="PART_QURIO_THRESHOLD" String="奇異蟲閾值"/>
+            <Part Id="PART_QURIO_THRESHOLD" String="噬生蟲閾值"/>
         </Shared>
         <Rise>
             <Monster Id="0" String="雌火龍"/>
