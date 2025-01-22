@@ -544,7 +544,7 @@
             <Stage Id="413" String="起源的孤島"/>
             <Stage Id="415" String="幽境之谷"/>
             <Stage Id="416" String="幽境之谷"/>
-            <Stage Id="417" String="虚黑城"/>
+            <Stage Id="417" String="虛黑城"/>
             <Stage Id="501" String="流通區域"/>
             <Stage Id="502" String="星辰小屋"/>
             <Stage Id="503" String="星辰套房"/>
@@ -567,7 +567,7 @@
             <Tab Id="PATCH_NOTES_STRING"
                  String="更新紀錄"/>
             <Tab Id="PLUGINS_STRING"
-                 String="插件"/>
+                 String="外掛程式"/>
             <Tab Id="SETTINGS_STRING"
                  String="設定"/>
             <Tab Id="PATREON_STRING"
@@ -632,13 +632,13 @@
             <Poogie Id="ERROR_USER_ALREADY_EXISTS" String="已經存在使用該電子郵件或使用者名稱的帳號！"/>
             <Poogie Id="ERROR_UNVERIFIED_ACCOUNT" String="帳號必須先驗證！請檢查您的電子郵件（包括垃圾郵件資料夾）以驗證帳號。"/>
             <Poogie Id="INVALID_IMAGE" String="檔案不是有效的圖片！"/>
-            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="上傳頭像失敗，請稍後再試。"/>
-            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="上傳頭像失敗，檔案大小超過3.5 MB。"/>
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="上傳大頭貼失敗，請稍後再試。"/>
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="上傳大頭貼失敗，檔案大小超過3.5 MB。"/>
             <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE" String="密碼重設代碼無效或已過期。"/>
             <Poogie Id="ERROR_GENERIC" String="糟糕...發生錯誤。請稍後再試！"/>
             <Poogie Id="LOGIN_SUCCESS" String="歡迎 {Username}！您已成功登入。"/>
             <Poogie Id="ACCOUNT_REGISTER_SUCCESS" String="帳號驗證郵件將很快發送至 {Email}。請務必檢查您的收件匣和垃圾郵件資料夾！"/>
-            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="已上傳新頭像"/>
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="已上傳新大頭貼"/>
             <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="看起來您尚未啟用自動備份。&#xA;您可以在帳號設定中啟用它。"/>
             <Poogie Id="BACKUP_NOT_FOUND_STRING" String="您沒有任何備份。"/>
             <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="一封包含更改帳號密碼所需代碼的電子郵件將發送至 {Email}。"/>
@@ -678,8 +678,8 @@
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
-                     String="客戶端"
-                     Description="客戶端設定"/>
+                     String="用戶端"
+                     Description="用戶端設定"/>
             <Setting Id="DISCORD_RPC_STRING"
                      String="Discord線上狀態設定"
                      Description="其他Discord線上狀態設定"/>
@@ -712,7 +712,7 @@
                      Description="玩家HUD小工具設定"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="開發工具"
-                     Description="高級開發工具"/>
+                     Description="進階開發工具"/>
             <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
                      String="操蟲棍小工具"
                      Description="操蟲棍小工具設定" />
@@ -775,14 +775,14 @@
                      String="遊戲結束時關閉"
                      Description="如果啟用，HunterPie 將在遊戲結束時自動關閉。"/>
             <Setting Id="RENDERING_FPS_STRING"
-                     String="渲染偵率"
-                     Description="HunterPie 渲染偵率。"/>
+                     String="繪製幀率"
+                     Description="HunterPie 繪製幀率。"/>
             <Setting Id="RENDERING_STRATEGY_STRING"
-                     String="渲染方式"
-                     Description="HunterPie 的預設渲染。軟體渲染將使用您的CPU來渲染覆蓋層，硬體渲染將使用您的顯卡來渲染覆蓋層。"/>
+                     String="繪製方式"
+                     Description="HunterPie 的預設繪製。軟體繪製將使用您的CPU來繪製覆蓋層，硬體繪製將使用您的顯示卡來繪製覆蓋層。"/>
             <Setting Id="POLLING_RATE_STRING"
                      String="記憶體掃描延遲（毫秒）"
-                     Description="HunterPie 的掃描延遲，設置較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
+                     Description="HunterPie 的掃描延遲，設定較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
                      String="開發功能標誌"
                      Description="如果啟用，將允許您啟用開發中的功能標誌。"/>
@@ -812,7 +812,7 @@
                      Description="如果啟用，將始終初始化此小工具。如果您不需要此小工具，請將其關閉。"/>
             <Setting Id="ENABLE_WIDGET_STRING"
                      String="顯示小工具"
-                     Description="如果啟用，只要有可以顯示的數據，將會始終顯示此小工具。"/>
+                     Description="如果啟用，只要有可以顯示的資料，將會始終顯示此小工具。"/>
             <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
                      String="當HUD可見時隱藏"
                      Description="如果啟用，當HUD可見時（例如:任務結束、在帳篷裡、與NPC對話等等），將會自動隱藏小工具。"/>
@@ -831,7 +831,7 @@
 
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="僅顯示目標魔物" 
-                     Description="如果啟用，HunterPie將只顯示當前設定為目標的魔物。"/>
+                     Description="如果啟用，HunterPie將只顯示目前設定為目標的魔物。"/>
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" 
                      String="顯示魔物耐力" 
                      Description="如果啟用，HunterPie將在魔物血條下方顯示耐力條。"/>
@@ -861,7 +861,7 @@
                      Description="決定如何計算每秒傷害。&#xA;- 相對於任務：使用任務計時器&#xA;- 相對於加入：使用玩家加入隊伍的時間&#xA;- 相對於首次攻擊：使用玩家首次攻擊魔物的時間"/>
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" 
                      String="傷害圖表策略" 
-                     Description="決定圖表要顯示的數據類型。&#xA;- 每秒傷害：使用DPS數據&#xA;- 總傷害：使用總傷害數據"/>
+                     Description="決定圖表要顯示的資料類型。&#xA;- 每秒傷害：使用DPS資料&#xA;- 總傷害：使用總傷害資料"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING" 
                      String="自己的顏色" 
                      Description="在傷害統計中您的顏色。"/>
@@ -913,7 +913,7 @@
             
             <Setting Id="ENABLE_NATIVE_MODULE_STRING" 
                      String="啟用原生模組" 
-                     Description="如果啟用，HunterPie將使用原生模組來讀取遊戲數據。"/>
+                     Description="如果啟用，HunterPie將使用原生模組來讀取遊戲資料。"/>
             
             <Setting Id="ENABLE_SELF_UPDATE_STRING" 
                      String="啟用自動更新" 
@@ -928,8 +928,8 @@
                      Description="如果啟用，HunterPie將在遊戲視窗中無縫顯示介面。"/>
             
             <Setting Id="ENABLE_RENDER_BEHIND_WINDOWS_STRING" 
-                     String="允許在其他視窗後渲染" 
-                     Description="如果啟用，HunterPie的介面將會在其他視窗後方繼續渲染。"/>
+                     String="允許在其他視窗後繪製" 
+                     Description="如果啟用，HunterPie的介面將會在其他視窗後方繼續繪製。"/>
             
             <Setting Id="ENABLE_CLICK_THROUGH_STRING" 
                      String="啟用點擊穿透" 
@@ -941,7 +941,7 @@
             
             <Setting Id="ENABLE_HARDWARE_ACCELERATION_STRING" 
                      String="啟用硬體加速" 
-                     Description="如果啟用，HunterPie將使用硬體加速來渲染介面。"/>
+                     Description="如果啟用，HunterPie將使用硬體加速來繪製介面。"/>
             
             <Setting Id="ENABLE_DIRECT_MESSAGE_NOTIFICATIONS_STRING" 
                      String="啟用私訊通知" 
@@ -1041,7 +1041,7 @@
 
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING" 
                      String="動態調整魔物血條大小" 
-                     Description="如果啟用，HunterPie將根據當前可見的血條數量自動調整所有魔物血條的大小。"/>
+                     Description="如果啟用，HunterPie將根據目前可見的血條數量自動調整所有魔物血條的大小。"/>
 
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING" 
                      String="隱藏未知魔物部位" 
@@ -1058,7 +1058,6 @@
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" 
                      String="排序方式" 
                      Description="選擇用於排序所有異常狀態的演算法。"/>
-            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害統計中顯示的顏色。"/>
             <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
             <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="啟用狩獵上傳" Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
@@ -1086,7 +1085,7 @@
             <Group Id="CONFIGURATION_GROUP_SUPPORTER" String="贊助者"/>
             <Group Id="CONFIGURATION_GROUP_IN_GAME" String="遊戲內設定"/>
             <Group Id="CONFIGURATION_GROUP_NATIVE" String="原生功能"/>
-            <Group Id="CONFIGURATION_GROUP_RENDERING" String="渲染設定"/>
+            <Group Id="CONFIGURATION_GROUP_RENDERING" String="繪製設定"/>
             <Group Id="CONFIGURATION_GROUP_SCANNING" String="掃描設定"/>
             <Group Id="CONFIGURATION_GROUP_CLIENT" String="用戶端"/>
             <Group Id="CONFIGURATION_GROUP_OVERLAY" String="覆蓋層"/>
