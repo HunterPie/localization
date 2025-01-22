@@ -190,6 +190,10 @@
         <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="冰氣練成"/>
         <Abnormality Id="ABNORMALITY_BLOOD" String="龍血異常"/>
         <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="睡眠前兆"/>
+        <Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="超級鬼人藥"/>
+        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="超級硬化藥"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="忍耐藥丸"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="裂傷回復"/>
     </Abnormalities>
     <Monsters>
         <Shared>
@@ -640,6 +644,14 @@
                   String="總傷害"/>
             <Enum Id="PLOT_DPS_STRING"
                   String="每秒傷害（DPS）"/>
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="鎖定"/>
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="地圖標記"/>
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="任務目標"/>
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="自動推斷"/>
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -936,6 +948,10 @@
                      String="修改遊戲內翔蟲瞄準" 
                      Description="如果啟用，HunterPie將修改遊戲功能，使其在遊戲內停用翔蟲視覺元素時不會隱藏瞄準。"/>
 
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="啟用覆蓋層"
+                     Description="如果啟用，HunterPie 將顯示遊戲內覆蓋層。"/>
+
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING" 
                      String="切換覆蓋層顯示" 
                      Description="開關覆蓋層顯示的快捷鍵。"/>
@@ -1021,6 +1037,24 @@
                      Description="選擇用於排序所有異常狀態的演算法。"/>
         </Settings>
         <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET" String="介面設定"/>
+            <Group Id="CONFIGURATION_GROUP_GENERAL" String="一般設定"/>
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS" String="自訂設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET" String="目標設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS" String="部位設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS" String="異常狀態設定"/>
+            <Group Id="CONFIGURATION_GROUP_MISC" String="其他"/>
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS" String="異常狀態列"/>
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT" String="傷害圖表"/>
+            <Group Id="CONFIGURATION_GROUP_COLORS" String="顏色設定"/>
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES" String="活動設定"/>
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS" String="快捷鍵"/>
+            <Group Id="CONFIGURATION_GROUP_MOCKS" String="模擬設定"/>
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT" String="開發設定"/>
+            <Group Id="CONFIGURATION_GROUP_LOGGING" String="記錄設定"/>
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE" String="自動更新"/>
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER" String="贊助者"/>
+            <Group Id="CONFIGURATION_GROUP_IN_GAME" String="遊戲內設定"/>
             <Group Id="CONFIGURATION_GROUP_NATIVE" String="原生功能"/>
             <Group Id="CONFIGURATION_GROUP_RENDERING" String="渲染設定"/>
             <Group Id="CONFIGURATION_GROUP_SCANNING" String="掃描設定"/>
@@ -1068,10 +1102,6 @@
     <String Id="ARGOSY_DAYS_STRING" String="天"/>
     <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
 
-    <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" String="折線圖平滑度" Description="控制折線圖的平滑程度。"/>
-    <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" String="折線圖線條粗細" Description="控制折線圖線條的粗細。"/>
-    <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" String="顯示DPS" Description="如果啟用，HunterPie將顯示每位玩家的DPS。"/>
-    <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" String="顯示總傷害" Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/>
     <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" String="隨從NPC顏色" Description="隨從NPC在傷害統計中顯示的顏色。"/>
 
     <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
