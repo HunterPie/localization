@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <!-- Update time: UTC+8 2022-08-24 22:00:00 -->
-<Strings lang="traditional Chinese">
+<Strings lang="Traditional Chinese">
     <Ailments>
         <Rise>
             <Ailment Id="AILMENT_UNKNOWN" String="未知狀態"/>
@@ -65,7 +65,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="龍屬性防禦強化【小】"/>
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="龍屬性防禦強化【大】"/>
         <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="全屬性耐性UP"/>
-        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓無效"/>
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="風壓無效"/>
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓完全無效"/>
         <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="狀態異常攻擊力UP【小】"/>
         <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="最大耐力UP&amp;回復"/>
@@ -128,7 +128,7 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="變幻翔蟲 紅"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="變幻翔蟲 金"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="臭臭鼬鼠"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="狂龍症免疫"/> <!-- Needs to translate -->
 
         <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="糰子鍛鍊"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="糰子短期催眠術"/>
@@ -171,6 +171,29 @@
         <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍狀態"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="被網纏住"/>
         <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="奮戰【小】"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="奮戰【大】"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="精神抖擻"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="狂暴化"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="異常狀態觸發"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="龍氣轉換（全耐性UP）"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="牆面移動（攻擊力UP）"/>
+        <Abnormality Id="ABNORMALITY_EMBOLDEN" String="鼓舞"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="鋼龍之魂"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="霞龍之魂"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="狂怒（怒氣累積）"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="狂怒（無限耐力）"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="靈鳥的呼喚"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="攻防昇華【小】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="攻防昇華【中】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="攻防昇華【大】"/>
+        <Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="冰氣練成"/>
+        <Abnormality Id="ABNORMALITY_BLOOD" String="龍血異常"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="睡眠前兆"/>
+        <Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="超級鬼人藥"/>
+        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="超級硬化藥"/>
+        <Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="忍耐藥丸"/>
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="裂傷回復"/>
     </Abnormalities>
     <Monsters>
         <Shared>
@@ -305,6 +328,8 @@
             <Part Id="PART_R_ARM_ROCK" String="右臂的岩石"/>
             <Part Id="PART_BODY_LEGS" String="身體 &amp; 腳"/>
             <Part Id="PART_ANTLERS" String="鹿角"/>
+            <Part Id="PART_MANE" String="鬃毛"/>
+            <Part Id="PART_QURIO_THRESHOLD" String="噬生蟲閾值"/>
         </Shared>
         <Rise>
             <Monster Id="0" String="雌火龍"/>
@@ -478,7 +503,7 @@
             <Stage Id="199" String="角色選擇"/>
             <Stage Id="201" String="大社遺跡"/>
             <Stage Id="202" String="沙原"/>
-            <Stage Id="203" String="水没林"/>
+            <Stage Id="203" String="水沒林"/>
             <Stage Id="204" String="寒冷群島"/>
             <Stage Id="205" String="熔岩洞"/>
             <Stage Id="207" String="翡葉要塞"/>
@@ -519,7 +544,7 @@
             <Stage Id="413" String="起源的孤島"/>
             <Stage Id="415" String="幽境之谷"/>
             <Stage Id="416" String="幽境之谷"/>
-            <Stage Id="417" String="虚黑城"/>
+            <Stage Id="417" String="虛黑城"/>
             <Stage Id="501" String="流通區域"/>
             <Stage Id="502" String="星辰小屋"/>
             <Stage Id="503" String="星辰套房"/>
@@ -542,7 +567,7 @@
             <Tab Id="PATCH_NOTES_STRING"
                  String="更新紀錄"/>
             <Tab Id="PLUGINS_STRING"
-                 String="插件"/>
+                 String="外掛程式"/>
             <Tab Id="SETTINGS_STRING"
                  String="設定"/>
             <Tab Id="PATREON_STRING"
@@ -559,6 +584,8 @@
                      String="使用的設定檔："/>
             <Generic Id="REQUIRES_RESTART_STRING"
                      String="（需要重新啟動）" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="同步於"/>
         </Generics>
         <Integrations>
             <!-- Shared between games -->
@@ -595,6 +622,27 @@
             <Discord Id="DRPC_WORLD_STATE_PRACTICE"
                      String="正在訓練場"/>
         </Integrations>
+        <Poogie>
+            <Poogie Id="SIGN_IN_NOTIFICATION" String="登入" Description="正在嘗試登入帳號..."/>
+            <Poogie Id="ERROR_INVALID_USERNAME" String="使用者名稱無效！"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD" String="密碼無效，密碼長度必須至少8個字元！"/>
+            <Poogie Id="ERROR_INVALID_EMAIL" String="電子郵件無效！"/>
+            <Poogie Id="ERROR_INVALID_CREDENTIALS" String="找不到使用該使用者名稱和密碼的帳號。"/>
+            <Poogie Id="ERROR_USER_NOT_FOUND" String="嗯...找不到該使用者！"/>
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS" String="已經存在使用該電子郵件或使用者名稱的帳號！"/>
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT" String="帳號必須先驗證！請檢查您的電子郵件（包括垃圾郵件資料夾）以驗證帳號。"/>
+            <Poogie Id="INVALID_IMAGE" String="檔案不是有效的圖片！"/>
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="上傳大頭貼失敗，請稍後再試。"/>
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="上傳大頭貼失敗，檔案大小超過3.5 MB。"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE" String="密碼重設代碼無效或已過期。"/>
+            <Poogie Id="ERROR_GENERIC" String="糟糕...發生錯誤。請稍後再試！"/>
+            <Poogie Id="LOGIN_SUCCESS" String="歡迎 {Username}！您已成功登入。"/>
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS" String="帳號驗證郵件將很快發送至 {Email}。請務必檢查您的收件匣和垃圾郵件資料夾！"/>
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="已上傳新大頭貼"/>
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="看起來您尚未啟用自動備份。&#xA;您可以在帳號設定中啟用它。"/>
+            <Poogie Id="BACKUP_NOT_FOUND_STRING" String="您沒有任何備份。"/>
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="一封包含更改帳號密碼所需代碼的電子郵件將發送至 {Email}。"/>
+        </Poogie>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
                   String="由小到大"/>
@@ -619,11 +667,19 @@
                   String="總傷害"/>
             <Enum Id="PLOT_DPS_STRING"
                   String="每秒傷害（DPS）"/>
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="鎖定"/>
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="地圖標記"/>
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="任務目標"/>
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="自動推斷"/>
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
-                     String="客戶端"
-                     Description="客戶端設定"/>
+                     String="用戶端"
+                     Description="用戶端設定"/>
             <Setting Id="DISCORD_RPC_STRING"
                      String="Discord線上狀態設定"
                      Description="其他Discord線上狀態設定"/>
@@ -656,7 +712,7 @@
                      Description="玩家HUD小工具設定"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="開發工具"
-                     Description="高級開發工具"/>
+                     Description="進階開發工具"/>
             <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
                      String="操蟲棍小工具"
                      Description="操蟲棍小工具設定" />
@@ -719,20 +775,20 @@
                      String="遊戲結束時關閉"
                      Description="如果啟用，HunterPie 將在遊戲結束時自動關閉。"/>
             <Setting Id="RENDERING_FPS_STRING"
-                     String="渲染偵率"
-                     Description="HunterPie 渲染偵率。"/>
+                     String="繪製幀率"
+                     Description="HunterPie 繪製幀率。"/>
             <Setting Id="RENDERING_STRATEGY_STRING"
-                     String="渲染方式"
-                     Description="HunterPie 的預設渲染。軟體渲染將使用您的CPU來渲染覆蓋層，硬體渲染將使用您的顯卡來渲染覆蓋層。"/>
+                     String="繪製方式"
+                     Description="HunterPie 的預設繪製。軟體繪製將使用您的CPU來繪製覆蓋層，硬體繪製將使用您的顯示卡來繪製覆蓋層。"/>
             <Setting Id="POLLING_RATE_STRING"
                      String="記憶體掃描延遲（毫秒）"
-                     Description="HunterPie 的掃描延遲，設置較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
+                     Description="HunterPie 的掃描延遲，設定較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
                      String="開發功能標誌"
                      Description="如果啟用，將允許您啟用開發中的功能標誌。"/>
             <Setting Id="THEME_STRING"
                      String="Theme"
-                     Description="Hunter Pie 主題"/>
+                     Description="HunterPie 主題"/>
 
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Discord 線上狀態配置"
@@ -756,7 +812,7 @@
                      Description="如果啟用，將始終初始化此小工具。如果您不需要此小工具，請將其關閉。"/>
             <Setting Id="ENABLE_WIDGET_STRING"
                      String="顯示小工具"
-                     Description="如果啟用，只要有可以顯示的數據，將會始終顯示此小工具。"/>
+                     Description="如果啟用，只要有可以顯示的資料，將會始終顯示此小工具。"/>
             <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
                      String="當HUD可見時隱藏"
                      Description="如果啟用，當HUD可見時（例如:任務結束、在帳篷裡、與NPC對話等等），將會自動隱藏小工具。"/>
@@ -774,110 +830,77 @@
                      Description="在小工具顯示多種魔物時，更改小工具橫向或直向的排列。"/>
 
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
-                     String="狩獵目標鎖定"
-                     Description="如果啟用，只會顯示已鎖定的指定魔物。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="魔物耐力"
-                     Description="如果啟用，將在其生命值條下方顯示魔物的耐力。"/>
-            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
-                     String="魔物小工具最大寬度"
-                     Description="調整魔物血條的最大寬度。"/>
-            <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
-                     String="魔物小工具最小寬度"
-                     Description="調整魔物血條的最小寬度。如果啟用「自動調整魔物血條寬距」，它將根據此設置自動更改。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="魔物部位顯示"
-                     Description="如果啟用，將顯示魔物部位。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
-                     String="自動隱藏魔物部位"
-                     Description="如果啟用，閒置的魔物部位將在 X 秒後隱藏。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
-                     String="魔物部位顯示時間"
-                     Description="魔物部位顯示的時間，時間結束會自動隱藏（若開啟自動隱藏）。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="魔物異常狀態顯示"
-                     Description="如果啟用，將顯示魔物異常狀態。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
-                     String="自動隱藏魔物狀態異常"
-                     Description="如果啟用，閒置的魔物異常狀態將在 X 秒後隱藏。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
-                     String="魔物異常狀態顯示時間"
-                     Description="魔物異常狀態顯示的時間，時間結束會自動隱藏（若開啟自動隱藏）。"/>
-            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
-                     String="自動調整魔物血條寬距"
-                     Description="如果啟用，它會根據顯示的魔物數量自動調整魔物血條的長度。"/>
-            <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
-                     String="隱藏未知魔物部位"
-                     Description="如果啟用，將隱藏未知部位（被標記為 &quot;???&quot;）。"/>
-
-            <Setting Id="ABNORMALITY_TRAYS_STRING"
-                     String="Buff∕Debuff 工具列"
-                     Description="增益∕減益效果工具列的詳細設定。"/>
-            <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
-                     String="Buff∕Debuff 工具列名稱"
-                     Description="增益∕減益效果工具列的名稱。"/>
-            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
-                     String="Buff∕Debuff 工具列的最大數量"
-                     Description="增益∕減益效果工具列的最大設定數量。"/>
-            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
-                     String="Buff∕Debuff 工具列排序"
-                     Description="增益∕減益效果工具列的狀態效果排序。"/>
-
-            <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
-                     String="Patch in-game Wirebug Aim"
-                     Description="If enabled, HunterPie will patch the game function so it doesn't hide your aim when you disable the Wirebug visual elements in-game."/>
-
-            <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
-                     String="顯示交易船"
-                     Description="如果啟用，將顯示交易船資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
-                     String="顯示隨從道場"
-                     Description="如果啟用，將顯示隨從道場資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
-                     String="顯示隨從隱密隊"
-                     Description="如果啟用，將顯示隨從隱密隊資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
-                     String="顯示植生研究所"
-                     Description="如果啟用，將顯示植生研究所資訊。" />
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="顯示福福鴞的巢"
-                     Description="如果啟用，將顯示福福鴞的巢資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
-                     String="顯示蒸氣機關管理所"
-                     Description="如果啟用，將顯示顯示蒸氣機關管理所資訊。" />
-            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
-                     String="強調自己"
-                     Description="如果啟用，將強調顯示您的名字。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES"
-                     String="模糊名字"
-                     Description="如果啟用，所有人的名字將被模糊處理。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
-                     String="顯示DPS圖表"
-                     Description="如果啟用，將顯示DPS圖表。"/>
-            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
-                     String="DPS計算方式"
-                     Description="決定DPS的計算方式（時間）。&#x0a;- 總任務時間: 總任務時間&#x0a;- 參與任務時間: 參與任務時間&#x0a;- 第一擊時間: 第一擊之後的時間"/>
-            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
-                     String="傷害折線圖繪製方式"
-                     Description="決定傷害折線圖繪製方式。&#x0a;- 每秒傷害（DPS）: DPS&#x0a;- 總傷害: 總傷害"/>
-            <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
-                     String="我的顏色"
-                     Description="您所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
-                     String="第一位玩家（隊長）的顏色"
-                     Description="第一位玩家（隊長）所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
-                     String="第二位玩家的顏色"
-                     Description="第二位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
-                     String="第三位玩家的顏色"
-                     Description="第三位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
-                     String="第四位玩家的顏色"
-                     Description="第四位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
-                     String="顯示隨從傷害"
-                     Description="如果啟用，將顯示隨從傷害。"/>
+                     String="僅顯示目標魔物" 
+                     Description="如果啟用，HunterPie將只顯示目前設定為目標的魔物。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" 
+                     String="顯示魔物耐力" 
+                     Description="如果啟用，HunterPie將在魔物血條下方顯示耐力條。"/>
+            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING" 
+                     String="魔物血條最大寬度" 
+                     Description="控制魔物血條的最大寬度。"/>
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING" 
+                     String="目標模式" 
+                     Description="控制如何選擇目標魔物。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF" 
+                     String="突顯自己" 
+                     Description="如果啟用，您的名字將會在傷害統計中被突顯顯示。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES" 
+                     String="模糊名字" 
+                     Description="如果啟用，所有玩家的名字都會被模糊處理。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT" 
+                     String="顯示DPS圖表" 
+                     Description="如果啟用，將顯示DPS變化圖表。"/>
+            <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" 
+                     String="圖表線條平滑度" 
+                     Description="控制圖表線條的平滑程度。"/>
+            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" 
+                     String="圖表線條粗細" 
+                     Description="控制圖表線條的粗細。"/>
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING" 
+                     String="DPS計算策略" 
+                     Description="決定如何計算每秒傷害。&#xA;- 相對於任務：使用任務計時器&#xA;- 相對於加入：使用玩家加入隊伍的時間&#xA;- 相對於首次攻擊：使用玩家首次攻擊魔物的時間"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" 
+                     String="傷害圖表策略" 
+                     Description="決定圖表要顯示的資料類型。&#xA;- 每秒傷害：使用DPS資料&#xA;- 總傷害：使用總傷害資料"/>
+            <Setting Id="DAMAGE_METER_SELF_COLOR_STRING" 
+                     String="自己的顏色" 
+                     Description="在傷害統計中您的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING" 
+                     String="隊長顏色" 
+                     Description="在傷害統計中隊長的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING" 
+                     String="第二位玩家顏色" 
+                     Description="在傷害統計中第二位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING" 
+                     String="第三位玩家顏色" 
+                     Description="在傷害統計中第三位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING" 
+                     String="第四位玩家顏色" 
+                     Description="在傷害統計中第四位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" 
+                     String="隨從NPC顏色" 
+                     Description="隨從NPC在傷害統計中顯示的顏色。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS" 
+                     String="顯示隨從傷害" 
+                     Description="如果啟用，HunterPie將顯示隨從的傷害。"/>
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" 
+                     String="顯示DPS" 
+                     Description="如果啟用，HunterPie將顯示每位玩家的DPS。"/>
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" 
+                     String="顯示總傷害" 
+                     Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/>
+            <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING" 
+                     String="顯示交易船" 
+                     Description="如果啟用，HunterPie將顯示交易船的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING" 
+                     String="顯示訓練所" 
+                     Description="如果啟用，HunterPie將顯示訓練所的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING" 
+                     String="顯示艾路派遣隊" 
+                     Description="如果啟用，HunterPie將顯示艾路派遣隊的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING" 
+                     String="顯示貓頭鷹巢" 
+                     Description="如果啟用，HunterPie將顯示貓頭鷹巢的資訊。"/>
 
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開發人員：模擬魔物功能"/>
@@ -887,6 +910,223 @@
                      String="開發人員：模擬異常功能"/>
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="開發者：Poogie API 主機"/>
+            
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING" 
+                     String="啟用原生模組" 
+                     Description="如果啟用，HunterPie將使用原生模組來讀取遊戲資料。"/>
+            
+            <Setting Id="ENABLE_SELF_UPDATE_STRING" 
+                     String="啟用自動更新" 
+                     Description="如果啟用，HunterPie將自動檢查並安裝更新。"/>
+            
+            <Setting Id="ENABLE_WINDOWS_OVERLAY_STRING" 
+                     String="啟用Windows遊戲覆蓋層" 
+                     Description="如果啟用，HunterPie將使用Windows遊戲覆蓋層來顯示介面。"/>
+            
+            <Setting Id="ENABLE_SEAMLESS_MODE_STRING" 
+                     String="啟用無縫模式" 
+                     Description="如果啟用，HunterPie將在遊戲視窗中無縫顯示介面。"/>
+            
+            <Setting Id="ENABLE_RENDER_BEHIND_WINDOWS_STRING" 
+                     String="允許在其他視窗後繪製" 
+                     Description="如果啟用，HunterPie的介面將會在其他視窗後方繼續繪製。"/>
+            
+            <Setting Id="ENABLE_CLICK_THROUGH_STRING" 
+                     String="啟用點擊穿透" 
+                     Description="如果啟用，滑鼠點擊將直接穿透HunterPie的介面。"/>
+            
+            <Setting Id="ENABLE_DISABLE_WHEN_UNFOCUSED_STRING" 
+                     String="失去焦點時停用" 
+                     Description="如果啟用，當遊戲視窗失去焦點時將停用HunterPie的介面。"/>
+            
+            <Setting Id="ENABLE_HARDWARE_ACCELERATION_STRING" 
+                     String="啟用硬體加速" 
+                     Description="如果啟用，HunterPie將使用硬體加速來繪製介面。"/>
+            
+            <Setting Id="ENABLE_DIRECT_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用私訊通知" 
+                     Description="如果啟用，當收到私人訊息時將顯示通知。"/>
+            
+            <Setting Id="ENABLE_PARTY_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用隊伍訊息通知" 
+                     Description="如果啟用，當收到隊伍訊息時將顯示通知。"/>
+            
+            <Setting Id="ENABLE_SYSTEM_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用系統訊息通知" 
+                     Description="如果啟用，當收到系統訊息時將顯示通知。"/>
+            
+            <Setting Id="ENABLE_SHOUTOUT_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用自動喊話通知" 
+                     Description="如果啟用，當收到自動喊話訊息時將顯示通知。"/>
+            
+            <Setting Id="ENABLE_QUEST_NOTIFICATIONS_STRING" 
+                     String="啟用任務通知" 
+                     Description="如果啟用，當任務狀態改變時將顯示通知。"/>
+            
+            <Setting Id="ENABLE_ABNORMALITY_NOTIFICATIONS_STRING" 
+                     String="啟用異常狀態通知" 
+                     Description="如果啟用，當異常狀態改變時將顯示通知。"/>
+
+            <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING" 
+                     String="修改遊戲內翔蟲瞄準" 
+                     Description="如果啟用，HunterPie將修改遊戲功能，使其在遊戲內停用翔蟲視覺元素時不會隱藏瞄準。"/>
+
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="啟用覆蓋層"
+                     Description="如果啟用，HunterPie 將顯示遊戲內覆蓋層。"/>
+
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING" 
+                     String="切換覆蓋層顯示" 
+                     Description="開關覆蓋層顯示的快捷鍵。"/>
+
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE" 
+                     String="切換設計模式" 
+                     Description="開關設計模式的快捷鍵。"/>
+
+            <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING" 
+                     String="遊戲失去焦點時隱藏介面" 
+                     Description="如果啟用，當遊戲視窗不在前景時，所有介面將自動隱藏。"/>
+
+            <Setting Id="INITIALIZE_WIDGET_STRING" 
+                     String="初始化介面" 
+                     Description="如果啟用，HunterPie將始終初始化此介面。如果您不想要此介面，請關閉此選項。"/>
+
+            <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING" 
+                     String="HUD可見時隱藏" 
+                     Description="如果啟用，當HUD可見時（例如：任務結束時、在營地內、與NPC對話等）HunterPie將自動隱藏此介面。"/>
+
+            <Setting Id="WIDGET_POSITION" 
+                     String="介面位置" 
+                     Description="控制此介面的位置。"/>
+
+            <Setting Id="WIDGET_OPACITY" 
+                     String="介面透明度" 
+                     Description="控制此介面的透明度。"/>
+
+            <Setting Id="WIDGET_SCALE" 
+                     String="介面縮放" 
+                     Description="控制此介面的線性縮放，數值越高介面越大。"/>
+
+            <Setting Id="ORIENTATION_STRING" 
+                     String="方向" 
+                     Description="介面的方向。"/>
+
+            <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING" 
+                     String="魔物血條最小寬度" 
+                     Description="控制魔物血條的最小寬度。如果啟用動態大小調整，此寬度將用於計算血條的動態大小。"/>
+
+            <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING" 
+                     String="啟用魔物部位" 
+                     Description="如果啟用，將顯示魔物部位資訊。"/>
+
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING" 
+                     String="自動隱藏魔物部位" 
+                     Description="如果啟用，非活動的魔物部位將在X秒後隱藏。"/>
+
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING" 
+                     String="隱藏非活動部位延遲" 
+                     Description="部位變為非活動狀態後，等待隱藏的時間。"/>
+
+            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING" 
+                     String="啟用魔物異常狀態" 
+                     Description="如果啟用，將顯示魔物異常狀態資訊。"/>
+
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING" 
+                     String="自動隱藏魔物異常狀態" 
+                     Description="如果啟用，非活動的魔物異常狀態將在X秒後隱藏。"/>
+
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING" 
+                     String="隱藏非活動異常狀態延遲" 
+                     Description="異常狀態變為非活動狀態後，等待隱藏的時間。"/>
+
+            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING" 
+                     String="動態調整魔物血條大小" 
+                     Description="如果啟用，HunterPie將根據目前可見的血條數量自動調整所有魔物血條的大小。"/>
+
+            <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING" 
+                     String="隱藏未知魔物部位" 
+                     Description="如果啟用，HunterPie將隱藏未知部位（標示為「???」的部位）。"/>
+
+            <Setting Id="ABNORMALITY_TRAY_NAME_STRING" 
+                     String="異常狀態列名稱" 
+                     Description="此異常狀態列的名稱。"/>
+
+            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING" 
+                     String="最大數量" 
+                     Description="設定異常狀態列的最大數量。"/>
+
+            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" 
+                     String="排序方式" 
+                     Description="選擇用於排序所有異常狀態的演算法。"/>
+            <Setting Id="ACCOUNT_STRING" String="帳號" Description="帳號設定"/>
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="啟用遊戲存檔備份" Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="啟用狩獵上傳" Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING" String="顯示採集箱" Description="如果啟用，HunterPie將顯示採集箱的資料。"/>
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING" String="顯示蒸氣機" Description="如果啟用，HunterPie將顯示蒸氣機的資料。"/>
+            <Setting Id="CLOCK_WIDGET_STRING" String="時鐘小工具" Description="時鐘小工具設定"/>
         </Settings>
+        <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET" String="介面設定"/>
+            <Group Id="CONFIGURATION_GROUP_GENERAL" String="一般設定"/>
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS" String="自訂設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET" String="目標設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS" String="部位設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS" String="異常狀態設定"/>
+            <Group Id="CONFIGURATION_GROUP_MISC" String="其他"/>
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS" String="異常狀態列"/>
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT" String="傷害圖表"/>
+            <Group Id="CONFIGURATION_GROUP_COLORS" String="顏色設定"/>
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES" String="活動設定"/>
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS" String="快捷鍵"/>
+            <Group Id="CONFIGURATION_GROUP_MOCKS" String="模擬設定"/>
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT" String="開發設定"/>
+            <Group Id="CONFIGURATION_GROUP_LOGGING" String="記錄設定"/>
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE" String="自動更新"/>
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER" String="贊助者"/>
+            <Group Id="CONFIGURATION_GROUP_IN_GAME" String="遊戲內設定"/>
+            <Group Id="CONFIGURATION_GROUP_NATIVE" String="原生功能"/>
+            <Group Id="CONFIGURATION_GROUP_RENDERING" String="繪製設定"/>
+            <Group Id="CONFIGURATION_GROUP_SCANNING" String="掃描設定"/>
+            <Group Id="CONFIGURATION_GROUP_CLIENT" String="用戶端"/>
+            <Group Id="CONFIGURATION_GROUP_OVERLAY" String="覆蓋層"/>
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT" String="帳號"/>
+            <Group Id="CONFIGURATION_GROUP_FLAGS" String="功能開關"/>
+        </ConfigurationGroups>
+        <Main>
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING" String="匯出的狩獵紀錄"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING" String="您的帳戶僅限查看最近7天內的匯出狩獵紀錄。&#xA;成為贊助者以查看更早的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING" String="升級您的帳戶至二級贊助者以存取所有匯出的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING" String="正在獲取任務：{0}"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING" String="無法獲取匯出的狩獵紀錄。請稍後再試。"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING" String="成功載入任務！"/>
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING" String="在您帳戶可用期間內沒有匯出的狩獵紀錄。"/>
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING" String="魔物"/>
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING" String="狩獵詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING" String="狀態詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING" String="隊伍成員"/>
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING" String="詳細資訊"/>
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>            
+            <String Id="MEOWCENARIES_STEP_STRING" String="步驟："/>
+            <String Id="MEOWCENARIES_OUTCOME_STRING" String="結果："/>
+            <String Id="MEOWCENARIES_BUDDIES_STRING" String="隨從："/>
+            <String Id="ARGOSY_DAYS_STRING" String="天"/>
+            <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
+        </Main>
     </Client>
+
+    <Types>
+        <Type Id="TYPE_AERIAL" String="飛行種"/>
+        <Type Id="TYPE_FLYING_WYVERN" String="飛龍種"/>
+        <Type Id="TYPE_BRUTE_WYVERN" String="獸龍種"/>
+        <Type Id="TYPE_FANGED_BEAST" String="牙獸種"/>
+        <Type Id="TYPE_LEVIATHAN" String="海龍種"/>
+        <Type Id="TYPE_AQUATIC" String="水生種"/>
+        <Type Id="TYPE_BIRD_WYVERN" String="鳥龍種"/>
+        <Type Id="TYPE_FANGED_WYVERN" String="牙龍種"/>
+        <Type Id="TYPE_ELDER_DRAGON" String="古龍種"/>
+        <Type Id="TYPE_AMPHIBIAN" String="兩生種"/>
+        <Type Id="TYPE_TEMNOCERAN" String="鋏角種"/>
+        <Type Id="TYPE_PISCINE_WYVERN" String="魚龍種"/>
+        <Type Id="TYPE_CARAPACEON" String="甲殼種"/>
+    </Types>
 </Strings>
