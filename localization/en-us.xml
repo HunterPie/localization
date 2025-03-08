@@ -1009,6 +1009,68 @@
             <Monster Id="101"
                      String="Fatalis" />
         </World>
+        <Wilds>
+            <Monster ID="0"
+                     String="Rathian" />
+            <Monster ID="1"
+                     String="Rathalos" />
+            <Monster ID="2"
+                     String="Guardian Rathalos" />
+            <Monster ID="3"
+                     String="Gravios" />
+            <Monster ID="4"
+                     String="Yian Kut-Ku" />
+            <Monster ID="5"
+                     String="Gypceros" />
+            <Monster ID="6"
+                     String="Congalala" />
+            <Monster ID="7"
+                     String="Blangonga" />
+            <Monster ID="9"
+                     String="Nerscylla" />
+            <Monster ID="10"
+                     String="Gore Magala" />
+            <Monster ID="14"
+                     String="Guardian Fulgur Anjanath" />
+            <Monster ID="15"
+                     String="Guardian Ebony Odogaron" />
+            <Monster ID="16"
+                     String="Doshaguma" />
+            <Monster ID="17"
+                     String="Guardian Doshaguma" />
+            <Monster ID="18"
+                     String="Balahara" />
+            <Monster ID="19"
+                     String="Chatacabra" />
+            <Monster ID="20"
+                     String="Quematrice" />
+            <Monster ID="21"
+                     String="Lala Barina" />
+            <Monster ID="22"
+                     String="Rompopolo" />
+            <Monster ID="23"
+                     String="Rey Dau" />
+            <Monster ID="24"
+                     String="Uth Duna" />
+            <Monster ID="25"
+                     String="Nu Udra" />
+            <Monster ID="26"
+                     String="Ajarakan" />
+            <Monster ID="27"
+                     String="Arkveld" />
+            <Monster ID="28"
+                     String="Guardian Arkveld" />
+            <Monster ID="29"
+                     String="Hirabami" />
+            <Monster ID="30"
+                     String="Jin Dahaad" />
+            <Monster ID="31"
+                     String="Xu Wu" />
+            <Monster ID="32"
+                     String="Zoh Shia" />
+            <Monster ID="33"
+                     String="High Purrformance Barrel Puncher" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
@@ -3594,7 +3656,7 @@
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="Abnormality Widget"
                      Description="Abnormality Trays configurations" />
-              <Setting Id="TELEMETRICS_WIDGET_STRING"
+            <Setting Id="TELEMETRICS_WIDGET_STRING"
                      String="Debug Widget"
                      Description="Debug Widget configurations" />
             <Setting Id="MONSTER_WIDGET_STRING"
