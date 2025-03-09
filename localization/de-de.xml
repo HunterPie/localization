@@ -536,6 +536,68 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Monster Id="101" String="Fatalis"/>
  
         </World>
+        <Wilds>
+            <Monster Id="0"
+                     String="Rathian" />
+            <Monster Id="1"
+                     String="Rathalos" />
+            <Monster Id="2"
+                     String="Wächter-Rathalos" />
+            <Monster Id="3"
+                     String="Gravios" />
+            <Monster Id="4"
+                     String="Yian Kut-Ku" />
+            <Monster Id="5"
+                     String="Gypceros" />
+            <Monster Id="6"
+                     String="Congalala" />
+            <Monster Id="7"
+                     String="Blangonga" />
+            <Monster Id="9"
+                     String="Nerscylla" />
+            <Monster Id="10"
+                     String="Gore Magala" />
+            <Monster Id="14"
+                     String="Wächter-Fulgur-Anjanath" />
+            <Monster Id="15"
+                     String="Wächter-Vulkan-Odogaron" />
+            <Monster Id="16"
+                     String="Doshaguma" />
+            <Monster Id="17"
+                     String="Wächter-Doshaguma" />
+            <Monster Id="18"
+                     String="Balahara" />
+            <Monster Id="19"
+                     String="Chatacabra" />
+            <Monster Id="20"
+                     String="Quematrice" />
+            <Monster Id="21"
+                     String="Lala Barina" />
+            <Monster Id="22"
+                     String="Rompopolo" />
+            <Monster Id="23"
+                     String="Rey Dau" />
+            <Monster Id="24"
+                     String="Uth Duna" />
+            <Monster Id="25"
+                     String="Nu Udra" />
+            <Monster Id="26"
+                     String="Ajarakan" />
+            <Monster Id="27"
+                     String="Arkveld" />
+            <Monster Id="28"
+                     String="Wächter-Arkveld" />
+            <Monster Id="29"
+                     String="Hirabami" />
+            <Monster Id="30"
+                     String="Jin Dahaad" />
+            <Monster Id="31"
+                     String="Xu Wu" />
+            <Monster Id="32"
+                     String="Zoh Shia" />
+            <Monster Id="33"
+                     String="Miau-Drauf" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
