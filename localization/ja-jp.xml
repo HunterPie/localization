@@ -1013,6 +1013,68 @@
             <Monster Id="101"
                      String="ミラボレアス" />
         </World>
+        <Wilds>
+            <Monster Id="0"
+                     String="リオレイア" />
+            <Monster Id="1"
+                     String="リオレウス" />
+            <Monster Id="2"
+                     String="護竜リオレウス" />
+            <Monster Id="3"
+                     String="グラビモス" />
+            <Monster Id="4"
+                     String="イャンクック" />
+            <Monster Id="5"
+                     String="ゲリョス" />
+            <Monster Id="6"
+                     String="ババコンガ" />
+            <Monster Id="7"
+                     String="ドドブランゴ" />
+            <Monster Id="9"
+                     String="ネルスキュラ" />
+            <Monster Id="10"
+                     String="ゴアマガラ" />
+            <Monster Id="14"
+                     String="護竜アンジャナフ亜種" />
+            <Monster Id="15"
+                     String="護竜オドガロン亜種" />
+            <Monster Id="16"
+                     String="ドシャグマ" />
+            <Monster Id="17"
+                     String="護竜ドシャグマ" />
+            <Monster Id="18"
+                     String="バーラハーラ" />
+            <Monster Id="19"
+                     String="チャタカブラ" />
+            <Monster Id="20"
+                     String="ケマトリス" />
+            <Monster Id="21"
+                     String="ラバラ・バリナ" />
+            <Monster Id="22"
+                     String="ププロポル" />
+            <Monster Id="23"
+                     String="レ・ダウ" />
+            <Monster Id="24"
+                     String="ウズ・トゥナ" />
+            <Monster Id="25"
+                     String="ヌ・エグドラ" />
+            <Monster Id="26"
+                     String="アジャラカン" />
+            <Monster Id="27"
+                     String="アルシュベルド" />
+            <Monster Id="28"
+                     String="護竜アルシュベルド" />
+            <Monster Id="29"
+                     String="ヒラバミ" />
+            <Monster Id="30"
+                     String="ジン・ダハド" />
+            <Monster Id="31"
+                     String="シーウー" />
+            <Monster Id="32"
+                     String="ゾ・シア" />
+            <Monster Id="33"
+                     String="ネコ式訓練タルパンチャー" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
