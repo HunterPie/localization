@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings lang="Japanese">
     <!-- Translated by elappale (contributors: ゆぃまる#5300; Geniti.jp#1766; TYPE-XXX#9134)
 	・If you see any mistakes in the translation or would like to submit your own, by all means join the
@@ -360,7 +360,7 @@
         <Abnormality Id="ABNORMALITY_BLOOD"
                      String="劫血やられ" />
         <Abnormality Id="ABNORMALITY_PRE_SLEEP"
-                     String="睡魔" />
+                     String="睡眠" />
         <Abnormality Id="ABNORMALITY_POISON"
                      String="毒" />
         <Abnormality Id="ABNORMALITY_VENOM"
@@ -706,6 +706,76 @@
                   String="たてがみ" />
             <Part Id="PART_QURIO_THRESHOLD"
                   String="傀異凶化鎮静化" />
+            <Part Id="PART_BELLY"
+                  String="腹部" />
+            <Part Id="PART_PETALS"
+                  String="花弁状部" />
+            <Part Id="PART_MANTLE"
+                  String="Mantle" />
+            <Part Id="PART_STINGER"
+                  String="毒針" />
+            <Part Id="PART_R_WINGARM"
+                  String="Right Wingarm" />
+            <Part Id="PART_L_WINGARM"
+                  String="Left Wingarm" />
+            <Part Id="PART_NOSE"
+                  String="鼻" />
+            <Part Id="PART_TAIL_HAIR"
+                  String="Tail Hair" />
+            <Part Id="PART_TONGUE"
+                  String="舌" />
+            <Part Id="PART_R_HEAD_VEIL"
+                  String="ヴェール: 頭部(右)" />
+            <Part Id="PART_L_HEAD_VEIL"
+                  String="ヴェール: 頭部(左)" />
+            <Part Id="PART_R_TORSO_VEIL"
+                  String="ヴェール: 胴体(右)" />
+            <Part Id="PART_L_TORSO_VEIL"
+                  String="ヴェール: 胴体(左)" />
+            <Part Id="PART_R_FORELEG_VEIL"
+                  String="ヴェール: 右前脚" />
+            <Part Id="PART_L_FORELEG_VEIL"
+                  String="ヴェール: 左前脚" />
+            <Part Id="PART_R_TAIL_VEIL"
+                  String="ヴェール: 尻尾(右)" />
+            <Part Id="PART_L_TAIL_VEIL"
+                  String="ヴェール: 尻尾(左)" />
+            <Part Id="PART_M_TAIL_VEIL"
+                  String="ヴェール: 尻尾(中央)" />
+            <Part Id="PART_TENTACLE"
+                  String="触腕" />
+            <Part Id="PART_MEMBRANE"
+                  String="傘膜" />
+            <Part Id="PART_L_F_ARM"
+                  String="左第1腕" />
+            <Part Id="PART_R_F_ARM"
+                  String="右第1腕" />
+            <Part Id="PART_M_L_ARM"
+                  String="左第2腕" />
+            <Part Id="PART_M_R_ARM"
+                  String="右第2腕" />
+            <Part Id="PART_REAR_L_ARM"
+                  String="左第3腕" />
+            <Part Id="PART_REAR_R_ARM"
+                  String="右第3腕" />
+            <Part Id="PART_MOUTH"
+                  String="口" />
+            <Part Id="PART_L_CHAINBLADE"
+                  String="左鎖翼刃" />
+            <Part Id="PART_R_CHAINBLADE"
+                  String="右鎖翼刃" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE"
+                  String="凍成殻(腰部)" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN"
+                  String="大凍成殻(露出前)" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED"
+                  String="大凍成殻(露出後)" />
+            <Part Id="PART_HEAD_CRYSTALIZED"
+                  String="凍成殻(頭部)" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED"
+                  String="左翼腕(白纏晶)" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED"
+                  String="右翼腕(白纏晶)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1013,7 +1083,7 @@
             <Monster Id="101"
                      String="ミラボレアス" />
         </World>
-        <Wilds>
+        <<Wilds>
             <Monster Id="0"
                      String="リオレイア" />
             <Monster Id="1"
@@ -1033,7 +1103,7 @@
             <Monster Id="9"
                      String="ネルスキュラ" />
             <Monster Id="10"
-                     String="ゴアマガラ" />
+                     String="ゴア・マガラ" />
             <Monster Id="14"
                      String="護竜アンジャナフ亜種" />
             <Monster Id="15"
@@ -1804,6 +1874,30 @@
                    String="レンダリング" />
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="スキャン" />
+            <Group Id="CONFIGURATION_GROUP_CLIENT"
+                   String="クライアント" />
+            <Group Id="CONFIGURATION_GROUP_OVERLAY"
+                   String="オーバーレイ" />
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT"
+                   String="アカウント" />
+            <Group Id="CONFIGURATION_GROUP_FLAGS"
+                   String="FEATURE FLAGS" />
         </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND"
+                        String="ゲームが見つかりません" />
+            <GameStatus Id="WAITING"
+                        String="ゲームの起動を待機中..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="別のゲームが実行中です" />
+            <GameStatus Id="RUNNING"
+                        String="実行中..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="質問や技術的な問題がありますか？私たちのチームとコミュニティがサポートします。" />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="ドキュメント"
+                          Description="HunterPieの機能と使い方についてもっと学びましょう。" />
+        </Home>
     </Client>
 </Strings>
