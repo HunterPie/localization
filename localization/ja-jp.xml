@@ -1083,7 +1083,7 @@
             <Monster Id="101"
                      String="ミラボレアス" />
         </World>
-        <<Wilds>
+        <Wilds>
             <Monster Id="0"
                      String="リオレイア" />
             <Monster Id="1"
