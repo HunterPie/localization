@@ -440,14 +440,6 @@
                   String="魚竜種" />
             <Type Id="TYPE_CARAPACEON"
                   String="甲殻種" />
-            <Type Id="TYPE_CONSTRUCT"
-                   String="造竜種" />
-            <Type Id="TYPE_TEMNOCERAN"
-                  String="鋏角種" />
-            <Type Id="TYPE_DEMI_ELDER"
-                  String="亜竜種" />
-            <Type Id="TYPE_CEPHALOPOD"
-                  String="頭足種" />                  
         </Types>
         <Shared>
             <Part Id="PART_UNKNOWN"
@@ -714,76 +706,6 @@
                   String="たてがみ" />
             <Part Id="PART_QURIO_THRESHOLD"
                   String="傀異凶化鎮静化" />
-            <Part Id="PART_BELLY"
-                   String="腹部" />
-            <Part Id="PART_PETALS"
-                  String="花弁状部" />
-            <Part Id="PART_MANTLE"
-                  String="外套膜" />
-            <Part Id="PART_STINGER"
-                  String="毒トゲ" />
-            <Part Id="PART_R_WINGARM"
-                  String="右翼脚" />
-            <Part Id="PART_L_WINGARM"
-                  String="左翼脚" />
-            <Part Id="PART_NOSE"
-                  String="鼻" />
-            <Part Id="PART_TAIL_HAIR"
-                  String="尾毛" />
-            <Part Id="PART_TONGUE"
-                  String="舌" />
-            <Part Id="PART_R_HEAD_VEIL"
-                  String="水膜（右頭部）" />
-            <Part Id="PART_L_HEAD_VEIL"
-                  String="水膜（左頭部）" />
-            <Part Id="PART_R_TORSO_VEIL"
-                  String="水膜（右胴）" />
-            <Part Id="PART_L_TORSO_VEIL"
-                  String="水膜（左胴）" />
-            <Part Id="PART_R_FORELEG_VEIL"
-                  String="水膜（右前脚）" />
-            <Part Id="PART_L_FORELEG_VEIL"
-                  String="水膜（左前脚）" />
-            <Part Id="PART_R_TAIL_VEIL"
-                  String="水膜（尻尾右部）" />
-            <Part Id="PART_L_TAIL_VEIL"
-                  String="水膜（尻尾左部）" />
-            <Part Id="PART_M_TAIL_VEIL"
-                  String="水膜（尻尾中央）" />
-            <Part Id="PART_TENTACLE"
-                  String="触腕" />
-            <Part Id="PART_MEMBRANE"
-                  String="傘膜" />
-            <Part Id="PART_L_F_ARM"
-                  String="左第1腕" />
-            <Part Id="PART_R_F_ARM"
-                  String="右第1腕" />
-            <Part Id="PART_M_L_ARM"
-                  String="左第2腕" />
-            <Part Id="PART_M_R_ARM"
-                  String="右第2腕" />
-            <Part Id="PART_REAR_L_ARM"
-                  String="左第3腕" />
-            <Part Id="PART_REAR_R_ARM"
-                  String="右第3腕" />
-            <Part Id="PART_MOUTH"
-                  String="口" />
-            <Part Id="PART_L_CHAINBLADE"
-                  String="左鎖翼刃" />
-            <Part Id="PART_R_CHAINBLADE"
-                  String="右鎖翼刃" />
-            <Part Id="PART_ABDOMINAL_ICEPLATE"
-                  String="凍成殻（腰部）" />
-            <Part Id="PART_LG_ICEPLATE_HIDDEN"
-                  String="大凍成殻（露出前）" />
-            <Part Id="PART_LG_ICEPLATE_EXPOSED"
-                  String="大凍成殻（露出後）" />
-            <Part Id="PART_HEAD_CRYSTALIZED"
-                  String="頭（白纏晶）" />
-            <Part Id="PART_L_WINGARM_CRYSTALIZED"
-                  String="左翼腕（白纏晶）" />
-            <Part Id="PART_R_WINGARM_CRYSTALIZED"
-                  String="右翼腕（白纏晶）" />                  
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1353,8 +1275,6 @@
                     String="クエスト" />
         </Overlay>
         <Tabs>
-            <Tab Id="HOME_STRING"
-                 String="ホーム" />
             <Tab Id="CONSOLE_STRING"
                  String="コンソール" />
             <Tab Id="DISCORD_STRING"
@@ -1395,18 +1315,6 @@
                      String="すべて解除" />
             <Generic Id="BACK_STRING"
                      String="戻る" />
-            <Generic Id="MONSTER_PART_GROUPS_STRING"
-                     String="部位系統一括" />
-            <Generic Id="MONSTER_PARTS_COUNT_STRING"
-                     String="部位" />
-            <Generic Id="MONSTER_PARTS_STRING"
-                     String="部位" />
-            <Generic Id="MONSTER_AILMENTS_STRING"
-                     String="状態異常" />
-            <Generic Id="MONSTER_OVERRIDE_STRING"
-                     String="モンスター毎の設定を追加" />
-            <Generic Id="GO_TO_STRING"
-                     String="移動：" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -1548,9 +1456,6 @@
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="バフ・デバフウィジェット"
                      Description="バフ・デバフウィジェットの設定" />
-            <Setting Id="TELEMETRICS_WIDGET_STRING"
-                     String="デバッグウィジェット"
-                     Description="デバッグウィジェットの設定" />
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="モンスターウィジェット"
                      Description="モンスターウィジェットの設定" />
@@ -1590,9 +1495,6 @@
             <Setting Id="SWITCH_AXE_WIDGET_STRING"
                      String="スラッシュアックス"
                      Description="スラッシュアックスウィジェットの設定" />
-            <Setting Id="CLOCK_WIDGET_STRING"
-                     String="時計ウィジェット"
-                     Description="時計ウィジェットの設定" />
             <Setting Id="ACCOUNT_STRING"
                      String="アカウント"
                      Description="アカウント設定" />
@@ -1620,8 +1522,6 @@
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="アップデート確認"
                      Description="有効な場合、HunterPieはアップデートの際に確認を取ります。" />
-                     String="グローバル設定"
-                     Description="全モンスターに適応される表示設定" />
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="支援者トークン"
                      Description="支援者用のβアクセストークン" />
@@ -1784,12 +1684,6 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="グラフ表示"
                      Description="有効な場合、当ウィジェットのデータがグラフ化されて表示されます。" />
-            <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
-                     String="グラフ滑らかさ"
-                     Description="グラフの滑らかさを調節します。" />
-            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING"
-                     String="グラフ線の太さ"
-                     Description="グラフ線の太さを調節します。" />
             <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
                      String="DPS計算方式"
                      Description="DPS(ダメージ毎秒)の計算方式を変更します。&#xA;- クエスト経過時間: クエスト経過時間を基準に計算する&#xA;- 各プレイヤー参加時: プレイヤーの参加時を基準に計算する&#xA;- 各プレイヤーの初撃時: モンスターに初めてダメージを与えた時を基準に計算する" />
@@ -1817,12 +1711,6 @@
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="オトモのダメージを表示"
                      Description="有効な場合、HunterPieはオトモのダメージを表示します。" />
-            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS"
-                     String="DPSを表示"
-                     Description="有効な場合、HunterPieは各プレイヤーのDPSを表示します。" />
-            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
-                     String="総ダメージ量を表示"
-                     Description="有効な場合、HunterPieは各プレイヤーの総ダメージ量を表示します。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
@@ -1855,15 +1743,6 @@
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
                      String="Developer: Mock Specialized Tool widget"
-                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
-            <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
-                     String="Developer: Mock Switch Axe widget"
-                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
-            <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
-                     String="Developer: Mock Longsword widget"
-                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
-            <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
-                     String="Developer: Mock Clock widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="Developer: Poogie API Host"
@@ -1926,21 +1805,5 @@
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="スキャン" />
         </ConfigurationGroups>
-        <Home>
-            <GameStatus Id="NOT_FOUND"
-                        String="ゲームが見つかりませんでした。" />
-            <GameStatus Id="WAITING"
-                        String="ゲームを待機中..." />
-            <GameStatus Id="ANOTHER_RUNNING"
-                        String="他のゲームが実行中です。" />
-            <GameStatus Id="RUNNING"
-                        String="実行中..." />
-            <CallToAction Id="DISCORD_CALL_TO_ACTION"
-                          String="Discord"
-                          Description="質問や不具合はありますか？プロジェクトの仲間やコミュニティに相談してください" />
-            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
-                          String="資料"
-                          Description="HunterPieの機能と使い方を学ぼう" />
-        </Home>
     </Client>
 </Strings>
