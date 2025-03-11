@@ -58,6 +58,8 @@
                      String="분노" />
             <Ailment Id="AILMENT_STEELFANG"
                      String="강철아" />
+            <Ailment Id="AILMENT_CLASH"
+                     String="상쇄" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -535,6 +537,10 @@
             <Part Id="PART_L_H_LEG"
                   String="왼쪽 뒷다리" />
             <Part Id="PART_R_H_LEG"
+                  String="오른쪽 뒷다리" />
+            <Part Id="PART_L_H_FORELEG"
+                  String="왼쪽 뒷다리" />
+            <Part Id="PART_R_H_FORELEG"
                   String="오른쪽 뒷다리" />
             <Part Id="PART_ABDOMEN"
                   String="복부" />
@@ -3890,6 +3896,12 @@
             <Setting Id="ORIENTATION_STRING"
                      String="방향"
                      Description="위젯의 배치 방향입니다." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
+                     String="컴팩트 모드 활성화"
+                     Description="옵션 활성화 시, 몬스터가 컴팩트 모드로 표시됩니다 (아이콘, 이름과 왕관만 표시). 몬스터를 선택하면 HunterPie는 자동으로 기본 모드로 변경됩니다." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
+                     String="컴팩트 모드 세로 열 갯수"
+                     Description="컴팩트 모드에 사용할 세로 열의 갯수를 조절합니다, 몬스터가 열에 표시 가능한 수보다 많을 경우, 다음 몬스터는 새로운 열에 표시됩니다." />
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다." />
