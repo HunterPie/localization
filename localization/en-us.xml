@@ -58,6 +58,8 @@
                      String="Enrage" />
             <Ailment Id="AILMENT_STEELFANG"
                      String="Steel Fang" />
+            <Ailment Id="AILMENT_CLASH"
+                     String="Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -536,6 +538,10 @@
                   String="Left Hind Leg" />
             <Part Id="PART_R_H_LEG"
                   String="Right Hind Leg" />
+            <Part Id="PART_L_H_FORELEG"
+                  String="Left Hind Foreleg" />
+            <Part Id="PART_R_H_FORELEG"
+                  String="Right Hind Foreleg" />
             <Part Id="PART_ABDOMEN"
                   String="Abdomen" />
             <Part Id="PART_CHEST"
@@ -3890,6 +3896,12 @@
             <Setting Id="ORIENTATION_STRING"
                      String="Orientation"
                      Description="Orientation of the widget." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
+                     String="Enable compact mode"
+                     Description="If enabled, monsters will be displayed in compact mode (only icon, name and crown). HunterPie will automatically switch to default mode once a monster is targeted." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
+                     String="Compact mode columns"
+                     Description="Controls how many columns will be used for the compact mode, if there are more monsters than available columns, the next monsters will be displayed in a new row." />
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="Show only target"
                      Description="If enabled, HunterPie will only show the monster you have currently set as target." />
