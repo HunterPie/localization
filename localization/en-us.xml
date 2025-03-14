@@ -1281,6 +1281,36 @@
             <Stage Id="506"
                    String="Seliana Room" />
         </World>
+        <Wilds>
+            <Stage Id="0"
+                   String="Windward Plains" />
+            <Stage Id="1"
+                   String="Scarlet Forest" />
+            <Stage Id="2"
+                   String="Oilwell Basin" />
+            <Stage Id="3"
+                   String="Iceshard Cliffs" />
+            <Stage Id="4"
+                   String="Ruins of Wyveria" />
+            <Stage Id="5"
+                   String="Riverside Trail" />
+            <Stage Id="6"
+                   String="Cavern Tunnel" />
+            <Stage Id="7"
+                   String="Lost Path to Wyveria" />
+            <Stage Id="8"
+                   String="Keepers' Approach" />
+            <Stage Id="9"
+                   String="Wounded Hollow" />
+            <Stage Id="10"
+                   String="Rimechain Peak" />
+            <Stage Id="11"
+                   String="Dragontorch Shrine" />
+            <Stage Id="12"
+                   String="Suja, Peaks of Accord" />
+            <Stage Id="13"
+                   String="Training Area" />
+        </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
@@ -3925,16 +3955,16 @@
                      Description="If enabled, inactive monster parts will be hidden after X seconds." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
                      String="Delay to hide inactive parts"
-                     Description="Delay to be waited to hide a part that has become inactive." />
+                     Description="Delay to be waited to hide a part that became inactive." />
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
                      String="Enable monster ailments"
                      Description="If enabled, monster ailments will be enabled." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
                      String="Automatically hide monster ailments"
-                     Description="If enabled, inactive monster parts will be hidden after X seconds." />
+                     Description="If enabled, inactive monster ailments will be hidden after X seconds." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
                      String="Delay to hide inactive ailments"
-                     Description="Delay to be waited to hide a part that has become inactive." />
+                     Description="Delay to be waited to hide an ailment that became inactive." />
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
                      String="Dynamically resize monster bars"
                      Description="If enabled, HunterPie will automatically resize all monster bars depending on how many health bars are visible at the moment." />
