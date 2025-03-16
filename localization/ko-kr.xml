@@ -1281,6 +1281,36 @@
             <Stage Id="506"
                    String="조사 거점의 마이하우스" />
         </World>
+        <Wilds>
+             <Stage Id="0"
+                    String="경계의 모래 평원" />
+             <Stage Id="1"
+                    String="주홍빛 숲" />
+             <Stage Id="2"
+                    String="기름 솟는 계곡" />
+             <Stage Id="3"
+                    String="빙무의 절벽" />
+             <Stage Id="4"
+                    String="용도의 폐허" />
+             <Stage Id="5"
+                    String="강가의 샛길" />
+             <Stage Id="6"
+                    String="바위굴의 갱도" />
+             <Stage Id="7"
+                    String="용도의 폐도" />
+             <Stage Id="8"
+                    String="수호자의 참배길" />
+             <Stage Id="9"
+                    String="용곡의 터" />
+             <Stage Id="10"
+                    String="빙쇄의 동봉" />
+             <Stage Id="11"
+                    String="용등의 사원" />
+             <Stage Id="12"
+                    String="교류의 봉우리 스자" />
+             <Stage Id="13"
+                    String="훈련장" />
+         </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
