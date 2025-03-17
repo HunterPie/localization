@@ -472,8 +472,6 @@
                   String="갑각종" />
             <Type Id="TYPE_CONSTRUCT"
                   String="인조룡종" />
-            <Type Id="TYPE_TEMNOCERAN"
-                  String="협각종" />
             <Type Id="TYPE_DEMI_ELDER"
                   String="아성룡종" />
             <Type Id="TYPE_CEPHALOPOD"
