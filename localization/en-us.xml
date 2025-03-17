@@ -472,8 +472,6 @@
                   String="Carapaceon" />
             <Type Id="TYPE_CONSTRUCT"
                   String="Construct" />
-            <Type Id="TYPE_TEMNOCERAN"
-                  String="Temnoceran" />
             <Type Id="TYPE_DEMI_ELDER"
                   String="Demi Elder" />
             <Type Id="TYPE_CEPHALOPOD"
