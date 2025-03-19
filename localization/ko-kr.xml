@@ -13,7 +13,7 @@
             <Ailment Id="AILMENT_POISON"
                      String="독" />
             <Ailment Id="AILMENT_BLAST"
-                     String="폭파" />
+                     String="폭파 피해" />
             <Ailment Id="AILMENT_EXHAUST"
                      String="기력 감소" />
             <Ailment Id="AILMENT_MOUNT"
@@ -21,7 +21,7 @@
             <Ailment Id="AILMENT_RIDE"
                      String="용 조종" />
             <Ailment Id="AILMENT_FLASH"
-                     String="실명" />
+                     String="현기증" />
             <Ailment Id="AILMENT_WATER"
                      String="물속성 피해" />
             <Ailment Id="AILMENT_FIRE"
@@ -37,7 +37,7 @@
             <Ailment Id="AILMENT_KNOCKDOWN"
                      String="넘어짐" />
             <Ailment Id="AILMENT_SHOCKTRAP"
-                     String="마비 덫" />
+                     String="마비덫" />
             <Ailment Id="AILMENT_PITFALLTRAP"
                      String="구멍 함정" />
             <Ailment Id="AILMENT_VINETRAP"
@@ -58,6 +58,8 @@
                      String="분노" />
             <Ailment Id="AILMENT_STEELFANG"
                      String="강철아" />
+            <Ailment Id="AILMENT_CLASH"
+                     String="상쇄" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -254,7 +256,7 @@
         <Abnormality Id="ABNORMALITY_STINKMINK"
                      String="연기 족제비" />
         <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY"
-                     String="광격화" />
+                     String="광룡증: 극복" />
         <Abnormality Id="ABNORMALITY_BLEED_HEALING"
                      String="열상 회복" />
         <Abnormality Id="ABNORMALITY_DANGO_BULKER"
@@ -359,54 +361,86 @@
                      String="졸음" />
         <Abnormality Id="ABNORMALITY_POISON"
                      String="독" />
+        <Abnormality Id="ABNORMALITY_POISON_BUILDUP"
+                     String="독 (축적)" />
         <Abnormality Id="ABNORMALITY_VENOM"
                      String="맹독" />
         <Abnormality Id="ABNORMALITY_STUN"
-                     String="기절/현기증" />
+                     String="기절" />
+        <Abnormality Id="ABNORMALITY_STUN_BUILDUP"
+                     String="기절 (축적)" />
         <Abnormality Id="ABNORMALITY_SLEEP"
                      String="수면" />
+        <Abnormality Id="ABNORMALITY_SLEEP_BUILDUP"
+                     String="수면 (축적)" />
         <Abnormality Id="ABNORMALITY_PARALYSIS"
                      String="마비" />
+        <Abnormality Id="ABNORMALITY_PARALYSIS_BUILDUP"
+                     String="마비 (축적)" />
         <Abnormality Id="ABNORMALITY_DEF_DOWN"
                      String="방어력 DOWN" />
+        <Abnormality Id="ABNORMALITY_DEF_DOWN_BUILDUP"
+                     String="방어력 DOWN (축적)" />
         <Abnormality Id="ABNORMALITY_RES_DOWN"
                      String="모든 내성 DOWN" />
         <Abnormality Id="ABNORMALITY_STENCH"
                      String="일부 아이템 사용 불가" />
+        <Abnormality Id="ABNORMALITY_STENCH_BUILDUP"
+                     String="악취 (축적)" />
         <Abnormality Id="ABNORMALITY_HELLFIRE"
                      String="귀화 피해" />
         <Abnormality Id="ABNORMALITY_BLAST"
                      String="폭파 피해" />
+        <Abnormality Id="ABNORMALITY_BLAST_BUILDUP"
+                     String="폭파 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE"
                      String="강폭파 피해" />
         <Abnormality Id="ABNORMALITY_FIRE"
                      String="불속성 피해" />
+        <Abnormality Id="ABNORMALITY_FIRE_BUILDUP"
+                     String="불속성 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_WATER"
                      String="물속성 피해" />
+        <Abnormality Id="ABNORMALITY_WATER_BUILDUP"
+                     String="물속성 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_ICE"
                      String="얼음속성 피해" />
+        <Abnormality Id="ABNORMALITY_ICE_BUILDUP"
+                     String="얼음속성 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_THUNDER"
                      String="번개속성 피해" />
+        <Abnormality Id="ABNORMALITY_THUNDER_BUILDUP"
+                     String="번개속성 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_DRAGON"
                      String="용속성 피해" />
+        <Abnormality Id="ABNORMALITY_DRAGON_BUILDUP"
+                     String="용속성 피해 (축적)" />
         <Abnormality Id="ABNORMALITY_BUBBLES"
                      String="거품 상태 (소)" />
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS"
                      String="거품 상태 (대)" />
         <Abnormality Id="ABNORMALITY_BLEED"
                      String="열상" />
+        <Abnormality Id="ABNORMALITY_BLEED_BUILDUP"
+                     String="열상 (축적)" />
         <Abnormality Id="ABNORMALITY_EFFLUVIA"
                      String="독기 침식 상태" />
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP"
-                     String="광룡증 감염" />
+                     String="광룡증: 감염" />
         <Abnormality Id="ABNORMALITY_FRENZY"
-                     String="광룡증" />
+                     String="광룡증: 발병" />
         <Abnormality Id="ABNORMALITY_WEBBED"
                      String="실 속박 상태" />
+        <Abnormality Id="ABNORMALITY_WEBBED_BUILDUP"
+                     String="실 속박 상태 (축적)" />
         <Abnormality Id="ABNORMALITY_LEECHED"
                      String="흡혈" />
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT"
                      String="천의무붕" />
+        <Abnormality Id="ABNORMALITY_FROZEN"
+                     String="동결 피해" />
+        <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
+                     String="동결 피해 (축적)" />
     </Abnormalities>
     <Monsters>
         <Types>
@@ -436,6 +470,12 @@
                   String="어룡종" />
             <Type Id="TYPE_CARAPACEON"
                   String="갑각종" />
+            <Type Id="TYPE_CONSTRUCT"
+                  String="인조룡종" />
+            <Type Id="TYPE_DEMI_ELDER"
+                  String="아성룡종" />
+            <Type Id="TYPE_CEPHALOPOD"
+                  String="두족종" />
         </Types>
         <Shared>
             <Part Id="PART_UNKNOWN"
@@ -527,6 +567,10 @@
             <Part Id="PART_L_H_LEG"
                   String="왼쪽 뒷다리" />
             <Part Id="PART_R_H_LEG"
+                  String="오른쪽 뒷다리" />
+            <Part Id="PART_L_H_FORELEG"
+                  String="왼쪽 뒷다리" />
+            <Part Id="PART_R_H_FORELEG"
                   String="오른쪽 뒷다리" />
             <Part Id="PART_ABDOMEN"
                   String="복부" />
@@ -702,6 +746,76 @@
                   String="갈기" />
             <Part Id="PART_QURIO_THRESHOLD"
                   String="괴이흉화 해제" />
+            <Part Id="PART_BELLY"
+                   String="복부" />
+            <Part Id="PART_PETALS"
+                  String="꽃잎 부분" />
+            <Part Id="PART_MANTLE"
+                  String="외투막" />
+            <Part Id="PART_STINGER"
+                  String="독가시" />
+            <Part Id="PART_R_WINGARM"
+                  String="오른쪽 날개다리" />
+            <Part Id="PART_L_WINGARM"
+                  String="왼쪽 날개다리" />
+            <Part Id="PART_NOSE"
+                  String="코" />
+            <Part Id="PART_TAIL_HAIR"
+                  String="꼬리털" />
+            <Part Id="PART_TONGUE"
+                  String="혀" />
+            <Part Id="PART_R_HEAD_VEIL"
+                  String="수막: 오른쪽 머리" />
+            <Part Id="PART_L_HEAD_VEIL"
+                  String="수막: 왼쪽 머리" />
+            <Part Id="PART_R_TORSO_VEIL"
+                  String="수막: 오른쪽 몸통" />
+            <Part Id="PART_L_TORSO_VEIL"
+                  String="수막: 왼쪽 몸통" />
+            <Part Id="PART_R_FORELEG_VEIL"
+                  String="수막: 오른쪽 앞다리" />
+            <Part Id="PART_L_FORELEG_VEIL"
+                  String="수막: 왼쪽 앞다리" />
+            <Part Id="PART_R_TAIL_VEIL"
+                  String="수막: 꼬리 오른쪽" />
+            <Part Id="PART_L_TAIL_VEIL"
+                  String="수막: 꼬리 왼쪽" />
+            <Part Id="PART_M_TAIL_VEIL"
+                  String="수막: 꼬리" />
+            <Part Id="PART_TENTACLE"
+                  String="촉완" />
+            <Part Id="PART_MEMBRANE"
+                  String="산막" />
+            <Part Id="PART_L_F_ARM"
+                  String="왼쪽 첫 번째 팔" />
+            <Part Id="PART_R_F_ARM"
+                  String="오른쪽 첫 번째 팔" />
+            <Part Id="PART_M_L_ARM"
+                  String="왼쪽 두 번째 팔" />
+            <Part Id="PART_M_R_ARM"
+                  String="오른쪽 두 번째 팔" />
+            <Part Id="PART_REAR_L_ARM"
+                  String="왼쪽 세 번째 팔" />
+            <Part Id="PART_REAR_R_ARM"
+                  String="오른쪽 세 번째 팔" />
+            <Part Id="PART_MOUTH"
+                  String="입" />
+            <Part Id="PART_L_CHAINBLADE"
+                  String="왼쪽 사슬날개" />
+            <Part Id="PART_R_CHAINBLADE"
+                  String="오른쪽 사슬날개" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE"
+                  String="동성갑각(허리)" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN"
+                  String="대동성갑각 (노출 전)" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED"
+                  String="대동성갑각 (노출 후)" />
+            <Part Id="PART_HEAD_CRYSTALIZED"
+                  String="머리(백전정)" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED"
+                  String="왼쪽 날갯죽지(백전정)" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED"
+                  String="오른쪽 날갯죽지(백전정)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1009,6 +1123,68 @@
             <Monster Id="101"
                      String="밀라보레아스" />
         </World>
+        <Wilds>
+            <Monster Id="0"
+                     String="리오레이아" />
+            <Monster Id="1"
+                     String="리오레우스" />
+            <Monster Id="2"
+                     String="수호룡 리오레우스" />
+            <Monster Id="3"
+                     String="그라비모스" />
+            <Monster Id="4"
+                     String="얀쿡크" />
+            <Monster Id="5"
+                     String="게리오스" />
+            <Monster Id="6"
+                     String="바바콩가" />
+            <Monster Id="7"
+                     String="도도블랑고" />
+            <Monster Id="9"
+                     String="네르스큐라" />
+            <Monster Id="10"
+                     String="고어 마가라" />
+            <Monster Id="14"
+                     String="수호룡 안쟈나프 아종" />
+            <Monster Id="15"
+                     String="수호룡 오도가론 아종" />
+            <Monster Id="16"
+                     String="도샤구마" />
+            <Monster Id="17"
+                     String="수호룡 도샤구마" />
+            <Monster Id="18"
+                     String="발라하라" />
+            <Monster Id="19"
+                     String="차타카브라" />
+            <Monster Id="20"
+                     String="케마트리스" />
+            <Monster Id="21"
+                     String="라바라 바리나" />
+            <Monster Id="22"
+                     String="푸푸로포루" />
+            <Monster Id="23"
+                     String="레 다우" />
+            <Monster Id="24"
+                     String="우드 투나" />
+            <Monster Id="25"
+                     String="누 이그드라" />
+            <Monster Id="26"
+                     String="아자라칸" />
+            <Monster Id="27"
+                     String="알슈베르도" />
+            <Monster Id="28"
+                     String="수호룡 알슈베르도" />
+            <Monster Id="29"
+                     String="히라바미" />
+            <Monster Id="30"
+                     String="진 다하드" />
+            <Monster Id="31"
+                     String="시이우" />
+            <Monster Id="32"
+                     String="조 시아" />
+            <Monster Id="33"
+                     String="고양이 훈련 통 펀처" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
@@ -1135,6 +1311,36 @@
             <Stage Id="506"
                    String="조사 거점의 마이하우스" />
         </World>
+        <Wilds>
+            <Stage Id="0"
+                   String="경계의 모래 평원" />
+            <Stage Id="1"
+                   String="주홍빛 숲" />
+            <Stage Id="2"
+                   String="기름 솟는 계곡" />
+            <Stage Id="3"
+                   String="빙무의 절벽" />
+            <Stage Id="4"
+                   String="용도의 폐허" />
+            <Stage Id="5"
+                   String="강가의 샛길" />
+            <Stage Id="6"
+                   String="바위굴의 갱도" />
+            <Stage Id="7"
+                   String="용도의 폐도" />
+            <Stage Id="8"
+                   String="수호자의 참배길" />
+            <Stage Id="9"
+                   String="용곡의 터" />
+            <Stage Id="10"
+                   String="빙쇄의 동봉" />
+            <Stage Id="11"
+                   String="용등의 사원" />
+            <Stage Id="12"
+                   String="교류의 봉우리 스자" />
+            <Stage Id="13"
+                   String="훈련장" />
+         </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
@@ -3362,7 +3568,7 @@
             <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
                     String="성공적으로 퀘스트를 불러왔습니다!" />
             <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
-                    String="계정에서 사용할 수 있는 기간에 사용 가능한 사냥 기록이 없습니다." />
+                    String="계정에서 사용 가능한 사냥 기록이 없습니다." />
             <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
                     String="몬스터" />
             <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
@@ -3374,7 +3580,7 @@
             <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
                     String="세부 정보" />
             <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
-                    String="버프&amp;디버프" />
+                    String="상태 변화" />
         </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
@@ -3441,8 +3647,6 @@
                      String="전부 선택 해제" />
             <Generic Id="BACK_STRING"
                      String="뒤로" />
-            <Generic Id="GO_TO_STRING"
-                     String="이동하기" />
             <Generic Id="MONSTER_PART_GROUPS_STRING"
                      String="부위 그룹" />
             <Generic Id="MONSTER_PARTS_COUNT_STRING"
@@ -3453,6 +3657,8 @@
                      String="상태 이상" />
             <Generic Id="MONSTER_OVERRIDE_STRING"
                      String="몬스터 규칙 만들기" />
+            <Generic Id="GO_TO_STRING"
+                     String="이동하기" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -3592,8 +3798,8 @@
                      String="기능 플래그"
                      Description="기능 플래그 설정" />
             <Setting Id="ABNORMALITY_TRAY_STRING"
-                     String="효과 트레이"
-                     Description="효과 트레이 설정" />
+                     String="상태 변화 트레이"
+                     Description="상태 변화 트레이 설정" />
             <Setting Id="TELEMETRICS_WIDGET_STRING"
                      String="디버그 위젯"
                      Description="디버그 위젯 설정" />
@@ -3750,6 +3956,12 @@
             <Setting Id="ORIENTATION_STRING"
                      String="방향"
                      Description="위젯의 배치 방향입니다." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
+                     String="컴팩트 모드 활성화"
+                     Description="옵션 활성화 시, 몬스터가 컴팩트 모드로 표시됩니다 (아이콘, 이름과 왕관만 표시). 몬스터를 선택하면 HunterPie는 자동으로 기본 모드로 변경됩니다." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
+                     String="컴팩트 모드 세로 열 갯수"
+                     Description="컴팩트 모드에 사용할 세로 열의 갯수를 조절합니다, 몬스터가 열에 표시 가능한 수보다 많을 경우, 다음 몬스터는 새로운 열에 표시됩니다." />
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다." />
@@ -3790,17 +4002,17 @@
                      String="알 수 없는 몬스터 부위 숨기기"
                      Description="옵션 활성화 시, HunterPie는 알 수 없는 부위를 숨깁니다 (&quot;???&quot;로 표시되는 부위)." />
             <Setting Id="ABNORMALITY_TRAYS_STRING"
-                     String="효과 트레이"
-                     Description="효과 트레이 설정입니다." />
+                     String="상태 변화 트레이"
+                     Description="상태 변화 트레이 설정입니다." />
             <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
-                     String="효과 트레이 이름"
-                     Description="이 효과 트레이의 이름입니다." />
+                     String="상태 변화 트레이 이름"
+                     Description="이 상태 변화 트레이의 이름입니다." />
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="최대 크기"
                      Description="트레이의 최대 크기를 설정합니다." />
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="정렬 방법"
-                     Description="효과를 정렬하는 데 사용할 방법을 선택하세요." />
+                     Description="상태 변화를 정렬하는 데 사용할 방법을 선택하세요." />
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
                      String="게임 내 밧줄벌레 조준 패치"
                      Description="옵션 활성화 시, 게임 내 옵션에서 밧줄벌레 게이지 HUD를 비활성화 했을 때도 조준할 수 있도록 패치합니다." />
@@ -3877,7 +4089,7 @@
                      String="개발자: 모의 대미지 미터 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="개발자: 모의 효과 위젯"
+                     String="개발자: 모의 상태 변화 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
                      String="개발자: 모의 밧줄벌레 위젯"
@@ -3945,7 +4157,7 @@
             <Group Id="CONFIGURATION_GROUP_MISC"
                    String="기타" />
             <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS"
-                   String="효과 트레이" />
+                   String="상태 변화 트레이" />
             <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT"
                    String="대미지 그래프" />
             <Group Id="CONFIGURATION_GROUP_COLORS"
@@ -3992,7 +4204,7 @@
                         String="실행 중..." />
             <CallToAction Id="DISCORD_CALL_TO_ACTION"
                           String="Discord"
-                          Description="질문이나 기술적 문제가 있나요? 우리의 팀과 커뮤니티에서 지원을 받으세요." />
+                          Description="질문이나 기술적 문제가 있나요? 커뮤니티에서 우리의 팀에게 지원을 받으세요." />
             <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
                           String="설명서"
                           Description="HunterPie의 기능과 사용법에 대해 알아보세요." />
