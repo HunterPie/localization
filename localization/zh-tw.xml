@@ -30,8 +30,8 @@
             <Ailment Id="AILMENT_CLAWFLINCH" String="飛翔爪退縮"/>
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退彈"/>
             <Ailment Id="STATUS_ENRAGE" String="憤怒"/>
-			<Ailment Id="AILMENT_STEELFANG"String="鋼鐵牙" />
-            <Ailment Id="AILMENT_CLASH"String="Clash" />
+			<Ailment Id="AILMENT_STEELFANG" String="鋼鐵牙" />
+            <Ailment Id="AILMENT_CLASH" String="Clash" />
         </Rise>
    </Ailments>
     <Abnormalities>
