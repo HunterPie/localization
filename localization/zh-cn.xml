@@ -415,6 +415,12 @@
                   String="鱼龙种" />
             <Type Id="TYPE_CARAPACEON"
                   String="甲壳种" />
+            <Type Id="TYPE_CONSTRUCT"
+                  String="造龙种" />
+            <Type Id="TYPE_DEMI_ELDER"
+                  String="亚龙种" />
+            <Type Id="TYPE_CEPHALOPOD"
+                  String="头足种" />
         </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
@@ -550,6 +556,41 @@
             <Part Id="PART_ANTLERS" String="鹿角"/>
             <Part Id="PART_MANE" String="鬃毛"/>
             <Part Id="PART_QURIO_THRESHOLD" String="啮生虫"/>
+            <Part Id="PART_BELLY" String="腹部" />
+            <Part Id="PART_PETALS" String="花瓣状部位" />
+            <Part Id="PART_MANTLE" String="外套膜" />
+            <Part Id="PART_STINGER" String="毒刺" />
+            <Part Id="PART_R_WINGARM" String="右翼臂" />
+            <Part Id="PART_L_WINGARM" String="左翼臂" />
+            <Part Id="PART_NOSE" String="鼻子" />
+            <Part Id="PART_TAIL_HAIR" String="尾毛" />
+            <Part Id="PART_TONGUE" String="舌头" />
+            <Part Id="PART_R_HEAD_VEIL" String="液膜（头部右侧）" />
+            <Part Id="PART_L_HEAD_VEIL" String="液膜（头部左侧）" />
+            <Part Id="PART_R_TORSO_VEIL" String="液膜（身体右侧）" />
+            <Part Id="PART_L_TORSO_VEIL" String="液膜（身体左侧）" />
+            <Part Id="PART_R_FORELEG_VEIL" String="液膜（右前脚）" />
+            <Part Id="PART_L_FORELEG_VEIL" String="液膜（左前脚）" />
+            <Part Id="PART_R_TAIL_VEIL" String="液膜（尾巴右侧）" />
+            <Part Id="PART_L_TAIL_VEIL" String="液膜（尾巴左侧）" />
+            <Part Id="PART_M_TAIL_VEIL" String="液膜（尾巴中央）" />
+            <Part Id="PART_TENTACLE" String="触手" />
+            <Part Id="PART_MEMBRANE" String="腕间膜" />
+            <Part Id="PART_L_F_ARM" String="第一左触手" />
+            <Part Id="PART_R_F_ARM" String="第一右触手" />
+            <Part Id="PART_M_L_ARM" String="第二左触手" />
+            <Part Id="PART_M_R_ARM" String="第二右触手" />
+            <Part Id="PART_REAR_L_ARM" String="第三左触手" />
+            <Part Id="PART_REAR_R_ARM" String="第三右触手" />
+            <Part Id="PART_MOUTH" String="嘴巴" />
+            <Part Id="PART_L_CHAINBLADE" String="左锁翼刃" />
+            <Part Id="PART_R_CHAINBLADE" String="右锁翼刃" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE" String="冻成壳（腰部）" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN" String="大冻成壳（露出前）" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED" String="大冻成壳（露出后）" />
+            <Part Id="PART_HEAD_CRYSTALIZED" String="头（白缠晶）" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED" String="左翼臂（白缠晶）" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED" String="右翼臂（白缠晶）" />
         </Shared>
         <World>
             <Monster Id="0" String="蛮颚龙"/>
