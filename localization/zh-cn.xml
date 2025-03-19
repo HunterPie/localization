@@ -37,6 +37,8 @@
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退弹" />
             <Ailment Id="STATUS_ENRAGE" String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG" String="钢铁牙" />
+            <!--TODO: 待翻译,我没玩过Rise,不清楚这是什么状态 -->
+            <Ailment Id="AILMENT_CLASH" String="Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -468,6 +470,8 @@
             <Part Id="PART_R_FORELEG" String="右前腿"/>
             <Part Id="PART_L_H_LEG" String="左后腿"/>
             <Part Id="PART_R_H_LEG" String="右后腿"/>
+            <Part Id="PART_L_H_FORELEG" String="左后前肢"/>
+            <Part Id="PART_R_H_FORELEG" String="右后前肢"/>
             <Part Id="PART_ABDOMEN" String="腹部"/>
             <Part Id="PART_CHEST" String="胸部"/>
             <Part Id="PART_TAIL_TIP" String="尾尖"/>
@@ -1291,6 +1295,12 @@
             <Setting Id="ORIENTATION_STRING"
                      String="排列方式"
                      Description="修改当前组件的排列方式。"/>
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE" 
+                     String="启用紧凑模式" 
+                     Description="开启后，怪物将以紧凑模式显示（仅图标、名称和王冠）。一旦锁定怪物，HunterPie 将自动切换到默认模式。" />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT" 
+                     String="紧凑模式列数" 
+                     Description="控制紧凑模式中使用多少列，如果怪物数量多于可用列数，则下一个怪物将显示在新行中。" />
             <!--怪物组件-->
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="只显示当前狩猎目标"
