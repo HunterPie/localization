@@ -884,6 +884,22 @@
             <Stage Id="506"
                    String="月辰小屋" />
         </World>
+        <Wilds>
+            <Stage Id="0" String="天堑沙原" />
+            <Stage Id="1" String="绯红森林" />
+            <Stage Id="2" String="涌油谷" />
+            <Stage Id="3" String="冰雾断崖" />
+            <Stage Id="4" String="龙都遗迹" />
+            <Stage Id="5" String="河畔小径" />
+            <Stage Id="6" String="岩窟坑道" />
+            <Stage Id="7" String="龙都废道" />
+            <Stage Id="8" String="守护者参道" />
+            <Stage Id="9" String="龙谷遗址" />
+            <Stage Id="10" String="冰锁冻峰" />
+            <Stage Id="11" String="龙灯圣庙" />
+            <Stage Id="12" String="交汇之峰酥加" />
+            <Stage Id="13" String="训练场" />
+        </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
