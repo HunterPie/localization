@@ -347,8 +347,8 @@
                      String="猛毒" />
         <Abnormality Id="ABNORMALITY_STUN"
                      String="眩晕" />
+       <!--TODO:这些异常的累积状态与感染状态区分不是很清楚,知道的朋友相应修改下-->
         <Abnormality Id="ABNORMALITY_STUN_BUILDUP"
-        <!--TODO:这些异常的累积状态与感染状态区分不是很清楚,知道的朋友相应修改下-->
                      String="眩晕(累积)" />
         <Abnormality Id="ABNORMALITY_SLEEP"
                      String="睡眠" />
@@ -1247,7 +1247,6 @@
                      Description="双刀组件设置" />
             <Setting Id="SWITCH_AXE_WIDGET_STRING"
                      String="斩斧组件"
-                     Description="斩斧组件设置" />
                      Description="斩斧组件设置" />
             <Setting Id="CLOCK_WIDGET_STRING"
                      String="时钟组件"
