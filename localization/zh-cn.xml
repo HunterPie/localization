@@ -3,11 +3,12 @@
 <!--二次补充翻译by 繁吹雨#6321 -->
 <!--三次补充翻译by JYC#9815 -->
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
+<!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
         <Rise>
-<!--陆天行:我认为这个标签下实为怪物异常状态，作者并没有将世界与崛起的分为两个标签，请勿将其视为崛起特有特性翻译-->
+            <!--陆天行:我认为这个标签下实为怪物异常状态，作者并没有将世界与崛起的分为两个标签，请勿将其视为崛起特有特性翻译-->
             <Ailment Id="AILMENT_UNKNOWN" String="未知"/>
             <Ailment Id="AILMENT_PARALYSIS" String="麻痹"/>
             <Ailment Id="AILMENT_SLEEP" String="睡眠"/>
@@ -17,7 +18,7 @@
             <Ailment Id="AILMENT_EXHAUST" String="虚弱"/>
             <Ailment Id="AILMENT_MOUNT" String="骑乘"/>
             <Ailment Id="AILMENT_RIDE" String="骑乘"/>
-<!--以上两条均为乘骑值显示，其中AILMENT_MOUNT为MHW的骑乘值积累，AILMENT_RIDE为MHR的骑乘值积累-->
+            <!--以上两条均为乘骑值显示，其中AILMENT_MOUNT为MHW的骑乘值积累，AILMENT_RIDE为MHR的骑乘值积累-->
             <Ailment Id="AILMENT_FLASH" String="眩目"/>
             <Ailment Id="AILMENT_WATER" String="水属性异常"/>
             <Ailment Id="AILMENT_FIRE" String="火属性异常"/>
@@ -37,6 +38,8 @@
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退弹" />
             <Ailment Id="STATUS_ENRAGE" String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG" String="钢铁牙" />
+            <!--TODO: 待翻译,我没玩过Rise,不清楚这是什么状态 -->
+            <Ailment Id="AILMENT_CLASH" String="Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -338,42 +341,69 @@
                      String="昏睡前夕" />
         <Abnormality Id="ABNORMALITY_POISON"
                      String="中毒" />
+        <Abnormality Id="ABNORMALITY_POISON_BUILDUP"
+                     String="中毒(累积)" />        
         <Abnormality Id="ABNORMALITY_VENOM"
                      String="猛毒" />
         <Abnormality Id="ABNORMALITY_STUN"
                      String="眩晕" />
+       <!--TODO:这些异常的累积状态与感染状态区分不是很清楚,知道的朋友相应修改下-->
+        <Abnormality Id="ABNORMALITY_STUN_BUILDUP"
+                     String="眩晕(累积)" />
         <Abnormality Id="ABNORMALITY_SLEEP"
                      String="睡眠" />
+        <Abnormality Id="ABNORMALITY_SLEEP_BUILDUP"
+                     String="睡眠(累积)" />
         <Abnormality Id="ABNORMALITY_PARALYSIS"
                      String="麻痹" />
+        <Abnormality Id="ABNORMALITY_PARALYSIS_BUILDUP"
+                     String="麻痹(累积)" />
         <Abnormality Id="ABNORMALITY_DEF_DOWN"
                      String="防御力下降" />
+        <Abnormality Id="ABNORMALITY_DEF_DOWN_BUILDUP"
+                     String="防御力下降(累积)" />
         <Abnormality Id="ABNORMALITY_RES_DOWN"
                      String="全属性耐性值下降" />
         <Abnormality Id="ABNORMALITY_STENCH"
                      String="无法使用部分道具" />
+        <Abnormality Id="ABNORMALITY_STENCH_BUILDUP"
+                     String="无法使用部分道具(感染)" />
         <Abnormality Id="ABNORMALITY_HELLFIRE"
                      String="鬼火异常" />
         <Abnormality Id="ABNORMALITY_BLAST"
                      String="爆炸异常" />
+        <Abnormality Id="ABNORMALITY_BLAST_BUILDUP"
+                     String="爆炸异常 (感染)" />
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE"
                      String="爆炸黏菌" />
         <Abnormality Id="ABNORMALITY_FIRE"
                      String="火属性异常" />
+        <Abnormality Id="ABNORMALITY_FIRE_BUILDUP"
+                     String="火属性异常 (累积)" />
         <Abnormality Id="ABNORMALITY_WATER"
                      String="水属性异常" />
+        <Abnormality Id="ABNORMALITY_WATER_BUILDUP"
+                     String="水属性异常 (累积)" />
         <Abnormality Id="ABNORMALITY_ICE"
                      String="冰属性异常" />
+        <Abnormality Id="ABNORMALITY_ICE_BUILDUP"
+                     String="冰属性异常 (累积)" />
         <Abnormality Id="ABNORMALITY_THUNDER"
                      String="雷属性异常" />
+        <Abnormality Id="ABNORMALITY_THUNDER_BUILDUP"
+                     String="雷属性异常 (累积)" />
         <Abnormality Id="ABNORMALITY_DRAGON"
                      String="龙属性异常" />
+        <Abnormality Id="ABNORMALITY_DRAGON_BUILDUP"
+                     String="龙属性异常 (累积)" />
         <Abnormality Id="ABNORMALITY_BUBBLES"
                      String="泡沫异常【小】" />
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS"
                      String="泡沫异常【大】" />
         <Abnormality Id="ABNORMALITY_BLEED"
                      String="裂伤" />
+        <Abnormality Id="ABNORMALITY_BLEED_BUILDUP"
+                     String="裂伤 (累积)" />
         <Abnormality Id="ABNORMALITY_EFFLUVIA"
                      String="瘴气侵蚀" />
         <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP"
@@ -382,10 +412,16 @@
                      String="狂龙症" />
         <Abnormality Id="ABNORMALITY_WEBBED"
                      String="拘束异常" />
+        <Abnormality Id="ABNORMALITY_WEBBED_BUILDUP"
+                     String="拘束异常 (累积)" />
         <Abnormality Id="ABNORMALITY_LEECHED"
                      String="吸血异常" />
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT"
                      String="天衣无缝" />
+        <Abnormality Id="ABNORMALITY_FROZEN"
+                    String="冻伤" />
+        <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
+                    String="冻伤(累积)" />
     </Abnormalities>
     <Monsters>
         <Types>
@@ -399,6 +435,7 @@
                   String="牙兽种" />
             <Type Id="TYPE_LEVIATHAN"
                   String="海龙种" />
+            <!--TODO:手册没找到具体是水生种还是水栖系,知道的朋友相应修改下-->
             <Type Id="TYPE_AQUATIC"
                   String="Aquatic" />
             <Type Id="TYPE_BIRD_WYVERN"
@@ -415,6 +452,12 @@
                   String="鱼龙种" />
             <Type Id="TYPE_CARAPACEON"
                   String="甲壳种" />
+            <Type Id="TYPE_CONSTRUCT"
+                  String="造龙种" />
+            <Type Id="TYPE_DEMI_ELDER"
+                  String="亚龙种" />
+            <Type Id="TYPE_CEPHALOPOD"
+                  String="头足种" />
         </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
@@ -462,6 +505,8 @@
             <Part Id="PART_R_FORELEG" String="右前腿"/>
             <Part Id="PART_L_H_LEG" String="左后腿"/>
             <Part Id="PART_R_H_LEG" String="右后腿"/>
+            <Part Id="PART_L_H_FORELEG" String="左后前肢"/>
+            <Part Id="PART_R_H_FORELEG" String="右后前肢"/>
             <Part Id="PART_ABDOMEN" String="腹部"/>
             <Part Id="PART_CHEST" String="胸部"/>
             <Part Id="PART_TAIL_TIP" String="尾尖"/>
@@ -550,81 +595,43 @@
             <Part Id="PART_ANTLERS" String="鹿角"/>
             <Part Id="PART_MANE" String="鬃毛"/>
             <Part Id="PART_QURIO_THRESHOLD" String="啮生虫"/>
+            <Part Id="PART_BELLY" String="腹部" />
+            <!--TODO:这里新增了一些部位信息,名词可能不甚准确,知道的朋友可以修改下-->
+            <Part Id="PART_PETALS" String="花瓣状部位" />
+            <Part Id="PART_MANTLE" String="外套膜" />
+            <Part Id="PART_STINGER" String="毒刺" />
+            <Part Id="PART_R_WINGARM" String="右翼臂" />
+            <Part Id="PART_L_WINGARM" String="左翼臂" />
+            <Part Id="PART_NOSE" String="鼻子" />
+            <Part Id="PART_TAIL_HAIR" String="尾毛" />
+            <Part Id="PART_TONGUE" String="舌头" />
+            <Part Id="PART_R_HEAD_VEIL" String="液膜（头部右侧）" />
+            <Part Id="PART_L_HEAD_VEIL" String="液膜（头部左侧）" />
+            <Part Id="PART_R_TORSO_VEIL" String="液膜（身体右侧）" />
+            <Part Id="PART_L_TORSO_VEIL" String="液膜（身体左侧）" />
+            <Part Id="PART_R_FORELEG_VEIL" String="液膜（右前脚）" />
+            <Part Id="PART_L_FORELEG_VEIL" String="液膜（左前脚）" />
+            <Part Id="PART_R_TAIL_VEIL" String="液膜（尾巴右侧）" />
+            <Part Id="PART_L_TAIL_VEIL" String="液膜（尾巴左侧）" />
+            <Part Id="PART_M_TAIL_VEIL" String="液膜（尾巴中央）" />
+            <Part Id="PART_TENTACLE" String="触手" />
+            <Part Id="PART_MEMBRANE" String="腕间膜" />
+            <Part Id="PART_L_F_ARM" String="第一左触手" />
+            <Part Id="PART_R_F_ARM" String="第一右触手" />
+            <Part Id="PART_M_L_ARM" String="第二左触手" />
+            <Part Id="PART_M_R_ARM" String="第二右触手" />
+            <Part Id="PART_REAR_L_ARM" String="第三左触手" />
+            <Part Id="PART_REAR_R_ARM" String="第三右触手" />
+            <Part Id="PART_MOUTH" String="嘴巴" />
+            <Part Id="PART_L_CHAINBLADE" String="左锁翼刃" />
+            <Part Id="PART_R_CHAINBLADE" String="右锁翼刃" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE" String="冻凝壳（腰部）" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN" String="大冻凝壳（露出前）" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED" String="大冻凝壳（露出后）" />
+            <Part Id="PART_HEAD_CRYSTALIZED" String="头（白缠晶）" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED" String="左翼臂（白缠晶）" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED" String="右翼臂（白缠晶）" />
         </Shared>
-        <World>
-            <Monster Id="0" String="蛮颚龙"/>
-            <Monster Id="1" String="火龙"/>
-            <Monster Id="4" String="熔山龙"/>
-            <Monster Id="7" String="大贼龙"/>
-            <Monster Id="9" String="雌火龙"/>
-            <Monster Id="10" String="樱火龙"/>
-            <Monster Id="11" String="苍火龙"/>
-            <Monster Id="12" String="角龙"/>
-            <Monster Id="13" String="黑角龙"/>
-            <Monster Id="14" String="麒麟"/>
-            <Monster Id="15" String="贝希摩斯"/>
-            <Monster Id="16" String="钢龙"/>
-            <Monster Id="17" String="炎妃龙"/>
-            <Monster Id="18" String="炎王龙"/>
-            <Monster Id="19" String="熔岩龙"/>
-            <Monster Id="20" String="恐暴龙"/>
-            <Monster Id="21" String="土砂龙"/>
-            <Monster Id="22" String="爆锤龙"/>
-            <Monster Id="23" String="鹿首精"/>
-            <Monster Id="24" String="毒妖鸟"/>
-            <Monster Id="25" String="灭尽龙"/>
-            <Monster Id="26" String="冥灯龙"/>
-            <Monster Id="27" String="搔鸟"/>
-            <Monster Id="28" String="眩鸟"/>
-            <Monster Id="29" String="泥鱼龙"/>
-            <Monster Id="30" String="飞雷龙"/>
-            <Monster Id="31" String="浮空龙"/>
-            <Monster Id="32" String="风漂龙"/>
-            <Monster Id="33" String="大痹贼龙"/>
-            <Monster Id="34" String="惨爪龙"/>
-            <Monster Id="35" String="骨锤龙"/>
-            <Monster Id="36" String="尸套龙"/>
-            <Monster Id="37" String="岩贼龙"/>
-            <Monster Id="38" String="绚辉龙"/>
-            <Monster Id="39" String="爆鳞龙"/>
-            <Monster Id="51" String="古代鹿首精"/>
-            <Monster Id="61" String="轰龙"/>
-            <Monster Id="62" String="迅龙"/>
-            <Monster Id="63" String="冰牙龙"/>
-            <Monster Id="64" String="惶怒恐暴龙"/>
-            <Monster Id="65" String="碎龙"/>
-            <Monster Id="66" String="斩龙"/>
-            <Monster Id="67" String="硫斩龙"/>
-            <Monster Id="68" String="雷颚龙"/>
-            <Monster Id="69" String="水妖鸟"/>
-            <Monster Id="70" String="歼世灭尽龙"/>
-            <Monster Id="71" String="痹毒龙"/>
-            <Monster Id="72" String="浮眠龙"/>
-            <Monster Id="73" String="霜翼风漂龙"/>
-            <Monster Id="74" String="凶爪龙"/>
-            <Monster Id="75" String="雾瘴尸套龙"/>
-            <Monster Id="76" String="红莲爆鳞龙"/>
-            <Monster Id="77" String="冰鱼龙"/>
-            <Monster Id="78" String="猛牛龙"/>
-            <Monster Id="79" String="冰呪龙"/>
-            <Monster Id="80" String="溟波龙"/>
-            <Monster Id="81" String="天地煌啼龙"/>
-            <Monster Id="87" String="煌黑龙"/>
-            <Monster Id="88" String="金火龙"/>
-            <Monster Id="89" String="银火龙"/>
-            <Monster Id="90" String="黑狼鸟"/>
-            <Monster Id="91" String="金狮子"/>
-            <Monster Id="92" String="激昂金狮子"/>
-            <Monster Id="93" String="黑轰龙"/>
-            <Monster Id="94" String="雷狼龙"/>
-            <Monster Id="95" String="狱狼龙"/>
-            <Monster Id="96" String="猛爆碎龙"/>
-            <Monster Id="97" String="冥赤龙"/>
-            <Monster Id="98" String="木人桩"/>
-            <Monster Id="99" String="战痕黑狼鸟"/>
-            <Monster Id="100" String="霜刃冰牙龙"/>
-            <Monster Id="101" String="黑龙"/>
-        </World>
         <Rise>
             <Monster Id="0" String="雌火龙"/>
             <Monster Id="1" String="霸主·雌火龙"/>
@@ -706,6 +713,112 @@
             <Monster Id="114" String="冰呪龙" />
             <Monster Id="115" String="岚龙" />
         </Rise>
+        <World>
+            <Monster Id="0" String="蛮颚龙"/>
+            <Monster Id="1" String="火龙"/>
+            <Monster Id="4" String="熔山龙"/>
+            <Monster Id="7" String="大贼龙"/>
+            <Monster Id="9" String="雌火龙"/>
+            <Monster Id="10" String="樱火龙"/>
+            <Monster Id="11" String="苍火龙"/>
+            <Monster Id="12" String="角龙"/>
+            <Monster Id="13" String="黑角龙"/>
+            <Monster Id="14" String="麒麟"/>
+            <Monster Id="15" String="贝希摩斯"/>
+            <Monster Id="16" String="钢龙"/>
+            <Monster Id="17" String="炎妃龙"/>
+            <Monster Id="18" String="炎王龙"/>
+            <Monster Id="19" String="熔岩龙"/>
+            <Monster Id="20" String="恐暴龙"/>
+            <Monster Id="21" String="土砂龙"/>
+            <Monster Id="22" String="爆锤龙"/>
+            <Monster Id="23" String="鹿首精"/>
+            <Monster Id="24" String="毒妖鸟"/>
+            <Monster Id="25" String="灭尽龙"/>
+            <Monster Id="26" String="冥灯龙"/>
+            <Monster Id="27" String="搔鸟"/>
+            <Monster Id="28" String="眩鸟"/>
+            <Monster Id="29" String="泥鱼龙"/>
+            <Monster Id="30" String="飞雷龙"/>
+            <Monster Id="31" String="浮空龙"/>
+            <Monster Id="32" String="风漂龙"/>
+            <Monster Id="33" String="大痹贼龙"/>
+            <Monster Id="34" String="惨爪龙"/>
+            <Monster Id="35" String="骨锤龙"/>
+            <Monster Id="36" String="尸套龙"/>
+            <Monster Id="37" String="岩贼龙"/>
+            <Monster Id="38" String="绚辉龙"/>
+            <Monster Id="39" String="爆鳞龙"/>
+            <Monster Id="51" String="古代鹿首精"/>
+            <Monster Id="61" String="轰龙"/>
+            <Monster Id="62" String="迅龙"/>
+            <Monster Id="63" String="冰牙龙"/>
+            <Monster Id="64" String="惶怒恐暴龙"/>
+            <Monster Id="65" String="碎龙"/>
+            <Monster Id="66" String="斩龙"/>
+            <Monster Id="67" String="硫斩龙"/>
+            <Monster Id="68" String="雷颚龙"/>
+            <Monster Id="69" String="水妖鸟"/>
+            <Monster Id="70" String="歼世灭尽龙"/>
+            <Monster Id="71" String="痹毒龙"/>
+            <Monster Id="72" String="浮眠龙"/>
+            <Monster Id="73" String="霜翼风漂龙"/>
+            <Monster Id="74" String="凶爪龙"/>
+            <Monster Id="75" String="雾瘴尸套龙"/>
+            <Monster Id="76" String="红莲爆鳞龙"/>
+            <Monster Id="77" String="冰鱼龙"/>
+            <Monster Id="78" String="猛牛龙"/>
+            <Monster Id="79" String="冰呪龙"/>
+            <Monster Id="80" String="溟波龙"/>
+            <Monster Id="81" String="天地煌啼龙"/>
+            <Monster Id="87" String="煌黑龙"/>
+            <Monster Id="88" String="金火龙"/>
+            <Monster Id="89" String="银火龙"/>
+            <Monster Id="90" String="黑狼鸟"/>
+            <Monster Id="91" String="金狮子"/>
+            <Monster Id="92" String="激昂金狮子"/>
+            <Monster Id="93" String="黑轰龙"/>
+            <Monster Id="94" String="雷狼龙"/>
+            <Monster Id="95" String="狱狼龙"/>
+            <Monster Id="96" String="猛爆碎龙"/>
+            <Monster Id="97" String="冥赤龙"/>
+            <Monster Id="98" String="木人桩"/>
+            <Monster Id="99" String="战痕黑狼鸟"/>
+            <Monster Id="100" String="霜刃冰牙龙"/>
+            <Monster Id="101" String="黑龙"/>
+        </World>
+        <Wilds>
+            <Monster Id="0" String="雌火龙"/>
+            <Monster Id="1" String="火龙"/>
+            <Monster Id="2" String="护火龙"/>
+            <Monster Id="3" String="铠龙"/>
+            <Monster Id="4" String="怪鸟"/>
+            <Monster Id="5" String="毒怪鸟"/>
+            <Monster Id="6" String="桃毛兽王"/>
+            <Monster Id="7" String="雪狮子王"/>
+            <Monster Id="9" String="影蜘蛛"/>
+            <Monster Id="10" String="黑蚀龙"/>
+            <Monster Id="14" String="护雷颚龙" />
+            <Monster Id="15" String="护凶爪龙" />
+            <Monster Id="16" String="辟兽" />
+            <Monster Id="17" String="护辟兽" />
+            <Monster Id="18" String="沙海龙" />
+            <Monster Id="19" String="缠蛙" />
+            <Monster Id="20" String="炎尾龙" />
+            <Monster Id="21" String="刺花蜘蛛" />
+            <Monster Id="22" String="沼喷龙" />
+            <Monster Id="23" String="煌雷龙" />
+            <Monster Id="24" String="波衣龙" />
+            <Monster Id="25" String="狱焰蛸" />
+            <Monster Id="26" String="赫猿兽" />
+            <Monster Id="27" String="锁刃龙" />
+            <Monster Id="28" String="护锁刃龙" />
+            <Monster Id="29" String="风铗龙" />
+            <Monster Id="30" String="冻峰龙" />
+            <Monster Id="31" String="暗器蛸" />
+            <Monster Id="32" String="白炽龙" />
+            <Monster Id="33" String="猫式训练用拳击木桶靶" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
@@ -807,6 +920,22 @@
             <Stage Id="506"
                    String="月辰小屋" />
         </World>
+        <Wilds>
+            <Stage Id="0" String="天堑沙原" />
+            <Stage Id="1" String="绯红森林" />
+            <Stage Id="2" String="涌油谷" />
+            <Stage Id="3" String="冰雾断崖" />
+            <Stage Id="4" String="龙都遗迹" />
+            <Stage Id="5" String="河畔小径" />
+            <Stage Id="6" String="岩窟坑道" />
+            <Stage Id="7" String="龙都废道" />
+            <Stage Id="8" String="守护者参道" />
+            <Stage Id="9" String="龙谷遗址" />
+            <Stage Id="10" String="冰锁冻峰" />
+            <Stage Id="11" String="龙灯圣庙" />
+            <Stage Id="12" String="交汇之峰酥加" />
+            <Stage Id="13" String="训练场" />
+        </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
@@ -881,6 +1010,8 @@
                     String="任务" />
         </Overlay>
         <Tabs>
+            <Tab Id="HOME_STRING"
+                 String="主页" />
             <Tab Id="CONSOLE_STRING"
                  String="控制台"/>
             <Tab Id="DISCORD_STRING"
@@ -920,7 +1051,19 @@
             <Generic Id="UNSELECT_ALL_STRING"
                      String="反选全部"/>
             <Generic Id="BACK_STRING"
-                     String="返回"/>                
+                     String="返回"/>         
+            <Generic Id="MONSTER_PART_GROUPS_STRING"
+                     String="部位分组" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING"
+                     String="部位数量" />
+            <Generic Id="MONSTER_PARTS_STRING"
+                     String="部位" />
+            <Generic Id="MONSTER_AILMENTS_STRING"
+                     String="异常状态" />
+            <Generic Id="MONSTER_OVERRIDE_STRING"
+                     String="创建怪物规则" />
+            <Generic Id="GO_TO_STRING"
+                     String="前往" />
         </Generics>
         <Dialogs>
             <!-- 不要编辑 {} 内的内容 -->
@@ -1066,6 +1209,9 @@
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="状态组件"
                      Description="状态组件设置"/>	
+            <Setting Id="TELEMETRICS_WIDGET_STRING"
+                     String="调试组件"
+                     Description="调试组件配置" />
             <Setting Id="PLAYER_HUD_WIDGET_STRING"
                      String="玩家组件"
                      Description="玩家组件设置"/>
@@ -1102,6 +1248,9 @@
             <Setting Id="SWITCH_AXE_WIDGET_STRING"
                      String="斩斧组件"
                      Description="斩斧组件设置" />
+            <Setting Id="CLOCK_WIDGET_STRING"
+                     String="时钟组件"
+                     Description="时钟组件配置" />
             <Setting Id="ACCOUNT_STRING"
                      String="账户"
                      Description="账户设置" />
@@ -1131,6 +1280,9 @@
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="显示自动更新确认"
                      Description="开启后，HunterPie每次自动更新都会征求同意。"/>
+            <Setting Id="MONSTER_GLOBAL_SETTINGS_STRING"
+                     String="全局设置"
+                     Description="对所有怪物全局应用设置。" />
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="支持者密钥"
                      Description="输入支持者密钥来获取Beta更新资格。"/>					 
@@ -1218,6 +1370,12 @@
             <Setting Id="ORIENTATION_STRING"
                      String="排列方式"
                      Description="修改当前组件的排列方式。"/>
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE" 
+                     String="启用紧凑模式" 
+                     Description="开启后，怪物将以紧凑模式显示（仅显示图标、名称和王冠）。当锁定目标怪物时，HunterPie 将自动切换到默认模式。" />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT" 
+                     String="紧凑模式列数" 
+                     Description="控制紧凑模式中使用多少列，如果怪物数量多于可用列数，则下一个怪物将显示在新行中。" />
             <!--怪物组件-->
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="只显示当前狩猎目标"
@@ -1304,6 +1462,12 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="显示DPS图表"
                      Description="开启后，将显示DPS图表。"/>
+            <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
+                     String="折线平滑度"
+                     Description="控制折线的平滑程度。" />
+            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING"
+                     String="折线粗细"
+                     Description="控制折线的粗细。" />
             <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
                      String="DPS计时方式"
                      Description="决定DPS开始计时的时间。&#xA;-从接取任务开始将使用任务计时器&#xA;-从参加任务开始将使用玩家加入小队的时间为起始点&#xA;-从第一次伤害开始将使用玩家第一次命中怪物为起始点。"/>
@@ -1332,47 +1496,62 @@
                      String="显示牙猎犬的伤害"
                      Description="开启后，伤害统计中将会显示牙猎犬的伤害。" />
             <!---->
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS"
+                     String="显示每秒伤害（DPS）"
+                     Description="启用后，HunterPie 将显示每个玩家的每秒伤害（DPS）。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
+                     String="显示总伤害"
+                     Description="启用后，HunterPie 将显示每个玩家的总伤害。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Developer: Mock Monster widget"
+                     String="开发者选项：模拟怪物小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Developer: Mock Damage Meter widget"
+                     String="开发者选项：模拟伤害统计小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Developer: Mock Abnormalities widget"
+                     String="开发者选项：模拟状态异常小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Developer: Mock Wirebug widget"
+                     String="开发者选项：模拟翔虫小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Developer: Mock Activities widget"
+                     String="开发者选项：模拟据点活动小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Developer: Mock Chat widget"
+                     String="开发者选项：模拟聊天小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
-                     String="Developer: Mock Player Hud widget"
+                     String="开发者选项：模拟玩家界面小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
-                     String="Developer: Mock Insect Glaive widget"
+                     String="开发者选项：模拟操虫棍小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
-                     String="Developer: Mock Charge Blade widget"
+                     String="开发者选项：模拟盾斧小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
-                     String="Developer: Mock Dual Blades widget"
+                     String="开发者选项：模拟双刀小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="Developer: Mock Specialized Tool widget"
+                     String="开发者选项：模拟特殊装备小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+            <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
+                     String="开发者选项：模拟斩斧小部件"
+                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+            <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
+                     String="开发者选项：模拟太刀小部件"
+                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+            <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
+                     String="开发者选项：模拟时钟小部件"
+                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Developer: Poogie API Host"
+                     String="开发者选项: Poogie API Host"
                      Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
             <Setting Id="DEV_LOG_LEVEL"
-                     String="Developer: Log level"
+                     String="开发者选项: 日志等级"
                      Description="显示在控制台上的Log的最低等级。" />
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="Developer: UI rendering tracer level"
+                     String="开发者选项: UI渲染追踪等级"
                      Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
             <!-- 账号 -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
@@ -1425,6 +1604,30 @@
                    String="渲染" />
             <Group Id="CONFIGURATION_GROUP_SCANNING"
                    String="扫描" />
+            <Group Id="CONFIGURATION_GROUP_CLIENT"
+                   String="客户端" />
+            <Group Id="CONFIGURATION_GROUP_OVERLAY"
+                   String="覆盖层" />
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT"
+                   String="账户" />
+            <Group Id="CONFIGURATION_GROUP_FLAGS"
+                   String="功能标志" />
         </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND"
+                        String="游戏未找到" />
+            <GameStatus Id="WAITING"
+                        String="等待游戏启动..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="已有其他游戏实例在运行" />
+            <GameStatus Id="RUNNING"
+                        String="游戏运行中..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="有任何问题或技术疑问？从我们的团队和社区获得帮助。" />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="文档"
+                          Description="了解更多关于HunterPie的功能及其使用方法。" />
+        </Home>
     </Client>
 </Strings>
