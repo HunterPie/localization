@@ -475,6 +475,14 @@
                      String="Ambush" />
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED"
+                     String="Tempered" />
+            <Variant Id="ARCH_TEMPERED"
+                     String="Arch-Tempered" />
+            <Variant Id="FRENZIED"
+                     String="Frenzied" />
+        </Variants>
         <Types>
             <Type Id="TYPE_AERIAL"
                   String="Aerial" />
