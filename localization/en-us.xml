@@ -441,6 +441,38 @@
                      String="Frozen" />
         <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
                      String="Frozen (Buildup)" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
+                     String="Echo Bubble Evasion &amp; Movement Speed Up" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN"
+                     String="Echo Bubble Health Regeneration" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN"
+                     String="Echo Bubble Stamina Regeneration" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY"
+                     String="Echo Bubble Attack &amp; Affinity Up" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES"
+                     String="Echo Bubble Defense &amp; Elemental Res Up" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG"
+                     String="Echo Bubble Ailments/Blights Negated" />
+        <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT"
+                     String="Jin Dahaad's Revolt" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION"
+                     String="Elemental Absorption" />
+        <Abnormality Id="ABNORMALITY_CONVERT_ELEMENT"
+                     String="Convert Element" />
+        <Abnormality Id="ABNORMALITY_DOSHAGUMA_MIGHT"
+                     String="Doshaguma's Might" />
+        <Abnormality Id="ABNORMALITY_XUWU_VIGOR"
+                     String="Xu Wu's Vigor" />
+        <Abnormality Id="ABNORMALITY_BURST"
+                     String="Burst" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PROTECTION"
+                     String="Guardian's Protection" />
+        <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT"
+                     String="Buttery Leathercraft" />
+        <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER"
+                     String="Uth Duna's Cover" />
+        <Abnormality Id="ABNORMALITY_AMBUSH"
+                     String="Ambush" />
     </Abnormalities>
     <Monsters>
         <Types>
