@@ -441,8 +441,48 @@
                      String="동결 피해" />
         <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
                      String="동결 피해 (축적)" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
+                     String="소리 구슬 회피 성능&amp;이동 속도 UP" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN"
+                     String="소리 구슬 체력 지속 회복" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN"
+                     String="소리 구슬 스태미나 지속 회복" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY"
+                     String="소리 구슬 공격력 &amp; 회심률 UP" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES"
+                     String="소리 구슬 방어력 &amp; 모든 속성 내성 UP" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG"
+                     String="소리 구슬 상태 이상 회복&amp;무효" />
+        <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT"
+                     String="동봉룡의 반역" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION"
+                     String="속성 흡수" />
+        <Abnormality Id="ABNORMALITY_CONVERT_ELEMENT"
+                     String="속성 변환" />
+        <Abnormality Id="ABNORMALITY_DOSHAGUMA_MIGHT"
+                     String="벽수의 힘" />
+        <Abnormality Id="ABNORMALITY_XUWU_VIGOR"
+                     String="암기소의 힘" />
+        <Abnormality Id="ABNORMALITY_BURST"
+                     String="연격" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PROTECTION"
+                     String="수호룡의 방어" />
+        <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT"
+                     String="가죽세공의 광택성" />
+        <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER"
+                     String="파의룡의 수호" />
+        <Abnormality Id="ABNORMALITY_AMBUSH"
+                     String="급습" />
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED"
+                     String="역전의 개체" />
+            <Variant Id="ARCH_TEMPERED"
+                     String="역전왕" />
+            <Variant Id="FRENZIED"
+                     String="광룡화" />
+         </Variants>
         <Types>
             <Type Id="TYPE_AERIAL"
                   String="공서계" />
@@ -747,7 +787,7 @@
             <Part Id="PART_QURIO_THRESHOLD"
                   String="괴이흉화 해제" />
             <Part Id="PART_BELLY"
-                   String="복부" />
+                  String="복부" />
             <Part Id="PART_PETALS"
                   String="꽃잎 부분" />
             <Part Id="PART_MANTLE"
