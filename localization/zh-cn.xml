@@ -424,17 +424,17 @@
                     String="冻伤(累积)" />
             <!--TODO:没玩过笛子不清楚完整的意思是什么,知道的朋友相应修改下-->
         <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
-                     String="Echo Bubble Evasion &amp; Movement Speed Up" />
+                     String="响玉 回避性能 &amp; 移动速度提升" />
         <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN"
-                     String="Echo Bubble Health Regeneration" />
+                     String="响玉 体力持续回复" />
         <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN"
-                     String="Echo Bubble Stamina Regeneration" />
+                     String="响玉 耐力持续回复" />
         <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY"
-                     String="Echo Bubble Attack &amp; Affinity Up" />
+                     String="响玉 攻击力 &amp; 会心率提升" />
         <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES"
-                     String="Echo Bubble Defense &amp; Elemental Res Up" />
+                     String="响玉 防御力 &amp; 属性抗性提升" />
         <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG"
-                     String="Echo Bubble Ailments/Blights Negated" />
+                     String="响玉 状态异常/属性异常无效" />
         <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT"
                      String="冻峰龙之反叛" />
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION"
