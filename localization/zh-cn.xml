@@ -422,8 +422,49 @@
                     String="冻伤" />
         <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
                     String="冻伤(累积)" />
+            <!--TODO:没玩过笛子不清楚完整的意思是什么,知道的朋友相应修改下-->
+        <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
+                     String="响玉 回避性能 &amp; 移动速度提升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN"
+                     String="响玉 体力持续回复" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN"
+                     String="响玉 耐力持续回复" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY"
+                     String="响玉 攻击力 &amp; 会心率提升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES"
+                     String="响玉 防御力 &amp; 属性抗性提升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG"
+                     String="响玉 状态异常/属性异常无效" />
+        <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT"
+                     String="冻峰龙之反叛" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION"
+                     String="属性吸收" />
+        <Abnormality Id="ABNORMALITY_CONVERT_ELEMENT"
+                     String="属性变换" />
+        <Abnormality Id="ABNORMALITY_DOSHAGUMA_MIGHT"
+                     String="辟兽之力" />
+        <Abnormality Id="ABNORMALITY_XUWU_VIGOR"
+                     String="暗器蛸之力" />
+        <Abnormality Id="ABNORMALITY_BURST"
+                     String="连击" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PROTECTION"
+                     String="护龙之守护" />
+        <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT"
+                     String="皮革制品之顺滑" />
+        <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER"
+                     String="波衣龙之守护" />
+        <Abnormality Id="ABNORMALITY_AMBUSH"
+                     String="急袭" />
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED"
+                     String="历战" />
+            <Variant Id="ARCH_TEMPERED"
+                     String="历战王" />
+            <Variant Id="FRENZIED"
+                     String="狂龙化" />
+        </Variants>
         <Types>
             <Type Id="TYPE_AERIAL"
                   String="空栖系" />
