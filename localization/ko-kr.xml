@@ -59,7 +59,7 @@
             <Ailment Id="AILMENT_STEELFANG"
                      String="강철아" />
             <Ailment Id="AILMENT_CLASH"
-                     String="상쇄" />
+                     String="힘 겨루기" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -126,7 +126,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L"
                      String="용속성 방어 강화 (대)" />
         <Abnormality Id="ABNORMALITY_ALL_RES_UP"
-                     String="모든 속성 내성치 UP" />
+                     String="모든 속성 내성 UP" />
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE"
                      String="풍압 무효" />
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS"
@@ -152,9 +152,9 @@
         <Abnormality Id="ABNORMALITY_HEALTH_REGEN"
                      String="체력 지속 회복" />
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED"
-                     String="스태미나 소비 경감" />
+                     String="스태미나 절약" />
         <Abnormality Id="ABNORMALITY_STAMINA_USE_RED_L"
-                     String="스태미나 소비 경감 (대)" />
+                     String="스태미나 절약 (대)" />
         <Abnormality Id="ABNORMALITY_STAMINA_REC_UP"
                      String="스태미나 회복 속도 UP" />
         <Abnormality Id="ABNORMALITY_SHARPNESS_RED"
@@ -166,11 +166,11 @@
         <Abnormality Id="ABNORMALITY_ENV_NEG"
                      String="지형 대미지 무효" />
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER"
-                     String="날려 버리기 무효/소리 방벽" />
+                     String="소리 방벽" />
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY"
                      String="기염의 선율" />
         <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP"
-                     String="자기 강화 [속]&amp;회피 성능 UP" />
+                     String="회피 성능&amp;이동 속도 UP" />
         <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK"
                      String="속성계 효과 UP" />
         <Abnormality Id="ABNORMALITY_RESUSCITATE"
@@ -204,7 +204,7 @@
         <Abnormality Id="ABNORMALITY_CLOTHFLY"
                      String="하얀천나비" />
         <Abnormality Id="ABNORMALITY_DASH_JUICE"
-                     String="스태미나 소비 경감" />
+                     String="강주약" />
         <Abnormality Id="ABNORMALITY_DEMON_POWDER"
                      String="귀인의 가루" />
         <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER"
@@ -248,7 +248,7 @@
         <Abnormality Id="ABNORMALITY_ICE_RES"
                      String="얼음속성 방어 강화 (대)" />
         <Abnormality Id="ABNORMALITY_FOOD_TIMER"
-                     String="식사 불가" />
+                     String="식사 효과" />
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG"
                      String="변환밧줄벌레-홍" />
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG"
@@ -384,7 +384,7 @@
         <Abnormality Id="ABNORMALITY_RES_DOWN"
                      String="모든 내성 DOWN" />
         <Abnormality Id="ABNORMALITY_STENCH"
-                     String="일부 아이템 사용 불가" />
+                     String="악취" />
         <Abnormality Id="ABNORMALITY_STENCH_BUILDUP"
                      String="악취 (축적)" />
         <Abnormality Id="ABNORMALITY_HELLFIRE"
@@ -448,11 +448,11 @@
         <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN"
                      String="소리 구슬 스태미나 지속 회복" />
         <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY"
-                     String="소리 구슬 공격력 &amp; 회심률 UP" />
+                     String="소리 구슬 공격력&amp;회심률 UP" />
         <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES"
-                     String="소리 구슬 방어력 &amp; 모든 속성 내성 UP" />
+                     String="소리 구슬 방어력&amp;모든 속성 내성 UP" />
         <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG"
-                     String="소리 구슬 상태 이상 회복&amp;무효" />
+                     String="소리 구슬 모든 상태 이상 무효" />
         <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT"
                      String="동봉룡의 반역" />
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION"
@@ -473,11 +473,15 @@
                      String="파의룡의 수호" />
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="급습" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER"
+                     String="버섯피리: 힘의 음색" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
+                     String="버섯피리: 방어의 음색" />
     </Abnormalities>
     <Monsters>
         <Variants>
             <Variant Id="TEMPERED"
-                     String="역전의 개체" />
+                     String="역전의" />
             <Variant Id="ARCH_TEMPERED"
                      String="역전왕" />
             <Variant Id="FRENZIED"
