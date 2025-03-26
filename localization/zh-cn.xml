@@ -455,6 +455,10 @@
                      String="波衣龙之守护" />
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="急袭" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER"
+                     String="蘑菇笛: 力量之音" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
+                     String="蘑菇笛: 保护之音" />
     </Abnormalities>
     <Monsters>
         <Variants>
