@@ -473,6 +473,10 @@
                      String="Uth Duna's Cover" />
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="Ambush" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER"
+                     String="Sporenet: Song o&apos; Power" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
+                     String="Sporenet: Song o&apos; Purrtection" />
     </Abnormalities>
     <Monsters>
         <Variants>
