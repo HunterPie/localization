@@ -4,6 +4,7 @@
 <!--三次补充翻译by JYC#9815 -->
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
+<!--Miyauchi Renge#1248跟进us版更新，更新时间：2025/3/26-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -38,8 +39,8 @@
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退弹" />
             <Ailment Id="STATUS_ENRAGE" String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG" String="钢铁牙" />
-            <!--TODO: 待翻译,我没玩过Rise,不清楚这是什么状态 -->
-            <Ailment Id="AILMENT_CLASH" String="Clash" />
+            <!--TODO: 根据us原文更新记录该句为荒野更新后出现，因此判定为荒野的角力，若崛起真有该中文翻译麻烦请修改 -->
+            <Ailment Id="AILMENT_CLASH" String="角力" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -422,7 +423,7 @@
                     String="冻伤" />
         <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
                     String="冻伤(累积)" />
-            <!--TODO:没玩过笛子不清楚完整的意思是什么,知道的朋友相应修改下-->
+        <!--TODO:没玩过笛子不清楚这个翻译是否正确,知道的朋友麻烦修改下-->
         <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
                      String="响玉 回避性能 &amp; 移动速度提升" />
         <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN"
