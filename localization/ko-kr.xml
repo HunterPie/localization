@@ -475,8 +475,12 @@
                      String="급습" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER"
                      String="버섯피리: 힘의 음색" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER_L"
+                     String="버섯피리: 힘의 음색 (대)" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
                      String="버섯피리: 방어의 음색" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
+                     String="버섯피리: 방어의 음색 (대)" />
     </Abnormalities>
     <Monsters>
         <Variants>
