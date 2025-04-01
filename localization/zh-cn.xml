@@ -556,8 +556,9 @@
             <Part Id="PART_R_FORELEG" String="右前腿"/>
             <Part Id="PART_L_H_LEG" String="左后腿"/>
             <Part Id="PART_R_H_LEG" String="右后腿"/>
-            <Part Id="PART_L_H_FORELEG" String="左后前肢"/>
-            <Part Id="PART_R_H_FORELEG" String="右后前肢"/>
+            <!--TODO:下面两个词条应该是指的荒野里面的蜘蛛的腿-->
+            <Part Id="PART_L_H_FORELEG" String="左后侧前肢"/>
+            <Part Id="PART_R_H_FORELEG" String="右后侧前肢"/>
             <Part Id="PART_ABDOMEN" String="腹部"/>
             <Part Id="PART_CHEST" String="胸部"/>
             <Part Id="PART_TAIL_TIP" String="尾尖"/>
