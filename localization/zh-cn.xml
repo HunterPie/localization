@@ -348,7 +348,7 @@
                      String="猛毒" />
         <Abnormality Id="ABNORMALITY_STUN"
                      String="眩晕" />
-       <!--TODO:这些异常的累积状态与感染状态区分不是很清楚,知道的朋友相应修改下-->
+       <!--TODO:根据wiki和游戏ui表现判断应该都为累积，在累积满后转换为异常状态-->
         <Abnormality Id="ABNORMALITY_STUN_BUILDUP"
                      String="眩晕(累积)" />
         <Abnormality Id="ABNORMALITY_SLEEP"
@@ -368,13 +368,13 @@
         <Abnormality Id="ABNORMALITY_STENCH"
                      String="无法使用部分道具" />
         <Abnormality Id="ABNORMALITY_STENCH_BUILDUP"
-                     String="无法使用部分道具(感染)" />
+                     String="无法使用部分道具(累积)" />
         <Abnormality Id="ABNORMALITY_HELLFIRE"
                      String="鬼火异常" />
         <Abnormality Id="ABNORMALITY_BLAST"
                      String="爆炸异常" />
         <Abnormality Id="ABNORMALITY_BLAST_BUILDUP"
-                     String="爆炸异常 (感染)" />
+                     String="爆炸异常 (累积)" />
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE"
                      String="爆炸黏菌" />
         <Abnormality Id="ABNORMALITY_FIRE"
@@ -1101,7 +1101,7 @@
             <Generic Id="UNSELECT_ALL_STRING"
                      String="反选全部"/>
             <Generic Id="BACK_STRING"
-                     String="返回"/>         
+                     String="返回"/>
             <Generic Id="MONSTER_PART_GROUPS_STRING"
                      String="部位分组" />
             <Generic Id="MONSTER_PARTS_COUNT_STRING"
