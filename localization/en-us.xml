@@ -475,8 +475,12 @@
                      String="Ambush" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER"
                      String="Sporenet: Song o&apos; Power" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER_L"
+                     String="Sporenet: Song o&apos; Power (L)" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
                      String="Sporenet: Song o&apos; Purrtection" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
+                     String="Sporenet: Song o&apos; Purrtection (L)" />
     </Abnormalities>
     <Monsters>
         <Variants>
