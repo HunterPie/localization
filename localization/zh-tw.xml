@@ -191,7 +191,7 @@
         <Abnormality Id="ABNORMALITY_SLEEP" String="睡眠" />
         <Abnormality Id="ABNORMALITY_SLEEP_BUILDUP" String="睡眠 (累積)" />
         <Abnormality Id="ABNORMALITY_PARALYSIS" String="麻痺" />
-        <Abnormality Id="ABNORMALITY_PARALYSIS_BUILDUP" String="麻痺(累積)" />	
+        <Abnormality Id="ABNORMALITY_PARALYSIS_BUILDUP" String="麻痺 (累積)" />	
 	<Abnormality Id="ABNORMALITY_DEF_DOWN" String="防禦力DOWN"/>
 	<Abnormality Id="ABNORMALITY_DEF_DOWN_BUILDUP" String="防禦力DOWN【累積】" />
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="全屬性耐性DOWN"/>
@@ -199,27 +199,27 @@
 	<Abnormality Id="ABNORMALITY_STENCH_BUILDUP" String="無法使用部分道具（感染）" />
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="鬼火異常"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="爆破異常"/>
-	<Abnormality Id="ABNORMALITY_BLAST_BUILDUP" String="爆破異常（感染）" />
+	<Abnormality Id="ABNORMALITY_BLAST_BUILDUP" String="爆破異常 (累積)" />
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="強爆破異常狀態"/>
         <Abnormality Id="ABNORMALITY_FIRE" String="火屬性異常"/>
-	<Abnormality Id="ABNORMALITY_FIRE_BUILDUP" String="火屬性異常（感染）" />
+	<Abnormality Id="ABNORMALITY_FIRE_BUILDUP" String="火屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_WATER" String="水屬性異常"/>
-	<Abnormality Id="ABNORMALITY_WATER_BUILDUP" String="水屬性異常（感染）" />
+	<Abnormality Id="ABNORMALITY_WATER_BUILDUP" String="水屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_ICE" String="冰屬性異常"/>
-	<Abnormality Id="ABNORMALITY_ICE_BUILDUP" String="冰屬性異常（感染）" />
+	<Abnormality Id="ABNORMALITY_ICE_BUILDUP" String="冰屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_THUNDER" String="雷屬性異常"/>
-	<Abnormality Id="ABNORMALITY_THUNDER_BUILDUP" String="雷屬性異常（感染）" />
+	<Abnormality Id="ABNORMALITY_THUNDER_BUILDUP" String="雷屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_DRAGON" String="龍屬性異常"/>
-	<Abnormality Id="ABNORMALITY_DRAGON_BUILDUP" String="龍屬性異常（感染）" />
+	<Abnormality Id="ABNORMALITY_DRAGON_BUILDUP" String="龍屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_BUBBLES" String="泡沫狀態【小】"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="泡沫狀態【大】"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="裂傷狀態"/>
-	<Abnormality Id="ABNORMALITY_BLEED_BUILDUP" String="裂傷狀態（感染）" />
+	<Abnormality Id="ABNORMALITY_BLEED_BUILDUP" String="裂傷狀態 (累積)" />
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="瘴氣侵蝕狀態"/>	
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂龍症（感染）"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂龍症 (累積)"/>
         <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍症"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="被網纏住"/>
-	<Abnormality Id="ABNORMALITY_WEBBED_BUILDUP" String="被網纏住 (感染)" />
+	<Abnormality Id="ABNORMALITY_WEBBED_BUILDUP" String="被網纏住 (累積)" />
         <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> 
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="天衣無縫" />
 	<Abnormality Id="ABNORMALITY_FROZEN" String="凍結" />
@@ -240,6 +240,10 @@
         <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT" String="皮革製品的滑順質感" />
         <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER" String="波衣龍之守護" />
         <Abnormality Id="ABNORMALITY_AMBUSH" String="突襲" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER" String="蘑菇笛——力量之音" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER_L" String="蘑菇笛——力量之音 (大)" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION" String="蘑菇笛——守護之音" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L" String="蘑菇笛——守護之音 (大)" />
 	</Abnormalities>
     <Monsters>
 	<Variants>
@@ -3005,13 +3009,13 @@
 	<Dialogs>
             <!-- Do not edit the text inside {} -->
             <Dialog Id="UPDATE_TITLE_STRING"
-                    String="Update" />
+                    String="更新" />
             <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
-                    String="Version v{Latest} is now available.&#xA;Do you want to update now?" />
+                    String="Version v{Latest} 版本可用&#xA;是否更新" />
             <Dialog Id="CONFIRMATION_TITLE_STRING"
-                    String="Confirmation" />
+                    String="注意" />
             <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
-                    String="Are you sure you want to delete {Item}?" />
+                    String="你確定要刪除{Item}嗎?" />
             <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
                     String="您確定要關閉HunterPie?" />
             <Button Id="ACCEPT_STRING"
