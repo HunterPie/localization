@@ -474,13 +474,13 @@
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="Ambush" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER"
-                     String="Sporenet: Song o&apos; Power" />
+                     String="Sporenet: Song o' Power" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER_L"
-                     String="Sporenet: Song o&apos; Power (L)" />
+                     String="Sporenet: Song o' Power (L)" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION"
-                     String="Sporenet: Song o&apos; Purrtection" />
+                     String="Sporenet: Song o' Purrtection" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
-                     String="Sporenet: Song o&apos; Purrtection (L)" />
+                     String="Sporenet: Song o' Purrtection (L)" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -1192,6 +1192,8 @@
                      String="Nerscylla" />
             <Monster Id="10"
                      String="Gore Magala" />
+            <Monster Id="13"
+                     String="Mizutsune" />
             <Monster Id="14"
                      String="Guardian Fulgur Anjanath" />
             <Monster Id="15"
