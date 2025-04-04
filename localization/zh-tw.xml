@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Update time: UTC+8 2025-03-25 22:00:00 enus#131-->
+<!-- Update time: UTC+8 2025-04-05 01:00:00 enus#143-->
 <Strings lang="Traditional Chinese">
     <Ailments>
         <Rise>
@@ -607,6 +607,7 @@
             <Monster Id="7" String="雪獅子王" />
             <Monster Id="9" String="影蜘蛛" />
             <Monster Id="10" String="黑蝕龍" />
+	    <Monster Id="13" String="泡狐龍" />
             <Monster Id="14" String="護雷顎龍" />
             <Monster Id="15" String="護兇爪龍" />
             <Monster Id="16" String="闢獸" />
