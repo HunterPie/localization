@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.588-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.597-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -541,7 +541,7 @@
             <Part Id="PART_R_LEGS" String="右腿"/>
             <Part Id="PART_BODY" String="身体"/>
             <Part Id="PART_UPPER_BODY" String="上半身"/>
-            <Part Id="PART_REAR" String="后部"/>
+            <Part Id="PART_REAR" String="臀部"/>
             <Part Id="PART_LOWER_BODY" String="下半身"/>
             <Part Id="PART_UPPER_BACK" String="上背部"/>
             <Part Id="PART_LOWER_BACK" String="下背部"/>
@@ -552,13 +552,14 @@
             <Part Id="PART_CLAW" String="爪子"/>
             <Part Id="PART_R_CLAW" String="右爪"/>
             <Part Id="PART_L_CLAW" String="左爪"/>
-            <Part Id="PART_L_FORELEG" String="左前腿"/>
-            <Part Id="PART_R_FORELEG" String="右前腿"/>
+            <!--下面两个词条应该是左/右前肢和左/右前腿，但是没有分开-->
+            <Part Id="PART_L_FORELEG" String="左前肢"/>
+            <Part Id="PART_R_FORELEG" String="右前肢"/>
             <Part Id="PART_L_H_LEG" String="左后腿"/>
             <Part Id="PART_R_H_LEG" String="右后腿"/>
-            <!--TODO:下面两个词条应该是指的荒野里面的蜘蛛的腿-->
-            <Part Id="PART_L_H_FORELEG" String="左后侧前肢"/>
-            <Part Id="PART_R_H_FORELEG" String="右后侧前肢"/>
+           <!--荒野当中为后肢，大型怪物图鉴当中有后腿和后肢的区别-->
+            <Part Id="PART_L_H_FORELEG" String="左后肢"/>
+            <Part Id="PART_R_H_FORELEG" String="右后肢"/>
             <Part Id="PART_ABDOMEN" String="腹部"/>
             <Part Id="PART_CHEST" String="胸部"/>
             <Part Id="PART_TAIL_TIP" String="尾尖"/>
@@ -648,10 +649,10 @@
             <Part Id="PART_MANE" String="鬃毛"/>
             <Part Id="PART_QURIO_THRESHOLD" String="啮生虫"/>
             <Part Id="PART_BELLY" String="腹部" />
-            <!--TODO:这里新增了一些部位信息,名词可能不甚准确,知道的朋友可以修改下-->
             <Part Id="PART_PETALS" String="花瓣状部位" />
             <Part Id="PART_MANTLE" String="外套膜" />
             <Part Id="PART_STINGER" String="毒刺" />
+            <!--TODO:下面两个词条应该是左/右翼足或左/右翼臂，或者包含了两种意思（因为翼足满足了黑蚀龙的词条，但是白炽龙又有词条重复）-->
             <Part Id="PART_R_WINGARM" String="右翼臂" />
             <Part Id="PART_L_WINGARM" String="左翼臂" />
             <Part Id="PART_NOSE" String="鼻子" />
@@ -850,6 +851,7 @@
             <Monster Id="7" String="雪狮子王"/>
             <Monster Id="9" String="影蜘蛛"/>
             <Monster Id="10" String="黑蚀龙"/>
+            <Monster Id="13" String="泡狐龙" />
             <Monster Id="14" String="护雷颚龙" />
             <Monster Id="15" String="护凶爪龙" />
             <Monster Id="16" String="辟兽" />
