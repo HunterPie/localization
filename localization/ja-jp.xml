@@ -445,6 +445,14 @@
                      String="凍結やられ (蓄積)" />
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED"
+                     String="歴戦" />
+            <Variant Id="ARCH_TEMPERED"
+                     String="歴戦王" />
+            <Variant Id="FRENZIED"
+                     String="狂竜化" />
+        </Variants>
         <Types>
             <Type Id="TYPE_AERIAL"
                   String="空棲系" />
@@ -1142,6 +1150,8 @@
                      String="ネルスキュラ" />
             <Monster Id="10"
                      String="ゴア・マガラ" />
+            <Monster Id="13"
+                     String="タマミツネ" />
             <Monster Id="14"
                      String="護竜アンジャナフ亜種" />
             <Monster Id="15"
