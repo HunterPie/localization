@@ -1388,7 +1388,7 @@
                    String="Dragontorch Shrine" />
             <Stage Id="12"
                    String="Suja, Peaks of Accord" />
-            <Stage Id="13"
+            <Stage Id="15"
                    String="Training Area" />
         </Wilds>
     </Stages>
