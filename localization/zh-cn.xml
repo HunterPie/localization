@@ -988,7 +988,7 @@
             <Stage Id="10" String="冰锁冻峰" />
             <Stage Id="11" String="龙灯圣庙" />
             <Stage Id="12" String="交汇之峰酥加" />
-            <Stage Id="13" String="训练场" />
+            <Stage Id="15" String="训练场" />
         </Wilds>
     </Stages>
     <Fertilizers>

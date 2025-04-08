@@ -1346,7 +1346,7 @@
                    String="龍灯の社" />
             <Stage Id="12"
                    String="交わりの峰スージャ" />
-            <Stage Id="13"
+            <Stage Id="15"
                    String="トレーニングエリア" />
         </Wilds>
     </Stages>
