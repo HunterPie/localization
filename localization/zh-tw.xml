@@ -709,6 +709,7 @@
             <Stage Id="10" String="冰鎖凍峰" />
             <Stage Id="11" String="龍燈聖廟" />
             <Stage Id="12" String="交匯之峰蘇加" />
+	    <Stage Id="14" String="大集會所" />
             <Stage Id="15" String="訓練場" />
         </Wilds>		
     </Stages>
