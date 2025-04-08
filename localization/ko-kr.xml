@@ -1388,7 +1388,7 @@
                    String="용등의 사원" />
             <Stage Id="12"
                    String="교류의 봉우리 스자" />
-            <Stage Id="13"
+            <Stage Id="15"
                    String="훈련장" />
          </Wilds>
     </Stages>
