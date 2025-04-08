@@ -5,43 +5,72 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.597-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.711-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
         <Rise>
             <!--陆天行:我认为这个标签下实为怪物异常状态，作者并没有将世界与崛起的分为两个标签，请勿将其视为崛起特有特性翻译-->
-            <Ailment Id="AILMENT_UNKNOWN" String="未知"/>
-            <Ailment Id="AILMENT_PARALYSIS" String="麻痹"/>
-            <Ailment Id="AILMENT_SLEEP" String="睡眠"/>
-            <Ailment Id="AILMENT_STUN" String="眩晕"/>
-            <Ailment Id="AILMENT_POISON" String="中毒"/>
-            <Ailment Id="AILMENT_BLAST" String="爆破"/>
-            <Ailment Id="AILMENT_EXHAUST" String="虚弱"/>
-            <Ailment Id="AILMENT_MOUNT" String="骑乘"/>
-            <Ailment Id="AILMENT_RIDE" String="骑乘"/>
+            <Ailment Id="AILMENT_UNKNOWN"
+                     String="未知"/>
+            <Ailment Id="AILMENT_PARALYSIS"
+                     String="麻痹"/>
+            <Ailment Id="AILMENT_SLEEP"
+                     String="睡眠"/>
+            <Ailment Id="AILMENT_STUN"
+                     String="眩晕"/>
+            <Ailment Id="AILMENT_POISON"
+                     String="中毒"/>
+            <Ailment Id="AILMENT_BLAST"
+                     String="爆破"/>
+            <Ailment Id="AILMENT_EXHAUST"
+                     String="虚弱"/>
+            <Ailment Id="AILMENT_MOUNT"
+                     String="骑乘"/>
+            <Ailment Id="AILMENT_RIDE"
+                     String="骑乘"/>
             <!--以上两条均为乘骑值显示，其中AILMENT_MOUNT为MHW的骑乘值积累，AILMENT_RIDE为MHR的骑乘值积累-->
-            <Ailment Id="AILMENT_FLASH" String="眩目"/>
-            <Ailment Id="AILMENT_WATER" String="水属性异常"/>
-            <Ailment Id="AILMENT_FIRE" String="火属性异常"/>
-            <Ailment Id="AILMENT_ICE" String="冰属性异常"/>
-            <Ailment Id="AILMENT_THUNDER" String="雷属性异常"/>
-            <Ailment Id="AILMENT_DUNG" String="异臭弹"/>
-            <Ailment Id="AILMENT_TRANQUILIZE" String="捕获用麻醉"/>
-            <Ailment Id="AILMENT_KNOCKDOWN" String="击倒"/>
-            <Ailment Id="AILMENT_SHOCKTRAP" String="麻痹陷阱"/>
-            <Ailment Id="AILMENT_PITFALLTRAP" String="落穴陷阱"/>
-            <Ailment Id="AILMENT_VINETRAP" String="藤蔓陷阱" />
-            <Ailment Id="AILMENT_ELDERSEAL" String="龙封力" />
-            <Ailment Id="AILMENT_SMOKING" String="烟雾"/>
-            <Ailment Id="AILMENT_FELYNETRAP" String="地雷虫笼" />
-            <Ailment Id="AILMENT_CLAW" String="飞翔爪激怒" />
-            <Ailment Id="AILMENT_CLAWFLINCH" String="垂涎胆怯" />
-            <Ailment Id="AILMENT_BANISHINGBALL" String="撤退弹" />
-            <Ailment Id="STATUS_ENRAGE" String="激怒"/>
-            <Ailment Id="AILMENT_STEELFANG" String="钢铁牙" />
+            <Ailment Id="AILMENT_FLASH"
+                     String="眩目"/>
+            <Ailment Id="AILMENT_WATER"
+                     String="水属性异常"/>
+            <Ailment Id="AILMENT_FIRE"
+                     String="火属性异常"/>
+            <Ailment Id="AILMENT_ICE"
+                     String="冰属性异常"/>
+            <Ailment Id="AILMENT_THUNDER"
+                     String="雷属性异常"/>
+            <Ailment Id="AILMENT_DUNG"
+                     String="异臭弹"/>
+            <Ailment Id="AILMENT_TRANQUILIZE"
+                     String="捕获用麻醉"/>
+            <Ailment Id="AILMENT_KNOCKDOWN"
+                     String="击倒"/>
+            <Ailment Id="AILMENT_SHOCKTRAP"
+                     String="麻痹陷阱"/>
+            <Ailment Id="AILMENT_PITFALLTRAP"
+                     String="落穴陷阱"/>
+            <Ailment Id="AILMENT_VINETRAP"
+                     String="藤蔓陷阱" />
+            <Ailment Id="AILMENT_ELDERSEAL"
+                     String="龙封力" />
+            <Ailment Id="AILMENT_SMOKING"
+                     String="烟雾"/>
+            <Ailment Id="AILMENT_FELYNETRAP"
+                     String="地雷虫笼" />
+            <Ailment Id="AILMENT_CLAW"
+                     String="飞翔爪激怒" />
+            <Ailment Id="AILMENT_CLAWFLINCH"
+                     String="垂涎胆怯" />
+            <Ailment Id="AILMENT_BANISHINGBALL"
+                     String="撤退弹" />
+            <Ailment Id="STATUS_ENRAGE"
+                     String="激怒"/>
+            <Ailment Id="AILMENT_STEELFANG"
+                     String="钢铁牙" />
             <!--TODO: 根据us原文更新记录该句为荒野更新后出现，因此判定为荒野的角力，若崛起真有该中文翻译麻烦请修改 -->
-            <Ailment Id="AILMENT_CLASH" String="角力" />
+            <Ailment Id="AILMENT_CLASH"
+                     String="角力" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -511,396 +540,772 @@
                   String="头足种" />
         </Types>
         <Shared>
-            <Part Id="PART_UNKNOWN" String="???"/>
-            <Part Id="PART_TO_BE_MAPPED" String="未知部位"/>
-            <Part Id="PART_HEAD" String="头部"/>
-            <Part Id="PART_TORSO" String="躯干"/>
-            <Part Id="PART_L_WING" String="左翼"/>
-            <Part Id="PART_R_WING" String="右翼"/>
-            <Part Id="PART_L_LEG" String="左腿"/>
-            <Part Id="PART_R_LEG" String="右腿"/>
-            <Part Id="PART_TAIL" String="尾巴"/>
-            <Part Id="PART_NECK" String="颈部"/>
-            <Part Id="PART_L_ARM" String="左臂"/>
-            <Part Id="PART_R_ARM" String="右臂"/>
-            <Part Id="PART_BACK" String="背部"/>
-            <Part Id="PART_WINGS" String="翼"/>
-            <Part Id="PART_FORELEGS" String="前腿"/>
-            <Part Id="PART_H_LEGS" String="后腿"/>
-            <Part Id="PART_L_CUTWING" String="左刃翼"/>
-            <Part Id="PART_R_CUTWING" String="右刃翼"/>
-            <Part Id="PART_ARMS" String="手臂"/>
-            <Part Id="PART_HEAD_MUD" String="头部(泥土)"/>
-            <Part Id="PART_TORSO_MUD" String="躯干(泥土)"/>
-            <Part Id="PART_ARMS_MUD" String="手臂(泥土)"/>
-            <Part Id="PART_L_LEG_MUD" String="左腿(泥土)"/>
-            <Part Id="PART_R_LEG_MUD" String="右腿(泥土)"/>
-            <Part Id="PART_TAIL_MUD" String="尾巴(泥土)"/>
-            <Part Id="PART_SPONGE" String="海绵质"/>
-            <Part Id="PART_L_LEGS" String="左腿"/>
-            <Part Id="PART_R_LEGS" String="右腿"/>
-            <Part Id="PART_BODY" String="身体"/>
-            <Part Id="PART_UPPER_BODY" String="上半身"/>
-            <Part Id="PART_REAR" String="臀部"/>
-            <Part Id="PART_LOWER_BODY" String="下半身"/>
-            <Part Id="PART_UPPER_BACK" String="上背部"/>
-            <Part Id="PART_LOWER_BACK" String="下背部"/>
-            <Part Id="PART_ROLLING" String="滚动"/>
-            <Part Id="PART_DORSAL_FIN" String="背鳍"/>
-            <Part Id="PART_LEGS" String="腿"/>
-            <Part Id="PART_SHELL" String="壳"/>
-            <Part Id="PART_CLAW" String="爪子"/>
-            <Part Id="PART_R_CLAW" String="右爪"/>
-            <Part Id="PART_L_CLAW" String="左爪"/>
+            <Part Id="PART_UNKNOWN"
+                     String="???" />
+            <Part Id="PART_TO_BE_MAPPED"
+                     String="未知部位"/>
+            <Part Id="PART_HEAD"
+                     String="头部"/>
+            <Part Id="PART_TORSO"
+                     String="躯干"/>
+            <Part Id="PART_L_WING"
+                     String="左翼"/>
+            <Part Id="PART_R_WING"
+                     String="右翼"/>
+            <Part Id="PART_L_LEG"
+                     String="左腿"/>
+            <Part Id="PART_R_LEG"
+                     String="右腿"/>
+            <Part Id="PART_TAIL"
+                     String="尾巴"/>
+            <Part Id="PART_NECK"
+                     String="颈部"/>
+            <Part Id="PART_L_ARM"
+                     String="左臂"/>
+            <Part Id="PART_R_ARM"
+                     String="右臂"/>
+            <Part Id="PART_BACK"
+                     String="背部"/>
+            <Part Id="PART_WINGS"
+                     String="翼"/>
+            <Part Id="PART_FORELEGS"
+                     String="前腿"/>
+            <Part Id="PART_H_LEGS"
+                     String="后腿"/>
+            <Part Id="PART_L_CUTWING"
+                     String="左刃翼"/>
+            <Part Id="PART_R_CUTWING"
+                     String="右刃翼"/>
+            <Part Id="PART_ARMS"
+                     String="手臂"/>
+            <Part Id="PART_HEAD_MUD"
+                     String="头部(泥土)"/>
+            <Part Id="PART_TORSO_MUD"
+                     String="躯干(泥土)"/>
+            <Part Id="PART_ARMS_MUD"
+                     String="手臂(泥土)"/>
+            <Part Id="PART_L_LEG_MUD"
+                     String="左腿(泥土)"/>
+            <Part Id="PART_R_LEG_MUD"
+                     String="右腿(泥土)"/>
+            <Part Id="PART_TAIL_MUD"
+                     String="尾巴(泥土)"/>
+            <Part Id="PART_SPONGE"
+                     String="海绵质"/>
+            <Part Id="PART_L_LEGS"
+                     String="左腿"/>
+            <Part Id="PART_R_LEGS"
+                     String="右腿"/>
+            <Part Id="PART_BODY"
+                     String="身体"/>
+            <Part Id="PART_UPPER_BODY"
+                     String="上半身"/>
+            <Part Id="PART_REAR"
+                     String="臀部"/>
+            <Part Id="PART_LOWER_BODY"
+                     String="下半身"/>
+            <Part Id="PART_UPPER_BACK"
+                     String="上背部"/>
+            <Part Id="PART_LOWER_BACK"
+                     String="下背部"/>
+            <Part Id="PART_ROLLING"
+                     String="滚动"/>
+            <Part Id="PART_DORSAL_FIN"
+                     String="背鳍"/>
+            <Part Id="PART_LEGS"
+                     String="腿"/>
+            <Part Id="PART_SHELL"
+                     String="壳"/>
+            <Part Id="PART_CLAW"
+                     String="爪子"/>
+            <Part Id="PART_R_CLAW"
+                     String="右爪"/>
+            <Part Id="PART_L_CLAW"
+                     String="左爪"/>
             <!--下面两个词条应该是左/右前肢和左/右前腿，但是没有分开-->
-            <Part Id="PART_L_FORELEG" String="左前肢"/>
-            <Part Id="PART_R_FORELEG" String="右前肢"/>
-            <Part Id="PART_L_H_LEG" String="左后腿"/>
-            <Part Id="PART_R_H_LEG" String="右后腿"/>
+            <Part Id="PART_L_FORELEG"
+                     String="左前肢"/>
+            <Part Id="PART_R_FORELEG"
+                     String="右前肢"/>
+            <Part Id="PART_L_H_LEG"
+                     String="左后腿"/>
+            <Part Id="PART_R_H_LEG"
+                     String="右后腿"/>
            <!--荒野当中为后肢，大型怪物图鉴当中有后腿和后肢的区别-->
-            <Part Id="PART_L_H_FORELEG" String="左后肢"/>
-            <Part Id="PART_R_H_FORELEG" String="右后肢"/>
-            <Part Id="PART_ABDOMEN" String="腹部"/>
-            <Part Id="PART_CHEST" String="胸部"/>
-            <Part Id="PART_TAIL_TIP" String="尾尖"/>
-            <Part Id="PART_MUD_BALL" String="泥土球"/>
-            <Part Id="PART_LOWER_TORSO" String="下躯干"/>
-            <Part Id="PART_TAIL_WINDSAC" String="尾部风袋"/>
-            <Part Id="PART_CHEST_WINDSAC" String="胸部风袋"/>
-            <Part Id="PART_BACK_WINDSAC" String="背部风袋"/>
-            <Part Id="PART_L_ARM_ICE" String="左臂(冰)"/>
-            <Part Id="PART_R_ARM_ICE" String="右臂(冰)"/>
-            <Part Id="PART_B_LEG_FINS" String="后腿鱼鳍"/>
-            <Part Id="PART_THUNDERBALLS" String="雷电球"/>
-            <Part Id="PART_ROCK" String="石头"/>
-            <Part Id="PART_POT" String="茶釜"/>
-            <Part Id="PART_WING_CLAW" String="翼爪"/>
-            <Part Id="PART_FORELEG" String="前肢"/>
-            <Part Id="PART_H_LEG" String="后肢"/>
-            <Part Id="PART_ANTENNA" String="触角"/>
-            <Part Id="PART_CREST" String="羽冠"/>
-            <Part Id="PART_THROAT" String="喉部"/>
-            <Part Id="PART_BIG_FLINCH" String="大退缩"/>
+            <Part Id="PART_L_H_FORELEG"
+                     String="左后肢"/>
+            <Part Id="PART_R_H_FORELEG"
+                     String="右后肢"/>
+            <Part Id="PART_ABDOMEN"
+                     String="腹部"/>
+            <Part Id="PART_CHEST"
+                     String="胸部"/>
+            <Part Id="PART_TAIL_TIP"
+                     String="尾尖"/>
+            <Part Id="PART_MUD_BALL"
+                     String="泥土球"/>
+            <Part Id="PART_LOWER_TORSO"
+                     String="下躯干"/>
+            <Part Id="PART_TAIL_WINDSAC"
+                     String="尾部风袋"/>
+            <Part Id="PART_CHEST_WINDSAC"
+                     String="胸部风袋"/>
+            <Part Id="PART_BACK_WINDSAC"
+                     String="背部风袋"/>
+            <Part Id="PART_L_ARM_ICE"
+                     String="左臂(冰)"/>
+            <Part Id="PART_R_ARM_ICE"
+                     String="右臂(冰)"/>
+            <Part Id="PART_B_LEG_FINS"
+                     String="后腿鱼鳍"/>
+            <Part Id="PART_THUNDERBALLS"
+                     String="雷电球"/>
+            <Part Id="PART_ROCK"
+                     String="石头"/>
+            <Part Id="PART_POT"
+                     String="茶釜"/>
+            <Part Id="PART_WING_CLAW"
+                     String="翼爪"/>
+            <Part Id="PART_FORELEG"
+                     String="前肢"/>
+            <Part Id="PART_H_LEG"
+                     String="后肢"/>
+            <Part Id="PART_ANTENNA"
+                     String="触角"/>
+            <Part Id="PART_CREST"
+                     String="羽冠"/>
+            <Part Id="PART_THROAT"
+                     String="喉部"/>
+            <Part Id="PART_BIG_FLINCH"
+                     String="大退缩"/>
             <!--PART_HORN为麒麟角，其余为怪物的角，角 #2出现于MHW的两只金狮子与绚辉龙-->
-            <Part Id="PART_HORNS" String="角"/>
-            <Part Id="PART_HORN" String="角"/>
-            <Part Id="PART_KNOCKDOWN" String="击倒"/>
-            <Part Id="PART_HORNS_2" String="角 #2"/>
-            <Part Id="PART_RAGE" String="斗气硬化失效"/>
-            <Part Id="PART_L_LIMBS" String="左肢"/>
-            <Part Id="PART_R_LIMBS" String="右肢"/>
-            <Part Id="PART_LIMBS" String="四肢"/>
-            <Part Id="PART_COUNTERATTACK" String="反击"/>
-            <Part Id="PART_JAW" String="颚"/>
-            <Part Id="PART_EXPLOSION_WEAKENING" String="力量抑制"/>
-            <Part Id="PART_CHARGE" String="充电失效"/>
-            <Part Id="PART_FIN" String="鳍"/>
-            <Part Id="PART_INFLATED_TAIL" String="充气尾巴"/>
-            <Part Id="PART_SILVER_SPIKES_HEAD" String="银尖刺（头）"/>
-            <Part Id="PART_SILVER_SPIKES_L_ARM" String="银尖刺（左臂）"/>
-            <Part Id="PART_SILVER_SPIKES_R_ARM" String="银尖刺（右臂）"/>
-            <Part Id="PART_SILVER_SPIKES_L_WING" String="银尖刺 (左翼)"/>
-            <Part Id="PART_SILVER_SPIKES_R_WING" String="银尖刺 (右翼)"/>
-            <Part Id="PART_EXHAUST_ORGAN_CENTRAL" String="排气管（中）"/>
-            <Part Id="PART_EXHAUST_ORGAN_HEAD" String="排气管（头）"/>
-            <Part Id="PART_EXHAUST_ORGAN_CRATER" String="排气管 (坑)"/>
-            <Part Id="PART_EXHAUST_ORGAN_REAR" String="排气管（后）"/>
-            <Part Id="PART_REPEL" String="击退"/>
-            <Part Id="PART_WEAK_L_SHELL" String="左弱壳"/>
-            <Part Id="PART_WEAK_R_SHELL" String="右弱壳"/>
-            <Part Id="PART_BALLOON" String="气囊"/>
-            <Part Id="PART_SKY_FALL" String="坠落"/>
-            <Part Id="PART_L_BONE" String="左骨"/>
-            <Part Id="PART_R_BONE" String="右骨"/>
-            <Part Id="PART_EMISSIONS" String="排气"/>
-            <Part Id="PART_HORNS_GOLD" String="金角"/>
-            <Part Id="PART_MANE_GOLD" String="金鬃毛"/>
-            <Part Id="PART_L_CHEST_GOLD" String="黄金左胸"/>
-            <Part Id="PART_R_CHEST_GOLD" String="黄金右胸"/>
-            <Part Id="PART_L_ARM_GOLD" String="黄金左臂"/>
-            <Part Id="PART_R_ARM_GOLD" String="黄金右臂"/>
-            <Part Id="PART_L_LEG_GOLD" String="黄金左腿"/>
-            <Part Id="PART_R_LEG_GOLD" String="黄金右腿"/>
-            <Part Id="PART_L_TAIL_GOLD" String="黄金尾巴（左）"/>
-            <Part Id="PART_R_TAIL_GOLD" String="黄金尾巴（右）"/>
-            <Part Id="PART_GLOWING_HEAD" String="发光头"/>
-            <Part Id="PART_GLOWING_TAIL" String="发光尾巴"/>
-            <Part Id="PART_EMERGE_SNOW_HEAD" String="出雪（头）"/>
-            <Part Id="PART_EMERGE_SNOW_BODY" String="出雪（身体）"/>
-            <Part Id="PART_EMERGE_SNOW_TAIL" String="出雪（尾巴）"/>
-            <Part Id="PART_HEAD_SNOW" String="头部（雪）"/>
-            <Part Id="PART_BODY_SNOW" String="身体（雪）"/>
-            <Part Id="PART_TAIL_SNOW" String="尾巴（雪）"/>
-            <Part Id="PART_HEAD_ICE" String="头部（冰）"/>
-            <Part Id="PART_BODY_ICE" String="身体（冰）"/>
-            <Part Id="PART_WINGS_ICE" String="翼（冰）"/>
-            <Part Id="PART_ARMS_ICE" String="手臂（冰）"/>
-            <Part Id="PART_HEAD_ROCK" String="头部（岩石）"/>
-            <Part Id="PART_CHEST_ROCK" String="胸部（岩石）"/>
-            <Part Id="PART_L_NECK_ROCK" String="左颈（岩石）"/>
-            <Part Id="PART_R_NECK_ROCK" String="右颈（岩石）"/>
-            <Part Id="PART_TAIL_ROCK" String="尾巴（岩石）"/>
-            <Part Id="PART_L_WING_ROCK" String="左翼（岩石）"/>
-            <Part Id="PART_R_WING_ROCK" String="右翼（岩石）"/>
-            <Part Id="PART_L_ARM_ROCK" String="左臂（岩石）"/>
-            <Part Id="PART_R_ARM_ROCK" String="右臂（岩石）"/>
-            <Part Id="PART_BODY_LEGS" String="身体和腿"/>
-            <Part Id="PART_ANTLERS" String="鹿角"/>
-            <Part Id="PART_MANE" String="鬃毛"/>
-            <Part Id="PART_QURIO_THRESHOLD" String="啮生虫"/>
-            <Part Id="PART_BELLY" String="腹部" />
-            <Part Id="PART_PETALS" String="花瓣状部位" />
-            <Part Id="PART_MANTLE" String="外套膜" />
-            <Part Id="PART_STINGER" String="毒刺" />
+            <Part Id="PART_HORNS"
+                     String="角"/>
+            <Part Id="PART_HORN"
+                     String="角"/>
+            <Part Id="PART_KNOCKDOWN"
+                     String="击倒"/>
+            <Part Id="PART_HORNS_2"
+                     String="角 #2" />
+            <Part Id="PART_RAGE"
+                     String="斗气硬化失效"/>
+            <Part Id="PART_L_LIMBS"
+                     String="左肢"/>
+            <Part Id="PART_R_LIMBS"
+                     String="右肢"/>
+            <Part Id="PART_LIMBS"
+                     String="四肢"/>
+            <Part Id="PART_COUNTERATTACK"
+                     String="反击"/>
+            <Part Id="PART_JAW"
+                     String="颚"/>
+            <Part Id="PART_EXPLOSION_WEAKENING"
+                     String="力量抑制"/>
+            <Part Id="PART_CHARGE"
+                     String="充电失效"/>
+            <Part Id="PART_FIN"
+                     String="鳍"/>
+            <Part Id="PART_INFLATED_TAIL"
+                     String="充气尾巴"/>
+            <Part Id="PART_SILVER_SPIKES_HEAD"
+                     String="银尖刺（头）"/>
+            <Part Id="PART_SILVER_SPIKES_L_ARM"
+                     String="银尖刺（左臂）"/>
+            <Part Id="PART_SILVER_SPIKES_R_ARM"
+                     String="银尖刺（右臂）"/>
+            <Part Id="PART_SILVER_SPIKES_L_WING"
+                     String="银尖刺 (左翼)"/>
+            <Part Id="PART_SILVER_SPIKES_R_WING"
+                     String="银尖刺 (右翼)"/>
+            <Part Id="PART_EXHAUST_ORGAN_CENTRAL"
+                     String="排气管（中）"/>
+            <Part Id="PART_EXHAUST_ORGAN_HEAD"
+                     String="排气管（头）"/>
+            <Part Id="PART_EXHAUST_ORGAN_CRATER"
+                     String="排气管 (坑)"/>
+            <Part Id="PART_EXHAUST_ORGAN_REAR"
+                     String="排气管（后）"/>
+            <Part Id="PART_REPEL"
+                     String="击退"/>
+            <Part Id="PART_WEAK_L_SHELL"
+                     String="左弱壳"/>
+            <Part Id="PART_WEAK_R_SHELL"
+                     String="右弱壳"/>
+            <Part Id="PART_BALLOON"
+                     String="气囊"/>
+            <Part Id="PART_SKY_FALL"
+                     String="坠落"/>
+            <Part Id="PART_L_BONE"
+                     String="左骨"/>
+            <Part Id="PART_R_BONE"
+                     String="右骨"/>
+            <Part Id="PART_EMISSIONS"
+                     String="排气"/>
+            <Part Id="PART_HORNS_GOLD"
+                     String="金角"/>
+            <Part Id="PART_MANE_GOLD"
+                     String="金鬃毛"/>
+            <Part Id="PART_L_CHEST_GOLD"
+                     String="黄金左胸"/>
+            <Part Id="PART_R_CHEST_GOLD"
+                     String="黄金右胸"/>
+            <Part Id="PART_L_ARM_GOLD"
+                     String="黄金左臂"/>
+            <Part Id="PART_R_ARM_GOLD"
+                     String="黄金右臂"/>
+            <Part Id="PART_L_LEG_GOLD"
+                     String="黄金左腿"/>
+            <Part Id="PART_R_LEG_GOLD"
+                     String="黄金右腿"/>
+            <Part Id="PART_L_TAIL_GOLD"
+                     String="黄金尾巴（左）"/>
+            <Part Id="PART_R_TAIL_GOLD"
+                     String="黄金尾巴（右）"/>
+            <Part Id="PART_GLOWING_HEAD"
+                     String="发光头"/>
+            <Part Id="PART_GLOWING_TAIL"
+                     String="发光尾巴"/>
+            <Part Id="PART_EMERGE_SNOW_HEAD"
+                     String="出雪（头）"/>
+            <Part Id="PART_EMERGE_SNOW_BODY"
+                     String="出雪（身体）"/>
+            <Part Id="PART_EMERGE_SNOW_TAIL"
+                     String="出雪（尾巴）"/>
+            <Part Id="PART_HEAD_SNOW"
+                     String="头部（雪）"/>
+            <Part Id="PART_BODY_SNOW"
+                     String="身体（雪）"/>
+            <Part Id="PART_TAIL_SNOW"
+                     String="尾巴（雪）"/>
+            <Part Id="PART_HEAD_ICE"
+                     String="头部（冰）"/>
+            <Part Id="PART_BODY_ICE"
+                     String="身体（冰）"/>
+            <Part Id="PART_WINGS_ICE"
+                     String="翼（冰）"/>
+            <Part Id="PART_ARMS_ICE"
+                     String="手臂（冰）"/>
+            <Part Id="PART_HEAD_ROCK"
+                     String="头部（岩石）"/>
+            <Part Id="PART_CHEST_ROCK"
+                     String="胸部（岩石）"/>
+            <Part Id="PART_L_NECK_ROCK"
+                     String="左颈（岩石）"/>
+            <Part Id="PART_R_NECK_ROCK"
+                     String="右颈（岩石）"/>
+            <Part Id="PART_TAIL_ROCK"
+                     String="尾巴（岩石）"/>
+            <Part Id="PART_L_WING_ROCK"
+                     String="左翼（岩石）"/>
+            <Part Id="PART_R_WING_ROCK"
+                     String="右翼（岩石）"/>
+            <Part Id="PART_L_ARM_ROCK"
+                     String="左臂（岩石）"/>
+            <Part Id="PART_R_ARM_ROCK"
+                     String="右臂（岩石）"/>
+            <Part Id="PART_BODY_LEGS"
+                     String="身体和腿"/>
+            <Part Id="PART_ANTLERS"
+                     String="鹿角"/>
+            <Part Id="PART_MANE"
+                     String="鬃毛"/>
+            <Part Id="PART_QURIO_THRESHOLD"
+                     String="啮生虫"/>
+            <Part Id="PART_BELLY"
+                     String="腹部" />
+            <Part Id="PART_PETALS"
+                     String="花瓣状部位" />
+            <Part Id="PART_MANTLE"
+                     String="外套膜" />
+            <Part Id="PART_STINGER"
+                     String="毒刺" />
             <!--TODO:下面两个词条应该是左/右翼足或左/右翼臂，或者包含了两种意思（因为翼足满足了黑蚀龙的词条，但是白炽龙又有词条重复）-->
-            <Part Id="PART_R_WINGARM" String="右翼臂" />
-            <Part Id="PART_L_WINGARM" String="左翼臂" />
-            <Part Id="PART_NOSE" String="鼻子" />
-            <Part Id="PART_TAIL_HAIR" String="尾毛" />
-            <Part Id="PART_TONGUE" String="舌头" />
-            <Part Id="PART_R_HEAD_VEIL" String="液膜（头部右侧）" />
-            <Part Id="PART_L_HEAD_VEIL" String="液膜（头部左侧）" />
-            <Part Id="PART_R_TORSO_VEIL" String="液膜（身体右侧）" />
-            <Part Id="PART_L_TORSO_VEIL" String="液膜（身体左侧）" />
-            <Part Id="PART_R_FORELEG_VEIL" String="液膜（右前脚）" />
-            <Part Id="PART_L_FORELEG_VEIL" String="液膜（左前脚）" />
-            <Part Id="PART_R_TAIL_VEIL" String="液膜（尾巴右侧）" />
-            <Part Id="PART_L_TAIL_VEIL" String="液膜（尾巴左侧）" />
-            <Part Id="PART_M_TAIL_VEIL" String="液膜（尾巴中央）" />
-            <Part Id="PART_TENTACLE" String="触手" />
-            <Part Id="PART_MEMBRANE" String="腕间膜" />
-            <Part Id="PART_L_F_ARM" String="第一左触手" />
-            <Part Id="PART_R_F_ARM" String="第一右触手" />
-            <Part Id="PART_M_L_ARM" String="第二左触手" />
-            <Part Id="PART_M_R_ARM" String="第二右触手" />
-            <Part Id="PART_REAR_L_ARM" String="第三左触手" />
-            <Part Id="PART_REAR_R_ARM" String="第三右触手" />
-            <Part Id="PART_MOUTH" String="嘴巴" />
-            <Part Id="PART_L_CHAINBLADE" String="左锁翼刃" />
-            <Part Id="PART_R_CHAINBLADE" String="右锁翼刃" />
-            <Part Id="PART_ABDOMINAL_ICEPLATE" String="冻凝壳（腰部）" />
-            <Part Id="PART_LG_ICEPLATE_HIDDEN" String="大冻凝壳（露出前）" />
-            <Part Id="PART_LG_ICEPLATE_EXPOSED" String="大冻凝壳（露出后）" />
-            <Part Id="PART_HEAD_CRYSTALIZED" String="头（白缠晶）" />
-            <Part Id="PART_L_WINGARM_CRYSTALIZED" String="左翼臂（白缠晶）" />
-            <Part Id="PART_R_WINGARM_CRYSTALIZED" String="右翼臂（白缠晶）" />
+            <Part Id="PART_R_WINGARM"
+                     String="右翼臂" />
+            <Part Id="PART_L_WINGARM"
+                     String="左翼臂" />
+            <Part Id="PART_NOSE"
+                     String="鼻子" />
+            <Part Id="PART_TAIL_HAIR"
+                     String="尾毛" />
+            <Part Id="PART_TONGUE"
+                     String="舌头" />
+            <Part Id="PART_R_HEAD_VEIL"
+                     String="液膜（头部右侧）" />
+            <Part Id="PART_L_HEAD_VEIL"
+                     String="液膜（头部左侧）" />
+            <Part Id="PART_R_TORSO_VEIL"
+                     String="液膜（身体右侧）" />
+            <Part Id="PART_L_TORSO_VEIL"
+                     String="液膜（身体左侧）" />
+            <Part Id="PART_R_FORELEG_VEIL"
+                     String="液膜（右前脚）" />
+            <Part Id="PART_L_FORELEG_VEIL"
+                     String="液膜（左前脚）" />
+            <Part Id="PART_R_TAIL_VEIL"
+                     String="液膜（尾巴右侧）" />
+            <Part Id="PART_L_TAIL_VEIL"
+                     String="液膜（尾巴左侧）" />
+            <Part Id="PART_M_TAIL_VEIL"
+                     String="液膜（尾巴中央）" />
+            <Part Id="PART_TENTACLE"
+                     String="触手" />
+            <Part Id="PART_MEMBRANE"
+                     String="腕间膜" />
+            <Part Id="PART_L_F_ARM"
+                     String="第一左触手" />
+            <Part Id="PART_R_F_ARM"
+                     String="第一右触手" />
+            <Part Id="PART_M_L_ARM"
+                     String="第二左触手" />
+            <Part Id="PART_M_R_ARM"
+                     String="第二右触手" />
+            <Part Id="PART_REAR_L_ARM"
+                     String="第三左触手" />
+            <Part Id="PART_REAR_R_ARM"
+                     String="第三右触手" />
+            <Part Id="PART_MOUTH"
+                     String="嘴巴" />
+            <Part Id="PART_L_CHAINBLADE"
+                     String="左锁翼刃" />
+            <Part Id="PART_R_CHAINBLADE"
+                     String="右锁翼刃" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE"
+                     String="冻凝壳（腰部）" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN"
+                     String="大冻凝壳（露出前）" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED"
+                     String="大冻凝壳（露出后）" />
+            <Part Id="PART_HEAD_CRYSTALIZED"
+                     String="头（白缠晶）" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED"
+                     String="左翼臂（白缠晶）" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED"
+                     String="右翼臂（白缠晶）" />
         </Shared>
         <Rise>
-            <Monster Id="0" String="雌火龙"/>
-            <Monster Id="1" String="霸主·雌火龙"/>
-            <Monster Id="2" String="火龙"/>
-            <Monster Id="3" String="霸主·火龙"/>
-            <Monster Id="4" String="奇怪龙"/>
-            <Monster Id="5" String="岩龙"/>
-            <Monster Id="6" String="角龙"/>
-            <Monster Id="7" String="霸主·角龙"/>
-            <Monster Id="8" String="金狮子"/>
-            <Monster Id="9" String="钢龙"/>
-            <Monster Id="10" String="霞龙"/>
-            <Monster Id="11" String="炎王龙"/>
-            <Monster Id="12" String="轰龙"/>
-            <Monster Id="13" String="迅龙"/>
-            <Monster Id="14" String="冰牙龙"/>
-            <Monster Id="15" String="土砂龙"/>
-            <Monster Id="16" String="水兽"/>
-            <Monster Id="17" String="眠狗龙王"/>
-            <Monster Id="18" String="雷狼龙"/>
-            <Monster Id="19" String="霸主·雷狼龙"/>
-            <Monster Id="20" String="毒狗龙王"/>
-            <Monster Id="21" String="青熊兽"/>
-            <Monster Id="22" String="霸主·青熊兽"/>
-            <Monster Id="23" String="白兔兽"/>
-            <Monster Id="24" String="赤甲兽"/>
-            <Monster Id="25" String="泡狐龙"/>
-            <Monster Id="26" String="霸主·泡狐龙"/>
-            <Monster Id="27" String="神秘红光天彗龙"/>
-            <Monster Id="28" String="怨虎龙"/>
-            <Monster Id="29" String="天狗兽"/>
-            <Monster Id="30" String="伞鸟"/>
-            <Monster Id="31" String="河童蛙"/>
-            <Monster Id="32" String="人鱼龙"/>
-            <Monster Id="33" String="妃蜘蛛"/>
-            <Monster Id="34" String="泥翁龙"/>
-            <Monster Id="35" String="风神龙"/>
-            <Monster Id="36" String="雪鬼兽"/>
-            <Monster Id="37" String="镰鼬龙王"/>
-            <Monster Id="38" String="雷神龙"/>
-            <Monster Id="39" String="百龙渊源雷神龙"/>
-            <Monster Id="40" String="蛮颚龙"/>
-            <Monster Id="41" String="毒妖鸟"/>
-            <Monster Id="42" String="骚鸟"/>
-            <Monster Id="43" String="泥鱼龙"/>
-            <Monster Id="44" String="飞雷龙"/>
-            <Monster Id="45" String="爆鳞龙"/>
-            <Monster Id="46" String="机关蛙"/>
-            <Monster Id="76" String="金火龙"/>
-            <Monster Id="77" String="银火龙"/>
-            <Monster Id="78" String="大名盾蟹"/>
-            <Monster Id="79" String="将军镰蟹"/>
-            <Monster Id="80" String="激昂金狮子"/>
-            <Monster Id="81" String="月迅龙"/>
-            <Monster Id="82" String="黑蚀龙"/>
-            <Monster Id="83" String="天廻龙"/>
-            <Monster Id="84" String="千刃龙"/>
-            <Monster Id="85" String="电龙"/>
-            <Monster Id="86" String="焰狐龙"/>
-            <Monster Id="87" String="嗟怨震天怨虎龙"/>
-            <Monster Id="88" String="绯天狗兽"/>
-            <Monster Id="89" String="冰人鱼龙"/>
-            <Monster Id="90" String="炽妃蜘蛛"/>
-            <Monster Id="91" String="熔翁龙"/>
-            <Monster Id="92" String="红莲爆鳞龙"/>
-            <Monster Id="93" String="爵银龙"/>
-            <Monster Id="94" String="冰狼龙"/>
-            <Monster Id="95" String="刚缠兽"/>
-            <Monster Id="96" String="冥渊龙"/>		
-            <Monster Id="97" String="棘龙"/>
-            <Monster Id="98" String="棘茶龙"/>
-            <Monster Id="107" String="怪异克服钢龙"/>
-            <Monster Id="108" String="怪异克服霞龙"/>
-            <Monster Id="109" String="怪异克服炎王龙"/>
-            <Monster Id="110" String="怪异克服天廻龙" />
-            <Monster Id="111" String="怪异克服天彗龙" />
-            <Monster Id="112" String="原初形态爵银龙" />
-            <Monster Id="113" String="混沌黑蚀龙"/>
-            <Monster Id="114" String="冰呪龙" />
-            <Monster Id="115" String="岚龙" />
+            <Monster Id="0"
+                     String="雌火龙"/>
+            <Monster Id="1"
+                     String="霸主·雌火龙"/>
+            <Monster Id="2"
+                     String="火龙"/>
+            <Monster Id="3"
+                     String="霸主·火龙"/>
+            <Monster Id="4"
+                     String="奇怪龙"/>
+            <Monster Id="5"
+                     String="岩龙"/>
+            <Monster Id="6"
+                     String="角龙"/>
+            <Monster Id="7"
+                     String="霸主·角龙"/>
+            <Monster Id="8"
+                     String="金狮子"/>
+            <Monster Id="9"
+                     String="钢龙"/>
+            <Monster Id="10"
+                     String="霞龙"/>
+            <Monster Id="11"
+                     String="炎王龙"/>
+            <Monster Id="12"
+                     String="轰龙"/>
+            <Monster Id="13"
+                     String="迅龙"/>
+            <Monster Id="14"
+                     String="冰牙龙"/>
+            <Monster Id="15"
+                     String="土砂龙"/>
+            <Monster Id="16"
+                     String="水兽"/>
+            <Monster Id="17"
+                     String="眠狗龙王"/>
+            <Monster Id="18"
+                     String="雷狼龙"/>
+            <Monster Id="19"
+                     String="霸主·雷狼龙"/>
+            <Monster Id="20"
+                     String="毒狗龙王"/>
+            <Monster Id="21"
+                     String="青熊兽"/>
+            <Monster Id="22"
+                     String="霸主·青熊兽"/>
+            <Monster Id="23"
+                     String="白兔兽"/>
+            <Monster Id="24"
+                     String="赤甲兽"/>
+            <Monster Id="25"
+                     String="泡狐龙"/>
+            <Monster Id="26"
+                     String="霸主·泡狐龙"/>
+            <Monster Id="27"
+                     String="神秘红光天彗龙"/>
+            <Monster Id="28"
+                     String="怨虎龙"/>
+            <Monster Id="29"
+                     String="天狗兽"/>
+            <Monster Id="30"
+                     String="伞鸟"/>
+            <Monster Id="31"
+                     String="河童蛙"/>
+            <Monster Id="32"
+                     String="人鱼龙"/>
+            <Monster Id="33"
+                     String="妃蜘蛛"/>
+            <Monster Id="34"
+                     String="泥翁龙"/>
+            <Monster Id="35"
+                     String="风神龙"/>
+            <Monster Id="36"
+                     String="雪鬼兽"/>
+            <Monster Id="37"
+                     String="镰鼬龙王"/>
+            <Monster Id="38"
+                     String="雷神龙"/>
+            <Monster Id="39"
+                     String="百龙渊源雷神龙"/>
+            <Monster Id="40"
+                     String="蛮颚龙"/>
+            <Monster Id="41"
+                     String="毒妖鸟"/>
+            <Monster Id="42"
+                     String="骚鸟"/>
+            <Monster Id="43"
+                     String="泥鱼龙"/>
+            <Monster Id="44"
+                     String="飞雷龙"/>
+            <Monster Id="45"
+                     String="爆鳞龙"/>
+            <Monster Id="46"
+                     String="机关蛙"/>
+            <Monster Id="76"
+                     String="金火龙"/>
+            <Monster Id="77"
+                     String="银火龙"/>
+            <Monster Id="78"
+                     String="大名盾蟹"/>
+            <Monster Id="79"
+                     String="将军镰蟹"/>
+            <Monster Id="80"
+                     String="激昂金狮子"/>
+            <Monster Id="81"
+                     String="月迅龙"/>
+            <Monster Id="82"
+                     String="黑蚀龙"/>
+            <Monster Id="83"
+                     String="天廻龙"/>
+            <Monster Id="84"
+                     String="千刃龙"/>
+            <Monster Id="85"
+                     String="电龙"/>
+            <Monster Id="86"
+                     String="焰狐龙"/>
+            <Monster Id="87"
+                     String="嗟怨震天怨虎龙"/>
+            <Monster Id="88"
+                     String="绯天狗兽"/>
+            <Monster Id="89"
+                     String="冰人鱼龙"/>
+            <Monster Id="90"
+                     String="炽妃蜘蛛"/>
+            <Monster Id="91"
+                     String="熔翁龙"/>
+            <Monster Id="92"
+                     String="红莲爆鳞龙"/>
+            <Monster Id="93"
+                     String="爵银龙"/>
+            <Monster Id="94"
+                     String="冰狼龙"/>
+            <Monster Id="95"
+                     String="刚缠兽"/>
+            <Monster Id="96"
+                     String="冥渊龙"/>		
+            <Monster Id="97"
+                     String="棘龙"/>
+            <Monster Id="98"
+                     String="棘茶龙"/>
+            <Monster Id="107"
+                     String="怪异克服钢龙"/>
+            <Monster Id="108"
+                     String="怪异克服霞龙"/>
+            <Monster Id="109"
+                     String="怪异克服炎王龙"/>
+            <Monster Id="110"
+                     String="怪异克服天廻龙" />
+            <Monster Id="111"
+                     String="怪异克服天彗龙" />
+            <Monster Id="112"
+                     String="原初形态爵银龙" />
+            <Monster Id="113"
+                     String="混沌黑蚀龙"/>
+            <Monster Id="114"
+                     String="冰呪龙" />
+            <Monster Id="115"
+                     String="岚龙" />
         </Rise>
         <World>
-            <Monster Id="0" String="蛮颚龙"/>
-            <Monster Id="1" String="火龙"/>
-            <Monster Id="4" String="熔山龙"/>
-            <Monster Id="7" String="大贼龙"/>
-            <Monster Id="9" String="雌火龙"/>
-            <Monster Id="10" String="樱火龙"/>
-            <Monster Id="11" String="苍火龙"/>
-            <Monster Id="12" String="角龙"/>
-            <Monster Id="13" String="黑角龙"/>
-            <Monster Id="14" String="麒麟"/>
-            <Monster Id="15" String="贝希摩斯"/>
-            <Monster Id="16" String="钢龙"/>
-            <Monster Id="17" String="炎妃龙"/>
-            <Monster Id="18" String="炎王龙"/>
-            <Monster Id="19" String="熔岩龙"/>
-            <Monster Id="20" String="恐暴龙"/>
-            <Monster Id="21" String="土砂龙"/>
-            <Monster Id="22" String="爆锤龙"/>
-            <Monster Id="23" String="鹿首精"/>
-            <Monster Id="24" String="毒妖鸟"/>
-            <Monster Id="25" String="灭尽龙"/>
-            <Monster Id="26" String="冥灯龙"/>
-            <Monster Id="27" String="搔鸟"/>
-            <Monster Id="28" String="眩鸟"/>
-            <Monster Id="29" String="泥鱼龙"/>
-            <Monster Id="30" String="飞雷龙"/>
-            <Monster Id="31" String="浮空龙"/>
-            <Monster Id="32" String="风漂龙"/>
-            <Monster Id="33" String="大痹贼龙"/>
-            <Monster Id="34" String="惨爪龙"/>
-            <Monster Id="35" String="骨锤龙"/>
-            <Monster Id="36" String="尸套龙"/>
-            <Monster Id="37" String="岩贼龙"/>
-            <Monster Id="38" String="绚辉龙"/>
-            <Monster Id="39" String="爆鳞龙"/>
-            <Monster Id="51" String="古代鹿首精"/>
-            <Monster Id="61" String="轰龙"/>
-            <Monster Id="62" String="迅龙"/>
-            <Monster Id="63" String="冰牙龙"/>
-            <Monster Id="64" String="惶怒恐暴龙"/>
-            <Monster Id="65" String="碎龙"/>
-            <Monster Id="66" String="斩龙"/>
-            <Monster Id="67" String="硫斩龙"/>
-            <Monster Id="68" String="雷颚龙"/>
-            <Monster Id="69" String="水妖鸟"/>
-            <Monster Id="70" String="歼世灭尽龙"/>
-            <Monster Id="71" String="痹毒龙"/>
-            <Monster Id="72" String="浮眠龙"/>
-            <Monster Id="73" String="霜翼风漂龙"/>
-            <Monster Id="74" String="凶爪龙"/>
-            <Monster Id="75" String="雾瘴尸套龙"/>
-            <Monster Id="76" String="红莲爆鳞龙"/>
-            <Monster Id="77" String="冰鱼龙"/>
-            <Monster Id="78" String="猛牛龙"/>
-            <Monster Id="79" String="冰呪龙"/>
-            <Monster Id="80" String="溟波龙"/>
-            <Monster Id="81" String="天地煌啼龙"/>
-            <Monster Id="87" String="煌黑龙"/>
-            <Monster Id="88" String="金火龙"/>
-            <Monster Id="89" String="银火龙"/>
-            <Monster Id="90" String="黑狼鸟"/>
-            <Monster Id="91" String="金狮子"/>
-            <Monster Id="92" String="激昂金狮子"/>
-            <Monster Id="93" String="黑轰龙"/>
-            <Monster Id="94" String="雷狼龙"/>
-            <Monster Id="95" String="狱狼龙"/>
-            <Monster Id="96" String="猛爆碎龙"/>
-            <Monster Id="97" String="冥赤龙"/>
-            <Monster Id="98" String="木人桩"/>
-            <Monster Id="99" String="战痕黑狼鸟"/>
-            <Monster Id="100" String="霜刃冰牙龙"/>
-            <Monster Id="101" String="黑龙"/>
+            <Monster Id="0"
+                     String="蛮颚龙"/>
+            <Monster Id="1"
+                     String="火龙"/>
+            <Monster Id="4"
+                     String="熔山龙"/>
+            <Monster Id="7"
+                     String="大贼龙"/>
+            <Monster Id="9"
+                     String="雌火龙"/>
+            <Monster Id="10"
+                     String="樱火龙"/>
+            <Monster Id="11"
+                     String="苍火龙"/>
+            <Monster Id="12"
+                     String="角龙"/>
+            <Monster Id="13"
+                     String="黑角龙"/>
+            <Monster Id="14"
+                     String="麒麟"/>
+            <Monster Id="15"
+                     String="贝希摩斯"/>
+            <Monster Id="16"
+                     String="钢龙"/>
+            <Monster Id="17"
+                     String="炎妃龙"/>
+            <Monster Id="18"
+                     String="炎王龙"/>
+            <Monster Id="19"
+                     String="熔岩龙"/>
+            <Monster Id="20"
+                     String="恐暴龙"/>
+            <Monster Id="21"
+                     String="土砂龙"/>
+            <Monster Id="22"
+                     String="爆锤龙"/>
+            <Monster Id="23"
+                     String="鹿首精"/>
+            <Monster Id="24"
+                     String="毒妖鸟"/>
+            <Monster Id="25"
+                     String="灭尽龙"/>
+            <Monster Id="26"
+                     String="冥灯龙"/>
+            <Monster Id="27"
+                     String="搔鸟"/>
+            <Monster Id="28"
+                     String="眩鸟"/>
+            <Monster Id="29"
+                     String="泥鱼龙"/>
+            <Monster Id="30"
+                     String="飞雷龙"/>
+            <Monster Id="31"
+                     String="浮空龙"/>
+            <Monster Id="32"
+                     String="风漂龙"/>
+            <Monster Id="33"
+                     String="大痹贼龙"/>
+            <Monster Id="34"
+                     String="惨爪龙"/>
+            <Monster Id="35"
+                     String="骨锤龙"/>
+            <Monster Id="36"
+                     String="尸套龙"/>
+            <Monster Id="37"
+                     String="岩贼龙"/>
+            <Monster Id="38"
+                     String="绚辉龙"/>
+            <Monster Id="39"
+                     String="爆鳞龙"/>
+            <Monster Id="51"
+                     String="古代鹿首精"/>
+            <Monster Id="61"
+                     String="轰龙"/>
+            <Monster Id="62"
+                     String="迅龙"/>
+            <Monster Id="63"
+                     String="冰牙龙"/>
+            <Monster Id="64"
+                     String="惶怒恐暴龙"/>
+            <Monster Id="65"
+                     String="碎龙"/>
+            <Monster Id="66"
+                     String="斩龙"/>
+            <Monster Id="67"
+                     String="硫斩龙"/>
+            <Monster Id="68"
+                     String="雷颚龙"/>
+            <Monster Id="69"
+                     String="水妖鸟"/>
+            <Monster Id="70"
+                     String="歼世灭尽龙"/>
+            <Monster Id="71"
+                     String="痹毒龙"/>
+            <Monster Id="72"
+                     String="浮眠龙"/>
+            <Monster Id="73"
+                     String="霜翼风漂龙"/>
+            <Monster Id="74"
+                     String="凶爪龙"/>
+            <Monster Id="75"
+                     String="雾瘴尸套龙"/>
+            <Monster Id="76"
+                     String="红莲爆鳞龙"/>
+            <Monster Id="77"
+                     String="冰鱼龙"/>
+            <Monster Id="78"
+                     String="猛牛龙"/>
+            <Monster Id="79"
+                     String="冰呪龙"/>
+            <Monster Id="80"
+                     String="溟波龙"/>
+            <Monster Id="81"
+                     String="天地煌啼龙"/>
+            <Monster Id="87"
+                     String="煌黑龙"/>
+            <Monster Id="88"
+                     String="金火龙"/>
+            <Monster Id="89"
+                     String="银火龙"/>
+            <Monster Id="90"
+                     String="黑狼鸟"/>
+            <Monster Id="91"
+                     String="金狮子"/>
+            <Monster Id="92"
+                     String="激昂金狮子"/>
+            <Monster Id="93"
+                     String="黑轰龙"/>
+            <Monster Id="94"
+                     String="雷狼龙"/>
+            <Monster Id="95"
+                     String="狱狼龙"/>
+            <Monster Id="96"
+                     String="猛爆碎龙"/>
+            <Monster Id="97"
+                     String="冥赤龙"/>
+            <Monster Id="98"
+                     String="木人桩"/>
+            <Monster Id="99"
+                     String="战痕黑狼鸟"/>
+            <Monster Id="100"
+                     String="霜刃冰牙龙"/>
+            <Monster Id="101"
+                     String="黑龙"/>
         </World>
         <Wilds>
-            <Monster Id="0" String="雌火龙"/>
-            <Monster Id="1" String="火龙"/>
-            <Monster Id="2" String="护火龙"/>
-            <Monster Id="3" String="铠龙"/>
-            <Monster Id="4" String="怪鸟"/>
-            <Monster Id="5" String="毒怪鸟"/>
-            <Monster Id="6" String="桃毛兽王"/>
-            <Monster Id="7" String="雪狮子王"/>
-            <Monster Id="9" String="影蜘蛛"/>
-            <Monster Id="10" String="黑蚀龙"/>
-            <Monster Id="13" String="泡狐龙" />
-            <Monster Id="14" String="护雷颚龙" />
-            <Monster Id="15" String="护凶爪龙" />
-            <Monster Id="16" String="辟兽" />
-            <Monster Id="17" String="护辟兽" />
-            <Monster Id="18" String="沙海龙" />
-            <Monster Id="19" String="缠蛙" />
-            <Monster Id="20" String="炎尾龙" />
-            <Monster Id="21" String="刺花蜘蛛" />
-            <Monster Id="22" String="沼喷龙" />
-            <Monster Id="23" String="煌雷龙" />
-            <Monster Id="24" String="波衣龙" />
-            <Monster Id="25" String="狱焰蛸" />
-            <Monster Id="26" String="赫猿兽" />
-            <Monster Id="27" String="锁刃龙" />
-            <Monster Id="28" String="护锁刃龙" />
-            <Monster Id="29" String="风铗龙" />
-            <Monster Id="30" String="冻峰龙" />
-            <Monster Id="31" String="暗器蛸" />
-            <Monster Id="32" String="白炽龙" />
-            <Monster Id="33" String="猫式训练用拳击木桶靶" />
+            <Monster Id="0"
+                     String="雌火龙"/>
+            <Monster Id="1"
+                     String="火龙"/>
+            <Monster Id="2"
+                     String="护火龙"/>
+            <Monster Id="3"
+                     String="铠龙"/>
+            <Monster Id="4"
+                     String="怪鸟"/>
+            <Monster Id="5"
+                     String="毒怪鸟"/>
+            <Monster Id="6"
+                     String="桃毛兽王"/>
+            <Monster Id="7"
+                     String="雪狮子王"/>
+            <Monster Id="9"
+                     String="影蜘蛛"/>
+            <Monster Id="10"
+                     String="黑蚀龙"/>
+            <Monster Id="13"
+                     String="泡狐龙" />
+            <Monster Id="14"
+                     String="护雷颚龙" />
+            <Monster Id="15"
+                     String="护凶爪龙" />
+            <Monster Id="16"
+                     String="辟兽" />
+            <Monster Id="17"
+                     String="护辟兽" />
+            <Monster Id="18"
+                     String="沙海龙" />
+            <Monster Id="19"
+                     String="缠蛙" />
+            <Monster Id="20"
+                     String="炎尾龙" />
+            <Monster Id="21"
+                     String="刺花蜘蛛" />
+            <Monster Id="22"
+                     String="沼喷龙" />
+            <Monster Id="23"
+                     String="煌雷龙" />
+            <Monster Id="24"
+                     String="波衣龙" />
+            <Monster Id="25"
+                     String="狱焰蛸" />
+            <Monster Id="26"
+                     String="赫猿兽" />
+            <Monster Id="27"
+                     String="锁刃龙" />
+            <Monster Id="28"
+                     String="护锁刃龙" />
+            <Monster Id="29"
+                     String="风铗龙" />
+            <Monster Id="30"
+                     String="冻峰龙" />
+            <Monster Id="31"
+                     String="暗器蛸" />
+            <Monster Id="32"
+                     String="白炽龙" />
+            <Monster Id="33"
+                     String="猫式训练用拳击木桶靶" />
         </Wilds>
     </Monsters>
     <Stages>
         <Rise>
-            <Stage Id="-2" String="加载界面"/>
-            <Stage Id="-1" String="主菜单"/>
-            <Stage Id="0" String="炎火村"/>
-            <Stage Id="1" String="自己家"/>
-            <Stage Id="2" String="随从广场"/>
-            <Stage Id="3" String="集会所"/>
-            <Stage Id="4" String="集会所 准备区域"/>
-            <Stage Id="5" String="修炼场"/>
-            <Stage Id="6" String="埃尔迦德"/>
-            <Stage Id="7" String="埃尔迦德的小屋"/>
-            <Stage Id="11" String="骑士团指挥所"/>
-            <Stage Id="199" String="角色选择"/>
-            <Stage Id="201" String="废神社"/>
-            <Stage Id="202" String="沙原"/>
-            <Stage Id="203" String="水没林"/>
-            <Stage Id="204" String="冰封群岛"/>
-            <Stage Id="205" String="熔岩洞"/>
-            <Stage Id="207" String="翡叶要塞"/>
-            <Stage Id="209" String="狱泉乡"/>
-            <Stage Id="210" String="斗技场"/>
-            <Stage Id="211" String="龙宫古城"/>
-            <Stage Id="212" String="密林"/>
-            <Stage Id="213" String="城塞高地"/>
-            <Stage Id="214" String="塔之秘境"/>
-            <Stage Id="215" String="渊劫地狱"/>
+            <Stage Id="-2"
+                     String="加载界面"/>
+            <Stage Id="-1"
+                     String="主菜单"/>
+            <Stage Id="0"
+                     String="炎火村"/>
+            <Stage Id="1"
+                     String="自己家"/>
+            <Stage Id="2"
+                     String="随从广场"/>
+            <Stage Id="3"
+                     String="集会所"/>
+            <Stage Id="4"
+                     String="集会所 准备区域"/>
+            <Stage Id="5"
+                     String="修炼场"/>
+            <Stage Id="6"
+                     String="埃尔迦德"/>
+            <Stage Id="7"
+                     String="埃尔迦德的小屋"/>
+            <Stage Id="11"
+                     String="骑士团指挥所"/>
+            <Stage Id="199"
+                     String="角色选择"/>
+            <Stage Id="201"
+                     String="废神社"/>
+            <Stage Id="202"
+                     String="沙原"/>
+            <Stage Id="203"
+                     String="水没林"/>
+            <Stage Id="204"
+                     String="冰封群岛"/>
+            <Stage Id="205"
+                     String="熔岩洞"/>
+            <Stage Id="207"
+                     String="翡叶要塞"/>
+            <Stage Id="209"
+                     String="狱泉乡"/>
+            <Stage Id="210"
+                     String="斗技场"/>
+            <Stage Id="211"
+                     String="龙宫古城"/>
+            <Stage Id="212"
+                     String="密林"/>
+            <Stage Id="213"
+                     String="城塞高地"/>
+            <Stage Id="214"
+                     String="塔之秘境"/>
+            <Stage Id="215"
+                     String="渊劫地狱"/>
         </Rise>
         <World>
             <Stage Id="0"
@@ -975,20 +1380,36 @@
                    String="月辰小屋" />
         </World>
         <Wilds>
-            <Stage Id="0" String="天堑沙原" />
-            <Stage Id="1" String="绯红森林" />
-            <Stage Id="2" String="涌油谷" />
-            <Stage Id="3" String="冰雾断崖" />
-            <Stage Id="4" String="龙都遗迹" />
-            <Stage Id="5" String="河畔小径" />
-            <Stage Id="6" String="岩窟坑道" />
-            <Stage Id="7" String="龙都废道" />
-            <Stage Id="8" String="守护者参道" />
-            <Stage Id="9" String="龙谷遗址" />
-            <Stage Id="10" String="冰锁冻峰" />
-            <Stage Id="11" String="龙灯圣庙" />
-            <Stage Id="12" String="交汇之峰酥加" />
-            <Stage Id="15" String="训练场" />
+            <Stage Id="0"
+                     String="天堑沙原" />
+            <Stage Id="1"
+                     String="绯红森林" />
+            <Stage Id="2"
+                     String="涌油谷" />
+            <Stage Id="3"
+                     String="冰雾断崖" />
+            <Stage Id="4"
+                     String="龙都遗迹" />
+            <Stage Id="5"
+                     String="河畔小径" />
+            <Stage Id="6"
+                     String="岩窟坑道" />
+            <Stage Id="7"
+                     String="龙都废道" />
+            <Stage Id="8"
+                     String="守护者参道" />
+            <Stage Id="9"
+                     String="龙谷遗址" />
+            <Stage Id="10"
+                     String="冰锁冻峰" />
+            <Stage Id="11"
+                     String="龙灯圣庙" />
+            <Stage Id="12"
+                     String="交汇之峰酥加" />
+            <Stage Id="14"
+                     String="集会所" />
+            <Stage Id="15"
+                     String="训练场" />
         </Wilds>
     </Stages>
     <Fertilizers>
@@ -1141,7 +1562,7 @@
                    String="电光雷鸣，梦幻泡影" />
             <Quest Id="609"
                    String="天空王者，大地暴君" />
-			<!--集会所任务下位-->
+            <!--集会所任务下位-->
             <Quest Id="10101"
                    String="废神社的探索之旅（下位）" />
             <Quest Id="10102"
@@ -1230,7 +1651,7 @@
                    String="狂暴者" />
             <Quest Id="10317"
                    String="灾祸中也要保持美丽" />
-			<!--集会所任务上位-->
+            <!--集会所任务上位-->
             <Quest Id="10401"
                    String="废神社的探索之旅（上位）" />
             <Quest Id="10402"
@@ -1441,7 +1862,7 @@
                    String="倪泰教官的挑战书・其四" />
             <Quest Id="10752"
                    String="倪泰教官的挑战书・其五" />
-			<!--斗技任务-->
+            <!--斗技任务-->
             <Quest Id="20101"
                    String="斗技大会01" />
             <Quest Id="20201"
@@ -1454,14 +1875,14 @@
                    String="斗技大会 05" />
             <Quest Id="20702"
                    String="斗技大会 06" />
-                     <!--TODO：下面三项任务没有印象知道的可以进行补充-->
+            <!--TODO:下面三项任务没有印象知道的可以进行补充-->
             <Quest Id="30101"
                    String="Back to Basics" />
             <Quest Id="30102"
                    String="Learning to Ride" />
             <Quest Id="30103"
                    String="The Basics of Capturing Monsters" />
-			<!--活动任务-->
+            <!--活动任务-->
             <Quest Id="60002"
                    String="称号・武士之心" />
             <Quest Id="60003"
@@ -1578,7 +1999,7 @@
                    String="USJ・青熊们的猛烈进军！" />
             <Quest Id="60154"
                    String="USJ・废神社的激斗！" />
-			<!--挑战任务-->
+            <!--挑战任务-->
             <Quest Id="70001"
                    String="挑战任务01" />
             <Quest Id="70002"
@@ -1593,7 +2014,7 @@
                    String="挑战任务06" />
             <Quest Id="70007"
                    String="挑战任务07" />
-			<!--集会所大师任务-->
+            <!--集会所大师任务-->
             <Quest Id="315100"
                    String="撕裂寂静者" />
             <Quest Id="315101"
@@ -1894,7 +2315,7 @@
                    String="“坚韧不拔的秘诀”之卷" />
             <Quest Id="315662"
                    String="高难度：驱除灾厄的烈焰" />
-			<!--大师位斗技大会-->
+            <!--大师位斗技大会-->
             <Quest Id="325101"
                    String="大师等级斗技大会 01" />
             <Quest Id="325201"
@@ -1907,10 +2328,10 @@
                    String="大师等级斗技大会 05" />
             <Quest Id="325601"
                    String="大师等级斗技大会 06" />
-			<!--训练任务-->
+            <!--训练任务-->
             <Quest Id="335101"
                    String="全新的狩猎技术——迅速切换" />
-			<!--怪异任务-->
+            <!--怪异任务-->
             <Quest Id="385100"
                    String="怪异调查：青熊兽" />
             <Quest Id="385101"
@@ -1973,7 +2394,7 @@
                    String="怪异调查：冰牙龙" />
             <Quest Id="385408"
                    String="怪异调查：泥翁龙" />
-			<!--大师任务-补充-->
+            <!--大师任务-补充-->
             <Quest Id="405200"
                    String="绯色天狗参拜神社" />
             <Quest Id="405300"
@@ -1984,7 +2405,7 @@
                    String="月光之下" />
             <Quest Id="405600"
                    String="勇气的证明" />
-			<!--重要调查任务-->
+            <!--重要调查任务-->
             <Quest Id="455201"
                    String="调查雌火龙" />
             <Quest Id="455202"
@@ -2099,7 +2520,7 @@
                    String="调查降临于密林的赤红凶星" />
             <Quest Id="455612"
                    String="调查沉睡于废神社的大怨灵" />
-			<!--盟友同行任务-->
+            <!--盟友同行任务-->
             <Quest Id="455613"
                    String="高难度：怪物猎人" />
             <Quest Id="465201"
@@ -3272,7 +3693,7 @@
             <Tab Id="CONSOLE_STRING"
                  String="控制台"/>
             <Tab Id="DISCORD_STRING"
-                 String="Discord"/>
+                 String="Discord" />
             <Tab Id="QUEST_STATISTICS_STRING"
                  String="狩猎记录" />
             <Tab Id="PATCH_NOTES_STRING"
@@ -3282,7 +3703,7 @@
             <Tab Id="SETTINGS_STRING"
                  String="设置"/>
             <Tab Id="PATREON_STRING"
-                 String="Patreon"/>
+                 String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
         </Tabs>
@@ -3459,19 +3880,16 @@
                      Description="覆盖层设置"/>
             <Setting Id="FEATURE_FLAGS_STRING"
                      String="功能标志"
-                     Description="功能标志设置" />
-            <Setting Id="MONSTER_WIDGET_STRING"
-                     String="怪物组件"
-                     Description="怪物组件设置"/>	
+                     Description="功能标志设置" />	
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="状态组件"
                      Description="状态组件设置"/>	
             <Setting Id="TELEMETRICS_WIDGET_STRING"
                      String="调试组件"
                      Description="调试组件配置" />
-            <Setting Id="PLAYER_HUD_WIDGET_STRING"
-                     String="玩家组件"
-                     Description="玩家组件设置"/>
+            <Setting Id="MONSTER_WIDGET_STRING"
+                     String="怪物组件"
+                     Description="怪物组件设置"/>
             <Setting Id="WIREBUG_WIDGET_STRING"
                      String="翔虫组件"
                      Description="翔虫组件设置"/>
@@ -3486,7 +3904,10 @@
                      Description="聊天组件设置"/>
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="特殊装备组件"
-                     Description="特殊装备组件设置"/>	         				 
+                     Description="特殊装备组件设置"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="玩家组件"
+                     Description="玩家组件设置"/>	         				 
             <Setting Id="DEV_TOOLS_STRING"
                      String="开发者工具"
                      Description="进阶开发者工具"/>
@@ -3621,9 +4042,6 @@
             <Setting Id="WIDGET_SCALE"
                      String="组件比例"
                      Description="线性调整当前组件的比例，组件大小随数值的变化而变化。"/>
-            <!--Setting Id="ENABLE_STREAMER_MODE"
-                     String="直播模式"
-                     Description="开启后，将使OBS和类似的窗口捕获软件可捕捉此部件。请注意，启用此选项还会使您在Alt + Tab时看到该窗口。"/-->
             <Setting Id="ORIENTATION_STRING"
                      String="排列方式"
                      Description="修改当前组件的排列方式。"/>
@@ -3752,13 +4170,26 @@
             <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
                      String="显示牙猎犬的伤害"
                      Description="开启后，伤害统计中将会显示牙猎犬的伤害。" />
-            <!---->
+            <!--伤害组件-->
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS"
                      String="显示每秒伤害（DPS）"
                      Description="启用后，HunterPie 将显示每个玩家的每秒伤害（DPS）。" />
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="显示总伤害"
                      Description="启用后，HunterPie 将显示每个玩家的总伤害。" />
+            <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
+                     String="启用平均移动 DPS 绘图"
+                     Description="如果启用，HunterPie 将基于最近几秒钟的平均 DPS 绘制你的 DPS。采样率可在采样设置中配置。" />
+            <Setting Id="DAMAGE_METER_SAMPLING_RATE"
+                     String="绘图采样率"
+                     Description="配置计算平均 DPS 时所使用的采样秒数。" />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
+                     String="启用绘图滑动窗口"
+                     Description="如果启用，图表将以滑动图的形式显示，移除超出设定秒数的旧数据点。" />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
+                     String="滑动窗口大小"
+                     Description="配置图表应显示的秒数，超过此秒数的数据点将被清除。" />
+            <!--开发者组件-->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="开发者选项：模拟怪物小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
