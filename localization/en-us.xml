@@ -3838,7 +3838,7 @@
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="Inference" />
             <Enum Id="PLOT_SLIDING_AVG"
-                  String="Average Moving DPS" />
+                  String="Moving Average DPS" />
             <Enum Id="PLOT_OVERALL_AVG"
                   String="Overall DPS" />
         </Enums>
@@ -4141,17 +4141,17 @@
                      String="Show total damage"
                      Description="If enabled, HunterPie will display each player's total damage." />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
-                     String="Enable average moving DPS plotting"
-                     Description="If enabled, HunterPie will plot your DPS based on the average DPS of the last couple seconds. The sampling can be configured in the sampling rate." />
+                     String="Enable moving average DPS plotting"
+                     Description="If enabled, HunterPie will plot your average DPS for the last X seconds, at X second intervals (can be customized via Plot sampling rate setting)." />
             <Setting Id="DAMAGE_METER_SAMPLING_RATE"
                      String="Plot sampling rate"
-                     Description="Configure how many seconds of sample will be used when calculating average DPS." />
+                     Description="Configure the time in seconds that will be used to calculate points for the moving average DPS plot." />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
-                     String="Enable plots sliding window"
-                     Description="If enabled, the graph will work like a sliding graph, removing the plots that are older than the configured amount in seconds." />
+                     String="Enable sliding window plot"
+                     Description="If enabled, the graph will slide over time instead of sqeezing to fit, hiding any points older than the specified amount of time (can be customized via Sliding Window size setting)." />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="Sliding window size"
-                     Description="Configure how many seconds the graph should display, plots older than the configured amount will be cleaned up." />
+                     Description="Configure the total time in seconds the graph should display when Sliding window plot is enabled.  Points older than the configured amount of time will be hidden." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
