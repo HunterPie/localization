@@ -3838,7 +3838,7 @@
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="Inference" />
             <Enum Id="PLOT_SLIDING_AVG"
-                  String="Average Moving DPS" />
+                  String="Moving Average DPS" />
             <Enum Id="PLOT_OVERALL_AVG"
                   String="Overall DPS" />
         </Enums>
