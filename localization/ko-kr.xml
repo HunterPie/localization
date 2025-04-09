@@ -1388,6 +1388,8 @@
                    String="용등의 사원" />
             <Stage Id="12"
                    String="교류의 봉우리 스자" />
+            <Stage Id="14"
+                   String="대집회소" />
             <Stage Id="15"
                    String="훈련장" />
          </Wilds>
@@ -4132,6 +4134,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="총 대미지 표시"
                      Description="옵션 활성화 시, HunterPie가 각 플레이어의 총 대미지를 표시합니다." />
+            <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
+                     String="평균 이동 DPS 그래프 활성화"
+                     Description="옵션 활성화 시, HunterPie가 지난 몇 초간의 평균 DPS를 기반으로 당신의 DPS를 표시합니다. 샘플링은 샘플링 비율에서 설정할 수 있습니다." />
+            <Setting Id="DAMAGE_METER_SAMPLING_RATE"
+                     String="샘플링 비율"
+                     Description="평균 DPS를 계산하는 데 사용되는 샘플의 시간(초)을 설정합니다." />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
+                     String="슬라이딩 그래프 활성화"
+                     Description="옵션 활성화 시, 그래프가 슬라이딩 그래프처럼 작동하며, 설정된 시간(초)보다 오래된 그래프는 제거됩니다." />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
+                     String="슬라이딩 그래프 시간"
+                     Description="그래프가 표시될 시간(초)을 설정합니다, 설정된 시간보다 오래된 그래프는 지워집니다." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="개발자: 모의 몬스터 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
