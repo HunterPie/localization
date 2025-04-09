@@ -473,6 +473,8 @@
                      String="파의룡의 수호" />
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="급습" />
+        <Abnormality Id="ABNORMALITY_BLANGONGA_SPIRIT"
+                     String="눈사자의 투지" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER"
                      String="버섯피리: 힘의 음색" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER_L"
@@ -3835,6 +3837,10 @@
                   String="퀘스트 목표" />
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="추론" />
+            <Enum Id="PLOT_SLIDING_AVG"
+                  String="평균 이동 DPS" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                  String="종합 DPS" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"

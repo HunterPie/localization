@@ -473,6 +473,8 @@
                      String="Uth Duna's Cover" />
         <Abnormality Id="ABNORMALITY_AMBUSH"
                      String="Ambush" />
+        <Abnormality Id="ABNORMALITY_BLANGONGA_SPIRIT"
+                     String="Blangonga's Spirit" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER"
                      String="Sporenet: Song o' Power" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER_L"
