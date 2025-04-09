@@ -3835,6 +3835,10 @@
                   String="Quest target" />
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="Inference" />
+            <Enum Id="PLOT_SLIDING_AVG"
+                  String="Average Moving DPS" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                  String="Overall DPS" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
