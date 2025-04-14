@@ -31,7 +31,7 @@
             <Ailment Id="AILMENT_THUNDER"
                      String="번개속성 피해" />
             <Ailment Id="AILMENT_DUNG"
-                     String="비료옥" />
+                     String="거름탄" />
             <Ailment Id="AILMENT_TRANQUILIZE"
                      String="마취" />
             <Ailment Id="AILMENT_KNOCKDOWN"
