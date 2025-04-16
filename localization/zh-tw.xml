@@ -240,6 +240,7 @@
         <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT" String="皮革製品的滑順質感" />
         <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER" String="波衣龍之守護" />
         <Abnormality Id="ABNORMALITY_AMBUSH" String="突襲" />
+	<Abnormality Id="ABNORMALITY_BLANGONGA_SPIRIT" String="雪獅子王之鬥志" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER" String="蘑菇笛——力量之音" />
         <Abnormality Id="ABNORMALITY_SPORENET_POWER_L" String="蘑菇笛——力量之音 (大)" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION" String="蘑菇笛——守護之音" />
@@ -3081,8 +3082,7 @@
             <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="看起來您尚未啟用自動備份。&#xA;您可以在帳號設定中啟用它。"/>
             <Poogie Id="BACKUP_NOT_FOUND_STRING" String="您沒有任何備份。"/>
             <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="一封包含更改帳號密碼所需代碼的電子郵件將發送至 {Email}。"/>
-            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
-                    String="密碼已成功變更。" />		 
+            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING" String="密碼已成功變更。" />		 
         </Integrations>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
@@ -3116,6 +3116,10 @@
                   String="任務目標"/>
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="自動推斷"/>
+	    <Enum Id="PLOT_SLIDING_AVG"
+                   String="移動平均DPS" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                   String="總平均DPS" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -3413,17 +3417,17 @@
                      String="顯示總傷害" 
                      Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/> 
 	    <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
-                     String="啟用平均波動DPS繪圖"
-                     Description="如果啟用，HunterPie 將基於最近幾秒鐘的平均DPS繪制你的DPS。采樣率可在採樣設置中配置。" />
+                     String="顯示移動平均DPS圖表"
+                     Description="如果啟用，HunterPie 將以每 X 秒為間隔，繪制你在過去 X 秒內的平均DPS圖表（可通過採樣率設定進行自定義）" />
             <Setting Id="DAMAGE_METER_SAMPLING_RATE"
-                     String="繪圖採樣率"
-                     Description="配置計算平均DPS時所使用的採樣秒數。" />
+                     String="圖表採樣率"
+                     Description="設定用於計算移動平均 DPS 圖表數據的時間間隔（單位：秒）" />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
-                     String="顯示繪圖波動窗口"
-                     Description="如果啟用，圖表將以波動圖的形式顯示，移除超出設定秒數的舊數據點。" />
+                     String="顯示滾動圖表"
+                     Description="如果啟用，圖表將隨時間向前移動，而不是壓縮顯示，並隱藏超過指定時間範圍的數據（可透過滾動窗口大小設定進行自定義）。" />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
-                     String="波動窗口大小"
-                     Description="配置圖表應顯示的秒數，超過此秒數的數據點將被清除。" />
+                     String="滾動窗口大小"
+                     Description="設定顯示滾動圖表窗口時圖表應顯示的總時間（單位：秒），超過該時間的數據將被隱藏。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開發人員：模擬魔物功能"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
