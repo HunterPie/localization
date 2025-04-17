@@ -866,6 +866,52 @@
                   String="Left Wingarm (Crystalized)" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                   String="Right Wingarm (Crystalized)" />
+            <Part Id="PART_SUPERHEAT"
+                  String="Superheat" />
+            <Part Id="PART_CEILING_FALL"
+                  String="Ceiling Fall" />
+            <Part Id="PART_SACK_COLLAPSE"
+                  String="Sack Collapse" />
+            <Part Id="PART_HEAD_SACK"
+                  String="Head Sack" />
+            <Part Id="PART_BACK_SACK"
+                  String="Back Sack" />
+            <Part Id="PART_TAIL_SACK"
+                  String="Tail Sack" />
+            <Part Id="PART_FIRE_STATE"
+                  String="Fire State" />
+            <Part Id="PART_L_F_ARM_FIRE"
+                  String="Front Left Arm (Fire)" />
+            <Part Id="PART_R_F_ARM_FIRE"
+                  String="Front Right Arm (Fire)" />
+            <Part Id="PART_M_L_ARM_FIRE"
+                  String="Middle Left Arm (Fire)" />
+            <Part Id="PART_M_R_ARM_FIRE"
+                  String="Middle Right Arm (Fire)" />
+            <Part Id="PART_REAR_L_ARM_FIRE"
+                  String="Rear Left Arm (Fire)" />
+            <Part Id="PART_REAR_R_ARM_FIRE"
+                  String="Rear Right Arm (Fire)" />
+            <Part Id="PART_L_F_ARM_OIL"
+                  String="Front Left Arm (Oil)" />
+            <Part Id="PART_R_F_ARM_OIL"
+                  String="Front Right Arm (Oil)" />
+            <Part Id="PART_M_L_ARM_OIL"
+                  String="Middle Left Arm (Oil)" />
+            <Part Id="PART_M_R_ARM_OIL"
+                  String="Middle Right Arm (Oil)" />
+            <Part Id="PART_REAR_L_ARM_OIL"
+                  String="Rear Left Arm (Oil)" />
+            <Part Id="PART_REAR_R_ARM_OIL"
+                  String="Rear Right Arm (Oil)" />
+            <Part Id="PART_L_FORELEG_REINFORCED"
+                  String="Left Foreleg (Reinf.)" />
+            <Part Id="PART_R_FORELEG_REINFORCED"
+                  String="Right Foreleg (Reinf.)" />
+            <Part Id="PART_CRASH"
+                  String="Crash" />
+            <Part Id="PART_AIR_FLINCH"
+                  String="Air Flinch" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -3635,6 +3681,8 @@
                     String="Details" />
             <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
                     String="Abnormalities" />
+            <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING"
+                    String="Toggle Health" />
         </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
