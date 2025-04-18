@@ -31,7 +31,7 @@
             <Ailment Id="AILMENT_THUNDER"
                      String="번개속성 피해" />
             <Ailment Id="AILMENT_DUNG"
-                     String="비료옥" />
+                     String="거름" />
             <Ailment Id="AILMENT_TRANQUILIZE"
                      String="마취" />
             <Ailment Id="AILMENT_KNOCKDOWN"
@@ -866,6 +866,52 @@
                   String="왼쪽 날갯죽지(백전정)" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                   String="오른쪽 날갯죽지(백전정)" />
+            <Part Id="PART_SUPERHEAT"
+                  String="고온 상태" />
+            <Part Id="PART_CEILING_FALL"
+                  String="천장 낙하" />
+            <Part Id="PART_SACK_COLLAPSE"
+                  String="가스 주머니 수축" />
+            <Part Id="PART_HEAD_SACK"
+                  String="머리 가스 주머니" />
+            <Part Id="PART_BACK_SACK"
+                  String="등 가스 주머니" />
+            <Part Id="PART_TAIL_SACK"
+                  String="꼬리 가스 주머니" />
+            <Part Id="PART_FIRE_STATE"
+                  String="화염 상태" />
+            <Part Id="PART_L_F_ARM_FIRE"
+                  String="왼쪽 첫 번째 팔 (불)" />
+            <Part Id="PART_R_F_ARM_FIRE"
+                  String="오른쪽 첫 번째 팔 (불)" />
+            <Part Id="PART_M_L_ARM_FIRE"
+                  String="왼쪽 두 번째 팔 (불)" />
+            <Part Id="PART_M_R_ARM_FIRE"
+                  String="오른쪽 두 번째 팔 (불)" />
+            <Part Id="PART_REAR_L_ARM_FIRE"
+                  String="왼쪽 세 번째 팔 (불)" />
+            <Part Id="PART_REAR_R_ARM_FIRE"
+                  String="오른쪽 세 번째 팔 (불)" />
+            <Part Id="PART_L_F_ARM_OIL"
+                  String="왼쪽 첫 번째 팔 (기름)" />
+            <Part Id="PART_R_F_ARM_OIL"
+                  String="오른쪽 첫 번째 팔 (기름)" />
+            <Part Id="PART_M_L_ARM_OIL"
+                  String="왼쪽 두 번째 팔 (기름)" />
+            <Part Id="PART_M_R_ARM_OIL"
+                  String="오른쪽 두 번째 팔 (기름)" />
+            <Part Id="PART_REAR_L_ARM_OIL"
+                  String="왼쪽 세 번째 팔 (기름)" />
+            <Part Id="PART_REAR_R_ARM_OIL"
+                  String="오른쪽 세 번째 팔 (기름)" />
+            <Part Id="PART_L_FORELEG_REINFORCED"
+                  String="왼쪽 앞다리 (점착성)" />
+            <Part Id="PART_R_FORELEG_REINFORCED"
+                  String="오른쪽 앞다리 (점착성)" />
+            <Part Id="PART_CRASH"
+                  String="격추" />
+            <Part Id="PART_AIR_FLINCH"
+                  String="공중 경직" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -3635,6 +3681,8 @@
                     String="세부 정보" />
             <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
                     String="상태 변화" />
+            <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING"
+                    String="체력 토글" />
         </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
