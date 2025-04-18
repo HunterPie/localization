@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.776-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.838-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -68,9 +68,8 @@
                      String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG"
                      String="钢铁牙" />
-            <!--TODO: 根据us原文更新记录该句为荒野更新后出现，因此判定为荒野的角力，若崛起真有该中文翻译麻烦请修改 -->
             <Ailment Id="AILMENT_CLASH"
-                     String="角力" />
+                     String="坠落" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -833,23 +832,23 @@
             <Part Id="PART_TONGUE"
                      String="舌头" />
             <Part Id="PART_R_HEAD_VEIL"
-                     String="液膜（头部右侧）" />
+                     String="水膜（头部右侧）" />
             <Part Id="PART_L_HEAD_VEIL"
-                     String="液膜（头部左侧）" />
+                     String="水膜（头部左侧）" />
             <Part Id="PART_R_TORSO_VEIL"
-                     String="液膜（身体右侧）" />
+                     String="水膜（身体右侧）" />
             <Part Id="PART_L_TORSO_VEIL"
-                     String="液膜（身体左侧）" />
+                     String="水膜（身体左侧）" />
             <Part Id="PART_R_FORELEG_VEIL"
-                     String="液膜（右前脚）" />
+                     String="水膜（右前脚）" />
             <Part Id="PART_L_FORELEG_VEIL"
-                     String="液膜（左前脚）" />
+                     String="水膜（左前脚）" />
             <Part Id="PART_R_TAIL_VEIL"
-                     String="液膜（尾巴右侧）" />
+                     String="水膜（尾巴右侧）" />
             <Part Id="PART_L_TAIL_VEIL"
-                     String="液膜（尾巴左侧）" />
+                     String="水膜（尾巴左侧）" />
             <Part Id="PART_M_TAIL_VEIL"
-                     String="液膜（尾巴中央）" />
+                     String="水膜（尾巴）" />
             <Part Id="PART_TENTACLE"
                      String="触手" />
             <Part Id="PART_MEMBRANE"
@@ -879,11 +878,57 @@
             <Part Id="PART_LG_ICEPLATE_EXPOSED"
                      String="大冻凝壳（露出后）" />
             <Part Id="PART_HEAD_CRYSTALIZED"
-                     String="头（白缠晶）" />
+                     String="头部（白缠晶）" />
             <Part Id="PART_L_WINGARM_CRYSTALIZED"
                      String="左翼臂（白缠晶）" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                      String="右翼臂（白缠晶）" />
+            <Part Id="PART_SUPERHEAT"
+                  String="超高热状态" />
+            <Part Id="PART_CEILING_FALL"
+                  String="悬挂掉落" />
+            <Part Id="PART_SACK_COLLAPSE"
+                  String="囊体崩塌（泄气）" />
+            <Part Id="PART_HEAD_SACK"
+                  String="头部囊体" />
+            <Part Id="PART_BACK_SACK"
+                  String="背部囊体" />
+            <Part Id="PART_TAIL_SACK"
+                  String="尾部囊体" />
+            <Part Id="PART_FIRE_STATE"
+                  String="火焰状态" />
+            <Part Id="PART_L_F_ARM_FIRE"
+                  String="第一左触手（火）" />
+            <Part Id="PART_R_F_ARM_FIRE"
+                  String="第一右触手（火）" />
+            <Part Id="PART_M_L_ARM_FIRE"
+                  String="第二左触手（火）" />
+            <Part Id="PART_M_R_ARM_FIRE"
+                  String="第二右触手（火）" />
+            <Part Id="PART_REAR_L_ARM_FIRE"
+                  String="第三左触手（火）" />
+            <Part Id="PART_REAR_R_ARM_FIRE"
+                  String="第三右触手（火）" />
+            <Part Id="PART_L_F_ARM_OIL"
+                  String="第一左触手（油）" />
+            <Part Id="PART_R_F_ARM_OIL"
+                  String="第一右触手（油）" />
+            <Part Id="PART_M_L_ARM_OIL"
+                  String="第二左触手（油）" />
+            <Part Id="PART_M_R_ARM_OIL"
+                  String="第二右触手（油）" />
+            <Part Id="PART_REAR_L_ARM_OIL"
+                  String="第三左触手（油）" />
+            <Part Id="PART_REAR_R_ARM_OIL"
+                  String="第三右触手（油）" />
+            <Part Id="PART_L_FORELEG_REINFORCED"
+                  String="左前肢（强化）" />
+            <Part Id="PART_R_FORELEG_REINFORCED"
+                  String="右前肢（强化）" />
+            <Part Id="PART_CRASH"
+                  String="坠落" />
+            <Part Id="PART_AIR_FLINCH"
+                  String="踉跄" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -3666,6 +3711,8 @@
                     String="伤害详情" />
             <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
                     String="本机玩家状态" />
+            <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING"
+                    String="切换血量显示" />
         </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
