@@ -884,6 +884,53 @@
                      String="左翼臂（白缠晶）" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                      String="右翼臂（白缠晶）" />
+       <!--TODO:因为个人原因所以暂时无法一一校验，若有错误请修改-->
+            <Part Id="PART_SUPERHEAT"
+                  String="超高热状态" />
+            <Part Id="PART_CEILING_FALL"
+                  String="天花板崩塌" />
+            <Part Id="PART_SACK_COLLAPSE"
+                  String="囊体崩塌" />
+            <Part Id="PART_HEAD_SACK"
+                  String="头部囊体" />
+            <Part Id="PART_BACK_SACK"
+                  String="背部囊体" />
+            <Part Id="PART_TAIL_SACK"
+                  String="尾部囊体" />
+            <Part Id="PART_FIRE_STATE"
+                  String="火焰状态" />
+            <Part Id="PART_L_F_ARM_FIRE"
+                  String="左前臂（火）" />
+            <Part Id="PART_R_F_ARM_FIRE"
+                  String="右前臂（火）" />
+            <Part Id="PART_M_L_ARM_FIRE"
+                  String="左中臂（火）" />
+            <Part Id="PART_M_R_ARM_FIRE"
+                  String="右中臂（火）" />
+            <Part Id="PART_REAR_L_ARM_FIRE"
+                  String="左后臂（火）" />
+            <Part Id="PART_REAR_R_ARM_FIRE"
+                  String="右后臂（火）" />
+            <Part Id="PART_L_F_ARM_OIL"
+                  String="左前臂（油）" />
+            <Part Id="PART_R_F_ARM_OIL"
+                  String="右前臂（油）" />
+            <Part Id="PART_M_L_ARM_OIL"
+                  String="左中臂（油）" />
+            <Part Id="PART_M_R_ARM_OIL"
+                  String="右中臂（油）" />
+            <Part Id="PART_REAR_L_ARM_OIL"
+                  String="左后臂（油）" />
+            <Part Id="PART_REAR_R_ARM_OIL"
+                  String="右后臂（油）" />
+            <Part Id="PART_L_FORELEG_REINFORCED"
+                  String="左前脚（强化）" />
+            <Part Id="PART_R_FORELEG_REINFORCED"
+                  String="右前脚（强化）" />
+            <Part Id="PART_CRASH"
+                  String="角力" />
+            <Part Id="PART_AIR_FLINCH"
+                  String="空中踉跄" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -3666,6 +3713,8 @@
                     String="伤害详情" />
             <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
                     String="本机玩家状态" />
+            <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING"
+                    String="切换血量显示" />
         </Main>
         <Overlay>
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
