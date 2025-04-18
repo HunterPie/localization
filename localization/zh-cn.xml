@@ -68,9 +68,8 @@
                      String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG"
                      String="钢铁牙" />
-            <!--TODO: 根据us原文更新记录该句为荒野更新后出现，因此判定为荒野的角力，若崛起真有该中文翻译麻烦请修改 -->
             <Ailment Id="AILMENT_CLASH"
-                     String="角力" />
+                     String="坠落" />
         </Rise>
     </Ailments>
     <Abnormalities>
