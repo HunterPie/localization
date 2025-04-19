@@ -1,418 +1,1144 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml version='1.0' encoding='utf-8'?>
 <Strings lang="Русский">
     <Ailments>
         <Rise>
-            <Ailment Id="AILMENT_UNKNOWN" String="Неизвестно"/>
-            <Ailment Id="AILMENT_PARALYSIS" String="Паралич"/>
-            <Ailment Id="AILMENT_SLEEP" String="Сон"/>
-            <Ailment Id="AILMENT_STUN" String="Оглушение"/>
-            <Ailment Id="AILMENT_POISON" String="Яд"/>
-            <Ailment Id="AILMENT_BLAST" String="Взрыв"/>
-            <Ailment Id="AILMENT_EXHAUST" String="Истощение"/>
-            <Ailment Id="AILMENT_MOUNT" String="Оседлать"/>
-            <Ailment Id="AILMENT_FLASH" String="Ослепление"/>
-            <Ailment Id="AILMENT_WATER" String="Водная Порча"/>
-            <Ailment Id="AILMENT_FIRE" String="Огненная Порча"/>
-            <Ailment Id="AILMENT_ICE" String="Ледяная Порча"/>
-            <Ailment Id="AILMENT_THUNDER" String="Грозовая Порча"/>
-            <Ailment Id="AILMENT_TRANQUILIZE" String="Усыпление"/>
-            <Ailment Id="STATUS_ENRAGE" String="Бешенство"/>
+            <Ailment Id="AILMENT_UNKNOWN" String="Неизвестно" />
+            <Ailment Id="AILMENT_PARALYSIS" String="Паралич" />
+            <Ailment Id="AILMENT_SLEEP" String="Сон" />
+            <Ailment Id="AILMENT_STUN" String="Оглушение" />
+            <Ailment Id="AILMENT_POISON" String="Яд" />
+            <Ailment Id="AILMENT_BLAST" String="Взрыв" />
+            <Ailment Id="AILMENT_EXHAUST" String="Истощение" />
+            <Ailment Id="AILMENT_MOUNT" String="Оседлать" />
+            <Ailment Id="AILMENT_FLASH" String="Ослепление" />
+            <Ailment Id="AILMENT_WATER" String="Водная Порча" />
+            <Ailment Id="AILMENT_FIRE" String="Огненная Порча" />
+            <Ailment Id="AILMENT_ICE" String="Ледяная Порча" />
+            <Ailment Id="AILMENT_THUNDER" String="Грозовая Порча" />
+            <Ailment Id="AILMENT_TRANQUILIZE" String="Усыпление" />
+            <Ailment Id="STATUS_ENRAGE" String="Бешенство" />
         </Rise>
     </Ailments>
     <Abnormalities>
-        <Abnormality Id="ABNORMALITY_UNKNOWN" String="Неизвестно"/>
-        <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="Самосовершенствование"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Усиление атаки"/>
-        <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Усиление защиты"/>
-        <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Усиление мастерства"/>
-        <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Усиление атаки стихией"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Усиление атаки и защиты"/>
-        <Abnormality Id="ABNORMALITY_ATTACK_AFFINITY_UP" String="Усиление атаки и мастерства"/>
-        <Abnormality Id="ABNORMALITY_KNOCKBACK_NEG" String="Нейтрализация сбив. с ног"/>
-        <Abnormality Id="ABNORMALITY_EARPLUG" String="Наушники (S)"/>
-        <Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="Наушники (L)"/>
-        <Abnormality Id="ABNORMALITY_TREMORS_NEG" String="Нейтрализация тряски"/>
-        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="Отмена давления ветра"/>
-        <Abnormality Id="ABNORMALITY_STUN_NEG" String="Нейтрализация оглушения"/>
-        <Abnormality Id="ABNORMALITY_BLIGHT_NEG" String="Снятие порчи"/>
-        <Abnormality Id="ABNORMALITY_DIVINE_PROTECTION" String="Божественная защита"/>
-        <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Восст. здоровья (S)"/>
-        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Усиление выносливости"/>
-        <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Улучш. восст. выносливости"/>
-        <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Замедление затупления"/>
-        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Регенерация остроты"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Увеличение шкалы остроты"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_ENV_NEG" String="Отмена урона окружением"/>
-        <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Звуковой барьер"/>
-        <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Дьявольская мелодия"/>
+        <Abnormality Id="ABNORMALITY_UNKNOWN" String="Неизвестно" />
+        <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="Самосовершенствование" />
+        <Abnormality Id="ABNORMALITY_ATTACK_UP" String="Усиление атаки" />
+        <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="Усиление защиты" />
+        <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="Усиление мастерства" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="Усиление атаки стихией" />
+        <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="Усиление атаки и защиты" />
+        <Abnormality Id="ABNORMALITY_ATTACK_AFFINITY_UP" String="Усиление атаки и мастерства" />
+        <Abnormality Id="ABNORMALITY_KNOCKBACK_NEG" String="Нейтрализация сбив. с ног" />
+        <Abnormality Id="ABNORMALITY_EARPLUG" String="Наушники (S)" />
+        <Abnormality Id="ABNORMALITY_EARPLUG_PLUS" String="Наушники (L)" />
+        <Abnormality Id="ABNORMALITY_TREMORS_NEG" String="Нейтрализация тряски" />
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="Отмена давления ветра" />
+        <Abnormality Id="ABNORMALITY_STUN_NEG" String="Нейтрализация оглушения" />
+        <Abnormality Id="ABNORMALITY_BLIGHT_NEG" String="Снятие порчи" />
+        <Abnormality Id="ABNORMALITY_DIVINE_PROTECTION" String="Божественная защита" />
+        <Abnormality Id="ABNORMALITY_HEALTH_REGEN" String="Восст. здоровья (S)" />
+        <Abnormality Id="ABNORMALITY_STAMINA_USE_RED" String="Усиление выносливости" />
+        <Abnormality Id="ABNORMALITY_STAMINA_REC_UP" String="Улучш. восст. выносливости" />
+        <Abnormality Id="ABNORMALITY_SHARPNESS_RED" String="Замедление затупления" />
+        <Abnormality Id="ABNORMALITY_SHARPNESS_REGEN" String="Регенерация остроты" /> 
+        <Abnormality Id="ABNORMALITY_SHARPNESS_EXTENSION" String="Увеличение шкалы остроты" /> 
+        <Abnormality Id="ABNORMALITY_ENV_NEG" String="Отмена урона окружением" />
+        <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="Звуковой барьер" />
+        <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="Дьявольская мелодия" />
         
-        <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="Зер. могущества"/>
-        <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Огнебабочка"/>
-        <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Стрекоза-нож"/>
-        <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Адамант. зерно"/>
-        <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Тканебабочка"/>
-        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Сок бодрости"/>
-        <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Демон. порошок"/>
-        <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER" String="Пор. из скорлупы"/>
-        <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="Иммунатор"/>
-        <Abnormality Id="ABNORMALITY_REDLAMPSQUID" String="Красный Лампокальмар"/>
-        <Abnormality Id="ABNORMALITY_YELLOWLAMPSQUID" String="Желтый Лампокальмар"/>
-        <Abnormality Id="ABNORMALITY_GOURMET_FISH" String="Вкусная рыба"/>
-        <Abnormality Id="ABNORMALITY_IMMUNITY" String="Иммунитет"/>
-        <Abnormality Id="ABNORMALITY_GO_FIGHT_WIN" String="Сражайся, побеждай"/>
-        <Abnormality Id="ABNORMALITY_POWER_DRUM" String="Барабан силы"/>
-        <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Воодушевляющий рев"/>
-        <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Демон. снаряды"/>
-        <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Защитные снаряды"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="Зер. могущества" />
+        <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="Огнебабочка" />
+        <Abnormality Id="ABNORMALITY_CUTTERFLY" String="Стрекоза-нож" />
+        <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="Адамант. зерно" />
+        <Abnormality Id="ABNORMALITY_CLOTHFLY" String="Тканебабочка" />
+        <Abnormality Id="ABNORMALITY_DASH_JUICE" String="Сок бодрости" />
+        <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="Демон. порошок" />
+        <Abnormality Id="ABNORMALITY_HARDSHELL_POWDER" String="Пор. из скорлупы" />
+        <Abnormality Id="ABNORMALITY_NATURAL_HEALING" String="Иммунатор" />
+        <Abnormality Id="ABNORMALITY_REDLAMPSQUID" String="Красный Лампокальмар" />
+        <Abnormality Id="ABNORMALITY_YELLOWLAMPSQUID" String="Желтый Лампокальмар" />
+        <Abnormality Id="ABNORMALITY_GOURMET_FISH" String="Вкусная рыба" />
+        <Abnormality Id="ABNORMALITY_IMMUNITY" String="Иммунитет" />
+        <Abnormality Id="ABNORMALITY_GO_FIGHT_WIN" String="Сражайся, побеждай" />
+        <Abnormality Id="ABNORMALITY_POWER_DRUM" String="Барабан силы" />
+        <Abnormality Id="ABNORMALITY_ROUSING_ROAR" String="Воодушевляющий рев" />
+        <Abnormality Id="ABNORMALITY_DEMON_AMMO" String="Демон. снаряды" />
+        <Abnormality Id="ABNORMALITY_ARMOR_AMMO" String="Защитные снаряды" />
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Иммунитет к безумию" /> 
         
-        <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Данго-пижон"/>
-        <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Данго-усилитель"/>
-        <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Данго-обжора"/>
-        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Данго-защитник"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="Данго-пижон" />
+        <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="Данго-усилитель" />
+        <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="Данго-обжора" />
+        <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="Данго-защитник" /> 
         
-        <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Контрудар"/>
-        <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Скрытая энергия"/>
-        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Мастерский подкат"/>
+        <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Контрудар" />
+        <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Скрытая энергия" />
+        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Мастерский подкат" />
         
 
-        <Abnormality Id="ABNORMALITY_POISON" String="Яд"/>
-        <Abnormality Id="ABNORMALITY_VENOM" String="Сильный Яд"/>
-        <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Защита снижена"/>
-        <Abnormality Id="ABNORMALITY_RES_DOWN" String="Сопротивление снижено"/>
-        <Abnormality Id="ABNORMALITY_STENCH" String="Зловоние"/>
-        <Abnormality Id="ABNORMALITY_HELLFIRE" String="Порча Адского Пламени"/>
-        <Abnormality Id="ABNORMALITY_BLAST" String="Взрывная Порча"/>
-        <Abnormality Id="ABNORMALITY_FIRE" String="Огненная Порча"/>
-        <Abnormality Id="ABNORMALITY_WATER" String="Водная Порча"/>
-        <Abnormality Id="ABNORMALITY_ICE" String="Ледяная Порча"/>
-        <Abnormality Id="ABNORMALITY_THUNDER" String="Грозовая Порча"/>
-        <Abnormality Id="ABNORMALITY_DRAGON" String="Драконья Порча"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES" String="Пузырек (S)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Пузырек (L)"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Бешенство (Buildup)"/> <!-- Buildup needs to translate -->
-        <Abnormality Id="ABNORMALITY_FRENZY" String="Бешенство"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_WEBBED" String="В паутине"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_LEECHED" String="Истощение"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_POISON" String="Яд" />
+        <Abnormality Id="ABNORMALITY_VENOM" String="Сильный яд" />
+        <Abnormality Id="ABNORMALITY_DEF_DOWN" String="Снижение защиты" />
+        <Abnormality Id="ABNORMALITY_RES_DOWN" String="Снижение сопротивления" />
+        <Abnormality Id="ABNORMALITY_STENCH" String="Зловоние" />
+        <Abnormality Id="ABNORMALITY_HELLFIRE" String="Порча адского пламени" />
+        <Abnormality Id="ABNORMALITY_BLAST" String="Взрывная порча" />
+        <Abnormality Id="ABNORMALITY_FIRE" String="Огненная порча" />
+        <Abnormality Id="ABNORMALITY_WATER" String="Водная порча" />
+        <Abnormality Id="ABNORMALITY_ICE" String="Ледяная порча" />
+        <Abnormality Id="ABNORMALITY_THUNDER" String="Грозовая порча" />
+        <Abnormality Id="ABNORMALITY_DRAGON" String="Драконья порча" />
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Пузырек (S)" /> 
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Пузырек (L)" /> 
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Бешенство (Buildup)" /> 
+        <Abnormality Id="ABNORMALITY_FRENZY" String="Бешенство" /> 
+        <Abnormality Id="ABNORMALITY_WEBBED" String="В паутине" /> 
+        <Abnormality Id="ABNORMALITY_LEECHED" String="Истощение" /> 
     </Abnormalities>
     <Monsters>
         <Shared>
-            <Part Id="PART_UNKNOWN" String="???"/>
-            <Part Id="PART_HEAD" String="Голова"/>
-            <Part Id="PART_TORSO" String="Туловище"/>
-            <Part Id="PART_L_WING" String="Левое Крыло"/>
-            <Part Id="PART_R_WING" String="Правое Крыло"/>
-            <Part Id="PART_L_LEG" String="Левая Нога"/>
-            <Part Id="PART_R_LEG" String="Права Нога"/>
-            <Part Id="PART_TAIL" String="Хвост"/>
-            <Part Id="PART_NECK" String="Шея"/>
-            <Part Id="PART_L_ARM" String="Левая Лапа"/>
-            <Part Id="PART_R_ARM" String="Правая Лапа"/>
-            <Part Id="PART_BACK" String="Спина"/>
-            <Part Id="PART_WINGS" String="Крылья"/>
-            <Part Id="PART_FORELEGS" String="Передние Ноги"/>
-            <Part Id="PART_H_LEGS" String="Задние Ноги"/>
-            <Part Id="PART_L_CUTWING" String="Левый Часть Крыла"/>
-            <Part Id="PART_R_CUTWING" String="Правая Часть Крыла"/>
-            <Part Id="PART_ARMS" String="Руки"/>
-            <Part Id="PART_HEAD_MUD" String="Голова (В Грязи)"/>
-            <Part Id="PART_TORSO_MUD" String="Тело (В Грязи)"/>
-            <Part Id="PART_ARMS_MUD" String="Лапы (В Грязи)"/>
-            <Part Id="PART_L_LEG_MUD" String="Грязная Левая Нога"/>
-            <Part Id="PART_R_LEG_MUD" String="Грязная Правая Нога"/>
-            <Part Id="PART_TAIL_MUD" String="Хвост (В Грязи)"/>
-            <Part Id="PART_SPONGE" String="Губка"/>
-            <Part Id="PART_L_LEGS" String="Левые Ноги"/>
-            <Part Id="PART_R_LEGS" String="Правые Ноги"/>
-            <Part Id="PART_BODY" String="Тело"/>
-            <Part Id="PART_UPPER_BODY" String="Верхняя Часть Тела"/>
-            <Part Id="PART_REAR" String="Зад"/>
-            <Part Id="PART_LOWER_BODY" String="Нижняя Часть Тела"/>
-            <Part Id="PART_UPPER_BACK" String="Верх Спины"/>
-            <Part Id="PART_LOWER_BACK" String="Низ Спины"/>
-            <Part Id="PART_ROLLING" String="Вращается"/>
-            <Part Id="PART_DORSAL_FIN" String="Плавник на Спине"/>
-            <Part Id="PART_LEGS" String="Ноги"/>
-            <Part Id="PART_SHELL" String="Панцирь"/>
-            <Part Id="PART_CLAW" String="Коготь"/>
-            <Part Id="PART_L_FORELEG" String="Левая Передняя Нога"/>
-            <Part Id="PART_R_FORELEG" String="Правая Передняя Нога"/>
-            <Part Id="PART_L_H_LEG" String="Левая Задняя Нога"/>
-            <Part Id="PART_R_H_LEG" String="Правая Задняя Нога"/>
-            <Part Id="PART_CHEST" String="Живот"/>
-            <Part Id="PART_TAIL_TIP" String="Кончик хвоста"/>
-            <Part Id="PART_MUD_BALL" String="Шар Грязи"/>
-            <Part Id="PART_LOWER_TORSO" String="Нижняя Часть Туловища"/>
-            <Part Id="PART_TAIL_WINDSAC" String="Хвост (Мешок Ветра)"/>
-            <Part Id="PART_CHEST_WINDSAC" String="Грудь (Мешок Ветра)"/>
-            <Part Id="PART_BACK_WINDSAC" String="Спина (Мешок Ветра)"/>
-            <Part Id="PART_L_ARM_ICE" String="Левая Лапа (Лед)"/>
-            <Part Id="PART_R_ARM_ICE" String="Правая Лапа (Лед)"/>
-            <Part Id="PART_B_LEG_FINS" String="Ласты Задних Ног"/>
-            <Part Id="PART_THUNDERBALLS" String="Грозовые Шары"/>
-            <Part Id="PART_ROCK" String="Камень"/>
-            <Part Id="PART_POT" String="Кувшин"/>
+            <Part Id="PART_UNKNOWN" String="???" />
+            <Part Id="PART_HEAD" String="Голова" />
+            <Part Id="PART_TORSO" String="Туловище" />
+            <Part Id="PART_L_WING" String="Левое крыло" />
+            <Part Id="PART_R_WING" String="Правое крыло" />
+            <Part Id="PART_L_LEG" String="Левая нога" />
+            <Part Id="PART_R_LEG" String="Правая нога" />
+            <Part Id="PART_TAIL" String="Хвост" />
+            <Part Id="PART_NECK" String="Шея" />
+            <Part Id="PART_L_ARM" String="Левая лапа" />
+            <Part Id="PART_R_ARM" String="Правая лапа" />
+            <Part Id="PART_BACK" String="Спина" />
+            <Part Id="PART_WINGS" String="Крылья" />
+            <Part Id="PART_FORELEGS" String="Передние ноги" />
+            <Part Id="PART_H_LEGS" String="Задние ноги" />
+            <Part Id="PART_L_CUTWING" String="Левое крыло" />
+            <Part Id="PART_R_CUTWING" String="Правое крыло" />
+            <Part Id="PART_ARMS" String="Руки" />
+            <Part Id="PART_HEAD_MUD" String="Голова (в грязи)" />
+            <Part Id="PART_TORSO_MUD" String="Тело (в грязи)" />
+            <Part Id="PART_ARMS_MUD" String="Лапы (в грязи)" />
+            <Part Id="PART_L_LEG_MUD" String="Левая нога (в грязи)" />
+            <Part Id="PART_R_LEG_MUD" String="Правая нога (в грязи)" />
+            <Part Id="PART_TAIL_MUD" String="Хвост (в грязи)" />
+            <Part Id="PART_SPONGE" String="Губка" />
+            <Part Id="PART_L_LEGS" String="Левая нога" />
+            <Part Id="PART_R_LEGS" String="Правая нога" />
+            <Part Id="PART_BODY" String="Тело" />
+            <Part Id="PART_UPPER_BODY" String="Верхняя часть тела" />
+            <Part Id="PART_REAR" String="Зад" />
+            <Part Id="PART_LOWER_BODY" String="Нижняя часть тела" />
+            <Part Id="PART_UPPER_BACK" String="Верх спины" />
+            <Part Id="PART_LOWER_BACK" String="Низ спины" />
+            <Part Id="PART_ROLLING" String="Вращается" />
+            <Part Id="PART_DORSAL_FIN" String="Плавник" />
+            <Part Id="PART_LEGS" String="Ноги" />
+            <Part Id="PART_SHELL" String="Панцирь" />
+            <Part Id="PART_CLAW" String="Коготь" />
+            <Part Id="PART_L_FORELEG" String="Левая передняя нога" />
+            <Part Id="PART_R_FORELEG" String="Правая передняя нога" />
+            <Part Id="PART_L_H_LEG" String="Левая задняя нога" />
+            <Part Id="PART_R_H_LEG" String="Правая задняя нога" />
+            <Part Id="PART_CHEST" String="Живот" />
+            <Part Id="PART_TAIL_TIP" String="Кончик хвоста" />
+            <Part Id="PART_MUD_BALL" String="Шар Грязи" />
+            <Part Id="PART_LOWER_TORSO" String="Нижняя часть туловища" />
+            <Part Id="PART_TAIL_WINDSAC" String="Хвост (мешок ветра)" />
+            <Part Id="PART_CHEST_WINDSAC" String="Грудь (мешок ветра)" />
+            <Part Id="PART_BACK_WINDSAC" String="Спина (мешок ветра)" />
+            <Part Id="PART_L_ARM_ICE" String="Левая лапа (во льду)" />
+            <Part Id="PART_R_ARM_ICE" String="Правая лапа (во льду)" />
+            <Part Id="PART_B_LEG_FINS" String="Задние ласты" />
+            <Part Id="PART_THUNDERBALLS" String="Грозовые шары" />
+            <Part Id="PART_ROCK" String="Камень" />
+            <Part Id="PART_POT" String="Кувшин" />
         </Shared>
         <Rise>
-            <Monster Id="0" String="Ратиана"/>
-            <Monster Id="1" String="Высшая Ратиана"/>
-            <Monster Id="2" String="Раталос"/>
-            <Monster Id="3" String="Высший Раталос"/>
-            <Monster Id="4" String="Кезу"/>
-            <Monster Id="5" String="Базариос"/>
-            <Monster Id="6" String="Диаблос"/>
-            <Monster Id="7" String="Высший Диаблос"/>
-            <Monster Id="8" String="Раянг"/>
-            <Monster Id="9" String="Кушала-даора"/>
-            <Monster Id="10" String="Хамелеос"/>
-            <Monster Id="11" String="Теостра"/>
-            <Monster Id="12" String="Тигрекс"/>
-            <Monster Id="13" String="Наргакуга"/>
-            <Monster Id="14" String="Бариот"/>
-            <Monster Id="15" String="Баррот"/>
-            <Monster Id="16" String="Королевский Лудрот"/>
-            <Monster Id="17" String="Большой Багги"/>
-            <Monster Id="18" String="Зиногр"/>
-            <Monster Id="19" String="Высший Зиногр"/>
-            <Monster Id="20" String="Большой Врогги"/>
-            <Monster Id="21" String="Арзурос"/>
-            <Monster Id="22" String="Высший Арзурос"/>
-            <Monster Id="23" String="Лагомби"/>
-            <Monster Id="24" String="Вольвидон"/>
-            <Monster Id="25" String="Мидзуцунэ"/>
-            <Monster Id="26" String="Высший Мидзуцунэ"/>
-            <Monster Id="27" String="Багровое сияние Вальстракс"/>
-            <Monster Id="28" String="Магнамало"/>
-            <Monster Id="29" String="Бисятэн"/>
-            <Monster Id="30" String="Акносом"/>
-            <Monster Id="31" String="Тетранадон"/>
-            <Monster Id="32" String="Сомнакант"/>
-            <Monster Id="33" String="Ракна-Кадаки"/>
-            <Monster Id="34" String="Альмудрон"/>
-            <Monster Id="35" String="Змей ветра Ибуси"/>
-            <Monster Id="36" String="Госс-Хараг"/>
-            <Monster Id="37" String="Большой Идзути"/>
-            <Monster Id="38" String="Змей грома Нарва"/>
-            <Monster Id="39" String="Нарва Всемать"/>
-            <Monster Id="40" String="Аньянат"/>
-            <Monster Id="41" String="Поки-Поки"/>
-            <Monster Id="42" String="Кулу-Йа-Ку"/>
-            <Monster Id="43" String="Юратод"/>
-            <Monster Id="44" String="Тоби-Кадачи"/>
-            <Monster Id="45" String="Базельгейс"/>
-            <Monster Id="46" String="Жабовраг"/>
+            <Monster Id="0" String="Ратиана" />
+            <Monster Id="1" String="Высшая Ратиана" />
+            <Monster Id="2" String="Раталос" />
+            <Monster Id="3" String="Высший Раталос" />
+            <Monster Id="4" String="Кезу" />
+            <Monster Id="5" String="Базариос" />
+            <Monster Id="6" String="Диаблос" />
+            <Monster Id="7" String="Высший Диаблос" />
+            <Monster Id="8" String="Раянг" />
+            <Monster Id="9" String="Кушала-даора" />
+            <Monster Id="10" String="Хамелеос" />
+            <Monster Id="11" String="Теостра" />
+            <Monster Id="12" String="Тигрекс" />
+            <Monster Id="13" String="Наргакуга" />
+            <Monster Id="14" String="Бариот" />
+            <Monster Id="15" String="Баррот" />
+            <Monster Id="16" String="Королевский Лудрот" />
+            <Monster Id="17" String="Большой Багги" />
+            <Monster Id="18" String="Зиногр" />
+            <Monster Id="19" String="Высший Зиногр" />
+            <Monster Id="20" String="Большой Врогги" />
+            <Monster Id="21" String="Арзурос" />
+            <Monster Id="22" String="Высший Арзурос" />
+            <Monster Id="23" String="Лагомби" />
+            <Monster Id="24" String="Вольвидон" />
+            <Monster Id="25" String="Мидзуцунэ" />
+            <Monster Id="26" String="Высший Мидзуцунэ" />
+            <Monster Id="27" String="Багровое сияние Вальстракс" />
+            <Monster Id="28" String="Магнамало" />
+            <Monster Id="29" String="Бисятэн" />
+            <Monster Id="30" String="Акносом" />
+            <Monster Id="31" String="Тетранадон" />
+            <Monster Id="32" String="Сомнакант" />
+            <Monster Id="33" String="Ракна-Кадаки" />
+            <Monster Id="34" String="Альмудрон" />
+            <Monster Id="35" String="Змей ветра Ибуси" />
+            <Monster Id="36" String="Госс-Хараг" />
+            <Monster Id="37" String="Большой Идзути" />
+            <Monster Id="38" String="Змей грома Нарва" />
+            <Monster Id="39" String="Нарва Всемать" />
+            <Monster Id="40" String="Аньянат" />
+            <Monster Id="41" String="Поки-Поки" />
+            <Monster Id="42" String="Кулу-Йа-Ку" />
+            <Monster Id="43" String="Юратод" />
+            <Monster Id="44" String="Тоби-Кадачи" />
+            <Monster Id="45" String="Базельгейс" />
+            <Monster Id="46" String="Жабовраг" />
         </Rise>
+		<World>
+            <Monster Id="0" String="Аньянат" />
+            <Monster Id="1" String="Раталос" />
+            <Monster Id="4" String="Дзора Магдарос" />
+            <Monster Id="7" String="Большой яграс" />
+            <Monster Id="9" String="Ратиана" />
+            <Monster Id="10" String="Розовая ратиана" />
+            <Monster Id="11" String="Лазурный раталос" />
+            <Monster Id="12" String="Диаблос" />
+            <Monster Id="13" String="Черная диаблос" />
+            <Monster Id="14" String="Кирин" />
+            <Monster Id="15" String="Бахамут" />
+            <Monster Id="16" String="Кушала-даора" />
+            <Monster Id="17" String="Лунастра" />
+            <Monster Id="18" String="Теостра" />
+            <Monster Id="19" String="Лавасиот" />
+            <Monster Id="20" String="Девильо" />
+            <Monster Id="21" String="Баррот" />
+            <Monster Id="22" String="Урагаан" />
+            <Monster Id="23" String="Леший" />
+            <Monster Id="24" String="Поки-поки" />
+            <Monster Id="25" String="Нергигант" />
+            <Monster Id="26" String="Ксено'джиива" />
+            <Monster Id="27" String="Кулу-йа-ку" />
+            <Monster Id="28" String="Цици-йа-ку" />
+            <Monster Id="29" String="Юратод" />
+            <Monster Id="30" String="Тоби-кадачи" />
+            <Monster Id="31" String="Паолуму" />
+            <Monster Id="32" String="Легиана" />
+            <Monster Id="33" String="Большой гиррос" />
+            <Monster Id="34" String="Одогарон" />
+            <Monster Id="35" String="Радобаан" />
+            <Monster Id="36" String="Ваал-хазак" />
+            <Monster Id="37" String="Додогама" />
+            <Monster Id="38" String="Кулве Тарот" />
+            <Monster Id="39" String="Базельгейс" />
+            <Monster Id="51" String="Древний леший" />
+            <Monster Id="61" String="Тигрекс" />
+            <Monster Id="62" String="Наргакуга" />
+            <Monster Id="63" String="Бариот" />
+            <Monster Id="64" String="Лютый девильо" />
+            <Monster Id="65" String="Брахидиос" />
+            <Monster Id="66" String="Главенус" />
+            <Monster Id="67" String="Кислотный главенус" />
+            <Monster Id="68" String="Громовой аньянат" />
+            <Monster Id="69" String="Коралловый поки-поки" />
+            <Monster Id="70" String="Нергигант-губитель" />
+            <Monster Id="71" String="Аспидовый тоби-кадачи" />
+            <Monster Id="72" String="Ночной паолуму" />
+            <Monster Id="73" String="Визжащая легиана" />
+            <Monster Id="74" String="Эбеновый одогарон" />
+            <Monster Id="75" String="Тленный Ваал-хазак" />
+            <Monster Id="76" String="Вспыльчивый базельгейс" />
+            <Monster Id="77" String="Беотод" />
+            <Monster Id="78" String="Банбаро" />
+            <Monster Id="79" String="Велхана" />
+            <Monster Id="80" String="Намиэль" />
+            <Monster Id="81" String="Шара-ишвалда" />
+            <Monster Id="87" String="Алатреон" />
+            <Monster Id="88" String="Золотая ратиана" />
+            <Monster Id="89" String="Серебристый раталос" />
+            <Monster Id="90" String="Йан-гаруга" />
+            <Monster Id="91" String="Раянг" />
+            <Monster Id="92" String="Взбешенный раянг" />
+            <Monster Id="93" String="Свирепый тигрекс" />
+            <Monster Id="94" String="Зиногр" />
+            <Monster Id="95" String="Стигийский зиногр" />
+            <Monster Id="96" String="Неистовый брахидиос" />
+            <Monster Id="97" String="Сафи'джиива" />
+            <Monster Id="98" String="Тренировочная кукла" />
+            <Monster Id="99" String="Матерый йан-гаруга" />
+            <Monster Id="100" String="Ледозубый бариот" />
+            <Monster Id="101" String="Фаталис" />
+        </World>
     </Monsters>
     <Stages>
         <Rise>
-            <Stage Id="-1" String="Главное Меню"/>
-            <Stage Id="0" String="Вход в деревню"/>
-            <Stage Id="1" String="Ваша Комната"/>
-            <Stage Id="2" String="Площадь спутников"/>
-            <Stage Id="3" String="Зал собраний"/>
-            <Stage Id="4" String="Зона подготовки Зала"/>
-            <Stage Id="5" String="Тренировочная зона"/>
-            <Stage Id="199" String="Выбор персонажа"/>
-            <Stage Id="201" String="Руины святилища"/>
-            <Stage Id="202" String="Песчаные равнины"/>
-            <Stage Id="203" String="Затопленный лес"/>
-            <Stage Id="204" String="Морозные острова"/>
-            <Stage Id="205" String="Лавовые пещеры"/>
-            <Stage Id="207" String="Красная крепость"/>
-            <Stage Id="209" String="Адские источники"/>
-            <Stage Id="210" String="Арена"/>
-            <Stage Id="211" String="Дворец Кораллов"/>
+            <Stage Id="-1" String="Главное меню" />
+            <Stage Id="0" String="Вход в деревню" />
+            <Stage Id="1" String="Личная комната" />
+            <Stage Id="2" String="Площадь спутников" />
+            <Stage Id="3" String="Зал собраний" />
+            <Stage Id="4" String="Зона подготовки Зала" />
+            <Stage Id="5" String="Тренировочная зона" />
+            <Stage Id="199" String="Выбор персонажа" />
+            <Stage Id="201" String="Руины святилища" />
+            <Stage Id="202" String="Песчаные равнины" />
+            <Stage Id="203" String="Затопленный лес" />
+            <Stage Id="204" String="Морозные острова" />
+            <Stage Id="205" String="Лавовые пещеры" />
+            <Stage Id="207" String="Красная крепость" />
+            <Stage Id="209" String="Адские источники" />
+            <Stage Id="210" String="Арена" />
+            <Stage Id="211" String="Дворец Кораллов" />
         </Rise>
+		<World>
+            <Stage Id="0" String="Главное меню" />
+            <Stage Id="101" String="Древний лес" />
+            <Stage Id="102" String="Дикогорье" />
+            <Stage Id="103" String="Коралловое нагорье" />
+            <Stage Id="104" String="Гнилая долина" />
+            <Stage Id="105" String="Убежище Древнего" />
+            <Stage Id="106" String="Великое ущелье" />
+            <Stage Id="107" String="Великое ущелье" />
+            <Stage Id="108" String="Морозный простор" />
+            <Stage Id="109" String="Путеводные земли" />
+            <Stage Id="201" String="Специальная арена" />
+            <Stage Id="202" String="Арена" />
+            <Stage Id="203" String="Тайник с припасами Селианы" />
+            <Stage Id="301" String="Астера" />
+            <Stage Id="302" String="Астера (хаб)" />
+            <Stage Id="303" String="Исследовательская база" />
+            <Stage Id="305" String="Селиана" />
+            <Stage Id="306" String="Селиана (хаб)" />
+            <Stage Id="401" String="Вступление" />
+            <Stage Id="403" String="Вечноречье" />
+            <Stage Id="405" String="Слияние Судеб" />
+            <Stage Id="406" String="Древний лес" />
+            <Stage Id="409" String="Пещеры Эльдорадо" />
+            <Stage Id="411" String="Seliana Supply Cache" />
+            <Stage Id="412" String="Остров Происхождения" />
+            <Stage Id="413" String="Остров Происхождения" />
+            <Stage Id="415" String="Уединенная Долина" />
+            <Stage Id="416" String="Уединенная Долина" />
+            <Stage Id="417" String="Замок Шрейд" />
+            <Stage Id="501" String="Чья-то комната" />
+            <Stage Id="502" String="Личная комната" />
+            <Stage Id="503" String="Личный номер" />
+            <Stage Id="504" String="Тренировочная зона" />
+            <Stage Id="505" String="Палата пятерых" />
+            <Stage Id="506" String="Личная комната в Селиане" />
+        </World>
     </Stages>
-
+	<Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING" String="Empty" />
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING" String="Больше растений (S)" />
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING" String="Больше растений (L)" />
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING" String="Больше грибов (S)" />
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING" String="Больше грибов (L)" />
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING" String="Больше жуков/меда (S)" />
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING" String="Больше жуков/меда (L)" />
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING" String="Улучшить рост (S)" />
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING" String="Улучшить рост (L)" />
+    </Fertilizers>
+	<Quests>
+		<World>
+            <Quest Id="0" String="Unavailable" />
+            <Quest Id="1" String="Unavailable" />
+            <Quest Id="2" String="Unavailable" />
+            <Quest Id="3" String="Invalid Message" />
+            <Quest Id="4" String="Invalid Message" />
+            <Quest Id="5" String="Invalid Message" />
+            <Quest Id="101" String="Яграс из Древнего леса" />
+            <Quest Id="102" String="Заваруха с кестодоном" />
+            <Quest Id="103" String="Охота на большого яграса" />
+            <Quest Id="151" String="Столкновение с природой" />
+            <Quest Id="152" String="Заросли головорезов" />
+            <Quest Id="153" String="Странные грибы Древнего леса" />
+            <Quest Id="201" String="Пернатый разбойник" />
+            <Quest Id="205" String="Срочно: охота на поки-поки" />
+            <Quest Id="241" String="Изучение когтя" />
+            <Quest Id="251" String="Великий обжора" />
+            <Quest Id="252" String="Крушитель лагерей" />
+            <Quest Id="261" String="Похищение похитителя" />
+            <Quest Id="262" String="Потом и кровью" />
+            <Quest Id="263" String="Гроза Дикогорья" />
+            <Quest Id="301" String="Самое приятное задание" />
+            <Quest Id="302" String="Жуткие тени на болоте" />
+            <Quest Id="305" String="Летающие искры: тоби-кадачи" />
+            <Quest Id="306" String="Вторжение аньяната" />
+            <Quest Id="331" String="Спецарена: поки-поки" />
+            <Quest Id="332" String="Спецарена: баррот" />
+            <Quest Id="333" String="Спецарена: тоби-кадачи" />
+            <Quest Id="351" String="Нехватка разрывных орехов" />
+            <Quest Id="352" String="Текущее положение" />
+            <Quest Id="361" String="Шпиль и трясина" />
+            <Quest Id="362" String="Проблема с рыбами" />
+            <Quest Id="363" String="Неожиданные загвоздки" />
+            <Quest Id="364" String="Яичница в Дикогорье" />
+            <Quest Id="365" String="Селевый гигант" />
+            <Quest Id="401" String="На века" />
+            <Quest Id="405" String="Дутые проблемы" />
+            <Quest Id="407" String="Засада на радобаана" />
+            <Quest Id="408" String="Легиана: образец изящества" />
+            <Quest Id="431" String="Спецарена: аньянат" />
+            <Quest Id="432" String="Спецарена: ратиана" />
+            <Quest Id="433" String="Спецарена: паолуму" />
+            <Quest Id="434" String="Спецарена: радобаан" />
+            <Quest Id="451" String="Чертовски сильный насморк" />
+            <Quest Id="452" String="Яичница в лесу" />
+            <Quest Id="461" String="Королевская перестановка" />
+            <Quest Id="471" String="Рыдающий шамос" />
+            <Quest Id="472" String="Цици для научных целей" />
+            <Quest Id="473" String="Прости, тебя не пригласили" />
+            <Quest Id="474" String="Груда абалонов" />
+            <Quest Id="475" String="Белая шкура белого зверя" />
+            <Quest Id="481" String="Неугомонные вредители" />
+            <Quest Id="482" String="Нечистые намерения" />
+            <Quest Id="483" String="Есть что не поделить" />
+            <Quest Id="484" String="На крыльях кошмара" />
+            <Quest Id="501" String="Вглубь долины" />
+            <Quest Id="502" String="Пламенный трон над лесом" />
+            <Quest Id="503" String="Рогатый тиран под песками" />
+            <Quest Id="504" String="Колоссальная задача" />
+            <Quest Id="531" String="Спецарена: легиана" />
+            <Quest Id="532" String="Спецарена: одогарон" />
+            <Quest Id="533" String="Спецарена: раталос" />
+            <Quest Id="534" String="Спецарена: диаблос" />
+            <Quest Id="551" String="От желания к одержимости" />
+            <Quest Id="552" String="Взгляд на &quot;звездную пару&quot;" />
+            <Quest Id="561" String="Два шпиля над песком" />
+            <Quest Id="571" String="Мигрень от сырости" />
+            <Quest Id="572" String="Молниеносное исчезновение" />
+            <Quest Id="581" String="Страшный зуд" />
+            <Quest Id="582" String="Лучший враг человека" />
+            <Quest Id="583" String="Суть проблемы" />
+            <Quest Id="601" String="Вторжение в Дикогорье" />
+            <Quest Id="605" String="Розовое счастье" />
+            <Quest Id="607" String="Древний монстр в Новом Свете" />
+            <Quest Id="631" String="Спецарена: поки-поки ВР" />
+            <Quest Id="632" String="Спецарена: баррот ВР" />
+            <Quest Id="633" String="Спецарена: тоби-кадачи ВР" />
+            <Quest Id="634" String="Спецарена: аньянат ВР" />
+            <Quest Id="635" String="Спецарена: ратиана ВР" />
+            <Quest Id="636" String="Спецарена: паолуму ВР" />
+            <Quest Id="637" String="Спецарена: радобаан ВР" />
+            <Quest Id="641" String="Сильное впечатление" />
+            <Quest Id="651" String="Такое сложно переварить" />
+            <Quest Id="652" String="Пучеглазое зеленое чудовище" />
+            <Quest Id="653" String="Волосы дыбом" />
+            <Quest Id="654" String="Ты не движешься — я не вижу" />
+            <Quest Id="655" String="Спящая королева леса" />
+            <Quest Id="656" String="Ступор" />
+            <Quest Id="661" String="Руки не распускать!" />
+            <Quest Id="662" String="Корона из грязи и ярости" />
+            <Quest Id="663" String="Засада на поки-поки" />
+            <Quest Id="665" String="По пояс в отбросах" />
+            <Quest Id="666" String="Зеленая королева пустыни" />
+            <Quest Id="667" String="Беспокойный нарушитель" />
+            <Quest Id="671" String="Улыбочку!" />
+            <Quest Id="672" String="Ловушка для паолуму" />
+            <Quest Id="681" String="Резкий вкус" />
+            <Quest Id="682" String="Застрять в колее" />
+            <Quest Id="683" String="Задание шефа! Срочная доставка" />
+            <Quest Id="684" String="Задание шефа! Испорченный заказ" />
+            <Quest Id="691" String="Мяу о помощи" />
+            <Quest Id="692" String="Жаркое дельце" />
+            <Quest Id="693" String="Драма с додогамой" />
+            <Quest Id="694" String="Задание шефа! Капкан для гаялака" />
+            <Quest Id="701" String="Рана и жажда" />
+            <Quest Id="731" String="Спецарена: р. ратиана ВР" />
+            <Quest Id="732" String="Спецарена: легиана ВР" />
+            <Quest Id="733" String="Спецарена: одогарон ВР" />
+            <Quest Id="734" String="Спецарена: урагаан ВР" />
+            <Quest Id="735" String="Спецарена: раталос ВР" />
+            <Quest Id="736" String="Спецарена: л. раталос ВР" />
+            <Quest Id="737" String="Спецарена: диаблос ВР" />
+            <Quest Id="738" String="Спецарена: черная диаблос ВР" />
+            <Quest Id="751" String="Реванш раталоса" />
+            <Quest Id="752" String="Раталосы в синем" />
+            <Quest Id="753" String="Синий и красный " />
+            <Quest Id="761" String="Крошка в розовом" />
+            <Quest Id="762" String="Ох уж эти диаблос!" />
+            <Quest Id="763" String="Двурогий неприятель" />
+            <Quest Id="764" String="Разборки в Дикогорье!" />
+            <Quest Id="771" String="Вишневый ветер над рифами" />
+            <Quest Id="772" String="Легиана: королева нагорья" />
+            <Quest Id="773" String="Печальное зрелище" />
+            <Quest Id="774" String="Когти свирепого льда" />
+            <Quest Id="781" String="Одогарон на свободе" />
+            <Quest Id="791" String="Лавасиот, чудовище из магмы" />
+            <Quest Id="792" String="Пожиратель руды" />
+            <Quest Id="793" String="Правитель лазурных небес" />
+            <Quest Id="794" String="Базельгейс на огненном поле" />
+            <Quest Id="795" String="Огненное единство" />
+            <Quest Id="801" String="Кушала-даора, стальной дракон" />
+            <Quest Id="802" String="Адский теостра" />
+            <Quest Id="803" String="Ваал-хазак, демон из ада" />
+            <Quest Id="804" String="Земля схождений" />
+            <Quest Id="805" String="За взрывающейся чешуей" />
+            <Quest Id="806" String="Грозовой рокот в нагорье" />
+            <Quest Id="851" String="Предзнаменование катастрофы" />
+            <Quest Id="861" String="Огонь на песке" />
+            <Quest Id="871" String="Молния, которая бьет дважды" />
+            <Quest Id="881" String="Движение в могиле" />
+            <Quest Id="891" String="Пожиратель древних" />
+            <Quest Id="892" String="Повелитель бури" />
+            <Quest Id="893" String="Цитадель адского пламени" />
+            <Quest Id="894" String="Пожиратель древних" />
+            <Quest Id="895" String="Пронзающий ветер гнева" />
+            <Quest Id="896" String="Пронзающее адское пламя" />
+            <Quest Id="961" String="За взрывающейся чешуей" />
+            <Quest Id="971" String="Грозовой рокот в нагорье" />
+            <Quest Id="991" String="Свет над речным мраком" />
+            <Quest Id="992" String="Белые ветры Нового Света" />
+            <Quest Id="995" String="Сапфировая путеводная звезда" />
+            <Quest Id="996" String="Кувалда против навоза" />
+            <Quest Id="997" String="Новый Свет, новый мир" />
+            <Quest Id="998" String="Зов из глубины" />
+            <Quest Id="1101" String="Крещение льдом" />
+            <Quest Id="1102" String="Блокада банбаро" />
+            <Quest Id="1121" String="Снежный ныряльщик" />
+            <Quest Id="1122" String="Взять быка за рога" />
+            <Quest Id="1123" String="Ледяной улов" />
+            <Quest Id="1124" String="Зов природы" />
+            <Quest Id="1125" String="Привет из тундры" />
+            <Quest Id="1131" String="Спецарена: поки-поки, РМ" />
+            <Quest Id="1132" String="Спецарена: баррот, РМ" />
+            <Quest Id="1133" String="Спецарена: тоби-кадачи, РМ" />
+            <Quest Id="1134" String="Спецарена: банбаро, РМ" />
+            <Quest Id="1151" String="Большой яграс возвращается!" />
+            <Quest Id="1152" String="Проблемы Нового Света" />
+            <Quest Id="1153" String="Вокруг да около" />
+            <Quest Id="1154" String="Кража искусства" />
+            <Quest Id="1155" String="Поимка сокрушителя деревьев" />
+            <Quest Id="1161" String="Охота за сокровищами Дикогорья" />
+            <Quest Id="1162" String="Прямо в грязь" />
+            <Quest Id="1163" String="Юратод на пути" />
+            <Quest Id="1164" String="Дегустация" />
+            <Quest Id="1171" String="Неверные сигналы" />
+            <Quest Id="1181" String="Проблемы с гирросом" />
+            <Quest Id="1191" String="Как себя заставить" />
+            <Quest Id="1192" String="Большие рога у нас в почете!" />
+            <Quest Id="1201" String="Режим готовности" />
+            <Quest Id="1202" String="На сон нет времени" />
+            <Quest Id="1203" String="Натравливание" />
+            <Quest Id="1221" String="Операция &quot;Паралич&quot;" />
+            <Quest Id="1222" String="Яд и паралич" />
+            <Quest Id="1223" String="Боа-боа-констриктор" />
+            <Quest Id="1224" String="Совместными усилиями" />
+            <Quest Id="1225" String="Ты поможешь нам, а мы..." />
+            <Quest Id="1231" String="Спецарена: аньянат, РМ" />
+            <Quest Id="1232" String="Спецарена: радобаан, РМ" />
+            <Quest Id="1233" String="Спецарена: коралловый поки-поки, РМ" />
+            <Quest Id="1234" String="Спецарена: аспидовый тоби-кадачи, РМ" />
+            <Quest Id="1235" String="Спецарена: ратиана, РМ" />
+            <Quest Id="1236" String="Спецарена: розовая ратиана, РМ" />
+            <Quest Id="1237" String="Спецарена: паолуму, РМ" />
+            <Quest Id="1238" String="Спецарена: ночной паолуму, РМ" />
+            <Quest Id="1251" String="Проделки аньяната" />
+            <Quest Id="1252" String="Дурацкий мат" />
+            <Quest Id="1253" String="Спокойной ночи, паолуму" />
+            <Quest Id="1261" String="Настоящая королева" />
+            <Quest Id="1262" String="Лицо из кошмаров" />
+            <Quest Id="1263" String="Не суй свой нос в чужой вопрос" />
+            <Quest Id="1264" String="Слова драчуньи" />
+            <Quest Id="1271" String="Полезные паолуму" />
+            <Quest Id="1272" String="Власть в розовых тонах" />
+            <Quest Id="1273" String="Совет: пей больше воды" />
+            <Quest Id="1274" String="Убери эту красную чашу" />
+            <Quest Id="1281" String="Вовсе не смешно" />
+            <Quest Id="1282" String="Отжучитесь, жуки!" />
+            <Quest Id="1291" String="В поисках мерцания" />
+            <Quest Id="1301" String="Морозный блиц" />
+            <Quest Id="1302" String="Вездесущая тень" />
+            <Quest Id="1303" String="Палящий клинок" />
+            <Quest Id="1304" String="Абсолютная власть" />
+            <Quest Id="1305" String="Ответный удар сплеча" />
+            <Quest Id="1306" String="Сказ о льде и пламени" />
+            <Quest Id="1321" String="Помнишь, как в тот раз?.." />
+            <Quest Id="1322" String="Изумяутельная комната: камень" />
+            <Quest Id="1323" String="Славный белый рыцарь" />
+            <Quest Id="1331" String="Спецарена: легиана, РМ" />
+            <Quest Id="1332" String="Спецарена: одогарон, РМ" />
+            <Quest Id="1333" String="Спецарена: урагаан, РМ" />
+            <Quest Id="1334" String="Спецарена: раталос, РМ" />
+            <Quest Id="1335" String="Спецарена: диаблос, РМ" />
+            <Quest Id="1336" String="Спецарена: бариот, РМ" />
+            <Quest Id="1337" String="Спецарена: наргакуга, РМ" />
+            <Quest Id="1338" String="Спецарена: главенус, РМ" />
+            <Quest Id="1339" String="Спецарена: брахидиос, РМ" />
+            <Quest Id="1340" String="Спецарена: тигрекс, РМ" />
+            <Quest Id="1351" String="Недостойное поведение" />
+            <Quest Id="1352" String="Охота на наргакугу" />
+            <Quest Id="1353" String="Секрет хорошей нарезки" />
+            <Quest Id="1354" String="Красный и черный тузы" />
+            <Quest Id="1361" String="Линия на песке" />
+            <Quest Id="1362" String="Вспышка на клинке" />
+            <Quest Id="1363" String="Мелко рубим и тушим!" />
+            <Quest Id="1371" String="Заблудшая легиана" />
+            <Quest Id="1372" String="Черный ветер" />
+            <Quest Id="1373" String="Скверная рана" />
+            <Quest Id="1381" String="Вегетарианец поневоле" />
+            <Quest Id="1382" String="Рев, потрясший долину" />
+            <Quest Id="1383" String="Беги, катись и плачь" />
+            <Quest Id="1391" String="Дрожит земля!" />
+            <Quest Id="1392" String="Критиканство" />
+            <Quest Id="1393" String="Дуй отсюда, урагаан" />
+            <Quest Id="1394" String="Тайна слизи" />
+            <Quest Id="1395" String="Фестиваль взрывов" />
+            <Quest Id="1401" String="Когда ты скроешься в тумане" />
+            <Quest Id="1402" String="Разрушительный клинок" />
+            <Quest Id="1403" String="Плохие друзья, хорошие враги" />
+            <Quest Id="1404" String="Оборона Селианы" />
+            <Quest Id="1405" String="Грозовой и грозный" />
+            <Quest Id="1421" String="Страж морозной стужи" />
+            <Quest Id="1422" String="Нарушитель покоя в тундре" />
+            <Quest Id="1423" String="Заиндевелая пара" />
+            <Quest Id="1424" String="Паровое сокровище" />
+            <Quest Id="1431" String="Спецарена: лазурный раталос, РМ" />
+            <Quest Id="1432" String="Спецарена: черная диаблос, РМ" />
+            <Quest Id="1433" String="Спецарена: кислотный главенус, РМ" />
+            <Quest Id="1434" String="Спецарена: эбеновый одогарон, РМ" />
+            <Quest Id="1435" String="Спецарена: громовой аньянат, РМ" />
+            <Quest Id="1451" String="Эти лазурные глаза видят все" />
+            <Quest Id="1452" String="Неприятности в лесу" />
+            <Quest Id="1461" String="Под горячую руку" />
+            <Quest Id="1462" String="Пронизывающая чернота" />
+            <Quest Id="1471" String="В тени угрозы" />
+            <Quest Id="1481" String="Заржавевший клинок" />
+            <Quest Id="1482" String="Изумяутельная комната: свет. железо" />
+            <Quest Id="1483" String="Изумяутельная комната: темное железо" />
+            <Quest Id="1491" String="Блюз в стиле раталоса" />
+            <Quest Id="1492" String="Ловля грозовой челюсти" />
+            <Quest Id="1501" String="Порождение холода" />
+            <Quest Id="1502" String="Второе пришествие" />
+            <Quest Id="1503" String="Под покровом смерти" />
+            <Quest Id="1504" String="Свет из бездны" />
+            <Quest Id="1521" String="Дуэль среди мороза" />
+            <Quest Id="1551" String="Предвестник ясного неба" />
+            <Quest Id="1552" String="Смерть на пороге" />
+            <Quest Id="1561" String="Император пустыни" />
+            <Quest Id="1562" String="Банкет тирана" />
+            <Quest Id="1571" String="Сверкнула молния" />
+            <Quest Id="1572" String="Повелитель морей" />
+            <Quest Id="1581" String="Моя загробная жизнь" />
+            <Quest Id="1591" String="Крылья ветра" />
+            <Quest Id="1592" String="Метка солнца" />
+            <Quest Id="1593" String="Пылая от ярости" />
+            <Quest Id="1594" String="Изумяутельная комната: серебро" />
+            <Quest Id="1601" String="Хвалебная песнь" />
+            <Quest Id="1602" String="Песнь покровительства" />
+            <Quest Id="1603" String="Сладкий сон в объятьях пламени" />
+            <Quest Id="1604" String="Большая заварушка" />
+            <Quest Id="1605" String="Вместе до самого конца" />
+            <Quest Id="1606" String="Возвращение безумной" />
+            <Quest Id="1631" String="Мы правим этим городом" />
+            <Quest Id="1632" String="Спецарена: зиногр, РМ" />
+            <Quest Id="1633" String="Спецарена: йан-гаруга, РМ" />
+            <Quest Id="1634" String="Спецарена: свирепый тигрекс, РМ" />
+            <Quest Id="1635" String="Спецарена: золотая ратиана, РМ" />
+            <Quest Id="1636" String="Спецарена: серебристый раталос, РМ" />
+            <Quest Id="1641" String="Дух темных вод" />
+            <Quest Id="1642" String="Гимн луны и солнца" />
+            <Quest Id="1651" String="Буря с неожиданной развязкой" />
+            <Quest Id="1661" String="Жаркая ночь в Дикогорье" />
+            <Quest Id="1671" String="Божественный импульс" />
+            <Quest Id="1691" String="Под сводами огненного дворца" />
+            <Quest Id="1692" String="Мастер-охотник Нового Света" />
+            <Quest Id="3001" String="Задание на арене 02" />
+            <Quest Id="3002" String="Задание на арене 03" />
+            <Quest Id="3031" String="Задание на арене 04" />
+            <Quest Id="3032" String="Задание на арене 05" />
+            <Quest Id="3033" String="Задание на арене 06" />
+            <Quest Id="3034" String="Задание на арене 07" />
+            <Quest Id="3051" String="Задание на арене 08" />
+            <Quest Id="3052" String="Задание на арене 09" />
+            <Quest Id="3071" String="Задание мастера арены 02" />
+            <Quest Id="3072" String="Задание мастера арены 03" />
+            <Quest Id="3073" String="Задание мастера арены 04" />
+            <Quest Id="3074" String="Задание мастера арены 05" />
+            <Quest Id="3091" String="Задание мастера арены 06" />
+            <Quest Id="3092" String="Задание мастера арены 07" />
+            <Quest Id="3101" String="Задание на арене 01" />
+            <Quest Id="3171" String="Задание мастера арены 01" />
+            <Quest Id="5003" String="Беспокойные Кочевники" />
+            <Quest Id="30000" String="r&gt;" />
+            <Quest Id="30001" String="r&gt;" />
+            <Quest Id="30002" String="r&gt;" />
+            <Quest Id="30003" String="r&gt;" />
+            <Quest Id="30004" String="r&gt;" />
+            <Quest Id="30005" String="r&gt;" />
+            <Quest Id="30006" String="r&gt;" />
+            <Quest Id="30007" String="r&gt;" />
+            <Quest Id="30008" String="r&gt;" />
+            <Quest Id="30009" String="r&gt;" />
+            <Quest Id="50601" String="Гость из другого мира" />
+            <Quest Id="50701" String="Вершина пищевой цепочки" />
+            <Quest Id="50702" String="r&gt;" />
+            <Quest Id="50751" String="Блюдо дня: охотник фламбе" />
+            <Quest Id="50801" String="Пылающее солнце" />
+            <Quest Id="50802" String="Арена Пандоры" />
+            <Quest Id="50803" String="Никакой пощады, ни шагу назад" />
+            <Quest Id="50831" String="r&gt;" />
+            <Quest Id="50861" String="Адская монархия" />
+            <Quest Id="50891" String="Синий пик" />
+            <Quest Id="50892" String="Синий пик" />
+            <Quest Id="50901" String="Банкет в землянке" />
+            <Quest Id="50902" String="Ярость Эльдорадо" />
+            <Quest Id="50905" String="Легендарный зверь" />
+            <Quest Id="50906" String="Станешь ли заб. им, как птичкою" />
+            <Quest Id="50910" String="Заказ: Проблемы в Древнем лесу" />
+            <Quest Id="50991" String="Пришелец из Эорзеи" />
+            <Quest Id="50992" String="r&gt;" />
+            <Quest Id="51603" String="По затерянной тропе" />
+            <Quest Id="51604" String="Точка невозврата" />
+            <Quest Id="51605" String="Красный дракон" />
+            <Quest Id="51621" String="Спецарена: стигийский зиногр, РМ" />
+            <Quest Id="51603" String="По затерянной тропе" />
+            <Quest Id="51604" String="Точка невозврата" />
+            <Quest Id="51605" String="Красный дракон" />
+            <Quest Id="51606" String="...И ярость моя поглотит всех" />
+            <Quest Id="51607" String="Ярость остается" />
+            <Quest Id="51622" String="Больное разбитое сердце" />
+            <Quest Id="51623" String="Все то взбешено, что блестит" />
+            <Quest Id="51624" String="r&gt;" />
+            <Quest Id="51625" String="r&gt;" />
+            <Quest Id="61101" String="Перед рассветом" />
+            <Quest Id="61103" String="Где солнце встречается с луной" />
+            <Quest Id="61104" String="Лесные смутьяны" />
+            <Quest Id="61105" String="Мечта каждого охотника" />
+            <Quest Id="61601" String="Полуночное безумие" />
+            <Quest Id="61603" String="Проблема королевских масштабов" />
+            <Quest Id="61604" String="Владыкам страх неведом" />
+            <Quest Id="61605" String="Мохосвины и еда" />
+            <Quest Id="61606" String="Охота на величайшего яграса" />
+            <Quest Id="61607" String="Его имя — лавасиот!" />
+            <Quest Id="61801" String="Похитители жемчуга" />
+            <Quest Id="61802" String="Мечта каждого охотника III" />
+            <Quest Id="61803" String="Мечта каждого охотника II" />
+            <Quest Id="61805" String="Полярный долг" />
+            <Quest Id="61806" String="Копать не перекопать" />
+            <Quest Id="61807" String="Жуткий холод" />
+            <Quest Id="61808" String="Мышц много не бывает" />
+            <Quest Id="61809" String="Колыбельная паолуму" />
+            <Quest Id="61811" String="Обморожение" />
+            <Quest Id="61812" String="Ни шагу без мяса" />
+            <Quest Id="61813" String="Пятьдесят оттенков белого" />
+            <Quest Id="61814" String="Под напряжением" />
+            <Quest Id="62502" String="Смертельно неподвижная завеса" />
+            <Quest Id="62503" String="Шепот белой гривы" />
+            <Quest Id="62504" String="Насмешка солнца" />
+            <Quest Id="62505" String="Око бури" />
+            <Quest Id="62506" String="Вестники разрушительного крика" />
+            <Quest Id="62511" String="Синяя пыльца лучше драконьего яйца" />
+            <Quest Id="62515" String="Насладись моментом" />
+            <Quest Id="62606" String="Вечный блеск солнца" />
+            <Quest Id="62607" String="Как мотылек на пламя" />
+            <Quest Id="62608" String="Взгляд на восход" />
+            <Quest Id="62609" String="Хранитель Иного мира" />
+            <Quest Id="63001" String="Задание испытания 1: новичок" />
+            <Quest Id="63002" String="Задание испытания 2: новичок" />
+            <Quest Id="63003" String="Осиное нашествие!" />
+            <Quest Id="63031" String="Задание испытания 1: знаток" />
+            <Quest Id="63032" String="Задание испытания 2: знаток" />
+            <Quest Id="63033" String="Гаялака разбушевались!" />
+            <Quest Id="63038" String="Цветущая императрица II" />
+            <Quest Id="63039" String="Цветущая императрица III" />
+            <Quest Id="63051" String="Задание испытания 1: эксперт" />
+            <Quest Id="63052" String="Задание испытания 2: эксперт" />
+            <Quest Id="63071" String="Задание испытания 1: знаток РМ" />
+            <Quest Id="63072" String="Задание испытания 2: знаток РМ" />
+            <Quest Id="63073" String="Задание испытания 1: эксперт РМ" />
+            <Quest Id="63074" String="Задание испытания 2: эксперт РМ" />
+            <Quest Id="63101" String="Событие «Убейте нергиганта 1»" />
+            <Quest Id="63102" String="Событие «Убейте нергиганта 2»" />
+            <Quest Id="63103" String="Событие «Убейте нергиганта 3»" />
+            <Quest Id="63104" String="Событие &quot;Клык и буря&quot; 1" />
+            <Quest Id="63105" String="Событие &quot;Клык и буря&quot; 2" />
+            <Quest Id="63106" String="Событие &quot;Клык и буря&quot; 3" />
+            <Quest Id="63107" String="Событие «Убейте нергиганта 4»" />
+            <Quest Id="63108" String="Событие «Убейте Девильо»" />
+            <Quest Id="63109" String="Лучшие из лучших" />
+            <Quest Id="63110" String="Что скрывается в лесу" />
+            <Quest Id="63130" String="Закон и война" />
+            <Quest Id="63131" String="Охотник и Синяя императрица" />
+            <Quest Id="63142" String="Борьба с холодом" />
+            <Quest Id="64101" String="Дикая дичь в Дикогорье" />
+            <Quest Id="64601" String="Прогулки с урагааном" />
+            <Quest Id="64801" String="Битва с шарами" />
+            <Quest Id="64802" String="Выдворение хулигана..." />
+            <Quest Id="65601" String="Шамосвал" />
+            <Quest Id="65602" String="Луч света в темном царстве" />
+            <Quest Id="65603" String="Все любят яйца" />
+            <Quest Id="65604" String="Рожденный ползать" />
+            <Quest Id="65605" String="Тройная угроза" />
+            <Quest Id="65606" String="Простая задача" />
+            <Quest Id="65607" String="Где доставка?" />
+            <Quest Id="66101" String="Старые добрые времена" />
+            <Quest Id="66102" String="Это ни йа-куда не годится!" />
+            <Quest Id="66103" String="Плоть и кровь" />
+            <Quest Id="66104" String="Мифический кирин" />
+            <Quest Id="66105" String="Ядовитый отряд" />
+            <Quest Id="66106" String="Привет всем обжорам" />
+            <Quest Id="66601" String="Зеленый блюз" />
+            <Quest Id="66602" String="Болеро в Дикогорье" />
+            <Quest Id="66603" String="Коралловый вальс" />
+            <Quest Id="66604" String="Миазматика" />
+            <Quest Id="66605" String="Убежище Мега-Ролла" />
+            <Quest Id="66606" String="Так и до бунта недалеко" />
+            <Quest Id="66607" String="Снежная вишня" />
+            <Quest Id="66608" String="Нос за око" />
+            <Quest Id="66609" String="У узурпаторов нет будущего" />
+            <Quest Id="66610" String="Революционер" />
+            <Quest Id="66801" String="Трофей рыбака" />
+            <Quest Id="66802" String="Повелитель подземных фруктов" />
+            <Quest Id="66803" String="Грязнули в грязи" />
+            <Quest Id="66804" String="Пустынные лакомства" />
+            <Quest Id="66805" String="Новая проблема в городке" />
+            <Quest Id="66806" String="Яркий карнавал" />
+            <Quest Id="66807" String="Охотник-растяпа" />
+            <Quest Id="66808" String="Небесный и морской огонь" />
+            <Quest Id="66809" String="Занятный эксперимент" />
+            <Quest Id="66810" String="Продрогшая и мокрая" />
+            <Quest Id="66811" String="Распаленные громилы" />
+            <Quest Id="66812" String="Бросок в пустыне" />
+            <Quest Id="66813" String="В лесной чаще" />
+            <Quest Id="66814" String="Служители долины" />
+            <Quest Id="66815" String="Короли трех царств" />
+            <Quest Id="66816" String="Зимний блюз" />
+            <Quest Id="66817" String="Причина голода" />
+            <Quest Id="66818" String="Лунный вой" />
+            <Quest Id="66819" String="Спокойствие, только спокойствие" />
+            <Quest Id="66820" String="Рев, разрывающий небеса" />
+            <Quest Id="66821" String="Отблеск серебра" />
+            <Quest Id="66822" String="Луна — суровая хозяйка" />
+            <Quest Id="66824" String="Оглушенные и ослепленные" />
+            <Quest Id="66825" String="Шрамы не лгут" />
+            <Quest Id="66826" String="Йодль в лесу" />
+            <Quest Id="66827" String="Тяжелый рок Дикогорья" />
+            <Quest Id="66828" String="Коралловая симфония" />
+            <Quest Id="66829" String="Баллада о долине" />
+            <Quest Id="66830" String="Альтернативное убежище" />
+            <Quest Id="66831" String="Морозная песнь" />
+            <Quest Id="66832" String="Волк из ада" />
+            <Quest Id="66834" String="Встреча ревущего и быстрой" />
+            <Quest Id="66835" String="Пробуждение гнева грозы" />
+            <Quest Id="66836" String="Песнь Разрушения" />
+            <Quest Id="67103" String="Кровавый Раш" />
+            <Quest Id="67106" String="USJ: звездный прием" />
+            <Quest Id="67604" String="Пылающие лазурные звезды USJ!" />
+            <Quest Id="67605" String="Код: красный" />
+            <Quest Id="67606" String="Пришелец из Эорзеи (экстремал.)" />
+            <Quest Id="67608" String="ТСЯ: Тихий, Смертоносный и Яростный" />
+            <Quest Id="67610" String="Заказ: Дух Леса" />
+            <Quest Id="67801" String="RE: Возврат биооружия" />
+            <Quest Id="61815" String="Небесные стрелки" />
+            <Quest Id="61816" String="Рыбка, чтобы заморить червячка" />
+            <Quest Id="67807" String="Ассасин" />
+            <Quest Id="66833" String="Вечная золотая лихорадка" />
+            <Quest Id="66847" String="Отдаленный темный прилив" />
+            <Quest Id="66859" String="Выдворение хулигана..." />
+            <Quest Id="66860" String="Пробуждение гнева грозы" />
+            <Quest Id="63148" String="Покорение Морозного простора" />
+            <Quest Id="66840" String="Буря пробуждается" />
+            <Quest Id="66841" String="День разрушений" />
+            <Quest Id="66842" String="Я холода не боюсь" />
+            <Quest Id="66843" String="Вечерняя звезда" />
+            <Quest Id="66844" String="Рассвет звезды смерти" />
+            <Quest Id="66846" String="Последний белый рыцарь" />
+            <Quest Id="66853" String="Принести светлую жемчужину" />
+            <Quest Id="66854" String="Горе-маскировка" />
+            <Quest Id="66855" String="Лучше один раз увидеть" />
+            <Quest Id="66856" String="Не забудь беруши!" />
+            <Quest Id="66857" String="О макаках" />
+            <Quest Id="66858" String="Голая правда" />
+            <Quest Id="66861" String="Мяы - чемяупионы!" />
+            <Quest Id="66867" String="Старый пес и новые трюки" />
+            <Quest Id="66845" String="Уход во тьму" />
+            <Quest Id="66850" String="Там, где спит зима" />
+            <Quest Id="66862" String="Близнецы кадачи" />
+            <Quest Id="66863" String="Слезы из нирваны" />
+            <Quest Id="66864" String="Мышц много не бывает" />
+            <Quest Id="67806" String="USJ: Сияй всегда" />
+            <Quest Id="67809" String="USJ: ледяной балет" />
+            <Quest Id="66865" String="Прощай, зиногр" />
+            <Quest Id="66866" String="Новый и свирепый" />
+        </World>
+	</Quests>
     <Client>
+		<Main>
+            <!-- Hunt Export -->
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+                    String="Выгруженные вылазки" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+                    String="Вы можете просматривать только последние 7 дней.&#xA;Поддержите проект чтобы видеть более старые вылазки!" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+                    String="Улучшите ваш аккаунт до Тир 2 поддержки чтобы видеть все выгруженные вылазки!" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+                    String="Проверка вылазок: {0}" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+                    String="Не удалось проверить вылазки. Попробуйте позже." />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+                    String="Вылазка успешно загружена!" />
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+                    String="Вылазок за данный период не найдено." />
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+                    String="Монстры" />
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+                    String="Детали вылазки" />
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+                    String="Детали статуса" />
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+                    String="Участники" />
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+                    String="Детали" />
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+                    String="Статусы" />
+        </Main>
         <Tabs>
-            <Tab Id="CONSOLE_STRING"
-                 String="Консоль"/>
-            <Tab Id="DISCORD_STRING"
-                 String="Discord"/>
-            <Tab Id="PATCH_NOTES_STRING"
-                 String="Патчноуты"/>
-            <Tab Id="PLUGINS_STRING"
-                 String="Плагины"/>
-            <Tab Id="SETTINGS_STRING"
-                 String="Настройки"/>
+            <Tab Id="CONSOLE_STRING" String="Консоль" />
+			<Tab Id="SETTINGS_STRING" String="Настройки" />
+			<Tab Id="PATCH_NOTES_STRING" String="Патчноуты" />
+			<Tab Id="QUEST_STATISTICS_STRING" String="Вылазки" />
+            <Tab Id="DISCORD_STRING" String="Discord" />
+            <Tab Id="PLUGINS_STRING" String="Плагины" />
         </Tabs>
         <Generics>
-            <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
-                     String="HunterPie установлена последняя версии!"/> 
-            <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
-                     String="HunterPie требуется обновление!"/>
+			<Generic Id="HUNTERPIE_LAUNCH_GAME" String="ЗАПУСТИТЬ ИГРУ" />
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION" String="Не удалось проверить версию. Нажмите чтобы повторить." />
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION" String="Проверка последней версии" />
+            <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG" String="Конфигурация для:" />
+            <Generic Id="REQUIRES_RESTART_STRING" String="(Требует перезапуска)" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING" String="Версия проверена" />
+            <Generic Id="SELECT_ALL_STRING" String="Выбрать все" />
+            <Generic Id="UNSELECT_ALL_STRING" String="Отменить выбор" />
+            <Generic Id="BACK_STRING" String="Назад" />
+            <Generic Id="MONSTER_PART_GROUPS_STRING" String="Группы частей" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING" String="части" />
+            <Generic Id="MONSTER_PARTS_STRING" String="ЧАСТИ" />
+            <Generic Id="MONSTER_AILMENTS_STRING" String="СТАТУСЫ" />
+            <Generic Id="MONSTER_OVERRIDE_STRING" String="Создать правила для монстров" />
+            <Generic Id="GO_TO_STRING" String="Перейти" />
+            <Generic Id="HUNTERPIE_IS_LATEST_VERSION" String="HunterPie последней версии!" /> 
+            <Generic Id="HUNTERPIE_NOT_LATEST_VERSION" String="HunterPie требуется обновление!" />
         </Generics>
+		<Dialogs>
+            <!-- Do not edit the text inside {} -->
+            <Dialog Id="UPDATE_TITLE_STRING" String="Обновить" />
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING" String="Версия v{Latest} доступна.&#xA;Обновить сейчас?" />
+            <Dialog Id="CONFIRMATION_TITLE_STRING" String="Подтверждение" />
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING" String="Вы уверены что хотите удалить {Item}?" />
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING" String="Вы уверены что хотите выйти из HunterPie?" />
+            <Button Id="ACCEPT_STRING" String="Принять" />
+            <Button Id="REJECT_STRING" String="Отклонить" />
+            <Button Id="CANCEL_STRING" String="Отменить" />
+        </Dialogs>
         <Integrations>
-            <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT"
-                     String="{Character} | HR: {HighRank}"/>
-            <Discord Id="DRPC_RISE_STATE_MAIN_MENU"
-                     String="В Главном Меню"/>
-            <Discord Id="DRPC_RISE_STATE_IDLE"
-                     String="Отдыхает"/>
-            <Discord Id="DRPC_RISE_STATE_PRACTICE"
-                     String="Тренируется"/>
-            <Discord Id="DRPC_RISE_STATE_RAMPAGE"
-                     String="В Ярости"/>
-            <Discord Id="DRPC_RISE_STATE_CHAR_SELECTION"
-                     String="Выбирает персонажа"/>
-            <Discord Id="DRPC_RISE_STATE_EXPLORING"
-                     String="Исследует"/>
-            <Discord Id="DRPC_RISE_STATE_HUNTING"
-                     String="Охотится на {Monster} ({Percentage}%)"/>
-            <Discord Id="DRPC_RISE_STATE_HUNTING_NO_HEALTH"
-                     String="Охотится на {Monster}"/>
+            <!-- Shared between games -->
+            <Discord Id="DRPC_STATE_HUNTING" String="Охотится на {Monster} ({Percentage}%)" />
+            <Discord Id="DRPC_STATE_HUNTING_NO_HEALTH" String="Охотится на {Monster}" />
+            <Discord Id="DRPC_STATE_MAIN_MENU" String="В Главном меню" />
+            <Discord Id="DRPC_STATE_LOADING" String="Загрузка" />
+            <Discord Id="DRPC_STATE_IDLE" String="Отдыхает" />
+            <Discord Id="DRPC_STATE_EXPLORING" String="Исследует" />
+            <Discord Id="DRPC_PARTY_STATE_SOLO_STRING" String="Один" />
+            <Discord Id="DRPC_PARTY_STATE_GROUP_STRING" String="В группе" />
+            <!-- Rise -->
+            <Discord Id="DRPC_RISE_CHARACTER_STRING_FORMAT" String="{Character} | ВР: {HighRank} | РМ: {MasterRank}" />
+            <Discord Id="DRPC_RISE_STATE_PRACTICE" String="Практикуется" />
+            <Discord Id="DRPC_RISE_STATE_RAMPAGE" String="В ярости" />
+            <Discord Id="DRPC_RISE_STATE_CHAR_SELECTION" String="Выбирает персонажа" />
+            <!-- World -->
+            <Discord Id="DRPC_WORLD_CHARACTER_STRING_FORMAT" String="{Character} | ВР: {HighRank} | РМ: {MasterRank}" />
+            <Discord Id="DRPC_WORLD_STATE_PRACTICE" String="Тренируется" />
+            <!-- Poogie Integration -->
+            <Poogie Id="ERROR_INVALID_USERNAME" String="Неверное имя пользователя!" />
+            <Poogie Id="ERROR_INVALID_PASSWORD" String="Неверный пароль, он должен быть длиннее 8 символов!" />
+            <Poogie Id="ERROR_INVALID_EMAIL" String="Неверная почта!" />
+            <Poogie Id="ERROR_INVALID_CREDENTIALS" String="Аккаунта с данным именем пользователя и паролем не найдено." />
+            <Poogie Id="ERROR_USER_NOT_FOUND" String="Хм... Пользователь не найден!" />
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS" String="Этот email или имя пользователя заняты!" />
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT" String="Сначала необходимо подтвердить аккаунт! Пожалуйста, проверьте email (в том числе папку Спам)." />
+            <Poogie Id="INVALID_IMAGE" String="Недействительный файл!" />
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="Не удалось загрузить аватар, попробуйте позже." />
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="Не удалось загрузить аватар, размер выше 3.5 MB." />
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE" String="Код подтверждения неправильный или истек." />
+            <Poogie Id="ERROR_GENERIC" String="Упс... Что-то пошло не так. Попробуйте через пару минут!" />
+            <Poogie Id="SIGN_IN_NOTIFICATION" String="Sign In" Description="Пробуем войти в аккаунт..." />
+            <Poogie Id="LOGIN_SUCCESS" String="Добро пожаловать {Username}!" />
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS" String="В ближайшее время на почту {Email} придет письмо для подтверждения. Проверьте вашу почту и папку Спам!" />
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="Новый аватар загружен" />
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="У вас не включены автоматические резервные копии.&#xA;Вы можете их включить в настройках аккаунта." />
+            <Poogie Id="BACKUP_NOT_FOUND_STRING" String="У вас нет резервных копий." />
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="Письмо с кодом подтверждения будет отправлено на {Email}." />
+            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING" String="Пароль успешно изменен." />
         </Integrations>
+		<Enums>
+            <Enum Id="SORT_BY_LOWEST_TIMER_STRING" String="Наименьшему" />
+            <Enum Id="SORT_BY_HIGHEST_TIMER_STRING" String="Наивысшему" />
+            <Enum Id="SORT_BY_DISABLED_STRING" String="Не сортировать" />
+            <Enum Id="ORIENTATION_HORIZONTAL_STRING" String="Горизонтально" />
+            <Enum Id="ORIENTATION_VERTICAL_STRING" String="Вертикально" />
+            <Enum Id="RELATIVE_TO_QUEST_STRING" String="Начало квеста" />
+            <Enum Id="RELATIVE_TO_JOIN_STRING" String="Присоединение" />
+            <Enum Id="RELATIVE_TO_FIRST_HIT_STRING" String="Первый удар" />
+            <Enum Id="PLOT_TOTAL_DAMAGE_STRING" String="Общий урон" />
+            <Enum Id="PLOT_DPS_STRING" String="Урон в секунду" />
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING" String="Захват" />
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING" String="Метка на карте" />
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING" String="Цель задания" />
+            <Enum Id="TARGET_MODE_INFER_STRING" String="Inference" />
+        </Enums>
         <Settings>
-            <Setting Id="CLIENT_STRING"
-                     String="Клиент"
-                     Description="Конфигурация Клиента"/>
-            <Setting Id="DISCORD_RPC_STRING"
-                     String="Discord Присутствие"
-                     Description="Discord Настройки плагина Присутствие"/>
-            <Setting Id="OVERLAY_STRING"
-                     String="Оверлей"
-                     Description="Конфигурация оверлея"/>
-            <Setting Id="ABNORMALITY_TRAY_STRING"
-                     String="Панель аномалий"
-                     Description="Настройки панели аномалий"/>
-            <Setting Id="MONSTER_WIDGET_STRING"
-                     String="Виджет Монстра"
-                     Description="Конфигурация оверлея"/>
-            <Setting Id="DEV_TOOLS_STRING"
-                     String="Инструменты разработчика"
-                     Description="Продвинутые инструменты разработчика"/>
-                     
-            <Setting Id="ABNORMALITY_SONGS_STRING"
-                     String="Мелодии"
-                     Description="Статусы мелодий"/>
-            <Setting Id="ABNORMALITY_CONSUMABLES_STRING"
-                     String="Расходники"
-                     Description="Статусы расходников"/>
-            <Setting Id="ABNORMALITY_DEBUFFS_STRING"
-                     String="Дебаффы"
-                     Description="Дебаффы аномалий"/>
-            <Setting Id="ABNORMALITY_SKILLS_STRING"
-                     String="Навыки брони"
-                     Description="Статусы которые дают навыки брони"/>
-            <Setting Id="ABNORMALITY_FOODS_STRING"
-                     String="Навыки еды"
-                     Description="Статусы которые дает еда"/>
+            <Setting Id="CLIENT_STRING" String="Клиент" Description="Конфигурация клиента" />
+            <Setting Id="DISCORD_RPC_STRING" String="Discord Rich Presence" Description="Discord настройки плагина Rich Presence" />
+            <Setting Id="OVERLAY_STRING" String="Оверлей" Description="Конфигурация оверлея" />
+			<Setting Id="PLAYER_HUD_WIDGET_STRING" String="HUD игрока" Description="Настройки HUD игрока" />
+            <Setting Id="ABNORMALITY_TRAY_STRING" String="Панель статусов" Description="Настройки панели статусов" />
+			<Setting Id="METER_WIDGET_STRING" String="Счетчик урона" Description="Настройки счетчика урона" />
+			<Setting Id="ACTIVITIES_WIDGET_STRING" String="Активности" Description="Настройки панели активностей" />
+            <Setting Id="MONSTER_WIDGET_STRING" String="Виджет монстра" Description="Конфигурация оверлея" />
+			
+			<Setting Id="INSECT_GLAIVE_WIDGET_STRING" String="Глефа насекомых" Description="Настройки панели глефы насекомых" />
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING" String="Силовой клинок" Description="Настройки панели силового клинка" />
+            <Setting Id="LONGSWORD_WIDGET_STRING" String="Бастард" Description="Настройки панели бастарда" />
+            <Setting Id="DUALBLADES_WIDGET_STRING" String="Два клинка" Description="Настройки панели двойных клинков" />
+            <Setting Id="SWITCH_AXE_WIDGET_STRING" String="Выкидной топор" Description="Настройки панели выкидного топора" />
+			
+            <Setting Id="CLOCK_WIDGET_STRING" String="Часы" Description="Настройки панели часов" />
+			<Setting Id="SPECIALIZED_TOOL_WIDGET_STRING" String="Специальные инструменты" Description="Настройки панели спец. инструментов" />
+            <Setting Id="DEV_TOOLS_STRING" String="Инструменты разработчика" Description="Продвинутые инструменты разработчика" />  
+            <Setting Id="ABNORMALITY_SONGS_STRING" String="Мелодии" Description="Статусы мелодий" />
+            <Setting Id="ABNORMALITY_CONSUMABLES_STRING" String="Расходники" Description="Статусы расходников" />
+            <Setting Id="ABNORMALITY_DEBUFFS_STRING" String="Дебаффы" Description="Статусы (дебаффы)" />
+            <Setting Id="ABNORMALITY_SKILLS_STRING" String="Навыки брони" Description="Статусы от навыков брони" />
+            <Setting Id="ABNORMALITY_FOODS_STRING" String="Навыки еды" Description="Статусы от еды" />
+			<Setting Id="ACCOUNT_STRING" String="Аккаунт" Description="Настройки аккаунта" />
 
-            <Setting Id="ENABLE_SELF_UPDATE"
-                     String="Включить автоматическое обновление"
-                     Description="Если этот параметр включен, то HunterPie будет автоматически обновляться до последней версии."/>
-            <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
-                     String="Спрашивать согласие на обновление"
-                     Description="Если этот параметр включен, HunterPie будет спрашивать согласие на обновление"/>
-            <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
-                     String="Токен поддержки"
-                     Description="Токен поддержки для получения ранних обновлений"/>
-            <Setting Id="LANGUAGE_STRING"
-                     String="Язык"
-                     Description="HunterPie выбор языка по умолчанию"/>
-            <Setting Id="MINIMIZE_TO_SYSTEM_TRAY_STRING"
-                     String="Сворачивать в системный трей"
-                     Description="Если этот параметр включен, то HunterPie будет сворачиваться в системный трей."/>					 
-            <Setting Id="RENDERING_STRATEGY_STRING"
-                     String="Стратегия рендеринга"
-                     Description="Стратегия рендеринга HunterPie по умолчанию. Software будет использовать ваш процессор для рендеринга наложения, Hardware будет использовать вашу видеокарту."/>
-            <Setting Id="POLLING_RATE_STRING"
-                     String="Задержка сканирования памяти"
-                     Description="Задержка для сканера HunterPie, установка небольшого значения сделает HunterPie чрезвычайно плавным, однако потребует больше ресурсов CPU."/>
-            <Setting Id="DEV_ENABLE_FEATURE_FLAG"
-                     String="Включить флаги функций разработки"
-                     Description="Если этот параметр включен, HunterPie позволит вам включить флаги функций для функций, находящихся в разработке."/>
+            <Setting Id="ENABLE_SELF_UPDATE" String="Включить автоматическое обновление" Description="Если этот параметр включен, то HunterPie будет автоматически обновляться до последней версии." />
+            <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION" String="Спрашивать согласие на обновление" Description="Если этот параметр включен, HunterPie будет спрашивать согласие на обновление" />
+            
+			<Setting Id="SUPPORTER_SECRET_TOKEN_STRING" String="Токен поддержки" Description="Токен поддержки для получения ранних обновлений" />
+            
+			<Setting Id="LANGUAGE_STRING" String="Язык" Description="HunterPie выбор языка по умолчанию" />
+			<Setting Id="THEME_STRING" String="Тема" Description="Текущая тема HunterPie. Учтите, что темы также влияют на стиль панелей/виджетов." />
+			
+            <Setting Id="MINIMIZE_TO_SYSTEM_TRAY_STRING" String="Сворачивать в системный трей" Description="Если этот параметр включен, то HunterPie будет сворачиваться в системный трей." />
+			<Setting Id="SEAMLESS_STARTUP_STRING" String="Включить незаметный запуск" Description="Если включено, HunterPie запустится свернутым" />
+            <Setting Id="SEAMLESS_SHUTDOWN_STRING" String="Включить незаметный выход" Description="Если включено, HunterPie не будет спрашивать подтверждения при выходе." />
+			<Setting Id="SHUTDOWN_ON_GAME_EXIT" String="Закрывать при выходе из игры" Description="Если включено, HunterPie будет автоматически закрываться при выходе из игры." />
+			
+			<Setting Id="ENABLE_NATIVE_MODULE_STRING" String="Включить HunterPie Native" Description="Если включено, HunterPie пропатчит игру для некоторого функционала (например для счетчика урона во время экспедиции).&#xA;&#xA;Если у вас нет [Stracker's Loader] и [Performance Booster and Plugin Extender](CRCBypass), в длительных сессиях игра может вылетать.&#xA;Для применения изменений необходим перезапуск игры." />
+			
+            <Setting Id="RENDERING_STRATEGY_STRING" String="Тип рендеринга" Description="Тип рендеринга HunterPie по умолчанию. Software (программный) будет использовать ваш процессор для рендеринга наложения, Hardware (аппаратный) будет использовать вашу видеокарту." />
+            <Setting Id="RENDERING_FPS_STRING" String="Частота кадров" Description="Частота кадров HunterPie, при значениях выше анимация будет плавнее. Понижение значения повысит производительность." />
+			
+			<Setting Id="POLLING_RATE_STRING" String="Задержка сканирования памяти" Description="Задержка для сканера HunterPie, установка небольшого значения сделает HunterPie чрезвычайно плавным, однако потребует больше ресурсов CPU." />
+            <Setting Id="DEV_ENABLE_FEATURE_FLAG" String="Включить функции разработки" Description="Если этот параметр включен, HunterPie позволит вам включить флаги функций для функций, находящихся в разработке." />
+			
+			<Setting Id="OVERLAY_ENABLED_STRING" String="Включить оверлей" Description="Если включено, HunterPie будет отображать оверлей.&#xA;NOTE: Эта настройка не перезаписывает настройки выключения каждого отдельного виджета." />
+			<Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING" String="Скрывать виджеты когда игра не в фокусе" Description="Если включено, все виджеты будут автоматически скрыты когда игра не на переднем плане." />
+			<Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING" String="Переключить оверлей" Description="Горячая клавиша для включения и отключения оверлея." />
+			
+            <Setting Id="DRPC_ENABLE_RICH_PRESENCE" String="Включить Discord Rich Presence" Description="Если включено, HunterPie будет отображать вашу активность в статусе Discord." />
+            <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO" String="Показать информацию о персонаже" Description="Если включено, HunterPie будет отображать имя вашего персонажа и высокий ранг в вашем статусе Discord." />
+            <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH" String="Показать здоровье монстра" Description="Если включено, HunterPie будет отображать здоровье монстра в вашем статусе Discord, когда он доступен." />
+            
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE" String="[Горячая клавиша] Переключить в режим дизайна" Description="Горячая клавиша для включения и выключения режима дизайна." />
+            
+            <Setting Id="INITIALIZE_WIDGET_STRING" String="Инициализировать виджет" Description="Если включено, HunterPie всегда будет инициализировать этот виджет. Отключите это, если вам не нужен этот виджет." />
+            <Setting Id="ENABLE_WIDGET_STRING" String="Показать виджет" Description="Если этот параметр включен, HunterPie всегда будет показывать этот виджет всякий раз, когда есть данные для отображения." />
+            <Setting Id="WIDGET_POSITION" String="Позиция виджета" Description="Управляет положением этого виджета." />
+            <Setting Id="WIDGET_OPACITY" String="Прозрачность виджета" Description="Управляет прозрачностью этого виджета." />
+            <Setting Id="WIDGET_SCALE" String="Масштаб виджета" Description="Управляет линейным масштабом этого виджета, чем выше значение, тем больше будет виджет." />
+            <Setting Id="ORIENTATION_STRING" String="Ориентация" Description="Ориентация положения виджета." />
+            <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING" String="Скрыть когда виден HUD" Description="Если включено, HunterPie будет автоматически скрывать эту панель когда виден HUD (например: окончание задания, внутри лагеря, разговор с NPC и т.д.)" />
+			
+            <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING" String="Показывать только выбраного в цель монстра" Description="Если включено, HunterPie будет показывать только того монстра, которого вы в данный момент установили в качестве цели." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" String="Включить выносливость монстров" Description="Если включено, HunterPie будет показывать выносливость монстра под полосой здоровья." />
+            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING" String="Максимальная ширина полосы здоровья монстра" Description="Управляет максимальной шириной полосы здоровья монстров." />
+            <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING" String="Минимальная ширина полосы здоровья монстра" Description="Определяет минимальную ширину полосы здоровья монстров. Эта ширина будет использоваться для расчета динамического размера столбцов, если эта опция включена." />		 		
+            <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING" String="Показывать части монстра" Description="Если включено, будут видны части монстров." />			
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING" String="Автоматически скрывать части монстров" Description="Если включено, неактивные части монстра будут скрыты через X секунд." />
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING" String="Задержка для скрытия неактивных частей" Description="Задержка ожидания, чтобы скрыть часть, которая стала неактивной." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING" String="Включить недуги монстров" Description="Если включено, недуги монстров будут включены." />
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING" String="Автоматически скрывать недуги монстров" Description="Если включено, неактивные недуги монстра будут скрыты через X секунд." />
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING" String="Задержка, чтобы скрыть неактивные недуги" Description="Задержка ожидания, чтобы скрыть недуги которые стали неактивными." />
+            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING" String="Динамическое изменение размеров полос монстров" Description="Если этот параметр включен, HunterPie автоматически изменит размер всех полос монстров в зависимости от того, сколько полосок здоровья видно в данный момент." />
+            
+			<Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING" String="Показывать Аргоси" Description="Если включено, HunterPie будет показывать данные об Аргоси." />
+            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING" String="Показывать Поход миньонов" Description="Если включено, HunterPie будет показывать статус Похода миньонов." />
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING" String="Показывать Ботанический ящик" Description="Если включено, HunterPie будет показывать информацию о Ботаническом ящике." />
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING" String="Показывать Паровую станцию" Description="Если включено, HunterPie будет показывать данные о Паровой станции." />
+			
+			<Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING" String="Тип рассчета DPS" Description="Определяет как будет рассчитываться значение DPS.&#xA;- Начало квеста: будет использоваться таймер квеста&#xA;- Присоединение: будет использоваться время с момента присоединения игрока&#xA;- Первый удар: будет использоваться время с момента первого удара игрока по монстру" />
+			
+			<Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF" String="Выделить себя" Description="Если включено, ваше имя будет выделено среди остальных игроков." />
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES" String="Размытие имен" Description="Если включено, все имена в счетчике урона будут размыты." />
+			<Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" String="Показывать DPS" Description="Если включено, HunterPie будет показывать DPS каждого игрока." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" String="Показывать общий урон" Description="Если включено, HunterPie будет показывать общий урон каждого игрока." />
+			
+			<Setting Id="DAMAGE_METER_SELF_COLOR_STRING" String="Мой цвет" Description="Ваш цвет в счетчике урона." />
+            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING" String="Цвет лидера группы" Description="Цвет лидера группы в счетчике урона." />
+            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING" String="Цвет второго игрока" Description="Цвет второго игрока в счетчике урона." />
+            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING" String="Цвет третьего игрока" Description="Цвет третьего игрока в счетчике урона." />
+            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING" String="Цвет четвертого игрока" Description="Цвет четвертого игрока в счетчике урона." />
+			
+			<Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" String="Тип графика урона" Description="Определяет какой тип урона, который будет использоваться в графике урона&#xA;- Урон в секунду: будет отображаться DPS&#xA;- Общий урон: будет отображаться общий урон каждого игрока" />
+			<Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT" String="Отображать график урона" Description="Отображение графика урона." />
+			<Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" String="Сглаживание линий графика" Description="Насколько плавными будут линии графика." />
+            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" String="Толщина линий графика" Description="Насколько толстыми будут линии графика." />
+			
+            <Setting Id="ABNORMALITY_TRAYS_STRING" String="Панель статусов" Description="Настройка панели статусов" />
+            <Setting Id="ABNORMALITY_TRAY_NAME_STRING" String="Название панели статусов" Description="Название для этой панели статусов" />
+            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING" String="Максимальный размер" Description="Устанавливает максимальный размер панели." />
+            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" String="Сортировать по" Description="Выбирает алгоритм сортировки, используемый для сортировки всех статусов." />
 
-            <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
-                     String="Включить расширенное Присутствие в Discord"
-                     Description="Если включено, HunterPie будет отображать вашу активность в статусе Discord."/>
-            <Setting Id="DRPC_ENABLE_SHOW_CHARACTER_INFO"
-                     String="Показать информацию о персонаже"
-                     Description="Если включено, HunterPie будет отображать имя вашего персонажа и высокий ранг в вашем статусе Discord."/>
-            <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH"
-                     String="Показать здоровье монстра"
-                     Description="Если включено, HunterPie будет отображать здоровье монстра в вашем статусе Discord, когда он доступен."/>
-            
-            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
-                     String="[Горячая клавиша] Переключить в режим дизайна"
-                     Description="Горячая клавиша для включения и выключения режима дизайна."/>
-            
-            <Setting Id="INITIALIZE_WIDGET_STRING"
-                     String="Инициализировать виджет"
-                     Description="Если включено, HunterPie всегда будет инициализировать этот виджет. Отключите это, если вам не нужен этот виджет."/>
-            <Setting Id="ENABLE_WIDGET_STRING"
-                     String="Показать виджет"
-                     Description="Если этот параметр включен, HunterPie всегда будет показывать этот виджет всякий раз, когда есть данные для отображения."/>
-            <Setting Id="WIDGET_POSITION"
-                     String="Позиция виджета"
-                     Description="Управляет положением этого виджета."/>
-            <Setting Id="WIDGET_OPACITY"
-                     String="Прозрачность виджета"
-                     Description="Управляет прозрачностью этого виджета."/>
-            <Setting Id="WIDGET_SCALE"
-                     String="Масштаб виджета"
-                     Description="Управляет линейным масштабом этого виджета, чем выше значение, тем больше будет виджет."/>
-            <Setting Id="ORIENTATION_STRING"
-                     String="Ориентация"
-                     Description="Ориентация положения виджета."/>
-            
-            <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
-                     String="Показывать только выбраного в цель монстра"
-                     Description="Если включено, HunterPie будет показывать только того монстра, которого вы в данный момент установили в качестве цели."/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="Включить выносливость монстров"
-                     Description="Если включено, HunterPie будет показывать выносливость монстра под полосой здоровья."/>
-            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
-                     String="Максимальная ширина полосы здоровья монстра"
-                     Description="Управляет максимальной шириной полосы здоровья монстров."/>
-            <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
-                     String="Минимальная ширина полосы здоровья монстра"
-                     Description="Определяет минимальную ширину полосы здоровья монстров. Эта ширина будет использоваться для расчета динамического размера столбцов, если эта опция включена."/>		 		
-            <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="Показывать части монстра"
-                     Description="Если включено, будет видны части монстров."/>			
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
-                     String="Автоматически скрывать части монстров"
-                     Description="Если включено, неактивные части монстра будут скрыты через X секунд."/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
-                     String="Задержка для скрытия неактивных частей"
-                     Description="Задержка ожидания, чтобы скрыть часть, которая стала неактивной."/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="Включить недуги монстров"
-                     Description="Если включено, недуги монстров будут включены."/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
-                     String="Автоматически скрывать недуги монстров"
-                     Description="Если включено, неактивные недуги монстра будут скрыты через X секунд."/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
-                     String="Задержка, чтобы скрыть неактивные недуги"
-                     Description="Задержка ожидания, чтобы скрыть недуги которые стали неактивными."/>
-            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
-                     String="Динамическое изменение размеров полос монстров"
-                     Description="Если этот параметр включен, HunterPie автоматически изменит размер всех полос монстров в зависимости от того, сколько полосок здоровья видно в данный момент."/>
-                     
-            <Setting Id="ABNORMALITY_TRAYS_STRING"
-                     String="Панель аномалий"
-                     Description="Настройка панели аномалий"/>
-            <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
-                     String="Название панели аномалий"
-                     Description="Название для этой панели аномалий"/>
-             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
-                     String="Максимальный размер"
-                     Description="Устанавливает максимальный размер панели."/>
-            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
-                     String="Сортировать по"
-                     Description="Выбирает алгоритм сортировки, используемый для сортировки всех аномалий."/>
-
-            <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Developer: Mock Monster widget"/>
-            <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Developer: Mock Damage Meter widget"/>
-            <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Developer: Mock Abnormalities widget"/>
-            <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Developer: Poogie API Host"/>
+            <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING" String="Developer: Mock Monster widget" />
+            <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING" String="Developer: Mock Damage Meter widget" />
+            <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING" String="Developer: Mock Abnormalities widget" />
+            <Setting Id="DEV_POOGIE_API_HOST_STRING" String="Developer: Poogie API Host" />
+			
+			<!-- Account -->
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" String="Включить резервную копию сохранения" Description="Если включено, HunterPie будет автоматически создавать резервную копию сохранения и загружать ее в облако." />
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" String="Включить выгрузку вылазок" Description="Если включено, HunterPie будет автоматически выгружать статистику ваших вылазок." />
         </Settings>
-    </Client>
+		<ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET" String="НАСТРОЙКИ ВИДЖЕТА" />
+            <Group Id="CONFIGURATION_GROUP_GENERAL" String="ГЛАВНЫЕ НАСТРОЙКИ" />
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS" String="КАСТОМИЗАЦИЯ" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET" String="ТАРГЕТИНГ" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS" String="ЧАСТИ" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS" String="СОСТОЯНИЯ" />
+            <Group Id="CONFIGURATION_GROUP_MISC" String="ДРУГОЕ" />
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS" String="СТАТУСЫ" />
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT" String="ГРАФИК УРОНА" />
+            <Group Id="CONFIGURATION_GROUP_COLORS" String="ЦВЕТА" />
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES" String="АКТИВНОСТИ" />
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS" String="ГОРЯЧИЕ КЛАВИШИ" />
+            <Group Id="CONFIGURATION_GROUP_MOCKS" String="MOCKS" />
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT" String="РАЗРАБОТКА" />
+            <Group Id="CONFIGURATION_GROUP_LOGGING" String="ОТЛАДКА" />
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE" String="САМООБНОВЛЕНИЕ" />
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER" String="ПОДДЕРЖКА" />
+            <Group Id="CONFIGURATION_GROUP_IN_GAME" String="В ИГРЕ" />
+            <Group Id="CONFIGURATION_GROUP_NATIVE" String="NATIVE" />
+            <Group Id="CONFIGURATION_GROUP_RENDERING" String="ОТОБРАЖЕНИЕ" />
+            <Group Id="CONFIGURATION_GROUP_SCANNING" String="СКАНИРОВАНИЕ" />
+        </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND" String="Процесс не найдена" />
+            <GameStatus Id="WAITING" String="Ожидание процесса..." />
+            <GameStatus Id="ANOTHER_RUNNING" String="Другой процесс сейчас запущен..." />
+            <GameStatus Id="RUNNING" String="Запуск..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION" String="Discord" Description="Технические вопросы? Получите поддержку от нашей команды и сообщества." />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION" String="Documentation" Description="Узнать больше о возможностях HunterPie и как его использовать." />
+        </Home>
+	</Client>
 </Strings>

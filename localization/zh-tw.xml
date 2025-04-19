@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- Update time: UTC+8 2022-08-24 22:00:00 -->
-<Strings lang="traditional Chinese">
+<!-- Update time: UTC+8 2025-04-05 01:00:00 enus#143-->
+<Strings lang="Traditional Chinese">
     <Ailments>
         <Rise>
             <Ailment Id="AILMENT_UNKNOWN" String="未知狀態"/>
@@ -30,9 +30,11 @@
             <Ailment Id="AILMENT_CLAWFLINCH" String="飛翔爪退縮"/>
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退彈"/>
             <Ailment Id="STATUS_ENRAGE" String="憤怒"/>
+	    <Ailment Id="AILMENT_STEELFANG" String="鋼鐵牙" />
+            <Ailment Id="AILMENT_CLASH" String="角力" />
         </Rise>
-    </Ailments>
-    <Abnormalities>
+   </Ailments>
+	<Abnormalities>
         <Abnormality Id="ABNORMALITY_UNKNOWN" String="未知異常"/>
         <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT" String="自我強化"/>
         <Abnormality Id="ABNORMALITY_ATTACK_UP" String="攻擊力UP【小】"/>
@@ -41,8 +43,8 @@
         <Abnormality Id="ABNORMALITY_HEALTH_BOOST_L" String="體力UP【大】"/>
         <Abnormality Id="ABNORMALITY_DEFENSE_UP" String="防禦力UP【小】"/>
         <Abnormality Id="ABNORMALITY_DEFENSE_UP_L" String="防禦力UP【大】"/>
-        <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="Tool Use Drain Red."/>
-        <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="Tool Use Drain Red. （L）"/>
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="特殊裝備消耗減少【短】"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="特殊裝備消耗減少【長】"/> <!-- Needs to translate -->
         <Abnormality Id="ABNORMALITY_HEALTH_REC" String="體力回復【小】"/>
         <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="體力回復【大】"/>
         <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="會心率UP"/>
@@ -65,7 +67,7 @@
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE" String="龍屬性防禦強化【小】"/>
         <Abnormality Id="ABNORMALITY_DRAGON_RESISTANCE_L" String="龍屬性防禦強化【大】"/>
         <Abnormality Id="ABNORMALITY_ALL_RES_UP" String="全屬性耐性UP"/>
-        <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓無效"/>
+        <Abnormality Id="ABNORMALITY_WIND_PRESSURE" String="風壓無效"/>
         <Abnormality Id="ABNORMALITY_WIND_PRESSURE_PLUS" String="風壓完全無效"/>
         <Abnormality Id="ABNORMALITY_ABNORM_ATTACK_UP" String="狀態異常攻擊力UP【小】"/>
         <Abnormality Id="ABNORMALITY_MAX_STAM_RECOVERY" String="最大耐力UP&amp;回復"/>
@@ -87,20 +89,21 @@
         <Abnormality Id="ABNORMALITY_SONIC_BARRIER" String="滑音節奏"/>
         <Abnormality Id="ABNORMALITY_INFERNAL_MELODY" String="氣焰的旋律"/>
         <Abnormality Id="ABNORMALITY_SPEED_EVADE_UP" String="自我強化[速]&amp;迴避性能UP"/>
-        <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="Elemental Effectiveness"/>
-
+        <Abnormality Id="ABNORMALITY_ALL_RES_ELEMENT_ATTACK" String="屬性類效果UP"/> <!-- Needs to translate -->
         <Abnormality Id="ABNORMALITY_RESUSCITATE" String="死裡逃生"/>
         <Abnormality Id="ABNORMALITY_WINDPROOF" String="防風"/>
-
         <Abnormality Id="ABNORMALITY_MIGHT_SEED" String="怪力種子"/>
         <Abnormality Id="ABNORMALITY_MIGHT_PILL" String="怪力藥丸"/>
         <Abnormality Id="ABNORMALITY_DEMONDRUG" String="鬼人藥"/>
         <Abnormality Id="ABNORMALITY_ARMORSKIN" String="硬化藥"/>
+	<Abnormality Id="ABNORMALITY_MEGA_DEMONDRUG" String="超級鬼人藥"/>
+        <Abnormality Id="ABNORMALITY_MEGA_ARMORSKIN" String="超級硬化藥"/>
         <Abnormality Id="ABNORMALITY_COOLDRINK" String="冷飲"/>
         <Abnormality Id="ABNORMALITY_HOTDRINK" String="熱飲"/>
         <Abnormality Id="ABNORMALITY_BUTTERFLAME" String="火紅焰蝶"/>
         <Abnormality Id="ABNORMALITY_CUTTERFLY" String="網切蜻蜓"/>
         <Abnormality Id="ABNORMALITY_ADAMANT_SEED" String="忍耐種子"/>
+	<Abnormality Id="ABNORMALITY_ADAMANT_PILL" String="忍耐藥丸"/>
         <Abnormality Id="ABNORMALITY_CLOTHFLY" String="一反粉蝶"/>
         <Abnormality Id="ABNORMALITY_DASH_JUICE" String="強走藥"/>
         <Abnormality Id="ABNORMALITY_DEMON_POWDER" String="鬼人粉塵"/>
@@ -128,14 +131,15 @@
         <Abnormality Id="ABNORMALITY_RUBY_WIREBUG" String="變幻翔蟲 紅"/>
         <Abnormality Id="ABNORMALITY_GOLD_WIREBUG" String="變幻翔蟲 金"/>
         <Abnormality Id="ABNORMALITY_STINKMINK" String="臭臭鼬鼠"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="Frenzy Immunity"/> <!-- Needs to translate -->
-
-        <Abnormality Id="ABNORMALITY_DANGO_BULKER" String="糰子鍛鍊"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_IMMUNITY" String="狂龍症免疫"/> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_BLEED_HEALING" String="裂傷回復"/>
+	<Abnormality Id="ABNORMALITY_DANGO_BULKER" String="糰子鍛鍊"/>
         <Abnormality Id="ABNORMALITY_DANGO_BOOSTER" String="糰子短期催眠術"/>
         <Abnormality Id="ABNORMALITY_DANGO_GLUTTON" String="糰子不知飢"/>
         <Abnormality Id="ABNORMALITY_DANGO_DEFENDER" String="糰子防護術"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-
-        <Abnormality Id="ABNORMALITY_FORTIFY" String="不屈"/>
+        <Abnormality Id="ABNORMALITY_DANGO_HUNTER" String="糰子逃跑術" />
+	<Abnormality Id="ABNORMALITY_DANGO_CONNECTOR" String="糰子情誼術" />
+	<Abnormality Id="ABNORMALITY_FORTIFY" String="不屈"/>
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="逆襲"/>
         <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="連擊"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="力量解放"/>
@@ -148,31 +152,124 @@
         <Abnormality Id="ABNORMALITY_FROSTCRAFT" String="寒氣鍊成"/>
         <Abnormality Id="ABNORMALITY_COALESCENCE" String="轉禍為福"/>
         <Abnormality Id="ABNORMALITY_EVASION_MANTLE" String="迴避衣裝（攻擊+）"/>
-        <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="達人煙筒"/>
-
-        <Abnormality Id="ABNORMALITY_POISON" String="中毒"/>
-        <Abnormality Id="ABNORMALITY_VENOM" String="猛毒"/>
-        <Abnormality Id="ABNORMALITY_DEF_DOWN" String="防禦力DOWN"/>
+        <Abnormality Id="ABNORMALITY_AFFINITTY_BOOSTER" String="達人煙筒"/>        
+        <Abnormality Id="ABNORMALITY_GRINDER_S" String="研磨術[銳]" /> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_ADRENALINE_RUSH" String="巧擊" />
+        <Abnormality Id="ABNORMALITY_AGITATOR" String="挑戰者" />
+        <Abnormality Id="ABNORMALITY_DEFIANCE" String="堅若磐石" />
+        <Abnormality Id="ABNORMALITY_INTERPID_HEART" String="剛心" />
+        <Abnormality Id="ABNORMALITY_HEROICS" String="火場怪力" />
+        <Abnormality Id="ABNORMALITY_PEAK_PERFORMANCE" String="無傷" />
+        <Abnormality Id="ABNORMALITY_DRAGONHEART" String="龍氣活性" />
+        <Abnormality Id="ABNORMALITY_WINDMANTLE" String="暴風纏身" />
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_RED" String="粉塵飛舞(紅)" />
+        <Abnormality Id="ABNORMALITY_POWDERMANTLE_BLUE" String="粉塵飛舞(藍)" />	
+        <Abnormality Id="ABNORMALITY_STRIFE_S" String="奮戰【小】"/>
+        <Abnormality Id="ABNORMALITY_STRIFE_L" String="奮戰【大】"/>
+        <Abnormality Id="ABNORMALITY_MAXIMUM_MIGHT" String="精神抖擻"/>
+        <Abnormality Id="ABNORMALITY_BERSERK" String="狂暴化"/>
+        <Abnormality Id="ABNORMALITY_STATUS_TRIGGER" String="異常狀態觸發"/>
+        <Abnormality Id="ABNORMALITY_DRAGON_CONVERSION" String="龍氣轉換（全耐性UP）"/>
+        <Abnormality Id="ABNORMALITY_WALL_RUNNER" String="牆面移動（攻擊力UP）"/>        
+	<Abnormality Id="ABNORMALITY_EMBOLDEN" String="鼓舞"/>
+        <Abnormality Id="ABNORMALITY_KUSHALA_DAORA_SOUL" String="鋼龍之魂"/>
+        <Abnormality Id="ABNORMALITY_CHAMELEOS_SOUL" String="霞龍之魂"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_BUILDUP" String="狂怒（怒氣累積）"/>
+        <Abnormality Id="ABNORMALITY_FURIOUS_STAMINA_BUFF" String="狂怒（無限耐力）"/>
+        <Abnormality Id="ABNORMALITY_SPIRIBIRDS_CALL" String="靈鳥的呼喚"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_S" String="攻防昇華【小】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_M" String="攻防昇華【中】"/>
+        <Abnormality Id="ABNORMALITY_DERELICTION_L" String="攻防昇華【大】"/>        
+	<Abnormality Id="ABNORMALITY_FROSTCRAFT_RISE" String="冰氣練成"/>
+        <Abnormality Id="ABNORMALITY_BLOOD" String="劫血異常"/>
+        <Abnormality Id="ABNORMALITY_PRE_SLEEP" String="睡眠前兆"/> 		
+	<Abnormality Id="ABNORMALITY_POISON" String="中毒"/>
+	<Abnormality Id="ABNORMALITY_POISON_BUILDUP" String="中毒（累積）" />
+        <Abnormality Id="ABNORMALITY_VENOM" String="猛毒"/>		
+	<Abnormality Id="ABNORMALITY_STUN" String="暈眩" /> <!-- Needs to translate -->
+        <Abnormality Id="ABNORMALITY_STUN_BUILDUP" String="暈眩 (累積)" />
+        <Abnormality Id="ABNORMALITY_SLEEP" String="睡眠" />
+        <Abnormality Id="ABNORMALITY_SLEEP_BUILDUP" String="睡眠 (累積)" />
+        <Abnormality Id="ABNORMALITY_PARALYSIS" String="麻痺" />
+        <Abnormality Id="ABNORMALITY_PARALYSIS_BUILDUP" String="麻痺 (累積)" />	
+	<Abnormality Id="ABNORMALITY_DEF_DOWN" String="防禦力DOWN"/>
+	<Abnormality Id="ABNORMALITY_DEF_DOWN_BUILDUP" String="防禦力DOWN【累積】" />
         <Abnormality Id="ABNORMALITY_RES_DOWN" String="全屬性耐性DOWN"/>
         <Abnormality Id="ABNORMALITY_STENCH" String="無法使用部分道具 "/>
+	<Abnormality Id="ABNORMALITY_STENCH_BUILDUP" String="無法使用部分道具（感染）" />
         <Abnormality Id="ABNORMALITY_HELLFIRE" String="鬼火異常"/>
         <Abnormality Id="ABNORMALITY_BLAST" String="爆破異常"/>
+	<Abnormality Id="ABNORMALITY_BLAST_BUILDUP" String="爆破異常 (累積)" />
         <Abnormality Id="ABNORMALITY_BLASTSCOURGE" String="強爆破異常狀態"/>
         <Abnormality Id="ABNORMALITY_FIRE" String="火屬性異常"/>
+	<Abnormality Id="ABNORMALITY_FIRE_BUILDUP" String="火屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_WATER" String="水屬性異常"/>
+	<Abnormality Id="ABNORMALITY_WATER_BUILDUP" String="水屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_ICE" String="冰屬性異常"/>
+	<Abnormality Id="ABNORMALITY_ICE_BUILDUP" String="冰屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_THUNDER" String="雷屬性異常"/>
+	<Abnormality Id="ABNORMALITY_THUNDER_BUILDUP" String="雷屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_DRAGON" String="龍屬性異常"/>
+	<Abnormality Id="ABNORMALITY_DRAGON_BUILDUP" String="龍屬性異常 (累積)" />
         <Abnormality Id="ABNORMALITY_BUBBLES" String="泡沫狀態【小】"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
         <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="泡沫狀態【大】"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="裂傷狀態"/>
-        <Abnormality Id="ABNORMALITY_EFFLUVIA" String="瘴氣侵蝕狀態"/>
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂龍症（感染）"/>
-        <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍狀態"/>
+	<Abnormality Id="ABNORMALITY_BLEED_BUILDUP" String="裂傷狀態 (累積)" />
+        <Abnormality Id="ABNORMALITY_EFFLUVIA" String="瘴氣侵蝕狀態"/>	
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="狂龍症 (累積)"/>
+        <Abnormality Id="ABNORMALITY_FRENZY" String="狂龍症"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="被網纏住"/>
-        <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> <!-- Needs to review(Source: Official MHR:S Web manual) -->
-    </Abnormalities>
+	<Abnormality Id="ABNORMALITY_WEBBED_BUILDUP" String="被網纏住 (累積)" />
+        <Abnormality Id="ABNORMALITY_LEECHED" String="吸血"/> 
+        <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="天衣無縫" />
+	<Abnormality Id="ABNORMALITY_FROZEN" String="凍結" />
+        <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP" String="凍結 (感染)" />
+	<Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV" String="響玉:迴避性能及移動速度上升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN" String="響玉:體力持續回復" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN" String="響玉:耐力持續回復" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY" String="響玉:攻擊力及會心率上升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES" String="響玉:防禦力及屬性耐性上升" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG" String="響玉:狀態異常及屬性異常無效" />
+        <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT" String="凍峰龍之叛逆" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION" String="屬性吸收" />
+        <Abnormality Id="ABNORMALITY_CONVERT_ELEMENT" String="屬性轉換" />
+        <Abnormality Id="ABNORMALITY_DOSHAGUMA_MIGHT" String="闢獸之力" />
+        <Abnormality Id="ABNORMALITY_XUWU_VIGOR" String="暗器鱆之力" />
+        <Abnormality Id="ABNORMALITY_BURST" String="連擊" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PROTECTION" String="護龍的庇護" />
+        <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT" String="皮革製品的滑順質感" />
+        <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER" String="波衣龍之守護" />
+        <Abnormality Id="ABNORMALITY_AMBUSH" String="突襲" />
+	<Abnormality Id="ABNORMALITY_BLANGONGA_SPIRIT" String="雪獅子王之鬥志" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER" String="蘑菇笛——力量之音" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER_L" String="蘑菇笛——力量之音 (大)" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION" String="蘑菇笛——守護之音" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L" String="蘑菇笛——守護之音 (大)" />
+	</Abnormalities>
     <Monsters>
+	<Variants>
+             <Variant Id="TEMPERED" String="歷戰" />
+             <Variant Id="ARCH_TEMPERED" String="歷戰王" />
+             <Variant Id="FRENZIED" String="狂龍化" /> 
+        </Variants>
+	    <Types>
+            <Type Id="TYPE_AERIAL" String="飛行種"/>
+            <Type Id="TYPE_FLYING_WYVERN" String="飛龍種"/>
+            <Type Id="TYPE_BRUTE_WYVERN" String="獸龍種"/>
+            <Type Id="TYPE_FANGED_BEAST" String="牙獸種"/>
+            <Type Id="TYPE_LEVIATHAN" String="海龍種"/>
+            <Type Id="TYPE_AQUATIC" String="水生種"/>
+            <Type Id="TYPE_BIRD_WYVERN" String="鳥龍種"/>
+            <Type Id="TYPE_FANGED_WYVERN" String="牙龍種"/>
+            <Type Id="TYPE_ELDER_DRAGON" String="古龍種"/>
+            <Type Id="TYPE_AMPHIBIAN" String="兩生種"/>
+            <Type Id="TYPE_TEMNOCERAN" String="鋏角種"/>
+            <Type Id="TYPE_PISCINE_WYVERN" String="魚龍種"/>
+            <Type Id="TYPE_CARAPACEON" String="甲殼種"/>
+	    <Type Id="TYPE_CONSTRUCT" String="造龍種" />
+            <Type Id="TYPE_DEMI_ELDER" String="亞龍種" />
+            <Type Id="TYPE_CEPHALOPOD" String="頭足種" />
+        </Types>	
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_TO_BE_MAPPED" String="未知部位"/>
@@ -219,7 +316,9 @@
             <Part Id="PART_R_FORELEG" String="右前腿"/>
             <Part Id="PART_L_H_LEG" String="左後腿"/>
             <Part Id="PART_R_H_LEG" String="右後腿"/>
-            <Part Id="PART_ABDOMEN" String="腹部"/>
+	    <Part Id="PART_L_H_FORELEG" String="左前後腿" /> 
+	    <Part Id="PART_R_H_FORELEG" String="右前後腿" />
+	    <Part Id="PART_ABDOMEN" String="腹部"/>
             <Part Id="PART_CHEST" String="胸部"/>
             <Part Id="PART_TAIL_TIP" String="尾尖"/>
             <Part Id="PART_MUD_BALL" String="泥球"/>
@@ -305,8 +404,45 @@
             <Part Id="PART_R_ARM_ROCK" String="右臂的岩石"/>
             <Part Id="PART_BODY_LEGS" String="身體 &amp; 腳"/>
             <Part Id="PART_ANTLERS" String="鹿角"/>
-        </Shared>
-        <Rise>
+            <Part Id="PART_MANE" String="鬃毛"/>
+            <Part Id="PART_QURIO_THRESHOLD" String="噬生蟲閾值"/>
+	    <Part Id="PART_BELLY" String="腹部" />
+            <Part Id="PART_PETALS" String="花瓣狀部位" />
+            <Part Id="PART_MANTLE" String="外套膜" />
+            <Part Id="PART_STINGER" String="毒刺" />
+            <Part Id="PART_R_WINGARM" String="右翼臂" />
+            <Part Id="PART_L_WINGARM" String="左翼臂" />
+            <Part Id="PART_NOSE" String="鼻子" />
+            <Part Id="PART_TAIL_HAIR" String="尾毛" />
+            <Part Id="PART_TONGUE" String="舌頭" />
+            <Part Id="PART_R_HEAD_VEIL" String="液膜（頭部右側）" />
+            <Part Id="PART_L_HEAD_VEIL" String="液膜（頭部左側）" />
+            <Part Id="PART_R_TORSO_VEIL" String="液膜（身體右側）" />
+            <Part Id="PART_L_TORSO_VEIL" String="液膜（身體左側）" />
+            <Part Id="PART_R_FORELEG_VEIL" String="液膜（右前腳）" />
+            <Part Id="PART_L_FORELEG_VEIL" String="液膜（右前腳）" />
+            <Part Id="PART_R_TAIL_VEIL" String="液膜（尾巴右側）)" />
+            <Part Id="PART_L_TAIL_VEIL" String="液膜（尾巴左側）" />
+            <Part Id="PART_M_TAIL_VEIL" String="液膜（尾巴）" />
+            <Part Id="PART_TENTACLE" String="觸手" />
+            <Part Id="PART_MEMBRANE" String="腕間膜" />
+            <Part Id="PART_L_F_ARM" String="第一左觸手" />
+            <Part Id="PART_R_F_ARM" String="第一右觸手" />
+            <Part Id="PART_M_L_ARM" String="第二左觸手" />
+            <Part Id="PART_M_R_ARM" String="第二右觸手" />
+            <Part Id="PART_REAR_L_ARM" String="第三左觸手" />
+            <Part Id="PART_REAR_R_ARM" String="第三右觸手" />
+            <Part Id="PART_MOUTH" String="嘴巴" />
+            <Part Id="PART_L_CHAINBLADE" String="左鎖翼刃" />
+            <Part Id="PART_R_CHAINBLADE" String="右鎖翼刃" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE" String="凍成殼（腰部）" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN" String="大凍成殼（露出前）" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED" String="大凍成殼（露出後）" />
+            <Part Id="PART_HEAD_CRYSTALIZED" String="頭（白纏晶）" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED" String="左翼臂（白纏晶）" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED" String="右翼臂（白纏晶）" />
+	</Shared>
+	<Rise>
             <Monster Id="0" String="雌火龍"/>
             <Monster Id="1" String="首領雌火龍"/>
             <Monster Id="2" String="火龍"/>
@@ -461,8 +597,41 @@
             <Monster Id="100" String="霜刃冰牙龍"/>
             <Monster Id="101" String="黑龍"/>
         </World>
-    </Monsters>
-    <Stages>
+	<Wilds>
+            <Monster Id="0" String="雌火龍" />
+            <Monster Id="1" String="火龍" />
+            <Monster Id="2" String="護火龍" />
+            <Monster Id="3" String="鎧龍" />
+            <Monster Id="4" String="怪鳥" />
+            <Monster Id="5" String="毒怪鳥" />
+            <Monster Id="6" String="桃毛獸王" />
+            <Monster Id="7" String="雪獅子王" />
+            <Monster Id="9" String="影蜘蛛" />
+            <Monster Id="10" String="黑蝕龍" />
+	    <Monster Id="13" String="泡狐龍" />
+            <Monster Id="14" String="護雷顎龍" />
+            <Monster Id="15" String="護兇爪龍" />
+            <Monster Id="16" String="闢獸" />
+            <Monster Id="17" String="護闢獸" />
+            <Monster Id="18" String="沙海龍" />
+            <Monster Id="19" String="纏蛙" />
+            <Monster Id="20" String="炎尾龍" />
+            <Monster Id="21" String="刺花蜘蛛" />
+            <Monster Id="22" String="沼噴龍" />
+            <Monster Id="23" String="煌雷龍" />
+            <Monster Id="24" String="波衣龍" />
+            <Monster Id="25" String="獄焰鱆" />
+            <Monster Id="26" String="赫猿獸" />
+            <Monster Id="27" String="鎖刃龍" />
+            <Monster Id="28" String="護鎖刃龍" />
+            <Monster Id="29" String="風鋏龍" />
+            <Monster Id="30" String="凍峰龍" />
+            <Monster Id="31" String="暗器鱆" />
+            <Monster Id="32" String="白熾龍" />
+            <Monster Id="33" String="貓式訓練用拳擊木桶靶" />
+        </Wilds>
+    </Monsters> 
+	<Stages>
         <Rise>
             <Stage Id="-2" String="讀取中..."/>
             <Stage Id="-1" String="主選單"/>
@@ -478,7 +647,7 @@
             <Stage Id="199" String="角色選擇"/>
             <Stage Id="201" String="大社遺跡"/>
             <Stage Id="202" String="沙原"/>
-            <Stage Id="203" String="水没林"/>
+            <Stage Id="203" String="水沒林"/>
             <Stage Id="204" String="寒冷群島"/>
             <Stage Id="205" String="熔岩洞"/>
             <Stage Id="207" String="翡葉要塞"/>
@@ -519,7 +688,7 @@
             <Stage Id="413" String="起源的孤島"/>
             <Stage Id="415" String="幽境之谷"/>
             <Stage Id="416" String="幽境之谷"/>
-            <Stage Id="417" String="虚黑城"/>
+            <Stage Id="417" String="虛黑城"/>
             <Stage Id="501" String="流通區域"/>
             <Stage Id="502" String="星辰小屋"/>
             <Stage Id="503" String="星辰套房"/>
@@ -527,37 +696,2338 @@
             <Stage Id="505" String="星辰集會所小屋"/>
             <Stage Id="506" String="月辰小屋"/>
         </World>
+        <Wilds>
+            <Stage Id="0" String="天塹沙原" />
+            <Stage Id="1" String="緋紅森林" />
+            <Stage Id="2" String="湧油山谷" />
+            <Stage Id="3" String="冰霧斷崖" />
+            <Stage Id="4" String="龍都遺蹟" />
+            <Stage Id="5" String="河畔小徑" />
+            <Stage Id="6" String="岩窟坑道" />
+            <Stage Id="7" String="龍都廢道" />
+            <Stage Id="8" String="守護者參道" />
+            <Stage Id="9" String="龍谷遺址" />
+            <Stage Id="10" String="冰鎖凍峰" />
+            <Stage Id="11" String="龍燈聖廟" />
+            <Stage Id="12" String="交匯之峰蘇加" />
+	    <Stage Id="14" String="大集會所" />
+            <Stage Id="15" String="訓練場" />
+        </Wilds>		
     </Stages>
-
-    <Client>
-        <Overlay>
-            <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
-                    String="隨從"/>
+    <Fertilizers> <!-- Needs to translate -->
+        <Fertilizer Id="FERTILIZER_NONE_STRING"
+                    String="無效果" />
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
+                    String="草·果實收獲量UP【小】" />
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
+                    String="草·果實收獲量UP【大】" />
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
+                    String="香茹收獲量UP【小】" />
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
+                    String="香茹收獲量UP【大】" />
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
+                    String="蟲·蜂蜜收獲量UP【小】" />
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
+                    String="蟲·蜂蜜收獲量UP【大】" />
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
+                    String="成長力UP【小】" />
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
+                    String="成長力UP【大】" />
+    </Fertilizers>	
+    <Quests> <!-- Needs to translate -->
+        <Rise>
+            <Quest Id="101"
+                   String="大社遺跡的探索之旅" />
+            <Quest Id="102"
+                   String="圓滾滾的鬼燈" />
+            <Quest Id="103"
+                   String="請給我美味的香菇吧" />
+            <Quest Id="104"
+                   String="盤據在神社的暴徒" />
+            <Quest Id="105"
+                   String="整備前得先擊退鐮鼬龍" />
+            <Quest Id="201"
+                   String="寒冷群島的探索之旅" />
+            <Quest Id="202"
+                   String="三位一體的鐮刀" />
+            <Quest Id="203"
+                   String="食慾旺盛的青熊獸" />
+            <Quest Id="204"
+                   String="緊緻彈性，柔柔滑滑" />
+            <Quest Id="205"
+                   String="宛如夢境般的寒冷群島" />
+            <Quest Id="206"
+                   String="戰勝睡意！" />
+            <Quest Id="207"
+                   String="白兔獸別再吃了" />
+            <Quest Id="208"
+                   String="百蟲夜行" />
+            <Quest Id="209"
+                   String="怎麼烤都烤不好！" />
+            <Quest Id="301"
+                   String="沙原的探索之旅" />
+            <Quest Id="302"
+                   String="水沒林的探索之旅" />
+            <Quest Id="303"
+                   String="千變萬化的紙傘" />
+            <Quest Id="304"
+                   String="百龍夜行來襲" />
+            <Quest Id="305"
+                   String="囫圇吞物的河童蛙" />
+            <Quest Id="306"
+                   String="沙原裡的大盜" />
+            <Quest Id="307"
+                   String="泥沼裡的土砂龍" />
+            <Quest Id="308"
+                   String="毒霧繚繞的水沒林" />
+            <Quest Id="309"
+                   String="海綿質素材創造出的沙漠未來" />
+            <Quest Id="310"
+                   String="尋找掉落的貨物之卷" />
+            <Quest Id="311"
+                   String="擊退沒有臉的怪物？" />
+            <Quest Id="312"
+                   String="驚人！靠仙人掌打造完美身材" />
+            <Quest Id="313"
+                   String="在沙原蠢蠢欲動的不明群體" />
+            <Quest Id="314"
+                   String="太古的氣息" />
+            <Quest Id="315"
+                   String="嬌豔欲滴的美女" />
+            <Quest Id="401"
+                   String="熔岩洞的探索之旅" />
+            <Quest Id="402"
+                   String="山林的武僧" />
+            <Quest Id="403"
+                   String="特別許可試驗･一" />
+            <Quest Id="404"
+                   String="通往黃泉路的歌聲" />
+            <Quest Id="405"
+                   String="寒風呼嘯的銀白世界" />
+            <Quest Id="406"
+                   String="女王陛下駕到" />
+            <Quest Id="407"
+                   String="在空中飛舞的白影" />
+            <Quest Id="408"
+                   String="熾熱的圓舞曲" />
+            <Quest Id="409"
+                   String="夜裡哭泣的石頭" />
+            <Quest Id="410"
+                   String="恐怖的尋找失物之旅！之卷" />
+            <Quest Id="411"
+                   String="醫生對毒的孤獨研究" />
+            <Quest Id="412"
+                   String="肝是最棒的下酒菜" />
+            <Quest Id="413"
+                   String="連鐵都能熔解的燃石炭" />
+            <Quest Id="414"
+                   String="連接親子間的線" />
+            <Quest Id="415"
+                   String="激烈的三強決戰" />
+            <Quest Id="501"
+                   String="暴虐無道" />
+            <Quest Id="502"
+                   String="特別許可試驗･二" />
+            <Quest Id="503"
+                   String="疾風迅龍" />
+            <Quest Id="504"
+                   String="帶電雷狼龍" />
+            <Quest Id="505"
+                   String="沙漠夜裡的追蹤者" />
+            <Quest Id="506"
+                   String="月下之舞" />
+            <Quest Id="507"
+                   String="火龍警報發布中" />
+            <Quest Id="508"
+                   String="提味秘方正是小睡？之卷" />
+            <Quest Id="509"
+                   String="酥麻電擊或是呼呼大睡？" />
+            <Quest Id="510"
+                   String="沙原的騷動" />
+            <Quest Id="511"
+                   String="火熱的重要一戰" />
+            <Quest Id="601"
+                   String="泥之隱者" />
+            <Quest Id="602"
+                   String="特別許可試驗･三" />
+            <Quest Id="603"
+                   String="高難度：挑戰霸者之列吧" />
+            <Quest Id="604"
+                   String="徬徨的雪鬼獸" />
+            <Quest Id="605"
+                   String="轟天之聲" />
+            <Quest Id="606"
+                   String="扭曲的欲望" />
+            <Quest Id="607"
+                   String="在大社遺跡試膽" />
+            <Quest Id="608"
+                   String="電光雷轟，夢幻泡影" />
+            <Quest Id="609"
+                   String="天空王者與大地暴君" />
+            <Quest Id="10101"
+                   String="大社遺跡的探索之旅（初階）" />
+            <Quest Id="10102"
+                   String="寒冷群島的探索之旅（初階）" />
+            <Quest Id="10104"
+                   String="紙傘妖怪" />
+            <Quest Id="10105"
+                   String="深夜時分驅逐搔鳥" />
+            <Quest Id="10106"
+                   String="寒冷群島的旋風" />
+            <Quest Id="10107"
+                   String="眠狗龍在寒冷群島出沒" />
+            <Quest Id="10108"
+                   String="小心逼近的雪球" />
+            <Quest Id="10109"
+                   String="在大社遺跡奔馳的毒狗龍王" />
+            <Quest Id="10110"
+                   String="蜂蜜爭奪戰！" />
+            <Quest Id="10111"
+                   String="讓大社遺跡的夜晚恢復寧靜" />
+            <Quest Id="10112"
+                   String="近來引起話題的討厭鬼們" />
+            <Quest Id="10201"
+                   String="沙原的探索之旅（初階）" />
+            <Quest Id="10202"
+                   String="水沒林的探索之旅（初階）" />
+            <Quest Id="10203"
+                   String="囫圇吞物的相撲力士" />
+            <Quest Id="10204"
+                   String="用尾巴團團轉" />
+            <Quest Id="10205"
+                   String="認真觀察毒妖鳥" />
+            <Quest Id="10206"
+                   String="淹沒水中的水沒林" />
+            <Quest Id="10207"
+                   String="頭殼堅硬的土砂龍" />
+            <Quest Id="10208"
+                   String="逼近的白影" />
+            <Quest Id="10209"
+                   String="在沙原滾動的赤甲獸" />
+            <Quest Id="10210"
+                   String="岩龍就在你身後" />
+            <Quest Id="10211"
+                   String="成為女王的方法" />
+            <Quest Id="10212"
+                   String="我是冠突龍？冠突龍是我？" />
+            <Quest Id="10213"
+                   String="皮、皮、皮！" />
+            <Quest Id="10214"
+                   String="兔子和青蛙的互撞訓練" />
+            <Quest Id="10215"
+                   String="水之野獸與火之飛龍" />
+            <Quest Id="10216"
+                   String="百龍夜行來襲" />
+            <Quest Id="10301"
+                   String="熔岩洞的探索之旅（初階）" />
+            <Quest Id="10302"
+                   String="鬼火" />
+            <Quest Id="10303"
+                   String="誘入夢鄉" />
+            <Quest Id="10304"
+                   String="冰雪鬥士" />
+            <Quest Id="10305"
+                   String="撲朔的飛電" />
+            <Quest Id="10306"
+                   String="泥巴泥濘泥翁龍" />
+            <Quest Id="10307"
+                   String="熔岩洞的暴徒" />
+            <Quest Id="10308"
+                   String="黑夜中奔馳的雙星" />
+            <Quest Id="10309"
+                   String="為泡狐龍著迷" />
+            <Quest Id="10310"
+                   String="王者降臨熔岩洞" />
+            <Quest Id="10311"
+                   String="雷鳴伴水月" />
+            <Quest Id="10312"
+                   String="白騎士對獵人" />
+            <Quest Id="10313"
+                   String="衝著好友而來的咆哮" />
+            <Quest Id="10314"
+                   String="當心銳利尖角" />
+            <Quest Id="10315"
+                   String="尾巴大對決" />
+            <Quest Id="10316"
+                   String="瘋狂的肆虐者們" />
+            <Quest Id="10317"
+                   String="身處災禍仍舊美麗" />
+            <Quest Id="10401"
+                   String="大社遺跡的探索之旅（進階）" />
+            <Quest Id="10402"
+                   String="寒冷群島的探索之旅（進階）" />
+            <Quest Id="10403"
+                   String="青色的首領" />
+            <Quest Id="10404"
+                   String="層層包圍的旋風" />
+            <Quest Id="10405"
+                   String="魔物中的老饕們" />
+            <Quest Id="10406"
+                   String="寒地打盹" />
+            <Quest Id="10407"
+                   String="傘鳥圓舞" />
+            <Quest Id="10408"
+                   String="盛大的相撲舞台･寒冷群島" />
+            <Quest Id="10409"
+                   String="可愛的魔物也有牙" />
+            <Quest Id="10410"
+                   String="身披毒錦" />
+            <Quest Id="10411"
+                   String="深夜的奇怪龍狩獵" />
+            <Quest Id="10412"
+                   String="守護兔兔糰子的生命線之卷" />
+            <Quest Id="10413"
+                   String="鮮蛋糰子爭奪戰之卷" />
+            <Quest Id="10414"
+                   String="細心領會！單手劍的招式" />
+            <Quest Id="10415"
+                   String="徹底理解！狩獵笛的招式" />
+            <Quest Id="10416"
+                   String="千變萬化！劍斧的招式" />
+            <Quest Id="10417"
+                   String="用心學習！輕弩的招式" />
+            <Quest Id="10418"
+                   String="慎重派與突擊派" />
+            <Quest Id="10419"
+                   String="藍藍圓圓，惹人憐愛的孩子" />
+            <Quest Id="10501"
+                   String="沙原的探索之旅（進階）" />
+            <Quest Id="10502"
+                   String="水沒林的探索之旅（進階）" />
+            <Quest Id="10503"
+                   String="險惡的沼澤" />
+            <Quest Id="10504"
+                   String="與水共生者" />
+            <Quest Id="10505"
+                   String="身陷泥淖依舊爬起" />
+            <Quest Id="10506"
+                   String="小心來自沙原的魔球" />
+            <Quest Id="10507"
+                   String="一柿入魂" />
+            <Quest Id="10508"
+                   String="化為血與毒" />
+            <Quest Id="10509"
+                   String="有志者事竟成" />
+            <Quest Id="10510"
+                   String="為女王著迷" />
+            <Quest Id="10511"
+                   String="仔細觀察！大劍的招式" />
+            <Quest Id="10512"
+                   String="親身體驗！大錘的招式" />
+            <Quest Id="10513"
+                   String="心領神會！長槍的招式" />
+            <Quest Id="10514"
+                   String="人斧一體！充能斧的招式" />
+            <Quest Id="10515"
+                   String="一擊貫穿！重弩的招式" />
+            <Quest Id="10516"
+                   String="近期引起話題的堅硬魔物" />
+            <Quest Id="10517"
+                   String="水沒林的添亂集團" />
+            <Quest Id="10518"
+                   String="吞噬寒地的影子" />
+            <Quest Id="10601"
+                   String="熔岩洞的探索之旅（進階）" />
+            <Quest Id="10602"
+                   String="妖豔之舞" />
+            <Quest Id="10603"
+                   String="風神" />
+            <Quest Id="10604"
+                   String="山河一閃，雷鳴轟響" />
+            <Quest Id="10605"
+                   String="誘向冥府的歌聲" />
+            <Quest Id="10606"
+                   String="研磨琥珀色的牙" />
+            <Quest Id="10607"
+                   String="飛越頭頂的威脅" />
+            <Quest Id="10608"
+                   String="窮追不捨的蠻顎龍" />
+            <Quest Id="10609"
+                   String="劃破黑夜的赤紅雙眸" />
+            <Quest Id="10610"
+                   String="在天空綻放的紅蓮" />
+            <Quest Id="10611"
+                   String="泥巴四濺大騷動之卷" />
+            <Quest Id="10612"
+                   String="去蕪存菁！太刀的招式" />
+            <Quest Id="10613"
+                   String="疾風驟雨！雙劍的招式" />
+            <Quest Id="10614"
+                   String="千錘百鍊！銃槍的招式" />
+            <Quest Id="10615"
+                   String=" 潛心修練！操蟲棍的招式" />
+            <Quest Id="10616"
+                   String="勤加鍛鍊！弓的招式" />
+            <Quest Id="10617"
+                   String="熔岩洞的掃蕩戰" />
+            <Quest Id="10618"
+                   String="英雄豪傑" />
+            <Quest Id="10701"
+                   String="噴火的貴妃" />
+            <Quest Id="10702"
+                   String="雷神" />
+            <Quest Id="10703"
+                   String="上古幻影" />
+            <Quest Id="10704"
+                   String="於暴風中起舞的黑影" />
+            <Quest Id="10705"
+                   String="炎國之王" />
+            <Quest Id="10706"
+                   String="百龍淵源" />
+            <Quest Id="10707"
+                   String="秘紅赫耀" />
+            <Quest Id="10708"
+                   String="雪鬼獸來襲" />
+            <Quest Id="10709"
+                   String="鬼火纏身者" />
+            <Quest Id="10710"
+                   String="來自泥海的邀請" />
+            <Quest Id="10711"
+                   String="於地底疾馳的角龍" />
+            <Quest Id="10712"
+                   String="隆隆咆哮" />
+            <Quest Id="10713"
+                   String="惡鬼羅剎" />
+            <Quest Id="10714"
+                   String="注意火侯！紫炎與火球之卷" />
+            <Quest Id="10715"
+                   String="大社遺跡的大騷動" />
+            <Quest Id="10716"
+                   String="宛如大地的怪力" />
+            <Quest Id="10717"
+                   String="激戰、激烈、激勵之亂" />
+            <Quest Id="10718"
+                   String="小心暴徒" />
+            <Quest Id="10719"
+                   String="來自四面八方的威脅" />
+            <Quest Id="10720"
+                   String="疾風怒濤的大舞台" />
+            <Quest Id="10721"
+                   String="貫穿兔兔糰子的兩對犄角之卷" />
+            <Quest Id="10722"
+                   String="烈火與昂首闊步的強者們" />
+            <Quest Id="10723"
+                   String="烈火啊，撫平沖天的怒髮吧" />
+            <Quest Id="10725"
+                   String="來自遠方的凶星（寒冷群島）" />
+            <Quest Id="10726"
+                   String="來自遠方的凶星（沙原）" />
+            <Quest Id="10727"
+                   String="來自遠方的凶星（水沒林）" />
+            <Quest Id="10728"
+                   String="來自遠方的凶星（熔岩洞）" />
+            <Quest Id="10729"
+                   String="爆鱗如雨" />
+            <Quest Id="10730"
+                   String="爆鱗龍再次來襲（大社遺跡）" />
+            <Quest Id="10731"
+                   String="爆鱗龍再次來襲（寒冷群島）" />
+            <Quest Id="10733"
+                   String="爆鱗龍再次來襲（水沒林）" />
+            <Quest Id="10734"
+                   String="爆鱗龍再次來襲（熔岩洞）" />
+            <Quest Id="10735"
+                   String="暴飲暴食的首領青熊獸" />
+            <Quest Id="10736"
+                   String="雍容優雅的首領雌火龍" />
+            <Quest Id="10737"
+                   String="萬紫千紅的首領泡狐龍" />
+            <Quest Id="10738"
+                   String="為虎添翼的首領火龍" />
+            <Quest Id="10739"
+                   String="猛烈無比的首領角龍" />
+            <Quest Id="10740"
+                   String="電閃雷鳴的首領雷狼龍" />
+            <Quest Id="10741"
+                   String="高難度：災禍纏身者" />
+            <Quest Id="10742"
+                   String="高難度：龍獸戲畫" />
+            <Quest Id="10743"
+                   String="高難度：暴風與火焰的司掌者" />
+            <Quest Id="10744"
+                   String="高難度：鬼在何方" />
+            <Quest Id="10745"
+                   String="高難度：凶星降臨業火之地" />
+            <Quest Id="10746"
+                   String="高難度：強者們的酒宴" />
+            <Quest Id="10747"
+                   String="高難度：冠名為首領者" />
+            <Quest Id="10748"
+                   String="倪泰教官的挑戰書･一" />
+            <Quest Id="10749"
+                   String="倪泰教官的挑戰書･二" />
+            <Quest Id="10750"
+                   String="倪泰教官的挑戰書･三" />
+            <Quest Id="10751"
+                   String="倪泰教官的挑戰書･四" />
+            <Quest Id="10752"
+                   String="倪泰教官的挑戰書･五" />
+            <Quest Id="20101"
+                   String="鬥技大會01" />
+            <Quest Id="20201"
+                   String="鬥技大會02" />
+            <Quest Id="20301"
+                   String="鬥技大會03" />
+            <Quest Id="20601"
+                   String="鬥技大會04" />
+            <Quest Id="20701"
+                   String="鬥技大會05" />
+            <Quest Id="20702"
+                   String="鬥技大會06" />
+            <Quest Id="30101"
+                   String="複習狩獵的基礎吧！" />
+            <Quest Id="30102"
+                   String="複習跟操龍相關的技巧吧！" />
+            <Quest Id="30103"
+                   String="複習跟捕獲相關的技巧吧！" />
+            <Quest Id="60002"
+                   String="稱號･武士之心" />
+            <Quest Id="60003"
+                   String="破滅的鳥龍？" />
+            <Quest Id="60004"
+                   String="太陽升起來了？！" />
+            <Quest Id="60005"
+                   String="抓住滿地的金環！" />
+            <Quest Id="60101"
+                   String="熔岩洞的巨大蟾蜍" />
+            <Quest Id="60102"
+                   String="暗影迅龍" />
+            <Quest Id="60103"
+                   String="遇熊則不達" />
+            <Quest Id="60104"
+                   String="人魚龍的妖豔之舞" />
+            <Quest Id="60105"
+                   String="沐雪唐傘舞於風" />
+            <Quest Id="60106"
+                   String="稱號･忍者之心" />
+            <Quest Id="60107"
+                   String="泥翁與流行文化" />
+            <Quest Id="60108"
+                   String="爾虞我詐的深夜濕地" />
+            <Quest Id="60109"
+                   String="百龍夜行：泥土行軍" />
+            <Quest Id="60110"
+                   String="稱號･豪傑之心" />
+            <Quest Id="60111"
+                   String="炫目冰刃" />
+            <Quest Id="60112"
+                   String="搖曳於沙塵之中的風暴支配者" />
+            <Quest Id="60113"
+                   String="百龍夜行：誘人的遊行隊伍" />
+            <Quest Id="60114"
+                   String="爆鱗爆碎" />
+            <Quest Id="60115"
+                   String="稱號･勁敵之心" />
+            <Quest Id="60116"
+                   String="百龍夜行：龍虎夜襲神火村" />
+            <Quest Id="60117"
+                   String="SF：最強流昇段考試" />
+            <Quest Id="60118"
+                   String="熱沙之上，炎帝睥睨" />
+            <Quest Id="60119"
+                   String="綻放於沙漠的白絲之花" />
+            <Quest Id="60120"
+                   String="稱號･強者之心" />
+            <Quest Id="60121"
+                   String="風神再臨" />
+            <Quest Id="60122"
+                   String="雷神再臨" />
+            <Quest Id="60123"
+                   String="床頭吵床尾和" />
+            <Quest Id="60124"
+                   String="大小暴君" />
+            <Quest Id="60125"
+                   String="猶如烈焰般奮力度過每一天" />
+            <Quest Id="60126"
+                   String="高難度：我等樂土的孕育之祖" />
+            <Quest Id="60127"
+                   String="高難度：赫耀之亂" />
+            <Quest Id="60128"
+                   String="藍色英雄的最佳拍檔！" />
+            <Quest Id="60129"
+                   String="無懼粉盔碎甲" />
+            <Quest Id="60130"
+                   String="翱翔天際的心願" />
+            <Quest Id="60131"
+                   String="大地激昂" />
+            <Quest Id="60132"
+                   String="水澄池清月自現" />
+            <Quest Id="60133"
+                   String="金獅子狂歡夜！" />
+            <Quest Id="60134"
+                   String="稱號･首領之心" />
+            <Quest Id="60135"
+                   String="大小天狗來襲！" />
+            <Quest Id="60136"
+                   String="雪中的兇猛獠牙" />
+            <Quest Id="60137"
+                   String="三頭傘鳥的肆虐慘況" />
+            <Quest Id="60138"
+                   String="熊與河童間的跺地表演！" />
+            <Quest Id="60139"
+                   String="具代表性的百龍夜行" />
+            <Quest Id="60140"
+                   String="公主們的盛宴" />
+            <Quest Id="60141"
+                   String="近乎失控的澎湃熱情" />
+            <Quest Id="60142"
+                   String="雷電陰陽" />
+            <Quest Id="60143"
+                   String="最小的雪主現身！" />
+            <Quest Id="60144"
+                   String="金獅子大發雷霆" />
+            <Quest Id="60145"
+                   String="那一天的回憶" />
+            <Quest Id="60146"
+                   String="首領青熊獸重大動亂" />
+            <Quest Id="60147"
+                   String="首領雌火龍重大動亂" />
+            <Quest Id="60148"
+                   String="首領泡狐龍重大動亂" />
+            <Quest Id="60149"
+                   String="首領火龍重大動亂" />
+            <Quest Id="60150"
+                   String="首領角龍重大動亂" />
+            <Quest Id="60151"
+                   String="首領雷狼龍重大動亂" />
+            <Quest Id="60152"
+                   String="快如音速的兩道影子" />
+            <Quest Id="60153"
+                   String="USJ･青熊們的猛烈進軍！" />
+            <Quest Id="60154"
+                   String="USJ･大社遺跡的激戰！" />
+            <Quest Id="70001"
+                   String="挑戰任務01" />
+            <Quest Id="70002"
+                   String="挑戰任務02" />
+            <Quest Id="70003"
+                   String="挑戰任務03" />
+            <Quest Id="70004"
+                   String="挑戰任務04" />
+            <Quest Id="70005"
+                   String="挑戰任務05" />
+            <Quest Id="70006"
+                   String="挑戰任務06" />
+            <Quest Id="70007"
+                   String="挑戰任務07" />
+            <Quest Id="315100"
+                   String="劃破寂靜者" />
+            <Quest Id="315101"
+                   String="船隻的前導" />
+            <Quest Id="315102"
+                   String="請盡早狩獵" />
+            <Quest Id="315103"
+                   String="觀察林蔭中的水獸" />
+            <Quest Id="315104"
+                   String="大社遺跡的相撲大會？" />
+            <Quest Id="315107"
+                   String="悄悄出現的蟲子們" />
+            <Quest Id="315108"
+                   String="向鐮鼬龍王看齊" />
+            <Quest Id="315109"
+                   String="區區火焰不足為懼" />
+            <Quest Id="315110"
+                   String="滾動襲來的紅球" />
+            <Quest Id="315111"
+                   String="那身泥土正是關鍵" />
+            <Quest Id="315112"
+                   String="密林的劇毒地毯" />
+            <Quest Id="315113"
+                   String="又發抖又想睡" />
+            <Quest Id="315122"
+                   String="白兔獸，很白" />
+            <Quest Id="315123"
+                   String="密林指南" />
+            <Quest Id="315160"
+                   String="材料安全進貨之卷" />
+            <Quest Id="315180"
+                   String="大社遺跡的探索之旅（Master）" />
+            <Quest Id="315181"
+                   String="寒冷群島的探索之旅（Master）" />
+            <Quest Id="315182"
+                   String="沙原的探索之旅（Master）" />
+            <Quest Id="315183"
+                   String="密林的探索之旅（Master）" />
+            <Quest Id="315190"
+                   String="擋道的河童蛙" />
+            <Quest Id="315200"
+                   String="飢餓天狗的小騷動" />
+            <Quest Id="315201"
+                   String="女王佇立的庭園" />
+            <Quest Id="315202"
+                   String="貪得無厭的白色妖怪" />
+            <Quest Id="315203"
+                   String="酣睡安眠人魚龍枕頭" />
+            <Quest Id="315204"
+                   String="潛藏於沙塵之中的毒物" />
+            <Quest Id="315205"
+                   String="永不止息的迅雷" />
+            <Quest Id="315206"
+                   String="詭異的岩壁" />
+            <Quest Id="315207"
+                   String="來自泥沼之底者" />
+            <Quest Id="315208"
+                   String="大社遺跡的惡鬥" />
+            <Quest Id="315209"
+                   String="鳥龍三連星" />
+            <Quest Id="315211"
+                   String="水邊的妨礙者" />
+            <Quest Id="315212"
+                   String="送你一朵永不忘懷的花" />
+            <Quest Id="315214"
+                   String="純白的奇怪龍果實" />
+            <Quest Id="315215"
+                   String="潛伏於沙丘陰影中的傢伙們" />
+            <Quest Id="315216"
+                   String="扭動 or 蜿蜒？" />
+            <Quest Id="315219"
+                   String="泥與雷的波狀攻擊" />
+            <Quest Id="315220"
+                   String="緋色天狗來襲" />
+            <Quest Id="315224"
+                   String="歡迎來到鳥龍夜會" />
+            <Quest Id="315260"
+                   String="用毬果滋補身體？之卷" />
+            <Quest Id="315261"
+                   String="刺激的試膽大會♪" />
+            <Quest Id="315280"
+                   String="水沒林的探索之旅（Master）" />
+            <Quest Id="315290"
+                   String="打草驚蠻顎龍" />
+            <Quest Id="315300"
+                   String="毒毒蛇蟹" />
+            <Quest Id="315301"
+                   String="泥翁龍的試煉" />
+            <Quest Id="315302"
+                   String="斬斷聲音的鐮刀" />
+            <Quest Id="315303"
+                   String="冰上的白騎士" />
+            <Quest Id="315304"
+                   String="想要雪鬼獸的衣服" />
+            <Quest Id="315305"
+                   String="令人頭痛萬分的密林惡棍們" />
+            <Quest Id="315306"
+                   String="潛伏於密林的暗殺者" />
+            <Quest Id="315307"
+                   String="遍布沙原的蜘蛛網" />
+            <Quest Id="315308"
+                   String="祈求幸福時需要怨念" />
+            <Quest Id="315309"
+                   String="歌姬與壯漢的戀愛故事！？" />
+            <Quest Id="315310"
+                   String="巨盾與鐮刀的夾擊！" />
+            <Quest Id="315313"
+                   String="調查目光銳利的牙龍" />
+            <Quest Id="315314"
+                   String="柔毛或斑紋" />
+            <Quest Id="315315"
+                   String="別亂丟冰的和熱的東西喵！" />
+            <Quest Id="315316"
+                   String="獵人前輩要身先士卒" />
+            <Quest Id="315317"
+                   String="我不要濕濕冷冷地入眠！" />
+            <Quest Id="315318"
+                   String="失控的蠻力怪物" />
+            <Quest Id="315321"
+                   String="剎那間閃過的兩道身影" />
+            <Quest Id="315323"
+                   String="製作映於白雪之中的禮服" />
+            <Quest Id="315325"
+                   String="水沒林的暴徒三人組" />
+            <Quest Id="315326"
+                   String="長年追求的神藥！？" />
+            <Quest Id="315327"
+                   String="沙中的遺失物搜索隊" />
+            <Quest Id="315360"
+                   String="考察因飢餓導致的能力下降" />
+            <Quest Id="315361"
+                   String="給烈火的試煉" />
+            <Quest Id="315380"
+                   String="城塞高地的探索之旅（Master）" />
+            <Quest Id="315390"
+                   String="來自凍寒之海的邀請者" />
+            <Quest Id="315400"
+                   String="城塞高地的護衛者" />
+            <Quest Id="315401"
+                   String=" 泡狐龍那飄拂的鰭" />
+            <Quest Id="315402"
+                   String="潛藏於沙塵之中的暴君" />
+            <Quest Id="315403"
+                   String="王者沉眠的古老之城" />
+            <Quest Id="315404"
+                   String="鐮刀與火炎的危險度問題" />
+            <Quest Id="315406"
+                   String="無神之社的雷狼龍" />
+            <Quest Id="315407"
+                   String="千刃來襲" />
+            <Quest Id="315408"
+                   String="滾燙的泥漿大不同" />
+            <Quest Id="315409"
+                   String="婦女最愛的白騎士與鎧武者" />
+            <Quest Id="315411"
+                   String="大社遺跡的莽漢三人組" />
+            <Quest Id="315412"
+                   String="屋漏偏逢蜘蛛襲" />
+            <Quest Id="315413"
+                   String="別擾亂我的釣場" />
+            <Quest Id="315414"
+                   String="照亮暗夜的雙雷" />
+            <Quest Id="315415"
+                   String="文殊得獵人！？" />
+            <Quest Id="315416"
+                   String="翠玉的電膜，青玉的鐮爪" />
+            <Quest Id="315417"
+                   String="斬裂千段，碎如微塵" />
+            <Quest Id="315418"
+                   String="身披黑色外衣之龍" />
+            <Quest Id="315419"
+                   String="絕對強者" />
+            <Quest Id="315420"
+                   String="煙霧環繞的貴妃" />
+            <Quest Id="315421"
+                   String="城塞高地的惡靈傳聞！？" />
+            <Quest Id="315422"
+                   String="我們是荒野三惡龍" />
+            <Quest Id="315423"
+                   String="冰冰麻麻蹦蹦蹦" />
+            <Quest Id="315425"
+                   String="快讓我磨蹭磨蹭！" />
+            <Quest Id="315426"
+                   String="大哥的請求" />
+            <Quest Id="315427"
+                   String="沸騰的後宮權力爭奪戰" />
+            <Quest Id="315428"
+                   String="燃燒的熱情！熔岩洞的試煉" />
+            <Quest Id="315429"
+                   String="不復望月的冰狼" />
+            <Quest Id="315460"
+                   String="無從逃離的嚴寒之卷" />
+            <Quest Id="315461"
+                   String="優美且強勁的移動術？之卷" />
+            <Quest Id="315480"
+                   String="熔岩洞的探索之旅（Master）" />
+            <Quest Id="315490"
+                   String="搜索高明的藥師" />
+            <Quest Id="315491"
+                   String="沉睡的密林棘龍" />
+            <Quest Id="315500"
+                   String="異常震域" />
+            <Quest Id="315501"
+                   String="關心隨從的協助委託" />
+            <Quest Id="315502"
+                   String="爆鱗警報" />
+            <Quest Id="315503"
+                   String="危險的森林浴" />
+            <Quest Id="315504"
+                   String="染盡黑暗的凶刃" />
+            <Quest Id="315506"
+                   String="寂靜的彼端" />
+            <Quest Id="315507"
+                   String="如霧霞般飄散的存在" />
+            <Quest Id="315508"
+                   String="於暴風中起舞的鋼龍" />
+            <Quest Id="315509"
+                   String="冰點下的支配者" />
+            <Quest Id="315510"
+                   String="煉獄之主，憤怒的炎帝" />
+            <Quest Id="315511"
+                   String="比猛烈燃燒的太陽更加火紅" />
+            <Quest Id="315512"
+                   String="陸地與天空的超危險生物" />
+            <Quest Id="315523"
+                   String="血紅的月光" />
+            <Quest Id="315524"
+                   String="剛與柔的極致" />
+            <Quest Id="315525"
+                   String="上面和下面都好可怕喵" />
+            <Quest Id="315560"
+                   String="關於狀態異常所造成影響之研究" />
+            <Quest Id="315561"
+                   String="化情誼為力量的糰子之卷" />
+            <Quest Id="315590"
+                   String="黑中之白" />
+            <Quest Id="315591"
+                   String="集結的噬生蟲" />
+            <Quest Id="315600"
+                   String="惡魔再臨" />
+            <Quest Id="315601"
+                   String="戰慄之霹雷" />
+            <Quest Id="315602"
+                   String="洶湧之因果" />
+            <Quest Id="315603"
+                   String="羅剎激昂，怒冠衝天" />
+            <Quest Id="315604"
+                   String="赫星燃於終焉之穹" />
+            <Quest Id="315605"
+                   String="宿怨之叫喚" />
+            <Quest Id="315606"
+                   String="戰慄之霹雷【再顯】" />
+            <Quest Id="315607"
+                   String="究極的大鬥毆一觸即發？" />
+            <Quest Id="315608"
+                   String="太卑鄙了，爆鱗龍！" />
+            <Quest Id="315609"
+                   String="以毒制風" />
+            <Quest Id="315610"
+                   String="煙消霞散的研究成果" />
+            <Quest Id="315611"
+                   String="奪回那道耀眼的光輝" />
+            <Quest Id="315612"
+                   String="激情與冷靜的試煉" />
+            <Quest Id="315613"
+                   String="怒濤的無理取鬧（大社遺跡）" />
+            <Quest Id="315614"
+                   String="怒濤的無理取鬧（沙原）" />
+            <Quest Id="315615"
+                   String="怒濤的無理取鬧（密林）" />
+            <Quest Id="315616"
+                   String="怒濤的無理取鬧（水沒林）" />
+            <Quest Id="315617"
+                   String="怒濤的無理取鬧（城塞高地）" />
+            <Quest Id="315618"
+                   String="怒濤的無理取鬧（熔岩洞）" />
+            <Quest Id="315619"
+                   String="秘紅的光輝（大社遺跡）" />
+            <Quest Id="315620"
+                   String="秘紅的光輝（寒冷群島）" />
+            <Quest Id="315621"
+                   String="秘紅的光輝（沙原）" />
+            <Quest Id="315622"
+                   String="秘紅的光輝（密林）" />
+            <Quest Id="315623"
+                   String="秘紅的光輝（水沒林）" />
+            <Quest Id="315624"
+                   String="秘紅的光輝（熔岩洞）" />
+            <Quest Id="315625"
+                   String="無法止息的凶險狂想曲" />
+            <Quest Id="315626"
+                   String="烈火的熾熱圓舞曲" />
+            <Quest Id="315627"
+                   String="自遠方傳來的破滅之音" />
+            <Quest Id="315628"
+                   String="群獸們的四重奏" />
+            <Quest Id="315661"
+                   String="頑強的秘訣？之卷" />
+            <Quest Id="315662"
+                   String="高難度：祓除災難的烈火" />
+            <Quest Id="325101"
+                   String="MR鬥技大會01" />
+            <Quest Id="325201"
+                   String="MR鬥技大會02" />
+            <Quest Id="325301"
+                   String="MR鬥技大會03" />
+            <Quest Id="325401"
+                   String="MR鬥技大會04" />
+            <Quest Id="325501"
+                   String="MR鬥技大會05" />
+            <Quest Id="325601"
+                   String="MR鬥技大會06" />
+            <Quest Id="335101"
+                   String="全新的狩獵技術──高速更換" />
+            <Quest Id="385100"
+                   String="傀異調查：青熊獸" />
+            <Quest Id="385101"
+                   String="傀異調查：鐮鼬龍王" />
+            <Quest Id="385102"
+                   String="傀異調查：眠狗龍王" />
+            <Quest Id="385103"
+                   String="傀異調查：毒狗龍王" />
+            <Quest Id="385104"
+                   String="傀異調查：赤甲獸" />
+            <Quest Id="385105"
+                   String="傀異調查：搔鳥" />
+            <Quest Id="385106"
+                   String="傀異調查：白兔獸" />
+            <Quest Id="385201"
+                   String="傀異調查：傘鳥" />
+            <Quest Id="385202"
+                   String="傀異調查：河童蛙" />
+            <Quest Id="385203"
+                   String="傀異調查：水獸" />
+            <Quest Id="385204"
+                   String="傀異調查：大名蟹" />
+            <Quest Id="385205"
+                   String="傀異調查：土砂龍" />
+            <Quest Id="385206"
+                   String="傀異調查：岩龍" />
+            <Quest Id="385207"
+                   String="傀異調查：天狗獸" />
+            <Quest Id="385208"
+                   String="傀異調查：奇怪龍" />
+            <Quest Id="385301"
+                   String="傀異調查：緋天狗獸" />
+            <Quest Id="385302"
+                   String="傀異調查：飛雷龍" />
+            <Quest Id="385303"
+                   String="傀異調查：雌火龍" />
+            <Quest Id="385304"
+                   String="傀異調查：人魚龍" />
+            <Quest Id="385305"
+                   String="傀異調查：泥魚龍" />
+            <Quest Id="385306"
+                   String="傀異調查：蠻顎龍" />
+            <Quest Id="385307"
+                   String="傀異調查：毒妖鳥" />
+            <Quest Id="385308"
+                   String="傀異調查：將軍蟹" />
+            <Quest Id="385401"
+                   String="傀異調查：剛纏獸" />
+            <Quest Id="385402"
+                   String="傀異調查：冰人魚龍" />
+            <Quest Id="385403"
+                   String="傀異調查：雪鬼獸" />
+            <Quest Id="385404"
+                   String="傀異調查：怨虎龍" />
+            <Quest Id="385405"
+                   String="傀異調查：妃蜘蛛" />
+            <Quest Id="385406"
+                   String="傀異調查：迅龍" />
+            <Quest Id="385407"
+                   String="傀異調查：冰牙龍" />
+            <Quest Id="385408"
+                   String="傀異調查：泥翁龍" />
+            <Quest Id="405200"
+                   String="前來大社參拜的緋色天狗" />
+            <Quest Id="405300"
+                   String="失控的怪力化身" />
+            <Quest Id="405400"
+                   String="朝紅月咆哮的冰狼" />
+            <Quest Id="405500"
+                   String="月光之下" />
+            <Quest Id="405600"
+                   String="勇氣的證明" />
+            <Quest Id="455201"
+                   String="調查雌火龍" />
+            <Quest Id="455202"
+                   String="調查天狗獸" />
+            <Quest Id="455203"
+                   String="調查飛雷龍" />
+            <Quest Id="455204"
+                   String="調查奇怪龍" />
+            <Quest Id="455205"
+                   String="調查緋天狗獸" />
+            <Quest Id="455206"
+                   String="調查蠻顎龍" />
+            <Quest Id="455301"
+                   String="調查冰牙龍" />
+            <Quest Id="455302"
+                   String="調查泥翁龍" />
+            <Quest Id="455303"
+                   String="調查剛纏獸" />
+            <Quest Id="455304"
+                   String="調查密林的吵雜騷動" />
+            <Quest Id="455305"
+                   String="調查水沒林的水難事故" />
+            <Quest Id="455306"
+                   String="調查追蹤者與逃亡者" />
+            <Quest Id="455307"
+                   String="調查將軍蟹" />
+            <Quest Id="455308"
+                   String="調查迅龍" />
+            <Quest Id="455309"
+                   String="調查寒冷群島的地盤分布" />
+            <Quest Id="455310"
+                   String="調查冰人魚龍" />
+            <Quest Id="455311"
+                   String="調查城塞高地的棲息地" />
+            <Quest Id="455312"
+                   String="調查怨虎龍" />
+            <Quest Id="455313"
+                   String="調查2頭岩龍" />
+            <Quest Id="455401"
+                   String="調查泡狐龍" />
+            <Quest Id="455402"
+                   String="調查火龍" />
+            <Quest Id="455403"
+                   String="調查燃起紫焰的火龍" />
+            <Quest Id="455404"
+                   String="調查沙原的危險生物" />
+            <Quest Id="455405"
+                   String="調查寒冷群島的遇難原因" />
+            <Quest Id="455406"
+                   String="調查千刃龍" />
+            <Quest Id="455407"
+                   String="調查雷狼龍" />
+            <Quest Id="455408"
+                   String="調查電龍" />
+            <Quest Id="455409"
+                   String="調查棘龍" />
+            <Quest Id="455410"
+                   String="調查黑蝕龍" />
+            <Quest Id="455411"
+                   String="調查冰狼龍" />
+            <Quest Id="455412"
+                   String="調查轟龍" />
+            <Quest Id="455413"
+                   String=" 調查水沒林的大戰爭" />
+            <Quest Id="455414"
+                   String="調查熾妃蜘蛛" />
+            <Quest Id="455501"
+                   String="調查金獅子" />
+            <Quest Id="455502"
+                   String="調查於黑夜沙漠狂怒之物" />
+            <Quest Id="455503"
+                   String="調查噴火的大地" />
+            <Quest Id="455504"
+                   String="調查雷之王者與侵略者" />
+            <Quest Id="455505"
+                   String="調查擾亂夜晚安寧的生物" />
+            <Quest Id="455506"
+                   String="調查棲息於熱源之中的生物" />
+            <Quest Id="455507"
+                   String="調查雷電纏身的生物" />
+            <Quest Id="455508"
+                   String="調查2頭剛纏獸" />
+            <Quest Id="455509"
+                   String="調查適應沙原環境的生物" />
+            <Quest Id="455510"
+                   String="調查夢幻的人魚故事" />
+            <Quest Id="455511"
+                   String="調查鋼龍" />
+            <Quest Id="455512"
+                   String="調查爆鱗龍" />
+            <Quest Id="455513"
+                   String="調查炎王龍" />
+            <Quest Id="455601"
+                   String="調查霞龍" />
+            <Quest Id="455602"
+                   String="調查2頭怨虎龍" />
+            <Quest Id="455603"
+                   String="調查千刃和迴天狂龍" />
+            <Quest Id="455604"
+                   String="調查激昂的金色猛獸" />
+            <Quest Id="455605"
+                   String="調查受毒霧壟罩的密林" />
+            <Quest Id="455606"
+                   String="調查異常活化的沙原" />
+            <Quest Id="455607"
+                   String="調查猴子與螃蟹的地盤" />
+            <Quest Id="455608"
+                   String="調查劇變的寒冷群島" />
+            <Quest Id="455609"
+                   String="調查支配大社遺跡的生物" />
+            <Quest Id="455611"
+                   String="調查降臨於密林的赫耀凶星" />
+            <Quest Id="455612"
+                   String="調查沉睡於大社遺跡的大怨靈" />
+            <Quest Id="455613"
+                   String="高難度：魔物獵人" />
+            <Quest Id="465201"
+                   String="謁見陸之女王" />
+            <Quest Id="465202"
+                   String="交錯的柿子與子彈" />
+            <Quest Id="465203"
+                   String="黑夜中奔馳的雷光" />
+            <Quest Id="465301"
+                   String="白騎士與菜鳥騎士" />
+            <Quest Id="465302"
+                   String="藏於岩洞的黑影" />
+            <Quest Id="465303"
+                   String="狩獵當如絢爛怒濤" />
+            <Quest Id="465304"
+                   String="王國騎士姊妹出征" />
+            <Quest Id="465305"
+                   String="聚集而來的岩龍" />
+            <Quest Id="465306"
+                   String="盤踞不動的剛纏獸" />
+            <Quest Id="465307"
+                   String="足以使凍土融化的熱情" />
+            <Quest Id="465308"
+                   String="掃去泥土的劍氣" />
+            <Quest Id="465309"
+                   String="怨念重重的神社" />
+            <Quest Id="465401"
+                   String="於月夜假寐之龍" />
+            <Quest Id="465402"
+                   String="破壞城塞的暴君" />
+            <Quest Id="465403"
+                   String="焚黑樹林的閃電" />
+            <Quest Id="465404"
+                   String="爪音迴盪的試膽大會" />
+            <Quest Id="465405"
+                   String="是熱沙飛揚，還是千刃飛舞？" />
+            <Quest Id="465406"
+                   String="搖曳的草葉與櫻花的尾巴" />
+            <Quest Id="465407"
+                   String="掠過空中的龍影" />
+            <Quest Id="465408"
+                   String="師徒並肩水沒林" />
+            <Quest Id="465409"
+                   String="與冰狼相會" />
+            <Quest Id="465410"
+                   String="來自未知的侵蝕" />
+            <Quest Id="465501"
+                   String="橫掃林蔭的金獅子" />
+            <Quest Id="465502"
+                   String="身披龍炎的炎之王" />
+            <Quest Id="465503"
+                   String="增進感情的團體戰" />
+            <Quest Id="465504"
+                   String="充斥天地間的火炎與巨響" />
+            <Quest Id="465505"
+                   String="爆鱗龍振翅高飛" />
+            <Quest Id="465506"
+                   String="熊熊燃燒的狩獵之魂" />
+            <Quest Id="465507"
+                   String="冷風蕭蕭" />
+            <Quest Id="465601"
+                   String="無影無蹤" />
+            <Quest Id="465602"
+                   String="贈予武者們的餞別禮" />
+            <Quest Id="465603"
+                   String="狩獵所織就之物" />
+            <Quest Id="465604"
+                   String="永不消退的憤怒之意" />
+        </Rise>
+        <World>
+            <Quest Id="0"
+                   String="Unavailable" />
+            <Quest Id="1"
+                   String="Unavailable" />
+            <Quest Id="2"
+                   String="Unavailable" />
+            <Quest Id="3"
+                   String="Invalid Message" />
+            <Quest Id="4"
+                   String="Invalid Message" />
+            <Quest Id="5"
+                   String="Invalid Message" />
+            <Quest Id="101"
+                   String="凶豺龍與古代樹森林" />
+            <Quest Id="102"
+                   String="冠突龍騷動中" />
+            <Quest Id="103"
+                   String="狩獵大凶豺龍吧" />
+            <Quest Id="151"
+                   String="突擊冠突龍！" />
+            <Quest Id="152"
+                   String="森林惡棍" />
+            <Quest Id="153"
+                   String="在古代樹森林中採集菇類" />
+            <Quest Id="201"
+                   String="致力於設置營地" />
+            <Quest Id="205"
+                   String="緊急任務‧狩獵毒妖鳥" />
+            <Quest Id="241"
+                   String="精通飛翔爪吧！" />
+            <Quest Id="251"
+                   String="來自深綠的獵食戰士" />
+            <Quest Id="252"
+                   String="搔鳥是收藏家？" />
+            <Quest Id="261"
+                   String="捕獲：搔鳥的生態調查" />
+            <Quest Id="262"
+                   String="美味的魚有獠牙" />
+            <Quest Id="263"
+                   String="驅除荒野之蟲" />
+            <Quest Id="301"
+                   String="橫衝直撞的狂徒們！？" />
+            <Quest Id="302"
+                   String="險惡的沼澤" />
+            <Quest Id="305"
+                   String="雷電奔走的飛雷龍" />
+            <Quest Id="306"
+                   String="森林暴徒‧蠻顎龍" />
+            <Quest Id="331"
+                   String="特殊鬥技場：毒妖鳥篇" />
+            <Quest Id="332"
+                   String="特殊鬥技場：土砂龍篇" />
+            <Quest Id="333"
+                   String="特殊鬥技場：飛雷龍篇" />
+            <Quest Id="351"
+                   String="調查毒妖鳥" />
+            <Quest Id="352"
+                   String="飛雷龍飛舞之森" />
+            <Quest Id="361"
+                   String="滿身泥巴大突擊！" />
+            <Quest Id="362"
+                   String="潛行泥邊的泥魚龍" />
+            <Quest Id="363"
+                   String="仙人掌的季節即將來臨" />
+            <Quest Id="364"
+                   String="我是荒地的搬運工" />
+            <Quest Id="365"
+                   String="捕獲：土砂龍的生態調查" />
+            <Quest Id="401"
+                   String="熔山龍捕獲作戰" />
+            <Quest Id="405"
+                   String="飛吧，浮空龍！" />
+            <Quest Id="407"
+                   String="狩獵骨鎚龍為粉身碎骨之戰！" />
+            <Quest Id="408"
+                   String="華麗獵人‧風漂龍" />
+            <Quest Id="431"
+                   String="特殊鬥技場：蠻顎龍篇" />
+            <Quest Id="432"
+                   String="特殊鬥技場：雌火龍篇" />
+            <Quest Id="433"
+                   String="特殊鬥技場：浮空龍篇" />
+            <Quest Id="434"
+                   String="特殊鬥技場：骨鎚龍篇" />
+            <Quest Id="451"
+                   String="與蠻勇之牙對峙" />
+            <Quest Id="452"
+                   String="我是森林的搬運工" />
+            <Quest Id="461"
+                   String="女王在荒地中燃燒" />
+            <Quest Id="471"
+                   String="纏繞黑暗的紅光" />
+            <Quest Id="472"
+                   String="來自薄暗的眩鳥" />
+            <Quest Id="473"
+                   String="輕盈飄浮的浮空龍" />
+            <Quest Id="474"
+                   String="陸之貝是否夢想深海之夢？" />
+            <Quest Id="475"
+                   String="捕獲：浮空龍的生態調查" />
+            <Quest Id="481"
+                   String="怒濤的巨甲蟲祭" />
+            <Quest Id="482"
+                   String="大凶顎龍是麻痺的香氣" />
+            <Quest Id="483"
+                   String="骨戰車前往山谷" />
+            <Quest Id="484"
+                   String="展翅的惡夢" />
+            <Quest Id="501"
+                   String="深入谷底" />
+            <Quest Id="502"
+                   String="火龍為森林之頂" />
+            <Quest Id="503"
+                   String="角龍為沙地之底" />
+            <Quest Id="504"
+                   String="熔山龍誘導作戰" />
+            <Quest Id="531"
+                   String="特殊鬥技場：風漂龍篇" />
+            <Quest Id="532"
+                   String="特殊鬥技場：慘爪龍篇" />
+            <Quest Id="533"
+                   String="特殊鬥技場：火龍篇" />
+            <Quest Id="534"
+                   String="特殊鬥技場：角龍篇" />
+            <Quest Id="551"
+                   String="王在頂點沉睡" />
+            <Quest Id="552"
+                   String="最強、最恐、最棒夫妻！" />
+            <Quest Id="561"
+                   String="沙上的雙角" />
+            <Quest Id="571"
+                   String="冰結奏鳴曲" />
+            <Quest Id="572"
+                   String="蒼白之蹄的旋律" />
+            <Quest Id="581"
+                   String="殘忍凶爪" />
+            <Quest Id="582"
+                   String="捕獲：慘爪龍的生態調查" />
+            <Quest Id="583"
+                   String="不入虎穴焉得虎肉" />
+            <Quest Id="601"
+                   String="驚愕的！毒妖鳥！調查！" />
+            <Quest Id="605"
+                   String="暴徒變得更粗暴了" />
+            <Quest Id="607"
+                   String="神秘王國的女王" />
+            <Quest Id="631"
+                   String="特殊鬥技場：毒妖鳥進階篇" />
+            <Quest Id="632"
+                   String="特殊鬥技場：土砂龍進階篇" />
+            <Quest Id="633"
+                   String="特殊鬥技場：飛雷龍進階篇" />
+            <Quest Id="634"
+                   String="特殊鬥技場：蠻顎龍進階篇" />
+            <Quest Id="635"
+                   String="特殊鬥技場：雌火龍進階篇" />
+            <Quest Id="636"
+                   String="特殊鬥技場：浮空龍進階篇" />
+            <Quest Id="637"
+                   String="特殊鬥技場：骨鎚龍進階篇" />
+            <Quest Id="641"
+                   String="令人懷念的落日餘暉" />
+            <Quest Id="651"
+                   String="狩獵大凶豺龍" />
+            <Quest Id="652"
+                   String="狩獵毒妖鳥" />
+            <Quest Id="653"
+                   String="狩獵飛雷龍" />
+            <Quest Id="654"
+                   String="狩獵蠻顎龍" />
+            <Quest Id="655"
+                   String="沉睡之森的女王" />
+            <Quest Id="656"
+                   String="捕獲：有如飛雷般的那個" />
+            <Quest Id="661"
+                   String="狩獵搔鳥" />
+            <Quest Id="662"
+                   String="狩獵土砂龍" />
+            <Quest Id="663"
+                   String="毒妖鳥潛伏荒地" />
+            <Quest Id="665"
+                   String="狩獵泥魚龍" />
+            <Quest Id="666"
+                   String="狩獵雌火龍" />
+            <Quest Id="667"
+                   String="暴徒到訪荒地" />
+            <Quest Id="671"
+                   String="狩獵眩鳥" />
+            <Quest Id="672"
+                   String="狩獵浮空龍" />
+            <Quest Id="681"
+                   String="用來提味的是麻痺的那傢伙" />
+            <Quest Id="682"
+                   String="狩獵骨鎚龍" />
+            <Quest Id="683"
+                   String="料理長的！興奮期待交貨委託" />
+            <Quest Id="684"
+                   String="料理長的！心跳加速討伐委託" />
+            <Quest Id="691"
+                   String="無法阻止急速衝刺的突擊龍" />
+            <Quest Id="692"
+                   String="討伐酸翼龍" />
+            <Quest Id="693"
+                   String="狩獵岩賊龍" />
+            <Quest Id="694"
+                   String="料理長的！緊張刺激擊退委託" />
+            <Quest Id="701"
+                   String="渴望的黑創" />
+            <Quest Id="731"
+                   String="特殊鬥技場：櫻火龍進階篇" />
+            <Quest Id="732"
+                   String="特殊鬥技場：風漂龍進階篇" />
+            <Quest Id="733"
+                   String="特殊鬥技場：慘爪龍進階篇" />
+            <Quest Id="734"
+                   String="特殊鬥技場：爆鎚龍進階篇" />
+            <Quest Id="735"
+                   String="特殊鬥技場：火龍進階篇" />
+            <Quest Id="736"
+                   String="特殊鬥技場：蒼火龍進階篇" />
+            <Quest Id="737"
+                   String="特殊鬥技場：角龍進階篇" />
+            <Quest Id="738"
+                   String="特殊鬥技場：黑角龍進階篇" />
+            <Quest Id="751"
+                   String="狩獵火龍" />
+            <Quest Id="752"
+                   String="狩獵蒼火龍" />
+            <Quest Id="753"
+                   String="蒼紅亂麻" />
+            <Quest Id="761"
+                   String="狩獵櫻火龍" />
+            <Quest Id="762"
+                   String="狩獵角龍" />
+            <Quest Id="763"
+                   String="黑角龍鍾愛沙地" />
+            <Quest Id="764"
+                   String="荒野的大大大暴動！" />
+            <Quest Id="771"
+                   String="台地的暴風雪是櫻色" />
+            <Quest Id="772"
+                   String="狩獵風漂龍" />
+            <Quest Id="773"
+                   String="好戲在慘爪龍之後" />
+            <Quest Id="774"
+                   String="涼爪與慘爪的交會之處" />
+            <Quest Id="781"
+                   String="狩獵慘爪龍" />
+            <Quest Id="791"
+                   String="熔岩龍" />
+            <Quest Id="792"
+                   String="爆鎚龍翻倒了！" />
+            <Quest Id="793"
+                   String="其為蒼空王者" />
+            <Quest Id="794"
+                   String="奇襲燎原爆鱗龍" />
+            <Quest Id="795"
+                   String="火與火交會者們" />
+            <Quest Id="801"
+                   String="鋼鐵的鋼龍" />
+            <Quest Id="802"
+                   String="爆炎的炎王龍" />
+            <Quest Id="803"
+                   String="冥底的屍套龍" />
+            <Quest Id="804"
+                   String="收束之地" />
+            <Quest Id="805"
+                   String="超越爆鱗之道" />
+            <Quest Id="806"
+                   String="此雷鳴是天罰？亦或是祝福？" />
+            <Quest Id="851"
+                   String="剎現的荒天預感" />
+            <Quest Id="861"
+                   String="熱沙陽炎" />
+            <Quest Id="871"
+                   String="幻獸如是美麗" />
+            <Quest Id="881"
+                   String="覺醒於墓標之底" />
+            <Quest Id="891"
+                   String="噬嵐者" />
+            <Quest Id="892"
+                   String="暴風之主" />
+            <Quest Id="893"
+                   String="獄炎的牙城" />
+            <Quest Id="894"
+                   String="噬焰者" />
+            <Quest Id="895"
+                   String="颶風之瑕因緣不淺" />
+            <Quest Id="896"
+                   String="業火之瑕因緣不淺" />
+            <Quest Id="961"
+                   String="超越爆鱗之道" />
+            <Quest Id="971"
+                   String="此雷鳴是天罰？亦或是祝福？" />
+            <Quest Id="991"
+                   String="在冥河中揭起燈火" />
+            <Quest Id="992"
+                   String="新大陸的白風" />
+            <Quest Id="995"
+                   String="指引明路的蒼藍星" />
+            <Quest Id="996"
+                   String="泥土與骨鎚的激烈大戰" />
+            <Quest Id="997"
+                   String="新大陸的空與花" />
+            <Quest Id="998"
+                   String="在深淵之底呼喚你" />
+            <Quest Id="1101"
+                   String="初次洗禮！？" />
+            <Quest Id="1102"
+                   String="粗活就交給猛牛龍" />
+            <Quest Id="1121"
+                   String="深雪的潛水員" />
+            <Quest Id="1122"
+                   String="連猛牛也要敬畏獵人三分！？" />
+            <Quest Id="1123"
+                   String="捕獲：有志者雪竟融" />
+            <Quest Id="1124"
+                   String="冰樹下的閃耀眼神" />
+            <Quest Id="1125"
+                   String="來自寒冷之地的招呼" />
+            <Quest Id="1131"
+                   String="特殊鬥技場：毒妖鳥Master篇" />
+            <Quest Id="1132"
+                   String="特殊鬥技場：土砂龍Master篇" />
+            <Quest Id="1133"
+                   String="特殊鬥技場：飛雷龍Master篇" />
+            <Quest Id="1134"
+                   String="特殊鬥技場：猛牛龍Master篇" />
+            <Quest Id="1151"
+                   String="大凶豺龍的回歸" />
+            <Quest Id="1152"
+                   String="長舌的搗蛋鬼" />
+            <Quest Id="1153"
+                   String="飛電迅如箭" />
+            <Quest Id="1154"
+                   String="漂泊的收藏家，在此現身！" />
+            <Quest Id="1155"
+                   String="捕獲：猛角掃千軍" />
+            <Quest Id="1161"
+                   String="荒地的寶物獵人" />
+            <Quest Id="1162"
+                   String="橫衝直撞就是風格" />
+            <Quest Id="1163"
+                   String="你我之間的泥濘之戰" />
+            <Quest Id="1164"
+                   String="毒妖鳥的美食之旅？" />
+            <Quest Id="1171"
+                   String="眩鳥☆閃光！" />
+            <Quest Id="1181"
+                   String="我們的教父" />
+            <Quest Id="1191"
+                   String="龍結晶晚餐" />
+            <Quest Id="1192"
+                   String="巨角破壞王" />
+            <Quest Id="1201"
+                   String="冰土守門者‧痺毒龍" />
+            <Quest Id="1202"
+                   String="眠之飛龍與四顆眼珠" />
+            <Quest Id="1203"
+                   String="佔領飲水處吧！" />
+            <Quest Id="1221"
+                   String="狩獵痺毒龍" />
+            <Quest Id="1222"
+                   String="捕獲：用毒與麻痺的高手" />
+            <Quest Id="1223"
+                   String="獸纏族！獸獸獸纏族！" />
+            <Quest Id="1224"
+                   String="雙方團隊的共同戰線" />
+            <Quest Id="1225"
+                   String="魚心冰意" />
+            <Quest Id="1231"
+                   String="特殊鬥技場：蠻顎龍Master篇" />
+            <Quest Id="1232"
+                   String="特殊鬥技場：骨鎚龍Master篇" />
+            <Quest Id="1233"
+                   String="特殊鬥技場：水妖鳥Master篇" />
+            <Quest Id="1234"
+                   String="特殊鬥技場：痺毒龍Master篇" />
+            <Quest Id="1235"
+                   String="特殊鬥技場：雌火龍Master篇" />
+            <Quest Id="1236"
+                   String="特殊鬥技場：櫻火龍Master篇" />
+            <Quest Id="1237"
+                   String="特殊鬥技場：浮空龍Master篇" />
+            <Quest Id="1238"
+                   String="特殊鬥技場：浮眠龍Master篇" />
+            <Quest Id="1251"
+                   String="森林的暴徒、再臨" />
+            <Quest Id="1252"
+                   String="陸地女王‧雌火龍的嘆息" />
+            <Quest Id="1253"
+                   String="捕獲：晚安了浮眠龍" />
+            <Quest Id="1261"
+                   String="女王陛下優雅的一天" />
+            <Quest Id="1262"
+                   String="狩獵浮眠龍" />
+            <Quest Id="1263"
+                   String="肆虐荒地的暴徒" />
+            <Quest Id="1264"
+                   String="華麗的皇后們" />
+            <Quest Id="1271"
+                   String="高飛吧！浮空龍！" />
+            <Quest Id="1272"
+                   String="春神降臨珊瑚大地" />
+            <Quest Id="1273"
+                   String="補充水分最重要！" />
+            <Quest Id="1274"
+                   String="過度暢飲警報！" />
+            <Quest Id="1281"
+                   String="狩獵骨鎚龍" />
+            <Quest Id="1282"
+                   String="蟲？昆蟲！？都是蟲！！！" />
+            <Quest Id="1291"
+                   String="尋找遠古的光輝" />
+            <Quest Id="1301"
+                   String="冰凍王國的白騎士" />
+            <Quest Id="1302"
+                   String="絕影" />
+            <Quest Id="1303"
+                   String="灼熱之刃，斬龍！" />
+            <Quest Id="1304"
+                   String="絕對強者" />
+            <Quest Id="1305"
+                   String="粉碎的迎擊拳" />
+            <Quest Id="1306"
+                   String="來自冰炎一線間" />
+            <Quest Id="1321"
+                   String="冰牙龍現身！" />
+            <Quest Id="1322"
+                   String="捕獲：理想房間喵！石篇" />
+            <Quest Id="1323"
+                   String="孤高的白騎士" />
+            <Quest Id="1331"
+                   String="特殊鬥技場：風漂龍Master篇" />
+            <Quest Id="1332"
+                   String="特殊鬥技場：慘爪龍Master篇" />
+            <Quest Id="1333"
+                   String="特殊鬥技場：爆鎚龍Master篇" />
+            <Quest Id="1334"
+                   String="特殊鬥技場：火龍Master篇" />
+            <Quest Id="1335"
+                   String="特殊鬥技場：角龍Master篇" />
+            <Quest Id="1336"
+                   String="特殊鬥技場：冰牙龍Master篇" />
+            <Quest Id="1337"
+                   String="特殊鬥技場：迅龍Master篇" />
+            <Quest Id="1338"
+                   String="特殊鬥技場：斬龍Master篇" />
+            <Quest Id="1339"
+                   String="特殊鬥技場：碎龍Master篇" />
+            <Quest Id="1340"
+                   String="特殊鬥技場：轟龍Master篇" />
+            <Quest Id="1351"
+                   String="空中之王君臨的挑戰" />
+            <Quest Id="1352"
+                   String="疾風的迅龍" />
+            <Quest Id="1353"
+                   String="一刀兩斷的奧義" />
+            <Quest Id="1354"
+                   String="最強的紅與黑" />
+            <Quest Id="1361"
+                   String="死鬥，角龍現身！" />
+            <Quest Id="1362"
+                   String="眩目的一閃" />
+            <Quest Id="1363"
+                   String="刀具與火侯決定了料理的一切" />
+            <Quest Id="1371"
+                   String="歡迎來到天空舞會！" />
+            <Quest Id="1372"
+                   String="暗閻之風" />
+            <Quest Id="1373"
+                   String="慘劇就在眼前" />
+            <Quest Id="1381"
+                   String="龍爪的慘劇" />
+            <Quest Id="1382"
+                   String="轟響山谷的咆哮" />
+            <Quest Id="1383"
+                   String="暴走、狂轉、大競爭！" />
+            <Quest Id="1391"
+                   String="爆破警報發布中" />
+            <Quest Id="1392"
+                   String="打倒熔岩龍要趁熱" />
+            <Quest Id="1393"
+                   String="迴旋的爆鎚龍" />
+            <Quest Id="1394"
+                   String="捕獲：秘訣就在於黏菌！？" />
+            <Quest Id="1395"
+                   String="爆炸粉碎的慶典！" />
+            <Quest Id="1401"
+                   String="剎那白霧" />
+            <Quest Id="1402"
+                   String="腐蝕之刃‧硫斬龍" />
+            <Quest Id="1403"
+                   String="兇終隙末‧兇爪龍" />
+            <Quest Id="1404"
+                   String="月辰防衛戰" />
+            <Quest Id="1405"
+                   String="暴徒大將的狩獵大作戰！" />
+            <Quest Id="1421"
+                   String="風霜高潔的獵人" />
+            <Quest Id="1422"
+                   String="不畏嚴寒的暴徒" />
+            <Quest Id="1423"
+                   String="舞蹈家的雙人舞" />
+            <Quest Id="1424"
+                   String="重點就在水氣中" />
+            <Quest Id="1431"
+                   String="特殊鬥技場：蒼火龍Master篇" />
+            <Quest Id="1432"
+                   String="特殊鬥技場：黑角龍Master篇" />
+            <Quest Id="1433"
+                   String="特殊鬥技場：硫斬龍Master篇" />
+            <Quest Id="1434"
+                   String="特殊鬥技場：兇爪龍Master篇" />
+            <Quest Id="1435"
+                   String="特殊鬥技場：雷顎龍Master篇" />
+            <Quest Id="1451"
+                   String="天蒼恢恢！" />
+            <Quest Id="1452"
+                   String="林中兇爪" />
+            <Quest Id="1461"
+                   String="從沙地衝出奔馳吧少女！" />
+            <Quest Id="1462"
+                   String="黑光炯炯" />
+            <Quest Id="1471"
+                   String="黑色的罪人" />
+            <Quest Id="1481"
+                   String="腐蝕之劍" />
+            <Quest Id="1482"
+                   String="捕獲：理想房間喵！鐵明篇" />
+            <Quest Id="1483"
+                   String="理想房間喵！鐵暗篇" />
+            <Quest Id="1491"
+                   String="再調查‧蒼火龍" />
+            <Quest Id="1492"
+                   String="捕獲：捉拿雷之顎吧！" />
+            <Quest Id="1501"
+                   String="冰之龍" />
+            <Quest Id="1502"
+                   String="大災難，再次到來！" />
+            <Quest Id="1503"
+                   String="霧瘴屍套龍" />
+            <Quest Id="1504"
+                   String="直至點亮溟海指標" />
+            <Quest Id="1521"
+                   String="冰冠的交戰" />
+            <Quest Id="1551"
+                   String="召喚晴天的魔龍" />
+            <Quest Id="1552"
+                   String="死亡之神降臨" />
+            <Quest Id="1561"
+                   String="沙漠中的晉見" />
+            <Quest Id="1562"
+                   String="恐暴的饗宴" />
+            <Quest Id="1571"
+                   String="雷電閃光" />
+            <Quest Id="1572"
+                   String="海神迷惘的記憶" />
+            <Quest Id="1581"
+                   String="吞食生命無返黃泉" />
+            <Quest Id="1591"
+                   String="翔風之龍" />
+            <Quest Id="1592"
+                   String="太陽的證明" />
+            <Quest Id="1593"
+                   String="爆裂滾滾爆鱗龍" />
+            <Quest Id="1594"
+                   String="捕獲：理想房間喵！銀篇" />
+            <Quest Id="1601"
+                   String="引導者之歌" />
+            <Quest Id="1602"
+                   String="引導之歌" />
+            <Quest Id="1603"
+                   String="惰眠與火酒的日子" />
+            <Quest Id="1604"
+                   String="貫徹武道家魂！！" />
+            <Quest Id="1605"
+                   String="與心愛的你行至世界盡頭" />
+            <Quest Id="1606"
+                   String="目中無人的傢伙來了！" />
+            <Quest Id="1631"
+                   String="榮冠的獵人們" />
+            <Quest Id="1632"
+                   String="特殊鬥技場：雷狼龍Master篇" />
+            <Quest Id="1633"
+                   String="特殊鬥技場：黑狼鳥Master篇" />
+            <Quest Id="1634"
+                   String="特殊鬥技場：黑轟龍Master篇" />
+            <Quest Id="1635"
+                   String="特殊鬥技場：金火龍Master篇" />
+            <Quest Id="1636"
+                   String="特殊鬥技場：銀火龍Master篇" />
+            <Quest Id="1641"
+                   String="遠方的蘿蕾萊" />
+            <Quest Id="1642"
+                   String="陰陽讚歌" />
+            <Quest Id="1651"
+                   String="突從天降的別離與風暴" />
+            <Quest Id="1661"
+                   String="與你的相遇是炎妃蒼火" />
+            <Quest Id="1671"
+                   String="神賜的台地" />
+            <Quest Id="1691"
+                   String="皇妃鎮座的炎之宮殿" />
+            <Quest Id="1692"
+                   String="新大陸的獵人們啊" />
+            <Quest Id="3001"
+                   String="鬥技大會02" />
+            <Quest Id="3002"
+                   String="鬥技大會03" />
+            <Quest Id="3031"
+                   String="鬥技大會04" />
+            <Quest Id="3032"
+                   String="鬥技大會05" />
+            <Quest Id="3033"
+                   String="鬥技大會06" />
+            <Quest Id="3034"
+                   String="鬥技大會07" />
+            <Quest Id="3051"
+                   String="鬥技大會08" />
+            <Quest Id="3052"
+                   String="鬥技大會09" />
+            <Quest Id="3071"
+                   String="鬥技大會Master級02" />
+            <Quest Id="3072"
+                   String="鬥技大會Master級03" />
+            <Quest Id="3073"
+                   String="鬥技大會Master級04" />
+            <Quest Id="3074"
+                   String="鬥技大會Master級05" />
+            <Quest Id="3091"
+                   String="鬥技大會Master級06" />
+            <Quest Id="3092"
+                   String="鬥技大會Master級07" />
+            <Quest Id="3101"
+                   String="鬥技大會01" />
+            <Quest Id="3171"
+                   String="鬥技大會Master級01" />
+            <Quest Id="5003"
+                   String="擊退眩鳥吧！" />
+            <Quest Id="30000"
+                   String="Unavailable" />
+            <Quest Id="30001"
+                   String="Unavailable" />
+            <Quest Id="30002"
+                   String="Unavailable" />
+            <Quest Id="30003"
+                   String="Unavailable" />
+            <Quest Id="30004"
+                   String="Unavailable" />
+            <Quest Id="30005"
+                   String="Unavailable" />
+            <Quest Id="30006"
+                   String="Unavailable" />
+            <Quest Id="30007"
+                   String="Unavailable" />
+            <Quest Id="30008"
+                   String="Unavailable" />
+            <Quest Id="30009"
+                   String="Unavailable" />
+            <Quest Id="50601"
+                   String="來自異世界的訪客" />
+            <Quest Id="50701"
+                   String="順應食物鏈的趨勢！" />
+            <Quest Id="50702"
+                   String="Invalid Message" />
+            <Quest Id="50751"
+                   String="你我都是食物鏈" />
+            <Quest Id="50801"
+                   String="烈日" />
+            <Quest Id="50802"
+                   String="潘朵拉的鬥技場" />
+            <Quest Id="50803"
+                   String="只有跪拜一途" />
+            <Quest Id="50831"
+                   String="Unavailable" />
+            <Quest Id="50861"
+                   String="炎王龍與炎妃龍" />
+            <Quest Id="50891"
+                   String="攪亂妃心之風" />
+            <Quest Id="50892"
+                   String="攪亂妃心之風" />
+            <Quest Id="50901"
+                   String="地母神的奢華享宴" />
+            <Quest Id="50902"
+                   String="狂亂的黃金鄉" />
+            <Quest Id="50905"
+                   String="傳說的魔獸貝希摩斯" />
+            <Quest Id="50906"
+                   String="受傷的魔獸貝希摩斯" />
+            <Quest Id="50910"
+                   String="委託：古代樹森林的變異調查" />
+            <Quest Id="50991"
+                   String="來自艾歐澤亞的訪客" />
+            <Quest Id="50992"
+                   String="Invalid Message" />
+            <Quest Id="51603"
+                   String="失去的幽世" />
+            <Quest Id="51604"
+                   String="不歸的地底" />
+            <Quest Id="51605"
+                   String="赤色的龍" />
+            <Quest Id="51621"
+                   String="特殊鬥技場：獄狼龍Master篇" />
+            <Quest Id="51603"
+                   String="失去的幽世?" />
+            <Quest Id="51604"
+                   String="不歸的地底" />
+            <Quest Id="51605"
+                   String="赤色的龍" />
+            <Quest Id="51606"
+                   String="極限爆碎" />
+            <Quest Id="51607"
+                   String="金色羅剎" />
+            <Quest Id="51622"
+                   String="爆華綻放" />
+            <Quest Id="51623"
+                   String="迎接終焉之金光" />
+            <Quest Id="51624"
+                   String="Unavailable" />
+            <Quest Id="51625"
+                   String="Unavailable" />
+            <Quest Id="61101"
+                   String="清晨大騷動" />
+            <Quest Id="61103"
+                   String="天黑前的片刻" />
+            <Quest Id="61104"
+                   String="暴徒起大早散步" />
+            <Quest Id="61105"
+                   String="獵人們永遠的夢想" />
+            <Quest Id="61601"
+                   String="深夜大騷動" />
+            <Quest Id="61603"
+                   String="兩位女王" />
+            <Quest Id="61604"
+                   String="無懼於空中飛人" />
+            <Quest Id="61605"
+                   String="菌?是菌但也是菇菌的菌" />
+            <Quest Id="61606"
+                   String="窮賊囓獵人！" />
+            <Quest Id="61607"
+                   String="本尊的名字是熔岩龍" />
+            <Quest Id="61801"
+                   String="抓住銀猴！" />
+            <Quest Id="61802"
+                   String="獵人們永遠的夢想 III" />
+            <Quest Id="61803"
+                   String="獵人們永遠的夢想 II" />
+            <Quest Id="61805"
+                   String="捉到胖衣企鵝！" />
+            <Quest Id="61806"
+                   String="粉碎礦山" />
+            <Quest Id="61807"
+                   String="古龍來臨，冰凍三尺" />
+            <Quest Id="61808"
+                   String="噢，健美身體" />
+            <Quest Id="61809"
+                   String="好壞孩子統統入睡" />
+            <Quest Id="61811"
+                   String="美麗的東西會凍傷" />
+            <Quest Id="61812"
+                   String="飢餓不等人" />
+            <Quest Id="61813"
+                   String="鬥技場的白色情書" />
+            <Quest Id="61814"
+                   String="調查（雷狼龍，溟波龍）" />
+            <Quest Id="62502"
+                   String="寂靜之幕" />
+            <Quest Id="62503"
+                   String="隱藏的白色鬃毛也" />
+            <Quest Id="62504"
+                   String="太陽熊熊燃燒之時" />
+            <Quest Id="62505"
+                   String="在暴風雨中" />
+            <Quest Id="62506"
+                   String="毀滅來臨，喇叭作響" />
+            <Quest Id="62511"
+                   String="青出於愛而更勝其愛" />
+            <Quest Id="62515"
+                   String="脈動，本能" />
+            <Quest Id="62606"
+                   String="不滅之黎明破曉" />
+            <Quest Id="62607"
+                   String="此乃古龍之王" />
+            <Quest Id="62608"
+                   String="看見曙光" />
+            <Quest Id="62609"
+                   String="冥河的凱倫" />
+            <Quest Id="63001"
+                   String="初級挑戰任務01" />
+            <Quest Id="63002"
+                   String="初級挑戰任務02" />
+            <Quest Id="63003"
+                   String="巨蜂大爆動！！" />
+            <Quest Id="63031"
+                   String="中級挑戰任務01" />
+            <Quest Id="63032"
+                   String="中級挑戰任務02" />
+            <Quest Id="63033"
+                   String="奇面族大脫逃！！" />
+            <Quest Id="63038"
+                   String="亂櫻春浪漫‧Ⅱ" />
+            <Quest Id="63039"
+                   String="亂櫻春浪漫‧Ⅲ" />
+            <Quest Id="63051"
+                   String="上級挑戰任務01" />
+            <Quest Id="63052"
+                   String="上級挑戰任務02" />
+            <Quest Id="63071"
+                   String="MR中級挑戰任務01" />
+            <Quest Id="63072"
+                   String="MR中級挑戰任務02" />
+            <Quest Id="63073"
+                   String="MR上級挑戰任務01" />
+            <Quest Id="63074"
+                   String="MR上級挑戰任務02" />
+            <Quest Id="63101"
+                   String="MHW活動：討伐滅盡龍01" />
+            <Quest Id="63102"
+                   String="MHW活動：討伐滅盡龍02" />
+            <Quest Id="63103"
+                   String="MHW活動：討伐滅盡龍03" />
+            <Quest Id="63104"
+                   String="MHW活動：討伐風漂慘爪01" />
+            <Quest Id="63105"
+                   String="MHW活動：討伐風漂慘爪02" />
+            <Quest Id="63106"
+                   String="MHW活動：討伐風漂慘爪03" />
+            <Quest Id="63107"
+                   String="MHW活動：討伐滅盡龍04" />
+            <Quest Id="63108"
+                   String="MHW活動：討伐恐暴龍" />
+            <Quest Id="63109"
+                   String="MHW活動：立於頂點的人們" />
+            <Quest Id="63110"
+                   String="MHW活動：潛藏在森林中的人們" />
+            <Quest Id="63130"
+                   String="MHW活動：紊亂與紀律的盡頭" />
+            <Quest Id="63131"
+                   String="MHW活動：獵人與青藍王妃" />
+            <Quest Id="63142"
+                   String="MHW活動：拒絕結冰的生命" />
+            <Quest Id="64101"
+                   String="爭奪地盤決定戰" />
+            <Quest Id="64601"
+                   String="爆鎚龍們翻倒了！" />
+            <Quest Id="64801"
+                   String="巨大氣球x巨大氣球" />
+            <Quest Id="64802"
+                   String="燻火山堆" />
+            <Quest Id="65601"
+                   String="我們是惡棍" />
+            <Quest Id="65602"
+                   String="抗拒強光的人們" />
+            <Quest Id="65603"
+                   String="愛上蛋吧！" />
+            <Quest Id="65604"
+                   String="身心都是搖曳鰻" />
+            <Quest Id="65605"
+                   String="咚咚咚三兄弟" />
+            <Quest Id="65606"
+                   String="交貨順便調查痕跡" />
+            <Quest Id="65607"
+                   String="交貨，不管怎樣就是要痕跡" />
+            <Quest Id="66101"
+                   String="大胃王們來了！" />
+            <Quest Id="66102"
+                   String="共鬥鳥×鳥" />
+            <Quest Id="66103"
+                   String="狩獵骨肉" />
+            <Quest Id="66104"
+                   String="雙幻影" />
+            <Quest Id="66105"
+                   String="長有翅膀者有毒" />
+            <Quest Id="66106"
+                   String="打開食欲之門！" />
+            <Quest Id="66601"
+                   String="深綠的藍調" />
+            <Quest Id="66602"
+                   String="荒野的波麗露" />
+            <Quest Id="66603"
+                   String="海台的華爾滋" />
+            <Quest Id="66604"
+                   String="荒廢之谷的歌劇" />
+            <Quest Id="66605"
+                   String="結晶體的搖滾樂" />
+            <Quest Id="66606"
+                   String="暴動亦如是" />
+            <Quest Id="66607"
+                   String="山丘上的雪見櫻" />
+            <Quest Id="66608"
+                   String="調查(蠻顎龍，蒼火龍)" />
+            <Quest Id="66609"
+                   String="不守秩序者，前途黯淡" />
+            <Quest Id="66610"
+                   String="誰對王座露出獠牙？" />
+            <Quest Id="66801"
+                   String="這條魚不適合進食" />
+            <Quest Id="66802"
+                   String="地底之主正在呼喚..." />
+            <Quest Id="66803"
+                   String="拘泥於沼泥的猛牛們" />
+            <Quest Id="66804"
+                   String="乾地的寶石果實" />
+            <Quest Id="66805"
+                   String="真正的暴徒是哪個？！" />
+            <Quest Id="66806"
+                   String="繽‧紛‧色‧彩" />
+            <Quest Id="66807"
+                   String="睡眠與麻痹的組合" />
+            <Quest Id="66808"
+                   String="焚天之王，游火之哲" />
+            <Quest Id="66809"
+                   String="在乎荒地發生的事" />
+            <Quest Id="66810"
+                   String="水與冰氣正在等候" />
+            <Quest Id="66811"
+                   String="燃燒吧，獸龍種！！！！" />
+            <Quest Id="66812"
+                   String="不候人的全力疾走" />
+            <Quest Id="66813"
+                   String="森林深處" />
+            <Quest Id="66814"
+                   String="適合地底" />
+            <Quest Id="66815"
+                   String="三界主" />
+            <Quest Id="66816"
+                   String="永凍冬季" />
+            <Quest Id="66817"
+                   String="飢渴的理由" />
+            <Quest Id="66818"
+                   String="踢地跨月" />
+            <Quest Id="66819"
+                   String="我既優雅又充滿良心" />
+            <Quest Id="66820"
+                   String="破天大轟" />
+            <Quest Id="66821"
+                   String="銀色逆光" />
+            <Quest Id="66822"
+                   String="月亮是無慈悲的金女王" />
+            <Quest Id="66824"
+                   String="力量是金" />
+            <Quest Id="66825"
+                   String="暴虐與不合理乃傷痕之母" />
+            <Quest Id="66826"
+                   String="大樹的約德爾" />
+            <Quest Id="66827"
+                   String="溫泥的重金屬" />
+            <Quest Id="66828"
+                   String="海底的古典樂" />
+            <Quest Id="66829"
+                   String="生命的頌歌" />
+            <Quest Id="66830"
+                   String="粗暴的另類搖滾" />
+            <Quest Id="66831"
+                   String="冰封的謠曲" />
+            <Quest Id="66832"
+                   String="八萬地獄之狼" />
+            <Quest Id="66834"
+                   String="轟與迅的熱切邂逅" />
+            <Quest Id="66835"
+                   String="雷霆鳴神，降臨" />
+            <Quest Id="66836"
+                   String="殲滅之鐘，再次作響" />
+            <Quest Id="67103"
+                   String="斬擊大騷動！！？" />
+            <Quest Id="67106"
+                   String="USJ‧躍動吧，金星們！" />
+            <Quest Id="67604"
+                   String="USJ‧燃燒喲，蒼星們！" />
+            <Quest Id="67605"
+                   String="Code: Red" />
+            <Quest Id="67606"
+                   String="貝希摩斯殲殛戰" />
+            <Quest Id="67608"
+                   String="慘靜，恐暴，艷熱" />
+            <Quest Id="67610"
+                   String="委託：林精" />
+            <Quest Id="67801"
+                   String="RE: 生物危害重歸大地" />
+            <Quest Id="61815"
+                   String="朝天空狙擊！" />
+            <Quest Id="61816"
+                   String="那條魚鋒利的嗎？" />
+            <Quest Id="67807"
+                   String="暗殺者" />
+            <Quest Id="66833"
+                   String="無終止的淘金記" />
+            <Quest Id="66847"
+                   String="溟呼遠響" />
+            <Quest Id="66859"
+                   String="燻火山堆" />
+            <Quest Id="66860"
+                   String="雷霆鳴神，降臨" />
+            <Quest Id="63148"
+                   String="MHW活動：制服凍地之者" />
+            <Quest Id="66840"
+                   String="風暴的棺材" />
+            <Quest Id="66841"
+                   String="滅日" />
+            <Quest Id="66842"
+                   String="我的高貴靈魂" />
+            <Quest Id="66843"
+                   String="暗夜恆星" />
+            <Quest Id="66844"
+                   String="黎明死星" />
+            <Quest Id="66846"
+                   String="最後的白騎士" />
+            <Quest Id="66853"
+                   String="光明珍珠是圓圓的眼神" />
+            <Quest Id="66854"
+                   String="女王的食桌" />
+            <Quest Id="66855"
+                   String="稀幻的轟龍？？？" />
+            <Quest Id="66856"
+                   String="塞耳露耳" />
+            <Quest Id="66857"
+                   String="金獅金猴" />
+            <Quest Id="66858"
+                   String="身裸萬象" />
+            <Quest Id="66861"
+                   String="你是黃金獎杯" />
+            <Quest Id="66867"
+                   String="老士的脫俗" />
+            <Quest Id="66845"
+                   String="傳說中的黑龍" />
+            <Quest Id="66850"
+                   String="雪花沉睡" />
+            <Quest Id="66862"
+                   String="雷龍小雷龍大雷龍" />
+            <Quest Id="66863"
+                   String="彼岸淚" />
+            <Quest Id="66864"
+                   String="噢噢，健美身體" />
+            <Quest Id="67806"
+                   String="USJ‧無限的閃耀" />
+            <Quest Id="67809"
+                   String="USJ‧舞動霜刃！" />
+            <Quest Id="66865"
+                   String="再會了，雷狼龍" />
+            <Quest Id="66866"
+                   String="黑轟龍不會受傷" />
+        </World>
+    </Quests>
+    <Client> 
+        <Main>
+		    <!-- Hunt Export -->
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING" String="匯出的狩獵紀錄"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING" String="您的帳戶僅限查看最近7天內的匯出狩獵紀錄。&#xA;成為贊助者以查看更早的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING" String="升級您的帳戶至二級贊助者以存取所有匯出的狩獵紀錄！"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING" String="正在獲取任務：{0}"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING" String="無法獲取匯出的狩獵紀錄。請稍後再試。"/>
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING" String="成功載入任務！"/>
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING" String="在您帳戶可用期間內沒有匯出的狩獵紀錄。"/>
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING" String="魔物"/>
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING" String="狩獵詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING" String="狀態詳情"/>
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING" String="隊伍成員"/>
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING" String="詳細資訊"/>
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>            
+        </Main>
+	<Overlay> <!-- Needs to translate -->
+            <String Id="DAMAGE_METER_OTOMOS_NAME_STRING" String="隨從"/>
+            <String Id="TRAINING_DOJO_BOOSTS_STRING" String="效果提升:" />
+            <String Id="TRAINING_DOJO_ROUNDS_STRING" String="特訓次數:" />
+            <String Id="MEOWCENARIES_STEP_STRING" String="步驟："/>
+            <String Id="MEOWCENARIES_OUTCOME_STRING" String="結果："/>
+            <String Id="MEOWCENARIES_BUDDIES_STRING" String="隨從："/>
+            <String Id="COHOOT_KAMURA_NEST_STRING" String="神火村鳥巢: " />
+            <String Id="COHOOT_ELGADO_NEST_STRING" String="艾爾卡多鳥巢: " />
+            <String Id="ARGOSY_DAYS_STRING" String="天"/>
+            <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
         </Overlay>
         <Tabs>
-            <Tab Id="CONSOLE_STRING"
+            <Tab Id="HOME_STRING"
+                 String="Home" />
+	    <Tab Id="CONSOLE_STRING"
                  String="控制台"/>
             <Tab Id="DISCORD_STRING"
                  String="Discord"/>
+	    <Tab Id="QUEST_STATISTICS_STRING"
+                 String="狩獵紀錄" />	 
             <Tab Id="PATCH_NOTES_STRING"
                  String="更新紀錄"/>
             <Tab Id="PLUGINS_STRING"
-                 String="插件"/>
+                 String="外掛程式"/>
             <Tab Id="SETTINGS_STRING"
                  String="設定"/>
             <Tab Id="PATREON_STRING"
                  String="Patreon"/>
+	    <Tab Id="GITHUB_STRING"
+                 String="Github" />	 
         </Tabs>
-        <Generics>
-            <Generic Id="HunterPie _LAUNCH_GAME"
+        <Generics> <!-- Needs to translate -->
+            <Generic Id="HUNTERPIE_LAUNCH_GAME"
                      String="啟動遊戲"/>
-            <Generic Id="HunterPie _IS_LATEST_VERSION"
-                     String="目前 HunterPie  為最新版本！"/>
-            <Generic Id="HunterPie _NOT_LATEST_VERSION"
-                     String="已有新版本 HunterPie  可更新！"/>
-            <Generic Id="HunterPie _CURRENT_SELECTED_CONFIG"
-                     String="使用的設定檔:"/>
+            <Generic Id="HUNTERPIE_IS_LATEST_VERSION"
+                     String="目前 HunterPie 為最新版本！"/>
+            <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
+                     String="已有新版本 HunterPie 可更新！"/>
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION"
+                     String="無法獲取最近版本，點擊此處重試" />
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION"
+                     String="正在獲取最新版本訊息" />
+            <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
+                     String="使用的設定檔："/>
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="（需要重新啟動）" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="同步於"/>
+            <Generic Id="SELECT_ALL_STRING"
+                     String="全選" />
+            <Generic Id="UNSELECT_ALL_STRING"
+                     String="取銷全選" />
+            <Generic Id="BACK_STRING"
+                     String="返回" />
+            <Generic Id="MONSTER_PART_GROUPS_STRING"
+                     String="部位分組" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING"
+                     String="部位數量" />
+            <Generic Id="MONSTER_PARTS_STRING"
+                     String="部位" />
+            <Generic Id="MONSTER_AILMENTS_STRING"
+                     String="異常狀態" />
+            <Generic Id="MONSTER_OVERRIDE_STRING"
+                     String="創建魔物規則" />
+            <Generic Id="GO_TO_STRING"
+                     String="前往" />	 
         </Generics>
+	<Dialogs>
+            <!-- Do not edit the text inside {} -->
+            <Dialog Id="UPDATE_TITLE_STRING"
+                    String="更新" />
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Version v{Latest} 版本可用&#xA;是否更新" />
+            <Dialog Id="CONFIRMATION_TITLE_STRING"
+                    String="注意" />
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="你確定要刪除{Item}嗎?" />
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
+                    String="您確定要關閉HunterPie?" />
+            <Button Id="ACCEPT_STRING"
+                    String="確認" />
+            <Button Id="REJECT_STRING"
+                    String="拒絕" />
+            <Button Id="CANCEL_STRING"
+                    String="取消" />
+        </Dialogs>
         <Integrations>
             <!-- Shared between games -->
             <Discord Id="DRPC_STATE_HUNTING"
@@ -592,6 +3062,27 @@
                      String="{Character} | HR: {HighRank} | MR: {MasterRank}"/>					 
             <Discord Id="DRPC_WORLD_STATE_PRACTICE"
                      String="正在訓練場"/>
+	    <!-- Poogie Integration -->
+            <Poogie Id="ERROR_INVALID_USERNAME" String="使用者名稱無效！"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD" String="密碼無效，密碼長度必須至少8個字元！"/>
+            <Poogie Id="ERROR_INVALID_EMAIL" String="電子郵件無效！"/>
+            <Poogie Id="ERROR_INVALID_CREDENTIALS" String="找不到使用該使用者名稱和密碼的帳號。"/>
+            <Poogie Id="ERROR_USER_NOT_FOUND" String="嗯...找不到該使用者！"/>
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS" String="已經存在使用該電子郵件或使用者名稱的帳號！"/>
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT" String="帳號必須先驗證！請檢查您的電子郵件（包括垃圾郵件資料夾）以驗證帳號。"/>
+            <Poogie Id="INVALID_IMAGE" String="檔案不是有效的圖片！"/>
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR" String="上傳大頭貼失敗，請稍後再試。"/>
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE" String="上傳大頭貼失敗，檔案大小超過3.5 MB。"/>
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE" String="密碼重設代碼無效或已過期。"/>
+            <Poogie Id="ERROR_GENERIC" String="糟糕...發生錯誤。請稍後再試！"/>
+            <Poogie Id="SIGN_IN_NOTIFICATION" String="登入" Description="正在嘗試登入帳號..."/>
+            <Poogie Id="LOGIN_SUCCESS" String="歡迎 {Username}！您已成功登入。"/>
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS" String="帳號驗證郵件將很快發送至 {Email}。請務必檢查您的收件匣和垃圾郵件資料夾！"/>
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS" String="已上傳新大頭貼"/>
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING" String="看起來您尚未啟用自動備份。&#xA;您可以在帳號設定中啟用它。"/>
+            <Poogie Id="BACKUP_NOT_FOUND_STRING" String="您沒有任何備份。"/>
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING" String="一封包含更改帳號密碼所需代碼的電子郵件將發送至 {Email}。"/>
+            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING" String="密碼已成功變更。" />		 
         </Integrations>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
@@ -617,20 +3108,38 @@
                   String="總傷害"/>
             <Enum Id="PLOT_DPS_STRING"
                   String="每秒傷害（DPS）"/>
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="鎖定"/>
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="地圖標記"/>
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="任務目標"/>
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="自動推斷"/>
+	    <Enum Id="PLOT_SLIDING_AVG"
+                   String="移動平均DPS" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                   String="總平均DPS" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
-                     String="客戶端"
-                     Description="客戶端設定"/>
+                     String="用戶端"
+                     Description="用戶端設定"/>
             <Setting Id="DISCORD_RPC_STRING"
                      String="Discord線上狀態設定"
                      Description="其他Discord線上狀態設定"/>
             <Setting Id="OVERLAY_STRING"
                      String="覆蓋層"
                      Description="覆蓋層設定"/>
+	    <Setting Id="FEATURE_FLAGS_STRING"
+                     String="功能標記"
+                     Description="功能標記設定" /> <!-- Needs to translate -->		 
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="狀態列"
                      Description="狀態列設定"/>
+	    <Setting Id="TELEMETRICS_WIDGET_STRING"
+                     String="除錯小工具"
+                     Description="除錯小工具設定" /> <!-- Needs to translate -->		 
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="魔物小工具"
                      Description="魔物小工具設定"/>
@@ -649,10 +3158,33 @@
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
                      String="衣裝小工具"
                      Description="衣裝小工具設定"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="玩家HUD小工具"
+                     Description="玩家HUD小工具設定"/>
             <Setting Id="DEV_TOOLS_STRING"
                      String="開發工具"
-                     Description="高級開發工具"/>
-
+                     Description="進階開發工具"/>
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="操蟲棍小工具"
+                     Description="操蟲棍小工具設定" />
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="充能斧小工具"
+                     Description="充能斧小工具設定" />
+            <Setting Id="LONGSWORD_WIDGET_STRING"
+                     String="太刀小工具"
+                     Description="太刀小工具設定" />
+            <Setting Id="DUALBLADES_WIDGET_STRING"
+                     String="雙刀小工具"
+                     Description="雙刀小工具設定" />
+            <Setting Id="SWITCH_AXE_WIDGET_STRING"
+                     String="斬斧小工具"
+                     Description="斬斧小工具設定" />
+	    <Setting Id="CLOCK_WIDGET_STRING" 
+		     String="時鐘小工具" 
+		     Description="時鐘小工具設定"/>
+	    <Setting Id="ACCOUNT_STRING" 
+		     String="帳號" 
+		     Description="帳號設定"/>		 
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="旋律"
                      Description="狩獵笛旋律效果"/>
@@ -670,14 +3202,16 @@
                      Description="裝備技能效果"/>
             <Setting Id="ABNORMALITY_FOODS_STRING"
                      String="糰子技能"
-                     Description="糰子技能效果"/>
-
+                     Description="糰子技能效果"/>  <!-- Needs to translate -->
             <Setting Id="ENABLE_SELF_UPDATE"
                      String="自動更新"
                      Description="如果啟用，HunterPie 會自動更新到最新版本。"/>
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="自動更新確認"
                      Description="如果啟用，HunterPie 將請求自動更新的權限。"/>
+	    <Setting Id="MONSTER_GLOBAL_SETTINGS_STRING"
+                     String="全域設定"
+                     Description="添加全域設定至所有魔物." />		 
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="贊助者代幣"
                      Description="用於獲得測試版更新的贊助者代幣。"/>
@@ -700,21 +3234,20 @@
                      String="遊戲結束時關閉"
                      Description="如果啟用，HunterPie 將在遊戲結束時自動關閉。"/>
             <Setting Id="RENDERING_FPS_STRING"
-                     String="渲染偵率"
-                     Description="HunterPie 渲染偵率。"/>
+                     String="繪製幀率"
+                     Description="HunterPie 繪製幀率。"/>
             <Setting Id="RENDERING_STRATEGY_STRING"
-                     String="渲染方式"
-                     Description="HunterPie 的預設渲染。軟體渲染將使用您的CPU來渲染覆蓋層，硬體渲染將使用您的顯卡來渲染覆蓋層。"/>
+                     String="繪製方式"
+                     Description="HunterPie 的預設繪製。軟體繪製將使用您的CPU來繪製覆蓋層，硬體繪製將使用您的顯示卡來繪製覆蓋層。"/>
             <Setting Id="POLLING_RATE_STRING"
                      String="記憶體掃描延遲（毫秒）"
-                     Description="HunterPie 的掃描延遲，設置較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
+                     Description="HunterPie 的掃描延遲，設定較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
                      String="開發功能標誌"
                      Description="如果啟用，將允許您啟用開發中的功能標誌。"/>
             <Setting Id="THEME_STRING"
                      String="Theme"
-                     Description="Hunter Pie 主題"/>
-
+                     Description="HunterPie 主題"/>
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Discord 線上狀態配置"
                      Description="如果啟用，將在Discord狀態展示您的活動。"/>
@@ -724,20 +3257,24 @@
             <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH"
                      String="顯示目標魔物的血量"
                      Description="如果啟用，當可用時將會在您的Discord狀態中顯示目標魔物的血量。"/>
-
+	    <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING" 
+                     String="切換覆蓋層顯示" 
+                     Description="開關覆蓋層顯示的快捷鍵。"/>
+	    <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="啟用覆蓋層"
+                     Description="如果啟用，HunterPie 將顯示遊戲內覆蓋層。"/>			 
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] 切換編輯模式快捷鍵"
-                     Description="用於打開和關閉編輯模式的快捷鍵。"/>
+                     Description="用於打開和關閉編輯模式的快捷鍵。"/>					
             <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING"
                      String="當遊戲不在最上層時隱藏"
                      Description="如果啟用，當遊戲不在最上層時，所有小工具皆會隱藏。"/>
-
             <Setting Id="INITIALIZE_WIDGET_STRING"
                      String="初始化小工具"
                      Description="如果啟用，將始終初始化此小工具。如果您不需要此小工具，請將其關閉。"/>
             <Setting Id="ENABLE_WIDGET_STRING"
                      String="顯示小工具"
-                     Description="如果啟用，只要有可以顯示的數據，將會始終顯示此小工具。"/>
+                     Description="如果啟用，只要有可以顯示的資料，將會始終顯示此小工具。"/>
             <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING"
                      String="當HUD可見時隱藏"
                      Description="如果啟用，當HUD可見時（例如:任務結束、在帳篷裡、與NPC對話等等），將會自動隱藏小工具。"/>
@@ -753,116 +3290,317 @@
             <Setting Id="ORIENTATION_STRING"
                      String="小工具排列"
                      Description="在小工具顯示多種魔物時，更改小工具橫向或直向的排列。"/>
-
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
+                     String="緊湊模式"
+                     Description="如果啟用，魔物將以緊湊模式顯示（僅圖標，名稱和皇冠）。一旦鎖定魔物，HunterPie 將自動切換到預設模式。" />	
+	    <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
+                     String="緊湊模式列數"
+                     Description="控制緊湊模式中使用多少列，如果魔物數量多於可用列數，則下一個魔物將顯示在新行中。" />		 
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
-                     String="狩獵目標鎖定"
-                     Description="如果啟用，只會顯示已鎖定的指定魔物。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="魔物耐力"
-                     Description="如果啟用，將在其生命值條下方顯示魔物的耐力。"/>
-            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
-                     String="魔物小工具最大寬度"
-                     Description="調整魔物血條的最大寬度。"/>
-            <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
-                     String="魔物小工具最小寬度"
-                     Description="調整魔物血條的最小寬度。如果啟用「自動調整魔物血條寬距」，它將根據此設置自動更改。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
-                     String="魔物部位顯示"
-                     Description="如果啟用，將顯示魔物部位。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
-                     String="自動隱藏魔物部位"
-                     Description="如果啟用，閒置的魔物部位將在 X 秒後隱藏。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
-                     String="魔物部位顯示時間"
-                     Description="魔物部位顯示的時間，時間結束會自動隱藏（若開啟自動隱藏）。"/>
-            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="魔物異常狀態顯示"
-                     Description="如果啟用，將顯示魔物異常狀態。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
-                     String="自動隱藏魔物狀態異常"
-                     Description="如果啟用，閒置的魔物異常狀態將在 X 秒後隱藏。"/>
-            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
-                     String="魔物異常狀態顯示時間"
-                     Description="魔物異常狀態顯示的時間，時間結束會自動隱藏（若開啟自動隱藏）。"/>
-            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
-                     String="自動調整魔物血條寬距"
-                     Description="如果啟用，它會根據顯示的魔物數量自動調整魔物血條的長度。"/>
-            <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
-                     String="隱藏未知魔物部位"
-                     Description="如果啟用，將隱藏未知部位（被標記為 &quot;???&quot;）。"/>
-
-            <Setting Id="ABNORMALITY_TRAYS_STRING"
-                     String="Buff∕Debuff 工具列"
-                     Description="增益∕減益效果工具列的詳細設定。"/>
-            <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
-                     String="Buff∕Debuff 工具列名稱"
-                     Description="增益∕減益效果工具列的名稱。"/>
-            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
-                     String="Buff∕Debuff 工具列的最大數量"
-                     Description="增益∕減益效果工具列的最大設定數量。"/>
-            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
-                     String="Buff∕Debuff 工具列排序"
-                     Description="增益∕減益效果工具列的狀態效果排序。"/>
-
-            <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
-                     String="Patch in-game Wirebug Aim"
-                     Description="If enabled, HunterPie will patch the game function so it doesn't hide your aim when you disable the Wirebug visual elements in-game."/>
-
-            <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
-                     String="顯示交易船"
-                     Description="如果啟用，將顯示交易船資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
-                     String="顯示隨從道場"
-                     Description="如果啟用，將顯示隨從道場資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
-                     String="顯示隨從隱密隊"
-                     Description="如果啟用，將顯示隨從隱密隊資訊。"/>
-            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
-                     String="顯示福福鴞的巢"
-                     Description="如果啟用，將顯示福福鴞的巢資訊。"/>
-
-            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
-                     String="強調自己"
-                     Description="如果啟用，將強調顯示您的名字。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES"
-                     String="模糊名字"
-                     Description="如果啟用，所有人的名字將被模糊處理。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
-                     String="顯示DPS圖表"
-                     Description="如果啟用，將顯示DPS圖表。"/>
-            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
-                     String="DPS計算方式"
-                     Description="決定DPS的計算方式（時間）。&#x0a;- 總任務時間: 總任務時間&#x0a;- 參與任務時間: 參與任務時間&#x0a;- 第一擊時間: 第一擊之後的時間"/>
-            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
-                     String="傷害折線圖繪製方式"
-                     Description="決定傷害折線圖繪製方式。&#x0a;- 每秒傷害（DPS）: DPS&#x0a;- 總傷害: 總傷害"/>
-            <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
-                     String="我的顏色"
-                     Description="您所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING"
-                     String="第一位玩家（隊長）的顏色"
-                     Description="第一位玩家（隊長）所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING"
-                     String="第二位玩家的顏色"
-                     Description="第二位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING"
-                     String="第三位玩家的顏色"
-                     Description="第三位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
-                     String="第四位玩家的顏色"
-                     Description="第四位玩家所顯示的顏色。"/>
-            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
-                     String="顯示隨從傷害"
-                     Description="如果啟用，將顯示隨從傷害。"/>
-
+                     String="僅顯示目標魔物" 
+                     Description="如果啟用，HunterPie將只顯示目前設定為目標的魔物。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" 
+                     String="顯示魔物耐力" 
+                     Description="如果啟用，HunterPie將在魔物血條下方顯示耐力條。"/>
+            <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING" 
+                     String="魔物血條最大寬度" 
+                     Description="控制魔物血條的最大寬度。"/>
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING" 
+                     String="目標模式" 
+                     Description="控制如何選擇目標魔物。"/>
+	    <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING" 
+                     String="魔物血條最小寬度" 
+                     Description="控制魔物血條的最小寬度。如果啟用動態大小調整，此寬度將用於計算血條的動態大小。"/>		 
+	    <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING" 
+                     String="啟用魔物部位" 
+                     Description="如果啟用，將顯示魔物部位資訊。"/>		 
+	    <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING" 
+                     String="自動隱藏魔物部位" 
+                     Description="如果啟用，非活動的魔物部位將在X秒後隱藏。"/>
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING" 
+                     String="隱藏非活動部位延遲" 
+                     Description="部位變為非活動狀態後，等待隱藏的時間。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING" 
+                     String="啟用魔物異常狀態" 
+                     Description="如果啟用，將顯示魔物異常狀態資訊。"/>
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING" 
+                     String="自動隱藏魔物異常狀態" 
+                     Description="如果啟用，非活動的魔物異常狀態將在X秒後隱藏。"/>
+            <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING" 
+                     String="隱藏非活動異常狀態延遲" 
+                     Description="異常狀態變為非活動狀態後，等待隱藏的時間。"/>
+            <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING" 
+                     String="動態調整魔物血條大小" 
+                     Description="如果啟用，HunterPie將根據目前可見的血條數量自動調整所有魔物血條的大小。"/>
+            <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING" 
+                     String="隱藏未知魔物部位" 
+                     Description="如果啟用，HunterPie將隱藏未知部位（標示為「???」的部位）。"/>					 
+	    <Setting Id="ABNORMALITY_TRAYS_STRING"
+                     String="異常狀態列"
+                     Description="異常狀態列配置." />		 
+	    <Setting Id="ABNORMALITY_TRAY_NAME_STRING" 
+                     String="異常狀態列名稱" 
+                     Description="此異常狀態列的名稱。"/>
+            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING" 
+                     String="最大數量" 
+                     Description="設定異常狀態列的最大數量。"/>
+            <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" 
+                     String="排序方式" 
+                     Description="選擇用於排序所有異常狀態的演算法。"/>		 
+	    <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING" 
+                     String="修改遊戲內翔蟲瞄準" 
+                     Description="如果啟用，HunterPie將修改遊戲功能，使其在遊戲內停用翔蟲視覺元素時不會隱藏瞄準。"/>		 
+	    <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING" 
+                     String="顯示交易船" 
+                     Description="如果啟用，HunterPie將顯示交易船的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING" 
+                     String="顯示訓練所" 
+                     Description="如果啟用，HunterPie將顯示訓練所的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING" 
+                     String="顯示艾路派遣隊" 
+                     Description="如果啟用，HunterPie將顯示艾路派遣隊的資訊。"/>		 
+	    <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING" 
+		     String="顯示採集箱" 
+		     Description="如果啟用，HunterPie將顯示採集箱的資料。"/>		 
+	    <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING" 
+                     String="顯示福福鴞巢" 
+                     Description="如果啟用，HunterPie將顯示福福鴞巢的資訊。"/>		 
+	    <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING" 
+		     String="顯示蒸氣機" 
+		     Description="如果啟用，HunterPie將顯示蒸氣機的資料。"/>					 
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF" 
+                     String="突顯自己" 
+                     Description="如果啟用，您的名字將會在傷害統計中被突顯顯示。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_SHOULD_BLUR_NAMES" 
+                     String="模糊名字" 
+                     Description="如果啟用，所有玩家的名字都會被模糊處理。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT" 
+                     String="顯示DPS圖表" 
+                     Description="如果啟用，將顯示DPS變化圖表。"/>
+            <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" 
+                     String="圖表線條平滑度" 
+                     Description="控制圖表線條的平滑程度。"/>
+            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING" 
+                     String="圖表線條粗細" 
+                     Description="控制圖表線條的粗細。"/>
+            <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING" 
+                     String="DPS計算策略" 
+                     Description="決定如何計算每秒傷害。&#xA;- 相對於任務：使用任務計時器&#xA;- 相對於加入：使用玩家加入隊伍的時間&#xA;- 相對於首次攻擊：使用玩家首次攻擊魔物的時間"/>
+            <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" 
+                     String="傷害圖表策略" 
+                     Description="決定圖表要顯示的資料類型。&#xA;- 每秒傷害：使用DPS資料&#xA;- 總傷害：使用總傷害資料"/>
+            <Setting Id="DAMAGE_METER_SELF_COLOR_STRING" 
+                     String="自己的顏色" 
+                     Description="在傷害統計中您的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_1_COLOR_STRING" 
+                     String="隊長顏色" 
+                     Description="在傷害統計中隊長的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_2_COLOR_STRING" 
+                     String="第二位玩家顏色" 
+                     Description="在傷害統計中第二位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_3_COLOR_STRING" 
+                     String="第三位玩家顏色" 
+                     Description="在傷害統計中第三位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING" 
+                     String="第四位玩家顏色" 
+                     Description="在傷害統計中第四位玩家的顏色。"/>
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING" 
+                     String="隨從NPC顏色" 
+                     Description="隨從NPC在傷害統計中顯示的顏色。"/>
+            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS" 
+                     String="顯示隨從傷害" 
+                     Description="如果啟用，HunterPie將顯示隨從的傷害。"/>
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS" 
+                     String="顯示DPS" 
+                     Description="如果啟用，HunterPie將顯示每位玩家的DPS。"/>
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" 
+                     String="顯示總傷害" 
+                     Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/> 
+	    <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
+                     String="顯示移動平均DPS圖表"
+                     Description="如果啟用，HunterPie 將以每 X 秒為間隔，繪制你在過去 X 秒內的平均DPS圖表（可通過採樣率設定進行自定義）" />
+            <Setting Id="DAMAGE_METER_SAMPLING_RATE"
+                     String="圖表採樣率"
+                     Description="設定用於計算移動平均 DPS 圖表數據的時間間隔（單位：秒）" />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
+                     String="顯示滾動圖表"
+                     Description="如果啟用，圖表將隨時間向前移動，而不是壓縮顯示，並隱藏超過指定時間範圍的數據（可透過滾動窗口大小設定進行自定義）。" />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
+                     String="滾動窗口大小"
+                     Description="設定顯示滾動圖表窗口時圖表應顯示的總時間（單位：秒），超過該時間的數據將被隱藏。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開發人員：模擬魔物功能"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
                      String="開發人員：模擬傷害計數功能"/>
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="開發人員：模擬異常功能"/>
+                     String="開發人員：模擬異常功能"/>				 
+	    <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
+                     String="開發人員: 模擬翔蟲功能"
+                     Description="若您不確定其用途，請勿啟用。" /> 
+	    <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
+                     String="開發人員: 模擬啟用功能"
+                     Description="若您不確定其用途，請勿啟用。" />		 
+	    <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
+                     String="開發人員: 模擬聊天小工具"
+                     Description="若您不確定其用途，請勿啟用。" />		 
+	    <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
+                     String="開發人員: 模擬玩家HUD小工具"
+                     Description="若您不確定其用途，請勿啟用。" />		 
+	    <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
+                     String="開發人員: 模擬操蟲棍小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
+                     String="開發人員: 模擬充能斧小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
+                     String="開發人員: 模擬雙劍小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
+                     String="開發人員: 模擬衣裝小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
+                     String="開發人員: 模擬斬擊斧小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
+                     String="開發人員: 模擬太刀小工具"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
+                     String="開發人員: 模擬時鐘小工具"
+                     Description="若您不確定其用途，請勿啟用。" />					 
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="開發者：Poogie API 主機"/>
+                     String="開發者：Poogie API 主機"/> 
+            <Setting Id="DEV_LOG_LEVEL"
+                     String="開發人員: Log level"
+                     Description="在控制台中顯示日誌的最低等級" />
+	    <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
+                     String="開發人員: UI 渲染追蹤級別"
+                     Description="若您不確定其用途，請勿啟用。" />		 
+				
+				
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING" 
+                     String="啟用原生模組" 
+                     Description="如果啟用，HunterPie將使用原生模組來讀取遊戲資料。"/>            
+            <Setting Id="ENABLE_SELF_UPDATE_STRING" 
+                     String="啟用自動更新" 
+                     Description="如果啟用，HunterPie將自動檢查並安裝更新。"/>            
+            <Setting Id="ENABLE_WINDOWS_OVERLAY_STRING" 
+                     String="啟用Windows遊戲覆蓋層" 
+                     Description="如果啟用，HunterPie將使用Windows遊戲覆蓋層來顯示介面。"/>            
+            <Setting Id="ENABLE_SEAMLESS_MODE_STRING" 
+                     String="啟用無縫模式" 
+                     Description="如果啟用，HunterPie將在遊戲視窗中無縫顯示介面。"/>            
+            <Setting Id="ENABLE_RENDER_BEHIND_WINDOWS_STRING" 
+                     String="允許在其他視窗後繪製" 
+                     Description="如果啟用，HunterPie的介面將會在其他視窗後方繼續繪製。"/>            
+            <Setting Id="ENABLE_CLICK_THROUGH_STRING" 
+                     String="啟用點擊穿透" 
+                     Description="如果啟用，滑鼠點擊將直接穿透HunterPie的介面。"/>            
+            <Setting Id="ENABLE_DISABLE_WHEN_UNFOCUSED_STRING" 
+                     String="失去焦點時停用" 
+                     Description="如果啟用，當遊戲視窗失去焦點時將停用HunterPie的介面。"/>            
+            <Setting Id="ENABLE_HARDWARE_ACCELERATION_STRING" 
+                     String="啟用硬體加速" 
+                     Description="如果啟用，HunterPie將使用硬體加速來繪製介面。"/>            
+            <Setting Id="ENABLE_DIRECT_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用私訊通知" 
+                     Description="如果啟用，當收到私人訊息時將顯示通知。"/>            
+            <Setting Id="ENABLE_PARTY_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用隊伍訊息通知" 
+                     Description="如果啟用，當收到隊伍訊息時將顯示通知。"/>            
+            <Setting Id="ENABLE_SYSTEM_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用系統訊息通知" 
+                     Description="如果啟用，當收到系統訊息時將顯示通知。"/>
+            <Setting Id="ENABLE_SHOUTOUT_MESSAGE_NOTIFICATIONS_STRING" 
+                     String="啟用自動喊話通知" 
+                     Description="如果啟用，當收到自動喊話訊息時將顯示通知。"/>            
+            <Setting Id="ENABLE_QUEST_NOTIFICATIONS_STRING" 
+                     String="啟用任務通知" 
+                     Description="如果啟用，當任務狀態改變時將顯示通知。"/>            
+            <Setting Id="ENABLE_ABNORMALITY_NOTIFICATIONS_STRING" 
+                     String="啟用異常狀態通知" 
+                     Description="如果啟用，當異常狀態改變時將顯示通知。"/>
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE" 
+                     String="切換設計模式" 
+                     Description="開關設計模式的快捷鍵。"/>
+            <Setting Id="OVERLAY_HIDE_WHEN_GAME_UNFOCUS_STRING" 
+                     String="遊戲失去焦點時隱藏介面" 
+                     Description="如果啟用，當遊戲視窗不在前景時，所有介面將自動隱藏。"/>
+            <Setting Id="INITIALIZE_WIDGET_STRING" 
+                     String="初始化介面" 
+                     Description="如果啟用，HunterPie將始終初始化此介面。如果您不想要此介面，請關閉此選項。"/>
+            <Setting Id="HIDE_WHEN_UI_VISIBLE_STRING" 
+                     String="HUD可見時隱藏" 
+                     Description="如果啟用，當HUD可見時（例如：任務結束時、在營地內、與NPC對話等）HunterPie將自動隱藏此介面。"/>
+            <Setting Id="WIDGET_POSITION" 
+                     String="介面位置" 
+                     Description="控制此介面的位置。"/>
+            <Setting Id="WIDGET_OPACITY" 
+                     String="介面透明度" 
+                     Description="控制此介面的透明度。"/>
+            <Setting Id="WIDGET_SCALE" 
+                     String="介面縮放" 
+                     Description="控制此介面的線性縮放，數值越高介面越大。"/>
+            <Setting Id="ORIENTATION_STRING" 
+                     String="方向" 
+                     Description="介面的方向。"/>
+					 
+					 
+			<!-- Account -->
+            <Setting Id="ACCOUNT_STRING" 
+			         String="帳號" 
+			         Description="帳號設定"/>
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING" 
+			         String="啟用遊戲存檔備份" 
+			         Description="如果啟用，HunterPie將自動備份您的遊戲存檔並上傳到雲端。"/>
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING" 
+			         String="啟用狩獵上傳" 
+			         Description="如果啟用，HunterPie將上傳您的狩獵統計資料。"/>
+            
         </Settings>
+        <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET" String="介面設定"/>
+            <Group Id="CONFIGURATION_GROUP_GENERAL" String="一般設定"/>
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS" String="自訂設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET" String="目標設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS" String="部位設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS" String="異常狀態設定"/>
+            <Group Id="CONFIGURATION_GROUP_MISC" String="其他"/>
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS" String="異常狀態列"/>
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT" String="傷害圖表"/>
+            <Group Id="CONFIGURATION_GROUP_COLORS" String="顏色設定"/>
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES" String="活動設定"/>
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS" String="快捷鍵"/>
+            <Group Id="CONFIGURATION_GROUP_MOCKS" String="模擬設定"/>
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT" String="開發設定"/>
+            <Group Id="CONFIGURATION_GROUP_LOGGING" String="記錄設定"/>
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE" String="自動更新"/>
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER" String="贊助者"/>
+            <Group Id="CONFIGURATION_GROUP_IN_GAME" String="遊戲內設定"/>
+            <Group Id="CONFIGURATION_GROUP_NATIVE" String="原生功能"/>
+            <Group Id="CONFIGURATION_GROUP_RENDERING" String="繪製設定"/>
+            <Group Id="CONFIGURATION_GROUP_SCANNING" String="掃描設定"/>
+            <Group Id="CONFIGURATION_GROUP_CLIENT" String="用戶端"/>
+            <Group Id="CONFIGURATION_GROUP_OVERLAY" String="覆蓋層"/>
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT" String="帳號"/>
+            <Group Id="CONFIGURATION_GROUP_FLAGS" String="功能開關"/>
+        </ConfigurationGroups>
+	<Home> <!-- Needs to translate -->
+            <GameStatus Id="NOT_FOUND"
+                        String="未找到遊戲" />
+            <GameStatus Id="WAITING"
+                        String="等待遊戲..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="另一個遊戲啟動中" />
+            <GameStatus Id="RUNNING"
+                        String="啟動中..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="如果有任何問題或技術疑問? 可以從我們的團隊和社區獲得幫助。" />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="說明書"
+                          Description="了解更多關於HunterPie的功能及使用說明。" />
+        </Home>
     </Client>
-</Strings>
+</Strings>    
+
+
