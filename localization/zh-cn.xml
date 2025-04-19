@@ -3906,7 +3906,7 @@
             <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
                   String="总伤害"/>
             <Enum Id="PLOT_DPS_STRING"
-                  String="每秒伤害"/>
+                  String="DPS"/>
             <Enum Id="TARGET_MODE_LOCK_ON_STRING"
                   String="锁定目标" />
             <Enum Id="TARGET_MODE_MAP_PIN_STRING"
@@ -3916,9 +3916,9 @@
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="智能判断" />
             <Enum Id="PLOT_SLIDING_AVG"
-                  String="滑动平均每秒伤害" />
+                   String="时间段平均DPS" />
             <Enum Id="PLOT_OVERALL_AVG"
-                  String="综合每秒伤害" />
+                  String="综合DPS" />
         </Enums>
         <Settings>
             <!--一级菜单-->
@@ -4201,7 +4201,7 @@
                      Description="决定DPS开始计时的时间。&#xA;-从接取任务开始将使用任务计时器&#xA;-从参加任务开始将使用玩家加入小队的时间为起始点&#xA;-从第一次伤害开始将使用玩家第一次命中怪物为起始点。"/>
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
                      String="伤害图表类型"
-                     Description="决定伤害图表的绘图方式。&#xA;-总伤害：总伤害将用于绘制图表。&#xA;-每秒伤害：DPS将被用于绘制图表。"/>
+                     Description="决定伤害图表的绘图方式。&#xA;-总伤害：总伤害将用于绘制图表。&#xA;-DPS：DPS将被用于绘制图表。"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="我的颜色"
                      Description="你的角色在伤害统计中的颜色。"/>
@@ -4225,23 +4225,23 @@
                      Description="开启后，伤害统计中将会显示牙猎犬的伤害。" />
             <!--伤害组件-->
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS"
-                     String="显示每秒伤害"
-                     Description="启用后，HunterPie 将显示每位玩家的每秒伤害（DPS）。" />
+                     String="显示DPS"
+                     Description="启用后，HunterPie 将显示每位玩家的DPS（每秒伤害）。" />
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="显示总伤害"
                      Description="启用后，HunterPie 将显示每位玩家的总伤害数值。" />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
-                     String="启用滑动平均 DPS 图表"
-                     Description="启用后，HunterPie 将以每 X 秒为间隔，绘制你在过去 X 秒内的平均每秒伤害图表（可通过采样率设置进行自定义）。" />
+                     String="启用时间段平均DPS图表"
+                     Description="启用后，HunterPie 将按每 X 秒的间隔绘制你过去 X 秒的平均DPS图表（采样率可自定义）。" />
             <Setting Id="DAMAGE_METER_SAMPLING_RATE"
                      String="图表采样率"
-                     Description="设置用于计算滑动平均 DPS 图表数据点的时间间隔（单位：秒）。" />
+                     Description="设置计算时间段平均DPS图表数据点的时间间隔（单位：秒）。" />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
-                     String="启用滑动窗口图表"
-                     Description="启用后，图表将随时间向前滑动，而不是压缩显示，会隐藏超过指定时间范围的数据点（可通过滑动窗口大小设置进行自定义）。" />
+                     String="启用时间段滑动图表"
+                     Description="启用后，图表会随时间向前滑动，而不是压缩显示。超过指定时间范围的数据点将被隐藏（可通过时间段持续时长设置自定义）。" />
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
-                     String="滑动窗口大小"
-                     Description="设置启用滑动窗口图表时图表应显示的总时间（单位：秒），超过该时间的数据点将被隐藏。" />
+                     String="时间段持续时长"
+                     Description="设置启用滑动窗口图表时显示的总时间（单位：秒），超过此时长的数据点将被隐藏。" />
             <!--开发者组件-->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="开发者选项：模拟怪物小部件"
