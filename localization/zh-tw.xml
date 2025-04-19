@@ -440,6 +440,29 @@
             <Part Id="PART_HEAD_CRYSTALIZED" String="頭（白纏晶）" />
             <Part Id="PART_L_WINGARM_CRYSTALIZED" String="左翼臂（白纏晶）" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED" String="右翼臂（白纏晶）" />
+            <Part Id="PART_SUPERHEAT" String="過熱狀態" />
+            <Part Id="PART_CEILING_FALL" String="懸掛墜落" />
+            <Part Id="PART_SACK_COLLAPSE" String="瓦斯囊坍塌" />
+            <Part Id="PART_HEAD_SACK" String="頭部（瓦斯囊）" />
+            <Part Id="PART_BACK_SACK" String="背部（瓦斯囊）" />
+            <Part Id="PART_TAIL_SACK" String="尾巴（瓦斯囊）" />
+            <Part Id="PART_FIRE_STATE" String="火焰姿態" />
+            <Part Id="PART_L_F_ARM_FIRE" String="第一左觸手（火焰）" />
+            <Part Id="PART_R_F_ARM_FIRE" String="第一右觸手（火焰）" />
+            <Part Id="PART_M_L_ARM_FIRE" String="第二左觸手（火焰）" />
+            <Part Id="PART_M_R_ARM_FIRE" String="第二右觸手（火焰）" />
+            <Part Id="PART_REAR_L_ARM_FIRE" String="第三左觸手（火焰）" />
+            <Part Id="PART_REAR_R_ARM_FIRE" String="第三右觸手（火焰）" />
+            <Part Id="PART_L_F_ARM_OIL" String="第一左觸手（油泥）" />
+            <Part Id="PART_R_F_ARM_OIL" String="第一右觸手（油泥）" />
+            <Part Id="PART_M_L_ARM_OIL" String="第二左觸手（油泥）" />
+            <Part Id="PART_M_R_ARM_OIL" String="第二右觸手（油泥）" />
+            <Part Id="PART_REAR_L_ARM_OIL" String="第三左觸手（油泥）" />
+            <Part Id="PART_REAR_R_ARM_OIL" String="第三右觸手（油泥）" />
+            <Part Id="PART_L_FORELEG_REINFORCED" String="左前腳（附著物）" />
+            <Part Id="PART_R_FORELEG_REINFORCED" String="右前腳（附著物）" />
+            <Part Id="PART_CRASH" String="角力" />
+            <Part Id="PART_AIR_FLINCH" String="墜落" />
 	</Shared>
 	<Rise>
             <Monster Id="0" String="雌火龍"/>
@@ -2938,7 +2961,8 @@
             <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING" String="狀態詳情"/>
             <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING" String="隊伍成員"/>
             <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING" String="詳細資訊"/>
-            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>            
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING" String="異常狀態"/>
+	    <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING" String="切換血量顯示" />
         </Main>
 	<Overlay> <!-- Needs to translate -->
             <String Id="DAMAGE_METER_OTOMOS_NAME_STRING" String="隨從"/>
