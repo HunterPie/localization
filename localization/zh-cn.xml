@@ -897,7 +897,7 @@
                   String="尾部囊体" />
             <Part Id="PART_FIRE_STATE"
                   String="火焰状态" />
-            <!--这个是缠蛙把地上的东西粘在手上的强化状态-->
+            <!--这个是火章鱼进怒前手上有油和进怒后手上有火-->
             <Part Id="PART_L_F_ARM_FIRE"
                   String="第一左触手（火）" />
             <Part Id="PART_R_F_ARM_FIRE"
