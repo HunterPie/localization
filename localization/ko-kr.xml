@@ -3705,6 +3705,20 @@
                     String="일" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="퀘스트" />
+            <String Id="MOON_FULL"
+                    String="보름달" />
+            <String Id="MOON_WANING_GIBBOUS"
+                    String="하현망간의 달" />
+            <String Id="MOON_THIRD_QUARTER"
+                    String="하현달" />
+            <String Id="MOON_WANING_CRESCENT"
+                    String="그믐달" />
+            <String Id="MOON_WAXING_CRESCENT"
+                    String="초승달" />
+            <String Id="MOON_FIRST_QUARTER"
+                    String="상현달" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                    String="상현망간의 달" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4200,6 +4214,9 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="슬라이딩 그래프 시간"
                      Description="그래프가 표시될 시간(초)을 설정합니다, 설정된 시간보다 오래된 그래프는 지워집니다." />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="달 위상 표시"
+                     Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="개발자: 모의 몬스터 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
