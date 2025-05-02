@@ -3705,6 +3705,20 @@
                     String="days" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="quests" />
+            <String Id="MOON_FULL"
+                    String="Full Moon" />
+            <String Id="MOON_WANING_GIBBOUS"
+                    String="Waning Gibbous" />
+            <String Id="MOON_THIRD_QUARTER"
+                    String="Third Quarter" />
+            <String Id="MOON_WANING_CRESCENT"
+                    String="Waning Crescent" />
+            <String Id="MOON_WAXING_CRESCENT"
+                    String="Waxing Crescent" />
+            <String Id="MOON_FIRST_QUARTER"
+                    String="First Quarter" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                    String="Waxing Gibbous" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4200,6 +4214,9 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="Sliding window size"
                      Description="Configure the total time in seconds the graph should display when Sliding window plot is enabled.  Points older than the configured amount of time will be hidden." />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="Enable Moon phases"
+                     Description="If enabled, HunterPie will display the moon phases component." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
