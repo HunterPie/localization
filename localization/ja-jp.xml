@@ -1421,6 +1421,20 @@
                     String="日数" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="クエスト" />
+            <String Id="MOON_FULL"
+                    String="満月" />
+            <String Id="MOON_WANING_GIBBOUS"
+                    String="居待月" />
+            <String Id="MOON_THIRD_QUARTER"
+                    String="下弦の月" />
+            <String Id="MOON_WANING_CRESCENT"
+                    String="逆三日月" />
+            <String Id="MOON_WAXING_CRESCENT"
+                    String="三日月" />
+            <String Id="MOON_FIRST_QUARTER"
+                    String="上弦の月" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                    String="十三夜月" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -1900,6 +1914,9 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="総ダメージ量を表示"
                      Description="有効な場合、HunterPieは各プレイヤーの総ダメージ量を表示します。" />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="月の満ち欠けを表示"
+                     Description="有効な場合、HunterPieは月の満ち欠けを表示します。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
