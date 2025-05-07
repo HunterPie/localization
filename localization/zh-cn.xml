@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.12.0.867-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.13.0.4-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -3737,6 +3737,20 @@
                     String="日" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="任务" />
+            <String Id="MOON_FULL"
+                     String="满月" />
+            <String Id="MOON_WANING_GIBBOUS"
+                     String="亏凸月" />
+            <String Id="MOON_THIRD_QUARTER"
+                     String="下弦月" />
+            <String Id="MOON_WANING_CRESCENT"
+                     String="残月" />
+            <String Id="MOON_WAXING_CRESCENT"
+                     String="眉月" />
+            <String Id="MOON_FIRST_QUARTER"
+                     String="上弦月" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                     String="盈凸月" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4244,6 +4258,9 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="时间段持续时长"
                      Description="设置启用滑动窗口图表时显示的总时间（单位：秒），超过此时长的数据点将被隐藏。" />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="启用月相"
+                     Description="启用后，HunterPie 将显示月相组件。" />
             <!--开发者组件-->
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="开发者选项：模拟怪物小部件"
