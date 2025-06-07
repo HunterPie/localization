@@ -4085,6 +4085,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="Show only target"
                      Description="If enabled, HunterPie will only show the monster you have currently set as target." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="Enable monster targeting"
+                     Description="If enabled, HunterPie will display details of the monster once they're targeted using the preferred method." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="Enable monster stamina"
                      Description="If enabled, HunterPie will show the monster stamina under it's health bar." />
@@ -4093,7 +4096,7 @@
                      Description="Controls the maximum width for the monsters health bar." />
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
                      String="Target mode"
-                     Description="Controls how you target a monster." />
+                     Description="Controls the preferred method to target a monster" />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster health bar minimum width"
                      Description="Controls the minimum width for the monsters health bar. This width will be used to calculate the dynamic size for the bars if that option is enabled." />
