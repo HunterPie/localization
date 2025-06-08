@@ -4085,6 +4085,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="몬스터 대상 지정 활성화Enable monster targeting"
+                     Description="옵션 활성화 시, HunterPie는 선호하는 방법으로 대상 지정된 몬스터의 세부 정보를 표시합니다." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="몬스터 기력 표시"
                      Description="옵션 활성화 시, HunterPie는 몬스터의 체력 바 아래에 기력 바를 표시합니다." />
@@ -4093,7 +4096,7 @@
                      Description="몬스터 체력 바의 최대 가로 폭을 설정합니다." />
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
                      String="타겟 모드"
-                     Description="몬스터를 타겟팅하는 법을 설정합니다." />
+                     Description="몬스터를 타겟으로 지정하는 선호 방법을 설정합니다." />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="몬스터 체력 바 최소 가로 길이"
                      Description="몬스터 체력 바의 최소 가로 폭을 설정합니다. 이 폭은 동적 크기 옵션을 사용 할 때 동적 크기 계산에 사용됩니다." />
