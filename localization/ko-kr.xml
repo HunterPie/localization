@@ -4086,8 +4086,8 @@
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다." />
             <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
-                     String="몬스터 대상 지정 활성화Enable monster targeting"
-                     Description="옵션 활성화 시, HunterPie는 선호하는 방법으로 대상 지정된 몬스터의 세부 정보를 표시합니다." />
+                     String="몬스터 타겟 지정 활성화"
+                     Description="옵션 활성화 시, HunterPie는 선호하는 방법을 사용하여 타겟으로 지정된 몬스터의 세부 정보를 표시합니다." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="몬스터 기력 표시"
                      Description="옵션 활성화 시, HunterPie는 몬스터의 체력 바 아래에 기력 바를 표시합니다." />
