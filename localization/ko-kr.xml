@@ -3705,6 +3705,20 @@
                     String="일" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="퀘스트" />
+            <String Id="MOON_FULL"
+                    String="보름달" />
+            <String Id="MOON_WANING_GIBBOUS"
+                    String="하현망간의 달" />
+            <String Id="MOON_THIRD_QUARTER"
+                    String="하현달" />
+            <String Id="MOON_WANING_CRESCENT"
+                    String="그믐달" />
+            <String Id="MOON_WAXING_CRESCENT"
+                    String="초승달" />
+            <String Id="MOON_FIRST_QUARTER"
+                    String="상현달" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                    String="상현망간의 달" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4071,6 +4085,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="타겟 몬스터만 표시"
                      Description="옵션 활성화 시, HunterPie는 당신의 현재 타겟 몬스터만 표시합니다." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="몬스터 타겟 지정 활성화"
+                     Description="옵션 활성화 시, HunterPie는 선호하는 방법을 사용하여 타겟으로 지정된 몬스터의 세부 정보를 표시합니다." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="몬스터 기력 표시"
                      Description="옵션 활성화 시, HunterPie는 몬스터의 체력 바 아래에 기력 바를 표시합니다." />
@@ -4079,7 +4096,7 @@
                      Description="몬스터 체력 바의 최대 가로 폭을 설정합니다." />
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
                      String="타겟 모드"
-                     Description="몬스터를 타겟팅하는 법을 설정합니다." />
+                     Description="몬스터를 타겟으로 지정하는 선호 방법을 설정합니다." />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="몬스터 체력 바 최소 가로 길이"
                      Description="몬스터 체력 바의 최소 가로 폭을 설정합니다. 이 폭은 동적 크기 옵션을 사용 할 때 동적 크기 계산에 사용됩니다." />
@@ -4200,6 +4217,9 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="슬라이딩 그래프 시간"
                      Description="그래프가 표시될 시간(초)을 설정합니다, 설정된 시간보다 오래된 그래프는 지워집니다." />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="달 위상 표시"
+                     Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="개발자: 모의 몬스터 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />

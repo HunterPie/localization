@@ -912,6 +912,8 @@
                   String="Crash" />
             <Part Id="PART_AIR_FLINCH"
                   String="Air Flinch" />
+            <Part Id="PART_VEIL"
+                  String="Veil" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -4085,6 +4087,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="Show only target"
                      Description="If enabled, HunterPie will only show the monster you have currently set as target." />
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="Enable monster targeting"
+                     Description="If enabled, HunterPie will display details of the monster once they're targeted using the preferred method." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="Enable monster stamina"
                      Description="If enabled, HunterPie will show the monster stamina under it's health bar." />
@@ -4093,7 +4098,7 @@
                      Description="Controls the maximum width for the monsters health bar." />
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
                      String="Target mode"
-                     Description="Controls how you target a monster." />
+                     Description="Controls the preferred method to target a monster" />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Monster health bar minimum width"
                      Description="Controls the minimum width for the monsters health bar. This width will be used to calculate the dynamic size for the bars if that option is enabled." />
@@ -4174,7 +4179,7 @@
                      Description="Determines the strategy that will be used to calculate the damage per second.&#xA;- Relative to quest: Will use the quest timer&#xA;- Relative to join: Will use the time when the player joined the party&#xA;- Relative to first hit: Will use the time when the player hit the monster for the first time" />
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
                      String="Damage plot strategy"
-                     Description="Determines the strategy that will be used to plot the damage in the graph.&#xA;- Damage per second: DPS will be used for the graph&#xA;- Total damage: Total damage will be used for the graph" />
+                     Description="Determines the strategy that will be used to plot the damage in the graph.&#xA;- Damage per second: DPS will be used for the graph&#xA;- Total damage: Total damage will be used for the graph&#xA;- Moving Average DPS: The moving average DPS calculated based on the sampling rate" />
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="My color"
                      Description="The color of your player in the damage meter." />

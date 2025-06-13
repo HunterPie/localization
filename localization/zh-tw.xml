@@ -464,6 +464,7 @@
             <Part Id="PART_R_FORELEG_REINFORCED" String="右前腳（附著物）" />
             <Part Id="PART_CRASH" String="角力" />
             <Part Id="PART_AIR_FLINCH" String="墜落" />
+	    <Part Id="PART_VEIL" String="液膜" />
 	</Shared>
 	<Rise>
             <Monster Id="0" String="雌火龍"/>
@@ -3330,6 +3331,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="僅顯示目標魔物" 
                      Description="如果啟用，HunterPie將只顯示目前設定為目標的魔物。"/>
+	    <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="啟用魔物鎖定"
+                     Description="如果啟用，HunterPie會依偏好方式鎖定魔物後顯示該魔物的詳細資訊。" />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" 
                      String="顯示魔物耐力" 
                      Description="如果啟用，HunterPie將在魔物血條下方顯示耐力條。"/>
@@ -3338,7 +3342,7 @@
                      Description="控制魔物血條的最大寬度。"/>
             <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING" 
                      String="目標模式" 
-                     Description="控制如何選擇目標魔物。"/>
+                     Description="控制選擇目標魔物的偏好方式。"/>
 	    <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING" 
                      String="魔物血條最小寬度" 
                      Description="控制魔物血條的最小寬度。如果啟用動態大小調整，此寬度將用於計算血條的動態大小。"/>		 
@@ -3419,7 +3423,7 @@
                      Description="決定如何計算每秒傷害。&#xA;- 相對於任務：使用任務計時器&#xA;- 相對於加入：使用玩家加入隊伍的時間&#xA;- 相對於首次攻擊：使用玩家首次攻擊魔物的時間"/>
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING" 
                      String="傷害圖表策略" 
-                     Description="決定圖表要顯示的資料類型。&#xA;- 每秒傷害：使用DPS資料&#xA;- 總傷害：使用總傷害資料"/>
+                     Description="決定圖表要顯示的資料類型。&#xA;- 每秒傷害：使用DPS資料&#xA;- 總傷害：使用總傷害資料&#xA;- 移動平均DPS：根據採樣率計算移動平均DPS"/>
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING" 
                      String="自己的顏色" 
                      Description="在傷害統計中您的顏色。"/>
