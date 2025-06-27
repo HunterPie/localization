@@ -1464,6 +1464,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="Growth Up (L)" />
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="Rysher" />
+                <Collector Id="MURTABAK"
+                           String="Murtabak" />
+                <Collector Id="APAR"
+                           String="Apar" />
+                <Collector Id="PLUMPEACH"
+                           String="Plumpeach" />
+                <Collector Id="SABAR"
+                           String="Sabar" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests>
         <Rise>
             <Quest Id="101"
