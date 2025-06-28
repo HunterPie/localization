@@ -3721,6 +3721,8 @@
                     String="Elgado Nest: " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="days" />
+            <String Id="RATIONS_STRING"
+                    String="rations" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="quests" />
             <String Id="MOON_FULL"
@@ -4160,6 +4162,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="Show Argosy"
                      Description="If enabled, HunterPie will show Argosy's data." />
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="Show Material Retrieval"
+                     Description="If enabled, HunterPie will show Material Retrieval's data." />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="Show Ingredients Center"
+                     Description="If enabled, HunterPie will show Ingredients Center's data." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="Show Training Dojo"
                      Description="If enabled, HunterPie will show Training Dojo's data." />
