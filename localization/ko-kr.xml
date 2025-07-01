@@ -4167,7 +4167,7 @@
                      String="교역선 표시"
                      Description="옵션 활성화 시, HunterPie가 교역선의 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
-                     String="소재 채집 외뢰 표시"
+                     String="소재 채집 의뢰 표시"
                      Description="옵션 활성화 시, HunterPie가 소재 채집 의뢰 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
                      String="식량 배급소 표시"
