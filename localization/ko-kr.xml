@@ -912,6 +912,8 @@
                   String="격추" />
             <Part Id="PART_AIR_FLINCH"
                   String="공중 경직" />
+            <Part Id="PART_VEIL"
+                  String="수막" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1462,6 +1464,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="성장력 UP [대]"/>
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="라이샤" />
+                <Collector Id="MURTABAK"
+                           String="무타바" />
+                <Collector Id="APAR"
+                           String="아파르" />
+                <Collector Id="PLUMPEACH"
+                           String="복슬복숭" />
+                <Collector Id="SABAR"
+                           String="사바르" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests>
         <Rise>
             <Quest Id="101"
@@ -3703,6 +3721,8 @@
                     String="엘가도 둥지: " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="일" />
+            <String Id="RATIONS_STRING"
+                    String="휴대 식량" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="퀘스트" />
             <String Id="MOON_FULL"
@@ -4142,6 +4162,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="교역선 표시"
                      Description="옵션 활성화 시, HunterPie가 교역선의 정보를 표시합니다." />
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="Show Material Retrieval"
+                     Description="옵션 활성화 시, HunterPie가 소재 채집 의뢰 정보를 표시합니다." />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="Show Ingredients Center"
+                     Description="옵션 활성화 시, HunterPie가 식량 배급소의 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="동반자 도장 표시"
                      Description="옵션 활성화 시, HunterPie가 동반자 도장의 정보를 표시합니다." />
@@ -4177,7 +4203,7 @@
                      Description="초당 대미지를 계산하는데 사용할 방법을 결정합니다.&#xA;- 퀘스트 기준: 퀘스트 경과 시간을 기준으로 계산&#xA;- 참여 기준: 플레이어가 파티에 참여한 시간을 기준으로 계산&#xA;- 첫 타격 기준: 몬스터를 처음으로 타격한 시간을 기준으로 계산" />
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
                      String="대미지 그래프 표시 방법"
-                     Description="그래프에 표시할 대미지를 결정합니다.&#xA;- 초당 대미지: DPS가 그래프로 표시됩니다&#xA;- 총 대미지: 총 대미지가 그래프로 표시됩니다" />
+                     Description="그래프에 표시할 대미지를 결정합니다.&#xA;- 초당 대미지: DPS가 그래프로 표시됩니다&#xA;- 총 대미지: 총 대미지가 그래프로 표시됩니다&#xA;- 평균 이동 DPS: 샘플링 비율에 따라 계산된 평균 이동 DPS" />
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="나의 색상"
                      Description="대미지 미터에서 당신의 플레이어의 색상입니다." />
