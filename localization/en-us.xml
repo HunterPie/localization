@@ -1238,10 +1238,14 @@
                      String="Congalala" />
             <Monster Id="7"
                      String="Blangonga" />
+            <Monster Id="8"
+                     String="Lagiacrus" />
             <Monster Id="9"
                      String="Nerscylla" />
             <Monster Id="10"
                      String="Gore Magala" />
+            <Monster Id="11"
+                     String="Seregios" />
             <Monster Id="13"
                      String="Mizutsune" />
             <Monster Id="14"
