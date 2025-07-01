@@ -1238,10 +1238,14 @@
                      String="바바콩가" />
             <Monster Id="7"
                      String="도도블랑고" />
+            <Monster Id="8"
+                     String="라기아크루스" />
             <Monster Id="9"
                      String="네르스큐라" />
             <Monster Id="10"
                      String="고어 마가라" />
+            <Monster Id="11"
+                     String="셀레기오스" />
             <Monster Id="13"
                      String="타마미츠네" />
             <Monster Id="14"
@@ -4163,10 +4167,10 @@
                      String="교역선 표시"
                      Description="옵션 활성화 시, HunterPie가 교역선의 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
-                     String="Show Material Retrieval"
+                     String="소재 채집 의뢰 표시"
                      Description="옵션 활성화 시, HunterPie가 소재 채집 의뢰 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
-                     String="Show Ingredients Center"
+                     String="식량 배급소 표시"
                      Description="옵션 활성화 시, HunterPie가 식량 배급소의 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="동반자 도장 표시"
