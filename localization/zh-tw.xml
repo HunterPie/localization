@@ -630,8 +630,10 @@
             <Monster Id="5" String="毒怪鳥" />
             <Monster Id="6" String="桃毛獸王" />
             <Monster Id="7" String="雪獅子王" />
+	    <Monster Id="8" String="海龍" />
             <Monster Id="9" String="影蜘蛛" />
             <Monster Id="10" String="黑蝕龍" />
+	    <Monster Id="11" String="千刃龍" />
 	    <Monster Id="13" String="泡狐龍" />
             <Monster Id="14" String="護雷顎龍" />
             <Monster Id="15" String="護兇爪龍" />
@@ -757,7 +759,18 @@
                     String="成長力UP【小】" />
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="成長力UP【大】" />
-    </Fertilizers>	
+    </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER" String="萊夏" />
+                <Collector Id="MURTABAK" String="穆塔巴" />
+                <Collector Id="APAR" String="阿帕爾" />
+                <Collector Id="PLUMPEACH" String="桃圓" />
+                <Collector Id="SABAR" String="薩巴爾" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests> <!-- Needs to translate -->
         <Rise>
             <Quest Id="101"
@@ -2976,6 +2989,7 @@
             <String Id="COHOOT_KAMURA_NEST_STRING" String="神火村鳥巢: " />
             <String Id="COHOOT_ELGADO_NEST_STRING" String="艾爾卡多鳥巢: " />
             <String Id="ARGOSY_DAYS_STRING" String="天"/>
+	    <String Id="RATIONS_STRING" String="隨身食物" />
             <String Id="TAILRAIDERS_QUEST_STRING" String="任務"/>
             <String Id="MOON_FULL" String="滿月" />
             <String Id="MOON_WANING_GIBBOUS" String="虧凸月" />
@@ -3388,6 +3402,12 @@
 	    <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING" 
                      String="顯示交易船" 
                      Description="如果啟用，HunterPie將顯示交易船的資訊。"/>
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="顯示素材採集委託"
+                     Description="如果啟用，HunterPie將顯示素材採集委託的資訊。" />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="顯示食物補給所"
+                     Description="如果啟用，HunterPie將顯示食物補給所的資訊。" />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING" 
                      String="顯示訓練所" 
                      Description="如果啟用，HunterPie將顯示訓練所的資訊。"/>
