@@ -914,6 +914,12 @@
                   String="공중 경직" />
             <Part Id="PART_VEIL"
                   String="수막" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="죽은 척하기" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="왼쪽 날갯죽지(폭식화)" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="오른쪽 날갯죽지(폭식화)" />
         </Shared>
         <Rise>
             <Monster Id="0"
