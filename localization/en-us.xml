@@ -914,6 +914,12 @@
                   String="Air Flinch" />
             <Part Id="PART_VEIL"
                   String="Veil" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="Feign Death" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="Left Wingarm (Exposed)" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="Right Wingarm (Exposed)" />
         </Shared>
         <Rise>
             <Monster Id="0"
