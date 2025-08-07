@@ -3680,6 +3680,52 @@
                    String="흑굉룡은 상처받지 않는다" />
         </World>
     </Quests>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="은신 복장" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="피신 복장" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="치유의 연통" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="부동 복장" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="도발 복장" />
+        <Tool Id="VITALITY_MANTLE"
+              String="체력 복장" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="내열 복장" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="내수 복장" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="내한 복장" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="내뢰 복장" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="내룡 복장" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="해제의 연통" />
+        <Tool Id="GLIDER_MANTLE"
+              String="활공 복장" />
+        <Tool Id="EVASION_MANTLE"
+              String="회피 복장" />
+        <Tool Id="IMPACT_MANTLE"
+              String="강타 복장" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="화합 복장" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="면역 복장" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="달인의 연통" />
+        <Tool Id="BANDIT_MANTLE"
+              String="강도 복장" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="어쌔신 복장" />
+        <Tool Id="MENDING_MANTLE"
+              String="재생 복장" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="식공 복장" />
+    </SpecializedTools>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -3749,6 +3795,10 @@
                     String="상현달" />
             <String Id="MOON_WAXING_GIBBOUS"
                     String="상현망간의 달" />
+            <String Id="TOOL_COOLDOWN"
+                    String="재사용 대기 중" />
+            <String Id="TOOL_TIMER"
+                    String="지속 시간" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4253,6 +4303,12 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="슬라이딩 그래프 시간"
                      Description="그래프가 표시될 시간(초)을 설정합니다, 설정된 시간보다 오래된 그래프는 지워집니다." />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="컴팩트 모드 활성화"
+                     Description="옵션 활성화 시, HunterPie가 특수 장비의 지속 시간과 재사용 대기 시간을 컴팩트한 방식으로 표시합니다." />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="사냥 구역에서만 표시"
+                     Description="옵션 활성화 시, 사냥 구역에 있을 때만 HunterPie가 특수 장비 위젯을 표시합니다." />
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="달 위상 표시"
                      Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />
