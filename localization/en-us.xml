@@ -3680,6 +3680,52 @@
                    String="Brand New Brute" />
         </World>
     </Quests>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="Ghilie Mantle" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="Temporal Mantle" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="Health Booster" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="Rocksteady Mantle" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="Challenger Mantle" />
+        <Tool Id="VITALITY_MANTLE"
+              String="Vitality Mantle" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="Fireproof Mantle" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="Waterproof Mantle" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="Iceproof Mantle" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="Thunderproof Mantle" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="Dragonpoof Mantle" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="Cleanser Booster" />
+        <Tool Id="GLIDER_MANTLE"
+              String="Glider Mantle" />
+        <Tool Id="EVASION_MANTLE"
+              String="Evasion Mantle" />
+        <Tool Id="IMPACT_MANTLE"
+              String="Impact Mantle" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="Apothecary Mantle" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="Immunity Mantle" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="Affinity Booster" />
+        <Tool Id="BANDIT_MANTLE"
+              String="Bandit Mantle" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="Assassin's Hood" />
+        <Tool Id="MENDING_MANTLE"
+              String="Mending's Mantle" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="Corrupted Mantle" />
+    </SpecializedTools>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -3749,6 +3795,10 @@
                     String="First Quarter" />
             <String Id="MOON_WAXING_GIBBOUS"
                     String="Waxing Gibbous" />
+            <String Id="TOOL_COOLDOWN"
+                    String="Recharging" />
+            <String Id="TOOL_TIMER"
+                    String="Duration" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4253,6 +4303,12 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="Sliding window size"
                      Description="Configure the total time in seconds the graph should display when Sliding window plot is enabled.  Points older than the configured amount of time will be hidden." />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="Enable compact mode"
+                     Description="If enabled, HunterPie will display the specialized tool timer and cooldown in a minimal and compact way." />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="Show only in Hunting Zones"
+                     Description="If enabled, HunterPie will display the specialized tool widget only in hunting zones." />
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="Enable Moon phases"
                      Description="If enabled, HunterPie will display the moon phases component." />
