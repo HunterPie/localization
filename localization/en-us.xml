@@ -483,6 +483,8 @@
                      String="Sporenet: Song o' Purrtection" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
                      String="Sporenet: Song o' Purrtection (L)" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
+                     String="Leviathan's Fury" />
     </Abnormalities>
     <Monsters>
         <Variants>

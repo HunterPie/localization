@@ -483,6 +483,8 @@
                      String="버섯피리: 방어의 음색" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
                      String="버섯피리: 방어의 음색 (대)" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
+                     String="해룡의 와뢰" />
     </Abnormalities>
     <Monsters>
         <Variants>
