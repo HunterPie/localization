@@ -485,6 +485,10 @@
                      String="버섯피리: 방어의 음색 (대)" />
         <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
                      String="해룡의 와뢰" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I"
+                     String="전투의 함성 I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II"
+                     String="전투의 함성 II" />
     </Abnormalities>
     <Monsters>
         <Variants>
