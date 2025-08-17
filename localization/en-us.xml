@@ -489,6 +489,10 @@
                      String="War Cry I" />
         <Abnormality Id="ABNORMALITY_WAR_CRY_II"
                      String="War Cry II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW"
+                     String="Critical Draw" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE"
+                     String="Power Stone" />
     </Abnormalities>
     <Monsters>
         <Variants>
