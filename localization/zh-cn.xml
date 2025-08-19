@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.13.0.4-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.13.1.254-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -372,7 +372,7 @@
         <Abnormality Id="ABNORMALITY_POISON"
                      String="中毒" />
         <Abnormality Id="ABNORMALITY_POISON_BUILDUP"
-                     String="中毒(累积)" />        
+                     String="中毒(累积)" />
         <Abnormality Id="ABNORMALITY_VENOM"
                      String="猛毒" />
         <Abnormality Id="ABNORMALITY_STUN"
@@ -449,9 +449,9 @@
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT"
                      String="天衣无缝" />
         <Abnormality Id="ABNORMALITY_FROZEN"
-                    String="冻伤" />
+                     String="冻伤" />
         <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP"
-                    String="冻伤(累积)" />
+                     String="冻伤(累积)" />
         <!--TODO:没玩过笛子不清楚这个翻译是否正确,知道的朋友麻烦修改下-->
         <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV"
                      String="响玉 回避性能 &amp; 移动速度提升" />
@@ -495,6 +495,17 @@
                      String="蘑菇笛: 保护之音" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
                      String="蘑菇笛: 保护之音 (大)" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
+                     String="海龙的涡雷" />
+        <!--这个是雪狮子的套装技能两件套一级，四件套二级-->
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I"
+                     String="战吼 I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II"
+                     String="战吼 II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW"
+                     String="拔刀术【技】" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE"
+                     String="能量石" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -820,11 +831,10 @@
                   String="外套膜" />
             <Part Id="PART_STINGER"
                   String="毒刺" />
-            <!--TODO:下面两个词条应该是左/右翼足或左/右翼臂，或者包含了两种意思（因为翼足满足了黑蚀龙的词条，但是白炽龙又有词条重复）-->
             <Part Id="PART_R_WINGARM"
-                  String="右翼臂" />
+                  String="右翼足" />
             <Part Id="PART_L_WINGARM"
-                  String="左翼臂" />
+                  String="左翼足" />
             <Part Id="PART_NOSE"
                   String="鼻子" />
             <Part Id="PART_TAIL_HAIR"
@@ -931,6 +941,14 @@
                   String="坠落" />
             <Part Id="PART_AIR_FLINCH"
                   String="踉跄" />
+            <Part Id="PART_VEIL"
+                  String="水膜" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="假死" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="左翼足 (暴露)" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="右翼足 (暴露)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1068,7 +1086,7 @@
             <Monster Id="95"
                      String="刚缠兽"/>
             <Monster Id="96"
-                     String="冥渊龙"/>		
+                     String="冥渊龙"/>
             <Monster Id="97"
                      String="棘龙"/>
             <Monster Id="98"
@@ -1255,10 +1273,14 @@
                      String="桃毛兽王"/>
             <Monster Id="7"
                      String="雪狮子王"/>
+            <Monster Id="8"
+                     String="海龙" />
             <Monster Id="9"
                      String="影蜘蛛"/>
             <Monster Id="10"
                      String="黑蚀龙"/>
+            <Monster Id="11"
+                     String="千刃龙" />
             <Monster Id="13"
                      String="泡狐龙" />
             <Monster Id="14"
@@ -1306,55 +1328,55 @@
     <Stages>
         <Rise>
             <Stage Id="-2"
-                     String="加载界面"/>
+                   String="加载界面"/>
             <Stage Id="-1"
-                     String="主菜单"/>
+                   String="主菜单"/>
             <Stage Id="0"
-                     String="炎火村"/>
+                   String="炎火村"/>
             <Stage Id="1"
-                     String="自己家"/>
+                   String="自己家"/>
             <Stage Id="2"
-                     String="随从广场"/>
+                   String="随从广场"/>
             <Stage Id="3"
-                     String="集会所"/>
+                   String="集会所"/>
             <Stage Id="4"
-                     String="集会所 准备区域"/>
+                   String="集会所 准备区域"/>
             <Stage Id="5"
-                     String="修炼场"/>
+                   String="修炼场"/>
             <Stage Id="6"
-                     String="埃尔迦德"/>
+                   String="埃尔迦德"/>
             <Stage Id="7"
-                     String="埃尔迦德的小屋"/>
+                   String="埃尔迦德的小屋"/>
             <Stage Id="11"
-                     String="骑士团指挥所"/>
+                   String="骑士团指挥所"/>
             <Stage Id="199"
-                     String="角色选择"/>
+                   String="角色选择"/>
             <Stage Id="201"
-                     String="废神社"/>
+                   String="废神社"/>
             <Stage Id="202"
-                     String="沙原"/>
+                   String="沙原"/>
             <Stage Id="203"
-                     String="水没林"/>
+                   String="水没林"/>
             <Stage Id="204"
-                     String="冰封群岛"/>
+                   String="冰封群岛"/>
             <Stage Id="205"
-                     String="熔岩洞"/>
+                   String="熔岩洞"/>
             <Stage Id="207"
-                     String="翡叶要塞"/>
+                   String="翡叶要塞"/>
             <Stage Id="209"
-                     String="狱泉乡"/>
+                   String="狱泉乡"/>
             <Stage Id="210"
-                     String="斗技场"/>
+                   String="斗技场"/>
             <Stage Id="211"
-                     String="龙宫古城"/>
+                   String="龙宫古城"/>
             <Stage Id="212"
-                     String="密林"/>
+                   String="密林"/>
             <Stage Id="213"
-                     String="城塞高地"/>
+                   String="城塞高地"/>
             <Stage Id="214"
-                     String="塔之秘境"/>
+                   String="塔之秘境"/>
             <Stage Id="215"
-                     String="渊劫地狱"/>
+                   String="渊劫地狱"/>
         </Rise>
         <World>
             <Stage Id="0"
@@ -1430,35 +1452,35 @@
         </World>
         <Wilds>
             <Stage Id="0"
-                     String="天堑沙原" />
+                   String="天堑沙原" />
             <Stage Id="1"
-                     String="绯红森林" />
+                   String="绯红森林" />
             <Stage Id="2"
-                     String="涌油谷" />
+                   String="涌油谷" />
             <Stage Id="3"
-                     String="冰雾断崖" />
+                   String="冰雾断崖" />
             <Stage Id="4"
-                     String="龙都遗迹" />
+                   String="龙都遗迹" />
             <Stage Id="5"
-                     String="河畔小径" />
+                   String="河畔小径" />
             <Stage Id="6"
-                     String="岩窟坑道" />
+                   String="岩窟坑道" />
             <Stage Id="7"
-                     String="龙都废道" />
+                   String="龙都废道" />
             <Stage Id="8"
-                     String="守护者参道" />
+                   String="守护者参道" />
             <Stage Id="9"
-                     String="龙谷遗址" />
+                   String="龙谷遗址" />
             <Stage Id="10"
-                     String="冰锁冻峰" />
+                   String="冰锁冻峰" />
             <Stage Id="11"
-                     String="龙灯圣庙" />
+                   String="龙灯圣庙" />
             <Stage Id="12"
-                     String="交汇之峰酥加" />
+                   String="交汇之峰酥加" />
             <Stage Id="14"
-                     String="集会所" />
+                   String="集会所" />
             <Stage Id="15"
-                     String="训练场" />
+                   String="训练场" />
         </Wilds>
     </Stages>
     <Fertilizers>
@@ -1481,6 +1503,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="成长力提升【大】" />
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="莱夏" />
+                <Collector Id="MURTABAK"
+                           String="穆塔帕" />
+                <Collector Id="APAR"
+                           String="阿帕尔" />
+                <Collector Id="PLUMPEACH"
+                           String="桃园" />
+                <Collector Id="SABAR"
+                           String="萨巴尔" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests>
         <Rise>
             <Quest Id="101"
@@ -3684,6 +3722,52 @@
                    String="黑轰龙不会受伤" />
         </World>
     </Quests>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="隐身衣装" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="转身衣装" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="疗愈烟筒" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="不动衣装" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="挑衅衣装" />
+        <Tool Id="VITALITY_MANTLE"
+              String="体力衣装" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="耐热衣装" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="耐水衣装" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="耐寒衣装" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="耐雷衣装" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="耐龙衣装" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="解除烟筒" />
+        <Tool Id="GLIDER_MANTLE"
+              String="滑空衣装" />
+        <Tool Id="EVASION_MANTLE"
+              String="回避衣装" />
+        <Tool Id="IMPACT_MANTLE"
+              String="强打衣装" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="化合衣装" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="免疫衣装" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="达人烟筒" />
+        <Tool Id="BANDIT_MANTLE"
+              String="掠夺衣装" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="刺客衣装" />
+        <Tool Id="MENDING_MANTLE"
+              String="再生衣装" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="蚀攻衣装" />
+    </SpecializedTools>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -3735,22 +3819,28 @@
                     String="埃尔迦德： " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="日" />
+            <String Id="RATIONS_STRING"
+                    String="携带食料" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="任务" />
             <String Id="MOON_FULL"
-                     String="满月" />
+                    String="满月" />
             <String Id="MOON_WANING_GIBBOUS"
-                     String="亏凸月" />
+                    String="亏凸月" />
             <String Id="MOON_THIRD_QUARTER"
-                     String="下弦月" />
+                    String="下弦月" />
             <String Id="MOON_WANING_CRESCENT"
-                     String="残月" />
+                    String="残月" />
             <String Id="MOON_WAXING_CRESCENT"
-                     String="眉月" />
+                    String="眉月" />
             <String Id="MOON_FIRST_QUARTER"
-                     String="上弦月" />
+                    String="上弦月" />
             <String Id="MOON_WAXING_GIBBOUS"
-                     String="盈凸月" />
+                    String="盈凸月" />
+            <String Id="TOOL_COOLDOWN"
+                    String="冷却中" />
+            <String Id="TOOL_TIMER"
+                    String="持续时间" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -3821,11 +3911,11 @@
             <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
                     String="你确认要退出HunterPie吗?"/>
             <Button Id="ACCEPT_STRING"
-                     String="确认"/>
+                    String="确认"/>
             <Button Id="REJECT_STRING"
-                       String="拒绝"/>
+                    String="拒绝"/>
             <Button Id="CANCEL_STRING"
-                     String="取消"/>
+                    String="取消"/>
         </Dialogs>
         <Integrations>
             <!-- MHW与MHR间共享的文本 -->
@@ -3932,7 +4022,7 @@
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="智能判断" />
             <Enum Id="PLOT_SLIDING_AVG"
-                   String="时间段平均DPS" />
+                  String="时间段平均DPS" />
             <Enum Id="PLOT_OVERALL_AVG"
                   String="综合DPS" />
         </Enums>
@@ -3949,7 +4039,7 @@
                      Description="覆盖层设置"/>
             <Setting Id="FEATURE_FLAGS_STRING"
                      String="功能标志"
-                     Description="功能标志设置" />	
+                     Description="功能标志设置" />
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="状态组件"
                      Description="状态组件设置"/>	
@@ -4114,16 +4204,19 @@
             <Setting Id="ORIENTATION_STRING"
                      String="排列方式"
                      Description="修改当前组件的排列方式。"/>
-            <Setting Id="MONSTER_WIDGET_COMPACT_MODE" 
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
                      String="启用紧凑模式" 
                      Description="开启后，怪物将以紧凑模式显示（仅显示图标、名称和王冠）。当锁定目标怪物时，HunterPie 将自动切换到默认模式。" />
-            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT" 
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
                      String="紧凑模式列数" 
                      Description="控制紧凑模式中使用多少列，如果怪物数量多于可用列数，则下一个怪物将显示在新行中。" />
             <!--怪物组件-->
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="只显示当前狩猎目标"
                      Description="开启后，HunterPie将只显示你的当前狩猎怪物。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="启用怪物目标锁定"
+                     Description="启用后，当使用首选方式锁定怪物时，HunterPie 会显示该怪物的详细信息。" />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="显示怪物耐力值"
                      Description="开启后，HunterPie在怪物的血量条下方显示怪物的耐力条。"/>
@@ -4181,6 +4274,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="显示交易船"
                      Description="开启后，HunterPie会显示交易船的数据。"/>
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="显示素材采集委托"
+                     Description="启用后，HunterPie 将显示素材采集委托的数据。" />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="显示食物配给处"
+                     Description="启用后，HunterPie 将显示食物配给处的数据。" />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="显示随从道场"
                      Description="开启后，HunterPie会显示随从道场的数据。"/>
@@ -4258,6 +4357,12 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="时间段持续时长"
                      Description="设置启用滑动窗口图表时显示的总时间（单位：秒），超过此时长的数据点将被隐藏。" />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="启用紧凑模式"
+                     Description="启用后，HunterPie 会以简洁紧凑的方式显示特殊工具的计时和冷却。" />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="仅在狩猎区域显示"
+                     Description="启用后，HunterPie 只会在狩猎区域显示特殊工具小部件。" />
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="启用月相"
                      Description="启用后，HunterPie 将显示月相组件。" />
