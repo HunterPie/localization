@@ -483,6 +483,16 @@
                      String="버섯피리: 방어의 음색" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
                      String="버섯피리: 방어의 음색 (대)" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
+                     String="해룡의 와뢰" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I"
+                     String="전투의 함성 I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II"
+                     String="전투의 함성 II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW"
+                     String="발도술 [기]" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE"
+                     String="파워스톤" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -912,6 +922,14 @@
                   String="격추" />
             <Part Id="PART_AIR_FLINCH"
                   String="공중 경직" />
+            <Part Id="PART_VEIL"
+                  String="수막" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="죽은 척하기" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="왼쪽 날갯죽지(폭식화)" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="오른쪽 날갯죽지(폭식화)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1236,10 +1254,14 @@
                      String="바바콩가" />
             <Monster Id="7"
                      String="도도블랑고" />
+            <Monster Id="8"
+                     String="라기아크루스" />
             <Monster Id="9"
                      String="네르스큐라" />
             <Monster Id="10"
                      String="고어 마가라" />
+            <Monster Id="11"
+                     String="셀레기오스" />
             <Monster Id="13"
                      String="타마미츠네" />
             <Monster Id="14"
@@ -1462,6 +1484,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="성장력 UP [대]"/>
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="라이샤" />
+                <Collector Id="MURTABAK"
+                           String="무타바" />
+                <Collector Id="APAR"
+                           String="아파르" />
+                <Collector Id="PLUMPEACH"
+                           String="복슬복숭" />
+                <Collector Id="SABAR"
+                           String="사바르" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests>
         <Rise>
             <Quest Id="101"
@@ -3652,6 +3690,52 @@
                    String="흑굉룡은 상처받지 않는다" />
         </World>
     </Quests>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="은신 복장" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="피신 복장" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="치유의 연통" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="부동 복장" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="도발 복장" />
+        <Tool Id="VITALITY_MANTLE"
+              String="체력 복장" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="내열 복장" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="내수 복장" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="내한 복장" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="내뢰 복장" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="내룡 복장" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="해제의 연통" />
+        <Tool Id="GLIDER_MANTLE"
+              String="활공 복장" />
+        <Tool Id="EVASION_MANTLE"
+              String="회피 복장" />
+        <Tool Id="IMPACT_MANTLE"
+              String="강타 복장" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="화합 복장" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="면역 복장" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="달인의 연통" />
+        <Tool Id="BANDIT_MANTLE"
+              String="강도 복장" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="어쌔신 복장" />
+        <Tool Id="MENDING_MANTLE"
+              String="재생 복장" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="식공 복장" />
+    </SpecializedTools>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -3703,6 +3787,8 @@
                     String="엘가도 둥지: " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="일" />
+            <String Id="RATIONS_STRING"
+                    String="휴대 식량" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="퀘스트" />
             <String Id="MOON_FULL"
@@ -3719,6 +3805,10 @@
                     String="상현달" />
             <String Id="MOON_WAXING_GIBBOUS"
                     String="상현망간의 달" />
+            <String Id="TOOL_COOLDOWN"
+                    String="재사용 대기 중" />
+            <String Id="TOOL_TIMER"
+                    String="지속 시간" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4142,6 +4232,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="교역선 표시"
                      Description="옵션 활성화 시, HunterPie가 교역선의 정보를 표시합니다." />
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="소재 채집 의뢰 표시"
+                     Description="옵션 활성화 시, HunterPie가 소재 채집 의뢰 정보를 표시합니다." />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="식량 배급소 표시"
+                     Description="옵션 활성화 시, HunterPie가 식량 배급소의 정보를 표시합니다." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="동반자 도장 표시"
                      Description="옵션 활성화 시, HunterPie가 동반자 도장의 정보를 표시합니다." />
@@ -4177,7 +4273,7 @@
                      Description="초당 대미지를 계산하는데 사용할 방법을 결정합니다.&#xA;- 퀘스트 기준: 퀘스트 경과 시간을 기준으로 계산&#xA;- 참여 기준: 플레이어가 파티에 참여한 시간을 기준으로 계산&#xA;- 첫 타격 기준: 몬스터를 처음으로 타격한 시간을 기준으로 계산" />
             <Setting Id="DAMAGE_METER_DAMAGE_PLOT_STRATEGY_STRING"
                      String="대미지 그래프 표시 방법"
-                     Description="그래프에 표시할 대미지를 결정합니다.&#xA;- 초당 대미지: DPS가 그래프로 표시됩니다&#xA;- 총 대미지: 총 대미지가 그래프로 표시됩니다" />
+                     Description="그래프에 표시할 대미지를 결정합니다.&#xA;- 초당 대미지: DPS가 그래프로 표시됩니다&#xA;- 총 대미지: 총 대미지가 그래프로 표시됩니다&#xA;- 평균 이동 DPS: 샘플링 비율에 따라 계산된 평균 이동 DPS" />
             <Setting Id="DAMAGE_METER_SELF_COLOR_STRING"
                      String="나의 색상"
                      Description="대미지 미터에서 당신의 플레이어의 색상입니다." />
@@ -4217,6 +4313,12 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="슬라이딩 그래프 시간"
                      Description="그래프가 표시될 시간(초)을 설정합니다, 설정된 시간보다 오래된 그래프는 지워집니다." />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="컴팩트 모드 활성화"
+                     Description="옵션 활성화 시, HunterPie가 특수 장비의 지속 시간과 재사용 대기 시간을 컴팩트한 방식으로 표시합니다." />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="사냥 구역에서만 표시"
+                     Description="옵션 활성화 시, 사냥 구역에 있을 때만 HunterPie가 특수 장비 위젯을 표시합니다." />
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="달 위상 표시"
                      Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />

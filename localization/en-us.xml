@@ -483,6 +483,16 @@
                      String="Sporenet: Song o' Purrtection" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L"
                      String="Sporenet: Song o' Purrtection (L)" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY"
+                     String="Leviathan's Fury" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I"
+                     String="War Cry I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II"
+                     String="War Cry II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW"
+                     String="Critical Draw" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE"
+                     String="Power Stone" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -914,6 +924,12 @@
                   String="Air Flinch" />
             <Part Id="PART_VEIL"
                   String="Veil" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="Feign Death" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="Left Wingarm (Exposed)" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="Right Wingarm (Exposed)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1238,10 +1254,14 @@
                      String="Congalala" />
             <Monster Id="7"
                      String="Blangonga" />
+            <Monster Id="8"
+                     String="Lagiacrus" />
             <Monster Id="9"
                      String="Nerscylla" />
             <Monster Id="10"
                      String="Gore Magala" />
+            <Monster Id="11"
+                     String="Seregios" />
             <Monster Id="13"
                      String="Mizutsune" />
             <Monster Id="14"
@@ -1464,6 +1484,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="Growth Up (L)" />
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="Rysher" />
+                <Collector Id="MURTABAK"
+                           String="Murtabak" />
+                <Collector Id="APAR"
+                           String="Apar" />
+                <Collector Id="PLUMPEACH"
+                           String="Plumpeach" />
+                <Collector Id="SABAR"
+                           String="Sabar" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Quests>
         <Rise>
             <Quest Id="101"
@@ -3654,6 +3690,52 @@
                    String="Brand New Brute" />
         </World>
     </Quests>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="Ghilie Mantle" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="Temporal Mantle" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="Health Booster" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="Rocksteady Mantle" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="Challenger Mantle" />
+        <Tool Id="VITALITY_MANTLE"
+              String="Vitality Mantle" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="Fireproof Mantle" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="Waterproof Mantle" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="Iceproof Mantle" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="Thunderproof Mantle" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="Dragonpoof Mantle" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="Cleanser Booster" />
+        <Tool Id="GLIDER_MANTLE"
+              String="Glider Mantle" />
+        <Tool Id="EVASION_MANTLE"
+              String="Evasion Mantle" />
+        <Tool Id="IMPACT_MANTLE"
+              String="Impact Mantle" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="Apothecary Mantle" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="Immunity Mantle" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="Affinity Booster" />
+        <Tool Id="BANDIT_MANTLE"
+              String="Bandit Mantle" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="Assassin's Hood" />
+        <Tool Id="MENDING_MANTLE"
+              String="Mending's Mantle" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="Corrupted Mantle" />
+    </SpecializedTools>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -3705,6 +3787,8 @@
                     String="Elgado Nest: " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="days" />
+            <String Id="RATIONS_STRING"
+                    String="rations" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="quests" />
             <String Id="MOON_FULL"
@@ -3721,6 +3805,10 @@
                     String="First Quarter" />
             <String Id="MOON_WAXING_GIBBOUS"
                     String="Waxing Gibbous" />
+            <String Id="TOOL_COOLDOWN"
+                    String="Recharging" />
+            <String Id="TOOL_TIMER"
+                    String="Duration" />
         </Overlay>
         <Tabs>
             <Tab Id="HOME_STRING"
@@ -4144,6 +4232,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="Show Argosy"
                      Description="If enabled, HunterPie will show Argosy's data." />
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="Show Material Retrieval"
+                     Description="If enabled, HunterPie will show Material Retrieval's data." />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="Show Ingredients Center"
+                     Description="If enabled, HunterPie will show Ingredients Center's data." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="Show Training Dojo"
                      Description="If enabled, HunterPie will show Training Dojo's data." />
@@ -4219,6 +4313,12 @@
             <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
                      String="Sliding window size"
                      Description="Configure the total time in seconds the graph should display when Sliding window plot is enabled.  Points older than the configured amount of time will be hidden." />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="Enable compact mode"
+                     Description="If enabled, HunterPie will display the specialized tool timer and cooldown in a minimal and compact way." />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="Show only in Hunting Zones"
+                     Description="If enabled, HunterPie will display the specialized tool widget only in hunting zones." />
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="Enable Moon phases"
                      Description="If enabled, HunterPie will display the moon phases component." />
