@@ -489,6 +489,10 @@
                      String="전투의 함성 I" />
         <Abnormality Id="ABNORMALITY_WAR_CRY_II"
                      String="전투의 함성 II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW"
+                     String="발도술 [기]" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE"
+                     String="파워스톤" />
     </Abnormalities>
     <Monsters>
         <Variants>
