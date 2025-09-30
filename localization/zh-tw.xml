@@ -245,6 +245,11 @@
         <Abnormality Id="ABNORMALITY_SPORENET_POWER_L" String="蘑菇笛——力量之音 (大)" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION" String="蘑菇笛——守護之音" />
         <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L" String="蘑菇笛——守護之音 (大)" />
+		<Abnormality Id="ABNORMALITY_LEVIATHANS_FURY" String="海龍的渦雷" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I" String="戰嚎 I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II" String="戰嚎 II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW" String="拔刀術【技】" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE" String="力量之石" />
 	</Abnormalities>
     <Monsters>
 	    <Variants>
@@ -658,6 +663,7 @@
             <Monster Id="31" String="暗器鱆" />
             <Monster Id="32" String="白熾龍" />
             <Monster Id="33" String="貓式訓練用拳擊木桶靶" />
+		    <Monster Id="34" String="遊星歐米茄" />
         </Wilds>
     </Monsters> 
 	<Stages>
@@ -3695,6 +3701,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
