@@ -1304,6 +1304,8 @@
                      String="조 시아" />
             <Monster Id="33"
                      String="고양이 훈련 통 펀처" />
+            <Monster Id="34"
+                     String="오메가 플라네테스" />
         </Wilds>
     </Monsters>
     <Stages>
