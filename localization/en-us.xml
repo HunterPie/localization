@@ -1304,6 +1304,8 @@
                      String="Zoh Shia" />
             <Monster Id="33"
                      String="High Purrformance Barrel Puncher" />
+            <Monster Id="34"
+                     String="Omega" />
         </Wilds>
     </Monsters>
     <Stages>
