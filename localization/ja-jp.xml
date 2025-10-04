@@ -1146,10 +1146,14 @@
                      String="ババコンガ" />
             <Monster Id="7"
                      String="ドドブランゴ" />
+            <Monster Id="8"
+                     String="ラギアクルス"/>
             <Monster Id="9"
                      String="ネルスキュラ" />
             <Monster Id="10"
                      String="ゴア・マガラ" />
+            <Monster Id="11"
+                     String="セルレギオス"/>
             <Monster Id="13"
                      String="タマミツネ" />
             <Monster Id="14"
@@ -1192,6 +1196,8 @@
                      String="ゾ・シア" />
             <Monster Id="33"
                      String="ネコ式訓練タルパンチャー" />
+            <Monster Id="34"
+                     String="オメガ・プラネテス"/>
         </Wilds>
     </Monsters>
     <Stages>

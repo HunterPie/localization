@@ -493,6 +493,10 @@
                      String="Critical Draw" />
         <Abnormality Id="ABNORMALITY_POWER_STONE"
                      String="Power Stone" />
+        <Abnormality Id="ABNORMALITY_DARKSIDE"
+                     String="Darkside" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE"
+                     String="Guardian's Pulse" />
     </Abnormalities>
     <Monsters>
         <Variants>
