@@ -1322,7 +1322,9 @@
             <Monster Id="32"
                      String="白炽龙" />
             <Monster Id="33"
-                     String="猫式训练用拳击木桶靶" />
+                     String="猫式训练用拳击木桶靶" />            
+            <Monster Id="34"
+                     String="游星欧米茄" />
         </Wilds>
     </Monsters>
     <Stages>
