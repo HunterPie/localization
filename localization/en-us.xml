@@ -3877,6 +3877,8 @@
                      String="Refresh" />
             <Generic Id="INSTALL_STRING"
                      String="Install" />
+            <Generic Id="NO_THEMES_FOUND_STRING"
+                     String="You have no themes installed. &#xA;Install a new one or create your own!" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -4337,7 +4339,7 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="Enable Moon phases"
                      Description="If enabled, HunterPie will display the moon phases component." />
-              <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+            <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="Developer: Enable overlay manager debugging"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
