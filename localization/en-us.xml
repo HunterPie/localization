@@ -3831,6 +3831,8 @@
                  String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
+            <Tab Id="THEMES_STRING"
+                 String="Themes" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3867,6 +3869,10 @@
                      String="Create monster rules" />
             <Generic Id="GO_TO_STRING"
                      String="Go to" />
+            <Generic Id="REFRESH_STRING"
+                     String="Refresh" />
+            <Generic Id="INSTALL_STRING"
+                     String="Install" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -4117,6 +4123,9 @@
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Rendering Strategy"
                      Description="HunterPie's default rendering strategy. Software will use your CPU to render the overlay, Hardware will use your Graphics Card." />
+            <Setting Id="ENABLE_RENDERING_FPS_LIMIT"
+                     String="Enable rendering framerate limit"
+                     Description="If enabled, HunterPie will limit the rendering framerate to the configured limit." />
             <Setting Id="POLLING_RATE_STRING"
                      String="Memory scan delay (milliseconds)"
                      Description="The delay for HunterPie's scanner, setting this to a low number will make HunterPie extremely smooth, however, will use more CPU." />
@@ -4324,6 +4333,9 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="Enable Moon phases"
                      Description="If enabled, HunterPie will display the moon phases component." />
+              <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="Developer: Enable overlay manager debugging"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
