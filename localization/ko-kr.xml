@@ -493,6 +493,10 @@
                      String="발도술 [기]" />
         <Abnormality Id="ABNORMALITY_POWER_STONE"
                      String="파워스톤" />
+        <Abnormality Id="ABNORMALITY_DARKSIDE"
+                     String="암흑" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE"
+                     String="수호룡의 맥동" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -3831,6 +3835,8 @@
                  String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
+            <Tab Id="THEMES_STRING"
+                 String="테마" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3867,6 +3873,12 @@
                      String="몬스터 규칙 만들기" />
             <Generic Id="GO_TO_STRING"
                      String="이동하기" />
+            <Generic Id="REFRESH_STRING"
+                     String="새로고침" />
+            <Generic Id="INSTALL_STRING"
+                     String="설치" />
+            <Generic Id="NO_THEMES_FOUND_STRING"
+                     String="설치된 테마가 없습니다. &#xA;새로운 테마를 설치하거나 자신만의 테마를 만들어 보세요!" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -4117,6 +4129,9 @@
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="렌더링 방식"
                      Description="HunterPie의 렌더링 방식입니다. Software 렌더링은 CPU를 사용하고, Hardware 렌더링은 그래픽 카드를 사용합니다." />
+            <Setting Id="ENABLE_RENDERING_FPS_LIMIT"
+                     String="렌더링 프레임율 제한 활성화"
+                     Description="옵션 활성화 시, HunterPie가 렌더링 프레임율을 설정된 제한 값으로 제한합니다." />
             <Setting Id="POLLING_RATE_STRING"
                      String="메모리 스캔 딜레이 (밀리초)"
                      Description="HunterPie 스캐너의 딜레이 설정입니다, 낮게 설정할수록 부드럽게 작동하지만, 그만큼 CPU 자원을 많이 사용합니다." />
@@ -4324,6 +4339,9 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="달 위상 표시"
                      Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />
+            <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="개발자: 오버레이 관리자 디버깅 활성화"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="개발자: 모의 몬스터 위젯"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
