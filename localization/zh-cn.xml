@@ -506,6 +506,10 @@
                      String="拔刀术【技】" />
         <Abnormality Id="ABNORMALITY_POWER_STONE"
                      String="能量石" />
+        <Abnormality Id="ABNORMALITY_DARKSIDE"
+                     String="暗黑" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE"
+                     String="护龙之脉动" />
     </Abnormalities>
     <Monsters>
         <Variants>
@@ -3863,6 +3867,8 @@
                  String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
+            <Tab Id="THEMES_STRING"
+                 String="主题" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3899,6 +3905,12 @@
                      String="创建怪物规则" />
             <Generic Id="GO_TO_STRING"
                      String="前往" />
+            <Generic Id="REFRESH_STRING"
+                     String="刷新" />
+            <Generic Id="INSTALL_STRING"
+                     String="安装" />
+            <Generic Id="NO_THEMES_FOUND_STRING"
+                     String="当前没有安装任何主题。&#xA;你可以安装新主题或自己创建一个！" />
         </Generics>
         <Dialogs>
             <!-- 不要编辑 {} 内的内容 -->
@@ -4152,6 +4164,9 @@
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="渲染模式"
                      Description="HunterPie的默认渲染模式。Software会使用你的CPU来渲染嵌入界面，Hardware则会使用你的显卡。"/>
+            <Setting Id="ENABLE_RENDERING_FPS_LIMIT"
+                     String="启用渲染帧率限制"
+                     Description="启用后，HunterPie 将把渲染帧率限制在已配置的最大值。" />
             <Setting Id="POLLING_RATE_STRING"
                      String="内存扫描延迟 (毫秒)"
                      Description="HunterPie内存扫描的延迟，把这个数字设置得很低会使HunterPie非常流畅，但是会消耗更多的CPU。"/>
@@ -4369,6 +4384,9 @@
                      String="启用月相"
                      Description="启用后，HunterPie 将显示月相组件。" />
             <!--开发者组件-->
+            <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="开发者：启用覆盖层管理器调试"
+                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="开发者选项：模拟怪物小部件"
                      Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
