@@ -250,6 +250,8 @@
         <Abnormality Id="ABNORMALITY_WAR_CRY_II" String="戰嚎 II" />
         <Abnormality Id="ABNORMALITY_CRITICAL_DRAW" String="拔刀術【技】" />
         <Abnormality Id="ABNORMALITY_POWER_STONE" String="力量之石" />
+		<Abnormality Id="ABNORMALITY_DARKSIDE" String="暗黑" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE" String="護龍的脈動" />
 	</Abnormalities>
     <Monsters>
 	    <Variants>
@@ -3052,7 +3054,9 @@
             <Tab Id="PATREON_STRING"
                  String="Patreon"/>
 	    	<Tab Id="GITHUB_STRING"
-                 String="Github" />	 
+                 String="Github" />
+			<Tab Id="THEMES_STRING"
+                 String="主題" />
         </Tabs>
         <Generics> <!-- Needs to translate -->
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3088,7 +3092,13 @@
             <Generic Id="MONSTER_OVERRIDE_STRING"
                      String="創建魔物規則" />
             <Generic Id="GO_TO_STRING"
-                     String="前往" />	 
+                     String="前往" />
+            <Generic Id="REFRESH_STRING"
+                     String="更新" />
+            <Generic Id="INSTALL_STRING"
+                     String="安裝" />
+            <Generic Id="NO_THEMES_FOUND_STRING"
+                     String="目前沒有安裝任何主題。&#xA;你可以安裝新主題或自己創建一個！" />
         </Generics>
 	<Dialogs>
             <!-- Do not edit the text inside {} -->
@@ -3320,6 +3330,9 @@
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="繪製方式"
                      Description="HunterPie 的預設繪製。軟體繪製將使用您的CPU來繪製覆蓋層，硬體繪製將使用您的顯示卡來繪製覆蓋層。"/>
+            <Setting Id="ENABLE_RENDERING_FPS_LIMIT"
+                     String="啟用渲染幀率限制"
+                     Description="如果啟用，HunterPie 會將渲染的幀率限制在你設定的上限值內。" />
             <Setting Id="POLLING_RATE_STRING"
                      String="記憶體掃描延遲（毫秒）"
                      Description="HunterPie 的掃描延遲，設定較低的數字會使 HunterPie 更加平滑，但是會占用更多的CPU資源。"/>
@@ -3527,6 +3540,9 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                       String="顯示月相"
                       Description="如果啟用，HunterPie將顯示月相的資訊。" />
+              <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="開發者：啟用覆蓋層管理器除錯功能"
+                     Description="若您不確定其用途，請勿啟用。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開發人員：模擬魔物功能"/>
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
@@ -3701,6 +3717,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
