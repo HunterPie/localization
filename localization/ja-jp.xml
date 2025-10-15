@@ -495,7 +495,7 @@
                      String="抜刀術【技】" />
         <Abnormality Id="ABNORMALITY_POWER_STONE"
                      String="パワーストーン" />
-        <Abnormality Id="ABNORMALITY_DAKSIDE"
+        <Abnormality Id="ABNORMALITY_DARKSIDE"
                      String="暗黒" />
         <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE"
                      String="護竜の脈動" />
@@ -631,15 +631,19 @@
             <Part Id="PART_R_FORELEG"
                   String="右前脚" />
             <Part Id="PART_L_H_LEG"
-                  String="左後脚" />
+                  String="左後足" />
             <Part Id="PART_R_H_LEG"
+                  String="右後足" />
+            <Part Id="PART_L_H_FORELEG"
+                  String="左後脚" />
+            <Part Id="PART_R_H_FORELEG"
                   String="右後脚" />
             <Part Id="PART_ABDOMEN"
                   String="腹部" />
             <Part Id="PART_CHEST"
                   String="胸" />
             <Part Id="PART_TAIL_TIP"
-                  String="尻尾先" />
+                  String="尻尾先端" />
             <Part Id="PART_MUD_BALL"
                   String="泥団子" />
             <Part Id="PART_LOWER_TORSO"
@@ -878,6 +882,64 @@
                   String="左翼腕（白纏晶）" />
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                   String="右翼腕（白纏晶）" />
+            <Part Id="PART_SUPERHEAT"
+                  String="超高熱状態" />
+            <Part Id="PART_CEILING_FALL"
+                  String="天井落下" />
+            <Part Id="PART_SACK_COLLAPSE"
+                  String="ガス袋収縮" />
+            <Part Id="PART_HEAD_SACK"
+                  String="頭部（ガス袋）" />
+            <Part Id="PART_BACK_SACK"
+                  String="背中（ガス袋）" />
+            <Part Id="PART_TAIL_SACK"
+                  String="尻尾（ガス袋）" />
+            <Part Id="PART_FIRE_STATE"
+                  String="火焔状態" />
+            <Part Id="PART_L_F_ARM_FIRE"
+                  String="左第1腕 (火)" />
+            <Part Id="PART_R_F_ARM_FIRE"
+                  String="右第1腕 (火)" />
+            <Part Id="PART_M_L_ARM_FIRE"
+                  String="左第2腕 (火)" />
+            <Part Id="PART_M_R_ARM_FIRE"
+                  String="右第2腕 (火)" />
+            <Part Id="PART_REAR_L_ARM_FIRE"
+                  String="左第3腕 (火)" />
+            <Part Id="PART_REAR_R_ARM_FIRE"
+                  String="右第3腕 (火)" />
+            <Part Id="PART_L_F_ARM_OIL"
+                  String="左第1腕 (油)" />
+            <Part Id="PART_R_F_ARM_OIL"
+                  String="右第1腕 (油)" />
+            <Part Id="PART_M_L_ARM_OIL"
+                  String="左第2腕 (油)" />
+            <Part Id="PART_M_R_ARM_OIL"
+                  String="右第2腕 (油)" />
+            <Part Id="PART_REAR_L_ARM_OIL"
+                  String="左第3腕 (油)" />
+            <Part Id="PART_REAR_R_ARM_OIL"
+                  String="右第3腕 (油)" />
+            <Part Id="PART_L_FORELEG_REINFORCED"
+                  String="左前脚 (強化)" />
+            <Part Id="PART_R_FORELEG_REINFORCED"
+                  String="右前脚 (強化)" />
+            <Part Id="PART_CRASH"
+                  String="撃墜" />
+            <Part Id="PART_AIR_FLINCH"
+                  String="空中怯み" />
+            <Part Id="PART_VEIL"
+                  String="水膜" />
+            <Part Id="PART_FEIGN_DEATH"
+                  String="死んだふり" />
+            <Part Id="PART_L_WINGARM_EXPOSED"
+                  String="左翼腕（露出）" />
+            <Part Id="PART_R_WINGARM_EXPOSED"
+                  String="右翼腕（露出）" />
+            <Part Id="PART_FRENZY_THRESHOLD"
+                  String="狂竜化" />
+            <part Id="PART_FLINCH"
+                  String="怯み" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1432,6 +1494,22 @@
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
                     String="成長力ＵＰ【大】" />
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="ライシャ" />
+                <Collector Id="MURTABAK"
+                           String="ムタバ" />
+                <Collector Id="APAR"
+                           String="アパル" />
+                <Collector Id="PLUMPEACH"
+                           String="モモムックリ" />
+                <Collector Id="SABAR"
+                           String="サバル" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
     <Client>
         <Main>
             <!-- Hunt Export -->
@@ -1481,6 +1559,8 @@
                     String="フクズクの巣【エルガド】: " />
             <String Id="ARGOSY_DAYS_STRING"
                     String="日数" />
+            <String Id="RATIONS_STRING"
+                    String="携帯食料" />
             <String Id="TAILRAIDERS_QUEST_STRING"
                     String="クエスト" />
             <String Id="MOON_FULL"
@@ -1685,6 +1765,10 @@
                   String="クエスト目標" />
             <Enum Id="TARGET_MODE_INFER_STRING"
                   String="推測" />
+            <Enum Id="PLOT_SLIDING_AVG"
+                  String="移動平均DPS" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                  String="総合DPS" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -1870,6 +1954,9 @@
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="ターゲットのみ表示"
                      Description="有効な場合、ターゲットカメラで指定したモンスターのみ表示します。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="モンスターターゲティングを有効化"
+                     Description="有効な場合、HunterPieはモンスターがターゲットされた際に詳細情報を表示します。" />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="スタミナを有効化"
                      Description="有効な場合、体力ゲージの下にモンスターのスタミナゲージを表示します。" />
@@ -1886,7 +1973,7 @@
                      String="部位を有効化"
                      Description="有効な場合、部位毎の怯み値が表示されます。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
-                     String="部位を自動表示"
+                     String="部位を自動非表示"
                      Description="有効な場合、指定時間以内に攻撃されていない部位は自動的に非表示になります。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_DELAY_STRING"
                      String="部位を非表示にするまでの時間"
@@ -1924,6 +2011,12 @@
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="交易船を表示"
                      Description="有効な場合、HunterPieは交易船の情報を表示します。" />
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="素材採集依頼を表示"
+                     Description="有効な場合、HunterPieは素材採集依頼の情報を表示します。" />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="食料配給所を表示"
+                     Description="有効な場合、HunterPieは食料配給所の情報を表示します。" />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="オトモ道場を表示"
                      Description="有効な場合、HunterPieはオトモ道場の情報を表示します。" />
