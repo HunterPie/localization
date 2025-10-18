@@ -4279,6 +4279,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="Display DPS plot"
                      Description="If enabled, the DPS plot graph will be visible." />
+            <Setting Id="DAMAGE_METER_SHOW_ONLY_SELF_STRING"
+                     String="Hide other players"
+                     Description="If enabled, only you will be shown in the meter, every other party member and NPC will be hidden." />
             <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
                      String="Plot line smoothness"
                      Description="Controls how the smoothness of the plotting lines." />
