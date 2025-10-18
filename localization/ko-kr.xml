@@ -3998,7 +3998,7 @@
             <Enum Id="TARGET_MODE_LOCK_ON_STRING"
                   String="록온" />
             <Enum Id="TARGET_MODE_MAP_PIN_STRING"
-                  String="지도 지정" />
+                  String="지도 목적지" />
             <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
                   String="퀘스트 목표" />
             <Enum Id="TARGET_MODE_INFER_STRING"
@@ -4279,6 +4279,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="대미지 그래프 표시"
                      Description="옵션 활성화 시, 대미지 그래프가 표시됩니다." />
+            <Setting Id="DAMAGE_METER_SHOW_ONLY_SELF_STRING"
+                     String="다른 플레이어 숨기기"
+                     Description="옵션 활성화 시, 미터기에 다른 파티원들과 NPC를 숨기고 자신만 표시합니다." />
             <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
                      String="그래프 선 매끄러움"
                      Description="그래프 선의 매끄러움을 설정합니다." />
