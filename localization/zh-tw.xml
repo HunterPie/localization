@@ -46,7 +46,12 @@
         <Abnormality Id="ABNORMALITY_TOOL_USE_RED" String="特殊裝備消耗減少【短】"/> <!-- Needs to translate -->
         <Abnormality Id="ABNORMALITY_TOOL_USE_RED_L" String="特殊裝備消耗減少【長】"/> <!-- Needs to translate -->
         <Abnormality Id="ABNORMALITY_HEALTH_REC" String="體力回復【小】"/>
+		<Abnormality Id="ABNORMALITY_HEALTH_REC_M" String="體力回復【中】" />
         <Abnormality Id="ABNORMALITY_HEALTH_REC_L" String="體力回復【大】"/>
+		<Abnormality Id="ABNORMALITY_HEALTH_REC_S_ANTIDOTE" String="體力回復【小】 + 解毒" />
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_L_ANTIDOTE" String="體力回復【大】 + 解毒" />
+        <Abnormality Id="ABNORMALITY_RECOVERY_SPEED" String="體力回復加速【小】" />
+        <Abnormality Id="ABNORMALITY_RECOVERY_SPEED_L" String="體力回復加速【大】" />
         <Abnormality Id="ABNORMALITY_AFFINITY_UP" String="會心率UP"/>
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP" String="屬性攻擊力UP"/>
         <Abnormality Id="ABNORMALITY_ATTACK_DEF_UP" String="攻擊力、防禦力UP"/>
@@ -3480,6 +3485,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT" 
                      String="顯示DPS圖表" 
                      Description="如果啟用，將顯示DPS變化圖表。"/>
+            <Setting Id="DAMAGE_METER_SHOW_ONLY_SELF_STRING"
+                     String="隐藏其他成員"
+                     Description="如果啟用,將只顯示自己，其他隊伍成員和 NPC 都會被隱藏。" />
             <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING" 
                      String="圖表線條平滑度" 
                      Description="控制圖表線條的平滑程度。"/>
@@ -3717,6 +3725,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
