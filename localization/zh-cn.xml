@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.13.1.254-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.13.1.772-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -95,8 +95,18 @@
                      String="特殊装备消耗减少【长】" />
         <Abnormality Id="ABNORMALITY_HEALTH_REC"
                      String="体力回复【小】" />
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_M"
+                     String="体力回复【中】" />
         <Abnormality Id="ABNORMALITY_HEALTH_REC_L"
                      String="体力回复【大】" />
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_S_ANTIDOTE"
+                     String="体力回复【小】＆解毒" />
+        <Abnormality Id="ABNORMALITY_HEALTH_REC_L_ANTIDOTE"
+                     String="体力回复【中】＆解毒" />
+        <Abnormality Id="ABNORMALITY_RECOVERY_SPEED"
+                     String="体力回复加速【小】" />
+        <Abnormality Id="ABNORMALITY_RECOVERY_SPEED_L"
+                     String="体力回复加速【大】" />
         <Abnormality Id="ABNORMALITY_AFFINITY_UP"
                      String="会心率提升" />
         <Abnormality Id="ABNORMALITY_ELEMENTAL_ATTACK_UP"
@@ -4322,6 +4332,9 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="显示DPS图表"
                      Description="开启后，将显示DPS图表。"/>
+            <Setting Id="DAMAGE_METER_SHOW_ONLY_SELF_STRING"
+                     String="隐藏其他玩家"
+                     Description="开启后，伤害统计中只会显示你自己，其他玩家和NPC都会被隐藏。" />
             <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
                      String="折线平滑度"
                      Description="控制折线的平滑程度。" />
