@@ -5,6 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>XML Translation Checker</title>
     <style>
+      html {
+        --color-font: white;
+        --color-background-page: #191c1e;
+        --color-background-content: #1d2022;
+        --color-background-highlight: #212426;
+        --color-interactive: #667eea;
+      }
+
       * {
         margin: 0;
         padding: 0;
@@ -13,23 +21,22 @@
 
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: var(--color-background-page);
         min-height: 100vh;
-        padding: 20px;
+        color: var(--color-font);
       }
 
       .container {
         max-width: 1400px;
-        margin: 0 auto;
-        background: white;
-        border-radius: 16px;
+        border-radius: 5px;
+        margin: 3rem auto;
+        background: var(--color-background-content);
         box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
         overflow: hidden;
       }
 
       .header {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
+        background: var(--color-background-content);
         padding: 30px;
         text-align: center;
       }
@@ -55,7 +62,6 @@
       .step-title {
         font-size: 1.3em;
         font-weight: 600;
-        color: #667eea;
         margin-bottom: 15px;
         display: flex;
         align-items: center;
@@ -63,8 +69,6 @@
       }
 
       .step-number {
-        background: #667eea;
-        color: white;
         width: 32px;
         height: 32px;
         border-radius: 50%;
@@ -99,22 +103,13 @@
       }
 
       .btn-primary {
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        background: var(--color-interactive);
         color: white;
       }
 
       .btn-primary:hover:not(:disabled) {
         transform: translateY(-2px);
         box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
-      }
-
-      .btn-secondary {
-        background: #f0f0f0;
-        color: #333;
-      }
-
-      .btn-secondary:hover:not(:disabled) {
-        background: #e0e0e0;
       }
 
       .file-selector {
@@ -129,7 +124,8 @@
         font-size: 1em;
         border: 2px solid #e0e0e0;
         border-radius: 8px;
-        background: white;
+        background: var(--color-background-highlight);
+        color: var(--color-font);
         cursor: pointer;
         min-width: 200px;
       }
@@ -140,6 +136,7 @@
       }
 
       .status {
+        background: var(--color-background-highlight);
         padding: 15px;
         border-radius: 8px;
         margin-top: 15px;
@@ -147,19 +144,16 @@
       }
 
       .status.info {
-        background: #e3f2fd;
         color: #1976d2;
         border-left: 4px solid #1976d2;
       }
 
       .status.success {
-        background: #e8f5e9;
         color: #388e3c;
         border-left: 4px solid #388e3c;
       }
 
       .status.error {
-        background: #ffebee;
         color: #c62828;
         border-left: 4px solid #c62828;
       }
@@ -172,11 +166,10 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-bottom: 20px;
-        padding: 20px;
-        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-        color: white;
-        border-radius: 8px;
+        margin-bottom: 1.5rem;
+        padding: 1.5rem;
+        background: var(--color-background-highlight);
+        border-radius: 5px;
       }
 
       .results-header h2 {
@@ -185,7 +178,7 @@
 
       .stats {
         display: flex;
-        gap: 20px;
+        gap: 3rem;
       }
 
       .stat-item {
@@ -203,15 +196,16 @@
       }
 
       .missing-keys {
-        background: #fafafa;
+        background: var(--color-background-highlight);
         border-radius: 8px;
-        padding: 20px;
       }
 
       .key-item {
-        background: white;
-        border-left: 4px solid #667eea;
-        padding: 15px;
+        display: flex;
+        gap: 8px;
+        align-items: center;
+        border-left: 4px solid var(--color-interactive);
+        padding: 4px 15px;
         margin-bottom: 15px;
         border-radius: 4px;
         box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
@@ -219,31 +213,23 @@
 
       .key-path {
         font-family: "Courier New", monospace;
-        color: #667eea;
+        color: var(--color-interactive);
         font-weight: bold;
-        margin-bottom: 8px;
         font-size: 0.95em;
       }
 
       .key-value {
-        color: #666;
         font-style: italic;
-        padding: 8px;
-        background: #f5f5f5;
-        border-radius: 4px;
-        margin-top: 8px;
       }
 
       .key-value-label {
         font-weight: 600;
-        color: #333;
         margin-right: 5px;
       }
 
       .no-results {
         text-align: center;
         padding: 60px 20px;
-        color: #999;
       }
 
       .no-results svg {
@@ -275,12 +261,16 @@
     </style>
   </head>
   <body>
-    <div class="container">
-      <div class="header">
-        <h1>🔍 XML Translation Key Checker</h1>
-        <p>Find missing keys in your translation files</p>
-      </div>
+    <div class="header">
+      <h1>HunterPie localization helper</h1>
+      <p>Find missing keys in your translation files</p>
+      <p>
+        Only works for Chrome or Edge browsers, because of limited support for
+        <a href="https://caniuse.com/native-filesystem-api">File System API</a>
+      </p>
+    </div>
 
+    <div class="container">
       <div class="content">
         <!-- Step 1: Select folder -->
         <div class="step">
@@ -290,10 +280,13 @@
           </div>
           <div class="button-group">
             <button class="btn-primary" id="selectFolderBtn">
-              📁 Select folder
+              Select folder
             </button>
           </div>
-          <div id="folderStatus" class="hidden"></div>
+          <div id="folderStatus" class="status info">
+            Select the folder where your localization files (ex: en-us.xml) are,
+            typically <code>HunterPie/localization/localization</code>.
+          </div>
         </div>
 
         <!-- Step 2: Select file to compare -->
@@ -307,10 +300,7 @@
               <option value="">Select a file...</option>
             </select>
             <button class="btn-primary" id="compareBtn" disabled>
-              🔍 Compare
-            </button>
-            <button class="btn-secondary" id="refreshBtn" disabled>
-              🔄 Refresh
+              Compare
             </button>
           </div>
         </div>
@@ -340,7 +330,6 @@
       const folderStatus = document.getElementById("folderStatus");
       const fileSelect = document.getElementById("fileSelect");
       const compareBtn = document.getElementById("compareBtn");
-      const refreshBtn = document.getElementById("refreshBtn");
       const resultsContainer = document.getElementById("resultsContainer");
       const missingCount = document.getElementById("missingCount");
       const missingKeysList = document.getElementById("missingKeysList");
@@ -348,18 +337,20 @@
       // Step 1: Select folder
       selectFolderBtn.addEventListener("click", async () => {
         try {
-          directoryHandle = await window.showDirectoryPicker();
+          directoryHandle = await window.showDirectoryPicker({
+            id: "hunterpie_localization_helper",
+            mode: "read",
+          });
           await loadFiles();
           showStatus(
             folderStatus,
             "success",
-            `✅ Folder "${directoryHandle.name}" loaded successfully`
+            `Folder "${directoryHandle.name}" loaded successfully`
           );
           fileSelect.disabled = false;
-          refreshBtn.disabled = false;
         } catch (err) {
           if (err.name !== "AbortError") {
-            showStatus(folderStatus, "error", "❌ Error selecting folder");
+            showStatus(folderStatus, "error", "Error selecting folder");
             console.error(err);
           }
         }
@@ -400,25 +391,14 @@
             showStatus(
               folderStatus,
               "success",
-              `✅ ${availableFiles.length} XML files found (reference: en-us.xml loaded)`
+              `${availableFiles.length} XML files found (reference: en-us.xml loaded)`
             );
           }
         } catch (err) {
-          showStatus(folderStatus, "error", "❌ Error reading files");
+          showStatus(folderStatus, "error", "Error reading files");
           console.error(err);
         }
       }
-
-      // Refresh files
-      refreshBtn.addEventListener("click", async () => {
-        refreshBtn.disabled = true;
-        refreshBtn.innerHTML = '<span class="loading"></span> Refreshing...';
-
-        await loadFiles();
-
-        refreshBtn.disabled = false;
-        refreshBtn.innerHTML = "🔄 Refresh";
-      });
 
       // Enable Compare button when file is selected
       fileSelect.addEventListener("change", () => {
@@ -444,11 +424,11 @@
           const missingKeys = findMissingKeys(referenceData, targetData);
           displayResults(missingKeys, selectedFile);
         } catch (err) {
-          showStatus(folderStatus, "error", "❌ Error during comparison");
+          showStatus(folderStatus, "error", "Error during comparison");
           console.error(err);
         } finally {
           compareBtn.disabled = false;
-          compareBtn.innerHTML = "🔍 Compare";
+          compareBtn.innerHTML = "Compare / Refresh";
         }
       });
 
@@ -458,23 +438,23 @@
         const doc = parser.parseFromString(xmlString, "text/xml");
         const keys = new Map();
 
+        const ROOT_NODE_NAME = "Strings";
+
         function traverse(node, path = []) {
           if (node.nodeType === Node.ELEMENT_NODE) {
             const id = node.getAttribute("Id");
 
             if (id) {
-              const fullPath = [...path, `${node.nodeName}[Id="${id}"]`].join(
-                " > "
-              );
+              const fullPath = [...path, id]
+                .filter((ancestor) => ancestor !== ROOT_NODE_NAME)
+                .join(" > ");
               const stringValue = node.getAttribute("String") || "";
               keys.set(fullPath, stringValue);
             }
 
             // Traverse children
             for (const child of node.children) {
-              const newPath = id
-                ? [...path, `${node.nodeName}[Id="${id}"]`]
-                : path;
+              const newPath = [...path, node.nodeName];
               traverse(child, newPath);
             }
           }
@@ -527,11 +507,6 @@
             )
             .join("");
         }
-
-        resultsContainer.scrollIntoView({
-          behavior: "smooth",
-          block: "nearest",
-        });
       }
 
       // Show status message
