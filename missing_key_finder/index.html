@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XML Translation Checker</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        min-height: 100vh;
+        padding: 20px;
+      }
+
+      .container {
+        max-width: 1400px;
+        margin: 0 auto;
+        background: white;
+        border-radius: 16px;
+        box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+      }
+
+      .header {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        padding: 30px;
+        text-align: center;
+      }
+
+      .header h1 {
+        font-size: 2em;
+        margin-bottom: 10px;
+      }
+
+      .header p {
+        opacity: 0.9;
+        font-size: 1.1em;
+      }
+
+      .content {
+        padding: 30px;
+      }
+
+      .step {
+        margin-bottom: 30px;
+      }
+
+      .step-title {
+        font-size: 1.3em;
+        font-weight: 600;
+        color: #667eea;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+      }
+
+      .step-number {
+        background: #667eea;
+        color: white;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+      }
+
+      .button-group {
+        display: flex;
+        gap: 15px;
+        flex-wrap: wrap;
+      }
+
+      button {
+        padding: 12px 24px;
+        font-size: 1em;
+        font-weight: 600;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+
+      button:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
+      .btn-primary {
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+      }
+
+      .btn-primary:hover:not(:disabled) {
+        transform: translateY(-2px);
+        box-shadow: 0 8px 20px rgba(102, 126, 234, 0.4);
+      }
+
+      .btn-secondary {
+        background: #f0f0f0;
+        color: #333;
+      }
+
+      .btn-secondary:hover:not(:disabled) {
+        background: #e0e0e0;
+      }
+
+      .file-selector {
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+
+      select {
+        padding: 12px;
+        font-size: 1em;
+        border: 2px solid #e0e0e0;
+        border-radius: 8px;
+        background: white;
+        cursor: pointer;
+        min-width: 200px;
+      }
+
+      select:focus {
+        outline: none;
+        border-color: #667eea;
+      }
+
+      .status {
+        padding: 15px;
+        border-radius: 8px;
+        margin-top: 15px;
+        font-weight: 500;
+      }
+
+      .status.info {
+        background: #e3f2fd;
+        color: #1976d2;
+        border-left: 4px solid #1976d2;
+      }
+
+      .status.success {
+        background: #e8f5e9;
+        color: #388e3c;
+        border-left: 4px solid #388e3c;
+      }
+
+      .status.error {
+        background: #ffebee;
+        color: #c62828;
+        border-left: 4px solid #c62828;
+      }
+
+      .results {
+        margin-top: 30px;
+      }
+
+      .results-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        padding: 20px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 8px;
+      }
+
+      .results-header h2 {
+        font-size: 1.5em;
+      }
+
+      .stats {
+        display: flex;
+        gap: 20px;
+      }
+
+      .stat-item {
+        text-align: center;
+      }
+
+      .stat-number {
+        font-size: 2em;
+        font-weight: bold;
+      }
+
+      .stat-label {
+        font-size: 0.9em;
+        opacity: 0.9;
+      }
+
+      .missing-keys {
+        background: #fafafa;
+        border-radius: 8px;
+        padding: 20px;
+      }
+
+      .key-item {
+        background: white;
+        border-left: 4px solid #667eea;
+        padding: 15px;
+        margin-bottom: 15px;
+        border-radius: 4px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+      }
+
+      .key-path {
+        font-family: "Courier New", monospace;
+        color: #667eea;
+        font-weight: bold;
+        margin-bottom: 8px;
+        font-size: 0.95em;
+      }
+
+      .key-value {
+        color: #666;
+        font-style: italic;
+        padding: 8px;
+        background: #f5f5f5;
+        border-radius: 4px;
+        margin-top: 8px;
+      }
+
+      .key-value-label {
+        font-weight: 600;
+        color: #333;
+        margin-right: 5px;
+      }
+
+      .no-results {
+        text-align: center;
+        padding: 60px 20px;
+        color: #999;
+      }
+
+      .no-results svg {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+        opacity: 0.5;
+      }
+
+      .hidden {
+        display: none;
+      }
+
+      .loading {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 3px solid rgba(255, 255, 255, 0.3);
+        border-radius: 50%;
+        border-top-color: white;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>🔍 XML Translation Key Checker</h1>
+        <p>Find missing keys in your translation files</p>
+      </div>
+
+      <div class="content">
+        <!-- Step 1: Select folder -->
+        <div class="step">
+          <div class="step-title">
+            <span class="step-number">1</span>
+            <span>Select localization folder</span>
+          </div>
+          <div class="button-group">
+            <button class="btn-primary" id="selectFolderBtn">
+              📁 Select folder
+            </button>
+          </div>
+          <div id="folderStatus" class="hidden"></div>
+        </div>
+
+        <!-- Step 2: Select file to compare -->
+        <div class="step">
+          <div class="step-title">
+            <span class="step-number">2</span>
+            <span>Choose translation file to check</span>
+          </div>
+          <div class="file-selector">
+            <select id="fileSelect" disabled>
+              <option value="">Select a file...</option>
+            </select>
+            <button class="btn-primary" id="compareBtn" disabled>
+              🔍 Compare
+            </button>
+            <button class="btn-secondary" id="refreshBtn" disabled>
+              🔄 Refresh
+            </button>
+          </div>
+        </div>
+
+        <!-- Results -->
+        <div id="resultsContainer" class="results hidden">
+          <div class="results-header">
+            <h2>Comparison Results</h2>
+            <div class="stats">
+              <div class="stat-item">
+                <div class="stat-number" id="missingCount">0</div>
+                <div class="stat-label">Missing Keys</div>
+              </div>
+            </div>
+          </div>
+          <div class="missing-keys" id="missingKeysList"></div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      let directoryHandle = null;
+      let referenceData = null;
+      let availableFiles = [];
+
+      const selectFolderBtn = document.getElementById("selectFolderBtn");
+      const folderStatus = document.getElementById("folderStatus");
+      const fileSelect = document.getElementById("fileSelect");
+      const compareBtn = document.getElementById("compareBtn");
+      const refreshBtn = document.getElementById("refreshBtn");
+      const resultsContainer = document.getElementById("resultsContainer");
+      const missingCount = document.getElementById("missingCount");
+      const missingKeysList = document.getElementById("missingKeysList");
+
+      // Step 1: Select folder
+      selectFolderBtn.addEventListener("click", async () => {
+        try {
+          directoryHandle = await window.showDirectoryPicker();
+          await loadFiles();
+          showStatus(
+            folderStatus,
+            "success",
+            `✅ Folder "${directoryHandle.name}" loaded successfully`
+          );
+          fileSelect.disabled = false;
+          refreshBtn.disabled = false;
+        } catch (err) {
+          if (err.name !== "AbortError") {
+            showStatus(folderStatus, "error", "❌ Error selecting folder");
+            console.error(err);
+          }
+        }
+      });
+
+      // Load files from folder
+      async function loadFiles() {
+        availableFiles = [];
+        fileSelect.innerHTML = '<option value="">Select a file...</option>';
+
+        try {
+          for await (const entry of directoryHandle.values()) {
+            if (entry.kind === "file" && entry.name.endsWith(".xml")) {
+              availableFiles.push(entry);
+
+              // Don't show en-us.xml in the list
+              if (entry.name.toLowerCase() !== "en-us.xml") {
+                const option = document.createElement("option");
+                option.value = entry.name;
+                option.textContent = entry.name;
+                fileSelect.appendChild(option);
+              } else {
+                // Load reference file
+                const file = await entry.getFile();
+                const content = await file.text();
+                referenceData = parseXML(content);
+              }
+            }
+          }
+
+          if (!referenceData) {
+            showStatus(
+              folderStatus,
+              "error",
+              '❌ Reference file "en-us.xml" not found'
+            );
+          } else {
+            showStatus(
+              folderStatus,
+              "success",
+              `✅ ${availableFiles.length} XML files found (reference: en-us.xml loaded)`
+            );
+          }
+        } catch (err) {
+          showStatus(folderStatus, "error", "❌ Error reading files");
+          console.error(err);
+        }
+      }
+
+      // Refresh files
+      refreshBtn.addEventListener("click", async () => {
+        refreshBtn.disabled = true;
+        refreshBtn.innerHTML = '<span class="loading"></span> Refreshing...';
+
+        await loadFiles();
+
+        refreshBtn.disabled = false;
+        refreshBtn.innerHTML = "🔄 Refresh";
+      });
+
+      // Enable Compare button when file is selected
+      fileSelect.addEventListener("change", () => {
+        compareBtn.disabled = !fileSelect.value;
+      });
+
+      // Compare files
+      compareBtn.addEventListener("click", async () => {
+        const selectedFile = fileSelect.value;
+        if (!selectedFile || !referenceData) return;
+
+        compareBtn.disabled = true;
+        compareBtn.innerHTML = '<span class="loading"></span> Comparing...';
+
+        try {
+          // Find and read selected file
+          const entry = availableFiles.find((e) => e.name === selectedFile);
+          const file = await entry.getFile();
+          const content = await file.text();
+          const targetData = parseXML(content);
+
+          // Compare
+          const missingKeys = findMissingKeys(referenceData, targetData);
+          displayResults(missingKeys, selectedFile);
+        } catch (err) {
+          showStatus(folderStatus, "error", "❌ Error during comparison");
+          console.error(err);
+        } finally {
+          compareBtn.disabled = false;
+          compareBtn.innerHTML = "🔍 Compare";
+        }
+      });
+
+      // Parse XML and extract all keys with their paths
+      function parseXML(xmlString) {
+        const parser = new DOMParser();
+        const doc = parser.parseFromString(xmlString, "text/xml");
+        const keys = new Map();
+
+        function traverse(node, path = []) {
+          if (node.nodeType === Node.ELEMENT_NODE) {
+            const id = node.getAttribute("Id");
+
+            if (id) {
+              const fullPath = [...path, `${node.nodeName}[Id="${id}"]`].join(
+                " > "
+              );
+              const stringValue = node.getAttribute("String") || "";
+              keys.set(fullPath, stringValue);
+            }
+
+            // Traverse children
+            for (const child of node.children) {
+              const newPath = id
+                ? [...path, `${node.nodeName}[Id="${id}"]`]
+                : path;
+              traverse(child, newPath);
+            }
+          }
+        }
+
+        traverse(doc.documentElement);
+        return keys;
+      }
+
+      // Find missing keys
+      function findMissingKeys(reference, target) {
+        const missing = [];
+
+        for (const [path, value] of reference.entries()) {
+          if (!target.has(path)) {
+            missing.push({ path, value });
+          }
+        }
+
+        return missing;
+      }
+
+      // Display results
+      function displayResults(missingKeys, fileName) {
+        resultsContainer.classList.remove("hidden");
+        missingCount.textContent = missingKeys.length;
+
+        if (missingKeys.length === 0) {
+          missingKeysList.innerHTML = `
+                    <div class="no-results">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                        <h3>✅ No missing keys!</h3>
+                        <p>The file "${fileName}" contains all reference keys.</p>
+                    </div>
+                `;
+        } else {
+          missingKeysList.innerHTML = missingKeys
+            .map(
+              (key) => `
+                    <div class="key-item">
+                        <div class="key-path">${escapeHtml(key.path)}</div>
+                        <div class="key-value">
+                            <span class="key-value-label">Reference value (en-us):</span>
+                            "${escapeHtml(key.value)}"
+                        </div>
+                    </div>
+                `
+            )
+            .join("");
+        }
+
+        resultsContainer.scrollIntoView({
+          behavior: "smooth",
+          block: "nearest",
+        });
+      }
+
+      // Show status message
+      function showStatus(element, type, message) {
+        element.className = `status ${type}`;
+        element.textContent = message;
+        element.classList.remove("hidden");
+      }
+
+      // Escape HTML
+      function escapeHtml(text) {
+        const div = document.createElement("div");
+        div.textContent = text;
+        return div.innerHTML;
+      }
+    </script>
+  </body>
+</html>
