@@ -175,6 +175,29 @@
         <Abnormality Id="ABNORMALITY_LEECHED" String="Saignée"/> <!-- Needs to review(Source:Official MHR:S Web manual) -->
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED" String="Alpha" />
+            <Variant Id="ARCH_TEMPERED" String="Alpha Suprême" />
+            <Variant Id="FRENZIED" String="En furie" />
+        </Variants>
+        <Types>
+            <Type Id="TYPE_AERIAL" String="Aérien" />
+            <Type Id="TYPE_FLYING_WYVERN" String="Wyverne volante" />
+            <Type Id="TYPE_BRUTE_WYVERN" String="Wyvern de terre" />
+            <Type Id="TYPE_FANGED_BEAST" String="Bête à crocs" />
+            <Type Id="TYPE_LEVIATHAN" String="Leviathan" />
+            <Type Id="TYPE_AQUATIC" String="Aquatique" />
+            <Type Id="TYPE_BIRD_WYVERN" String="Wyverne rapace" />
+            <Type Id="TYPE_FANGED_WYVERN" String="Wywerne à crocs" />
+            <Type Id="TYPE_ELDER_DRAGON" String="Dragon Ancien" />
+            <Type Id="TYPE_AMPHIBIAN" String="Amphibien" />
+            <Type Id="TYPE_TEMNOCERAN" String="Temnoceran" />
+            <Type Id="TYPE_PISCINE_WYVERN" String="Wyverne aquatique" />
+            <Type Id="TYPE_CARAPACEON" String="Carapaceon" />
+            <Type Id="TYPE_CONSTRUCT" String="Artificiel" />
+            <Type Id="TYPE_DEMI_ELDER" String="Semi Ancien" />
+            <Type Id="TYPE_CEPHALOPOD" String="Céphalopode" />
+        </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_TO_BE_MAPPED" String="Inconnue"/>
@@ -355,23 +378,38 @@
             <Monster Id="44" String="Tobi-Kadachi"/>
             <Monster Id="45" String="Bazelgeuse"/>
             <Monster Id="46" String="Combatracien"/>
+            <Monster Id="76" String="Rathian d'Or" />
+            <Monster Id="77" String="Rathalos d'Argent" />
             <Monster Id="78" String="Hermitaur Daimyo"/>
             <Monster Id="79" String="Ceanataur Shogun"/>
             <Monster Id="80" String="Rajang Orage"/>
+            <Monster Id="81" String="Nargacuga Sélénite" />
             <Monster Id="82" String="Gore Magala"/>
             <Monster Id="83" String="Shagaru Magala"/>
             <Monster Id="84" String="Seregios"/>
             <Monster Id="85" String="Astalos"/>
+            <Monster Id="86" String="Mizutsune Mauve" />
             <Monster Id="87" String="Magnamalo Enragé"/>
             <Monster Id="88" String="Bishaten Sanguin"/>
             <Monster Id="89" String="Somnacanth Aurore"/>
             <Monster Id="90" String="Rakna-Kadaki de Feu"/>
             <Monster Id="91" String="Almudron Magma"/>
+            <Monster Id="92" String="Bazelgeuse Vulcan" />
             <Monster Id="93" String="Malzeno"/>
             <Monster Id="94" String="Lunagaron"/>
             <Monster Id="95" String="Garangolm"/>
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
+            <Monster Id="98" String="Espinas de Feu" />
+            <Monster Id="107" String="Kushala Daora Éveillé" />
+            <Monster Id="108" String="Chameleos Éveillé" />
+            <Monster Id="109" String="Teostra Éveillé" />
+            <Monster Id="110" String="Shagaru Magala Éveillé" />
+            <Monster Id="111" String="Valstrax Écarlate Éveillé" />
+            <Monster Id="112" String="Malzeno Primordial Primordial" />
+            <Monster Id="113" String="Gore Magala du Chaos" />
+            <Monster Id="114" String="Velkhana" />
+            <Monster Id="115" String="Amatsu" />
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -447,6 +485,42 @@
             <Monster Id="100" String="Barioth Crocgivre"/>
             <Monster Id="101" String="Fatalis"/>
         </World>
+        <Wilds>
+            <Monster Id="0" String="Rathian" />
+            <Monster Id="1" String="Rathalos" />
+            <Monster Id="2" String="Rathalos Gardien" />
+            <Monster Id="3" String="Gravios" />
+            <Monster Id="4" String="Yian Kut-Ku" />
+            <Monster Id="5" String="Gypceros" />
+            <Monster Id="6" String="Congalala" />
+            <Monster Id="7" String="Blangonga" />
+            <Monster Id="8" String="Lagiacrus" />
+            <Monster Id="9" String="Nerscylla" />
+            <Monster Id="10" String="Gore Magala" />
+            <Monster Id="11" String="Seregios" />
+            <Monster Id="13" String="Mizutsune" />
+            <Monster Id="14" String="Anjanath Tonnerre Gardien" />
+            <Monster Id="15" String="Odogaron Désastre Gardien" />
+            <Monster Id="16" String="Doshaguma" />
+            <Monster Id="17" String="Doshaguma Gardien" />
+            <Monster Id="18" String="Balahara" />
+            <Monster Id="19" String="Chatacabra" />
+            <Monster Id="20" String="Quematrice" />
+            <Monster Id="21" String="Lala Barina" />
+            <Monster Id="22" String="Rompopolo" />
+            <Monster Id="23" String="Rey Dau" />
+            <Monster Id="24" String="Uth Duna" />
+            <Monster Id="25" String="Nu Udra" />
+            <Monster Id="26" String="Ajarakan" />
+            <Monster Id="27" String="Arkveld" />
+            <Monster Id="28" String="Arkveld Gardien" />
+            <Monster Id="29" String="Hirabami" />
+            <Monster Id="30" String="Jin Dahaad" />
+            <Monster Id="31" String="Xu Wu" />
+            <Monster Id="32" String="Zoh Shia" />
+            <Monster Id="33" String="Barilator Miaousse Costaud" />
+            <Monster Id="34" String="Omega Planetikos" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
@@ -473,6 +547,7 @@
             <Stage Id="211" String="Palais de Coraux"/>
             <Stage Id="212" String="Jungle"/>
             <Stage Id="213" String="Citadelle"/>
+            <Stage Id="214" String="Tour Interdite" />
             <Stage Id="215" String="Abysses Dévorantes"/>
         </Rise>
         <World>
@@ -512,7 +587,73 @@
             <Stage Id="505" String="Sanctuaire des cinq"/>
             <Stage Id="506" String="Chambre (Seliana)"/>
         </World>
+        <Wilds>
+            <Stage Id="0" String="Plaines venteuses" />
+            <Stage Id="1" String="Forêt Écarlate" />
+            <Stage Id="2" String="Bassin Pétrolier" />
+            <Stage Id="3" String="Falaises de Glace" />
+            <Stage Id="4" String="Ruines de Wyveria" />
+            <Stage Id="5" String="Sentier de la rivière" />
+            <Stage Id="6" String="Galerie souterraine" />
+            <Stage Id="7" String="Chemin perdu de Wyveria" />
+            <Stage Id="8" String="Détour des Veilleurs" />.
+            <Stage Id="9" String="Vallon meurtri" />
+            <Stage Id="10" String="Cimes gelées" />
+            <Stage Id="11" String="Sanctuaire de la Torche" />
+            <Stage Id="12" String="Suja, cime de la concorde" />
+            <Stage Id="14" String="Grand-Camp" />
+            <Stage Id="15" String="Aire d'entraînement" />
+        </Wilds>
     </Stages>
+
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING" String="Vide" />
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING" String="Compost" />
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING" String="Compost +" />
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING" String="Mycorhize" />
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING" String="Mycorhize +" />
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING" String="Gelée sucrée" />
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING" String="Gelée sucrée +" />
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING" String="Catalyste" />
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING" String="Catalyste +" />
+    </Fertilizers>
+    
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER" String="Rysher" />
+                <Collector Id="MURTABAK" String="Murtabak" />
+                <Collector Id="APAR" String="Apar" />
+                <Collector Id="PLUMPEACH" String="Patapêche" />
+                <Collector Id="SABAR" String="Sabar" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
+
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE" String="Cape Caméléon" />
+        <Tool Id="TEMPORAL_MANTLE" String="Cape temporelle" />
+        <Tool Id="HEALTH_BOOSTER" String="Amplificateur de vie" />
+        <Tool Id="ROCKSTEADY_MANTLE" String="Cape immuable" />
+        <Tool Id="CHALLENGER_MANTLE" String="Cape de provocation" />
+        <Tool Id="VITALITY_MANTLE" String="Cape du gardien" />
+        <Tool Id="FIREPROOF_MANTLE" String="Cape ignifuge" />
+        <Tool Id="WATERPROOF_MANTLE" String="Cape anti-eau" />
+        <Tool Id="ICEPROOF_MANTLE" String="Cape anti-glace" />
+        <Tool Id="THUNDERPROOF_MANTLE" String="Cape paratonnerre" />
+        <Tool Id="DRAGONPROOF_MANTLE" String="Cape anti-dragon" />
+        <Tool Id="CLEANSER_BOOSTER" String="Purificateur" />
+        <Tool Id="GLIDER_MANTLE" String="Cape planeur" />
+        <Tool Id="EVASION_MANTLE" String="Cape d'évasion" />
+        <Tool Id="IMPACT_MANTLE" String="Cape du Champion" />
+        <Tool Id="APOTHECARY_MANTLE" String="Cape du Scélérat" />
+        <Tool Id="IMMUNITY_MANTLE" String="Cape angélique" />
+        <Tool Id="AFFINITY_BOOSTER" String="Amplificateur d'affinité" />
+        <Tool Id="BANDIT_MANTLE" String="Cape du voleur" />
+        <Tool Id="ASSASSINS_HOOD" String="Capuche d'assassion" />
+        <Tool Id="MENDING_MANTLE" String="Cape régénératrice" />
+        <Tool Id="CORRUPTED_MANTLE" String="Cape corrompue" />
+    </SpecializedTools>
 
     <Client>
         <Tabs>
