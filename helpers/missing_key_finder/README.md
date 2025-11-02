@@ -5,14 +5,23 @@ It is 100% web client code which means the only requirement to use it is a compa
 
 ## Usage
 
-### [Demonstration video](./demo.webm)
-
 ### Requirements : Chrome or Edge
 
 1. Open the index.html in a compatible web browser.
 2. Select the folder containing your localization files (typically `HunterPie/localization/localization`).
 3. Select the localization files you wish to check
 4. Browse throught the keys
+
+### Screenshots
+
+![](./readme-resources/screenshot1.png)
+![](./readme-resources/screenshot2.png)
+![](./readme-resources/screenshot3.png)
+
+### Demo video
+
+[![Click to see video](./readme-resources/screenshot3.png)](./readme-resources/demo.webm)
+
 
 ## Tech note
 
