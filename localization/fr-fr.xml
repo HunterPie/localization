@@ -175,6 +175,29 @@
         <Abnormality Id="ABNORMALITY_LEECHED" String="Saignée"/> <!-- Needs to review(Source:Official MHR:S Web manual) -->
     </Abnormalities>
     <Monsters>
+        <Variants>
+            <Variant Id="TEMPERED" String="Alpha" />
+            <Variant Id="ARCH_TEMPERED" String="Alpha Suprême" />
+            <Variant Id="FRENZIED" String="En furie" />
+        </Variants>
+        <Types>
+            <Type Id="TYPE_AERIAL" String="Aérien" />
+            <Type Id="TYPE_FLYING_WYVERN" String="Wyverne volante" />
+            <Type Id="TYPE_BRUTE_WYVERN" String="Wyvern de terre" />
+            <Type Id="TYPE_FANGED_BEAST" String="Bête à crocs" />
+            <Type Id="TYPE_LEVIATHAN" String="Leviathan" />
+            <Type Id="TYPE_AQUATIC" String="Aquatique" />
+            <Type Id="TYPE_BIRD_WYVERN" String="Wyverne rapace" />
+            <Type Id="TYPE_FANGED_WYVERN" String="Wywerne à crocs" />
+            <Type Id="TYPE_ELDER_DRAGON" String="Dragon Ancien" />
+            <Type Id="TYPE_AMPHIBIAN" String="Amphibien" />
+            <Type Id="TYPE_TEMNOCERAN" String="Temnoceran" />
+            <Type Id="TYPE_PISCINE_WYVERN" String="Wyverne aquatique" />
+            <Type Id="TYPE_CARAPACEON" String="Carapaceon" />
+            <Type Id="TYPE_CONSTRUCT" String="Artificiel" />
+            <Type Id="TYPE_DEMI_ELDER" String="Semi Ancien" />
+            <Type Id="TYPE_CEPHALOPOD" String="Céphalopode" />
+        </Types>
         <Shared>
             <Part Id="PART_UNKNOWN" String="???"/>
             <Part Id="PART_TO_BE_MAPPED" String="Inconnue"/>
@@ -355,23 +378,38 @@
             <Monster Id="44" String="Tobi-Kadachi"/>
             <Monster Id="45" String="Bazelgeuse"/>
             <Monster Id="46" String="Combatracien"/>
+            <Monster Id="76" String="Rathian d'Or" />
+            <Monster Id="77" String="Rathalos d'Argent" />
             <Monster Id="78" String="Hermitaur Daimyo"/>
             <Monster Id="79" String="Ceanataur Shogun"/>
             <Monster Id="80" String="Rajang Orage"/>
+            <Monster Id="81" String="Nargacuga Sélénite" />
             <Monster Id="82" String="Gore Magala"/>
             <Monster Id="83" String="Shagaru Magala"/>
             <Monster Id="84" String="Seregios"/>
             <Monster Id="85" String="Astalos"/>
+            <Monster Id="86" String="Mizutsune Mauve" />
             <Monster Id="87" String="Magnamalo Enragé"/>
             <Monster Id="88" String="Bishaten Sanguin"/>
             <Monster Id="89" String="Somnacanth Aurore"/>
             <Monster Id="90" String="Rakna-Kadaki de Feu"/>
             <Monster Id="91" String="Almudron Magma"/>
+            <Monster Id="92" String="Bazelgeuse Vulcan" />
             <Monster Id="93" String="Malzeno"/>
             <Monster Id="94" String="Lunagaron"/>
             <Monster Id="95" String="Garangolm"/>
             <Monster Id="96" String="Gaismagorm"/>
             <Monster Id="97" String="Espinas"/>
+            <Monster Id="98" String="Espinas de Feu" />
+            <Monster Id="107" String="Kushala Daora Éveillé" />
+            <Monster Id="108" String="Chameleos Éveillé" />
+            <Monster Id="109" String="Teostra Éveillé" />
+            <Monster Id="110" String="Shagaru Magala Éveillé" />
+            <Monster Id="111" String="Valstrax Écarlate Éveillé" />
+            <Monster Id="112" String="Malzeno Primordial Primordial" />
+            <Monster Id="113" String="Gore Magala du Chaos" />
+            <Monster Id="114" String="Velkhana" />
+            <Monster Id="115" String="Amatsu" />
         </Rise>
         <World>
             <Monster Id="0" String="Anjanath"/>
@@ -447,6 +485,42 @@
             <Monster Id="100" String="Barioth Crocgivre"/>
             <Monster Id="101" String="Fatalis"/>
         </World>
+        <Wilds>
+            <Monster Id="0" String="Rathian" />
+            <Monster Id="1" String="Rathalos" />
+            <Monster Id="2" String="Rathalos Gardien" />
+            <Monster Id="3" String="Gravios" />
+            <Monster Id="4" String="Yian Kut-Ku" />
+            <Monster Id="5" String="Gypceros" />
+            <Monster Id="6" String="Congalala" />
+            <Monster Id="7" String="Blangonga" />
+            <Monster Id="8" String="Lagiacrus" />
+            <Monster Id="9" String="Nerscylla" />
+            <Monster Id="10" String="Gore Magala" />
+            <Monster Id="11" String="Seregios" />
+            <Monster Id="13" String="Mizutsune" />
+            <Monster Id="14" String="Anjanath Tonnerre Gardien" />
+            <Monster Id="15" String="Odogaron Désastre Gardien" />
+            <Monster Id="16" String="Doshaguma" />
+            <Monster Id="17" String="Doshaguma Gardien" />
+            <Monster Id="18" String="Balahara" />
+            <Monster Id="19" String="Chatacabra" />
+            <Monster Id="20" String="Quematrice" />
+            <Monster Id="21" String="Lala Barina" />
+            <Monster Id="22" String="Rompopolo" />
+            <Monster Id="23" String="Rey Dau" />
+            <Monster Id="24" String="Uth Duna" />
+            <Monster Id="25" String="Nu Udra" />
+            <Monster Id="26" String="Ajarakan" />
+            <Monster Id="27" String="Arkveld" />
+            <Monster Id="28" String="Arkveld Gardien" />
+            <Monster Id="29" String="Hirabami" />
+            <Monster Id="30" String="Jin Dahaad" />
+            <Monster Id="31" String="Xu Wu" />
+            <Monster Id="32" String="Zoh Shia" />
+            <Monster Id="33" String="Barilator Miaousse Costaud" />
+            <Monster Id="34" String="Omega Planetikos" />
+        </Wilds>
     </Monsters>
     <Stages>
         <Rise>
@@ -473,6 +547,7 @@
             <Stage Id="211" String="Palais de Coraux"/>
             <Stage Id="212" String="Jungle"/>
             <Stage Id="213" String="Citadelle"/>
+            <Stage Id="214" String="Tour Interdite" />
             <Stage Id="215" String="Abysses Dévorantes"/>
         </Rise>
         <World>
@@ -512,22 +587,170 @@
             <Stage Id="505" String="Sanctuaire des cinq"/>
             <Stage Id="506" String="Chambre (Seliana)"/>
         </World>
+        <Wilds>
+            <Stage Id="0" String="Plaines venteuses" />
+            <Stage Id="1" String="Forêt Écarlate" />
+            <Stage Id="2" String="Bassin Pétrolier" />
+            <Stage Id="3" String="Falaises de Glace" />
+            <Stage Id="4" String="Ruines de Wyveria" />
+            <Stage Id="5" String="Sentier de la rivière" />
+            <Stage Id="6" String="Galerie souterraine" />
+            <Stage Id="7" String="Chemin perdu de Wyveria" />
+            <Stage Id="8" String="Détour des Veilleurs" />.
+            <Stage Id="9" String="Vallon meurtri" />
+            <Stage Id="10" String="Cimes gelées" />
+            <Stage Id="11" String="Sanctuaire de la Torche" />
+            <Stage Id="12" String="Suja, cime de la concorde" />
+            <Stage Id="14" String="Grand-Camp" />
+            <Stage Id="15" String="Aire d'entraînement" />
+        </Wilds>
     </Stages>
 
+    <Fertilizers>
+        <Fertilizer Id="FERTILIZER_NONE_STRING" String="Vide" />
+        <Fertilizer Id="FERTILIZER_PLANT_S_STRING" String="Compost" />
+        <Fertilizer Id="FERTILIZER_PLANT_L_STRING" String="Compost +" />
+        <Fertilizer Id="FERTILIZER_FUNGI_S_STRING" String="Mycorhize" />
+        <Fertilizer Id="FERTILIZER_FUNGI_L_STRING" String="Mycorhize +" />
+        <Fertilizer Id="FERTILIZER_HONEY_S_STRING" String="Gelée sucrée" />
+        <Fertilizer Id="FERTILIZER_HONEY_L_STRING" String="Gelée sucrée +" />
+        <Fertilizer Id="FERTILIZER_GROWTH_S_STRING" String="Catalyste" />
+        <Fertilizer Id="FERTILIZER_GROWTH_L_STRING" String="Catalyste +" />
+    </Fertilizers>
+    
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER" String="Rysher" />
+                <Collector Id="MURTABAK" String="Murtabak" />
+                <Collector Id="APAR" String="Apar" />
+                <Collector Id="PLUMPEACH" String="Patapêche" />
+                <Collector Id="SABAR" String="Sabar" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
+
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE" String="Cape Caméléon" />
+        <Tool Id="TEMPORAL_MANTLE" String="Cape temporelle" />
+        <Tool Id="HEALTH_BOOSTER" String="Amplificateur de vie" />
+        <Tool Id="ROCKSTEADY_MANTLE" String="Cape immuable" />
+        <Tool Id="CHALLENGER_MANTLE" String="Cape de provocation" />
+        <Tool Id="VITALITY_MANTLE" String="Cape du gardien" />
+        <Tool Id="FIREPROOF_MANTLE" String="Cape ignifuge" />
+        <Tool Id="WATERPROOF_MANTLE" String="Cape anti-eau" />
+        <Tool Id="ICEPROOF_MANTLE" String="Cape anti-glace" />
+        <Tool Id="THUNDERPROOF_MANTLE" String="Cape paratonnerre" />
+        <Tool Id="DRAGONPROOF_MANTLE" String="Cape anti-dragon" />
+        <Tool Id="CLEANSER_BOOSTER" String="Purificateur" />
+        <Tool Id="GLIDER_MANTLE" String="Cape planeur" />
+        <Tool Id="EVASION_MANTLE" String="Cape d'évasion" />
+        <Tool Id="IMPACT_MANTLE" String="Cape du Champion" />
+        <Tool Id="APOTHECARY_MANTLE" String="Cape du Scélérat" />
+        <Tool Id="IMMUNITY_MANTLE" String="Cape angélique" />
+        <Tool Id="AFFINITY_BOOSTER" String="Amplificateur d'affinité" />
+        <Tool Id="BANDIT_MANTLE" String="Cape du voleur" />
+        <Tool Id="ASSASSINS_HOOD" String="Capuche d'assassion" />
+        <Tool Id="MENDING_MANTLE" String="Cape régénératrice" />
+        <Tool Id="CORRUPTED_MANTLE" String="Cape corrompue" />
+    </SpecializedTools>
+
     <Client>
+        <Main>
+            <!-- Hunt Export -->
+            <String Id="CLIENT_HUNT_EXPORT_SUMMARY_TITLE_STRING"
+                    String="Chasses exportées" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_FREE_TIER_STRING"
+                    String="Votre compte est limité à 7 jours de chasses exportées.&#xA;Devenez supporter pour accéder à l'historique complet !" />
+            <String Id="CLIENT_HUNT_EXPORT_SUPPORTER_LOW_TIER_STRING"
+                    String="Devenez Supporter de Niveau 2 pour accéder à toutes les chasses exportées !" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_IN_PROGRESS_STRING"
+                    String="Récupération de la quête : {0}" />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_FAILED_ERROR_STRING"
+                    String="Échec de la récupération des chasses exportées. Réessayez plus tard." />
+            <String Id="CLIENT_HUNT_EXPORT_FETCH_SUCCESS_STRING"
+                    String="Quête chargée avec succès !" />
+            <String Id="CLIENT_HUNT_EXPORT_NO_LOGS_STRING"
+                    String="Aucune chasse exportée disponible pour la période accessible à votre compte." />
+            <String Id="CLIENT_HUNT_EXPORT_MONSTERS_STRING"
+                    String="Monstres" />
+            <String Id="CLIENT_HUNT_EXPORT_HUNT_DETAILS_STRING"
+                    String="Détails de la chasse" />
+            <String Id="CLIENT_HUNT_EXPORT_STATUS_DETAILS_STRING"
+                    String="Détails des status" />
+            <String Id="CLIENT_HUNT_EXPORT_PARTY_MEMBERS_STRING"
+                    String="Membres du groupe" />
+            <String Id="CLIENT_HUNT_EXPORT_DETAILS_STRING"
+                    String="Détails" />
+            <String Id="CLIENT_HUNT_EXPORT_ABNORMALITIES_STRING"
+                    String="Afflictions" />
+            <String Id="CLIENT_HUNT_EXPORT_TOGGLE_HEALTH_STRING"
+                    String="Afficher/Masquer la santé" />
+        </Main>
+        <Overlay>
+            <String Id="DAMAGE_METER_OTOMOS_NAME_STRING"
+                    String="Compagnons" />
+            <String Id="TRAINING_DOJO_BOOSTS_STRING"
+                    String="Boosts:" />
+
+            <String Id="TRAINING_DOJO_ROUNDS_STRING"
+                    String="Rounds:" />
+            <String Id="MEOWCENARIES_STEP_STRING"
+                    String="Étape:" />
+            <String Id="MEOWCENARIES_OUTCOME_STRING"
+                    String="Résultat:" />
+            <String Id="MEOWCENARIES_BUDDIES_STRING"
+                    String="Compagnons:" />
+            <String Id="COHOOT_KAMURA_NEST_STRING"
+                    String="Nid de Kamura: " />
+            <String Id="COHOOT_ELGADO_NEST_STRING"
+                    String="Nid d'Elgado: " />
+            <String Id="ARGOSY_DAYS_STRING"
+                    String="jours" />
+            <String Id="RATIONS_STRING"
+                    String="rations" />
+            <String Id="TAILRAIDERS_QUEST_STRING"
+                    String="quêtes" />
+            <String Id="MOON_FULL"
+                    String="Pleine lune" />
+            <String Id="MOON_WANING_GIBBOUS"
+                    String="Lune gibbeuse décr." />
+            <String Id="MOON_THIRD_QUARTER"
+                    String="Dernier quartier" />
+            <String Id="MOON_WANING_CRESCENT"
+                    String="Dernier croissant" />
+            <String Id="MOON_WAXING_CRESCENT"
+                    String="Premier croissant" />
+            <String Id="MOON_FIRST_QUARTER"
+                    String="Premier quartier" />
+            <String Id="MOON_WAXING_GIBBOUS"
+                    String="Lune gibbeuse crois." />
+            <String Id="TOOL_COOLDOWN"
+                    String="En recharge" />
+            <String Id="TOOL_TIMER"
+                    String="Durée" />
+        </Overlay>
         <Tabs>
+            <Tab Id="HOME_STRING"
+                 String="Accueil" />
             <Tab Id="CONSOLE_STRING"
                  String="Console"/>
             <Tab Id="DISCORD_STRING"
                  String="Discord"/>
+            <Tab Id="QUEST_STATISTICS_STRING"
+                 String="Chasses" />
             <Tab Id="PATCH_NOTES_STRING"
                  String="Notes de Version"/>
             <Tab Id="PLUGINS_STRING"
-                 String="Greffons"/>
+                 String="Plugins"/>
             <Tab Id="SETTINGS_STRING"
                  String="Paramètres"/>
             <Tab Id="PATREON_STRING"
                  String="Patreon"/>
+            <Tab Id="GITHUB_STRING"
+                 String="Github" />
+            <Tab Id="THEMES_STRING"
+                 String="Thèmes" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -536,9 +759,60 @@
                      String="HunterPie est à jour !"/>
             <Generic Id="HUNTERPIE_NOT_LATEST_VERSION"
                      String="Il y a une nouvelle version de HunterPie disponible !"/>
+            <Generic Id="HUNTERPIE_FETCH_FAILED_VERSION"
+                     String="Échec de la récupération de la version. Cliquez ici pour réessayer." />
+            <Generic Id="HUNTERPIE_FETCH_IN_PROGRESS_VERSION"
+                     String="Récupération de la dernière version" />
             <Generic Id="HUNTERPIE_CURRENT_SELECTED_CONFIG"
-                     String="Configuration pour :"/>
+                     String="Configuration pour :" />
+            <Generic Id="REQUIRES_RESTART_STRING"
+                     String="(Redémarrage requis)" />
+            <Generic Id="CONFIGURATION_SYNC_AT_STRING"
+                     String="Synchronisé le" />
+            <Generic Id="SELECT_ALL_STRING"
+                     String="Tout sélectionner" />
+            <Generic Id="UNSELECT_ALL_STRING"
+                     String="Tout désélectionner" />
+            <Generic Id="BACK_STRING"
+                     String="Retour" />
+            <Generic Id="MONSTER_PART_GROUPS_STRING"
+                     String="GROUPES DE PARTIES" />
+            <Generic Id="MONSTER_PARTS_COUNT_STRING"
+                     String="parties" />
+            <Generic Id="MONSTER_PARTS_STRING"
+                     String="PARTIES" />
+            <Generic Id="MONSTER_AILMENTS_STRING"
+                     String="AFFLICTIONS" />
+            <Generic Id="MONSTER_OVERRIDE_STRING"
+                     String="Créer des règles de monstre" />
+            <Generic Id="GO_TO_STRING"
+                     String="Aller à" />
+            <Generic Id="REFRESH_STRING"
+                     String="Actualiser" />
+            <Generic Id="INSTALL_STRING"
+                     String="Installer" />
+            <Generic Id="NO_THEMES_FOUND_STRING"
+                     String="Vous n'avez aucun thème installé.&#xA;Installez-en un nouveau ou créez le vôtre !" />
         </Generics>
+        <Dialogs>
+            <!-- Do not edit the text inside {} -->
+            <Dialog Id="UPDATE_TITLE_STRING"
+                    String="Mettre à jour" />
+            <Dialog Id="UPDATE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="La version v{Latest} est maintenant disponible.&#xA;Voulez-vous mettre à jour maintenant ?" />
+            <Dialog Id="CONFIRMATION_TITLE_STRING"
+                    String="Confirmation" />
+            <Dialog Id="DELETE_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Êtes-vous sûr de vouloir supprimer {Item} ?" />
+            <Dialog Id="EXIT_CONFIRMATION_DESCRIPTION_STRING"
+                    String="Êtes-vous sûr de vouloir quitter HunterPie ?" />
+            <Button Id="ACCEPT_STRING"
+                    String="Accepter" />
+            <Button Id="REJECT_STRING"
+                    String="Refuser" />
+            <Button Id="CANCEL_STRING"
+                    String="Annuler" />
+        </Dialogs>
         <Integrations>
             <!-- Shared between games -->
             <Discord Id="DRPC_STATE_HUNTING"
@@ -573,6 +847,49 @@
                      String="{Character} | RC: {HighRank} | RM: {MasterRank}"/>
             <Discord Id="DRPC_WORLD_STATE_PRACTICE"
                      String="S'entraîne"/>
+
+            <!-- Poogie Integration -->
+            <Poogie Id="ERROR_INVALID_USERNAME"
+                    String="Le nom d'utilisateur n'est pas valide !" />
+            <Poogie Id="ERROR_INVALID_PASSWORD"
+                    String="Le mot de passe n'est pas valide, il doit contenir au moins 8 caractères !" />
+            <Poogie Id="ERROR_INVALID_EMAIL"
+                    String="L'adresse e-mail n'est pas valide !" />
+            <Poogie Id="ERROR_INVALID_CREDENTIALS"
+                    String="Aucun compte trouvé avec ce nom d'utilisateur et ce mot de passe." />
+            <Poogie Id="ERROR_USER_NOT_FOUND"
+                    String="Hmm... Cet utilisateur est introuvable !" />
+            <Poogie Id="ERROR_USER_ALREADY_EXISTS"
+                    String="Un utilisateur avec cet e-mail ou ce nom d'utilisateur existe déjà !" />
+            <Poogie Id="ERROR_UNVERIFIED_ACCOUNT"
+                    String="Le compte doit d'abord être vérifié ! Veuillez consulter votre boîte e-mail, y compris les spams, pour vérifier le compte." />
+            <Poogie Id="INVALID_IMAGE"
+                    String="Le fichier n'est pas une image valide !" />
+            <Poogie Id="FAILED_TO_UPDATE_AVATAR"
+                    String="Échec du téléchargement de l'avatar, veuillez réessayer dans quelques minutes." />
+            <Poogie Id="ERROR_AVATAR_SIZE_TOO_LARGE"
+                    String="Échec du téléchargement de l'avatar, la taille dépasse 3,5 Mo." />
+            <Poogie Id="ERROR_INVALID_PASSWORD_RESET_CODE"
+                    String="Le code de réinitialisation du mot de passe n'est pas valide ou a expiré." />
+            <Poogie Id="ERROR_GENERIC"
+                    String="Oups... Quelque chose s'est mal passé. Réessayez dans quelques minutes !" />
+            <Poogie Id="SIGN_IN_NOTIFICATION"
+                    String="Connexion"
+                    Description="Tentative de connexion au compte..." />
+            <Poogie Id="LOGIN_SUCCESS"
+                    String="Bienvenue {Username} ! Vous êtes maintenant connecté." />
+            <Poogie Id="ACCOUNT_REGISTER_SUCCESS"
+                    String="Un e-mail de vérification sera envoyé à {Email} sous peu. Pensez à vérifier votre boîte de réception et vos spams !" />
+            <Poogie Id="AVATAR_UPLOAD_SUCCESS"
+                    String="Nouvel avatar téléchargé" />
+            <Poogie Id="BACKUP_NOT_ENABLED_STRING"
+                    String="Il semblerait que vous n'ayez pas activé les sauvegardes automatiques.&#xA;Vous pouvez l'activer dans les paramètres de votre compte." />
+            <Poogie Id="BACKUP_NOT_FOUND_STRING"
+                    String="Vous n'avez aucune sauvegarde." />
+            <Poogie Id="PASSWORD_RESET_EMAIL_STRING"
+                    String="Un e-mail sera envoyé à {Email} avec le code nécessaire pour changer le mot de passe de votre compte." />
+            <Poogie Id="PASSWORD_RESET_SUCCESS_STRING"
+                    String="Le mot de passe a été changé avec succès." />
         </Integrations>
         <Enums>
             <Enum Id="SORT_BY_LOWEST_TIMER_STRING"
@@ -581,23 +898,32 @@
                   String="Décroissant"/>
             <Enum Id="SORT_BY_DISABLED_STRING"
                   String="Aucun"/>
-
             <Enum Id="ORIENTATION_HORIZONTAL_STRING"
                   String="Horizontal"/>
             <Enum Id="ORIENTATION_VERTICAL_STRING"
                   String="Vertical"/>
-
             <Enum Id="RELATIVE_TO_QUEST_STRING"
                   String="Relatif à la quête"/>
             <Enum Id="RELATIVE_TO_JOIN_STRING"
                   String="Relatif à l'arrivée"/>
             <Enum Id="RELATIVE_TO_FIRST_HIT_STRING"
                   String="Relatif au premier coup"/>
-
             <Enum Id="PLOT_TOTAL_DAMAGE_STRING"
                   String="Dégâts Totaux"/>
             <Enum Id="PLOT_DPS_STRING"
                   String="Dégâts par Secondes"/>
+            <Enum Id="TARGET_MODE_LOCK_ON_STRING"
+                  String="Verrouillage" />
+            <Enum Id="TARGET_MODE_MAP_PIN_STRING"
+                  String="Repère sur la carte" />
+            <Enum Id="TARGET_MODE_AUTO_QUEST_STRING"
+                  String="Cible de quête" />
+            <Enum Id="TARGET_MODE_INFER_STRING"
+                  String="Déduire" />
+            <Enum Id="PLOT_SLIDING_AVG"
+                  String="DPS moyens mobile" />
+            <Enum Id="PLOT_OVERALL_AVG"
+                  String="DPS moyens global" />
         </Enums>
         <Settings>
             <Setting Id="CLIENT_STRING"
@@ -607,11 +933,17 @@
                      String="Discord Presence"
                      Description="Configurations de Discord Rich Presence"/>
             <Setting Id="OVERLAY_STRING"
-                     String="Superposition"
-                     Description="Configurations de superposition"/>
+                     String="Overlay"
+                     Description="Configurations de l'overlay"/>
+            <Setting Id="FEATURE_FLAGS_STRING"
+                     String="Fonctionnalités"
+                     Description="Configurations des fonctionnalités" />
             <Setting Id="ABNORMALITY_TRAY_STRING"
                      String="Barre d'Effets"
-                     Description="Configuration des barres d'effets"/>
+                     Description="Configurations des barres d'effets"/>
+            <Setting Id="TELEMETRICS_WIDGET_STRING"
+                     String="Widget de Debug"
+                     Description="Configurations du Widget de debug" />
             <Setting Id="MONSTER_WIDGET_STRING"
                      String="Infos des Monstres"
                      Description="Configurations du widget de monstres"/>
@@ -628,12 +960,35 @@
                      String="Chat"
                      Description="Configurations du widget du chat"/>
             <Setting Id="SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="Outils Spéciaux"
-                     Description="Configurations du widget d'outils spéciaux"/>
+                     String="Outils de Survie"
+                     Description="Configurations du widget d'outils de survie"/>
+            <Setting Id="PLAYER_HUD_WIDGET_STRING"
+                     String="Widget Joueur"
+                     Description="Configurations du widget du statut du joueur" />
             <Setting Id="DEV_TOOLS_STRING"
                      String="Options de Développeur"
                      Description="Outils de développement avancés"/>
-
+            <Setting Id="INSECT_GLAIVE_WIDGET_STRING"
+                     String="Widget Insectoglaive"
+                     Description="Configurations du widget Insectoglaive" />
+            <Setting Id="CHARGE_BLADE_WIDGET_STRING"
+                     String="Widget Volto-Hache"
+                     Description="Configurations du widget Volto-Hache" />
+            <Setting Id="LONGSWORD_WIDGET_STRING"
+                     String="Widget Épée Longue"
+                     Description="Xonfigurations du widget Épée Longue" />
+            <Setting Id="DUALBLADES_WIDGET_STRING"
+                     String="Widget Lames Doubles"
+                     Description="Configurations du widget Lames Doubles" />
+            <Setting Id="SWITCH_AXE_WIDGET_STRING"
+                     String="Widget Morpho-Hache"
+                     Description="Configurations du widget Morpho-Hache" />
+            <Setting Id="CLOCK_WIDGET_STRING"
+                     String="Widget Horloge"
+                     Description="Configurations du widget Horloge" />
+            <Setting Id="ACCOUNT_STRING"
+                     String="Compte"
+                     Description="Paramèters du compte" />
             <Setting Id="ABNORMALITY_SONGS_STRING"
                      String="Mélodies"
                      Description="Effets des mélodies"/>
@@ -652,13 +1007,15 @@
             <Setting Id="ABNORMALITY_FOODS_STRING"
                      String="Nourriture"
                      Description="Effets de nourriture"/>
-
             <Setting Id="ENABLE_SELF_UPDATE"
                      String="Activer les mises à jour automatiques"
                      Description="Si cette option est activée, HunterPie se mettra automatiquement à jour avec la dernière version."/>
             <Setting Id="ENABLE_SELF_UPDATE_CONFIRMATION"
                      String="Demander une confirmation de mise à jour automatique"
                      Description="Si cette option est activée, HunterPie demandera la permission d'effectuer une mise à jour automatique."/>
+            <Setting Id="MONSTER_GLOBAL_SETTINGS_STRING"
+                     String="Paramètres globaux"
+                     Description="Applique des paramètres à tous les monstres." />
             <Setting Id="SUPPORTER_SECRET_TOKEN_STRING"
                      String="Jeton Support"
                      Description="Jeton de Support pour obtenir les mises à jour de la version bêta."/>
@@ -677,6 +1034,9 @@
             <Setting Id="SEAMLESS_SHUTDOWN_STRING"
                      String="Arrêt Transparent"
                      Description="Si activé, HunterPie ne demandera pas de confirmation à l'arrêt."/>
+            <Setting Id="ENABLE_NATIVE_MODULE_STRING"
+                     String="Active HunterPie Native"
+                     Description="Si activé, HunterPie modifiera le jeu pour activer certaines fonctionnalités (ex: Compteur de dégats pendant les investigations).&#xA;&#xA;Si vous n'avez pas les mods [Stracker's Loader] et [Performance Booster and Plugin Extender](CRCBypass), cette option peut faire crash le jeu lors d'une session de jeu prolongée.&#xA;Nécessite de redémarrer le jeu." />
             <Setting Id="SHUTDOWN_ON_GAME_EXIT"
                      String="Fermer à l'Arrêt du Jeu"
                      Description="Si activé, HunterPie se fermera automatiquement à l'arrêt du jeu."/>
@@ -686,13 +1046,17 @@
             <Setting Id="RENDERING_STRATEGY_STRING"
                      String="Stratégie de Rendu"
                      Description="La stratégie de rendu par défaut de HunterPie. Logiciel utilisera votre CPU pour rendre la superposition, Matériel utilisera votre carte graphique."/>
-            <Setting Id="POLLING_RATE_STRING"
+            <Setting Id="ENABLE_RENDERING_FPS_LIMIT"
+                     String="Activer la limitation du taux de rafraîchissement"
+                     Description="Si activé, HunterPie limitera le taux de rafraîchissement de l'affichage à la valeur configurée." /><Setting Id="POLLING_RATE_STRING"
                      String="Délai de scan de la mémoire (millisecondes)"
                      Description="Le délai pour le scanner de HunterPie. En mettant un nombre faible, HunterPie sera extrêmement fluide, mais utilisera plus le CPU."/>
             <Setting Id="DEV_ENABLE_FEATURE_FLAG"
                      String="Activer les évènements des fonctions de développement"
                      Description="Si activé, HunterPie vous permettra d'activer les évènements des fonctionnalités en cours de développement."/>
-
+            <Setting Id="THEME_STRING"
+                     String="Thème"
+                     Description="Thème actuellement utilisé par HunterPie. Notez que les thèmes peuvent également affecter le style des widgets." />
             <Setting Id="DRPC_ENABLE_RICH_PRESENCE"
                      String="Activer Discord Rich Presence"
                      Description="Si cette option est activée, HunterPie affichera votre activité dans votre statut Discord."/>
@@ -702,7 +1066,12 @@
             <Setting Id="DRPC_ENABLE_SHOW_MONSTER_HEALTH"
                      String="Afficher la santé du monstre cible"
                      Description="Si cette option est activée, HunterPie affichera la santé du monstre ciblé dans votre statut Discord lorsque disponible."/>
-            
+            <Setting Id="OVERLAY_KEYBINDING_TOGGLE_VISIBILITY_STRING"
+                     String="Activer/Désactiver l'overlay"
+                     Description="Raccourci pour activer ou désactiver l'overlay." />
+            <Setting Id="OVERLAY_ENABLED_STRING"
+                     String="Activer l'overlay"
+                     Description="Si activé, HunterPie affichera l'overlay.&#xA;NOTE: Ce paramètre ne surcharge pas la désactivation individuelle des widgets." />
             <Setting Id="OVERLAY_KEYBINDING_TOGGLE_DESIGN_MODE"
                      String="[Hot Key] Basculer vers le mode de conception"
                      Description="Raccourci clavier pour activer et désactiver le mode de conception."/>
@@ -731,16 +1100,27 @@
             <Setting Id="ORIENTATION_STRING"
                      String="Orientation"
                      Description="Orientation de ce widget."/>
-
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE"
+                     String="Activer le mode compact"
+                     Description="Si activé, les monstres seront affichés en mode compact (seulement l'icône, nom et couronne). HunterPie activera automatiquement le mode par défaut si un monstre est ciblé." />
+            <Setting Id="MONSTER_WIDGET_COMPACT_MODE_COLUMN_LIMIT"
+                     String="Colonnes du mode compact"
+                     Description="Contrôle le nombre de colonnes utilisées en mode compact, s'il y a plus de monstres que de colonnes, les prochains monstres seront affichés sur une nouvelle ligne." />
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
                      String="N'afficher que la cible"
                      Description="Si activé, HunterPie n'affichera que le monstre que vous ciblez."/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
+                     String="Active le ciblage des monstres."
+                     Description="Si activé, HunterPie affichera les détails du monstre s'il est ciblé avec la méthode de ciblage choisie." />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
                      String="Afficher l'endurance des monstres"
                      Description="Si cette option est activée, HunterPie affichera l'endurance des monstres sous leurs barres de santé."/>
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="Largeur maximale du widget de monstres"
                      Description="Contrôle la largeur maximale de la barre de santé des monstres."/>
+            <Setting Id="MONSTER_WIDGET_TARGET_MODE_STRING"
+                     String="Mode de ciblage"
+                     Description="Définie la méthode de ciblage des monstres." />
             <Setting Id="MONSTER_WIDGET_MIN_WIDTH_STRING"
                      String="Largeur minimale du widget de monstres"
                      Description="Contrôle la largeur minimale de la barre de santé des monstres. Cette largeur sera utilisée pour calculer la taille de ces barres si cette option est activée."/>
@@ -754,13 +1134,13 @@
                      String="Délai pour masquer les parties inactives"
                      Description="Délai à attendre pour masquer une partie devenue inactive."/>
             <Setting Id="MONSTER_WIDGET_ENABLE_AILMENTS_STRING"
-                     String="Afficher les altérations du monstre ciblé"
+                     String="Afficher les afflictions du monstre ciblé"
                      Description="Si activée, les altérations du monstre ciblé seront affichées."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
-                     String="Masquer automatiquement les altérations du monstre ciblé"
-                     Description="Si cette option est activée, les altérations inactives du monstre ciblé seront cachées après X secondes."/>
+                     String="Masquer automatiquement les afflictions du monstre ciblé"
+                     Description="Si cette option est activée, les afflictions inactives du monstre ciblé seront cachées après X secondes."/>
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
-                     String="Délai pour masquer les altérations inactives"
+                     String="Délai pour masquer les afflictions inactives"
                      Description="Délai à attendre pour masquer une altération devenue inactive."/>
             <Setting Id="MONSTER_WIDGET_DYNAMIC_RESIZE_STRING"
                      String="Redimensionnement dynamique des barres de santé"
@@ -768,31 +1148,54 @@
             <Setting Id="MONSTER_WIDGET_HIDE_UNKNOWN_PARTS_STRING"
                      String="Cacher les partie de monstre inconnues"
                      Description="Si activé, HunterPie cachera les parties inconnues (celles nommées &quot;???&quot;)."/>
-
             <Setting Id="ABNORMALITY_TRAYS_STRING"
                      String="Barres d'Effets"
                      Description="Configurations des barres d'effets."/>
+            <Setting Id="ABNORMALITY_TRAY_COMPACT_MODE_STRING"
+                     String="Activer le mode compact"
+                     Description="Si activé, les effets seront affichés en mode compact, affichant seulement l'icône et le chronomètre. Désactiver cette option pour afficher aussi le nom." />
             <Setting Id="ABNORMALITY_TRAY_NAME_STRING"
                      String="Nom de la Barre d'Effets"
                      Description="Le nom de cette barre d'effets."/>
+            <Setting Id="ABNORMALITY_TRAY_COLUMNS_STRING"
+                     String="Nombre de colonnes"
+                     Description="Définie le nombre de colonnes utilisées pour afficher les effets." />
+            <Setting Id="ABNORMALITY_TRAY_ROWS_STRING"
+                     String="Nombre de lignes"
+                     Description="Définie le nombre de lignes utilisées pour afficher les effets." />
             <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
                      String="Taille maximale"
                      Description="La taille maximale de cette barre."/>
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="Trier par"
                      Description="L'algorithme à utiliser pour trier les effets."/>
-
             <Setting Id="WIREBUG_WIDGET_PATCH_IN_GAME_HUD_STRING"
                      String="Correction de la Visée avec Filoptère"
                      Description="Si activé, HunterPie modifiera le jeu pour ne plus cacher le réticule quand vous désactivez l'affichage des filoptères dans l'ATH."/>
-
             <Setting Id="ACTIVITIES_ENABLE_ARGOSY_STRING"
                      String="Montrer l'Argosy"
                      Description="Si activé, HunterPie affichera les données de l'Argosy."/>
+            <Setting Id="ACTIVITIES_ENABLE_MATERIAL_RETRIEVAL_STRING"
+                     String="Afficher la collecte de matériaux"
+                     Description="Si activé, HunterPie affichera les données de collecte de matériaux." />
+            <Setting Id="ACTIVITIES_ENABLE_INGREDIENTS_CENTER_STRING"
+                     String="Afficher le Centre d'ingrédients"                     
+                     Description="Si activé, HunterPie affichera les données du Centre d'ingrédients." />
             <Setting Id="ACTIVITIES_ENABLE_TRAINING_DOJO_STRING"
                      String="Montrer le Dojo Pilpoil"
                      Description="Si activé, HunterPie affichera les données du Dojo Pilpoil."/>
-
+            <Setting Id="ACTIVITIES_ENABLE_MEOWMASTERS_STRING"
+                     String="Afficher les Miaourcenaires"
+                     Description="Si activé, HunterPie affichera les données des Miaourcenaires." />
+            <Setting Id="ACTIVITIES_ENABLE_HARVEST_BOX_STRING"
+                     String="Afficher la Boîte de Récolte"
+                     Description="Si activé, HunterPie affichera les données de la Boîte de Récolte." />
+            <Setting Id="ACTIVITIES_ENABLE_COHOOT_STRING"
+                     String="Afficher les Nids du Cohoot"
+                     Description="Si activé, HunterPie affichera les données des Nids de Cohoot." />
+            <Setting Id="ACTIVITIES_ENABLE_STEAMWORKS_STRING"
+                     String="Afficher le Vaporium"
+                     Description="Si activé, HunterPie affichera les données du Vaporium." />
             <Setting Id="DAMAGE_METER_ENABLE_SHOULD_HIGHLIGHT_MYSELF"
                      String="Me mettre en valeur"
                      Description="Si activé, votre nom sera mis en valeur."/>
@@ -802,6 +1205,15 @@
             <Setting Id="DAMAGE_METER_ENABLE_DPS_PLOT"
                      String="Afficher le graphique de dégâts"
                      Description="Si activé, le graphique de dégâts sera visible."/>
+            <Setting Id="DAMAGE_METER_SHOW_ONLY_SELF_STRING"
+                     String="Masquer les autres joueurs"
+                     Description="Si activé, seuls vos dégâts seront affichés dans le compteur. Les autres membres du groupe et PNJ seront masqués." />
+            <Setting Id="DAMAGE_METER_PLOT_LINE_SMOOTHING_STRING"
+                     String="Lissage des courbes"
+                     Description="Contrôle le lissage des lignes du graphique." />
+            <Setting Id="DAMAGE_METER_PLOT_LINE_THICKNESS_STRING"
+                     String="Épaisseur des courbes"
+                     Description="Contrôle l'épaisseur des lignes du graphique." />
             <Setting Id="DAMAGE_METER_DPS_CALCULATION_STRATEGY_STRING"
                      String="Stratégie de calcul des dégâts par seconde"
                      Description="Détermine la stratégie utilisée pour calculer les dégâts par seconde.&#x0a;- RelativeToQuest: Démarre au début de la quête&#x0a;- RelativeToJoin: Démarre quand le joueur rejoint la partie&#x0a;- RelativeToFirstHit: Démarre quand le joueur touche le monstre pour la première fois"/>
@@ -823,27 +1235,168 @@
             <Setting Id="DAMAGE_METER_PLAYER_4_COLOR_STRING"
                      String="Couleur du quatrième joueur"
                      Description="La couleur du quatrième joueur dans le compteur de dégâts."/>
-
+            <Setting Id="DAMAGE_METER_NPC_COLOR_STRING"
+                     String="Couleurs des PNJ de soutien"
+                     Description="Couleur des PNJ de soutien du groupe dans le compteur de dégats." />
+            <Setting Id="DAMAGE_METER_ENABLE_OTOMOS"
+                     String="Afficher les dégâts des Compagnons"
+                     Description="Si activé, HunterPie affichera les dégâts des Compagnons." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DPS"
+                     String="Afficher les DPS"
+                     Description="Si activé, HunterPie affichera les DPS de chaque joueur." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
+                     String="Afficher les dégâts totaux"
+                     Description="Si activé, HunterPie affichera les dégâts totaux de chaque joueur." />
+            <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
+                     String="Activer le tracé de DPS moyens mobiles"
+                     Description="Si activé, HunterPie tracera vos DPS moyens sur les X dernières secondes, à intervalles de X secondes (personnalisable via le paramètre Taux d'échantillonnage)." />
+            <Setting Id="DAMAGE_METER_SAMPLING_RATE"
+                     String="Taux d'échantillonnage du graphique"
+                     Description="Configure la durée en secondes utilisée pour calculer les points du graphique de DPS moyens mobiles." />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_DISCARD_OLD_PLOTS"
+                     String="Activer le graphique à fenêtre glissante"
+                     Description="Si activé, le graphique défilera dans le temps au lieu de se compresser, masquant les points plus anciens que la durée spécifiée (personnalisable via le paramètre Taille de la fenêtre glissante)." />
+            <Setting Id="DAMAGE_METER_SLIDING_WINDOW_SECONDS"
+                     String="Taille de la fenêtre glissante"
+                     Description="Configure la durée totale en secondes que le graphique doit afficher lorsque la fenêtre glissante est activée. Les points plus anciens seront masqués." />
+            <Setting Id="SPECIALIZED_TOOL_COMPACT_MODE_ENABLED"
+                     String="Activer le mode compact"
+                     Description="Si activé, HunterPie affichera le chronomètre et le temps de recharge de l'outil de survie de manière minimale et compacte." />
+            <Setting Id="SPECIALIZED_TOOL_DISPLAY_ONLY_HUNTING_ZONE"
+                     String="Afficher uniquement dans les zones de chasse"
+                     Description="Si activé, HunterPie affichera le widget d'outil de survie uniquement dans les zones de chasse." />
+            <Setting Id="IS_MOON_PHASES_ENABLED"
+                     String="Activer les phases lunaires"
+                     Description="Si activé, HunterPie affichera le widget des phases lunaires." />
+            <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="Developer: Enable overlay manager debugging"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
-                     String="Développeur : Mock Monster widget"/>
+                     String="Développeur : Simuler le widget Monstre"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
-                     String="Développeur : Mock Damage Meter widget"/>
+                     String="Développeur : Simuler le widget Compteur de dégâts"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
-                     String="Développeur : Mock Abnormalities widget"/>
+                     String="Développeur : Simuler le widget Anomalies"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
-                     String="Développeur : Mock Wirebug widget"/>
+                     String="Développeur : Simuler le widget Wirebug"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
-                     String="Développeur : Mock Activities widget"/>
+                     String="Développeur : Simuler le widget Activités"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
-                     String="Développeur : Mock Chat widget"/>
+                     String="Développeur : Simuler le widget Chat"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
+                     String="Développeur : Simuler le widget HUD joueur"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Insectoglaive"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Volto-hache"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Lames Doubles"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
-                     String="Développeur : Mock Specialized Tool widget"/>
+                     String="Développeur : Simuler le widget Outil de survie"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Morpho-hache"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Épée Longue"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
+                     String="Développeur : Simuler le widget Horloge"
+                     Description="N'ACTIVEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="Développeur : Poogie API Host"/>
+                     String="Développeur : Hôte de l'API Poogie"
+                     Description="NE MODIFIEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
             <Setting Id="DEV_LOG_LEVEL"
-                     String="Développeur : Log level"/>
+                     String="Développeur : Niveau de logs"
+                     Description="Le niveau minimum pour que les logs apparaissent dans la console." />
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
-                     String="Développeur : UI rendering tracer level"/>
+                     String="Développeur : Niveau de traçage du rendu UI"
+                     Description="NE MODIFIEZ PAS SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
+            <!-- Account -->
+            <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
+                     String="Activer les backups de sauvegarde de jeu"
+                     Description="Si activé, HunterPie fera automatiquement des backups de vos sauvegardes de jeu and les enverra dans le cloud." />
+            <Setting Id="ACCOUNT_ENABLE_HUNT_UPLOAD_STRING"
+                     String="Activer l'envoi des chasses"
+                     Description="Si activé, HunterPie enverra les statistiques de vos chasses." />
         </Settings>
+        <ConfigurationGroups>
+            <Group Id="CONFIGURATION_GROUP_WIDGET"
+                   String="PARAMÈTRES WIDGET" />
+            <Group Id="CONFIGURATION_GROUP_GENERAL"
+                   String="PARAMÈTRES GENERAUX" />
+            <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS"
+                   String="PERSONALISATION" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET"
+                   String="CIBLAGE" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS"
+                   String="PARTIES" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS"
+                   String="AFFLICTIONS" />
+            <Group Id="CONFIGURATION_GROUP_MISC"
+                   String="AUTRE" />
+            <Group Id="CONFIGURATION_GROUP_ABNORMALITY_TRAYS"
+                   String="BARRE D'EFFETS" />
+            <Group Id="CONFIGURATION_GROUP_DAMAGE_PLOT"
+                   String="GRAPHIQUE DE DÉGÂTS" />
+            <Group Id="CONFIGURATION_GROUP_COLORS"
+                   String="COULEURS" />
+            <Group Id="CONFIGURATION_GROUP_ACTIVITIES"
+                   String="ACTIVITÉS" />
+            <Group Id="CONFIGURATION_GROUP_HOTKEYS"
+                   String="RACCOURCIS" />
+            <Group Id="CONFIGURATION_GROUP_MOCKS"
+                   String="MOCKS" />
+            <Group Id="CONFIGURATION_GROUP_DEVELOPMENT"
+                   String="DÉVELOPPEMENT" />
+            <Group Id="CONFIGURATION_GROUP_LOGGING"
+                   String="JOURNAUX" />
+            <Group Id="CONFIGURATION_GROUP_SELF_UPDATE"
+                   String="MISE À JOUR AUTO" />
+            <Group Id="CONFIGURATION_GROUP_SUPPORTER"
+                   String="SUPPORTER" />
+            <Group Id="CONFIGURATION_GROUP_IN_GAME"
+                   String="EN JEU" />
+            <Group Id="CONFIGURATION_GROUP_NATIVE"
+                   String="NATIVE" />
+            <Group Id="CONFIGURATION_GROUP_RENDERING"
+                   String="RENDU" />
+            <Group Id="CONFIGURATION_GROUP_SCANNING"
+                   String="SCAN" />
+            <Group Id="CONFIGURATION_GROUP_CLIENT"
+                   String="CLIENT" />
+            <Group Id="CONFIGURATION_GROUP_OVERLAY"
+                   String="OVERLAY" />
+            <Group Id="CONFIGURATION_GROUP_ACCOUNT"
+                   String="COMPTE" />
+            <Group Id="CONFIGURATION_GROUP_FLAGS"
+                   String="FONCTIONNALITÉS" />
+        </ConfigurationGroups>
+        <Home>
+            <GameStatus Id="NOT_FOUND"
+                        String="Jeu non trouvé" />
+            <GameStatus Id="WAITING"
+                        String="En attente du jeu..." />
+            <GameStatus Id="ANOTHER_RUNNING"
+                        String="Un autre jeu est en cours d'exécution" />
+            <GameStatus Id="RUNNING"
+                        String="En cours..." />
+            <CallToAction Id="DISCORD_CALL_TO_ACTION"
+                          String="Discord"
+                          Description="Des questions ou des difficultés ? Demandez de l'aide à l'équipe et la communauté." />
+            <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
+                          String="Documentation"
+                          Description="Apprenez-en plus sur les fonctionnalités d'HunterPie et comment les utiliser." />
+        </Home>
     </Client>
 </Strings>
