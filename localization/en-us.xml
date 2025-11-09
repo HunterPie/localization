@@ -4240,7 +4240,7 @@
                      Description="Controls how the parts and ailments panels are going to be placed. &#xA;- Vertical: Ailments will appear on top of the Parts panel.&#xA;- Horizontal: Ailments and Parts will appear side-by-side." />
             <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
                      String="Columns"
-                     Description="Controls how many columns should be used to display monster's parts." />
+                     Description="Controls how many columns should be used to display monster parts." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="Automatically hide monster parts"
                      Description="If enabled, inactive monster parts will be hidden after X seconds." />
