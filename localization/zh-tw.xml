@@ -3401,9 +3401,24 @@
 	    	<Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
                      String="啟用魔物鎖定"
                      Description="如果啟用，HunterPie會依偏好方式鎖定魔物後顯示該魔物的詳細資訊。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_MONSTER_TYPE_STRING"
+                     String="啟用魔物類型"
+                     Description="如果啟用，HunterPie 將在魔物名稱上方顯示其類型。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_HEALTH_STRING"
+                     String="啟用魔物血條"
+                     Description="如果啟用，HunterPie 將顯示魔物的血條。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_HEALTH_TEXT_STRING"
+                     String="啟用魔物血條數據"
+                     Description="如果啟用，HunterPie 將在魔物的血條上方顯示血條數據。" />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING" 
                      String="顯示魔物耐力" 
                      Description="如果啟用，HunterPie將在魔物血條下方顯示耐力條。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_TEXT_STRING"
+                     String="啟用魔物耐力數據"
+                     Description="如果啟用，HunterPie 將在魔物的耐力條下方顯示耐力數據。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_WEAKNESS_STRING"
+                     String="啟用怪物弱點"
+                     Description="如果啟用，HunterPie 將在魔物的耐力條下方顯示其弱點。" />
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING" 
                      String="魔物血條最大寬度" 
                      Description="控制魔物血條的最大寬度。"/>
@@ -3415,7 +3430,13 @@
                      Description="控制魔物血條的最小寬度。如果啟用動態大小調整，此寬度將用於計算血條的動態大小。"/>		 
 	    	<Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING" 
                      String="啟用魔物部位" 
-                     Description="如果啟用，將顯示魔物部位資訊。"/>		 
+                     Description="如果啟用，將顯示魔物部位資訊。"/>
+            <Setting Id="MONSTER_WIDGET_PARTS_AILMENTS_STACKING_STRING"
+                     String="部位與異常狀態的對齊方式"
+                     Description="控制部位和異常狀態的排列方式。 &#xA;- 垂直：異常狀態將顯示在部位面板上方。 &#xA;- 水平：異常狀態和部位將並排顯示。" />
+            <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
+                     String="欄位"
+                     Description="控制顯示魔物部位時應使用多少個欄位。" />
 	    	<Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING" 
                      String="自動隱藏魔物部位" 
                      Description="如果啟用，非活動的魔物部位將在X秒後隱藏。"/>
@@ -3439,13 +3460,19 @@
                      Description="如果啟用，HunterPie將隱藏未知部位（標示為「???」的部位）。"/>					 
 	    	<Setting Id="ABNORMALITY_TRAYS_STRING"
                      String="異常狀態列"
-                     Description="異常狀態列配置." />		 
+                     Description="異常狀態列配置." />
+            <Setting Id="ABNORMALITY_TRAY_COMPACT_MODE_STRING"
+                     String="Enable compact mode"
+                     Description="如果啟用，異常狀態將會進入緊湊模式，僅顯示圖示和計時器。若想同時顯示名稱，請關閉此選項。" />
 	    	<Setting Id="ABNORMALITY_TRAY_NAME_STRING" 
                      String="異常狀態列名稱" 
                      Description="此異常狀態列的名稱。"/>
-            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING" 
-                     String="最大數量" 
-                     Description="設定異常狀態列的最大數量。"/>
+            <Setting Id="ABNORMALITY_TRAY_COLUMNS_STRING"
+                     String="列數"
+                     Description="設置顯示異常狀態時所使用的列數。" />
+            <Setting Id="ABNORMALITY_TRAY_ROWS_STRING"
+                     String="行數"
+                     Description="設置顯示異常狀態時所使用的行數。" />
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING" 
                      String="排序方式" 
                      Description="選擇用於排序所有異常狀態的演算法。"/>		 
@@ -3684,6 +3711,7 @@
             <Group Id="CONFIGURATION_GROUP_WIDGET" String="介面設定"/>
             <Group Id="CONFIGURATION_GROUP_GENERAL" String="一般設定"/>
             <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS" String="自訂設定"/>
+            <Group Id="CONFIGURATION_GROUP_MONSTER_FILTERS" String="篩選器" />
             <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET" String="目標設定"/>
             <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS" String="部位設定"/>
             <Group Id="CONFIGURATION_GROUP_MONSTER_AILMENTS" String="異常狀態設定"/>
@@ -3725,6 +3753,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
