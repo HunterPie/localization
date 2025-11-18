@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Strings lang="Korean">
     <Ailments>
         <Rise>
@@ -516,7 +516,7 @@
                      String="역전왕" />
             <Variant Id="FRENZIED"
                      String="광룡화" />
-         </Variants>
+        </Variants>
         <Types>
             <Type Id="TYPE_AERIAL"
                   String="공서계" />
@@ -591,7 +591,7 @@
             <Part Id="PART_ARMS"
                   String="앞다리" />
             <Part Id="PART_HEAD_MUD"
-                  String="머리 (진흙) "/>
+                  String="머리 (진흙)" />
             <Part Id="PART_TORSO_MUD"
                   String="몸통 (진흙)" />
             <Part Id="PART_ARMS_MUD"
@@ -808,9 +808,9 @@
                   String="왼쪽 날개 (바위)" />
             <Part Id="PART_R_WING_ROCK"
                   String="오른쪽 날개 (바위)" />
-            <Part Id="PART_L_ARMS_ROCK"
+            <Part Id="PART_L_ARM_ROCK"
                   String="왼쪽 앞다리 (바위)" />
-            <Part Id="PART_R_ARMS_ROCK"
+            <Part Id="PART_R_ARM_ROCK"
                   String="오른쪽 앞다리 (바위)" />
             <Part Id="PART_BODY_LEGS"
                   String="몸(+다리)" />
@@ -1478,27 +1478,27 @@
                    String="대집회소" />
             <Stage Id="15"
                    String="훈련장" />
-         </Wilds>
+        </Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
-                    String="비료 없음"/>
+                    String="비료 없음" />
         <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
-                    String="풀/열매 수확량 UP [소]"/>
+                    String="풀/열매 수확량 UP [소]" />
         <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
-                    String="풀/열매 수확량 UP [대]"/>
+                    String="풀/열매 수확량 UP [대]" />
         <Fertilizer Id="FERTILIZER_FUNGI_S_STRING"
-                    String="버섯 수확량 UP [소]"/>
+                    String="버섯 수확량 UP [소]" />
         <Fertilizer Id="FERTILIZER_FUNGI_L_STRING"
-                    String="버섯 수확량 UP [대]"/>
+                    String="버섯 수확량 UP [대]" />
         <Fertilizer Id="FERTILIZER_HONEY_S_STRING"
-                    String="벌레/벌꿀량 UP [소]"/>
+                    String="벌레/벌꿀량 UP [소]" />
         <Fertilizer Id="FERTILIZER_HONEY_L_STRING"
-                    String="벌레/벌꿀량 UP [대]"/>
+                    String="벌레/벌꿀량 UP [대]" />
         <Fertilizer Id="FERTILIZER_GROWTH_S_STRING"
-                    String="성장력 UP [소]"/>
+                    String="성장력 UP [소]" />
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING"
-                    String="성장력 UP [대]"/>
+                    String="성장력 UP [대]" />
     </Fertilizers>
     <Activities>
         <Wilds>
@@ -4235,6 +4235,12 @@
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
                      String="몬스터 부위 체력 표시"
                      Description="옵션 활성화 시, 몬스터의 부위 체력이 표시됩니다." />
+            <Setting Id="MONSTER_WIDGET_PARTS_AILMENTS_STACKING_STRING"
+                     String="부위 &amp; 상태 이상 정렬"
+                     Description="부위와 상태 이상 패널의 배치를 조절합니다.&#xA;- 세로: 상태 이상이 부위 패널의 상단에 표시됩니다.&#xA;- 가로: 상태 이상과 부위가 나란히 표시됩니다." />
+            <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
+                     String="열의 수"
+                     Description="몬스터 부위를 표시하는데 사용할 열의 수를 조절합니다." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="몬스터 부위 체력 자동 숨기기"
                      Description="옵션 활성화 시, 변동이 없는 몬스터의 부위 체력이 X초 후 숨겨집니다." />
@@ -4271,9 +4277,6 @@
             <Setting Id="ABNORMALITY_TRAY_ROWS_STRING"
                      String="행의 수"
                      Description="효과를 표시하는 데 사용할 행의 수를 설정합니다." />
-            <Setting Id="ABNORMALITY_TRAY_MAX_SIZE_STRING"
-                     String="최대 크기"
-                     Description="트레이의 최대 크기를 설정합니다." />
             <Setting Id="ABNORMALITY_TRAY_SORT_BY_STRING"
                      String="정렬 방법"
                      Description="상태 변화를 정렬하는 데 사용할 방법을 선택하세요." />
