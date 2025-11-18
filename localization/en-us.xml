@@ -4382,6 +4382,9 @@
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="Developer: Enable overlay manager debugging"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="Developer: Display time to render"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
