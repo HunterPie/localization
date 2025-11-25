@@ -60,6 +60,10 @@
                      String="Steel Fang" />
             <Ailment Id="AILMENT_CLASH"
                      String="Clash" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="Offset" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="Power Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -614,6 +618,8 @@
                   String="Upper Body" />
             <Part Id="PART_REAR"
                   String="Rear" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="Rear Power Unit" />
             <Part Id="PART_LOWER_BODY"
                   String="Lower Body" />
             <Part Id="PART_UPPER_BACK"
@@ -4381,6 +4387,9 @@
                      Description="If enabled, HunterPie will display the moon phases component." />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="Developer: Enable overlay manager debugging"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="Developer: Display time to render"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"
