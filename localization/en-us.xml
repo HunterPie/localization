@@ -60,6 +60,10 @@
                      String="Steel Fang" />
             <Ailment Id="AILMENT_CLASH"
                      String="Clash" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="Offset" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="Power Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -614,6 +618,8 @@
                   String="Upper Body" />
             <Part Id="PART_REAR"
                   String="Rear" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="Rear Power Unit" />
             <Part Id="PART_LOWER_BODY"
                   String="Lower Body" />
             <Part Id="PART_UPPER_BACK"
