@@ -62,6 +62,10 @@
                      String="怒り" />
             <Ailment Id="AILMENT_STEELFANG"
                      String="鋼鉄牙" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="相殺" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="鍔迫り合い" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -616,6 +620,8 @@
                   String="上半身" />
             <Part Id="PART_REAR"
                   String="尻" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="背中ユニット" />
             <Part Id="PART_LOWER_BODY"
                   String="下半身" />
             <Part Id="PART_UPPER_BACK"
@@ -2143,6 +2149,9 @@
                      Description="有効な場合、HunterPieは月の満ち欠けを表示します。" />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="開発: オーバーレイマネージャデバッガを有効化"
+                     Description="なんのことかわからなければ有効にしないでください。" />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="開発: レンダリング時間を表示"
                      Description="なんのことかわからなければ有効にしないでください。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開発: 疑似モンスターウィジェット"
