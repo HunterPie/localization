@@ -60,6 +60,10 @@
                      String="강철아" />
             <Ailment Id="AILMENT_CLASH"
                      String="힘 겨루기" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="상쇄" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="힘 겨루기" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -614,6 +618,8 @@
                   String="상반신" />
             <Part Id="PART_REAR"
                   String="엉덩이" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="후면 유닛" />
             <Part Id="PART_LOWER_BODY"
                   String="하반신" />
             <Part Id="PART_UPPER_BACK"
@@ -4381,6 +4387,9 @@
                      Description="옵션 활성화 시, HunterPie가 달의 위상을 표시합니다." />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="개발자: 오버레이 관리자 디버깅 활성화"
+                     Description="개발 목적이 아니라면 활성화하지 마십시오." />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="개발자: 렌더 시간 표시"
                      Description="개발 목적이 아니라면 활성화하지 마십시오." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="개발자: 모의 몬스터 위젯"
