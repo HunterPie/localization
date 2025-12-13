@@ -60,6 +60,10 @@
                      String="Steel Fang" />
             <Ailment Id="AILMENT_CLASH"
                      String="Clash" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="Offset" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="Power Clash" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -614,6 +618,8 @@
                   String="Upper Body" />
             <Part Id="PART_REAR"
                   String="Rear" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="Rear Power Unit" />
             <Part Id="PART_LOWER_BODY"
                   String="Lower Body" />
             <Part Id="PART_UPPER_BACK"
@@ -4235,6 +4241,12 @@
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
                      String="Enable monster parts"
                      Description="If enabled, monster parts will be enabled." />
+            <Setting Id="MONSTER_WIDGET_PARTS_AILMENTS_STACKING_STRING"
+                     String="Parts &amp; Ailments alignment"
+                     Description="Controls how the parts and ailments panels are going to be placed. &#xA;- Vertical: Ailments will appear on top of the Parts panel.&#xA;- Horizontal: Ailments and Parts will appear side-by-side." />
+            <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
+                     String="Columns"
+                     Description="Controls how many columns should be used to display monster parts." />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="Automatically hide monster parts"
                      Description="If enabled, inactive monster parts will be hidden after X seconds." />
@@ -4375,6 +4387,9 @@
                      Description="If enabled, HunterPie will display the moon phases component." />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="Developer: Enable overlay manager debugging"
+                     Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="Developer: Display time to render"
                      Description="DO NOT ENABLE IF YOU DO NOT KNOW WHAT YOU ARE DOING." />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="Developer: Mock Monster widget"

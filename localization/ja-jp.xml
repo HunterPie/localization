@@ -62,6 +62,10 @@
                      String="怒り" />
             <Ailment Id="AILMENT_STEELFANG"
                      String="鋼鉄牙" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="相殺" />
+            <Ailment Id="AILMENT_POWERCLASH"
+                     String="鍔迫り合い" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -616,6 +620,8 @@
                   String="上半身" />
             <Part Id="PART_REAR"
                   String="尻" />
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="背中ユニット" />
             <Part Id="PART_LOWER_BODY"
                   String="下半身" />
             <Part Id="PART_UPPER_BACK"
@@ -1997,6 +2003,12 @@
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
                      String="部位を有効化"
                      Description="有効な場合、部位毎の怯み値が表示されます。" />
+            <Setting Id="MONSTER_WIDGET_PARTS_AILMENTS_STACKING_STRING"
+                     String="部位と状態異常の配置方式"
+                     Description="部位と状態異常のパネルの配置方法を制御します。&#xA;- 縦: 状態異常は部位パネルの上に表示されます。&#xA;- 横: 状態異常と部位は横に並んで表示されます。" />
+            <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
+                     String="列数"
+                     Description="モンスターの部位を表示するために使用される列の数を制御します。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="部位を自動非表示"
                      Description="有効な場合、指定時間以内に攻撃されていない部位は自動的に非表示になります。" />
@@ -2007,7 +2019,7 @@
                      String="状態異常を有効化"
                      Description="有効な場合、モンスターの状態異常値が表示されます。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_STRING"
-                     String="状態異常を自動表示"
+                     String="状態異常を自動非表示"
                      Description="有効な場合、指定時間以内に更新されていない状態異常は自動的に非表示になります。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_AILMENTS_DELAY_STRING"
                      String="状態異常を非表示にするまでの時間"
@@ -2137,6 +2149,9 @@
                      Description="有効な場合、HunterPieは月の満ち欠けを表示します。" />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="開発: オーバーレイマネージャデバッガを有効化"
+                     Description="なんのことかわからなければ有効にしないでください。" />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="開発: レンダリング時間を表示"
                      Description="なんのことかわからなければ有効にしないでください。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開発: 疑似モンスターウィジェット"
