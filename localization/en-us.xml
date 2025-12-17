@@ -1482,6 +1482,8 @@
                    String="Dragontorch Shrine" />
             <Stage Id="12"
                    String="Suja, Peaks of Accord" />
+            <Stage Id="13"
+                   String="Forgotten Machineworks" />
             <Stage Id="14"
                    String="Grand Hub" />
             <Stage Id="15"
