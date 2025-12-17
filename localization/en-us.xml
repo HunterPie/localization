@@ -1282,6 +1282,8 @@
                      String="Gore Magala" />
             <Monster Id="11"
                      String="Seregios" />
+            <Monster Id="12"
+                     String="Gogmazios" />
             <Monster Id="13"
                      String="Mizutsune" />
             <Monster Id="14"
