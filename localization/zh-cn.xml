@@ -5,7 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.14.0.52-->
+<!--Miyauchi Renge#1248跟进us版更新，更新ver2.14.0.130-->
 
 <Strings lang="Simplified Chinese">
     <Ailments>
@@ -68,7 +68,12 @@
                      String="激怒"/>
             <Ailment Id="AILMENT_STEELFANG"
                      String="钢铁牙" />
+            <!--TODO:下面本来翻译为角力，后来作者添加了角力的正确翻译，而且没找到该句在软件中哪里体现，所以先恢复原文-->
             <Ailment Id="AILMENT_CLASH"
+                     String="Clash" />
+            <Ailment Id="AILMENT_OFFSET"
+                     String="抵消" />
+            <Ailment Id="AILMENT_POWERCLASH"
                      String="角力" />
         </Rise>
     </Ailments>
@@ -628,6 +633,8 @@
                   String="上半身"/>
             <Part Id="PART_REAR"
                   String="臀部"/>
+            <Part Id="PART_REAR_POWER_UNIT"
+                  String="背部组" />
             <Part Id="PART_LOWER_BODY"
                   String="下半身"/>
             <Part Id="PART_UPPER_BACK"
@@ -4239,14 +4246,29 @@
                      Description="控制紧凑模式中使用多少列，如果怪物数量多于可用列数，则下一个怪物将显示在新行中。" />
             <!--怪物组件-->
             <Setting Id="MONSTER_WIDGET_SHOW_ONLY_TARGET_STRING"
-                     String="只显示当前狩猎目标"
-                     Description="开启后，HunterPie将只显示你的当前狩猎怪物。"/>
+                     String="只显示目标怪物"
+                     Description="开启后，HunterPie 仅显示当前目标怪物。"/>
             <Setting Id="MONSTER_WIDGET_ENABLE_TARGETING"
                      String="启用怪物目标锁定"
                      Description="启用后，当使用首选方式锁定怪物时，HunterPie 会显示该怪物的详细信息。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_MONSTER_TYPE_STRING"
+                     String="显示怪物类型"
+                     Description="开启后，HunterPie 会在怪物名字上方显示怪物类型。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_HEALTH_STRING"
+                     String="显示怪物血条"
+                     Description="开启后，HunterPie 会显示怪物的血量条。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_HEALTH_TEXT_STRING"
+                     String="显示血量数值"
+                     Description="开启后，HunterPie 会在怪物血条上方显示血量数值。" />
             <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_STRING"
-                     String="显示怪物耐力值"
+                     String="显示怪物耐力条"
                      Description="开启后，HunterPie在怪物的血量条下方显示怪物的耐力条。"/>
+            <Setting Id="MONSTER_WIDGET_ENABLE_STAMINA_TEXT_STRING"
+                     String="显示怪物耐力数值"
+                     Description="开启后，HunterPie 会在怪物耐力条下方显示耐力数值。" />
+            <Setting Id="MONSTER_WIDGET_ENABLE_WEAKNESS_STRING"
+                     String="显示怪物弱点"
+                     Description="开启后，HunterPie 会在怪物耐力条下方显示弱点信息。" />
             <Setting Id="MONSTER_WIDGET_MAX_WIDTH_STRING"
                      String="怪物组件最大宽度"
                      Description="控制怪物生命条的最大宽度。"/>
@@ -4259,6 +4281,12 @@
             <Setting Id="MONSTER_WIDGET_ENABLE_PARTS_STRING"
                      String="显示怪物部位信息"
                      Description="开启后，HunterPie会显示怪物部位。"/>
+            <Setting Id="MONSTER_WIDGET_PARTS_AILMENTS_STACKING_STRING"
+                     String="部位与异常状态排列方式"
+                     Description="控制部位面板和异常状态面板的显示方式。&#xA;- 垂直：异常状态面板显示在部位面板上方。&#xA;- 水平：异常状态面板与部位面板并排显示。" />
+            <Setting Id="MONSTER_WIDGET_PARTS_COLUMNS_STRING"
+                     String="列数"
+                     Description="控制显示怪物部位时使用的列数。" />
             <Setting Id="MONSTER_WIDGET_AUTO_HIDE_PARTS_STRING"
                      String="自动隐藏怪物部位信息"
                      Description="开启后，不活跃的怪物部位信息将在X秒后隐藏。"/>
@@ -4405,58 +4433,61 @@
             <!--开发者组件-->
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="开发者：启用覆盖层管理器调试"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="开发者：显示渲染时间"
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="开发者选项：模拟怪物小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_DAMAGE_WIDGET_STRING"
                      String="开发者选项：模拟伤害统计小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_ABNORMALITY_WIDGET_STRING"
                      String="开发者选项：模拟状态异常小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_WIREBUG_WIDGET_STRING"
                      String="开发者选项：模拟翔虫小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_ACTIVITIES_WIDGET_STRING"
                      String="开发者选项：模拟据点活动小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_CHAT_WIDGET_STRING"
                      String="开发者选项：模拟聊天小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_PLAYER_HUD_WIDGET_STRING"
                      String="开发者选项：模拟玩家界面小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_INSECT_GLAIVE_WIDGET_STRING"
                      String="开发者选项：模拟操虫棍小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_CHARGE_BLADE_WIDGET_STRING"
                      String="开发者选项：模拟盾斧小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_DUAL_BLADES_WIDGET_STRING"
                      String="开发者选项：模拟双刀小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_SPECIALIZED_TOOL_WIDGET_STRING"
                      String="开发者选项：模拟特殊装备小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿启用这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_SWITCH_AXE_WIDGET_STRING"
                      String="开发者选项：模拟斩斧小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_LONG_SWORD_WIDGET_STRING"
                      String="开发者选项：模拟太刀小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_MOCK_CLOCK_WIDGET_STRING"
                      String="开发者选项：模拟时钟小部件"
-                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
                      String="开发者选项: Poogie API Host"
-                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <Setting Id="DEV_LOG_LEVEL"
                      String="开发者选项: 日志等级"
                      Description="显示在控制台上的Log的最低等级。" />
             <Setting Id="DEV_PRESENTATION_TRACER_LEVEL"
                      String="开发者选项: UI渲染追踪等级"
-                     Description="如果你并不完全明白自己在做什么，请勿更改这个选项。" />
+                     Description="非开发者请勿开启此选项。" />
             <!-- 账号 -->
             <Setting Id="ACCOUNT_ENABLE_BACKUP_STRING"
                      String="启用游戏存档自动备份"
@@ -4471,7 +4502,9 @@
             <Group Id="CONFIGURATION_GROUP_GENERAL"
                    String="通用设置" />
             <Group Id="CONFIGURATION_GROUP_CUSTOMIZATIONS"
-                   String="自定义" />
+                   String="自定义设置" />
+            <Group Id="CONFIGURATION_GROUP_MONSTER_FILTERS"
+                   String="怪物筛选" />
             <Group Id="CONFIGURATION_GROUP_MONSTER_TARGET"
                    String="目标" />
             <Group Id="CONFIGURATION_GROUP_MONSTER_PARTS"
