@@ -1302,6 +1302,8 @@
                      String="黑蚀龙"/>
             <Monster Id="11"
                      String="千刃龙" />
+            <Monster Id="12"
+                     String="巨戟龙" />
             <Monster Id="13"
                      String="泡狐龙" />
             <Monster Id="14"
@@ -1500,6 +1502,8 @@
                    String="龙灯圣庙" />
             <Stage Id="12"
                    String="交汇之峰酥加" />
+            <Stage Id="13"
+                   String="遗忘的机械废墟" />
             <Stage Id="14"
                    String="集会所" />
             <Stage Id="15"
@@ -1508,7 +1512,7 @@
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING"
-                    String="空" />
+                    String="无肥料" />
         <Fertilizer Id="FERTILIZER_PLANT_S_STRING"
                     String="草与果实收获量提升【小】" />
         <Fertilizer Id="FERTILIZER_PLANT_L_STRING"
