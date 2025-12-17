@@ -4519,7 +4519,7 @@
                         String="Running..." />
             <CallToAction Id="DISCORD_CALL_TO_ACTION"
                           String="Discord"
-                          Description="Has any questions or technical issues? Get assistance from our team and community." />
+                          Description="Have any questions or technical issues? Get assistance from our team and community." />
             <CallToAction Id="DOCUMENTATION_CALL_TO_ACTION"
                           String="Documentation"
                           Description="Learn more about HunterPie's features and how to use them." />
