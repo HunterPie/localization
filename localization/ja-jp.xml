@@ -1530,6 +1530,28 @@
             </MaterialRetrieval>
         </Wilds>
     </Activities>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="夜霧" />
+            <Npc Id="27"
+                 String="アレサ" />
+            <Npc Id="25"
+                 String="ミナ" />
+            <Npc Id="17"
+                 String="カイ" />
+            <Npc Id="15"
+                 String="グリフィン" />
+            <Npc Id="12"
+                 String="ナディア" />
+            <Npc Id="9"
+                 String="オリビア" />
+            <Npc Id="6"
+                 String="ロッソ" />
+            <Npc Id="4"
+                 String="ファビウス" />
+        </Wilds>
+    </Npcs>
     <Client>
         <Main>
             <!-- Hunt Export -->
