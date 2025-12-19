@@ -3716,6 +3716,28 @@
                    String="흑굉룡은 상처받지 않는다" />
         </World>
     </Quests>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="밤안개" />
+            <Npc Id="27"
+                 String="아레사" />
+            <Npc Id="25"
+                 String="미나" />
+            <Npc Id="17"
+                 String="카이" />
+            <Npc Id="15"
+                 String="그리핀" />
+            <Npc Id="12"
+                 String="나디아" />
+            <Npc Id="9"
+                 String="올리비아" />
+            <Npc Id="6"
+                 String="로쏘" />
+            <Npc Id="4"
+                 String="파비우스" />
+        </Wilds>
+    </Npcs>
     <SpecializedTools>
         <Tool Id="GHILLIE_MANTLE"
               String="은신 복장" />
