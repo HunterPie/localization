@@ -31,7 +31,9 @@
             <Ailment Id="AILMENT_BANISHINGBALL" String="撤退彈"/>
             <Ailment Id="STATUS_ENRAGE" String="憤怒"/>
 	        <Ailment Id="AILMENT_STEELFANG" String="鋼鐵牙" />
-            <Ailment Id="AILMENT_CLASH" String="角力" />
+            <Ailment Id="AILMENT_CLASH" String="Clash" />
+            <Ailment Id="AILMENT_OFFSET" String="連消帶打" />
+            <Ailment Id="AILMENT_POWERCLASH" String="角力" />
         </Rise>
    </Ailments>
 	<Abnormalities>
@@ -314,6 +316,7 @@
             <Part Id="PART_BODY" String="身體"/>
             <Part Id="PART_UPPER_BODY" String="上半身"/>
             <Part Id="PART_REAR" String="背部"/>
+			<Part Id="PART_REAR_POWER_UNIT" String="背部元件" />
             <Part Id="PART_LOWER_BODY" String="下半身"/>
             <Part Id="PART_UPPER_BACK" String="背部上方"/>
             <Part Id="PART_LOWER_BACK" String="背部下方"/>
@@ -649,6 +652,7 @@
             <Monster Id="9" String="影蜘蛛" />
             <Monster Id="10" String="黑蝕龍" />
 	    	<Monster Id="11" String="千刃龍" />
+		    <Monster Id="12" String="巨戟龍" />
 	    	<Monster Id="13" String="泡狐龍" />
             <Monster Id="14" String="護雷顎龍" />
             <Monster Id="15" String="護兇爪龍" />
@@ -686,6 +690,7 @@
             <Stage Id="6" String="艾爾卡多"/>
             <Stage Id="7" String="房間"/>
             <Stage Id="11" String="騎士團指揮部"/>
+            <Stage Id="13" String="被遺忘的機械廢墟" />
             <Stage Id="199" String="角色選擇"/>
             <Stage Id="201" String="大社遺跡"/>
             <Stage Id="202" String="沙原"/>
@@ -3575,8 +3580,11 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                       String="顯示月相"
                       Description="如果啟用，HunterPie將顯示月相的資訊。" />
-              <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
-                     String="開發者：啟用覆蓋層管理器除錯功能"
+            <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
+                     String="開發人員：啟用覆蓋層管理器除錯功能"
+                     Description="若您不確定其用途，請勿啟用。" />
+            <Setting Id="DEV_OVERLAY_ENABLE_RENDER_TIME"
+                     String="開發人員：顯示渲染時間"
                      Description="若您不確定其用途，請勿啟用。" />
             <Setting Id="DEV_MOCK_MONSTER_WIDGET_STRING"
                      String="開發人員：模擬魔物功能"/>
@@ -3618,7 +3626,7 @@
                      String="開發人員: 模擬時鐘小工具"
                      Description="若您不確定其用途，請勿啟用。" />					 
             <Setting Id="DEV_POOGIE_API_HOST_STRING"
-                     String="開發者：Poogie API 主機"/> 
+                     String="開發人員：Poogie API 主機"/> 
             <Setting Id="DEV_LOG_LEVEL"
                      String="開發人員: Log level"
                      Description="在控制台中顯示日誌的最低等級" />
@@ -3753,6 +3761,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
