@@ -1282,6 +1282,8 @@
                      String="Gore Magala" />
 			<Monster Id="11"
                      String="Seregios" />
+            <Monster Id="12"
+                     String="Gogmazios" />
             <Monster Id="13"
                      String="Mizutsune" />
             <Monster Id="14"
@@ -1480,6 +1482,8 @@
                    String="Sanctuaire de la Torche" />
             <Stage Id="12"
                    String="Suja, cimes de la concorde" />
+            <Stage Id="13"
+                   String="Machinerie oubliée" />
             <Stage Id="14"
                    String="Grand-Camp" />
             <Stage Id="15"
@@ -3712,6 +3716,28 @@
                    String="Une brute flambant neuve" />
         </World>
     </Quests>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="Nuée" />
+            <Npc Id="27"
+                 String="Alessa" />
+            <Npc Id="25"
+                 String="Mina" />
+            <Npc Id="17"
+                 String="Kai" />
+            <Npc Id="15"
+                 String="Griffin" />
+            <Npc Id="12"
+                 String="Nadia" />
+            <Npc Id="9"
+                 String="Olivia" />
+            <Npc Id="6"
+                 String="Rosso" />
+            <Npc Id="4"
+                 String="Fabius" />
+        </Wilds>
+    </Npcs>
     <SpecializedTools>
         <Tool Id="GHILLIE_MANTLE"
               String="Cape caméléon" />
