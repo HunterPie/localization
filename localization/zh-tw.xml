@@ -2982,6 +2982,19 @@
                    String="黑轟龍不會受傷" />
         </World>
     </Quests>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29" String="夜霧" />
+            <Npc Id="27" String="阿蕾莎" />
+            <Npc Id="25" String="米納" />
+            <Npc Id="17" String="凱" />
+            <Npc Id="15" String="葛里芬" />
+            <Npc Id="12" String="娜迪亞" />
+            <Npc Id="9" String="奧莉維亞" />
+            <Npc Id="6" String="羅素" />
+            <Npc Id="4" String="法比烏斯" />
+        </Wilds>
+    </Npcs>
     <SpecializedTools>
         <Tool Id="GHILLIE_MANTLE" String="隱身衣裝" />
         <Tool Id="TEMPORAL_MANTLE" String="轉身衣裝" />
@@ -3761,6 +3774,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
