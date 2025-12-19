@@ -3716,6 +3716,28 @@
                    String="Brand New Brute" />
         </World>
     </Quests>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="Nightmist" />
+            <Npc Id="27"
+                 String="Alessa" />
+            <Npc Id="25"
+                 String="Mina" />
+            <Npc Id="17"
+                 String="Kai" />
+            <Npc Id="15"
+                 String="Griffin" />
+            <Npc Id="12"
+                 String="Nadia" />
+            <Npc Id="9"
+                 String="Olivia" />
+            <Npc Id="6"
+                 String="Rosso" />
+            <Npc Id="4"
+                 String="Fabius" />
+        </Wilds>
+    </Npcs>
     <SpecializedTools>
         <Tool Id="GHILLIE_MANTLE"
               String="Ghilie Mantle" />
