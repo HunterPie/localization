@@ -3749,6 +3749,28 @@
                    String="黑轰龙不会受伤" />
         </World>
     </Quests>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="夜雾" />
+            <Npc Id="27"
+                 String="艾丽莎" />
+            <Npc Id="25"
+                 String="米娜" />
+            <Npc Id="17"
+                 String="凯" />
+            <Npc Id="15"
+                 String="格里芬" />
+            <Npc Id="12"
+                 String="娜迪亚" />
+            <Npc Id="9"
+                 String="奥利维娅" />
+            <Npc Id="6"
+                 String="罗索" />
+            <Npc Id="4"
+                 String="法比乌斯" />
+        </Wilds>
+    </Npcs>
     <SpecializedTools>
         <Tool Id="GHILLIE_MANTLE"
               String="隐身衣装" />
