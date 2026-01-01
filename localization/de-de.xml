@@ -377,7 +377,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_EXHAUST_ORGAN_CENTRAL" String="Erschöpftes Organ (Zentral)"/>
             <Part Id="PART_EXHAUST_ORGAN_HEAD" String="Erschöpftes Organ (Kopf)"/>
             <Part Id="PART_EXHAUST_ORGAN_CRATER" String="Erschöpftes Organ (Krater)"/>
-            <Part Id="PART_EXHAUST_ORGAN_" String="Erschöpftes Organ (Rückseite)"/>
+            <Part Id="PART_EXHAUST_ORGAN_REAR" String="Erschöpftes Organ (Rückseite)"/>
             <Part Id="PART_REPEL" String="Abstoßen"/>
             <Part Id="PART_WEAK_L_SHELL" String="Linker Schwache Panzer"/>
             <Part Id="PART_WEAK_R_SHELL" String="Rechter Schwache Panzer"/>
