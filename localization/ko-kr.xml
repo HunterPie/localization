@@ -4390,6 +4390,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="총 대미지 표시"
                      Description="옵션 활성화 시, HunterPie가 각 플레이어의 총 대미지를 표시합니다." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="플레이어 상태 표시"
+                     Description="옵션 활성화 시, HunterPie가 각 플레이어의 상태를 표시합니다." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="플레이어 회심률 표시"
+                     Description="옵션 활성화 시, HunterPie가 각 플레이어의 현재 회심률을 표시합니다." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="플레이어 기초 공격력 표시"
+                     Description="옵션 활성화 시, HunterPie가 각 플레이어의 현재 기초 공격력을 표시합니다." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="플레이어 속성치 표시"
+                     Description="옵션 활성화 시, HunterPie가 각 플레이어의 현재 속성치를 표시합니다." />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="평균 이동 DPS 그래프 활성화"
                      Description="옵션 활성화 시, HunterPie가 지난 몇 초간의 평균 DPS를 기반으로 당신의 DPS를 표시합니다. 샘플링은 샘플링 비율에서 설정할 수 있습니다." />
@@ -4529,6 +4541,8 @@
                    String="계정" />
             <Group Id="CONFIGURATION_GROUP_FLAGS"
                    String="기능 플래그" />
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS"
+                   String="장비 상태" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
