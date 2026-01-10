@@ -4390,6 +4390,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="Show total damage"
                      Description="If enabled, HunterPie will display each player's total damage." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="Show player status"
+                     Description="If enabled, HunterPie will display each player's status." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="Show player affinity"
+                     Description="If enabled, HunterPie will display each player's current affinity." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="Show player true raw damage"
+                     Description="If enabled, HunterPie will display each player's current true raw damage." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="Show player elemental damage"
+                     Description="If enabled, HunterPie will display each player's current elemental damage." />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="Enable moving average DPS plotting"
                      Description="If enabled, HunterPie will plot your average DPS for the last X seconds, at X second intervals (can be customized via Plot sampling rate setting)." />
@@ -4529,6 +4541,8 @@
                    String="ACCOUNT" />
             <Group Id="CONFIGURATION_GROUP_FLAGS"
                    String="FEATURE FLAGS" />
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS"
+                   String="GEAR STATUS" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
