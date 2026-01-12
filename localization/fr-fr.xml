@@ -4390,6 +4390,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="Afficher les dégâts totaux"
                      Description="Si activé, HunterPie affichera les dégâts totaux de chaque joueur." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="Afficher le statut du joueur"
+                     Description="Si activé, HunterPie affichera le statut de chaque joueur." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="Afficher l'affinité du joueur"
+                     Description="Si activé, HunterPie affichera l'affinité actuelle de chaque joueur." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="Afficher les dégâts bruts réels"
+                     Description="Si activé, HunterPie affichera les dégâts bruts réels actuels de chaque joueur." />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="Afficher les dégâts élémentaires"
+                     Description="Si activé, HunterPie affichera les dégâts élémentaires actuels de chaque joueur." />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="Activer le tracé de DPS moyens mobiles"
                      Description="Si activé, HunterPie tracera vos DPS moyens sur les X dernières secondes, à intervalles de X secondes (personnalisable via le paramètre Taux d'échantillonnage)." />
@@ -4529,6 +4541,8 @@
                    String="COMPTE" />
             <Group Id="CONFIGURATION_GROUP_FLAGS"
                    String="FONCTIONNALITÉS" />
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS"
+                   String="ÉTAT DE L’ÉQUIPEMENT" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"

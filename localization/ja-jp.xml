@@ -2152,6 +2152,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="総ダメージ量を表示"
                      Description="有効な場合、HunterPieは各プレイヤーの総ダメージ量を表示します。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="プレイヤーステータスを表示"
+                     Description="有効な場合、HunterPieは各プレイヤーのステータスを表示します。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="プレイヤーの会心率を表示"
+                     Description="有効な場合、HunterPieは各プレイヤーの現在の会心率を表示します。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="プレイヤーの真のダメージを表示"
+                     Description="有効な場合、HunterPieは各プレイヤーの現在の真のダメージを表示します。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="プレイヤーの属性ダメージを表示"
+                     Description="有効な場合、HunterPieは各プレイヤーの現在の属性ダメージを表示します。" />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="移動平均DPSプロットを有効にする"
                      Description="有効な場合、HunterPieは最後のX秒間の平均DPSをX秒間隔でプロットします（プロットサンプリングレート設定でカスタマイズ可能）。" />
@@ -2291,6 +2303,8 @@
                    String="アカウント" />
             <Group Id="CONFIGURATION_GROUP_FLAGS"
                    String="FEATURE FLAGS" />
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS"
+                   String="装備ステータス" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
