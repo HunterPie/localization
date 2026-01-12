@@ -5,8 +5,7 @@
 <!--四次补充翻译by LuTianxing#3785，由陆天行与rafflesia共同完成-->
 <!--补充 Wils 翻译by Miyauchi Renge#1248, 233-ayusummer 可以检索TODO部分查看一些尚未确定的遗留问题-->
 <!--补充 Rise、World任务 翻译by Miyauchi Renge#1248，任务实在太多难免有看错的地方若有错误麻烦修正-->
-<!--Miyauchi Renge#1248跟进us版更新，更新ver2.14.0.130-->
-
+<!-- Miyauchi Renge#1248：内容太多基本上是摸鱼翻译没有全部和游戏当中显示对应，有不对应的方麻烦修正-->
 <Strings lang="Simplified Chinese">
     <Ailments>
         <Rise>
@@ -79,7 +78,7 @@
     </Ailments>
     <Abnormalities>
         <Abnormality Id="ABNORMALITY_UNKNOWN"
-                     String="未知状态" />
+                     String="Unknown" />
         <Abnormality Id="ABNORMALITY_SELF_IMPROVEMENT"
                      String="自我强化" />
         <Abnormality Id="ABNORMALITY_ATTACK_UP"
@@ -574,7 +573,7 @@
             <Part Id="PART_UNKNOWN"
                   String="???" />
             <Part Id="PART_TO_BE_MAPPED"
-                  String="未知部位"/>
+                  String="Unknown" />
             <Part Id="PART_HEAD"
                   String="头部"/>
             <Part Id="PART_TORSO"
@@ -655,16 +654,15 @@
                   String="右爪"/>
             <Part Id="PART_L_CLAW"
                   String="左爪"/>
-            <!--下面两个词条应该是左/右前肢和左/右前腿，但是没有分开-->
             <Part Id="PART_L_FORELEG"
                   String="左前肢"/>
             <Part Id="PART_R_FORELEG"
                   String="右前肢"/>
             <Part Id="PART_L_H_LEG"
-                  String="左后腿"/>
+                  String="左后肢"/>
             <Part Id="PART_R_H_LEG"
-                  String="右后腿"/>
-           <!--荒野当中为后肢，大型怪物图鉴当中有后腿和后肢的区别-->
+                  String="右后肢"/>
+            <!--TODO:辟兽缠蛙此类怪使用，翻译为后肢，如有错误麻烦改正-->
             <Part Id="PART_L_H_FORELEG"
                   String="左后肢"/>
             <Part Id="PART_R_H_FORELEG"
@@ -674,7 +672,7 @@
             <Part Id="PART_CHEST"
                   String="胸部"/>
             <Part Id="PART_TAIL_TIP"
-                  String="尾尖"/>
+                  String="尾巴尖"/>
             <Part Id="PART_MUD_BALL"
                   String="泥土球"/>
             <Part Id="PART_LOWER_TORSO"
@@ -915,17 +913,17 @@
             <Part Id="PART_R_WINGARM_CRYSTALIZED"
                   String="右翼臂（白缠晶）" />
             <Part Id="PART_SUPERHEAT"
-                  String="超高热状态" />
+                  String="高温状态" />
             <Part Id="PART_CEILING_FALL"
                   String="悬挂掉落" />
             <Part Id="PART_SACK_COLLAPSE"
-                  String="囊体崩塌（泄气）" />
+                  String="瓦斯囊崩塌" />
             <Part Id="PART_HEAD_SACK"
-                  String="头部囊体" />
+                  String="头部瓦斯囊" />
             <Part Id="PART_BACK_SACK"
-                  String="背部囊体" />
+                  String="背部瓦斯囊" />
             <Part Id="PART_TAIL_SACK"
-                  String="尾部囊体" />
+                  String="尾部瓦斯囊" />
             <Part Id="PART_FIRE_STATE"
                   String="火焰状态" />
             <!--这个是火章鱼进怒前手上有油和进怒后手上有火-->
@@ -953,11 +951,10 @@
                   String="第三左触手（油）" />
             <Part Id="PART_REAR_R_ARM_OIL"
                   String="第三右触手（油）" />
-            <!--这个是缠蛙把地上的东西粘在手上的强化状态-->
             <Part Id="PART_L_FORELEG_REINFORCED"
-                  String="左前肢（强化）" />
+                  String="左前肢（粘有附着物）" />
             <Part Id="PART_R_FORELEG_REINFORCED"
-                  String="右前肢（强化）" />
+                  String="右前肢（粘有附着物）" />
             <Part Id="PART_CRASH"
                   String="坠落" />
             <Part Id="PART_AIR_FLINCH"
@@ -967,9 +964,9 @@
             <Part Id="PART_FEIGN_DEATH"
                   String="假死" />
             <Part Id="PART_L_WINGARM_EXPOSED"
-                  String="左翼足 (暴露)" />
+                  String="左翼臂 (暴蚀化)" />
             <Part Id="PART_R_WINGARM_EXPOSED"
-                  String="右翼足 (暴露)" />
+                  String="右翼臂 (暴蚀化)" />
         </Shared>
         <Rise>
             <Monster Id="0"
@@ -1989,13 +1986,13 @@
                    String="斗技大会 05" />
             <Quest Id="20702"
                    String="斗技大会 06" />
-            <!--TODO:下面三项任务没有印象知道的可以进行补充-->
+            <!--训练任务-->
             <Quest Id="30101"
-                   String="Back to Basics" />
+                   String="来复习一下狩猎的基础吧！" />
             <Quest Id="30102"
-                   String="Learning to Ride" />
+                   String="来复习一下如何御龙吧！" />
             <Quest Id="30103"
-                   String="The Basics of Capturing Monsters" />
+                   String="来复习一下如何捕获吧！" />
             <!--活动任务-->
             <Quest Id="60002"
                    String="称号・武士之心" />
@@ -2706,17 +2703,17 @@
         </Rise>
         <World>
             <Quest Id="0"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="1"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="2"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="3"
-                   String="无效信息" />
+                   String="Invalid Message" />
             <Quest Id="4"
-                   String="无效信息" />
+                   String="Invalid Message" />
             <Quest Id="5"
-                   String="无效信息" />
+                   String="Invalid Message" />
             <Quest Id="101"
                    String="贼龙与古代树森林" />
             <Quest Id="102"
@@ -3346,25 +3343,25 @@
             <Quest Id="5003"
                    String="击退眩鸟吧！" />
             <Quest Id="30000"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30001"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30002"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30003"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30004"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30005"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30006"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30007"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30008"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="30009"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="50601"
                    String="来自异世界的访客" />
             <Quest Id="50701"
@@ -3424,9 +3421,9 @@
             <Quest Id="51623"
                    String="迎接终焉之金光" />
             <Quest Id="51624"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="51625"
-                   String="不可用" />
+                   String="Unavailable" />
             <Quest Id="61101"
                    String="清晨大骚动" />
             <Quest Id="61103"
@@ -4435,6 +4432,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE"
                      String="显示总伤害"
                      Description="启用后，HunterPie 将显示每位玩家的总伤害数值。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="显示玩家状态"
+                     Description="启用后，HunterPie 将显示每位玩家的状态。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="显示玩家会心率"
+                     Description="启用后，HunterPie 将显示每位玩家当前的会心率。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="显示玩家真实攻击力"
+                     Description="启用后，HunterPie 将显示每位玩家当前的真实攻击力。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="显示玩家属性值"
+                     Description="启用后，HunterPie 将显示每位玩家当前的属性值。" />
             <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="启用时间段平均DPS图表"
                      Description="启用后，HunterPie 将按每 X 秒的间隔绘制你过去 X 秒的平均DPS图表（采样率可自定义）。" />
