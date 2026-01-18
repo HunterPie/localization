@@ -64,6 +64,16 @@
                      String="Offset" />
             <Ailment Id="AILMENT_POWERCLASH"
                      String="Power Clash" />
+            <Ailment Id="AILMENT_FLAYER_PL1"
+                     String="Flayer PL1" />
+            <Ailment Id="AILMENT_FLAYER_PL2"
+                     String="Flayer PL2" />
+            <Ailment Id="AILMENT_FLAYER_PL3"
+                     String="Flayer PL3" />
+            <Ailment Id="AILMENT_FLAYER_PL4"
+                     String="Flayer PL4" />
+            <Ailment Id="AILMENT_CONVERT_ELEMENT"
+                     String="Convert Element" />
         </Rise>
     </Ailments>
     <Abnormalities>
