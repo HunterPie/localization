@@ -34,6 +34,11 @@
             <Ailment Id="AILMENT_CLASH" String="Clash" />
             <Ailment Id="AILMENT_OFFSET" String="連消帶打" />
             <Ailment Id="AILMENT_POWERCLASH" String="角力" />
+            <Ailment Id="AILMENT_FLAYER_PL1" String="鎖刃刺擊PL1" />
+            <Ailment Id="AILMENT_FLAYER_PL2" String="鎖刃刺擊PL2" />
+            <Ailment Id="AILMENT_FLAYER_PL3" String="鎖刃刺擊PL3" />
+            <Ailment Id="AILMENT_FLAYER_PL4" String="鎖刃刺擊PL4" />
+            <Ailment Id="AILMENT_CONVERT_ELEMENT" String="屬性轉換" />
         </Rise>
    </Ailments>
 	<Abnormalities>
@@ -3572,6 +3577,18 @@
             <Setting Id="DAMAGE_METER_SHOULD_SHOW_DAMAGE" 
                      String="顯示總傷害" 
                      Description="如果啟用，HunterPie將顯示每位玩家的總傷害。"/> 
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_STATUS"
+                     String="顯示玩家狀態"
+                     Description="如果啟用，HunterPie 將顯示每位玩家的狀態。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_AFFINITY"
+                     String="顯示玩家會心率"
+                     Description="如果啟用，HunterPie 將顯示每位玩家目前的會心率。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_RAW_DAMAGE"
+                     String="顯示玩家真實傷軎值"
+                     Description="如果啟用，HunterPie 將顯示每位玩家目前的真實傷軎值。" />
+            <Setting Id="DAMAGE_METER_SHOULD_SHOW_ELEMENTAL_DAMAGE"
+                     String="顯示玩家屬性傷軎值"
+                     Description="如果啟用，HunterPie 將顯示每位玩家目前的屬性傷軎值。" />
 	        <Setting Id="DAMAGE_METER_ENABLE_SLIDING_WINDOW"
                      String="顯示移動平均DPS圖表"
                      Description="如果啟用，HunterPie 將以每 X 秒為間隔，繪制你在過去 X 秒內的平均DPS圖表（可通過採樣率設定進行自定義）" />
@@ -3755,6 +3772,7 @@
             <Group Id="CONFIGURATION_GROUP_OVERLAY" String="覆蓋層"/>
             <Group Id="CONFIGURATION_GROUP_ACCOUNT" String="帳號"/>
             <Group Id="CONFIGURATION_GROUP_FLAGS" String="功能開關"/>
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS" String="裝備資訊" />
         </ConfigurationGroups>
 	<Home> <!-- Needs to translate -->
             <GameStatus Id="NOT_FOUND"
@@ -3774,6 +3792,7 @@
         </Home>
     </Client>
 </Strings>    
+
 
 
 
