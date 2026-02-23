@@ -74,6 +74,16 @@
                      String="抵消" />
             <Ailment Id="AILMENT_POWERCLASH"
                      String="角力" />
+            <Ailment Id="AILMENT_FLAYER_PL1"
+                     String="锁刃刺击 PL1" />
+            <Ailment Id="AILMENT_FLAYER_PL2"
+                     String="锁刃刺击 PL2" />
+            <Ailment Id="AILMENT_FLAYER_PL3"
+                     String="锁刃刺击 PL3" />
+            <Ailment Id="AILMENT_FLAYER_PL4"
+                     String="锁刃刺击 PL4" />
+            <Ailment Id="AILMENT_CONVERT_ELEMENT"
+                     String="属性变换" />
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -4584,6 +4594,8 @@
                    String="账户" />
             <Group Id="CONFIGURATION_GROUP_FLAGS"
                    String="功能标志" />
+            <Group Id="CONFIGURATION_GROUP_GEAR_STATUS"
+                   String="装备状态" />
         </ConfigurationGroups>
         <Home>
             <GameStatus Id="NOT_FOUND"
