@@ -6,6 +6,9 @@
 
 Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, auch bitte neue Ergänzungen an die Stelle packen, wie in der englischen Übersetzung zu finden.
                                 Falls ihr diese Stelle nicht übersetzt oder übersetzen könnt, kommentiert diese Zeile!
+
+30.12.2025 - Ergänzung/Update auf Wilds TU4 durch Linathia
+
 -->
 <Strings lang="German">
     <Ailments>
@@ -27,7 +30,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_THUNDER" String="Donnerbrand"/>
             <Ailment Id="AILMENT_DUNG" String="Dungbombe"/>
             <Ailment Id="AILMENT_TRANQUILIZE" String="Beruhigungsmittel"/>
-            <Ailment Id="AILMENT_KNOCKDOWN" String="Niederschlagen"/>   <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_KNOCKDOWN" String="Niedergeschlagen"/>
             <Ailment Id="AILMENT_SHOCKTRAP" String="Schockfalle"/>
             <Ailment Id="AILMENT_PITFALLTRAP" String="Fallgrube"/>
             <Ailment Id="AILMENT_VINETRAP" String="Rankenfalle"/>
@@ -37,9 +40,12 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Ailment Id="AILMENT_CLAW" String="Klammerklaue"/>
             <Ailment Id="AILMENT_CLAWFLINCH" String="Claw Flinch"/> <!-- Zu ergänzen/ausbessern -->
             <Ailment Id="AILMENT_BANISHINGBALL" String="Bannball"/>
-            <Ailment Id="STATUS_ENRAGE" String="Raserei"/>
+            <Ailment Id="STATUS_ENRAGE" String="Wütend"/>
             <Ailment Id="AILMENT_STEELFANG" String="Stahlfangzahn"/>    <!-- Zu ergänzen/ausbessern -->
-
+            <Ailment Id="AILMENT_CLASH" String="Clash" />    <!-- Zu ergänzen/ausbessern -->
+            <Ailment Id="AILMENT_OFFSET" String="Gegenstoß-Angriff" />
+            <Ailment Id="AILMENT_POWERCLASH" String="Machtkampf" />
+			
         </Rise>
     </Ailments>
     <Abnormalities>
@@ -156,7 +162,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_COUNTERSTRIKE" String="Gegenschlag"/>
         <Abnormality Id="ABNORMALITY_CHAIN_CRIT" String="Kritische-Kette"/>
         <Abnormality Id="ABNORMALITY_LATENTPOWER" String="Latente Kraft"/>
-        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsrutschen"/>    <!-- Zu ergänzen/ausbessern -->
+        <Abnormality Id="ABNORMALITY_AFFINITY_SLIDING" String="Affinitätsschlittern"/>
         <Abnormality Id="ABNORMALITY_PROTECTIVE_POLISH" String="Schutzpolitur"/>
         <Abnormality Id="ABNORMALITY_OFFENSIVE_GUARD" String="Offensive Guard"/>
         <Abnormality Id="ABNORMALITY_ELEMENT_ACCELERATION" String="Element Beschleunigung"/>
@@ -213,19 +219,53 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Abnormality Id="ABNORMALITY_ICE" String="Eispest"/>
         <Abnormality Id="ABNORMALITY_THUNDER" String="Donnerpest"/>
         <Abnormality Id="ABNORMALITY_DRAGON" String="Drachenpest"/>
-        <Abnormality Id="ABNORMALITY_BUBBLES" String="Blase (S)"/> <!--  Needs to be reviewed (Source: Official MHR:S Web manual) -->
-        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Blase (L)"/> <!-- Needs to be reviewed (Source: Official MHR:S Web manual) -->
+        <Abnormality Id="ABNORMALITY_BUBBLES" String="Leichte Blasenpest"/>
+        <Abnormality Id="ABNORMALITY_BUBBLES_PLUS" String="Schwere Blasenpest"/>
         <Abnormality Id="ABNORMALITY_BLEED" String="Blutungen"/>
         <Abnormality Id="ABNORMALITY_EFFLUVIA" String="Effluvia"/>  <!-- Zu ergänzen -->
-        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Die Raserei (Aufbauend)"/> <!-- Zu ergänzen/ausbessern -->
-        <Abnormality Id="ABNORMALITY_FRENZY" String="Die Raserei"/>
+        <Abnormality Id="ABNORMALITY_FRENZY_BUILDUP" String="Raserei (Aufbau)"/>
+        <Abnormality Id="ABNORMALITY_FRENZY" String="Raserei"/>
         <Abnormality Id="ABNORMALITY_WEBBED" String="Eingenetzt"/>
         <Abnormality Id="ABNORMALITY_LEECHED" String="Blutegel"/>
         <Abnormality Id="ABNORMALITY_HEAVEN_SENT" String="Wie gerufen"/>
 
+        <Abnormality Id="ABNORMALITY_FROZEN" String="Frostpest" />
+        <Abnormality Id="ABNORMALITY_FROZEN_BUILDUP" String="Frostpest (Aufbau)" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_EV_MOV" String="Echoblase Ausweichen &amp; BewegGeschw+" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_HEALTH_REGEN" String="Echoblase Gesundheitsregen." />
+        <Abnormality Id="ABNORMALITY_BUBBLE_STAM_REGEN" String="Echoblase Ausdauerregeneration" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_ATK_AFFINITY" String="Echoblase Angriff &amp; Affinität+" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_DEF_ELE_RES" String="Echoblase Vert. &amp; Elementabwehr+" />
+        <Abnormality Id="ABNORMALITY_BUBBLE_AILM_NEG" String="Echoblase Anomalien &amp; Pest negiert" />
+        <Abnormality Id="ABNORMALITY_JIN_DAHAAD_REVOLT" String="Jin-Dahaad's Aufstand" />
+        <Abnormality Id="ABNORMALITY_ELEMENTAL_ABSORTION" String="Elementare Absorption" />
+        <Abnormality Id="ABNORMALITY_CONVERT_ELEMENT" String="Elemente umwandeln" />
+        <Abnormality Id="ABNORMALITY_DOSHAGUMA_MIGHT" String="Doshaguma-Macht" />
+        <Abnormality Id="ABNORMALITY_XUWU_VIGOR" String="Xu Wus Nachdruck" />
+        <Abnormality Id="ABNORMALITY_BURST" String="Salve" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PROTECTION" String="Wächter-Schutz" />
+        <Abnormality Id="ABNORMALITY_BUTTERY_LEATHERCRAFT" String="Buttriges Lederhandwerk" />
+        <Abnormality Id="ABNORMALITY_UTH_DUNA_COVER" String="Uth Dunas Deckung" />
+        <Abnormality Id="ABNORMALITY_AMBUSH" String="Vorstoß" />
+        <Abnormality Id="ABNORMALITY_BLANGONGA_SPIRIT" String="Blangongas Geist" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER" String="Sporenhorn: Kraftlied" />
+        <Abnormality Id="ABNORMALITY_SPORENET_POWER_L" String="Sporenhorn: Kraftlied+" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION" String="Sporenhorn: Schutzlied" />
+        <Abnormality Id="ABNORMALITY_SPORENET_PURRTECTION_L" String="Sporenhorn: Schutzlied+" />
+        <Abnormality Id="ABNORMALITY_LEVIATHANS_FURY" String="Leviathans Wut" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_I" String="Schlachtruf I" />
+        <Abnormality Id="ABNORMALITY_WAR_CRY_II" String="Schlachtruf II" />
+        <Abnormality Id="ABNORMALITY_CRITICAL_DRAW" String="Kritischer Zug" />
+        <Abnormality Id="ABNORMALITY_POWER_STONE" String="Kraftstein" />
+        <Abnormality Id="ABNORMALITY_DARKSIDE" String="Dunkle Seite" />
+        <Abnormality Id="ABNORMALITY_GUARDIANS_PULSE" String="Wächterpuls" />
     </Abnormalities>
     <Monsters>
-
+        <Variants>
+            <Variant Id="TEMPERED" String="Gehärtet" />
+            <Variant Id="ARCH_TEMPERED" String="Kampf-Gehärtet" />
+            <Variant Id="FRENZIED" String="Rasend" />
+	</Variants>
         <Types>
             <Type Id="TYPE_AERIAL" String="Luftig"/>
             <Type Id="TYPE_FLYING_WYVERN" String="Flugwyvern"/>
@@ -240,6 +280,9 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Type Id="TYPE_TEMNOCERAN" String="Temnoceran"/>
             <Type Id="TYPE_PISCINE_WYVERN" String="Fischwyvern"/>
             <Type Id="TYPE_CARAPACEON" String="Carapaceon"/>
+            <Type Id="TYPE_CONSTRUCT" String="Konstrukt" />
+            <Type Id="TYPE_DEMI_ELDER" String="Semi-Ältester" />
+            <Type Id="TYPE_CEPHALOPOD" String="Cephalopode" />
         </Types>
         <Shared>
 
@@ -274,6 +317,7 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_BODY" String="Körper"/>
             <Part Id="PART_UPPER_BODY" String="Oberkörper"/>
             <Part Id="PART_REAR" String="Rücken"/>
+			<Part Id="PART_REAR_POWER_UNIT" String="Hintere Antriebseinheit" />
             <Part Id="PART_LOWER_BODY" String="Unterkörper"/>
             <Part Id="PART_UPPER_BACK" String="Oberer Rücken"/>
             <Part Id="PART_LOWER_BACK" String="Unterer Rücken"/>
@@ -288,9 +332,11 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_R_FORELEG" String="Rechtes Vorderbein"/>
             <Part Id="PART_L_H_LEG" String="Linkes Hinterbein"/>
             <Part Id="PART_R_H_LEG" String="Rechtes Hinterbein"/>
+			<Part Id="PART_L_H_FORELEG" String="Linkes Hinterbein" />
+            <Part Id="PART_R_H_FORELEG" String="Rechtes Hinterbein" />
             <Part Id="PART_ABDOMEN" String="Abdomen"/>
             <Part Id="PART_CHEST" String="Brust"/>
-            <Part Id="PART_TAIL_TIP" String="Schwanzsspitze"/>
+            <Part Id="PART_TAIL_TIP" String="Schwanzspitze"/>
             <Part Id="PART_MUD_BALL" String="Schlammball"/>
             <Part Id="PART_LOWER_TORSO" String="Unterer Torso"/>
             <Part Id="PART_TAIL_WINDSAC" String="Schwanz Windbeutel"/>
@@ -375,6 +421,159 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Part Id="PART_ANTLERS" String="Geweihe"/>
             <Part Id="PART_MANE" String="Mähne"/>
             <Part Id="PART_QURIO_THRESHOLD" String="Qurio Schwelle"/>
+            <Part Id="PART_BELLY" String="Bauch" />
+            <Part Id="PART_PETALS" String="Blütenblätter" />
+            <Part Id="PART_MANTLE" String="Mantel" />
+            <Part Id="PART_STINGER" String="Stachel" />
+            <Part Id="PART_R_WINGARM" String="Flügelarm (Links)" />
+            <Part Id="PART_L_WINGARM" String="Flügelarm (Rechts)" />
+            <Part Id="PART_NOSE" String="Nase" />
+            <Part Id="PART_TAIL_HAIR" String="Schwanzhaar" />
+            <Part Id="PART_TONGUE" String="Zunge" />
+            <Part Id="PART_R_HEAD_VEIL" String="Schleier: Kopf (Rechts)" />
+            <Part Id="PART_L_HEAD_VEIL" String="Schleier: Kopf (Links)" />
+            <Part Id="PART_R_TORSO_VEIL" String="Schleier: Torso (Rechts)" />
+            <Part Id="PART_L_TORSO_VEIL" String="Schleier: Torso (Links)" />
+            <Part Id="PART_R_FORELEG_VEIL" String="Schleier: Vorderbein (Rechts)" />
+            <Part Id="PART_L_FORELEG_VEIL" String="Schleier: Vorderbein (Links)" />
+            <Part Id="PART_R_TAIL_VEIL" String="Schleier: Schweif (Rechts)" />
+            <Part Id="PART_L_TAIL_VEIL" String="Schleier: Schweif (Links)" />
+            <Part Id="PART_M_TAIL_VEIL" String="Schleier: Schweif (Mitte)" />
+            <Part Id="PART_TENTACLE" String="Tentakel" />
+            <Part Id="PART_MEMBRANE" String="Membran" />
+            <Part Id="PART_L_F_ARM" String="Vorderarm (Links)" />
+            <Part Id="PART_R_F_ARM" String="Vorderarm (Rechts)" />
+            <Part Id="PART_M_L_ARM" String="Mittelarm (Links)" />
+            <Part Id="PART_M_R_ARM" String="Mittelarm (Rechts)" />
+            <Part Id="PART__L_ARM" String="Hinterarm (Links)" />
+            <Part Id="PART__R_ARM" String="Hinterarm (Rechts)" />
+            <Part Id="PART_MOUTH" String="Mund" />
+            <Part Id="PART_L_CHAINBLADE" String="Kettenklinge (Links)" />
+            <Part Id="PART_R_CHAINBLADE" String="Kettenklinge (Rechts )" />
+            <Part Id="PART_ABDOMINAL_ICEPLATE" String="Bauch-Eisplatte" />
+            <Part Id="PART_LG_ICEPLATE_HIDDEN" String="Rückenplatte" />
+            <Part Id="PART_LG_ICEPLATE_EXPOSED" String="Rückenplatte (freigel.)" />
+            <Part Id="PART_HEAD_CRYSTALIZED" String="Kopf (Kristall)" />
+            <Part Id="PART_L_WINGARM_CRYSTALIZED" String="Flügelarm (L, Kristall)" />
+            <Part Id="PART_R_WINGARM_CRYSTALIZED" String="Flügelarm (R, Kristall)" />
+            <Part Id="PART_SUPERHEAT" String="Superhitze" />
+            <Part Id="PART_CEILING_FALL" String="Deckensturz" />
+            <Part Id="PART_SACK_COLLAPSE" String="Gasbeutel Zusammenbruch" />
+            <Part Id="PART_HEAD_SACK" String="Gasbeutel (Kopf)" />
+            <Part Id="PART_BACK_SACK" String="Gasbeutel (Rücken)" />
+            <Part Id="PART_TAIL_SACK" String="Gasbeutel (Schwanz)" />
+            <Part Id="PART_FIRE_STATE" String="Hitzestatus" />
+            <Part Id="PART_L_F_ARM_FIRE" String="Vorderarm (L, Feuer)" />
+            <Part Id="PART_R_F_ARM_FIRE" String="Vorderarm (R, Feuer)" />
+            <Part Id="PART_M_L_ARM_FIRE" String="Mittelarm (L, Feuer)" />
+            <Part Id="PART_M_R_ARM_FIRE" String="Mittelarm (R, Feuer)" />
+            <Part Id="PART__L_ARM_FIRE" String="Hinterarm (L, Feuer)" />
+            <Part Id="PART__R_ARM_FIRE" String="Hinterarm (R, Feuer)" />
+            <Part Id="PART_L_F_ARM_OIL" String="Vorderarm (L, Öl)" />
+            <Part Id="PART_R_F_ARM_OIL" String="Vorderarm (R, Öl)" />
+            <Part Id="PART_M_L_ARM_OIL" String="Mittelarm (L, Öl)" />
+            <Part Id="PART_M_R_ARM_OIL" String="Mittelarm (R, Öl)" />
+            <Part Id="PART__L_ARM_OIL" String="Hinterarm (L, Öl)" />
+            <Part Id="PART__R_ARM_OIL" String="Hinterarm (R, Öl)" />
+            <Part Id="PART_L_FORELEG_REINFORCED" String="Vorderbein (L, Verstärkt)" />
+            <Part Id="PART_R_FORELEG_REINFORCED" String="Vorderbein (R, Verstärkt)" />
+            <Part Id="PART_CRASH" String="Absturz" />
+            <Part Id="PART_AIR_FLINCH" String="Luft Flinch" />
+            <Part Id="PART_VEIL" String="Schleier" />
+            <Part Id="PART_FEIGN_DEATH" String="Totstellen Schwelle" />
+            <Part Id="PART_L_WINGARM_EXPOSED" String="Flügelarm (L, freigelegt)" />
+            <Part Id="PART_R_WINGARM_EXPOSED" String="Flügelarm (R, freigelegt)" />
+            <Part Id="PART_TAIL_CUT" String="Schwanz (Abtrennen)" />
+			<Part Id="PART_L_F_ARM_CUT" String="Vorderarm (L, Abtrennen)" />
+			<Part Id="PART_R_F_ARM_CUT" String="Vorderarm (R, Abtrennen)" />
+            <Part Id="PART_M_L_ARM_CUT" String="Mittelarm (L, Abtrennen)" />
+            <Part Id="PART_M_R_ARM_CUT" String="Mittelarm (R, Abtrennen)" />
+            <Part Id="PART__L_ARM_CUT" String="Hinterarm (L, Abtrennen)" />
+            <Part Id="PART__R_ARM_CUT" String="Hinterarm (R, Abtrennen)" />
+            <Part Id="PART_EAT_FLINCH" String="Essens-Flinch" />
+            <Part Id="PART_WRAP_FLINCH" String="Säulen-Flinch" />
+            <Part Id="PART_BEAM_FLINCH" String="Wasserstrahl-Flinch" />
+            <Part Id="PART_AIR_FLINCH_MELEE_WEAPON" String="Schnitt/Stumpf Flinch" />
+            <Part Id="PART_AIR_FLINCH_RANGE_WEAPON" String="Schuss Flinch" />
+            <Part Id="PART_L_CHAINBLADE_SPLITTED" String="Kettenklinge (L, aufgeteilt) " />
+            <Part Id="PART_R_CHAINBLADE_SPLITTED" String="Kettenklinge (R, aufgeteilt)" />
+            <Part Id="PART_TAIL_BREAK" String="Schwanz (Brechen)" />
+            <Part Id="PART_HEAD_BREAK1" String="Kopf (Brechen, Nr.1)" />
+            <Part Id="PART_HEAD_BREAK2" String="Kopf (Brechen, Nr.2)" />
+            <Part Id="PART_FANG_BREAK1" String="Reißzahn (Brechen, Nr.1)" />
+            <Part Id="PART_FANG_BREAK2" String="Reißzahn (Brechen, Nr.2)" />
+            <Part Id="PART_TAIL_BREAK1" String="Schwanz (Brechen, Nr.1)" />
+            <Part Id="PART_TAIL_BREAK2" String="Schwanz (Brechen, Nr.2)" />
+            <Part Id="PART_TAIL_BREAK3" String="Schwanz (Brechen, Nr.3)" />
+            <Part Id="PART_TAIL_BREAK4" String="Schwanz (Brechen, Nr.4)" />
+            <Part Id="PART_TAIL_BREAK5" String="Schwanz (Brechen, Nr.5)" />
+            <Part Id="PART_STINGER_BREAK1" String="Stachel (Brechen, Nr.1)" />
+            <Part Id="PART_STINGER_BREAK2" String="Stachel (Brechen, Nr.2)" />
+            <Part Id="PART_MANTLE_BREAK" String="Mantel (Brechen)" />
+            <Part Id="PART_BELLY_BREAK1" String="Bauch (Brechen, Nr.1)" />
+            <Part Id="PART_BELLY_BREAK2" String="Bauch (Brechen, Nr.2)" />
+            <Part Id="PART_FORELEGS_BREAK" String="Vorderbeine (Brechen)" />
+            <Part Id="PART_H_LEGS_BREAK" String="Hinterbeine (Brechen)" />
+            <Part Id="PART_L_F_ARM_BREAK" String="Vorderarm (L, Brechen)" />
+            <Part Id="PART_R_F_ARM_BREAK" String="Vorderarm (R, Brechen)" />
+            <Part Id="PART_MOUTH_BREAK" String="Mund (Brechen)" />
+            <Part Id="PART_L_WING_BREAK" String="Linker Flügel (Brechen)" />
+            <Part Id="PART_R_WING_BREAK" String="Rechter Flügel (Brechen)" />
+            <Part Id="PART_HEAD_CRYSTAL_BREAK" String="Kopf (Kristall, Brechen)" />
+            <Part Id="PART_HEAD_EXPOSED" String="Kopf (freigelegt)" />
+            <Part Id="PART_L_WINGARM_CRYSTAL_BREAK" String="Flügelarm (L, Kristall, Brechen)" />
+            <Part Id="PART_R_WINGARM_CRYSTAL_BREAK" String="Flügelarm (R, Kristall, Brechen)" />
+            <Part Id="PART_L_FORELEG_BREAK" String="Vorderbein (L, Brechen)" />
+            <Part Id="PART_R_FORELEG_BREAK" String="Vorderbein (R, Brechen)" />
+            <Part Id="PART_SUPERCHARGE" String="Superladung Schwelle" />
+            <Part Id="PART_FRENZY_THRESHOLD" String="Raserei Schwelle" />				  
+            <Part Id="PART_GOG_NECK" String="Gogma-Teil Hals" />
+            <Part Id="PART_GOG_L_WINGARM" String="Gogma-Teil Flügel (L)" />
+            <Part Id="PART_GOG_R_WINGARM" String="Gogma-Teil Flügel (R)" />
+            <Part Id="PART_GOG_TAIL_TIP" String="Gogma-Teil Schwanzspitze" />
+            <Part Id="PART_GOG_TAIL" String="Gogma-Teil Schwanz" />
+            <Part Id="PART_GOG_BACK" String="Gogma-Teil Rücken" />
+			<Part Id="PART_BACK_CANNON" String="Rücken (Ältestenbrecher)" />
+            <Part Id="PART_L_WINGARM_FLINCH_PHASE1" String="Flügelarm (L) Ph1 Flinch" />
+            <Part Id="PART_R_WINGARM_FLINCH_PHASE1" String="Flügelarm (R) Ph1 Flinch" />
+            <Part Id="PART_L_WINGARM_FLINCH_PHASE2" String="Flügelarm (L) Ph2 Flinch" />
+            <Part Id="PART_R_WINGARM_FLINCH_PHASE2" String="Flügelarm (R) Ph2 Flinch" />
+            <Part Id="PART_L_WINGARM_FLINCH_PHASE3" String="Flügelarm (L) Ph3 Flinch" />
+            <Part Id="PART_R_WINGARM_FLINCH_PHASE3" String="Flügelarm (R) Ph3 Flinch" />
+            <Part Id="PART_SACK_COLLAPSE_LR" String="NR Gasbeutel (Kollaps)" />
+            <Part Id="PART_HEAD_SACK_LR" String="NR Gasbeutel (Kopf)" />
+            <Part Id="PART_BACK_SACK_LR" String="NR Gasbeutel (Rücken)" />
+            <Part Id="PART_TAIL_SACK_LR" String="NR Gasbeutel (Schwanz)" />
+            <Part Id="PART_SACK_COLLAPSE_HR" String="HR Gasbeutel (Kollaps)" />
+            <Part Id="PART_HEAD_SACK_HR" String="HR Gasbeutel (Kopf)" />
+            <Part Id="PART_BACK_SACK_HR" String="HR Gasbeutel (Rücken)" />
+            <Part Id="PART_TAIL_SACK_HR" String="HR Gasbeutel (Schwanz)" />
+            <Part Id="PART_SACK_COLLAPSE_THR" String="G-HR Gasbeutel (Kollaps)" />
+    	    <Part Id="PART_HEAD_SACK_THR" String="G-HR Gasbeutel (Kopf)" />
+            <Part Id="PART_BACK_SACK_THR" String="G-HR Gasbeutel (Rücken)" />
+            <Part Id="PART_TAIL_SACK_THR" String="G-HR Gasbeutel (Schwanz)" />
+            <Part Id="PART_L_FORELEG_RF_LR_CRYSTAL" String="NR Vorderbein (L,Kristall)" />
+            <Part Id="PART_R_FORELEG_RF_LR_CRYSTAL" String="NR Vorderbein (R,Kristall)" />
+            <Part Id="PART_L_FORELEG_RF_LR_STONE" String="NR Vorderbein (L,Stein)" />
+            <Part Id="PART_R_FORELEG_RF_LR_STONE" String="NR Vorderbein (R,Stein)" />
+            <Part Id="PART_L_FORELEG_RF_LR_SAND" String="NR Vorderbein (L,Sand)" />
+            <Part Id="PART_R_FORELEG_RF_LR_SAND" String="NR Vorderbein (R,Sand)" />
+            <Part Id="PART_L_FORELEG_RF_HR_CRYSTAL" String="HR Vorderbein (L,Kristall)" />
+            <Part Id="PART_R_FORELEG_RF_HR_CRYSTAL" String="HR Vorderbein (R,Kristall)" />
+            <Part Id="PART_L_FORELEG_RF_HR_STONE" String="HR Vorderbein (L,Stein)" />
+            <Part Id="PART_R_FORELEG_RF_HR_STONE" String="HR Vorderbein (R,Stein)" />
+            <Part Id="PART_L_FORELEG_RF_HR_SAND" String="HR Vorderbein (L,Sand)" />
+            <Part Id="PART_R_FORELEG_RF_HR_SAND" String="HR Vorderbein (R,Sand)" />
+            <Part Id="PART_SUPERHEAT_LR" String="NR Superhitze Schwelle" />
+            <Part Id="PART_SUPERHEAT_HR" String="HR Superhitze Schwelle" />
+			<Part Id="PART_SUPERHEAT_GHR" String="G-HR Superhitze Schwelle" />
+            <Part Id="PART_FRENZY_HR" String="HR Raserei Schwelle" />
+            <Part Id="PART_FRENZY_THR" String="G-HR Raserei Schwelle" />
+            <Part Id="PART_AT_ZONE_CHANGE" String="Zonenwechsel (Kampfgeh.)" />
+            <Part Id="PART_WATERFIGHT_LR" String="Unterwasser (NR)" />
+            <Part Id="PART_WATERFIGHT_HR" String="Unterwasser (HR)" />
+            <Part Id="PART_WATER_MOUNT_FLINCH" String="Unterwasser Reit-Flinch" />
+            <Part Id="PART_WATER_SHOT_FLINCH" String="Unterwasser Schuss-Flinch" />
 
         </Shared>
         <Rise>
@@ -597,6 +796,8 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
                      String="Zoh Shia" />
             <Monster Id="33"
                      String="Miau-Drauf" />
+            <Monster Id="34"
+                     String="Omega Planetes" />
         </Wilds>
     </Monsters>
     <Stages>
@@ -668,6 +869,24 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
             <Stage Id="506" String="Seliana Raum"/>
 
         </World>
+		<Wilds>
+            <Stage Id="0" String="Windebene" />
+            <Stage Id="1" String="Karminwald" />
+            <Stage Id="2" String="Ölquellbecken" />
+            <Stage Id="3" String="Eissplitterklippen" />
+            <Stage Id="4" String="Ruinen von Wyveria" />
+            <Stage Id="5" String="Uferpfad" />
+            <Stage Id="6" String="Unterirdischer Pfad zum Becken" />
+            <Stage Id="7" String="Seitenpfad der Wächter" />
+            <Stage Id="8" String="Hütersteig" />
+            <Stage Id="9" String="Klauenriss" />
+            <Stage Id="10" String="Frostspitze" />
+            <Stage Id="11" String="Drachenfackel-Schrein" />
+            <Stage Id="12" String="Suja" />
+            <Stage Id="13" String="Vergessenes Werk" />
+            <Stage Id="14" String="Große Stätte" />
+            <Stage Id="15" String="Trainingsbereich" />
+		</Wilds>
     </Stages>
     <Fertilizers>
         <Fertilizer Id="FERTILIZER_NONE_STRING" String="Leer" />
@@ -680,6 +899,90 @@ Notiz an weitere Kollegen:      Bitte die Struktur beibehalten wie vorgefunden, 
         <Fertilizer Id="FERTILIZER_GROWTH_S_STRING" String="Growth Up (S)"/>
         <Fertilizer Id="FERTILIZER_GROWTH_L_STRING" String="Growth Up (L)"/>
     </Fertilizers>
+    <Activities>
+        <Wilds>
+            <MaterialRetrieval>
+                <Collector Id="RYSHER"
+                           String="Rysher" />
+                <Collector Id="MURTABAK"
+                           String="Murtabak" />
+                <Collector Id="APAR"
+                           String="Apar" />
+                <Collector Id="PLUMPEACH"
+                           String="Pflirsich" />
+                <Collector Id="SABAR"
+                           String="Sabar" />
+            </MaterialRetrieval>
+        </Wilds>
+    </Activities>
+    <Npcs>
+        <Wilds>
+            <Npc Id="29"
+                 String="Nachtnebel" />
+            <Npc Id="27"
+                 String="Alessa" />
+            <Npc Id="25"
+                 String="Mina" />
+            <Npc Id="17"
+                 String="Kai" />
+            <Npc Id="15"
+                 String="Griffin" />
+            <Npc Id="12"
+                 String="Nadia" />
+            <Npc Id="9"
+                 String="Olivia" />
+            <Npc Id="6"
+                 String="Rosso" />
+            <Npc Id="4"
+                 String="Fabius" />
+        </Wilds>
+    </Npcs>
+    <SpecializedTools>
+        <Tool Id="GHILLIE_MANTLE"
+              String="Ghillie-Mantel" />
+        <Tool Id="TEMPORAL_MANTLE"
+              String="Lebensretter-Mantel" />
+        <Tool Id="HEALTH_BOOSTER"
+              String="Gesundheits-Booster" />
+        <Tool Id="ROCKSTEADY_MANTLE"
+              String="Trutzmantel" />
+        <Tool Id="CHALLENGER_MANTLE"
+              String="Herausforderer-Mantel" />
+        <Tool Id="VITALITY_MANTLE"
+              String="Vitalitäts-Mantel" />
+        <Tool Id="FIREPROOF_MANTLE"
+              String="Feuerschutz-Mantel" />
+        <Tool Id="WATERPROOF_MANTLE"
+              String="Wasserschutz-Mantel" />
+        <Tool Id="ICEPROOF_MANTLE"
+              String="Eisschutz-Mantel" />
+        <Tool Id="THUNDERPROOF_MANTLE"
+              String="Donnerschutz-Mantel" />
+        <Tool Id="DRAGONPROOF_MANTLE"
+              String="Drachenschutz-Mantel" />
+        <Tool Id="CLEANSER_BOOSTER"
+              String="Reiniger-Booster" />
+        <Tool Id="GLIDER_MANTLE"
+              String="Gleiter-Mantel" />
+        <Tool Id="EVASION_MANTLE"
+              String="Ausweich-Mantel" />
+        <Tool Id="IMPACT_MANTLE"
+              String="Aufschlag-Mantel" />
+        <Tool Id="APOTHECARY_MANTLE"
+              String="Apotheker-Mantel" />
+        <Tool Id="IMMUNITY_MANTLE"
+              String="Immunitäts-Mantel" />
+        <Tool Id="AFFINITY_BOOSTER"
+              String="Affinitäts-Booster" />
+        <Tool Id="BANDIT_MANTLE"
+              String="Banditen-Mantel" />
+        <Tool Id="ASSASSINS_HOOD"
+              String="Assassinenkaputze" />
+        <Tool Id="MENDING_MANTLE"
+              String="Heilmantel" />
+        <Tool Id="CORRUPTED_MANTLE"
+              String="Verdorbener Mantel" />
+    </SpecializedTools>	
     <Client>
     <Main>
             <!-- Hunt Export -->
