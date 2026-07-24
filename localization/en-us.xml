@@ -3887,8 +3887,8 @@
                  String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
-            <Tab Id="THEMES_STRING"
-                 String="Themes" />
+            <Tab Id="EXTENSIONS_STRING"
+                 String="Extensions" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3931,6 +3931,8 @@
                      String="Install" />
             <Generic Id="NO_THEMES_FOUND_STRING"
                      String="You have no themes installed. &#xA;Install a new one or create your own!" />
+            <Generic Id="OPEN_FOLDER"
+                     String="Open Folder" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
