@@ -3891,6 +3891,8 @@
                  String="Extensions" />
             <Tab Id="LINKS_STRING"
                  String="Links" />
+            <Tab Id="THEMES_STRING"
+                 String="Themes" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
