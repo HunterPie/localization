@@ -3889,6 +3889,8 @@
                  String="Github" />
             <Tab Id="THEMES_STRING"
                  String="테마" />
+            <Tab Id="LINKS_STRING"
+                 String="링크" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
@@ -3931,6 +3933,8 @@
                      String="설치" />
             <Generic Id="NO_THEMES_FOUND_STRING"
                      String="설치된 테마가 없습니다. &#xA;새로운 테마를 설치하거나 자신만의 테마를 만들어 보세요!" />
+            <Generic Id="OPEN_FOLDER"
+                     String="폴더 열기" />
         </Generics>
         <Dialogs>
             <!-- Do not edit the text inside {} -->
