@@ -3887,10 +3887,12 @@
                  String="Patreon" />
             <Tab Id="GITHUB_STRING"
                  String="Github" />
-            <Tab Id="THEMES_STRING"
-                 String="테마" />
+            <Tab Id="EXTENSIONS_STRING"
+                 String="확장 도구" />
             <Tab Id="LINKS_STRING"
                  String="링크" />
+            <Tab Id="THEMES_STRING"
+                 String="테마" />
         </Tabs>
         <Generics>
             <Generic Id="HUNTERPIE_LAUNCH_GAME"
