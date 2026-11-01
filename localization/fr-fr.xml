@@ -4439,6 +4439,9 @@
             <Setting Id="IS_MOON_PHASES_ENABLED"
                      String="Activer les phases lunaires"
                      Description="Si activé, HunterPie affichera le widget des phases lunaires." />
+            <Setting Id="WORLD_TIME_24H_FORMAT"
+                     String="Activer le format 24 heures"
+                     Description="Si cette option est activée, HunterPie affichera l'heure au format 24 heures." />
             <Setting Id="DEV_OVERLAY_MANAGER_DEBUGGER_ENABLED"
                      String="Développeur : Activer le débogage du gestionnaire d’overlay"
                      Description="NE PAS ACTIVER SI VOUS NE SAVEZ PAS CE QUE VOUS FAITES." />
